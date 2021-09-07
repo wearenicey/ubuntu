@@ -28,12 +28,12 @@
               uppercase
             "
           >
-            {{ $page.tag.title }}
+            {{ $page.category.title }}
           </h1>
-          <div v-for="tag in ishrana">
-            <div v-if="$page.tag.title == tag.tags">
+          <div>
+            <div>
               <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-                {{ tag.desc }}
+                {{ $page.category.desc }}
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@
           class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"
         >
           <div
-            v-for="post in $page.tag.belongsTo.edges"
+            v-for="post in $page.category.belongsTo.edges"
             :key="post.node.id"
             class="flex flex-col rounded-lg shadow-lg overflow-hidden"
           >
@@ -98,11 +98,9 @@
         </div>
       </div>
     </div>
-    <div>
-      <AllTags></AllTags>
-    </div>
+    <div></div>
     <div v-for="tag in ishrana">
-      <div v-if="$page.tag.title == tag.tags">
+      <div v-if="$page.category.title == tag.tags">
         <div v-for="(element, index) in tag.kategorije">
           <a :href="element.path">{{ element.name }}</a>
         </div>
@@ -112,14 +110,13 @@
 </template>
 
 <page-query>
-query
- Category ($id: ID!, $page: Int) {
-	
+query($id: ID!) {
 
-  tag: category (id: $id) {
-	
+  category(id: $id) {
+		id
     title
-    belongsTo (page: $page, perPage: 30) @paginate {
+		desc
+    belongsTo  {
       totalCount
       pageInfo {
         totalPages
@@ -147,18 +144,11 @@ query
   }
 
 
-	test:  allTag  {
-    edges {
-      node {
-        id
-        title
-        path
-      }
-    }
+	
     
   }
 	
-}
+
 
 
 </page-query>
@@ -168,7 +158,6 @@ query
 const ishrana = [
   {
     tags: "zdravlje",
-    desc: "Danas je lijep i suncan dan",
     kategorije: [
       { name: "Kardiovaskularini", path: "/" },
       { name: "Rak", path: "/" },
@@ -183,7 +172,6 @@ const ishrana = [
   },
   {
     tags: "ishrana",
-    desc: "Danas je lijep i suncan dan",
     kategorije: [
       { name: "Trendovi u ishrani", path: "/" },
       { name: "Super hrana", path: "/" },
@@ -194,7 +182,6 @@ const ishrana = [
 
   {
     tags: "mentalno zdravlje",
-    desc: "Danas je lijep i suncan dan",
     kategorije: [
       { name: "Lični razvoj", path: "/" },
       { name: "Duhovnost", path: "/" },
@@ -204,7 +191,7 @@ const ishrana = [
       { name: "Coaching", path: "/" },
     ],
   },
-  
+
   {
     tags: "roditeljstvo",
     desc: "Danas je lijep i suncan dan",

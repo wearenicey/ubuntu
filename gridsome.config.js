@@ -21,7 +21,19 @@ module.exports = {
 			use: '@gridsome/source-filesystem',
 			options: {
 				typeName: 'Author',
-				path: './content/author/*.md'
+				path: './content/author/*.md',
+				refs: {
+					posts: {
+						typeName: 'Post',
+					},
+				},
+			}
+		},
+		{
+			use: '@gridsome/source-filesystem',
+			options: {
+				typeName: 'Category',
+				path: './content/category/*.md'
 			}
 		},
 
@@ -50,8 +62,14 @@ module.exports = {
 	],
 	templates: {
 		Post: '/blog/:path',
-		Tag: '/kategorija/:id',
-		Category: '/:id'
+		Tag: '/kategorija/:slug',
+
+		Category: [
+			{
+				path: '/:title',
+				componenent: '~/templates/Category.vue',
+			},
+		],
 
 
 

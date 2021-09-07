@@ -30,13 +30,13 @@
           >
             {{ $page.tag.title }}
           </h1>
-					<div v-for="tag in ishrana">
-      <div v-if="$page.tag.title == tag.tags" >
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            {{tag.desc}}
-          </p>
-			</div>
-					</div>
+          <div v-for="tag in ishrana">
+            <div v-if="$page.tag.title == tag.tags">
+              <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+                {{ tag.desc }}
+              </p>
+            </div>
+          </div>
         </div>
         <div
           class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"
@@ -97,7 +97,7 @@
       <AllTags></AllTags>
     </div>
     <div v-for="tag in ishrana">
-      <div v-if="$page.tag.title == tag.tags" >
+      <div v-if="$page.tag.title == tag.tags">
         <div v-for="(element, index) in tag.kategorije">
           <a :href="element.path">{{ element.name }}</a>
         </div>
@@ -114,6 +114,7 @@ query
   tag: tag (id: $id) {
 	
     title
+		id
     belongsTo (page: $page, perPage: 30) @paginate {
       totalCount
       pageInfo {
@@ -165,11 +166,11 @@ const ishrana = [
   },
   {
     tags: "super hrana",
-		desc: "Danas je lijep i suncan dan",
+    desc: "Danas je lijep i suncan dan",
     kategorije: [
       { name: "Zdrava hrana", path: "/kategorija/zdrava%20hrana" },
-			{ name: "Trendovi u ishrani", path: "/"},
-			{ name: "Recepti", path: "/"}
+      { name: "Trendovi u ishrani", path: "/" },
+      { name: "Recepti", path: "/" },
     ],
   },
 ];
