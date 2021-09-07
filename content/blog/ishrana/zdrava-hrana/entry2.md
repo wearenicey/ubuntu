@@ -1,7 +1,8 @@
 ---
 title: Lorem Lorem
 category: ishrana
-tags: zdrava hrana
+tags: 
+ - zdrava hrana
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-13
 image: slika-2.jpg

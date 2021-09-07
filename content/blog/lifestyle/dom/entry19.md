@@ -1,7 +1,8 @@
 ---
 title: Savrsen dom za vas
 category: mentalno-zdravlje
-tags: dom
+tags: 
+ - dom
 slug: dom
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10

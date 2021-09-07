@@ -1,8 +1,9 @@
 ---
-title: Super ishrana
+title: Kako dijeta utice vegetarijanac
 category: ishrana
 tags: 
- - super hrana
+  - trendovi u ishrani
+  - vegetarijanac
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
 image: slika-2.jpg
@@ -12,7 +13,9 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: true
-path: kako-keto-dijeta-utice
+path: kako-se-hraniti-kao-vegetarijanc
+tag: vegetarijanac
+
 ---
 
 # Viro mihi egit colantur devorat aethera

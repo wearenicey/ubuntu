@@ -55,9 +55,22 @@ module.exports = {
 						create: true
 					}
 				}
-			}
-		},
+			},
 
+		},
+		{
+			use: "gridsome-plugin-recommender",
+			options: {
+				enabled: true,
+				debug: true,
+				typeName: 'Post',
+				field: 'tag',
+				relatedFieldName: 'related',
+				minScore: 0.1,
+				maxRelations: 3,
+
+			}
+		}
 
 	],
 	templates: {

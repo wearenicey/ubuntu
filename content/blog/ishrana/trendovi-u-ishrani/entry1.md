@@ -1,7 +1,9 @@
 ---
-title: Kako keto dijeta utiče na dijabetes
+title: Kako  keto dijeta utiče na dijabetes
 category: ishrana
-tags: trendovi u ishrani
+tags: 
+ - trendovi u ishrani
+ - vegetarijanac
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
 image: slika-2.jpg
@@ -12,6 +14,8 @@ image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: true
 path: kako-keto-dijeta-utice-na-dijabetes
+tag: vegetarijanac
+
 ---
 
 # Viro mihi egit colantur devorat aethera

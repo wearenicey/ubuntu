@@ -1,5 +1,5 @@
 ---
-title: Super ishrana
+title: Super snazna ishrana
 category: ishrana
 tags: 
  - super hrana
@@ -12,7 +12,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: true
-path: kako-keto-dijeta-utice
+path: super-snazna-ishrana
 ---
 
 # Viro mihi egit colantur devorat aethera

@@ -138,15 +138,37 @@
             >
           </h1>
         </div>
-        <div class="mt-6  container">
-          <div class="prose mx-auto max-w-6xl text-justify" v-html="$page.post.content"></div>
+        <div class="mt-6 container">
+          <div
+            class="prose mx-auto max-w-6xl text-justify"
+            v-html="$page.post.content"
+          ></div>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="max-w-6xl prose mx-auto">
+        <div
+          id="related-posts"
+        
+          v-if="$page.post.related.length > 0"
+        >
+          <posts-widget :posts="$page.post.related" />
+        </div>
+        <span v-else style="color: red">This post has no similar posts</span>
       </div>
     </div>
   </Layout>
 </template>
 
-
+<script>
+import PostsWidget from "../components/PostsWidget";
+export default {
+  components: {
+    PostsWidget,
+  },
+};
+</script>
 <page-query>
   query Post ($path: String!) {
   post: post (path: $path) {
@@ -170,12 +192,27 @@
         title
       }
      
-     
+			related{
+					    title
+            path
+            excerpt
+            image
+            tags {
+              title
+							path
+            }
+						timeToRead
+          featured
+          humanTime: created(format: "DD MMM YYYY")
+          datetime: created
+}
     }
 
    
 
     
   }
+
+	
 </page-query>
 

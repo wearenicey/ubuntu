@@ -55,6 +55,21 @@
             </div>
             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
               <div class="flex-1">
+                <div class="flex space-x-4 ">
+                  <span v-for="(tag, index) in post.node.tags" :key="tag.id">
+                    <div class="">
+											<a :href="tag.path">
+												 <p class="text-sm font-medium text-indigo-600">
+                        {{ tag.title }}
+                      
+                      </p>
+											</a>
+                     
+                    </div>
+
+                    <!-- We will add a comma separator for the tags -->
+                  </span>
+                </div>
                 <p class="text-sm font-medium text-indigo-600">
                   <a :href="post.node.tags.path" class="hover:underline">
                     {{ post.node.tags.title }}
@@ -221,3 +236,5 @@ export default {
   },
 };
 </script>
+<style>
+</style>
