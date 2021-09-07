@@ -30,13 +30,13 @@
           >
             {{ $page.tag.title }}
           </h1>
-					<div v-for="tag in ishrana">
-      <div v-if="$page.tag.title == tag.tags" >
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            {{tag.desc}}
-          </p>
-			</div>
-					</div>
+          <div v-for="tag in ishrana">
+            <div v-if="$page.tag.title == tag.tags">
+              <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+                {{ tag.desc }}
+              </p>
+            </div>
+          </div>
         </div>
         <div
           class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"
@@ -55,11 +55,11 @@
             </div>
             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
               <div class="flex-1">
-								  <p class="text-sm font-medium text-indigo-600">
-              <a :href="post.node.tags.path" class="hover:underline">
-                {{ post.node.tags.title }}
-              </a>
-            </p>
+                <p class="text-sm font-medium text-indigo-600">
+                  <a :href="post.node.tags.path" class="hover:underline">
+                    {{ post.node.tags.title }}
+                  </a>
+                </p>
                 <p class="text-sm font-medium text-indigo-600">
                   <a :href="post.node.path" class="hover:underline"> </a>
                 </p>
@@ -102,7 +102,7 @@
       <AllTags></AllTags>
     </div>
     <div v-for="tag in ishrana">
-      <div v-if="$page.tag.title == tag.tags" >
+      <div v-if="$page.tag.title == tag.tags">
         <div v-for="(element, index) in tag.kategorije">
           <a :href="element.path">{{ element.name }}</a>
         </div>
@@ -168,15 +168,52 @@ query
 const ishrana = [
   {
     tags: "zdravlje",
+    desc: "Danas je lijep i suncan dan",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/" },
+      { name: "Rak", path: "/" },
+      { name: "Dijabetes", path: "/" },
+      { name: "Osteoporoza", path: "/" },
+      { name: "Gastrodigestivni trakt", path: "/" },
+      { name: "Zdravlje žena", path: "/" },
+      { name: "Ishrana po bolestima", path: "/" },
+      { name: "Detoks", path: "/" },
+      { name: "Suplementi", path: "/" },
+    ],
   },
   {
     tags: "ishrana",
-		desc: "Danas je lijep i suncan dan",
+    desc: "Danas je lijep i suncan dan",
     kategorije: [
       { name: "Trendovi u ishrani", path: "/" },
-      { name: "Super hrana", path: "/kategorija/super%20hrana" },
-			{ name: "Zdrava hrana", path: "/kategorija/zdrava%20hrana"},
-			{ name: "Recepti", path: "/"}
+      { name: "Super hrana", path: "/" },
+      { name: "Zdrava hrana", path: "/" },
+      { name: "Recepti", path: "/" },
+    ],
+  },
+
+  {
+    tags: "mentalno zdravlje",
+    desc: "Danas je lijep i suncan dan",
+    kategorije: [
+      { name: "Lični razvoj", path: "/" },
+      { name: "Duhovnost", path: "/" },
+      { name: "Intimni odnosi", path: "/" },
+      { name: "Ljubav", path: "/" },
+      { name: "Prijateljstvo", path: "/" },
+      { name: "Coaching", path: "/" },
+    ],
+  },
+  
+  {
+    tags: "roditeljstvo",
+    desc: "Danas je lijep i suncan dan",
+    kategorije: [
+      { name: "Trudnoća", path: "/" },
+      { name: "Materinstvo", path: "/" },
+      { name: "Beba", path: "/" },
+      { name: "Mlađa deca", path: "/" },
+      { name: "Tinejdžeri", path: "/" },
     ],
   },
 ];

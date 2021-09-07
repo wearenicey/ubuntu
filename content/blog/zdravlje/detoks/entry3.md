@@ -1,7 +1,7 @@
 ---
 title: Test test
-tags: zdravlje
-category: Digital
+category: zdravlje
+tags: Detoks
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
 image: slika-3.jpg

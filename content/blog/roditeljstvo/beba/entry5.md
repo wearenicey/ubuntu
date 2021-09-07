@@ -1,7 +1,7 @@
 ---
 title: Kako ide
-tags: zdravlje
-category: Digital
+category: roditeljstvo
+tags: beba
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
 image: slika-3.jpg
