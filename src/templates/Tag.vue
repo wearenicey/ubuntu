@@ -161,18 +161,713 @@ query
 
 <script>
 const ishrana = [
+  // Ishrana podkategorije
   {
-    tags: "zdravlje",
+    tags: "zdrava hrana",
+    desc: "zdrava hrana",
+    kategorije: [
+      { name: "Trendovi u ishrani", path: "/kategorija/trendovi-u-ishrani" },
+      { name: "Super hrana", path: "/kategorija/super-hrana" },
+      { name: "Zdrava hrana", path: "/kategorija/zdrava-hrana" },
+      { name: "Recepti", path: "/kategorija/recepti" },
+    ],
   },
   {
     tags: "super hrana",
-    desc: "Danas je lijep i suncan dan",
+    desc: "super hrana",
     kategorije: [
-      { name: "Zdrava hrana", path: "/kategorija/zdrava%20hrana" },
-      { name: "Trendovi u ishrani", path: "/" },
-      { name: "Recepti", path: "/" },
+      { name: "Trendovi u ishrani", path: "/kategorija/trendovi-u-ishrani" },
+      { name: "Super hrana", path: "/kategorija/super-hrana" },
+      { name: "Zdrava hrana", path: "/kategorija/zdrava-hrana" },
+      { name: "Recepti", path: "/kategorija/recepti" },
     ],
   },
+  {
+    tags: "trendovi u ishrani",
+    desc: "trendovi u ishrani..",
+    kategorije: [
+      { name: "Trendovi u ishrani", path: "/kategorija/trendovi-u-ishrani" },
+      { name: "Super hrana", path: "/kategorija/super-hrana" },
+      { name: "Zdrava hrana", path: "/kategorija/zdrava-hrana" },
+      { name: "Recepti", path: "/kategorija/recepti" },
+    ],
+  },
+
+  {
+    tags: "recepti",
+    desc: "recepti..",
+    kategorije: [
+      { name: "Trendovi u ishrani", path: "/kategorija/trendovi-u-ishrani" },
+      { name: "Super hrana", path: "/kategorija/super-hrana" },
+      { name: "Zdrava hrana", path: "/kategorija/zdrava-hrana" },
+      { name: "Recepti", path: "/kategorija/recepti" },
+    ],
+  },
+
+  // Zdravlje podkateogrije
+  {
+    tags: "kardiovaskularni",
+    desc: "kardiovaskularni..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+
+  {
+    tags: "rak",
+    desc: "rak..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+  {
+    tags: "dijabetes",
+    desc: "dijabetes..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+  {
+    tags: "osteoporoza",
+    desc: "Osteoporoza..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+
+  {
+    tags: "gastrodigestivni trakt",
+    desc: "Gastrodigestivni trakt..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+
+	{
+    tags: "zdravlje žena",
+    desc: "Zdravlje žena..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+
+		{
+    tags: "ishrana po bolestima",
+    desc: "Ishrana po bolestima..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+		{
+    tags: "detoks",
+    desc: "Detoks..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+	{
+    tags: "suplementi",
+    desc: "Suplementi..",
+    kategorije: [
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      {
+        name: "Gastrodigestivni trakt",
+        path: "/kategorija/gastrodigestivni-trakt",
+      },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      {
+        name: "Ishrana po bolestima",
+        path: "/kategorija/ishrana-po-bolestima",
+      },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
+    ],
+  },
+
+	// Mentalno zdravlje podkateogrije
+
+		{
+    tags: "licni razvoj",
+		desc: "Lični razvoj",
+    kategorije: [
+      { name: "Lični razvoj", path: "/kategorija/licni-razvoj" },
+      { name: "Duhovnost", path: "/kategorija/duhovnost" },
+      { name: "Intimni odnosi", path: "/kategorija/intimni-odnosi" },
+      { name: "Ljubav", path: "/kategorija/ljubav" },
+      { name: "Prijateljstvo", path: "/kategorija/prijateljstvo" },
+      { name: "Coaching", path: "/kategorija/coaching" },
+    ],
+  },
+
+	{
+    tags: "duhovnost",
+		desc: "Duhovnost...",
+   kategorije: [
+      { name: "Lični razvoj", path: "/kategorija/licni-razvoj" },
+      { name: "Duhovnost", path: "/kategorija/duhovnost" },
+      { name: "Intimni odnosi", path: "/kategorija/intimni-odnosi" },
+      { name: "Ljubav", path: "/kategorija/ljubav" },
+      { name: "Prijateljstvo", path: "/kategorija/prijateljstvo" },
+      { name: "Coaching", path: "/kategorija/coaching" },
+    ],
+  },
+
+	{
+    tags: "intimni odnosi",
+		desc: "Intimni odnosi...",
+    kategorije: [
+      { name: "Lični razvoj", path: "/kategorija/licni-razvoj" },
+      { name: "Duhovnost", path: "/kategorija/duhovnost" },
+      { name: "Intimni odnosi", path: "/kategorija/intimni-odnosi" },
+      { name: "Ljubav", path: "/kategorija/ljubav" },
+      { name: "Prijateljstvo", path: "/kategorija/prijateljstvo" },
+      { name: "Coaching", path: "/kategorija/coaching" },
+    ],
+  },
+
+	{
+    tags: "Ljubav",
+		desc: "ljubav...",
+   kategorije: [
+      { name: "Lični razvoj", path: "/kategorija/licni-razvoj" },
+      { name: "Duhovnost", path: "/kategorija/duhovnost" },
+      { name: "Intimni odnosi", path: "/kategorija/intimni-odnosi" },
+      { name: "Ljubav", path: "/kategorija/ljubav" },
+      { name: "Prijateljstvo", path: "/kategorija/prijateljstvo" },
+      { name: "Coaching", path: "/kategorija/coaching" },
+    ],
+  },
+
+	{
+    tags: "prijateljstvo",
+		desc: "Prijateljstvo...",
+   kategorije: [
+      { name: "Lični razvoj", path: "/kategorija/licni-razvoj" },
+      { name: "Duhovnost", path: "/kategorija/duhovnost" },
+      { name: "Intimni odnosi", path: "/kategorija/intimni-odnosi" },
+      { name: "Ljubav", path: "/kategorija/ljubav" },
+      { name: "Prijateljstvo", path: "/kategorija/prijateljstvo" },
+      { name: "Coaching", path: "/kategorija/coaching" },
+    ],
+  },
+
+		{
+    tags: "coaching",
+		desc: "Coaching...",
+    kategorije: [
+      { name: "Lični razvoj", path: "/kategorija/licni-razvoj" },
+      { name: "Duhovnost", path: "/kategorija/duhovnost" },
+      { name: "Intimni odnosi", path: "/kategorija/intimni-odnosi" },
+      { name: "Ljubav", path: "/kategorija/ljubav" },
+      { name: "Prijateljstvo", path: "/kategorija/prijateljstvo" },
+      { name: "Coaching", path: "/kategorija/coaching" },
+    ],
+  },
+
+
+	// roditeljstvo podkategorija
+  {
+    tags: "trudnoća",
+		desc: "Trudnoća je...",
+    kategorije: [
+      { name: "Trudnoća", path: "/kategorija/trudnoca" },
+      { name: "Materinstvo", path: "/kategorija/materinstvo" },
+      { name: "Beba", path: "/kategorija/beba" },
+      { name: "Mlađa deca", path: "/kategorija/mladja-deca" },
+      { name: "Tinejdžeri", path: "/kategorija/tinejdzeri" },
+    ],
+  },
+
+{
+    tags: "materinstvo",
+		desc: "Materinstvo je...",
+     kategorije: [
+      { name: "Trudnoća", path: "/kategorija/trudnoca" },
+      { name: "Materinstvo", path: "/kategorija/materinstvo" },
+      { name: "Beba", path: "/kategorija/beba" },
+      { name: "Mlađa deca", path: "/kategorija/mladja-deca" },
+      { name: "Tinejdžeri", path: "/kategorija/tinejdzeri" },
+    ],
+  },
+
+{
+    tags: "beba",
+		desc: "Beba je...",
+    kategorije: [
+      { name: "Trudnoća", path: "/kategorija/trudnoca" },
+      { name: "Materinstvo", path: "/kategorija/materinstvo" },
+      { name: "Beba", path: "/kategorija/beba" },
+      { name: "Mlađa deca", path: "/kategorija/mladja-deca" },
+      { name: "Tinejdžeri", path: "/kategorija/tinejdzeri" },
+    ],
+  },
+
+
+{
+    tags: "mlađa deca",
+		desc: "Mlađa deca je...",
+		 kategorije: [
+      { name: "Trudnoća", path: "/kategorija/trudnoca" },
+      { name: "Materinstvo", path: "/kategorija/materinstvo" },
+      { name: "Beba", path: "/kategorija/beba" },
+      { name: "Mlađa deca", path: "/kategorija/mladja-deca" },
+      { name: "Tinejdžeri", path: "/kategorija/tinejdzeri" },
+    ],
+    
+   
+  },
+
+	{
+    tags: "tinejdžeri",
+		desc: "Tinejdžeri...",
+		 kategorije: [
+      { name: "Trudnoća", path: "/kategorija/trudnoca" },
+      { name: "Materinstvo", path: "/kategorija/materinstvo" },
+      { name: "Beba", path: "/kategorija/beba" },
+      { name: "Mlađa deca", path: "/kategorija/mladja-deca" },
+      { name: "Tinejdžeri", path: "/kategorija/tinejdzeri" },
+    ],
+    
+   
+  },
+
+
+	{
+    tags: "dom",
+		desc: "Dom",
+        kategorija: [
+      { name: "Putovanja", path: "/kategorija/putovanja" },
+      { name: "Dom", path: "/kategorija/dom" },
+      { name: "Kucni budzet", path: "/kategorija/kategorija/kucni-budzet" },
+      { name: "Praznici", path: "/kategorija/praznici" },
+      { name: "Lepota", path: "/kategorija/lepota" },
+      { name: "Fitness", path: "/kategorija/fitness" },
+      { name: "Pokloni", path: "/kategorija/pokloni" },
+    ],
+  },
+
+		{
+    tags: "kucni budzet",
+		desc: "Kucni budzet...",
+    kategorija: [
+      { name: "Putovanja", path: "/kategorija/putovanja" },
+      { name: "Dom", path: "/kategorija/dom" },
+      { name: "Kucni budzet", path: "/kategorija/kategorija/kucni-budzet" },
+      { name: "Praznici", path: "/kategorija/praznici" },
+      { name: "Lepota", path: "/kategorija/lepota" },
+      { name: "Fitness", path: "/kategorija/fitness" },
+      { name: "Pokloni", path: "/kategorija/pokloni" },
+    ],
+  },
+
+		{
+    tags: "praznici",
+		desc: "Praznici...",
+    kategorija: [
+      { name: "Putovanja", path: "/kategorija/putovanja" },
+      { name: "Dom", path: "/kategorija/dom" },
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Praznici", path: "/kategorija/praznici" },
+      { name: "Lepota", path: "/kategorija/lepota" },
+      { name: "Fitness", path: "/kategorija/fitness" },
+      { name: "Pokloni", path: "/kategorija/pokloni" },
+    ],
+  },
+
+
+	{
+    tags: "lepota",
+		desc: "Lepota...",
+    kategorija: [
+      { name: "Putovanja", path: "/kategorija/putovanja" },
+      { name: "Dom", path: "/kategorija/dom" },
+      { name: "Kucni budzet", path: "/kategorija/kategorija/kucni-budzet" },
+      { name: "Praznici", path: "/kategorija/praznici" },
+      { name: "Lepota", path: "/kategorija/lepota" },
+      { name: "Fitness", path: "/kategorija/fitness" },
+      { name: "Pokloni", path: "/kategorija/pokloni" },
+    ],
+  },
+
+	
+	{
+    tags: "fitness",
+		desc: "Fitness...",
+    kategorija: [
+      { name: "Putovanja", path: "/kategorija/putovanja" },
+      { name: "Dom", path: "/kategorija/dom" },
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Praznici", path: "/kategorija/praznici" },
+      { name: "Lepota", path: "/kategorija/lepota" },
+      { name: "Fitness", path: "/kategorija/fitness" },
+      { name: "Pokloni", path: "/kategorija/pokloni" },
+    ],
+  },
+
+	{
+    tags: "pokloni",
+		desc: "Pokloni...",
+    kategorija: [
+      { name: "Putovanja", path: "/kategorija/putovanja" },
+      { name: "Dom", path: "/kategorija/dom" },
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Praznici", path: "/kategorija/praznici" },
+      { name: "Lepota", path: "/kategorija/lepota" },
+      { name: "Fitness", path: "kategorija/fitness" },
+      { name: "Pokloni", path: "/kategorija/pokloni" },
+    ],
+  },
+
+	// finasijski savjetnik podkategorija
+		{
+    tags: "kucni budzet",
+		desc: "Kucni budzet...",
+   kategorije: [
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Investicioni fondovi", path: "/kategorija/investicioni-fondovi" },
+      { name: "Stednja", path: "/kategorija/stednja" },
+      { name: "Bitkoin", path: "/kategorija/bitkoin" },
+      { name: "Nekretnine", path: "/kategorija/nekretnine" },
+    ],
+  },
+
+		{
+    tags: "investicioni fondovi",
+		desc: "Investicioni fondovi...",
+   kategorije: [
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Investicioni fondovi", path: "/kategorija/investicioni-fondovi" },
+      { name: "Stednja", path: "/kategorija/stednja" },
+      { name: "Bitkoin", path: "/kategorija/bitkoin" },
+      { name: "Nekretnine", path: "/kategorija/nekretnine" },
+    ],
+  },
+
+		{
+    tags: "stednja",
+		desc: "Stednja...",
+   kategorije: [
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Investicioni fondovi", path: "/kategorija/investicioni-fondovi" },
+      { name: "Stednja", path: "/kategorija/stednja" },
+      { name: "Bitkoin", path: "/kategorija/bitkoin" },
+      { name: "Nekretnine", path: "/kategorija/nekretnine" },
+    ],
+  },
+
+	{
+    tags: "bitkoin",
+		desc: "Bitkoin...",
+   kategorije: [
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Investicioni fondovi", path: "/kategorija/investicioni-fondovi" },
+      { name: "Stednja", path: "/kategorija/stednja" },
+      { name: "Bitkoin", path: "/kategorija/bitkoin" },
+      { name: "Nekretnine", path: "/kategorija/nekretnine" },
+    ],
+  },
+
+		{
+    tags: "nekretnine",
+		desc: "Nekretnine...",
+   kategorije: [
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Investicioni fondovi", path: "/kategorija/investicioni-fondovi" },
+      { name: "Stednja", path: "/kategorija/stednja" },
+      { name: "Bitkoin", path: "/kategorija/bitkoin" },
+      { name: "Nekretnine", path: "/kategorija/nekretnine" },
+    ],
+  },
+
+	// poslovni kutak
+
+	{
+    tags: "biznis coaching",
+		desc: "Biznis coaching...",
+  kategorije: [
+      { name: "Biznis coaching", path: "/kategorija/biznis-coaching" },
+      { name: "Digitalni marketing", path: "/kategorija/digitalni-marketing" },
+      { name: "Dizajn", path: "/kategorija/dizajn" },
+      { name: "Zaposlenje", path: "/kategorija/zaposlenje" },
+      { name: "Gradjenje karijere", path: "/kategorija/gradjenje-karijere" },
+      {
+        name: "Profesionalna orijentacija",
+        path: "/kategorija/profesionalna-orijentacija",
+      },
+    ],
+	},
+
+	{
+    tags: "digitalni marketing",
+		desc: "Digitalni marketing...",
+   kategorije: [
+      { name: "Biznis coaching", path: "/kategorija/biznis-coaching" },
+      { name: "Digitalni marketing", path: "/kategorija/digitalni-marketing" },
+      { name: "Dizajn", path: "/kategorija/dizajn" },
+      { name: "Zaposlenje", path: "/kategorija/zaposlenje" },
+      { name: "Gradjenje karijere", path: "/kategorija/gradjenje-karijere" },
+      {
+        name: "Profesionalna orijentacija",
+        path: "/kategorija/profesionalna-orijentacija",
+      },
+    ],
+  },
+
+		{
+    tags: "dizajn",
+		desc: "Dizajn...",
+  kategorije: [
+      { name: "Biznis coaching", path: "/kategorija/biznis-coaching" },
+      { name: "Digitalni marketing", path: "/kategorija/digitalni-marketing" },
+      { name: "Dizajn", path: "/kategorija/dizajn" },
+      { name: "Zaposlenje", path: "/kategorija/zaposlenje" },
+      { name: "Gradjenje karijere", path: "/kategorija/gradjenje-karijere" },
+      {
+        name: "Profesionalna orijentacija",
+        path: "/kategorija/profesionalna-orijentacija",
+      },
+    ],
+  },
+
+		{
+    tags: "zaposlenje",
+		desc: "Zaposlenje...",
+   kategorije: [
+      { name: "Biznis coaching", path: "/kategorija/biznis-coaching" },
+      { name: "Digitalni marketing", path: "/kategorija/digitalni-marketing" },
+      { name: "Dizajn", path: "/kategorija/dizajn" },
+      { name: "Zaposlenje", path: "/kategorija/zaposlenje" },
+      { name: "Gradjenje karijere", path: "/kategorija/gradjenje-karijere" },
+      {
+        name: "Profesionalna orijentacija",
+        path: "/kategorija/profesionalna-orijentacija",
+      },
+    ],
+  },
+
+	{
+    tags: "gradjenje karijere",
+		desc: "Zaposlenje...",
+   kategorije: [
+      { name: "Biznis coaching", path: "/kategorija/biznis-coaching" },
+      { name: "Digitalni marketing", path: "/kategorija/digitalni-marketing" },
+      { name: "Dizajn", path: "/kategorija/dizajn" },
+      { name: "Zaposlenje", path: "/kategorija/zaposlenje" },
+      { name: "Gradjenje karijere", path: "/kategorija/gradjenje-karijere" },
+      {
+        name: "Profesionalna orijentacija",
+        path: "/kategorija/profesionalna-orijentacija",
+      },
+    ],
+  },
+
+	{
+    tags: "profesionalna orijentacija",
+		desc: "Profesionalna orijentacija...",
+   kategorije: [
+      { name: "Biznis coaching", path: "/kategorija/biznis-coaching" },
+      { name: "Digitalni marketing", path: "/kategorija/digitalni-marketing" },
+      { name: "Dizajn", path: "/kategorija/dizajn" },
+      { name: "Zaposlenje", path: "/kategorija/zaposlenje" },
+      { name: "Gradjenje karijere", path: "/kategorija/gradjenje-karijere" },
+      {
+        name: "Profesionalna orijentacija",
+        path: "/kategorija/profesionalna-orijentacija",
+      },
+			{ name: "Komunikacija", path: "/kategorija/komunikacija" }
+    ],
+  },
+
+
+	// drustvena svest podkategorije
+
+{
+		tags: "budi human",
+		desc: "aaa sadds",
+		kategorije: [
+			{ name: "Budi Human", path:"/kategorija/budi-human" },
+			{ name: "Podeli obrko", path:"/kategorija/podeli-obrok"},
+			{ name: "Akcije - prilozi", path: "/kategorija/akcije-prilozi"},
+			{ name: "Humanizam", path: "/kategorije/humanizam"},
+			{ name: "Sirenje drustvene svesti", path: "/kategorija/sirenje-drustvene-svest"}
+		]
+	},
+	
+
+	{
+		tags: "podeli obrok",
+		desc: "aaa sadds",
+		kategorije: [
+			{ name: "Budi Human", path:"/kategorija/budi-human" },
+			{ name: "Podeli obrok", path:"/kategorija/podeli-obrok"},
+			{ name: "Akcije - prilozi", path: "/kategorija/akcije-prilozi"},
+			{ name: "Humanizam", path: "/kategorije/humanizam"},
+			{ name: "Sirenje drustvene svesti", path: "/kategorija/sirenje-drustvene-svest"}
+		]
+	},
+
+		{
+		tags: "akcije - prilozi",
+		desc: "aaa sadds",
+		kategorije: [
+			{ name: "Budi Human", path:"/kategorija/budi-human" },
+			{ name: "Podeli obrok", path:"/kategorija/podeli-obrok"},
+			{ name: "Akcije - prilozi", path: "/kategorija/akcije-prilozi"},
+			{ name: "Humanizam", path: "/kategorije/humanizam"},
+			{ name: "Sirenje drustvene svesti", path: "/kategorija/sirenje-drustvene-svest"}
+		]
+	},
+
+	
+		{
+		tags: "humanizam",
+		desc: "aaa sadds",
+		kategorije: [
+			{ name: "Budi Human", path:"/kategorija/budi-human" },
+			{ name: "Podeli obrok", path:"/kategorija/podeli-obrok"},
+			{ name: "Akcije - prilozi", path: "/kategorija/akcije-prilozi"},
+			{ name: "Humanizam", path: "/kategorije/humanizam"},
+			{ name: "Sirenje drustvene svesti", path: "/kategorija/sirenje-drustvene-svest"}
+		]
+	},
+
+			{
+		tags: "sirenje drustvene svesti",
+		desc: "aaa sadds",
+		kategorije: [
+			{ name: "Budi Human", path:"/kategorija/budi-human" },
+			{ name: "Podeli obrok", path:"/kategorija/podeli-obrok"},
+			{ name: "Akcije - prilozi", path: "/kategorija/akcije-prilozi"},
+			{ name: "Humanizam", path: "/kategorije/humanizam"},
+			{ name: "Sirenje drustvene svesti", path: "/kategorija/sirenje-drustvene-svest"}
+		]
+	},
+
+	// ----------
+  // {
+  //   tags: "vegetarijanac",
+  //   desc: "Danas je lijep i suncan dan",
+  //   kategorije: [
+  //     { name: "Zdrava hrana", path: "/kategorija/zdrava%20hrana" },
+  //     { name: "Trendovi u ishrani", path: "/" },
+  //     { name: "Recepti", path: "/" },
+  //   ],
+  // },
 ];
 import AllTags from "~/components/AllTags";
 export default {

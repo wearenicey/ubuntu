@@ -55,16 +55,14 @@
             </div>
             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
               <div class="flex-1">
-                <div class="flex space-x-4 ">
+                <div class="flex space-x-4">
                   <span v-for="(tag, index) in post.node.tags" :key="tag.id">
                     <div class="">
-											<a :href="tag.path">
-												 <p class="text-sm font-medium text-indigo-600">
-                        {{ tag.title }}
-                      
-                      </p>
-											</a>
-                     
+                      <a :href="tag.path">
+                        <p class="text-sm font-medium text-indigo-600">
+                          {{ tag.title }}
+                        </p>
+                      </a>
                     </div>
 
                     <!-- We will add a comma separator for the tags -->
@@ -174,50 +172,97 @@ const ishrana = [
   {
     tags: "zdravlje",
     kategorije: [
-      { name: "Kardiovaskularini", path: "/" },
-      { name: "Rak", path: "/" },
-      { name: "Dijabetes", path: "/" },
-      { name: "Osteoporoza", path: "/" },
-      { name: "Gastrodigestivni trakt", path: "/" },
-      { name: "Zdravlje žena", path: "/" },
-      { name: "Ishrana po bolestima", path: "/" },
-      { name: "Detoks", path: "/" },
-      { name: "Suplementi", path: "/" },
+      { name: "Kardiovaskularini", path: "/kategorija/kardiovaskularni" },
+      { name: "Rak", path: "/kategorija/rak" },
+      { name: "Dijabetes", path: "/kategorija/dijabetes" },
+      { name: "Osteoporoza", path: "/kategoirja/osteoporoza" },
+      { name: "Gastrodigestivni trakt", path: "/kategorija/gastrodigestivni-trakt" },
+      { name: "Zdravlje žena", path: "/kategorija/zdravlje-zena" },
+      { name: "Ishrana po bolestima", path: "/kategorija/ishrana-po-bolestima" },
+      { name: "Detoks", path: "/kategorija/detoks" },
+      { name: "Suplementi", path: "/kategorija/suplementi" },
     ],
   },
   {
     tags: "ishrana",
     kategorije: [
-      { name: "Trendovi u ishrani", path: "/" },
-      { name: "Super hrana", path: "/" },
-      { name: "Zdrava hrana", path: "/" },
-      { name: "Recepti", path: "/" },
+      { name: "Trendovi u ishrani", path: "/kategorija/trendovi-u-ishrani" },
+      { name: "Super hrana", path: "/kategorija/super-hrana" },
+      { name: "Zdrava hrana", path: "/kategorija/zdrava-hrana" },
+      { name: "Recepti", path: "/kategorija/recepti" },
     ],
   },
 
   {
     tags: "mentalno zdravlje",
     kategorije: [
-      { name: "Lični razvoj", path: "/" },
-      { name: "Duhovnost", path: "/" },
-      { name: "Intimni odnosi", path: "/" },
-      { name: "Ljubav", path: "/" },
-      { name: "Prijateljstvo", path: "/" },
-      { name: "Coaching", path: "/" },
+      { name: "Lični razvoj", path: "/kategorija/licni-razvoj" },
+      { name: "Duhovnost", path: "/kategorija/duhovnost" },
+      { name: "Intimni odnosi", path: "/kategorija/intimni-odnosi" },
+      { name: "Ljubav", path: "/kategorija/ljubav" },
+      { name: "Prijateljstvo", path: "/kategorija/prijateljstvo" },
+      { name: "Coaching", path: "/kategorija/coaching" },
     ],
   },
 
   {
     tags: "roditeljstvo",
-    desc: "Danas je lijep i suncan dan",
     kategorije: [
-      { name: "Trudnoća", path: "/" },
-      { name: "Materinstvo", path: "/" },
-      { name: "Beba", path: "/" },
-      { name: "Mlađa deca", path: "/" },
-      { name: "Tinejdžeri", path: "/" },
+      { name: "Trudnoća", path: "/kategorija/trudnoca" },
+      { name: "Materinstvo", path: "/kategorija/materinstvo" },
+      { name: "Beba", path: "/kategorija/beba" },
+      { name: "Mlađa deca", path: "/kategorija/mladja-deca" },
+      { name: "Tinejdžeri", path: "/kategorija/tinejdzeri" },
     ],
   },
+
+  {
+    tags: "lifestyle",
+    kategorija: [
+      { name: "Putovanja", path: "/kategorija/putovanja" },
+      { name: "Dom", path: "/kategorija/dom" },
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Praznici", path: "/kategorija/praznici" },
+      { name: "Lepota", path: "/kategorija/lepota" },
+      { name: "Fitness", path: "/kategorija/fitness" },
+      { name: "Pokloni", path: "/kategorija/pokloni" },
+    ],
+  },
+  {
+    tags: "finasijski savetnik",
+    kategorije: [
+      { name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
+      { name: "Investicioni fondovi", path: "/kategorija/investicioni-fondovi" },
+      { name: "Stednja", path: "/kategorija/stednja" },
+      { name: "Bitkoin", path: "/kategorija/bitkoin" },
+      { name: "Nekretnine", path: "/kategorija/nekretnine" },
+    ],
+  },
+  {
+    tags: "poslovni kutak",
+    kategorije: [
+      { name: "Biznis coaching", path: "/kategorija/biznis-coaching" },
+      { name: "Digitalni marketing", path: "/kategorija/digitalni-marketing" },
+      { name: "Dizajn", path: "/kategorija/dizajn" },
+      { name: "Zaposlenje", path: "/kategorija/zaposlenje" },
+      { name: "Gradjenje karijere", path: "/kategorija/gradjenje-karijere" },
+      {
+        name: "Profesionalna orijentacija",
+        path: "/kategorija/profesionalna-orijentacija",
+      },
+    ],
+  },
+
+	{
+		tags: "drustvena odgovornost",
+		kategorije: [
+			{ name: "Budi Human", path:"/kategorija/budi-human" },
+			{ name: "Podeli obrko", path:"/kategorija/podeli-obrok"},
+			{ name: "Akcije - prilozi", path: "/kategorija/akcije-prilozi"},
+			{ name: "Humanizam", path: "/kategorije/humanizam"},
+			{ name: "Sirenje drustvene svesti", path: "/kategorija/sirenje-drustvene-svest"}
+		]
+	}
 ];
 import AllTags from "~/components/AllTags";
 export default {
