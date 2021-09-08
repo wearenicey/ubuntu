@@ -99,7 +99,7 @@
     <div v-for="tag in ishrana">
       <div v-if="$page.tag.title == tag.tags">
         <div v-for="(element, index) in tag.kategorije">
-          <a :href="element.path">{{ element.name }}</a>
+          <g-link :to="element.path">{{ element.name }}</g-link>
         </div>
       </div>
     </div>

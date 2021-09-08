@@ -137,6 +137,9 @@
               >{{ $page.post.title }}</span
             >
           </h1>
+          <div>
+            <p>{{ $page.post.excerpt }}</p>
+          </div>
         </div>
         <div class="mt-6 container">
           <div
@@ -148,11 +151,7 @@
     </div>
     <div class="container">
       <div class="max-w-6xl prose mx-auto">
-        <div
-          id="related-posts"
-        
-          v-if="$page.post.related.length > 0"
-        >
+        <div id="related-posts" v-if="$page.post.related.length > 0">
           <posts-widget :posts="$page.post.related" />
         </div>
         <span v-else style="color: red">This post has no similar posts</span>

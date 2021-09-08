@@ -1,10 +1,15 @@
 ---
+# naslov jedistven ne moze se ponavljati
 title: Kako  keto dijeta utiče na dijabetes
+# kojoj kategoriji pripada 
 category: ishrana
+# kojoj pod kategoriji pripada
 tags: 
  - trendovi u ishrani
  - vegetarijanac
+#  kratak opis
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
+# datum
 created: 2019-01-10
 image: slika-2.jpg
 imageTwo:
@@ -46,6 +51,8 @@ if (1) {
     lifoQuad(latency, cybersquatterClobImpact, gis);
 }
 ```
+![Photo by Ingmar Hoogerhoud on Unsplash](../../images/slika-3.jpg) 
+
 
 ## Iam comas postquam occupat nitidum mei caperet
 
@@ -75,3 +82,4 @@ redeat columbae, illa. Veteres iacentes non; est *habuit*, victus, at dimissis
 arcus et patrem, non equi recessu. Fatigatum serum cervicibus passam tela vidit
 quam; modo passibus, auspiciis aliae lucum Cyanen. Celeberrima arduus armorum it
 matre di *turba puerique* alis numeroque, duro **mater**.
+
