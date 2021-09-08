@@ -1,5 +1,5 @@
 ---
 id: zdravlje
-title: 'Zdravlje'
+title: 'zdravlje'
 desc: 'Zdravlje je ...'
 ---
