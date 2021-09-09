@@ -563,7 +563,7 @@
                       </div>
                       <div class="mt-6 text-sm font-medium">
                         <a
-                          href="#"
+                          href="/zdravlje"
                           class="text-indigo-600 hover:text-indigo-500"
                         >
                           Pogledaj sve <span aria-hidden="true">&rarr;</span></a
@@ -887,7 +887,7 @@
                       </div>
                       <div class="mt-6 text-sm font-medium">
                         <a
-                          href="#"
+                          href="/ishrana"
                           class="text-indigo-600 hover:text-indigo-500"
                         >
                           Pogledaj sve
@@ -1284,7 +1284,7 @@
                       </div>
                       <div class="mt-6 text-sm font-medium">
                         <a
-                          href="#"
+                          href="/mentalno-zdravlje"
                           class="text-indigo-600 hover:text-indigo-500"
                         >
                           Pogledaj sve
@@ -1644,7 +1644,7 @@
                       </div>
                       <div class="mt-6 text-sm font-medium">
                         <a
-                          href="#"
+                          href="/roditeljstvo"
                           class="text-indigo-600 hover:text-indigo-500"
                         >
                           Pogledaj sve <span aria-hidden="true">&rarr;</span></a
@@ -2079,7 +2079,7 @@
                       </div>
                       <div class="mt-6 text-sm font-medium">
                         <a
-                          href="#"
+                          href="/lifestyle"
                           class="text-indigo-600 hover:text-indigo-500"
                         >
                           Pogledaj sve
@@ -2440,7 +2440,7 @@
                       </div>
                       <div class="mt-6 text-sm font-medium">
                         <a
-                          href="#"
+                          href="/finasijski-savetnik"
                           class="text-indigo-600 hover:text-indigo-500"
                         >
                           Pogledaj sve
@@ -2872,7 +2872,7 @@
                       </div>
                       <div class="mt-6 text-sm font-medium">
                         <a
-                          href="#"
+                          href="/poslovni-kutak"
                           class="text-indigo-600 hover:text-indigo-500"
                         >
                           Pogledaj sve
@@ -3232,7 +3232,7 @@
                       </div>
                       <div class="mt-6 text-sm font-medium">
                         <a
-                          href="#"
+                          href="/drustvena-odgovornost"
                           class="text-indigo-600 hover:text-indigo-500"
                         >
                           Pogledaj sve
