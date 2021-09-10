@@ -1,6 +1,6 @@
 <template>
 	<Layout>
-		<div class="relative z-20 shadow-sm">
+		<div class="relative shadow-sm">
 			<div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
 				<div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
 					<nav class="flex space-x-10">
@@ -48,14 +48,13 @@
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
 								<div class="flex space-x-4">
+									<!-- Tagovi -->
 									<span v-for="(tag, index) in post.node.tags" :key="tag.id">
-										<div class="">
 											<a :href="tag.path">
 												<p class="text-sm font-medium text-indigo-600">
 													{{ tag.title }}
 												</p>
 											</a>
-										</div>
 
 										<!-- We will add a comma separator for the tags -->
 									</span>
@@ -88,7 +87,7 @@
                     />
                   </a>
                 </div> -->
-								<div class="ml-3">
+								<div class="">
 									<div class="flex space-x-1 text-sm text-gray-500">
 										<time :datetime="post.node.datetime">
 											{{ post.node.humanTime }}
@@ -103,7 +102,7 @@
 				</div>
 			</div>
 		</div>
-		<div></div>
+
 		<div v-for="tag in ishrana">
 			<div v-if="$page.category.title == tag.tags">
 				<div v-for="(element, index) in tag.kategorije">
@@ -149,10 +148,10 @@ query($id: ID!) {
   }
 
 
-	
-    
+
+
   }
-	
+
 
 
 
@@ -183,7 +182,6 @@ const ishrana = [
 			{ name: "Recepti", path: "/kategorija/recepti" },
 		],
 	},
-
 	{
 		tags: "mentalno zdravlje",
 		kategorije: [
@@ -195,7 +193,6 @@ const ishrana = [
 			{ name: "Coaching", path: "/kategorija/coaching" },
 		],
 	},
-
 	{
 		tags: "roditeljstvo",
 		kategorije: [
@@ -206,7 +203,6 @@ const ishrana = [
 			{ name: "Tinejdžeri", path: "/kategorija/tinejdzeri" },
 		],
 	},
-
 	{
 		tags: "lifestyle",
 		kategorija: [
@@ -243,7 +239,6 @@ const ishrana = [
 			},
 		],
 	},
-
 	{
 		tags: "drustvena odgovornost",
 		kategorije: [
@@ -255,7 +250,7 @@ const ishrana = [
 		],
 	},
 ];
-import AllTags from "~/components/AllTags";
+
 export default {
 	metaInfo() {
 		return {};
@@ -265,10 +260,6 @@ export default {
 		return {
 			ishrana,
 		};
-	},
-
-	components: {
-		AllTags,
 	},
 };
 </script>

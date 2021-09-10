@@ -1,5 +1,28 @@
 <template>
 	<Layout>
+		<div class="relative shadow-sm">
+			<div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
+				<div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
+					<nav class="flex space-x-10">
+						<div v-for="tag in ishrana">
+							<div v-if="$page.tag.title == tag.tags">
+								<div class="flex space-x-10">
+									<div v-for="(element, index) in tag.kategorije">
+										<button
+											type="button"
+											class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											aria-expanded="false"
+										>
+											<g-link :to="element.path">{{ element.name }}</g-link>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
 		<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
 			<div class="absolute inset-0">
 				<div class="bg-white h-1/3 sm:h-2/3" />
@@ -62,26 +85,16 @@
 				</div>
 			</div>
 		</div>
-		<div>
-			<AllTags></AllTags>
-		</div>
-		<div v-for="tag in ishrana">
-			<div v-if="$page.tag.title == tag.tags">
-				<div v-for="(element, index) in tag.kategorije">
-					<g-link :to="element.path">{{ element.name }}</g-link>
-				</div>
-			</div>
-		</div>
 	</Layout>
 </template>
 
 <page-query>
 query
  Tag ($id: ID!, $page: Int) {
-	
+
 
   tag: tag (id: $id) {
-	
+
     title
 		id
     belongsTo (page: $page, perPage: 30) @paginate {
@@ -119,9 +132,9 @@ query
         path
       }
     }
-    
+
   }
-	
+
 }
 
 
@@ -825,7 +838,6 @@ const ishrana = [
 	//   ],
 	// },
 ];
-import AllTags from "~/components/AllTags";
 export default {
 	metaInfo() {
 		return {};
@@ -835,10 +847,6 @@ export default {
 		return {
 			ishrana,
 		};
-	},
-
-	components: {
-		AllTags,
 	},
 };
 </script>
