@@ -19,6 +19,7 @@
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.3.1",
     "postcss": "^8.3.6",
+    "prettier": "2.4.0",
     "tailwindcss": "^2.2.7"
   }
 }
