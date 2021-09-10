@@ -5,7 +5,7 @@ tags:
   - trendovi u ishrani
   - vegetarijanac
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
-created: 2019-01-10
+created: 2021-08-10
 image: slika-2.jpg
 imageTwo:
   path: ./images/slika-1.jpg

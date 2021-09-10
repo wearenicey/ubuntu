@@ -8,7 +8,11 @@
 							<div v-if="$page.category.title == tag.tags">
 								<div class="flex space-x-10">
 									<div v-for="(element, index) in tag.kategorije">
-										<button type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
+										<button
+											type="button"
+											class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											aria-expanded="false"
+										>
 											<g-link :to="element.path">{{ element.name }}</g-link>
 										</button>
 									</div>
@@ -136,7 +140,7 @@ query($id: ID!) {
             }
 						timeToRead
           featured
-          humanTime: created(format: "DD MMM YYYY")
+          humanTime: created(format: "DD.MM.YYYY")
           datetime: created
           }
         }

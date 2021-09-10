@@ -77,7 +77,7 @@ export default {
     
       }
       content
-      humanTime : created(format:"DD MMMM YYYY")
+      humanTime : created(format:"DD.MMM.YYYY")
       datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
       
       timeToRead

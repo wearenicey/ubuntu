@@ -10,7 +10,7 @@ tags:
 #  kratak opis
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 # datum
-created: 2019-01-10
+created: 2021-09-10
 image: slika-2.jpg
 imageTwo:
   path: ./images/slika-1.jpg
