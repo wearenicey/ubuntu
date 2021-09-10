@@ -1,9 +1,9 @@
 {
-	"[vue]": {
-		"editor.defaultFormatter": "octref.vetur"
-	},
 	"formatFiles.excludedFolders": ["node_modules", ".vscode", ".git", "dist", "cache", ".idea", ".chrome"],
 	"formatFiles.useGitIgnore": true,
+	"[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 	"[javascript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},

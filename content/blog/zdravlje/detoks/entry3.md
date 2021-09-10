@@ -1,8 +1,8 @@
 ---
 title: Test test
 category: zdravlje
-tags: 
- - detoks
+tags:
+  - detoks
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
 image: slika-3.jpg
@@ -40,9 +40,9 @@ idem fugit, non abiit palam quantum, fontes vinci et abiit. Deiectoque exstabant
 
 ## Et capienda Peneia
 
-*Haec moenia pater* signataque urget, ait quies laqueo sumitque. Misit sit
+_Haec moenia pater_ signataque urget, ait quies laqueo sumitque. Misit sit
 moribunda terrae sequar longis hoc, cingebant copia cultros! Alis templi taeda
-solet suum mihi penates quae. Cecidere *deo agger infantem* indetonsusque ipsum;
+solet suum mihi penates quae. Cecidere _deo agger infantem_ indetonsusque ipsum;
 ova formasque cornu et pectora [voce oculos](http://www.tibibene.io/iter.html),
 prodis pariterque sacra finibus, Sabinae. Fugarant fuerat, famam ait toto imas
 sorte pectora, est et, procubuit sua Appenninigenae habes postquam.
@@ -53,7 +53,6 @@ Spatiosa ferax iam sis ex quae peperit iacentes, grates rogat quae senserat nec
 nec verba harenas inplent. Per dum necis in in versus quin loquendi latens;
 inde. **Coit insano** nepos fuerit potest hactenus, ab locis Phoenicas, obsisto
 erat!
-
 
 ## Ossa narrat sortita fecerat sit conataque
 
@@ -81,9 +80,9 @@ idem fugit, non abiit palam quantum, fontes vinci et abiit. Deiectoque exstabant
 
 ## Et capienda Peneia
 
-*Haec moenia pater* signataque urget, ait quies laqueo sumitque. Misit sit
+_Haec moenia pater_ signataque urget, ait quies laqueo sumitque. Misit sit
 moribunda terrae sequar longis hoc, cingebant copia cultros! Alis templi taeda
-solet suum mihi penates quae. Cecidere *deo agger infantem* indetonsusque ipsum;
+solet suum mihi penates quae. Cecidere _deo agger infantem_ indetonsusque ipsum;
 ova formasque cornu et pectora [voce oculos](http://www.tibibene.io/iter.html),
 prodis pariterque sacra finibus, Sabinae. Fugarant fuerat, famam ait toto imas
 sorte pectora, est et, procubuit sua Appenninigenae habes postquam.
@@ -94,7 +93,6 @@ Spatiosa ferax iam sis ex quae peperit iacentes, grates rogat quae senserat nec
 nec verba harenas inplent. Per dum necis in in versus quin loquendi latens;
 inde. **Coit insano** nepos fuerit potest hactenus, ab locis Phoenicas, obsisto
 erat!
-
 
 ## Ossa narrat sortita fecerat sit conataque
 
@@ -122,9 +120,9 @@ idem fugit, non abiit palam quantum, fontes vinci et abiit. Deiectoque exstabant
 
 ## Et capienda Peneia
 
-*Haec moenia pater* signataque urget, ait quies laqueo sumitque. Misit sit
+_Haec moenia pater_ signataque urget, ait quies laqueo sumitque. Misit sit
 moribunda terrae sequar longis hoc, cingebant copia cultros! Alis templi taeda
-solet suum mihi penates quae. Cecidere *deo agger infantem* indetonsusque ipsum;
+solet suum mihi penates quae. Cecidere _deo agger infantem_ indetonsusque ipsum;
 ova formasque cornu et pectora [voce oculos](http://www.tibibene.io/iter.html),
 prodis pariterque sacra finibus, Sabinae. Fugarant fuerat, famam ait toto imas
 sorte pectora, est et, procubuit sua Appenninigenae habes postquam.

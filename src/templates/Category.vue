@@ -158,7 +158,6 @@ query($id: ID!) {
 
 </page-query>
 
-
 <script>
 const ishrana = [
 	{
@@ -273,5 +272,4 @@ export default {
 	},
 };
 </script>
-<style>
-</style>
+<style></style>

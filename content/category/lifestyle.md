@@ -1,5 +1,5 @@
 ---
 id: lifestyle
-title: 'lifestyle'
-desc: 'lifestyle je...'
+title: "lifestyle"
+desc: "lifestyle je..."
 ---

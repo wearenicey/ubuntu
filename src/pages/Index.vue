@@ -1,24 +1,22 @@
 <template>
-  <Layout>
-
-  </Layout>
+	<Layout> </Layout>
 </template>
 
 <script>
 import AllTags from "~/components/AllTags";
 export default {
-  metaInfo() {
-    return {};
-  },
+	metaInfo() {
+		return {};
+	},
 
-  components: {
-    AllTags,
-  },
+	components: {
+		AllTags,
+	},
 };
 </script>
 
 <style>
 .home-links a {
-  margin-right: 1rem;
+	margin-right: 1rem;
 }
 </style>
