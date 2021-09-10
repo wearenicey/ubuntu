@@ -1,9 +1,5 @@
 {
-  "tabWidth": 2,
-  "useTabs": true,
-<<<<<<< HEAD
-	"printWidth": 250
-=======
-  "printWidth": 250
->>>>>>> 335efac8d96ab5f9eb85a1842f561bd1c2dfb4ab
+	"tabWidth": 2,
+	"useTabs": true,
+	"printWidth": 240
 }

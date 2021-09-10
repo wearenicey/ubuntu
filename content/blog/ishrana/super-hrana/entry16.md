@@ -1,8 +1,8 @@
 ---
 title: Super ishrana
 category: ishrana
-tags: 
- - super hrana
+tags:
+  - super hrana
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
 image: slika-2.jpg
@@ -46,7 +46,7 @@ if (1) {
 
 ## Iam comas postquam occupat nitidum mei caperet
 
-*Heliadum sum queritur* sed mea inportuna pressa in saetae arbore sidereo hoc
+_Heliadum sum queritur_ sed mea inportuna pressa in saetae arbore sidereo hoc
 lapsae simul Peneia demittitur dona tamen certe **conpendia**. Utque et omne
 optat lata, fuit, inmemores illum. Ora quae proles caecaque sinusque ignibus
 sulcat tollens lepori, mediis tollere quam meo harundine trita in quae
@@ -60,15 +60,15 @@ cumque. Qui sternit nomine.
 
 Qualis convicti [saxa](http://in-linguae.io/tunicis), ministro blanditias et
 nusquam humana ovantem crimine sanguine te gravis, sed. Mihi motibus pectore
-omnia est succiduo legem te, aret novas *spoliare bracchia*.
+omnia est succiduo legem te, aret novas _spoliare bracchia_.
 
 > Quae loquor, est armis, per victa, trahit? Erat distulit humanam residant **et
 > inpune prima** angues, cruentis. Descendit formae ferat, abactas Minyis
 > distat, **pressa**, veniam generis avidoque erat.
 
 **Diu per Iovis** nimiumque invicti [meritumque](http://avium.com/te) in crura
-redeat columbae, illa. Veteres iacentes non; est *habuit*, victus, at dimissis
+redeat columbae, illa. Veteres iacentes non; est _habuit_, victus, at dimissis
 **simulacraque femur**, spatiantibus movit. Data denique acceptos liquida mater
 arcus et patrem, non equi recessu. Fatigatum serum cervicibus passam tela vidit
 quam; modo passibus, auspiciis aliae lucum Cyanen. Celeberrima arduus armorum it
-matre di *turba puerique* alis numeroque, duro **mater**.
+matre di _turba puerique_ alis numeroque, duro **mater**.

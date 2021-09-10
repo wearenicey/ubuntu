@@ -13,19 +13,7 @@
 					<button
 						x-on:click="mobileMenuOpen = true"
 						type="button"
-						class="
-							bg-white
-							rounded-md
-							p-2
-							inline-flex
-							items-center
-							justify-center
-							text-gray-400
-							hover:text-gray-500
-							hover:bg-gray-100
-							focus:outline-none
-							focus:ring-2 focus:ring-inset focus:ring-indigo-500
-						"
+						class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 						aria-expanded="false"
 					>
 						<span class="sr-only">Open menu</span>
@@ -42,19 +30,7 @@
 							<button
 								type="button"
 								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
-								class="
-									text-gray-500
-									group
-									bg-white
-									rounded-md
-									inline-flex
-									items-center
-									text-base
-									font-medium
-									hover:text-gray-900
-									focus:outline-none
-									focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-								"
+								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
 								<span>Zdravlje</span>
@@ -79,25 +55,10 @@
 											<div>
 												<ul role="list" class="mt-5 space-y-6">
 													<li class="flow-root">
-														<a
-															href="/kategorija/kardiovaskularni"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/kardiovaskularni" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/information-circle -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 															</svg>
 															<span class="ml-4">Kardiovaskularni</span>
 														</a>
@@ -106,14 +67,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/rak" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/office-building -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -128,14 +82,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/dijabetes" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/newspaper -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -148,19 +95,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/osteoporoza"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/osteoporoza" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/briefcase -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -173,19 +110,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/gastrodigestivni-trakt"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/gastrodigestivni-trakt" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/shield-check -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -201,19 +128,9 @@
 											<div>
 												<ul role="list" class="mt-5 space-y-6">
 													<li class="flow-root">
-														<a
-															href="/kategorija/zdravlje-zena"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/zdravlje-zena" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/user-group -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -226,19 +143,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/ishrana-po-bolestima"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/ishrana-po-bolestima" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/globe-alt -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -253,20 +160,8 @@
 													<li class="flow-root">
 														<a href="/kategorija/detoks" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/bookmark-alt -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
 															</svg>
 															<span class="ml-4">Detoks</span>
 														</a>
@@ -275,20 +170,8 @@
 													<li class="flow-root">
 														<a href="/kategorija/suplementi" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/desktop-computer -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 															</svg>
 															<span class="ml-4">Suplementi</span>
 														</a>
@@ -328,19 +211,7 @@
 							<button
 								type="button"
 								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
-								class="
-									text-gray-500
-									group
-									bg-white
-									rounded-md
-									inline-flex
-									items-center
-									text-base
-									font-medium
-									hover:text-gray-900
-									focus:outline-none
-									focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-								"
+								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
 								<span>Ishrana</span>
@@ -365,44 +236,19 @@
 											<div>
 												<ul role="list" class="mt-5 space-y-6">
 													<li class="flow-root">
-														<a
-															href="/kategorija/zdrava-hrana"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/zdrava-hrana" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/information-circle -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 															</svg>
 															<span class="ml-4">Zdrava hrana</span>
 														</a>
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/super-hrana"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/super-hrana" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/office-building -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -415,19 +261,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/trendovi-u-ishrani"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/trendovi-u-ishrani" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/newspaper -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -442,14 +278,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/recepti" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/briefcase -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -499,19 +328,7 @@
 							<button
 								type="button"
 								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
-								class="
-									text-gray-500
-									group
-									bg-white
-									rounded-md
-									inline-flex
-									items-center
-									text-base
-									font-medium
-									hover:text-gray-900
-									focus:outline-none
-									focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-								"
+								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
 								<span>Mentalno zdravlje</span>
@@ -536,25 +353,10 @@
 											<div>
 												<ul role="list" class="mt-5 space-y-6">
 													<li class="flow-root">
-														<a
-															href="/kategorija/licni-razvoj"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/licni-razvoj" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/information-circle -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 															</svg>
 															<span class="ml-4">Lični razvoj</span>
 														</a>
@@ -563,14 +365,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/duhovnost" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/office-building -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -583,19 +378,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/intimni-odnosi"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/intimni-odnosi" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/newspaper -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -610,14 +395,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/ljubav" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/briefcase -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -630,19 +408,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/prijateljstvo"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/prijateljstvo" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/shield-check -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -660,14 +428,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/coaching" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/user-group -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -716,19 +477,7 @@
 							<button
 								type="button"
 								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
-								class="
-									text-gray-500
-									group
-									bg-white
-									rounded-md
-									inline-flex
-									items-center
-									text-base
-									font-medium
-									hover:text-gray-900
-									focus:outline-none
-									focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-								"
+								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
 								<span>Roditeljstvo</span>
@@ -755,39 +504,17 @@
 													<li class="flow-root">
 														<a href="/kategorija/trudnoca" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/information-circle -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 															</svg>
 															<span class="ml-4">Trudnoća</span>
 														</a>
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/materinstvo"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/materinstvo" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/office-building -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -802,14 +529,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/beba" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/newspaper -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -822,19 +542,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/mladja-deca"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/mladja-deca" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/briefcase -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -849,14 +559,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/tinejdzeri" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/shield-check -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -903,19 +606,7 @@
 							<button
 								type="button"
 								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
-								class="
-									text-gray-500
-									group
-									bg-white
-									rounded-md
-									inline-flex
-									items-center
-									text-base
-									font-medium
-									hover:text-gray-900
-									focus:outline-none
-									focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-								"
+								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
 								<span>Lifestyle</span>
@@ -942,20 +633,8 @@
 													<li class="flow-root">
 														<a href="/kategorija/putovanja" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/information-circle -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 															</svg>
 															<span class="ml-4">Putovanja</span>
 														</a>
@@ -964,14 +643,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/dom" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/office-building -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -984,19 +656,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/kucni-budzet"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/kucni-budzet" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/newspaper -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1011,14 +673,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/praznici" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/briefcase -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1033,14 +688,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/lepota" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/shield-check -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1058,14 +706,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/fitness" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/user-group -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1080,14 +721,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/pokloni" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/globe-alt -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1136,19 +770,7 @@
 							<button
 								type="button"
 								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
-								class="
-									text-gray-500
-									group
-									bg-white
-									rounded-md
-									inline-flex
-									items-center
-									text-base
-									font-medium
-									hover:text-gray-900
-									focus:outline-none
-									focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-								"
+								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
 								<span>Finansijski savetnik</span>
@@ -1173,44 +795,19 @@
 											<div>
 												<ul role="list" class="mt-5 space-y-6">
 													<li class="flow-root">
-														<a
-															href="/kategorija/kucni-budzet"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/kucni-budzet" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/information-circle -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 															</svg>
 															<span class="ml-4">Kućni budžet</span>
 														</a>
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/investicioni-fondovi"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/investicioni-fondovi" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/office-building -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1225,14 +822,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/stednja" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/newspaper -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1247,14 +837,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/bitkoin" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/briefcase -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1269,14 +852,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/nekretnine" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/shield-check -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1325,19 +901,7 @@
 							<button
 								type="button"
 								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
-								class="
-									text-gray-500
-									group
-									bg-white
-									rounded-md
-									inline-flex
-									items-center
-									text-base
-									font-medium
-									hover:text-gray-900
-									focus:outline-none
-									focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-								"
+								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
 								<span>Poslovni kutak</span>
@@ -1362,44 +926,19 @@
 											<div>
 												<ul role="list" class="mt-5 space-y-6">
 													<li class="flow-root">
-														<a
-															href="/kategorija/biznis-coaching"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/biznis-coaching" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/information-circle -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 															</svg>
 															<span class="ml-4">Biznis coaching</span>
 														</a>
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/digitalni-marketing"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/digitalni-marketing" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/office-building -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1414,14 +953,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/dizajn" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/newspaper -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1436,14 +968,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/zaposlenje" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/briefcase -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1456,19 +981,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/gradjenje-karijere"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/gradjenje-karijere" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/shield-check -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1484,19 +999,9 @@
 											<div>
 												<ul role="list" class="mt-5 space-y-6">
 													<li class="flow-root">
-														<a
-															href="/kategorija/profesionalna-orijentacija"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/profesionalna-orijentacija" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/user-group -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1508,19 +1013,9 @@
 														</a>
 													</li>
 													<li class="flow-root">
-														<a
-															href="/kategorija/komunikacija"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/komunikacija" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/user-group -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1569,19 +1064,7 @@
 							<button
 								type="button"
 								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
-								class="
-									text-gray-500
-									group
-									bg-white
-									rounded-md
-									inline-flex
-									items-center
-									text-base
-									font-medium
-									hover:text-gray-900
-									focus:outline-none
-									focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-								"
+								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
 								<span>Društvena odgovornost</span>
@@ -1608,39 +1091,17 @@
 													<li class="flow-root">
 														<a href="/kategorija/budi-human" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/information-circle -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	stroke-linecap="round"
-																	stroke-linejoin="round"
-																	stroke-width="2"
-																	d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																/>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 															</svg>
 															<span class="ml-4">Budi human</span>
 														</a>
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/podeli-obrok"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/podeli-obrok" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/office-building -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1653,19 +1114,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/akcije-prilozi"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/akcije-prilozi" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/newspaper -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1680,14 +1131,7 @@
 													<li class="flow-root">
 														<a href="/kategorija/humanizam" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/briefcase -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1700,19 +1144,9 @@
 													</li>
 
 													<li class="flow-root">
-														<a
-															href="/kategorija/sirenje-drustvene-svesti"
-															class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
-														>
+														<a href="/kategorija/sirenje-drustvene-svesti" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
 															<!-- Heroicon name: outline/shield-check -->
-															<svg
-																class="flex-shrink-0 h-6 w-6 text-gray-400"
-																xmlns="http://www.w3.org/2000/svg"
-																fill="none"
-																viewBox="0 0 24 24"
-																stroke="currentColor"
-																aria-hidden="true"
-															>
+															<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path
 																	stroke-linecap="round"
 																	stroke-linejoin="round"
@@ -1792,19 +1226,7 @@
 							<button
 								x-on:click="mobileMenuOpen = false"
 								type="button"
-								class="
-									bg-white
-									rounded-md
-									p-2
-									inline-flex
-									items-center
-									justify-center
-									text-gray-400
-									hover:text-gray-500
-									hover:bg-gray-100
-									focus:outline-none
-									focus:ring-2 focus:ring-inset focus:ring-indigo-500
-								"
+								class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 							>
 								<span class="sr-only">Close menu</span>
 								<!-- Heroicon name: outline/x -->
@@ -1820,12 +1242,12 @@
 								<div class="grid grid-cols-1 gap-y-10 gap-x-6">
 									<div v-for="tag in categories">
 										<div>
-										<p id="mobile-featured-heading-0" class="font-medium text-gray-900">{{tag.title}}</p>
-										<ul role="list" aria-labelledby="mobile-featured-heading-0" class="mt-6 space-y-6">
-											<li v-for="(zdravlje, index) in tag.kategorije" class="flex">
-												<g-link :to="zdravlje.path" class="text-gray-700"> {{ zdravlje.name }} </g-link>
-											</li>
-										</ul>
+											<p id="mobile-featured-heading-0" class="font-medium text-gray-900">{{ tag.title }}</p>
+											<ul role="list" aria-labelledby="mobile-featured-heading-0" class="mt-6 space-y-6">
+												<li v-for="(zdravlje, index) in tag.kategorije" class="flex">
+													<g-link :to="zdravlje.path" class="text-gray-700"> {{ zdravlje.name }} </g-link>
+												</li>
+											</ul>
 										</div>
 									</div>
 								</div>
@@ -1958,7 +1380,7 @@ const categories = [
 		],
 	},
 	{
-				title: "Ishrana",
+		title: "Ishrana",
 
 		kategorije: [
 			{ name: "Trendovi u ishrani", path: "/kategorija/trendovi-u-ishrani" },
@@ -1969,7 +1391,7 @@ const categories = [
 	},
 
 	{
-				title: "Mentalno zdravlje",
+		title: "Mentalno zdravlje",
 
 		kategorije: [
 			{ name: "Lični razvoj", path: "/kategorija/licni-razvoj" },
@@ -1982,7 +1404,7 @@ const categories = [
 	},
 
 	{
-				title: "Roditeljstvo",
+		title: "Roditeljstvo",
 
 		kategorije: [
 			{ name: "Trudnoća", path: "/kategorija/trudnoca" },
@@ -1993,7 +1415,8 @@ const categories = [
 		],
 	},
 
-	{		title: "Lifestyle",
+	{
+		title: "Lifestyle",
 
 		kategorije: [
 			{ name: "Putovanja", path: "/kategorija/putovanja" },
@@ -2006,7 +1429,7 @@ const categories = [
 		],
 	},
 	{
-				title: "Finasijski savetnik",
+		title: "Finasijski savetnik",
 
 		kategorije: [
 			{ name: "Kucni budzet", path: "/kategorija/kucni-budzet" },
@@ -2017,7 +1440,7 @@ const categories = [
 		],
 	},
 	{
-				title: "Poslovni kutak",
+		title: "Poslovni kutak",
 
 		kategorije: [
 			{ name: "Biznis coaching", path: "/kategorija/biznis-coaching" },
@@ -2033,7 +1456,7 @@ const categories = [
 	},
 
 	{
-						title: "Društvena odgovornost",
+		title: "Društvena odgovornost",
 
 		kategorije: [
 			{ name: "Budi Human", path: "/kategorija/budi-human" },
@@ -2055,5 +1478,4 @@ export default {
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

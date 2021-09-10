@@ -1,5 +1,5 @@
 ---
 id: roditeljstvo
-title: 'roditeljstvo'
-desc: 'Roditeljstvo je...'
+title: "roditeljstvo"
+desc: "Roditeljstvo je..."
 ---

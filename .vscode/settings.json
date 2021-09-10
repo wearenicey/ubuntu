@@ -1,0 +1,20 @@
+{
+	"formatFiles.excludedFolders": ["node_modules", ".vscode", ".git", "dist", "cache", ".idea", ".chrome"],
+	"formatFiles.useGitIgnore": true,
+	"[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  }
+}
