@@ -11,15 +11,16 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "@headlessui/vue": "^1.4.0",
     "@heroicons/vue": "^1.0.3",
+    "@tailwindcss/postcss7-compat": "^2.2.14",
     "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^9.8.6",
     "gridsome": "^0.7.0",
-    "gridsome-plugin-recommender": "^1.1.5"
+    "gridsome-plugin-recommender": "^1.1.5",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.3",
-    "autoprefixer": "^10.3.1",
-    "postcss": "^8.3.6",
-    "prettier": "2.4.0",
-    "tailwindcss": "^2.2.7"
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "prettier": "2.4.0"
   }
 }
