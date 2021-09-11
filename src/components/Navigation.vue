@@ -11,7 +11,7 @@
 				</div>
 				<div class="-mr-2 -my-2 md:hidden">
 					<button
-						x-on:click="mobileMenuOpen = true"
+						x-on:mouseover="mobileMenuOpen = true"
 						type="button"
 						class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 						aria-expanded="false"
@@ -23,13 +23,13 @@
 						</svg>
 					</button>
 				</div>
-				<div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
+				<div class="hidden md:flex-1 md:flex md:items-center md:justify-end">
 					<nav class="flex space-x-10">
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -206,11 +206,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -323,11 +323,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -472,11 +472,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -601,11 +601,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -765,11 +765,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -896,11 +896,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -1059,11 +1059,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -1224,7 +1224,7 @@
 						</div>
 						<div class="-mr-2">
 							<button
-								x-on:click="mobileMenuOpen = false"
+								x-on:mouseover="mobileMenuOpen = false"
 								type="button"
 								class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 							>
@@ -1264,7 +1264,7 @@ query {
  ishrana:  allPost (sortBy: "created", filter:{category: {eq: "ishrana"}}, limit: 2) {
   edges {
     node {
-      id 
+      id
       path
       title
       excerpt
@@ -1277,7 +1277,7 @@ query {
 zdravlje:  allPost (sortBy: "created", filter:{category: {eq: "zdravlje"}}, limit: 2) {
   edges {
     node {
-      id 
+      id
       path
       title
       excerpt
@@ -1290,7 +1290,7 @@ zdravlje:  allPost (sortBy: "created", filter:{category: {eq: "zdravlje"}}, limi
 mentalno:  allPost (sortBy: "created", filter:{category: {eq: "mentalno-zdravlje"}}, limit: 2) {
   edges {
     node {
-      id 
+      id
       path
       title
       excerpt
@@ -1302,7 +1302,7 @@ mentalno:  allPost (sortBy: "created", filter:{category: {eq: "mentalno-zdravlje
 roditeljstvo:  allPost (sortBy: "created", filter:{category: {eq: "roditeljstvo"}}, limit: 2) {
   edges {
     node {
-      id 
+      id
       path
       title
       excerpt
@@ -1314,7 +1314,7 @@ roditeljstvo:  allPost (sortBy: "created", filter:{category: {eq: "roditeljstvo"
 lifestyle:  allPost (sortBy: "created", filter:{category: {eq: "lifestyle"}}, limit: 2) {
   edges {
     node {
-      id 
+      id
       path
       title
       excerpt
@@ -1326,7 +1326,7 @@ lifestyle:  allPost (sortBy: "created", filter:{category: {eq: "lifestyle"}}, li
 finasijski:  allPost (sortBy: "created", filter:{category: {eq: "finasijski-savetnik"}}, limit: 2) {
   edges {
     node {
-      id 
+      id
       path
       title
       excerpt
@@ -1338,7 +1338,7 @@ finasijski:  allPost (sortBy: "created", filter:{category: {eq: "finasijski-save
 poslovni:  allPost (sortBy: "created", filter:{category: {eq: "poslovni-kutak"}}, limit: 2) {
   edges {
     node {
-      id 
+      id
       path
       title
       excerpt
@@ -1350,7 +1350,7 @@ poslovni:  allPost (sortBy: "created", filter:{category: {eq: "poslovni-kutak"}}
 drustvena:  allPost (sortBy: "created", filter:{category: {eq: "drustvena-odgovornost"}}, limit: 2) {
   edges {
     node {
-      id 
+      id
       path
       title
       excerpt
