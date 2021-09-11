@@ -4,14 +4,14 @@
 		<div class="relative z-20">
 			<div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
 				<div>
-					<a href="#" class="flex">
+					<g-link to="/" class="flex">
 						<span class="sr-only">Workflow</span>
 						<img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
-					</a>
+					</g-link>
 				</div>
 				<div class="-mr-2 -my-2 md:hidden">
 					<button
-						x-on:mouseover="mobileMenuOpen = true"
+						x-on:click="mobileMenuOpen = true"
 						type="button"
 						class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 						aria-expanded="false"
@@ -25,11 +25,11 @@
 				</div>
 				<div class="hidden md:flex-1 md:flex md:items-center md:justify-end">
 					<nav class="flex space-x-10">
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -206,11 +206,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -323,11 +323,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -472,11 +472,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -601,11 +601,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -765,11 +765,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -896,11 +896,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -1059,11 +1059,11 @@
 								</div>
 							</div>
 						</div>
-						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:mouseover.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+						<div x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 							<button
 								type="button"
-								x-on:mouseover="flyoutMenuOpen = !flyoutMenuOpen"
+								x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 								class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 								aria-expanded="false"
 							>
@@ -1224,7 +1224,7 @@
 						</div>
 						<div class="-mr-2">
 							<button
-								x-on:mouseover="mobileMenuOpen = false"
+								x-on:click="mobileMenuOpen = false"
 								type="button"
 								class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 							>
