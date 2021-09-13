@@ -1,5 +1,4 @@
 <template>
-
 	<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 		<div v-for="post in posts" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 			<div class="flex-shrink-0">
@@ -10,11 +9,11 @@
 					<div class="flex space-x-4">
 						<!-- Tagovi -->
 						<span v-for="(tag, index) in post.tags" :key="tag.id">
-								<a :href="tag.path">
-									<p class="text-sm font-medium text-indigo-600">
-										{{ tag.title }}
-									</p>
-								</a>
+							<a :href="tag.path">
+								<p class="text-sm font-medium text-indigo-600">
+									{{ tag.title }}
+								</p>
+							</a>
 
 							<!-- We will add a comma separator for the tags -->
 						</span>
