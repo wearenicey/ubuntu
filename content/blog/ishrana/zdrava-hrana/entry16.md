@@ -1,9 +1,8 @@
 ---
-title: Savrsen dom za vas
-category: lifestyle
+title: zdrava je ishrana
+category: ishrana
 tags:
-  - dom
-slug: dom
+  - zdrava hrana
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
 image: slika-2.jpg
@@ -13,8 +12,6 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: true
-pocetna: true
-path: savrsen-dom-za-vas
 ---
 
 # Viro mihi egit colantur devorat aethera

@@ -2,6 +2,7 @@
 	<div class="layout">
 		<Navigation></Navigation>
 		<slot />
+		<Footer></Footer>
 	</div>
 </template>
 
@@ -15,6 +16,7 @@ query {
 
 <script>
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer.vue";
 
 export default {
 	metaInfo: {
@@ -22,6 +24,7 @@ export default {
 	},
 	components: {
 		Navigation,
+		Footer,
 	},
 };
 </script>

@@ -12,6 +12,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: true
+pocetna: true
 path: kako-keto-dijeta-utice
 ---
 
