@@ -16,11 +16,11 @@
 		"autoprefixer": "^9.8.6",
 		"gridsome": "^0.7.0",
 		"gridsome-plugin-recommender": "^1.1.5",
-		"postcss": "^7.0.36",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
 	},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^3.0.0",
+		"postcss": "^7.0.35",
 		"prettier": "2.4.0"
 	}
 }

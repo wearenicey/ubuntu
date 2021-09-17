@@ -1,9 +1,8 @@
 <template>
-	<div class="layout">
-		<Navigation></Navigation>
-		<slot />
-		<Footer></Footer>
-	</div>
+  <div class="layout">
+    <Header></Header>
+    <slot />
+  </div>
 </template>
 
 <static-query>
@@ -15,16 +14,14 @@ query {
 </static-query>
 
 <script>
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer.vue";
+import Header from "../components/Header";
 
 export default {
-	metaInfo: {
-		title: "Learn something new",
-	},
-	components: {
-		Navigation,
-		Footer,
-	},
+  metaInfo: {
+    title: "Learn something new",
+  },
+  components: {
+    Header,
+  },
 };
 </script>

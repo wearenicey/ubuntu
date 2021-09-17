@@ -1,281 +1,1689 @@
 <template>
-	<Layout>
-		<div class="relative mt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-			<div class="relative max-w-7xl mx-auto">
-				<div class="text-center">
-					<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Zdrava hrana</h1>
-					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
-				</div>
-				<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-					<div v-for="post in $page.zdravaHrana.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<a :href="post.node.path">
-							<div class="flex-shrink-0">
-								<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
-							</div>
-							<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-								<div class="flex-1">
-									<p class="text-sm font-medium text-indigo-600">
-										<a :href="post.node.path" class="hover:underline"> </a>
-									</p>
-									<a :href="post.node.path" class="block mt-2">
-										<p class="text-xl font-semibold text-gray-900">
-											{{ post.node.title }}
-										</p>
-										<p class="mt-3 text-base text-gray-500">
-											{{ post.node.excerpt }}
-										</p>
-									</a>
-								</div>
-								<div class="mt-6 flex items-center">
-									<!-- <div class="flex-shrink-0">
-                  <a :href="post.author.href">
-                    <span class="sr-only">{{ post.author.name }}</span>
-                    <img
-                      class="h-10 w-10 rounded-full"
-                      :src="post.author.imageUrl"
-                      alt=""
-                    />
+  <Layout>
+    <!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  const colors = require('tailwindcss/colors')
+  
+  module.exports = {
+    // ...
+    theme: {
+      extend: {
+        colors: {
+          rose: colors.rose,
+        },
+      },
+    },
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+    <div class="bg-white">
+      <main>
+        <!-- Hero section -->
+        <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
+          <div
+            class="
+              mx-auto
+              max-w-md
+              px-4
+              sm:max-w-3xl
+              sm:px-6
+              lg:px-8
+              lg:max-w-7xl
+              lg:grid lg:grid-cols-2
+              lg:gap-24
+            "
+          >
+            <div>
+              <div>
+                <img
+                  class="h-11 w-auto"
+                  src="https://tailwindui.com/img/logos/workflow-mark.svg?color=rose&shade=500"
+                  alt="Workflow"
+                />
+              </div>
+              <div class="mt-20">
+                <div>
+                  <a href="#" class="inline-flex space-x-4">
+                    <span
+                      class="
+                        rounded
+                        bg-rose-50
+                        px-2.5
+                        py-1
+                        text-xs
+                        font-semibold
+                        text-rose-500
+                        tracking-wide
+                        uppercase
+                      "
+                    >
+                      What's new
+                    </span>
+                    <span
+                      class="
+                        inline-flex
+                        items-center
+                        text-sm
+                        font-medium
+                        text-red-500
+                        space-x-1
+                      "
+                    >
+                      <span>Just shipped version 0.1.0</span>
+                      <!-- Heroicon name: solid/chevron-right -->
+                      <svg
+                        class="h-5 w-5"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
                   </a>
-                </div> -->
-									<div class="">
-										<div class="flex space-x-1 text-sm text-gray-500">
-											<time :datetime="post.node.datetime">
-												{{ post.node.humanTime }}
-											</time>
-											<span aria-hidden="true"> &middot; </span>
-											<span> {{ post.node.timeToRead }} min read </span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="relative t-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-			<div class="relative max-w-7xl mx-auto">
-				<div class="text-center">
-					<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Lifestyle & Wellness</h2>
-					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
-				</div>
-				<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-					<div v-for="post in $page.lifestyle.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<a :href="post.node.path">
-							<div class="flex-shrink-0">
-								<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
-							</div>
-							<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-								<div class="flex-1">
-									<p class="text-sm font-medium text-indigo-600">
-										<a :href="post.node.path" class="hover:underline"> </a>
-									</p>
-									<a :href="post.node.path" class="block mt-2">
-										<p class="text-xl font-semibold text-gray-900">
-											{{ post.node.title }}
-										</p>
-										<p class="mt-3 text-base text-gray-500">
-											{{ post.node.excerpt }}
-										</p>
-									</a>
-								</div>
-								<div class="mt-6 flex items-center">
-									<!-- <div class="flex-shrink-0">
-                  <a :href="post.author.href">
-                    <span class="sr-only">{{ post.author.name }}</span>
-                    <img
-                      class="h-10 w-10 rounded-full"
-                      :src="post.author.imageUrl"
-                      alt=""
+                </div>
+                <div class="mt-6 sm:max-w-xl">
+                  <h1
+                    class="
+                      text-4xl
+                      font-extrabold
+                      text-gray-900
+                      tracking-tight
+                      sm:text-5xl
+                    "
+                  >
+                    Issue management for growing teams
+                  </h1>
+                  <p class="mt-6 text-xl text-gray-500">
+                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
+                    qui lorem cupidatat commodo.
+                  </p>
+                </div>
+                <form action="#" class="mt-12 sm:max-w-lg sm:w-full sm:flex">
+                  <div class="min-w-0 flex-1">
+                    <label for="hero-email" class="sr-only"
+                      >Email address</label
+                    >
+                    <input
+                      id="hero-email"
+                      type="email"
+                      class="
+                        block
+                        w-full
+                        border border-gray-300
+                        rounded-md
+                        px-5
+                        py-3
+                        text-base text-gray-900
+                        placeholder-gray-500
+                        shadow-sm
+                        focus:border-red-500
+                        focus:ring-red-500
+                      "
+                      placeholder="Enter your email"
                     />
-                  </a>
-                </div> -->
-									<div class="">
-										<div class="flex space-x-1 text-sm text-gray-500">
-											<time :datetime="post.node.datetime">
-												{{ post.node.humanTime }}
-											</time>
-											<span aria-hidden="true"> &middot; </span>
-											<span> {{ post.node.timeToRead }} min read </span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
+                  </div>
+                  <div class="mt-4 sm:mt-0 sm:ml-3">
+                    <button
+                      type="submit"
+                      class="
+                        block
+                        w-full
+                        rounded-md
+                        border border-transparent
+                        px-5
+                        py-3
+                        bg-red-500
+                        text-base
+                        font-medium
+                        text-white
+                        shadow
+                        hover:bg-red-600
+                        focus:outline-none
+                        focus:ring-2 focus:ring-red-500 focus:ring-offset-2
+                        sm:px-10
+                      "
+                    >
+                      Notify me
+                    </button>
+                  </div>
+                </form>
+                <div class="mt-6">
+                  <div
+                    class="inline-flex items-center divide-x divide-gray-300"
+                  >
+                    <div class="flex-shrink-0 flex pr-5">
+                      <!-- Heroicon name: solid/star -->
+                      <svg
+                        class="h-5 w-5 text-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                      <!-- Heroicon name: solid/star -->
+                      <svg
+                        class="h-5 w-5 text-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                      <!-- Heroicon name: solid/star -->
+                      <svg
+                        class="h-5 w-5 text-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                      <!-- Heroicon name: solid/star -->
+                      <svg
+                        class="h-5 w-5 text-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                      <!-- Heroicon name: solid/star -->
+                      <svg
+                        class="h-5 w-5 text-yellow-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="
+                        min-w-0
+                        flex-1
+                        pl-5
+                        py-1
+                        text-sm text-gray-500
+                        sm:py-3
+                      "
+                    >
+                      <span class="font-medium text-gray-900"
+                        >Rated 5 stars</span
+                      >
+                      by over
+                      <span class="font-medium text-red-500"
+                        >500 beta users</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-		<div class="relative t-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-			<div class="relative max-w-7xl mx-auto">
-				<div class="text-center">
-					<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Mentalno zdravlje</h2>
-					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
-				</div>
-				<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-					<div v-for="post in $page.mentalno.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<a :href="post.node.path">
-							<div class="flex-shrink-0">
-								<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
-							</div>
-							<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-								<div class="flex-1">
-									<p class="text-sm font-medium text-indigo-600">
-										<a :href="post.node.path" class="hover:underline"> </a>
-									</p>
-									<a :href="post.node.path" class="block mt-2">
-										<p class="text-xl font-semibold text-gray-900">
-											{{ post.node.title }}
-										</p>
-										<p class="mt-3 text-base text-gray-500">
-											{{ post.node.excerpt }}
-										</p>
-									</a>
-								</div>
-								<div class="mt-6 flex items-center">
-									<!-- <div class="flex-shrink-0">
-                  <a :href="post.author.href">
-                    <span class="sr-only">{{ post.author.name }}</span>
-                    <img
-                      class="h-10 w-10 rounded-full"
-                      :src="post.author.imageUrl"
-                      alt=""
+          <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
+            <div
+              class="
+                py-12
+                sm:relative
+                sm:mt-12
+                sm:py-16
+                lg:absolute
+                lg:inset-y-0
+                lg:right-0
+                lg:w-1/2
+              "
+            >
+              <div class="hidden sm:block">
+                <div
+                  class="
+                    absolute
+                    inset-y-0
+                    left-1/2
+                    w-screen
+                    bg-gray-50
+                    rounded-l-3xl
+                    lg:left-80
+                    lg:right-0
+                    lg:w-full
+                  "
+                ></div>
+                <svg
+                  class="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0"
+                  width="404"
+                  height="392"
+                  fill="none"
+                  viewBox="0 0 404 392"
+                >
+                  <defs>
+                    <pattern
+                      id="837c3e70-6c3a-44e6-8854-cc48c737b659"
+                      x="0"
+                      y="0"
+                      width="20"
+                      height="20"
+                      patternUnits="userSpaceOnUse"
+                    >
+                      <rect
+                        x="0"
+                        y="0"
+                        width="4"
+                        height="4"
+                        class="text-gray-200"
+                        fill="currentColor"
+                      />
+                    </pattern>
+                  </defs>
+                  <rect
+                    width="404"
+                    height="392"
+                    fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)"
+                  />
+                </svg>
+              </div>
+              <div
+                class="
+                  relative
+                  pl-4
+                  -mr-40
+                  sm:mx-auto
+                  sm:max-w-3xl
+                  sm:px-0
+                  lg:max-w-none
+                  lg:h-full
+                  lg:pl-12
+                "
+              >
+                <img
+                  class="
+                    w-full
+                    rounded-md
+                    shadow-xl
+                    ring-1 ring-black ring-opacity-5
+                    lg:h-full
+                    lg:w-auto
+                    lg:max-w-none
+                  "
+                  src="https://tailwindui.com/img/component-images/task-app-rose.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial/stats section -->
+        <div class="relative mt-20">
+          <div
+            class="
+              lg:mx-auto
+              lg:max-w-7xl
+              lg:px-8
+              lg:grid lg:grid-cols-2
+              lg:gap-24
+              lg:items-start
+            "
+          >
+            <div class="relative sm:py-16 lg:py-0">
+              <div
+                aria-hidden="true"
+                class="
+                  hidden
+                  sm:block
+                  lg:absolute
+                  lg:inset-y-0
+                  lg:right-0
+                  lg:w-screen
+                "
+              >
+                <div
+                  class="
+                    absolute
+                    inset-y-0
+                    right-1/2
+                    w-full
+                    bg-gray-50
+                    rounded-r-3xl
+                    lg:right-72
+                  "
+                ></div>
+                <svg
+                  class="
+                    absolute
+                    top-8
+                    left-1/2
+                    -ml-3
+                    lg:-right-8
+                    lg:left-auto
+                    lg:top-12
+                  "
+                  width="404"
+                  height="392"
+                  fill="none"
+                  viewBox="0 0 404 392"
+                >
+                  <defs>
+                    <pattern
+                      id="02f20b47-fd69-4224-a62a-4c9de5c763f7"
+                      x="0"
+                      y="0"
+                      width="20"
+                      height="20"
+                      patternUnits="userSpaceOnUse"
+                    >
+                      <rect
+                        x="0"
+                        y="0"
+                        width="4"
+                        height="4"
+                        class="text-gray-200"
+                        fill="currentColor"
+                      />
+                    </pattern>
+                  </defs>
+                  <rect
+                    width="404"
+                    height="392"
+                    fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"
+                  />
+                </svg>
+              </div>
+              <div
+                class="
+                  relative
+                  mx-auto
+                  max-w-md
+                  px-4
+                  sm:max-w-3xl
+                  sm:px-6
+                  lg:px-0
+                  lg:max-w-none
+                  lg:py-20
+                "
+              >
+                <!-- Testimonial card-->
+                <div
+                  class="
+                    relative
+                    pt-64
+                    pb-10
+                    rounded-2xl
+                    shadow-xl
+                    overflow-hidden
+                  "
+                >
+                  <img
+                    class="absolute inset-0 h-full w-full object-cover"
+                    src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
+                    alt=""
+                  />
+                  <div
+                    class="absolute inset-0 bg-red-500 mix-blend-multiply"
+                  ></div>
+                  <div
+                    class="
+                      absolute
+                      inset-0
+                      bg-gradient-to-t
+                      from-red-600
+                      via-red-600
+                      opacity-90
+                    "
+                  ></div>
+                  <div class="relative px-8">
+                    <div>
+                      <img
+                        class="h-12"
+                        src="https://tailwindui.com/img/logos/workcation.svg?color=white"
+                        alt="Workcation"
+                      />
+                    </div>
+                    <blockquote class="mt-8">
+                      <div
+                        class="
+                          relative
+                          text-lg
+                          font-medium
+                          text-white
+                          md:flex-grow
+                        "
+                      >
+                        <svg
+                          class="
+                            absolute
+                            top-0
+                            left-0
+                            transform
+                            -translate-x-3 -translate-y-2
+                            h-8
+                            w-8
+                            text-red-400
+                          "
+                          fill="currentColor"
+                          viewBox="0 0 32 32"
+                          aria-hidden="true"
+                        >
+                          <path
+                            d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
+                          />
+                        </svg>
+                        <p class="relative">
+                          Tincidunt integer commodo, cursus etiam aliquam neque,
+                          et. Consectetur pretium in volutpat, diam. Montes,
+                          magna cursus nulla feugiat dignissim id lobortis amet.
+                        </p>
+                      </div>
+
+                      <footer class="mt-4">
+                        <p class="text-base font-semibold text-red-200">
+                          Sarah Williams, CEO at Workcation
+                        </p>
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="
+                relative
+                mx-auto
+                max-w-md
+                px-4
+                sm:max-w-3xl
+                sm:px-6
+                lg:px-0
+              "
+            >
+              <!-- Content area -->
+              <div class="pt-12 sm:pt-16 lg:pt-20">
+                <h2
+                  class="
+                    text-3xl text-gray-900
+                    font-extrabold
+                    tracking-tight
+                    sm:text-4xl
+                  "
+                >
+                  On a mission to empower teams
+                </h2>
+                <div class="mt-6 text-gray-500 space-y-6">
+                  <p class="text-lg">
+                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    Dictum urna sed consectetur neque tristique pellentesque.
+                    Blandit amet, sed aenean erat arcu morbi. Cursus faucibus
+                    nunc nisl netus morbi vel porttitor vitae ut. Amet vitae
+                    fames senectus vitae.
+                  </p>
+                  <p class="text-base leading-7">
+                    Sollicitudin tristique eros erat odio sed vitae, consequat
+                    turpis elementum. Lorem nibh vel, eget pretium arcu vitae.
+                    Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                    Sollicitudin tristique eros erat odio sed vitae, consequat
+                    turpis elementum. Lorem nibh vel, eget pretium arcu vitae.
+                    Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                  </p>
+                  <p class="text-base leading-7">
+                    Rhoncus nisl, libero egestas diam fermentum dui. At quis
+                    tincidunt vel ultricies. Vulputate aliquet velit faucibus
+                    semper. Pellentesque in venenatis vestibulum consectetur
+                    nibh id. In id ut tempus egestas. Enim sit aliquam nec, a.
+                    Morbi enim fermentum lacus in. Viverra.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Stats section -->
+              <div class="mt-10">
+                <dl class="grid grid-cols-2 gap-x-4 gap-y-8">
+                  <div class="border-t-2 border-gray-100 pt-6">
+                    <dt class="text-base font-medium text-gray-500">Founded</dt>
+                    <dd
+                      class="
+                        text-3xl
+                        font-extrabold
+                        tracking-tight
+                        text-gray-900
+                      "
+                    >
+                      2021
+                    </dd>
+                  </div>
+
+                  <div class="border-t-2 border-gray-100 pt-6">
+                    <dt class="text-base font-medium text-gray-500">
+                      Employees
+                    </dt>
+                    <dd
+                      class="
+                        text-3xl
+                        font-extrabold
+                        tracking-tight
+                        text-gray-900
+                      "
+                    >
+                      5
+                    </dd>
+                  </div>
+
+                  <div class="border-t-2 border-gray-100 pt-6">
+                    <dt class="text-base font-medium text-gray-500">
+                      Beta Users
+                    </dt>
+                    <dd
+                      class="
+                        text-3xl
+                        font-extrabold
+                        tracking-tight
+                        text-gray-900
+                      "
+                    >
+                      521
+                    </dd>
+                  </div>
+
+                  <div class="border-t-2 border-gray-100 pt-6">
+                    <dt class="text-base font-medium text-gray-500">Raised</dt>
+                    <dd
+                      class="
+                        text-3xl
+                        font-extrabold
+                        tracking-tight
+                        text-gray-900
+                      "
+                    >
+                      $25M
+                    </dd>
+                  </div>
+                </dl>
+                <div class="mt-10">
+                  <a href="#" class="text-base font-medium text-red-500">
+                    Learn more about how we're changing the world&nbsp&rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial -->
+
+        <section class="bg-indigo-800 container mx-auto my-12 rounded-2xl">
+          <div
+            class="
+              max-w-7xl
+              mx-auto
+              md:grid md:grid-cols-2
+              md:px-6
+              lg:px-8
+              rounded-r-3xl
+            "
+          >
+            <div
+              class="
+                py-12
+                px-4
+                sm:px-6
+                md:flex md:flex-col
+                md:py-16
+                md:pl-0
+                md:pr-10
+                md:border-r md:border-indigo-900
+                lg:pr-16
+              "
+            >
+              <div class="md:flex-shrink-0">
+                <img
+                  class="h-12"
+                  src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg"
+                  alt="Tuple"
+                />
+              </div>
+              <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+                <div
+                  class="relative text-lg font-medium text-white md:flex-grow"
+                >
+                  <svg
+                    class="
+                      absolute
+                      top-0
+                      left-0
+                      transform
+                      -translate-x-3 -translate-y-2
+                      h-8
+                      w-8
+                      text-indigo-600
+                    "
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
                     />
-                  </a>
-                </div> -->
-									<div class="">
-										<div class="flex space-x-1 text-sm text-gray-500">
-											<time :datetime="post.node.datetime">
-												{{ post.node.humanTime }}
-											</time>
-											<span aria-hidden="true"> &middot; </span>
-											<span> {{ post.node.timeToRead }} min read </span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
+                  </svg>
+                  <p class="relative">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo expedita voluptas culpa sapiente alias molestiae.
+                    Numquam corrupti in laborum sed rerum et corporis.
+                  </p>
+                </div>
+                <footer class="mt-8">
+                  <div class="flex items-start">
+                    <div
+                      class="
+                        flex-shrink-0
+                        inline-flex
+                        rounded-full
+                        border-2 border-white
+                      "
+                    >
+                      <img
+                        class="h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ml-4">
+                      <div class="text-base font-medium text-white">
+                        Judith Black
+                      </div>
+                      <div class="text-base font-medium text-indigo-200">
+                        CEO, Tuple
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+            <div
+              class="
+                py-12
+                px-4
+                border-t-2 border-indigo-900
+                sm:px-6
+                md:py-16
+                md:pr-0
+                md:pl-10
+                md:border-t-0 md:border-l
+                lg:pl-16
+              "
+            >
+              <div class="md:flex-shrink-0">
+                <img
+                  class="h-12"
+                  src="https://tailwindui.com/img/logos/workcation-logo-indigo-300.svg"
+                  alt="Workcation"
+                />
+              </div>
+              <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
+                <div
+                  class="relative text-lg font-medium text-white md:flex-grow"
+                >
+                  <svg
+                    class="
+                      absolute
+                      top-0
+                      left-0
+                      transform
+                      -translate-x-3 -translate-y-2
+                      h-8
+                      w-8
+                      text-indigo-600
+                    "
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
+                    />
+                  </svg>
+                  <p class="relative">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo expedita voluptas culpa sapiente alias molestiae.
+                    Numquam corrupti in laborum sed rerum et corporis. Nemo
+                    expedita voluptas culpa sapiente alias molestiae.
+                  </p>
+                </div>
+                <footer class="mt-8">
+                  <div class="flex items-start">
+                    <div
+                      class="
+                        flex-shrink-0
+                        inline-flex
+                        rounded-full
+                        border-2 border-white
+                      "
+                    >
+                      <img
+                        class="h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ml-4">
+                      <div class="text-base font-medium text-white">
+                        Joseph Rodriguez
+                      </div>
+                      <div class="text-base font-medium text-indigo-200">
+                        CEO, Workcation
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </section>
 
-		<div class="relative bg-white pt-16 pb-32 overflow-hidden">
-			<div class="relative">
-				<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-					<div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-						<div>
-							<div>
-								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-									<!-- Heroicon name: outline/inbox -->
-									<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-										/>
-									</svg>
-								</span>
-							</div>
-							<div class="mt-6">
-								<h2 class="text-3xl font-extrabold tracking-tight text-gray-900">Online prodavnica zdrave ishrane</h2>
-								<p class="mt-4 text-lg text-gray-500">
-									Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus
-									ornare pharetra.
-								</p>
-								<div class="mt-6">
-									<a href="/404" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"> Poseti prodavnicu </a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="mt-12 sm:mt-16 lg:mt-0">
-						<div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-							<g-image class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="~/assets/img/shop-pocetna.webp" alt="Inbox user interface" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</Layout>
+        <!-- End testimonial -->
+
+        <!-- Logo cloud section -->
+        <div class="mt-32">
+          <div
+            class="
+              mx-auto
+              max-w-md
+              px-4
+              sm:max-w-3xl
+              sm:px-6
+              lg:px-8
+              lg:max-w-7xl
+            "
+          >
+            <div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
+              <div>
+                <h2
+                  class="
+                    text-3xl
+                    font-extrabold
+                    text-gray-900
+                    tracking-tight
+                    sm:text-4xl
+                  "
+                >
+                  Backed by world-renowned investors
+                </h2>
+                <p class="mt-6 max-w-3xl text-lg leading-7 text-gray-500">
+                  Sagittis scelerisque nulla cursus in enim consectetur quam.
+                  Dictum urna sed consectetur neque tristique pellentesque.
+                  Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc
+                  nisl netus morbi vel porttitor vitae ut. Amet vitae fames
+                  senectus vitae.
+                </p>
+                <div class="mt-6">
+                  <a href="#" class="text-base font-medium text-red-500">
+                    Meet our investors and advisors&nbsp&rarr;
+                  </a>
+                </div>
+              </div>
+              <div
+                class="
+                  mt-12
+                  grid grid-cols-2
+                  gap-0.5
+                  md:grid-cols-3
+                  lg:mt-0
+                  lg:grid-cols-2
+                "
+              >
+                <div
+                  class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+                >
+                  <img
+                    class="max-h-12"
+                    src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
+                    alt="Transistor"
+                  />
+                </div>
+
+                <div
+                  class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+                >
+                  <img
+                    class="max-h-12"
+                    src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
+                    alt="Mirage"
+                  />
+                </div>
+
+                <div
+                  class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+                >
+                  <img
+                    class="max-h-12"
+                    src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
+                    alt="Tuple"
+                  />
+                </div>
+
+                <div
+                  class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+                >
+                  <img
+                    class="max-h-12"
+                    src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
+                    alt="Laravel"
+                  />
+                </div>
+
+                <div
+                  class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+                >
+                  <img
+                    class="max-h-12"
+                    src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
+                    alt="StaticKit"
+                  />
+                </div>
+
+                <div
+                  class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"
+                >
+                  <img
+                    class="max-h-12"
+                    src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
+                    alt="Workcation"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- novo  -->
+        <div class="mt-20">
+          <!-- Header -->
+          <div class="relative pb-32 bg-gray-800">
+            <div class="absolute inset-0">
+              <img
+                class="w-full h-full object-cover"
+                src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-gray-800 mix-blend-multiply"
+                aria-hidden="true"
+              ></div>
+            </div>
+            <div
+              class="
+                relative
+                max-w-7xl
+                mx-auto
+                py-24
+                px-4
+                sm:py-32
+                sm:px-6
+                lg:px-8
+              "
+            >
+              <h1
+                class="
+                  text-4xl
+                  font-extrabold
+                  tracking-tight
+                  text-white
+                  md:text-5xl
+                  lg:text-6xl
+                "
+              >
+                Support
+              </h1>
+              <p class="mt-6 max-w-3xl text-xl text-gray-300">
+                Varius facilisi mauris sed sit. Non sed et duis dui leo,
+                vulputate id malesuada non. Cras aliquet purus dui laoreet diam
+                sed lacus, fames. Dui, amet, nec sit pulvinar.
+              </p>
+            </div>
+          </div>
+
+          <!-- Overlapping cards -->
+          <section
+            class="
+              -mt-32
+              max-w-7xl
+              mx-auto
+              relative
+              z-10
+              pb-32
+              px-4
+              sm:px-6
+              lg:px-8
+            "
+            aria-labelledby="contact-heading"
+          >
+            <h2 class="sr-only" id="contact-heading">Contact us</h2>
+            <div
+              class="
+                grid grid-cols-1
+                gap-y-20
+                lg:grid-cols-3
+                lg:gap-y-0 lg:gap-x-8
+              "
+            >
+              <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+                <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+                  <div
+                    class="
+                      absolute
+                      top-0
+                      p-5
+                      inline-block
+                      bg-indigo-600
+                      rounded-xl
+                      shadow-lg
+                      transform
+                      -translate-y-1/2
+                    "
+                  >
+                    <!-- Heroicon name: outline/phone -->
+                    <svg
+                      class="h-6 w-6 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 class="text-xl font-medium text-gray-900">Sales</h3>
+                  <p class="mt-4 text-base text-gray-500">
+                    Varius facilisi mauris sed sit. Non sed et duis dui leo,
+                    vulputate id malesuada non. Cras aliquet purus dui laoreet
+                    diam sed lacus, fames.
+                  </p>
+                </div>
+                <div
+                  class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8"
+                >
+                  <a
+                    href="#"
+                    class="
+                      text-base
+                      font-medium
+                      text-indigo-700
+                      hover:text-indigo-600
+                    "
+                    >Contact us<span aria-hidden="true"> &rarr;</span></a
+                  >
+                </div>
+              </div>
+
+              <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+                <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+                  <div
+                    class="
+                      absolute
+                      top-0
+                      p-5
+                      inline-block
+                      bg-indigo-600
+                      rounded-xl
+                      shadow-lg
+                      transform
+                      -translate-y-1/2
+                    "
+                  >
+                    <!-- Heroicon name: outline/support -->
+                    <svg
+                      class="h-6 w-6 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 class="text-xl font-medium text-gray-900">
+                    Technical Support
+                  </h3>
+                  <p class="mt-4 text-base text-gray-500">
+                    Varius facilisi mauris sed sit. Non sed et duis dui leo,
+                    vulputate id malesuada non. Cras aliquet purus dui laoreet
+                    diam sed lacus, fames.
+                  </p>
+                </div>
+                <div
+                  class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8"
+                >
+                  <a
+                    href="#"
+                    class="
+                      text-base
+                      font-medium
+                      text-indigo-700
+                      hover:text-indigo-600
+                    "
+                    >Contact us<span aria-hidden="true"> &rarr;</span></a
+                  >
+                </div>
+              </div>
+
+              <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+                <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+                  <div
+                    class="
+                      absolute
+                      top-0
+                      p-5
+                      inline-block
+                      bg-indigo-600
+                      rounded-xl
+                      shadow-lg
+                      transform
+                      -translate-y-1/2
+                    "
+                  >
+                    <!-- Heroicon name: outline/newspaper -->
+                    <svg
+                      class="h-6 w-6 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 class="text-xl font-medium text-gray-900">
+                    Media Inquiries
+                  </h3>
+                  <p class="mt-4 text-base text-gray-500">
+                    Varius facilisi mauris sed sit. Non sed et duis dui leo,
+                    vulputate id malesuada non. Cras aliquet purus dui laoreet
+                    diam sed lacus, fames.
+                  </p>
+                </div>
+                <div
+                  class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8"
+                >
+                  <a
+                    href="#"
+                    class="
+                      text-base
+                      font-medium
+                      text-indigo-700
+                      hover:text-indigo-600
+                    "
+                    >Contact us<span aria-hidden="true"> &rarr;</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- end novo -->
+
+        <!-- blog -->
+
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <div
+          class="
+            relative
+            bg-gray-50
+            pt-16
+            pb-20
+            px-4
+            sm:px-6
+            lg:pt-24
+            lg:pb-28
+            lg:px-8
+          "
+        >
+          <div class="absolute inset-0">
+            <div class="bg-white h-1/3 sm:h-2/3"></div>
+          </div>
+          <div class="relative max-w-7xl mx-auto">
+            <div class="text-center">
+              <h2
+                class="
+                  text-3xl
+                  tracking-tight
+                  font-extrabold
+                  text-gray-900
+                  sm:text-4xl
+                "
+              >
+                From the blog
+              </h2>
+              <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+                libero labore natus atque, ducimus sed.
+              </p>
+            </div>
+            <div
+              class="
+                mt-12
+                max-w-lg
+                mx-auto
+                grid
+                gap-5
+                lg:grid-cols-3
+                lg:max-w-none
+              "
+            >
+              <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                <div class="flex-shrink-0">
+                  <img
+                    class="h-48 w-full object-cover"
+                    src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                  <div class="flex-1">
+                    <p class="text-sm font-medium text-indigo-600">
+                      <a href="#" class="hover:underline"> Article </a>
+                    </p>
+                    <a href="#" class="block mt-2">
+                      <p class="text-xl font-semibold text-gray-900">
+                        Boost your conversion rate
+                      </p>
+                      <p class="mt-3 text-base text-gray-500">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto accusantium praesentium eius, ut atque fuga
+                        culpa, similique sequi cum eos quis dolorum.
+                      </p>
+                    </a>
+                  </div>
+                  <div class="mt-6 flex items-center">
+                    <div class="flex-shrink-0">
+                      <a href="#">
+                        <span class="sr-only">Roel Aufderehar</span>
+                        <img
+                          class="h-10 w-10 rounded-full"
+                          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="ml-3">
+                      <p class="text-sm font-medium text-gray-900">
+                        <a href="#" class="hover:underline">
+                          Roel Aufderehar
+                        </a>
+                      </p>
+                      <div class="flex space-x-1 text-sm text-gray-500">
+                        <time datetime="2020-03-16"> Mar 16, 2020 </time>
+                        <span aria-hidden="true"> &middot; </span>
+                        <span> 6 min read </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                <div class="flex-shrink-0">
+                  <img
+                    class="h-48 w-full object-cover"
+                    src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                  <div class="flex-1">
+                    <p class="text-sm font-medium text-indigo-600">
+                      <a href="#" class="hover:underline"> Video </a>
+                    </p>
+                    <a href="#" class="block mt-2">
+                      <p class="text-xl font-semibold text-gray-900">
+                        How to use search engine optimization to drive sales
+                      </p>
+                      <p class="mt-3 text-base text-gray-500">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit facilis asperiores porro quaerat doloribus,
+                        eveniet dolore. Adipisci tempora aut inventore optio
+                        animi., tempore temporibus quo laudantium.
+                      </p>
+                    </a>
+                  </div>
+                  <div class="mt-6 flex items-center">
+                    <div class="flex-shrink-0">
+                      <a href="#">
+                        <span class="sr-only">Brenna Goyette</span>
+                        <img
+                          class="h-10 w-10 rounded-full"
+                          src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="ml-3">
+                      <p class="text-sm font-medium text-gray-900">
+                        <a href="#" class="hover:underline"> Brenna Goyette </a>
+                      </p>
+                      <div class="flex space-x-1 text-sm text-gray-500">
+                        <time datetime="2020-03-10"> Mar 10, 2020 </time>
+                        <span aria-hidden="true"> &middot; </span>
+                        <span> 4 min read </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                <div class="flex-shrink-0">
+                  <img
+                    class="h-48 w-full object-cover"
+                    src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                  <div class="flex-1">
+                    <p class="text-sm font-medium text-indigo-600">
+                      <a href="#" class="hover:underline"> Case Study </a>
+                    </p>
+                    <a href="#" class="block mt-2">
+                      <p class="text-xl font-semibold text-gray-900">
+                        Improve your customer experience
+                      </p>
+                      <p class="mt-3 text-base text-gray-500">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sint harum rerum voluptatem quo recusandae magni placeat
+                        saepe molestiae, sed excepturi cumque corporis
+                        perferendis hic.
+                      </p>
+                    </a>
+                  </div>
+                  <div class="mt-6 flex items-center">
+                    <div class="flex-shrink-0">
+                      <a href="#">
+                        <span class="sr-only">Daniela Metz</span>
+                        <img
+                          class="h-10 w-10 rounded-full"
+                          src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="ml-3">
+                      <p class="text-sm font-medium text-gray-900">
+                        <a href="#" class="hover:underline"> Daniela Metz </a>
+                      </p>
+                      <div class="flex space-x-1 text-sm text-gray-500">
+                        <time datetime="2020-02-12"> Feb 12, 2020 </time>
+                        <span aria-hidden="true"> &middot; </span>
+                        <span> 11 min read </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end blog -->
+
+        <!-- CTA section -->
+        <div class="relative mt-24 sm:mt-32 sm:py-16">
+          <div aria-hidden="true" class="hidden sm:block">
+            <div
+              class="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl"
+            ></div>
+            <svg
+              class="absolute top-8 left-1/2 -ml-3"
+              width="404"
+              height="392"
+              fill="none"
+              viewBox="0 0 404 392"
+            >
+              <defs>
+                <pattern
+                  id="8228f071-bcee-4ec8-905a-2a059a2cc4fb"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    class="text-gray-200"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="392"
+                fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)"
+              />
+            </svg>
+          </div>
+          <div
+            class="
+              mx-auto
+              max-w-md
+              px-4
+              sm:max-w-3xl
+              sm:px-6
+              lg:max-w-7xl
+              lg:px-8
+            "
+          >
+            <div
+              class="
+                relative
+                rounded-2xl
+                px-6
+                py-10
+                bg-red-500
+                overflow-hidden
+                shadow-xl
+                sm:px-12
+                sm:py-20
+              "
+            >
+              <div
+                aria-hidden="true"
+                class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0"
+              >
+                <svg
+                  class="absolute inset-0 h-full w-full"
+                  preserveAspectRatio="xMidYMid slice"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 1463 360"
+                >
+                  <path
+                    class="text-red-400 text-opacity-40"
+                    fill="currentColor"
+                    d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z"
+                  />
+                  <path
+                    class="text-red-600 text-opacity-40"
+                    fill="currentColor"
+                    d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"
+                  />
+                </svg>
+              </div>
+              <div class="relative">
+                <div class="sm:text-center">
+                  <h2
+                    class="
+                      text-3xl
+                      font-extrabold
+                      text-white
+                      tracking-tight
+                      sm:text-4xl
+                    "
+                  >
+                    Get notified when we&rsquo;re launching.
+                  </h2>
+                  <p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">
+                    Sagittis scelerisque nulla cursus in enim consectetur quam.
+                    Dictum urna sed consectetur neque tristique pellentesque.
+                  </p>
+                </div>
+                <form action="#" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
+                  <div class="min-w-0 flex-1">
+                    <label for="cta-email" class="sr-only">Email address</label>
+                    <input
+                      id="cta-email"
+                      type="email"
+                      class="
+                        block
+                        w-full
+                        border border-transparent
+                        rounded-md
+                        px-5
+                        py-3
+                        text-base text-gray-900
+                        placeholder-gray-500
+                        shadow-sm
+                        focus:outline-none
+                        focus:border-transparent
+                        focus:ring-2
+                        focus:ring-white
+                        focus:ring-offset-2
+                        focus:ring-offset-red-500
+                      "
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div class="mt-4 sm:mt-0 sm:ml-3">
+                    <button
+                      type="submit"
+                      class="
+                        block
+                        w-full
+                        rounded-md
+                        border border-transparent
+                        px-5
+                        py-3
+                        bg-gray-900
+                        text-base
+                        font-medium
+                        text-white
+                        shadow
+                        hover:bg-black
+                        focus:outline-none
+                        focus:ring-2
+                        focus:ring-white
+                        focus:ring-offset-2
+                        focus:ring-offset-red-500
+                        sm:px-10
+                      "
+                    >
+                      Notify me
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer section -->
+      <!-- <footer class="mt-24 bg-gray-900 sm:mt-12">
+        <div
+          class="
+            mx-auto
+            max-w-md
+            py-12
+            px-4
+            overflow-hidden
+            sm:max-w-3xl
+            sm:px-6
+            lg:max-w-7xl
+            lg:px-8
+          "
+        >
+          <nav
+            class="-mx-5 -my-2 flex flex-wrap justify-center"
+            aria-label="Footer"
+          >
+            <div class="px-5 py-2">
+              <a href="#" class="text-base text-gray-400 hover:text-gray-300">
+                About
+              </a>
+            </div>
+
+            <div class="px-5 py-2">
+              <a href="#" class="text-base text-gray-400 hover:text-gray-300">
+                Blog
+              </a>
+            </div>
+
+            <div class="px-5 py-2">
+              <a href="#" class="text-base text-gray-400 hover:text-gray-300">
+                Jobs
+              </a>
+            </div>
+
+            <div class="px-5 py-2">
+              <a href="#" class="text-base text-gray-400 hover:text-gray-300">
+                Press
+              </a>
+            </div>
+
+            <div class="px-5 py-2">
+              <a href="#" class="text-base text-gray-400 hover:text-gray-300">
+                Accessibility
+              </a>
+            </div>
+
+            <div class="px-5 py-2">
+              <a href="#" class="text-base text-gray-400 hover:text-gray-300">
+                Partners
+              </a>
+            </div>
+          </nav>
+          <div class="mt-8 flex justify-center space-x-6">
+            <a href="#" class="text-gray-400 hover:text-gray-300">
+              <span class="sr-only">Facebook</span>
+              <svg
+                class="h-6 w-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-300">
+              <span class="sr-only">Instagram</span>
+              <svg
+                class="h-6 w-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-300">
+              <span class="sr-only">Twitter</span>
+              <svg
+                class="h-6 w-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                />
+              </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-300">
+              <span class="sr-only">GitHub</span>
+              <svg
+                class="h-6 w-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+
+            <a href="#" class="text-gray-400 hover:text-gray-300">
+              <span class="sr-only">Dribbble</span>
+              <svg
+                class="h-6 w-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="mt-8 text-center text-base text-gray-400">
+            &copy; 2020 Workflow, Inc. All rights reserved.
+          </p>
+        </div>
+      </footer> -->
+    </div>
+  </Layout>
 </template>
 
-<page-query>
-query {
-  zdravaHrana:  allPost (filter:{category: {eq: "ishrana"}, pocetna: {eq: true}}  limit: 6) {
- 
-  edges {
-    node {
-       title
-       path
-       excerpt
-      image
-      pocetna  
-			timeToRead
-      featured
-      humanTime: created(format: "DD.MM.YYYY")
-      datetime: created
-    }
-  }
-}
-
- lifestyle:  allPost (filter:{category: {eq: "lifestyle"}, pocetna: {eq: true}}  limit: 6) {
- 
-  edges {
-    node {
-       title
-       path
-       excerpt
-      image
-      pocetna  
-			timeToRead
-      featured
-      humanTime: created(format: "DD.MM.YYYY")
-      datetime: created
-    }
-  }
-}
-  
-   mentalno:  allPost (filter:{category: {eq: "mentalno-zdravlje"}, pocetna: {eq: true}}  limit: 6) {
- 
-  edges {
-    node {
-       title
-       path
-       excerpt
-      image
-      pocetna  
-			timeToRead
-      featured
-      humanTime: created(format: "DD.MM.YYYY")
-      datetime: created
-    }
-  }
-}
-  
-}
-
-
-</page-query>
-
 <script>
-import AllTags from "~/components/AllTags";
 export default {
-	metaInfo() {
-		return {};
-	},
-
-	components: {
-		AllTags,
-	},
+  metaInfo: {
+    title: "Hello, world!",
+  },
 };
 </script>
 
-<style>
-.home-links a {
-	margin-right: 1rem;
-}
-</style>
+
