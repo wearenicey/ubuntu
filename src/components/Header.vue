@@ -288,9 +288,9 @@
 										<h3 class="text-sm tracking-wide font-medium text-gray-500 uppercase">Recent Posts</h3>
 										<ul role="list" class="mt-4 space-y-4">
 											<li v-for="post in $static.blogs.edges" :key="post.node.id" class="text-base truncate">
-												<a href="#" class="font-medium text-gray-900 hover:text-gray-700">
+												<g-link :to="post.node.path" class="font-medium text-gray-900 hover:text-gray-700">
 													{{ post.node.title }}
-												</a>
+												</g-link>
 											</li>
 										</ul>
 									</div>
