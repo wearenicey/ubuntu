@@ -1,10 +1,8 @@
 ---
-title: test
-category: lifestyle
-tags:
-  - kucni budzet
+title: Psihoterapija je...
+category: psihoterapija
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
-created: 2019-01-10
+created: 2021-10-10
 image: slika-2.jpg
 imageTwo:
   path: ./images/slika-1.jpg
@@ -12,6 +10,8 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: true
+pocetna: true
+path: psihoterapija-one
 ---
 
 # Viro mihi egit colantur devorat aethera

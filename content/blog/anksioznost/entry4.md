@@ -1,8 +1,6 @@
 ---
-title: Test test
-category: zdravlje
-tags:
-  - detoks
+title: Alooo
+category: anksioznost
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2019-01-10
 image: slika-3.jpg
@@ -12,6 +10,8 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: true
+pocetna: true
+path: aksioznost-tu
 ---
 
 ## Ossa narrat sortita fecerat sit conataque

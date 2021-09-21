@@ -17,18 +17,7 @@ module.exports = {
 	siteName: 'Gridsome',
 	plugins: [
 
-		{
-			use: '@gridsome/source-filesystem',
-			options: {
-				typeName: 'Author',
-				path: './content/author/*.md',
-				refs: {
-					posts: {
-						typeName: 'Post',
-					},
-				},
-			}
-		},
+
 		{
 			use: '@gridsome/source-filesystem',
 			options: {
@@ -45,11 +34,7 @@ module.exports = {
 
 
 				refs: {
-					author: 'Author',
-					tags: {
-						typeName: 'Tag',
-						create: true,
-					},
+				
 					category: {
 						typeName: 'Category',
 						create: true
@@ -58,24 +43,12 @@ module.exports = {
 			},
 
 		},
-		{
-			use: "gridsome-plugin-recommender",
-			options: {
-				enabled: true,
-				debug: true,
-				typeName: 'Post',
-				field: 'tag',
-				relatedFieldName: 'related',
-				minScore: 0.1,
-				maxRelations: 3,
-
-			}
-		}
+		
+		
 
 	],
 	templates: {
 		Post: '/blog/:path',
-		Tag: '/kategorija/:slug',
 
 		Category: [
 			{
