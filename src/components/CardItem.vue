@@ -53,7 +53,7 @@
 </template>
 <static-query>
 	query {
-  pocetna:  allPost (filter:{pocetna: {eq: true}}  limit: 3) {
+  pocetna:  allPost (limit: 3) {
  
   edges {
     node {
