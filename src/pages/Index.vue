@@ -394,6 +394,7 @@
 		<!-- end novo -->
 
 		<!-- blog -->
+		<CardItem />
 
 		<!-- This example requires Tailwind CSS v2.0+ -->
 
