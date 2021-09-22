@@ -245,7 +245,7 @@
 		</div>
 
 		<!-- Blog section -->
-		<div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
+		<!-- <div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
 			<div class="relative">
 				<div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 					<h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Learn</h2>
@@ -298,7 +298,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<!-- CTA Section -->
 		<div class="relative bg-gray-900">
@@ -330,35 +330,3 @@
 		</div>
 	</Layout>
 </template>
-
-<static-query> 
-query {
-  karijera:  allPost (filter:{pocetna: {eq: true}}  limit: 3) {
- 
-  edges {
-    node {
-      category {
-        id
-      }
-       title
-       path
-       excerpt
-      image
-      pocetna  
-			timeToRead
-      featured
-      humanTime: created(format: "DD.MM.YYYY")
-      datetime: created
-     author {
-      image
-      name   
-    }
-    }
-  }
-}
-  
-  
-  
-}
-
-</static-query>
