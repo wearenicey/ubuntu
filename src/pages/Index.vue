@@ -396,14 +396,144 @@
 		<!-- blog -->
 
 		<!-- This example requires Tailwind CSS v2.0+ -->
+		<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+			<div class="absolute inset-0">
+				<div class="bg-white h-1/3 sm:h-2/3"></div>
+			</div>
+			<div class="relative max-w-7xl mx-auto">
+				<div class="text-center">
+					<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">From the blog</h2>
+					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
+				</div>
+				<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+					<div v-for="post in $static.pocetna.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+						<a :href="post.node.path">
+							<div class="flex-shrink-0">
+								<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
+							</div>
+							<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+								<div class="flex-1">
+									<p class="text-sm font-medium text-indigo-600">
+										<a :href="post.node.path" class="hover:underline"> </a>
+									</p>
+									<a :href="post.node.path" class="block mt-2">
+										<p class="text-xl font-semibold text-gray-900">
+											{{ post.node.title }}
+										</p>
+										<p class="mt-3 text-base text-gray-500">
+											{{ post.node.excerpt }}
+										</p>
+									</a>
+								</div>
+								<div class="mt-6 flex items-center">
+									<!-- <div class="flex-shrink-0">
+                  <a :href="post.author.href">
+                    <span class="sr-only">{{ post.author.name }}</span>
+                    <img
+                      class="h-10 w-10 rounded-full"
+                      :src="post.author.imageUrl"
+                      alt=""
+                    />
+                  </a>
+                </div> -->
+									<div class="">
+										<div class="flex space-x-1 text-sm text-gray-500">
+											<time :datetime="post.node.datetime">
+												{{ post.node.humanTime }}
+											</time>
+											<span aria-hidden="true"> &middot; </span>
+											<span> {{ post.node.timeToRead }} min read </span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- end blog -->
 
 		<!-- CTA section -->
+		<div class="relative mt-24 sm:mt-32 sm:py-16">
+			<div aria-hidden="true" class="hidden sm:block">
+				<div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl"></div>
+				<svg class="absolute top-8 left-1/2 -ml-3" width="404" height="392" fill="none" viewBox="0 0 404 392">
+					<defs>
+						<pattern id="8228f071-bcee-4ec8-905a-2a059a2cc4fb" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+							<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+						</pattern>
+					</defs>
+					<rect width="404" height="392" fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" />
+				</svg>
+			</div>
+			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+				<div class="relative rounded-2xl px-6 py-10 bg-red-500 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+					<div aria-hidden="true" class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
+						<svg class="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360">
+							<path class="text-red-400 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
+							<path class="text-red-600 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
+						</svg>
+					</div>
+					<div class="relative">
+						<div class="sm:text-center">
+							<h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Get notified when we&rsquo;re launching.</h2>
+							<p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque.</p>
+						</div>
+						<form action="#" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
+							<div class="min-w-0 flex-1">
+								<label for="cta-email" class="sr-only">Email address</label>
+								<input
+									id="cta-email"
+									type="email"
+									class="
+										block
+										w-full
+										border border-transparent
+										rounded-md
+										px-5
+										py-3
+										text-base text-gray-900
+										placeholder-gray-500
+										shadow-sm
+										focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-500
+									"
+									placeholder="Enter your email"
+								/>
+							</div>
+							<div class="mt-4 sm:mt-0 sm:ml-3">
+								<button
+									type="submit"
+									class="
+										block
+										w-full
+										rounded-md
+										border border-transparent
+										px-5
+										py-3
+										bg-gray-900
+										text-base
+										font-medium
+										text-white
+										shadow
+										hover:bg-black
+										focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-500
+										sm:px-10
+									"
+								>
+									Notify me
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 	</Layout>
 </template>
 
-<page-query>
+<static-query>
 	query {
   pocetna:  allPost (filter:{pocetna: {eq: true}}  limit: 3) {
  
@@ -423,7 +553,7 @@
 }
 }
 
-</page-query>
+</static-query>
 
 <script>
 export default {

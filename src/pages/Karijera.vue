@@ -253,7 +253,7 @@
 					<p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.</p>
 				</div>
 				<div class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
-					<div v-for="post in $page.karijera.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+					<div v-for="post in $static.karijera.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<a :href="post.node.path">
 							<div class="flex-shrink-0">
 								<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
@@ -331,7 +331,7 @@
 	</Layout>
 </template>
 
-<page-query> 
+<static-query> 
 query {
   karijera:  allPost (filter:{pocetna: {eq: true}}  limit: 3) {
  
@@ -361,4 +361,4 @@ query {
   
 }
 
-</page-query>
+</static-query>
