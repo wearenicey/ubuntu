@@ -200,7 +200,7 @@
 								</div>
 							</dl>
 							<div class="mt-10">
-								<a href="#" class="text-base font-medium text-red-500"> Learn more about how we're changing the world&nbsp&rarr; </a>
+								<a href="#" class="text-base font-medium text-red-500"> Learn more about how we're changing the  </a>
 							</div>
 						</div>
 					</div>
@@ -281,7 +281,7 @@
 								Amet vitae fames senectus vitae.
 							</p>
 							<div class="mt-6">
-								<a href="#" class="text-base font-medium text-red-500"> Meet our investors and advisors&nbsp&rarr; </a>
+								<a href="#" class="text-base font-medium text-red-500"> Meet our investors and </a>
 							</div>
 						</div>
 						<div class="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
