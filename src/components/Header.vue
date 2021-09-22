@@ -2,7 +2,7 @@
 	<div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
 		<div class="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
 			<div>
-				<a href="#" class="flex">
+				<a href="/" class="flex">
 					<span class="sr-only">Workflow</span>
 					<img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
 				</a>
@@ -167,7 +167,7 @@
 						>
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-									<a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a href="/zasto-ubuntu/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/chart-bar -->
 										<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
@@ -183,7 +183,7 @@
 										</div>
 									</a>
 
-									<a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a href="/karijera/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/cursor-click -->
 										<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -409,9 +409,9 @@
 				</div>
 				<div class="py-6 px-5 space-y-6">
 					<div class="grid grid-cols-2 gap-y-4 gap-x-8">
-						<a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Zašto Ubuntu? </a>
+						<a href="/zasto-ubuntu/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Zašto Ubuntu? </a>
 
-						<a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Karijera </a>
+						<a href="/karijera/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Karijera </a>
 
 						<a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Edukacije </a>
 

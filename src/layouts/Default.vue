@@ -1,8 +1,9 @@
 <template>
-  <div class="layout">
-    <Header></Header>
-    <slot />
-  </div>
+	<div class="layout">
+		<Header></Header>
+		<slot />
+		<Footer></Footer>
+	</div>
 </template>
 
 <static-query>
@@ -15,13 +16,15 @@ query {
 
 <script>
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default {
-  metaInfo: {
-    title: "Learn something new",
-  },
-  components: {
-    Header,
-  },
+	metaInfo: {
+		title: "Learn something new",
+	},
+	components: {
+		Header,
+		Footer,
+	},
 };
 </script>
