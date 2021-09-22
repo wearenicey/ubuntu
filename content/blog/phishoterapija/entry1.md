@@ -4,9 +4,7 @@ category: psihoterapija
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2021-10-10
 image: slika-2.jpg
-imageTwo:
-  path: ./images/slika-1.jpg
-  alt: "A colorful building against a blue sky background"
+
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: true
