@@ -183,7 +183,7 @@
 										</div>
 									</a>
 
-									<a href="/karijera/" @click="reloadPage" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a href="/karijera/"  class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/cursor-click -->
 										<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -261,7 +261,7 @@
 										</div>
 									</g-link>
 
-									<g-link to="/anksioznost/" @click="reloadPage" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<g-link to="/anksioznost/"  class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/bookmark-alt -->
 										<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -272,7 +272,7 @@
 										</div>
 									</g-link>
 
-									<g-link to="/psihoterapija/" @click="reloadPage" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<g-link to="/psihoterapija/"  class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/calendar -->
 										<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -455,9 +455,7 @@ export default {
 		return {};
 	},
 	methods: {
-		reloadPage() {
-			window.location.reload();
-		},
+,
 	},
 };
 </script>
