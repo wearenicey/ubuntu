@@ -449,7 +449,7 @@ query {
 
 <script>
 export default {
-	name: "Navigation",
+	name: "Header",
 
 	data() {
 		return {};
