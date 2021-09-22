@@ -25,6 +25,7 @@ module.exports = {
 				path: './content/category/*.md'
 			}
 		},
+
 		{
 			use: '@gridsome/source-filesystem',
 			options: {
@@ -53,11 +54,32 @@ module.exports = {
 
 		},
 
+		{
+			use: '@gridsome/source-filesystem',
+			options: {
+				typeName: 'Blog',
+				path: './content/blog/**/**/*.md',
+
+
+				refs: {
+					author: 'Author',
+
+
+					category: {
+						typeName: 'Category',
+						create: true
+					}
+				}
+			},
+
+		},
+
 
 
 	],
 	templates: {
 		Post: '/blog/:path',
+		Blog: '/blog/',
 
 		Category: [
 			{
