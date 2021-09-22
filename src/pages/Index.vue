@@ -312,18 +312,151 @@
 					</div>
 				</div>
 			</div>
-		
+			<!-- novo  -->
+			<div class="mt-20">
+				<!-- Header -->
+				<div class="relative pb-32 bg-gray-800">
+					<div class="absolute inset-0">
+						<img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt="" />
+						<div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
+					</div>
+					<div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+						<h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Support</h1>
+						<p class="mt-6 max-w-3xl text-xl text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+					</div>
+				</div>
+
+				<!-- Overlapping cards -->
+				<section class="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
+					<h2 class="sr-only" id="contact-heading">Contact us</h2>
+					<div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+						<div class="flex flex-col bg-white rounded-2xl shadow-xl">
+							<div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+								<div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+									<!-- Heroicon name: outline/phone -->
+									<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+										/>
+									</svg>
+								</div>
+								<h3 class="text-xl font-medium text-gray-900">Sales</h3>
+								<p class="mt-4 text-base text-gray-500">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.</p>
+							</div>
+							<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+								<a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Contact us<span aria-hidden="true"> &rarr;</span></a>
+							</div>
+						</div>
+
+						<div class="flex flex-col bg-white rounded-2xl shadow-xl">
+							<div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+								<div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+									<!-- Heroicon name: outline/support -->
+									<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
+										/>
+									</svg>
+								</div>
+								<h3 class="text-xl font-medium text-gray-900">Technical Support</h3>
+								<p class="mt-4 text-base text-gray-500">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.</p>
+							</div>
+							<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+								<a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Contact us<span aria-hidden="true"> &rarr;</span></a>
+							</div>
+						</div>
+
+						<div class="flex flex-col bg-white rounded-2xl shadow-xl">
+							<div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+								<div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+									<!-- Heroicon name: outline/newspaper -->
+									<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+									</svg>
+								</div>
+								<h3 class="text-xl font-medium text-gray-900">Media Inquiries</h3>
+								<p class="mt-4 text-base text-gray-500">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.</p>
+							</div>
+							<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+								<a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Contact us<span aria-hidden="true"> &rarr;</span></a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
 
 			<!-- end novo -->
 
 			<!-- blog -->
 
 			<!-- This example requires Tailwind CSS v2.0+ -->
-	
+			<div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+				<div class="absolute inset-0">
+					<div class="bg-white h-1/3 sm:h-2/3"></div>
+				</div>
+				<div class="relative max-w-7xl mx-auto">
+					<div class="text-center">
+						<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">From the blog</h2>
+						<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
+					</div>
+					<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+						<div v-for="post in $page.pocetna.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+							<a :href="post.node.path">
+								<div class="flex-shrink-0">
+									<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
+								</div>
+								<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+									<div class="flex-1">
+										<p class="text-sm font-medium text-indigo-600">
+											<a :href="post.node.path" class="hover:underline"> </a>
+										</p>
+										<a :href="post.node.path" class="block mt-2">
+											<p class="text-xl font-semibold text-gray-900">
+												{{ post.node.title }}
+											</p>
+											<p class="mt-3 text-base text-gray-500">
+												{{ post.node.excerpt }}
+											</p>
+										</a>
+									</div>
+									<div class="mt-6 flex items-center">
+										<!-- <div class="flex-shrink-0">
+                  <a :href="post.author.href">
+                    <span class="sr-only">{{ post.author.name }}</span>
+                    <img
+                      class="h-10 w-10 rounded-full"
+                      :src="post.author.imageUrl"
+                      alt=""
+                    />
+                  </a>
+                </div> -->
+										<div class="">
+											<div class="flex space-x-1 text-sm text-gray-500">
+												<time :datetime="post.node.datetime">
+													{{ post.node.humanTime }}
+												</time>
+												<span aria-hidden="true"> &middot; </span>
+												<span> {{ post.node.timeToRead }} min read </span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<!-- end blog -->
 
-		
+			<!-- CTA section -->
+			
 	</Layout>
 </template>
 
