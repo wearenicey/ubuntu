@@ -64,11 +64,6 @@ module.exports = {
 				refs: {
 					author: 'Author',
 
-
-					category: {
-						typeName: 'Category',
-						create: true
-					}
 				}
 			},
 
