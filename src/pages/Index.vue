@@ -394,6 +394,9 @@
 		<!-- end novo -->
 
 		<!-- blog -->
+		<div>
+			<CardItem />
+		</div>
 
 		<!-- This example requires Tailwind CSS v2.0+ -->
 
@@ -473,10 +476,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div>
-			<CardItem />
 		</div>
 	</Layout>
 </template>
