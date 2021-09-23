@@ -1,5 +1,5 @@
 {
-	"name": "my-gridsome-site",
+	"name": "ubuntu",
 	"private": true,
 	"scripts": {
 		"develop": "gridsome develop",
@@ -20,7 +20,7 @@
 	},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^3.0.0",
-		"postcss": "^7.0.35",
+		"postcss": "^7.0.36",
 		"prettier": "2.4.0"
 	}
 }
