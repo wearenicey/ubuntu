@@ -1,6 +1,7 @@
 {
-	"formatFiles.excludedFolders": ["node_modules", ".vscode", ".git", "dist", "cache", ".idea", ".chrome"],
+	"formatFiles.excludedFolders": ["node_modules", ".vscode", ".git", "dist", "cache", ".idea", ".chrome", "js", "assets", "scss"],
 	"formatFiles.useGitIgnore": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
