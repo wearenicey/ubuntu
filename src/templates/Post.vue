@@ -25,11 +25,10 @@
 export default {
 	metaInfo() {
 		return {
-			title: this.$page.post.title,
-			titleTemplate: this.$page.post.title,
+			title: "TEST",
+			titleTemplate: "TEST",
 
 			meta: [{ name: "description", content: this.$page.post.excerpt }],
-			// link: [{ rel: "canonical", href: `https://www.alojanaklik.rs/proizvodi` }],
 
 			// etc...
 		};
@@ -40,6 +39,7 @@ export default {
 <page-query>
   query Post ($path: String!) {
   post: post (path: $path) {
+		name
       title
 			category {
 			title

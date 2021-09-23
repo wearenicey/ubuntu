@@ -10,6 +10,7 @@ author: author1
 featured: true
 pocetna: true
 path: psihoterapija-one
+name: test
 ---
 
 # Viro mihi egit colantur devorat aethera

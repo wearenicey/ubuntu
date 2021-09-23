@@ -12,6 +12,7 @@ author: author1
 featured: true
 pocetna: true
 path: aksioznost-tu
+name: Aloo
 ---
 
 ## Ossa narrat sortita fecerat sit conataque

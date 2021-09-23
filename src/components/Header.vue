@@ -309,7 +309,7 @@
           </a> -->
 				</nav>
 				<div class="flex items-center md:ml-12">
-					<a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Donacije </a>
+					<a href="/donacije/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Donacije </a>
 					<a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
 				</div>
 			</div>
@@ -421,7 +421,7 @@
 						<a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
 						<p class="mt-6 text-center text-base font-medium text-gray-500">
 							Želite da pomognete?
-							<a href="#" class="text-indigo-600 hover:text-indigo-500"> Donirajte </a>
+							<a href="/donacije/" class="text-indigo-600 hover:text-indigo-500"> Donirajte </a>
 						</p>
 					</div>
 				</div>
