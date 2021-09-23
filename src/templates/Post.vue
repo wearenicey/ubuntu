@@ -25,10 +25,10 @@
 export default {
 	metaInfo() {
 		return {
-			title: this.$page.event.title,
-			titleTemplate: this.$page.event.title,
+			title: this.$page.post.title,
+			titleTemplate: this.$page.post.title,
 
-			meta: [{ name: "description", content: this.$page.event.excerpt }],
+			meta: [{ name: "description", content: this.$page.post.excerpt }],
 			// link: [{ rel: "canonical", href: `https://www.alojanaklik.rs/proizvodi` }],
 
 			// etc...
