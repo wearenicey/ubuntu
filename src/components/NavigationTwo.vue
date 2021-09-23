@@ -18,7 +18,7 @@
 						Pišite nam
 					</a>
 					<a
-						href="tel:+381658286881"
+						href="tel:+38158286883"
 						class="
 							ml-6
 							inline-flex
@@ -36,7 +36,7 @@
 							focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
 						"
 					>
-						065 8286881
+						065 8286883
 					</a>
 				</div>
 			</div>

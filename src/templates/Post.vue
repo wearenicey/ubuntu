@@ -23,6 +23,17 @@
 
 <script>
 export default {
+	metaInfo() {
+		return {
+			title: this.$page.event.title,
+			titleTemplate: this.$page.event.title,
+
+			meta: [{ name: "description", content: this.$page.event.excerpt }],
+			// link: [{ rel: "canonical", href: `https://www.alojanaklik.rs/proizvodi` }],
+
+			// etc...
+		};
+	},
 	components: {},
 };
 </script>
