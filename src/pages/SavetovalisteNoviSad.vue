@@ -390,13 +390,17 @@
 							<h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
 							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
-									<label for="form-name" class="block text-sm font-medium text-gray-900">First name</label>
+									<input type="hidden" name="form-name" value="contact" />
+									<p hidden>
+										<label> Don’t fill this out: <input name="bot-field" /> </label>
+									</p>
+									<label for="name" class="block text-sm font-medium text-gray-900">First name</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
 											class="form-group py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
 											type="text"
-											name="form-name"
+											name="name"
 											id="name"
 											:invalid="$v.formData.name.$error"
 											v-model="$v.formData.name.$model"
