@@ -461,7 +461,7 @@
 										/>
 									</div>
 								</div>
-								<input type="hidden" id="custId" name="Grad" value="Novi Sad" v-model="formData.city" />
+								<input type="hidden" id="city" name="city" v-model="formData.city" />
 
 								<div class="sm:col-span-2">
 									<label for="subject" class="block text-sm font-medium text-gray-900">Subject</label>
