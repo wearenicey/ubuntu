@@ -461,6 +461,8 @@
 										/>
 									</div>
 								</div>
+								 <input type="hidden" id="custId" name="Grad" value="Novi Sad" v-model="formData.city">
+
 								<div class="sm:col-span-2">
 									<label for="subject" class="block text-sm font-medium text-gray-900">Subject</label>
 									<div class="mt-1">
@@ -574,6 +576,7 @@ export default {
 				phone: "",
 				message: "",
 				subject: "",
+				city: "",
 			},
 		};
 	},
