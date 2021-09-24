@@ -16,7 +16,8 @@
 		"autoprefixer": "^9.8.6",
 		"gridsome": "^0.7.0",
 		"gridsome-plugin-recommender": "^1.1.5",
-		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14",
+		"vuelidate": "^0.7.6"
 	},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^3.0.0",

@@ -388,14 +388,25 @@
 						<!-- Contact form -->
 						<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
 							<h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
-							<form action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
 								<div>
-									<label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
+									<label for="form-name" class="block text-sm font-medium text-gray-900">First name</label>
 									<div class="mt-1">
-										<input type="text" name="first-name" id="first-name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
+										<input
+											:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
+											class="form-group py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											type="text"
+											name="form-name"
+											id="name"
+											:invalid="$v.formData.name.$error"
+											v-model="$v.formData.name.$model"
+										/>
+										<div class="p-5">
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Name is required</p>
+										</div>
 									</div>
 								</div>
-								<div>
+								<!-- <div>
 									<label for="last-name" class="block text-sm font-medium text-gray-900">Last name</label>
 									<div class="mt-1">
 										<input type="text" name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
@@ -404,7 +415,7 @@
 								<div>
 									<label for="email" class="block text-sm font-medium text-gray-900">Email</label>
 									<div class="mt-1">
-										<input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
+										<input id="email" name="email" type="email" autocomplete="email" v-model="email" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
 									</div>
 								</div>
 								<div>
@@ -443,32 +454,40 @@
 											aria-describedby="message-max"
 										></textarea>
 									</div>
-								</div>
-								<div class="sm:col-span-2 sm:flex sm:justify-end">
-									<button
-										type="submit"
-										class="
-											mt-2
-											w-full
-											inline-flex
-											items-center
-											justify-center
-											px-6
-											py-3
-											border border-transparent
-											rounded-md
-											shadow-sm
-											text-base
-											font-medium
-											text-white
-											bg-indigo-600
-											hover:bg-indigo-700
-											focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-											sm:w-auto
-										"
-									>
-										Submit
-									</button>
+								</div> -->
+								<div class="sm:col-span-2 flex flex-wrap content-center sm:flex sm:justify-end p-5">
+									<div class="p-5">
+										<p class="typo__p" v-if="formData.submitStatus === 'OK'">Thanks for your submission!</p>
+										<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Please fill the form correctly.</p>
+										<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Sending...</p>
+									</div>
+									<div>
+										<button
+											:disabled="formData.submitStatus === 'PENDING'"
+											type="submit"
+											class="
+												mt-2
+												w-full
+												inline-flex
+												items-center
+												justify-center
+												px-6
+												py-3
+												border border-transparent
+												rounded-md
+												shadow-sm
+												text-base
+												font-medium
+												text-white
+												bg-indigo-600
+												hover:bg-indigo-700
+												focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
+												sm:w-auto
+											"
+										>
+											Submit
+										</button>
+									</div>
 								</div>
 							</form>
 						</div>
@@ -476,6 +495,7 @@
 				</div>
 			</div>
 		</div>
+
 		<footer-landing></footer-landing>
 	</div>
 </template>
@@ -483,22 +503,69 @@
 <script>
 import Navigation from "../components/Navigation";
 import FooterLanding from "../components/FooterLanding.vue";
+import { required } from "vuelidate/lib/validators";
 
 export default {
-metaInfo: {
-    title: "Savetovalište Novi Sad | Ubuntu",
-    meta: [
-      {
-        name: "title",
-        content: "Savetovalište Novi Sad  | Ubuntu",
-      },
-      {
-        name: "description",
-        content:
-          "Savetovaliste je...",
-      },
-    ],
-  },
+	metaInfo: {
+		title: "Savetovalište Novi Sad | Ubuntu",
+		meta: [
+			{
+				name: "title",
+				content: "Savetovalište Novi Sad  | Ubuntu",
+			},
+			{
+				name: "description",
+				content: "Savetovaliste je...",
+			},
+		],
+	},
+
+	data() {
+		return {
+			formData: {
+				name: "",
+				age: 0,
+				submitStatus: null,
+			},
+		};
+	},
+
+	validations: {
+		formData: {
+			name: {
+				required,
+			},
+		},
+	},
+	methods: {
+		encode(data) {
+			return Object.keys(data)
+				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+				.join("&");
+		},
+		submit(e) {
+			console.log("submit!");
+			this.$v.$touch();
+			if (this.$v.formData.$invalid) {
+				this.formData.submitStatus = "ERROR";
+			} else {
+				fetch("/", {
+					method: "POST",
+					headers: { "Content-Type": "application/x-www-form-urlencoded" },
+					body: this.encode({
+						"form-name": e.target.getAttribute("name"),
+						...this.formData,
+					}),
+				});
+				// do your submit logic here
+				this.formData.submitStatus = "PENDING";
+				setTimeout(() => {
+					this.formData.submitStatus = "OK";
+				}, 500);
+			}
+		},
+	},
+
 	components: {
 		Navigation,
 		FooterLanding,
