@@ -388,7 +388,7 @@
 						<!-- Contact form -->
 						<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
 							<h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
-							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
 									<label for="form-name" class="block text-sm font-medium text-gray-900">First name</label>
 									<div class="mt-1">
