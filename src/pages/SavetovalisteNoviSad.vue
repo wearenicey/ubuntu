@@ -410,16 +410,38 @@
 										</div>
 									</div>
 								</div>
-								<!-- <div>
-									<label for="last-name" class="block text-sm font-medium text-gray-900">Last name</label>
+								<div>
+									<label for="last" class="block text-sm font-medium text-gray-900">Last name</label>
 									<div class="mt-1">
-										<input type="text" name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
+										<input
+											:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
+											type="text"
+											name="last"
+											id="last"
+											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											:invalid="$v.formData.last.$error"
+											v-model="$v.formData.last.$model"
+										/>
+										<div class="p-5">
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Last Name is required</p>
+										</div>
 									</div>
 								</div>
 								<div>
 									<label for="email" class="block text-sm font-medium text-gray-900">Email</label>
 									<div class="mt-1">
-										<input id="email" name="email" type="email" autocomplete="email" v-model="email" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
+										<input
+											:class="{ 'form-group--error border border-red-500': $v.formData.email.$error }"
+											id="email"
+											name="email"
+											type="email"
+											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											:invalid="$v.formData.email.$error"
+											v-model="$v.formData.email.$model"
+										/>
+										<div class="p-5">
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.email.$error">Unesite isrpavnu email adresu</p>
+										</div>
 									</div>
 								</div>
 								<div>
@@ -429,6 +451,7 @@
 									</div>
 									<div class="mt-1">
 										<input
+											v-model="formData.phone"
 											type="text"
 											name="phone"
 											id="phone"
@@ -441,7 +464,18 @@
 								<div class="sm:col-span-2">
 									<label for="subject" class="block text-sm font-medium text-gray-900">Subject</label>
 									<div class="mt-1">
-										<input type="text" name="subject" id="subject" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
+										<input
+											:class="{ 'form-group--error border border-red-500': $v.formData.subject.$error }"
+											type="text"
+											name="subject"
+											id="subject"
+											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											:invalid="$v.formData.subject.$error"
+											v-model="$v.formData.subject.$model"
+										/>
+										<div class="p-5">
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.subject.$error">Unesite naslov</p>
+										</div>
 									</div>
 								</div>
 								<div class="sm:col-span-2">
@@ -451,14 +485,20 @@
 									</div>
 									<div class="mt-1">
 										<textarea
+											:class="{ 'form-group--error border border-red-500': $v.formData.message.$error }"
 											id="message"
 											name="message"
 											rows="4"
 											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
 											aria-describedby="message-max"
+											:invalid="$v.formData.message.$error"
+											v-model="$v.formData.message.$model"
 										></textarea>
+										<div class="p-5">
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.message.$error">Unesite poruke</p>
+										</div>
 									</div>
-								</div> -->
+								</div>
 								<div class="sm:col-span-2 flex flex-wrap content-center sm:flex sm:justify-end p-5">
 									<div class="p-5">
 										<p class="typo__p" v-if="formData.submitStatus === 'OK'">Thanks for your submission!</p>
@@ -507,7 +547,7 @@
 <script>
 import Navigation from "../components/Navigation";
 import FooterLanding from "../components/FooterLanding.vue";
-import { required } from "vuelidate/lib/validators";
+import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
@@ -528,8 +568,12 @@ export default {
 		return {
 			formData: {
 				name: "",
-				age: 0,
+				last: "",
+				email: "",
 				submitStatus: null,
+				phone: "",
+				message: "",
+				subject: "",
 			},
 		};
 	},
@@ -537,6 +581,19 @@ export default {
 	validations: {
 		formData: {
 			name: {
+				required,
+			},
+			last: {
+				required,
+			},
+			email: {
+				required,
+				email,
+			},
+			message: {
+				required,
+			},
+			subject: {
 				required,
 			},
 		},
