@@ -508,7 +508,7 @@
 														class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
 													>
 														<span>Upload a file</span>
-														<input id="files" type="file" name="files" @change="processFile($event)" class="sr-only" />
+														<input id="file-upload" name="file-upload" type="file" @change="processFile($event)" class="sr-only" />
 													</label>
 													<p class="pl-1">or drag and drop</p>
 												</div>
@@ -517,6 +517,7 @@
 										</div>
 									</div>
 								</div>
+
 								<div class="sm:col-span-2 flex flex-wrap content-center sm:flex sm:justify-end p-5">
 									<div class="p-5">
 										<p class="typo__p" v-if="formData.submitStatus === 'OK'">Thanks for your submission!</p>
@@ -576,7 +577,7 @@ export default {
 				email: "",
 				submitStatus: null,
 				phone: "",
-				files: {},
+				files: "",
 				subject: "",
 			},
 		};
@@ -621,21 +622,28 @@ export default {
 		},
 
 		submit(e) {
-			fetch("/", {
-				method: "POST",
-				body: this.encode({
-					"form-name": e.target.getAttribute("name"),
-					...this.formData,
-				}),
-			})
-				.then(
-					() => (this.formData.submitStatus = "PENDING"),
+			console.log("submit!");
+			this.$v.$touch();
+			if (this.$v.formData.$invalid) {
+				this.formData.submitStatus = "ERROR";
+			} else {
+				fetch("/", {
+					method: "POST",
+					headers: { "Content-Type": "application/x-www-form-urlencoded" },
+					body: this.encode({
+						"form-name": e.target.getAttribute("name"),
+						...this.formData,
+					}),
+				})
+					.then(
+						() => (this.formData.submitStatus = "PENDING"),
 
-					setTimeout(() => {
-						this.formData.submitStatus = "OK";
-					}, 500)
-				)
-				.catch((error) => alert(error));
+						setTimeout(() => {
+							this.formData.submitStatus = "OK";
+						}, 500)
+					)
+					.catch((error) => alert(error));
+			}
 		},
 	},
 	components: {
