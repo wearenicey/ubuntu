@@ -387,19 +387,9 @@
 						<!-- Contact form -->
 						<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
 							<h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
-							<form
-								class="form mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
-								id="sign-up"
-								name="sign-up"
-								method="POST"
-								netlify-honeypot="bot-field"
-								data-netlify="true"
-								novalidate
-								enctype="multipart/form-data"
-								@submit.prevent="submit"
-							>
+							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" id="sign-up" name="sign-up" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
-									<input type="hidden" name="form-name" value="contact" />
+									<input type="hidden" name="form-name" value="sign-up" />
 									<p hidden>
 										<label> Don’t fill this out: <input name="bot-field" /> </label>
 									</p>
