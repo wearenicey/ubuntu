@@ -279,6 +279,16 @@
 				</div>
 			</div>
 		</div>
+
+		<div>
+			<form id="sign-up" class="form" name="sign-up" method="POST" netlify-honeypot="bot-field" data-netlify="true" novalidate enctype="multipart/form-data" @submit.prevent="submit">
+				<label for="files">
+					Add file
+					<input id="files" type="file" name="files" @change="processFile($event)" />
+				</label>
+				<input type="submit" value="Submit" class="submit" :disabled="submitStatus === 'PENDING'" :aria-disabled="submitStatus === 'PENDING'" />
+			</form>
+		</div>
 	</Layout>
 </template>
 <script>
@@ -286,6 +296,43 @@ import CardItem from "../components/CardItem.vue";
 export default {
 	metaInfo: {
 		title: "Karijera | Ubuntu ",
+	},
+
+	data() {
+		return {
+			formData: {},
+		};
+	},
+	methods: {
+		processFile() {
+			this.formData.files = event.target.files;
+		},
+
+		encode(data) {
+			const formData = new FormData();
+			for (const key of Object.keys(data)) {
+				if (key === "files") {
+					formData.append(key, data[key][0]);
+				} else {
+					formData.append(key, data[key]);
+				}
+			}
+			return formData;
+		},
+
+		submit(e) {
+			fetch("/", {
+				method: "POST",
+				body: this.encode({
+					"form-name": e.target.getAttribute("name"),
+					...this.formData,
+				}),
+			})
+				.then((res) => {
+					res.json();
+				})
+				.catch((err) => alert(err));
+		},
 	},
 	components: {
 		CardItem,
