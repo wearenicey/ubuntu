@@ -624,6 +624,8 @@ export default {
 				})
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
+						e.target.reset(),
+
 						setTimeout(() => {
 							this.formData.submitStatus = "OK";
 							this.formData = {
@@ -636,7 +638,7 @@ export default {
 								subject: "",
 								city: "Online",
 							};
-						}, 500).bind(this)
+						}, 500)
 					)
 					.catch((error) => alert(error));
 			}
