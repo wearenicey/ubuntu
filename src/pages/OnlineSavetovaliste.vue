@@ -627,16 +627,6 @@ export default {
 
 						setTimeout(() => {
 							this.formData.submitStatus = "OK";
-							this.formData = {
-								name: "",
-								last: "",
-								email: "",
-								submitStatus: null,
-								phone: "",
-								message: "",
-								subject: "",
-								city: "Online",
-							};
 						}, 500),
 						e.target.reset()
 					)
