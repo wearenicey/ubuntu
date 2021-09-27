@@ -284,7 +284,7 @@
 			<form id="sign-up" class="form" name="sign-up" method="POST" netlify-honeypot="bot-field" data-netlify="true" novalidate enctype="multipart/form-data" @submit.prevent="submit">
 				<label for="files">
 					Add file
-					<input id="files" type="file" name="files" @change="processFile($event)" />
+					<input id="files" type="file" name="files"  />
 				</label>
 				<input type="submit" value="Submit" class="submit" :disabled="submitStatus === 'PENDING'" :aria-disabled="submitStatus === 'PENDING'" />
 			</form>
@@ -304,9 +304,7 @@ export default {
 		};
 	},
 	methods: {
-		processFile() {
-			this.formData.files = event.target.files;
-		},
+	
 
 		encode(data) {
 			const formData = new FormData();
