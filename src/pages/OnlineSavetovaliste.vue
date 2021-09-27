@@ -568,6 +568,7 @@ export default {
 
 	data() {
 		return {
+			success: false,
 			formData: {
 				name: "",
 				last: "",
@@ -577,6 +578,7 @@ export default {
 				message: "",
 				subject: "",
 				city: "Online",
+				upload: "",
 			},
 		};
 	},
@@ -620,12 +622,9 @@ export default {
 						"form-name": e.target.getAttribute("name"),
 						...this.formData,
 					}),
-				});
-				// do your submit logic here
-				this.formData.submitStatus = "PENDING";
-				setTimeout(() => {
-					this.formData.submitStatus = "OK";
-				}, 500);
+				})
+					.then(() => (this.formData.submitStatus = "OK"))
+					.catch((error) => alert(error));
 			}
 		},
 	},
