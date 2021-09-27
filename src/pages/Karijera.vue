@@ -284,7 +284,6 @@
 			<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
 				<h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
 				<form class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" form id="sign-up" name="sign-up" method="POST" netlify-honeypot="bot-field" data-netlify="true" novalidate enctype="multipart/form-data" @submit.prevent="submit">
-					>
 					<div>
 						<input type="hidden" name="form-name" value="contact" />
 						<p hidden>
@@ -308,21 +307,18 @@
 					</div>
 					<div>
 						<label for="last" class="block text-sm font-medium text-gray-900">Last name</label>
-					</div>
-					<div>
-						<label for="email" class="block text-sm font-medium text-gray-900">Email</label>
 						<div class="mt-1">
 							<input
-								:class="{ 'form-group--error border border-red-500': $v.formData.email.$error }"
-								id="email"
-								name="email"
-								type="email"
+								:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
+								type="text"
+								name="last"
+								id="last"
 								class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
-								:invalid="$v.formData.email.$error"
-								v-model="$v.formData.email.$model"
+								:invalid="$v.formData.last.$error"
+								v-model="$v.formData.last.$model"
 							/>
 							<div class="p-5">
-								<p class="error text-red-500 text-xs italic" v-if="$v.formData.email.$error">Unesite isrpavnu email adresu</p>
+								<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Last Name is required</p>
 							</div>
 						</div>
 					</div>
@@ -429,7 +425,6 @@
 				</form>
 			</div>
 		</div>
-
 	</Layout>
 </template>
 <script>
@@ -444,7 +439,7 @@ export default {
 	data() {
 		return {
 			formData: {
-					name: "",
+				name: "",
 				last: "",
 				email: "",
 				submitStatus: null,
