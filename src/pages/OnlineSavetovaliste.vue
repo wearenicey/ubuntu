@@ -636,8 +636,8 @@ export default {
 								subject: "",
 								city: "Online",
 							};
-						}, 500)
-					).bind(this)
+						}, 500).bind(this)
+					)
 					.catch((error) => alert(error));
 			}
 		},
