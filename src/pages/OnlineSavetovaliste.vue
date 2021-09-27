@@ -553,11 +553,11 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Savetovalište Beograd | Ubuntu",
+		title: " Online savetovalište | Ubuntu",
 		meta: [
 			{
 				name: "title",
-				content: "Savetovalište Beograd | Ubuntu",
+				content: "Online savetovalište | Ubuntu",
 			},
 			{
 				name: "description",
@@ -576,7 +576,7 @@ export default {
 				phone: "",
 				message: "",
 				subject: "",
-				city: "Beograd",
+				city: "Online",
 			},
 		};
 	},

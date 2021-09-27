@@ -91,7 +91,7 @@
 										</div>
 									</a>
 
-									<a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a href="/online-savetovaliste/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/shield-check -->
 										<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
@@ -379,7 +379,7 @@
 								<span class="ml-3 text-base font-medium text-gray-900"> Savetovalište Novi Sad </span>
 							</a>
 
-							<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+							<a href="/online-savetovaliste/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 								<!-- Heroicon name: outline/shield-check -->
 								<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 									<path
