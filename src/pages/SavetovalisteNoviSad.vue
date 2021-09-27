@@ -620,12 +620,15 @@ export default {
 						"form-name": e.target.getAttribute("name"),
 						...this.formData,
 					}),
-				});
-				// do your submit logic here
-				this.formData.submitStatus = "PENDING";
-				setTimeout(() => {
-					this.formData.submitStatus = "OK";
-				}, 500);
+				})
+					.then(
+						() => (this.formData.submitStatus = "PENDING"),
+
+						setTimeout(() => {
+							this.formData.submitStatus = "OK";
+						}, 500)
+					)
+					.catch((error) => alert(error));
 			}
 		},
 	},

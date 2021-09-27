@@ -628,7 +628,6 @@ export default {
 						setTimeout(() => {
 							this.formData.submitStatus = "OK";
 						}, 500),
-						e.target.reset()
 					)
 					.catch((error) => alert(error));
 			}
