@@ -623,8 +623,14 @@ export default {
 						...this.formData,
 					}),
 				})
-					.then(() => (this.formData.submitStatus = "OK"))
+					.then(
+						() => (this.formData.submitStatus = "PENDING"),
+						setTimeout(() => {
+							this.formData.submitStatus = "OK";
+						}, 500)
+					)
 					.catch((error) => alert(error));
+				// do your submit logic here
 			}
 		},
 	},
