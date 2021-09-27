@@ -578,7 +578,6 @@ export default {
 				message: "",
 				subject: "",
 				city: "Online",
-				upload: "",
 			},
 		};
 	},
@@ -627,10 +626,19 @@ export default {
 						() => (this.formData.submitStatus = "PENDING"),
 						setTimeout(() => {
 							this.formData.submitStatus = "OK";
+							this.formData = {
+								name: "",
+								last: "",
+								email: "",
+								submitStatus: null,
+								phone: "",
+								message: "",
+								subject: "",
+								city: "Online",
+							};
 						}, 500)
-					)
+					).bind(this)
 					.catch((error) => alert(error));
-				// do your submit logic here
 			}
 		},
 	},
