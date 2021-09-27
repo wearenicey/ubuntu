@@ -386,18 +386,18 @@
 
 						<!-- Contact form -->
 						<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-							<h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
+							<h3 class="text-lg font-medium text-gray-900">Pošaljite nam poruku</h3>
 							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" id="sign-up" name="sign-up" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
 									<input type="hidden" name="form-name" value="sign-up" />
 									<p hidden>
 										<label> Don’t fill this out: <input name="bot-field" /> </label>
 									</p>
-									<label for="name" class="block text-sm font-medium text-gray-900">First name</label>
+									<label for="name" class="block text-sm font-medium text-gray-900">Vaše Ime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
-											class="form-group py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
 											type="text"
 											name="name"
 											id="name"
@@ -405,24 +405,24 @@
 											v-model="$v.formData.name.$model"
 										/>
 										<div class="p-5">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Name is required</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
 										</div>
 									</div>
 								</div>
 								<div>
-									<label for="last" class="block text-sm font-medium text-gray-900">Last name</label>
+									<label for="last" class="block text-sm font-medium text-gray-900">Vaše Prezime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
 											type="text"
 											name="last"
 											id="last"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
 											:invalid="$v.formData.last.$error"
 											v-model="$v.formData.last.$model"
 										/>
 										<div class="p-5">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Last Name is required</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše Prezime</p>
 										</div>
 									</div>
 								</div>
@@ -434,7 +434,7 @@
 											id="email"
 											name="email"
 											type="email"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
 											:invalid="$v.formData.email.$error"
 											v-model="$v.formData.email.$model"
 										/>
@@ -445,8 +445,8 @@
 								</div>
 								<div>
 									<div class="flex justify-between">
-										<label for="phone" class="block text-sm font-medium text-gray-900">Phone</label>
-										<span id="phone-optional" class="text-sm text-gray-500">Optional</span>
+										<label for="phone" class="block text-sm font-medium text-gray-900">Broj telefona</label>
+										<span id="phone-optional" class="text-sm text-gray-500">Opciono</span>
 									</div>
 									<div class="mt-1">
 										<input
@@ -455,7 +455,7 @@
 											name="phone"
 											id="phone"
 											autocomplete="tel"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
 											aria-describedby="phone-optional"
 										/>
 									</div>
@@ -463,14 +463,14 @@
 								<input type="hidden" id="city" name="city" v-model="formData.city" />
 
 								<div class="sm:col-span-2">
-									<label for="subject" class="block text-sm font-medium text-gray-900">Subject</label>
+									<label for="subject" class="block text-sm font-medium text-gray-900">Naslov</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.subject.$error }"
 											type="text"
 											name="subject"
 											id="subject"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
 											:invalid="$v.formData.subject.$error"
 											v-model="$v.formData.subject.$model"
 										/>
@@ -481,8 +481,8 @@
 								</div>
 								<div class="sm:col-span-2">
 									<div class="flex justify-between">
-										<label for="message" class="block text-sm font-medium text-gray-900">Message</label>
-										<span id="message-max" class="text-sm text-gray-500">Max. 500 characters</span>
+										<label for="message" class="block text-sm font-medium text-gray-900">Poruka</label>
+										<span id="message-max" class="text-sm text-gray-500">Max. 500 karaktera</span>
 									</div>
 									<div class="mt-1">
 										<textarea
@@ -496,21 +496,21 @@
 											v-model="$v.formData.message.$model"
 										></textarea>
 										<div class="p-5">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.message.$error">Unesite poruke</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.message.$error">Unesite poruku</p>
 										</div>
 									</div>
 								</div>
-								<div>
-									<label for="files">
-										Add file
+								<div class="sm:col-span-2">
+									<label for="files" class="block text-sm font-medium text-gray-900"> Dodaj fajl</label>
+									<div class="mt-1">
 										<input id="files" type="file" name="files" @change="processFile($event)" />
-									</label>
+									</div>
 								</div>
 								<div class="sm:col-span-2 flex flex-wrap content-center sm:flex sm:justify-end p-5">
 									<div class="p-5">
-										<p class="typo__p" v-if="formData.submitStatus === 'OK'">Thanks for your submission!</p>
-										<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Please fill the form correctly.</p>
-										<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Sending...</p>
+										<p class="typo__p" v-if="formData.submitStatus === 'OK'">Poruka je poslata!</p>
+										<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Popunite formu ispravno.</p>
+										<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Šalje se...</p>
 									</div>
 									<div>
 										<button
@@ -536,7 +536,7 @@
 												sm:w-auto
 											"
 										>
-											Submit
+											Pošalji
 										</button>
 									</div>
 								</div>
