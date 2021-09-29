@@ -247,7 +247,7 @@
 		<!-- Blog section -->
 		<div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
 			<div>
-				<CardItem />
+				<card-item-karijera />
 			</div>
 		</div>
 
@@ -549,7 +549,7 @@
 	</Layout>
 </template>
 <script>
-import CardItem from "../components/CardItem.vue";
+import CardItemKarijera from "../components/CardItemKarijera.vue";
 import { required, email } from "vuelidate/lib/validators";
 
 export default {
@@ -629,7 +629,7 @@ export default {
 		},
 	},
 	components: {
-		CardItem,
+		CardItemKarijera,
 	},
 };
 </script>

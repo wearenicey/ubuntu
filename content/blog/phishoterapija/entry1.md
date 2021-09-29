@@ -7,7 +7,6 @@ image: slika-2.jpg
 
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
-featured: true
 pocetna: true
 path: psihoterapija-one
 name: test
