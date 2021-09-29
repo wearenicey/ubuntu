@@ -118,7 +118,14 @@ query($id: ID!) {
 
 export default {
 	metaInfo() {
-		return {};
+		return {
+			title: this.$page.category.title,
+			titleTemplate: this.$page.category.title,
+
+			meta: [{ name: "description", content: this.$page.category.desc }],
+
+			// etc...
+		};
 	},
 
 	data() {
