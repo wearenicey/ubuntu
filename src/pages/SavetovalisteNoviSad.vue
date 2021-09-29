@@ -383,6 +383,16 @@
 									</a>
 								</li>
 							</ul>
+							<div class="mt-6">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.060661813341!2d19.79255181555021!3d45.246566079099004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b11d01908aa3f%3A0x7beaf20e5cb47676!2sAn%C4%91e%20Rankovi%C4%87%206%2C%20Novi%20Sad%20402343!5e0!3m2!1sen!2srs!4v1632906176728!5m2!1sen!2srs"
+									width="320"
+									height="320"
+									style="border: 0"
+									allowfullscreen=""
+									loading="lazy"
+								></iframe>
+							</div>
 						</div>
 
 						<!-- Contact form -->

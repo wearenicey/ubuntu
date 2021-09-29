@@ -21,21 +21,6 @@
 	</Layout>
 </template>
 
-<script>
-export default {
-	metaInfo() {
-		return {
-			title: "TEST",
-			titleTemplate: "TEST",
-
-			meta: [{ name: "description", content: this.$page.post.excerpt }],
-
-			// etc...
-		};
-	},
-	components: {},
-};
-</script>
 <page-query>
   query Post ($path: String!) {
   post: post (path: $path) {
@@ -65,11 +50,15 @@ export default {
 <script>
 export default {
 	metaInfo() {
-		return {};
-	},
+		return {
+			title: this.$page.post.title,
+			titleTemplate: this.$page.post.title,
 
-	data() {
-		return {};
+			meta: [{ name: "description", content: this.$page.post.excerpt }],
+
+			// etc...
+		};
 	},
+	components: {},
 };
 </script>

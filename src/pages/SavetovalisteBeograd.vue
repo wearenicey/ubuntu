@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<Navigation></Navigation>
+		<navigation-two></navigation-two>
 		<main class="lg:relative">
 			<div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
 				<div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
@@ -547,7 +547,7 @@
 </template>
 
 <script>
-import Navigation from "../components/Navigation";
+import NavigationTwo from "../components/NavigationTwo.vue";
 import FooterLanding from "../components/FooterLanding.vue";
 import { required, email } from "vuelidate/lib/validators";
 
@@ -634,7 +634,7 @@ export default {
 	},
 
 	components: {
-		Navigation,
+		NavigationTwo,
 		FooterLanding,
 	},
 };

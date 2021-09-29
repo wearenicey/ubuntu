@@ -1,6 +1,6 @@
 <template>
 	<div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
-		<div class="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
+		<div class="flex justify-between max-w-7xl mx-auto items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
 			<div>
 				<a href="/" class="flex">
 					<span class="sr-only">Workflow</span>
@@ -109,7 +109,7 @@
 								</div>
 								<div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
 									<div class="flow-root">
-										<a href="#" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
+										<a href="/kontak/" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
 											<!-- Heroicon name: outline/phone -->
 											<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path
@@ -310,7 +310,7 @@
 				</nav>
 				<div class="flex items-center md:ml-12">
 					<a href="/donacije/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Donacije </a>
-					<a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
+					<a href="/kontakt/" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
 				</div>
 			</div>
 		</div>
@@ -418,7 +418,7 @@
 						<a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </a>
 					</div>
 					<div>
-						<a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
+						<a href="/kontakt/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
 						<p class="mt-6 text-center text-base font-medium text-gray-500">
 							Želite da pomognete?
 							<a href="/donacije/" class="text-indigo-600 hover:text-indigo-500"> Donirajte </a>
