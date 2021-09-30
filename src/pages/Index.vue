@@ -487,6 +487,10 @@ export default {
 	},
 	components: {
 		CardItem,
+		   BackToTop: () =>
+        import ('vue-backtotop')
+        .then(m => m.BackToTop)
+        .catch(),
 	},
 };
 </script>
