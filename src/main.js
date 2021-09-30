@@ -4,14 +4,25 @@ require('~/main.css')
 
 import DefaultLayout from '~/layouts/Default.vue'
 import Vuelidate from 'vuelidate'
-import BackToTop from 'vue-backtotop'
-import 'vue-backtotop/src/styles.css' // if needed
+
 
 
 export default function (Vue, { router, head, isClient }) {
 	Vue.use(Vuelidate)
-	Vue.use(BackToTop)
 
+
+	if (process.isClient) {
+		Vue.use(require("vue-backtotop").default, {
+		text: "top",
+		visibleoffset: "600",
+		visibleoffsetbottom: "0",
+		bottom: "30px",
+		right: "30px",
+	
+
+		
+		});
+	}
 
 	// Set default layout as a global component
 	Vue.component('Layout', DefaultLayout)

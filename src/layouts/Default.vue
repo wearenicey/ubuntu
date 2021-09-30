@@ -1,5 +1,6 @@
 <template>
 	<div class="layout">
+		
 		<Header></Header>
 		<slot />
 		<Footer></Footer>
@@ -25,4 +26,3 @@ export default {
 	},
 };
 </script>
-
