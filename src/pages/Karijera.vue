@@ -632,7 +632,7 @@
 										<input id="files" type="file" name="files" @change="processFile($event)" />
 									</div> -->
 										<div class="p-12 bg-gray-100 border border-gray-300" @dragover="dragover" @dragleave="dragleave" @drop="drop">
-											<input type="file" multiple name="fields[assetsFieldHandle][]" id="assetsFieldHandle"   class="w-px h-px opacity-0 overflow-hidden absolute" @change="onChange" ref="file" accept=".pdf,.jpg,.jpeg,.png" />
+											<input type="file"  multiple name="fields[assetsFieldHandle][]" id="assetsFieldHandle"   class="w-px h-px opacity-0 overflow-hidden absolute" @change="onChange" ref="file" accept=".pdf,.jpg,.jpeg,.png" />
 
 											<label for="assetsFieldHandle" class="block cursor-pointer">
 												<div>Explain to our users they can drop files in here or <span class="underline">click here</span> to upload their files</div>

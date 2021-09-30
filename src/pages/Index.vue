@@ -1,7 +1,5 @@
 <template>
-
 	<Layout>
-	
 		<!-- Hero section -->
 		<div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
@@ -23,11 +21,27 @@
 							<h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Issue management for growing teams</h1>
 							<p class="mt-6 text-xl text-gray-500">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
 						</div>
-						<div  class="mt-12 sm:max-w-lg sm:w-full sm:flex">
-					
+						<div class="mt-12 sm:max-w-lg sm:w-full sm:flex">
 							<div class="mt-4 sm:mt-0 sm:ml-3">
-								<a href="/kontakt"
-									class=" text-center block w-full rounded-md border border-transparent px-5 py-3 bg-red-500 text-base font-medium text-white shadow hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:px-10"
+								<a
+									href="/kontakt"
+									class="
+										text-center
+										block
+										w-full
+										rounded-md
+										border border-transparent
+										px-5
+										py-3
+										bg-red-500
+										text-base
+										font-medium
+										text-white
+										shadow
+										hover:bg-red-600
+										focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2
+										sm:px-10
+									"
 								>
 									Zakažite besplatnu konsultaciju
 								</a>
@@ -81,7 +95,7 @@
 			<div class="sm:mx-auto sm:max-w-3xl sm:px-6">
 				<div class="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 					<div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-						<g-image class="w-full 	lg:h-full lg:w-auto lg:max-w-none" src="~/assets/img/hero.jpg" alt="" />
+						<g-image class="w-full lg:h-full lg:w-auto lg:max-w-none" src="~/assets/img/hero.jpg" alt="" />
 					</div>
 				</div>
 			</div>
@@ -461,6 +475,7 @@
 
 <script>
 import CardItem from "../components/CardItem.vue";
+
 export default {
 	metaInfo: {
 		title: "Hello, world!",
