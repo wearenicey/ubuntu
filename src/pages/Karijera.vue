@@ -5,34 +5,18 @@
 				<div class="lg:grid lg:grid-cols-2 lg:gap-8">
 					<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
 						<div class="lg:py-24">
-							<a href="#" class="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-								<span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full">We're hiring</span>
-								<span class="ml-4 text-sm">Visit our careers page</span>
-								<!-- Heroicon name: solid/chevron-right -->
-								<svg class="ml-2 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-								</svg>
-							</a>
 							<h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
 								<span class="block">A better way to</span>
 								<span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-400 sm:pb-5">ship web apps</span>
 							</h1>
 							<p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
-							<div class="mt-10 sm:mt-12">
-								<form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
+							<div class="mt-8 sm:mt-8">
+								<div class="sm:max-w-xl sm:mx-auto lg:mx-0">
 									<div class="sm:flex">
-										<div class="min-w-0 flex-1">
-											<label for="email" class="sr-only">Email address</label>
-											<input
-												id="email"
-												type="email"
-												placeholder="Enter your email"
-												class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
-											/>
-										</div>
-										<div class="mt-3 sm:mt-0 sm:ml-3">
-											<button
-												type="submit"
+										<div class="mt-3 text-center">
+											<a
+												href="#"
+												@click="onClick()"
 												class="
 													block
 													w-full
@@ -49,12 +33,11 @@
 													focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900
 												"
 											>
-												Start free trial
-											</button>
+												Kontaktiraj nas
+											</a>
 										</div>
 									</div>
-									<p class="mt-3 text-sm text-gray-300 sm:mt-4">Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms or service</a>.</p>
-								</form>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -188,7 +171,7 @@
 
 						<div class="pt-6">
 							<div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-								<div class="-mt-6">
+								<div class="mt-6">
 									<div>
 										<span class="inline-flex items-center justify-center p-3 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-md shadow-lg">
 											<!-- Heroicon name: outline/server -->
@@ -211,6 +194,8 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Testimonial section -->
 
 		<!-- Testimonial section -->
 		<div class="pb-16 bg-gradient-to-r from-teal-500 to-cyan-600 lg:pb-0 lg:z-10 lg:relative">
@@ -250,6 +235,157 @@
 				<card-item-karijera />
 			</div>
 		</div>
+		<!--faq  -->
+		<div class="bg-gray-50 py-14">
+			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+				<div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+					<h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">Frequently asked questions</h2>
+					<dl class="mt-6 space-y-6 divide-y divide-gray-200">
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+							</dd>
+						</div>
+
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+							</dd>
+						</div>
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+							</dd>
+						</div>
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+							</dd>
+						</div>
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+							</dd>
+						</div>
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+							</dd>
+						</div>
+
+						<!-- More questions... -->
+					</dl>
+				</div>
+			</div>
+		</div>
 
 		<!-- CTA Section -->
 		<div class="relative bg-gray-900">
@@ -281,7 +417,7 @@
 		</div>
 
 		<!-- contact -->
-		<div class="bg-gray-100" id="scroll">
+		<div class="" id="scroll">
 			<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div class="relative bg-white shadow-xl">
 					<h2 class="sr-only">Contact us</h2>
@@ -322,10 +458,10 @@
 									</defs>
 								</svg>
 							</div>
-							<h3 class="text-lg font-medium text-white">Contact information</h3>
+							<h3 class="text-lg font-medium text-white">Kontakt informacije</h3>
 							<p class="mt-6 text-base text-indigo-50 max-w-3xl">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
 							<dl class="mt-8 space-y-6">
-								<dt><span class="sr-only">Phone number</span></dt>
+								<dt><span class="sr-only">Telefon</span></dt>
 								<dd class="flex text-base text-indigo-50">
 									<!-- Heroicon name: outline/phone -->
 									<svg class="flex-shrink-0 w-6 h-6 text-indigo-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -336,7 +472,7 @@
 											d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
 										/>
 									</svg>
-									<span class="ml-3">+1 (555) 123-4567</span>
+									<span class="ml-3"> <a href="tel:+381658286883">065 828 6883</a></span>
 								</dd>
 								<dt><span class="sr-only">Email</span></dt>
 								<dd class="flex text-base text-indigo-50">
@@ -349,7 +485,7 @@
 							</dl>
 							<ul role="list" class="mt-8 flex space-x-12">
 								<li>
-									<a class="text-indigo-200 hover:text-indigo-100" href="#">
+									<a class="text-indigo-200 hover:text-indigo-100" href="https://sr-rs.facebook.com/UBUNTUcentar/">
 										<span class="sr-only">Facebook</span>
 										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" aria-hidden="true">
 											<path
@@ -360,23 +496,13 @@
 									</a>
 								</li>
 								<li>
-									<a class="text-indigo-200 hover:text-indigo-100" href="#">
-										<span class="sr-only">GitHub</span>
-										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" aria-hidden="true">
+									<a class="text-indigo-200 hover:text-indigo-100" href="https://www.instagram.com/ubuntu_centar/?hl=en">
+										<span class="sr-only">Instagram</span>
+										<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 											<path
-												d="M11.999 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.386.6.11.819-.26.819-.578 0-.284-.01-1.04-.017-2.04-3.337.724-4.042-1.61-4.042-1.61-.545-1.386-1.332-1.755-1.332-1.755-1.09-.744.082-.73.082-.73 1.205.086 1.838 1.238 1.838 1.238 1.07 1.833 2.81 1.304 3.493.996.109-.775.419-1.303.762-1.603C7.145 17 4.343 15.97 4.343 11.373c0-1.31.468-2.382 1.236-3.22-.124-.304-.536-1.524.118-3.176 0 0 1.007-.323 3.3 1.23.956-.266 1.983-.4 3.003-.404 1.02.005 2.046.138 3.005.404 2.29-1.553 3.296-1.23 3.296-1.23.655 1.652.243 2.872.12 3.176.77.838 1.233 1.91 1.233 3.22 0 4.61-2.806 5.624-5.478 5.921.43.37.814 1.103.814 2.223 0 1.603-.015 2.898-.015 3.291 0 .321.217.695.825.578C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12.001-12"
-												fill="currentColor"
-											/>
-										</svg>
-									</a>
-								</li>
-								<li>
-									<a class="text-indigo-200 hover:text-indigo-100" href="#">
-										<span class="sr-only">Twitter</span>
-										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" aria-hidden="true">
-											<path
-												d="M7.548 22.501c9.056 0 14.01-7.503 14.01-14.01 0-.213 0-.425-.015-.636A10.02 10.02 0 0024 5.305a9.828 9.828 0 01-2.828.776 4.94 4.94 0 002.165-2.724 9.867 9.867 0 01-3.127 1.195 4.929 4.929 0 00-8.391 4.491A13.98 13.98 0 011.67 3.9a4.928 4.928 0 001.525 6.573A4.887 4.887 0 01.96 9.855v.063a4.926 4.926 0 003.95 4.827 4.917 4.917 0 01-2.223.084 4.93 4.93 0 004.6 3.42A9.88 9.88 0 010 20.289a13.941 13.941 0 007.548 2.209"
-												fill="currentColor"
+												fill-rule="evenodd"
+												d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+												clip-rule="evenodd"
 											/>
 										</svg>
 									</a>
@@ -501,44 +627,53 @@
 									</div>
 								</div>
 								<div class="sm:col-span-2">
-									<label for="files" class="block text-sm font-medium text-gray-900"> Dodaj fajl</label>
+									<!-- <label for="files" class="block text-sm font-medium text-gray-900"> Prikači svoj CV (10mb maksimalna veličina ) </label>
 									<div class="mt-1">
 										<input id="files" type="file" name="files" @change="processFile($event)" />
+									</div> -->
+										<div class="p-12 bg-gray-100 border border-gray-300" @dragover="dragover" @dragleave="dragleave" @drop="drop">
+											<input type="file" multiple name="fields[assetsFieldHandle][]" id="assetsFieldHandle"   class="w-px h-px opacity-0 overflow-hidden absolute" @change="onChange" ref="file" accept=".pdf,.jpg,.jpeg,.png" />
+
+											<label for="assetsFieldHandle" class="block cursor-pointer">
+												<div>Explain to our users they can drop files in here or <span class="underline">click here</span> to upload their files</div>
+											</label>
+											<ul class="mt-4" v-if="this.filelist.length" v-cloak>
+												<li class="text-sm p-1" v-for="file in filelist">{{ file.name }}<button class="ml-2" type="button" @click="remove(filelist.indexOf(file))" title="Remove file">remove</button></li>
+											</ul>
 									</div>
 								</div>
-								<div class="sm:col-span-2 flex flex-wrap content-center sm:flex sm:justify-end p-5">
+								<div class="sm:col-span-2 flex flex-wrap content-center sm:flex sm:justify-end">
 									<div class="p-5">
 										<p class="typo__p" v-if="formData.submitStatus === 'OK'">Poruka je poslata!</p>
 										<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Popunite formu ispravno.</p>
 										<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Šalje se...</p>
 									</div>
-									<div>
-										<button
-											:disabled="formData.submitStatus === 'PENDING'"
-											type="submit"
-											class="
-												mt-2
-												w-full
-												inline-flex
-												items-center
-												justify-center
-												px-6
-												py-3
-												border border-transparent
-												rounded-md
-												shadow-sm
-												text-base
-												font-medium
-												text-white
-												bg-indigo-600
-												hover:bg-indigo-700
-												focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
-												sm:w-auto
-											"
-										>
-											Pošalji
-										</button>
-									</div>
+									<button
+										:disabled="formData.submitStatus === 'PENDING'"
+										type="submit"
+										class="
+											flex
+											mt-2
+											w-full
+											inline-flex
+											items-center
+											justify-center
+											px-6
+											py-3
+											border border-transparent
+											rounded-md
+											shadow-sm
+											text-base
+											font-medium
+											text-white
+											bg-indigo-600
+											hover:bg-indigo-700
+											focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
+											sm:w-auto
+										"
+									>
+										Pošalji
+									</button>
 								</div>
 							</form>
 						</div>
@@ -559,6 +694,7 @@ export default {
 
 	data() {
 		return {
+			 filelist: [],
 			success: false,
 			formData: {
 				name: "",
@@ -595,6 +731,10 @@ export default {
 	},
 
 	methods: {
+		onClick() {
+			let element = document.getElementById("scroll");
+			element.scrollIntoView({ behavior: "smooth", block: "start" });
+		},
 		processFile() {
 			this.formData.files = event.target.files;
 		},
@@ -627,6 +767,31 @@ export default {
 					.catch((error) => alert(error));
 			}
 		},
+		onChange() {
+      this.filelist = [...this.$refs.file.files];
+    },
+    remove(i) {
+      this.filelist.splice(i, 1);
+    },
+    dragover(event) {
+      event.preventDefault();
+      if (!event.currentTarget.classList.contains('bg-green-300')) {
+        event.currentTarget.classList.remove('bg-gray-100');
+        event.currentTarget.classList.add('bg-green-300');
+      }
+    },
+    dragleave(event) {
+      event.currentTarget.classList.add('bg-gray-100');
+      event.currentTarget.classList.remove('bg-green-300');
+    },
+    drop(event) {
+      event.preventDefault();
+      this.$refs.file.files = event.dataTransfer.files;
+      this.onChange(); 
+     
+      event.currentTarget.classList.add('bg-gray-100');
+      event.currentTarget.classList.remove('bg-green-300');
+    }
 	},
 	components: {
 		CardItemKarijera,

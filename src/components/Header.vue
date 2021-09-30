@@ -1,6 +1,6 @@
 <template>
 	<div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
-		<div class="flex justify-between max-w-7xl mx-auto items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
+		<div class="flex justify-between max-w-7xl mx-auto items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10" id="position">
 			<div>
 				<a href="/" class="flex">
 					<span class="sr-only">Workflow</span>
