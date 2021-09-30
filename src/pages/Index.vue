@@ -4,10 +4,7 @@
 		<div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
 				<div>
-					<div>
-						<img class="h-11 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=rose&shade=500" alt="Workflow" />
-					</div>
-					<div class="mt-20">
+					<div class="mt-6">
 						<div>
 							<a href="#" class="inline-flex space-x-4">
 								<span class="rounded bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-500 tracking-wide uppercase"> What's new </span>
@@ -24,25 +21,16 @@
 							<h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Issue management for growing teams</h1>
 							<p class="mt-6 text-xl text-gray-500">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
 						</div>
-						<form action="#" class="mt-12 sm:max-w-lg sm:w-full sm:flex">
-							<div class="min-w-0 flex-1">
-								<label for="hero-email" class="sr-only">Email address</label>
-								<input
-									id="hero-email"
-									type="email"
-									class="block w-full border border-gray-300 rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-red-500 focus:ring-red-500"
-									placeholder="Enter your email"
-								/>
-							</div>
+						<div  class="mt-12 sm:max-w-lg sm:w-full sm:flex">
+					
 							<div class="mt-4 sm:mt-0 sm:ml-3">
-								<button
-									type="submit"
-									class="block w-full rounded-md border border-transparent px-5 py-3 bg-red-500 text-base font-medium text-white shadow hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:px-10"
+								<a href="/kontakt"
+									class=" text-center block w-full rounded-md border border-transparent px-5 py-3 bg-red-500 text-base font-medium text-white shadow hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:px-10"
 								>
-									Notify me
-								</button>
+									Zakažite besplatnu konsultaciju
+								</a>
 							</div>
-						</form>
+						</div>
 						<div class="mt-6">
 							<div class="inline-flex items-center divide-x divide-gray-300">
 								<div class="flex-shrink-0 flex pr-5">

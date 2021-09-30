@@ -12,11 +12,15 @@
 						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 					</p>
 					<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-						<div class="rounded-md shadow">
-							<a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Get started </a>
-						</div>
-						<div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-							<a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"> Live demo </a>
+							<div class="rounded-md shadow">
+							<a href="tel:+38158286881" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> 	<svg class="flex-shrink-0 w-4 h-4 mr-1 text-indigo-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+							/>
+						</svg> Zakažite besplatnu konsultaciju </a>
 						</div>
 					</div>
 				</div>
@@ -408,7 +412,7 @@
 											:invalid="$v.formData.name.$error"
 											v-model="$v.formData.name.$model"
 										/>
-										<div class="p-5">
+										<div class="p-1">
 											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
 										</div>
 									</div>
@@ -425,7 +429,7 @@
 											:invalid="$v.formData.last.$error"
 											v-model="$v.formData.last.$model"
 										/>
-										<div class="p-5">
+										<div class="p-1">
 											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše Prezime</p>
 										</div>
 									</div>
@@ -442,7 +446,7 @@
 											:invalid="$v.formData.email.$error"
 											v-model="$v.formData.email.$model"
 										/>
-										<div class="p-5">
+										<div class="p-1">
 											<p class="error text-red-500 text-xs italic" v-if="$v.formData.email.$error">Unesite isrpavnu email adresu</p>
 										</div>
 									</div>
@@ -478,7 +482,7 @@
 											:invalid="$v.formData.subject.$error"
 											v-model="$v.formData.subject.$model"
 										/>
-										<div class="p-5">
+										<div class="p-1">
 											<p class="error text-red-500 text-xs italic" v-if="$v.formData.subject.$error">Unesite naslov</p>
 										</div>
 									</div>
@@ -499,18 +503,17 @@
 											:invalid="$v.formData.message.$error"
 											v-model="$v.formData.message.$model"
 										></textarea>
-										<div class="p-5">
+										<div class="p-1">
 											<p class="error text-red-500 text-xs italic" v-if="$v.formData.message.$error">Unesite poruku</p>
 										</div>
 									</div>
 								</div>
-								<div class="sm:col-span-2 flex flex-wrap content-center sm:flex sm:justify-end p-5">
+								<div class="sm:col-span-2 flex flex-wrap content-center sm:flex sm:justify-end">
 									<div class="p-5">
 										<p class="typo__p" v-if="formData.submitStatus === 'OK'">Poruka je poslata!</p>
 										<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Popunite ispravno formu.</p>
 										<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Šalje se...</p>
 									</div>
-									<div>
 										<button
 											:disabled="formData.submitStatus === 'PENDING'"
 											type="submit"
@@ -537,7 +540,6 @@
 											Pošalji
 										</button>
 									</div>
-								</div>
 							</form>
 						</div>
 					</div>
