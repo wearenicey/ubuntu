@@ -1,5 +1,10 @@
 <template>
 	<Layout>
+		<ClientOnly>
+			<back-to-top bottom="50px" right="50px">
+				<button type="button" class="btn btn-info btn-to-top">top</button>
+			</back-to-top>
+		</ClientOnly>
 		<!-- Hero section -->
 		<div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
