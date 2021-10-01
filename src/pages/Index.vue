@@ -5,19 +5,8 @@
 		<div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
 				<div>
-					<div class="mt-6">
-						<div>
-							<a href="#" class="inline-flex space-x-4">
-								<span class="rounded bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-500 tracking-wide uppercase"> What's new </span>
-								<span class="inline-flex items-center text-sm font-medium text-red-500 space-x-1">
-									<span>Just shipped version 0.1.0</span>
-									<!-- Heroicon name: solid/chevron-right -->
-									<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-										<path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-									</svg>
-								</span>
-							</a>
-						</div>
+					<div class="mt-4">
+					
 						<div class="mt-6 sm:max-w-xl">
 							<h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Issue management for growing teams</h1>
 							<p class="mt-6 text-xl text-gray-500">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
