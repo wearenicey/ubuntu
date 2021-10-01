@@ -1,8 +1,6 @@
 <template>
 	<Layout>
-		<back-to-top bottom="50px" right="50px" style="position: fixed">
-			<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600">top</button>
-		</back-to-top>
+	
 		<!-- Hero section -->
 		<div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
@@ -489,12 +487,4 @@ export default {
 };
 </script>
 <style scoped>
-.btn-to-top {
-	width: 60px;
-	height: 60px;
-	padding: 10px 16px;
-	border-radius: 50%;
-	font-size: 22px;
-	line-height: 22px;
-}
-</style>
+
