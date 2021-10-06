@@ -1,5 +1,5 @@
 ---
 id: psihoterapija
-title: "psihoterapija"
+title: "Psihoterapija"
 desc: "Psihoterapija je ..."
 ---
