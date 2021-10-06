@@ -245,7 +245,7 @@
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900"> Koji je tip zaposlenja/saradnje? </span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -261,7 +261,7 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Tip saradnje koji nudimo našim saradnicima je volonterski ili angažovanje po projektima. </p>
 							</dd>
 						</div>
 
@@ -269,7 +269,7 @@
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900"> Kolika je nadoknada za angažovanje u centru?</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -285,14 +285,14 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Ne postoji fiksna materijalna nadoknada. U odnosu na stepen angažovanja svojih saradnika, Centar ulaže u najvrednije kroz edukacije, literaturu, supervizije, ličnu terapiju ili kroz neku drugu vrednost. </p>
 							</dd>
 						</div>
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900"> Da li se radi puno radno vreme, parcijalno ili se radi od kuće sa brojem klijenata po želji? </span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -308,14 +308,14 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Svaki saradnik bira koliko i na koji način želi da bude angažovan.</p>
 							</dd>
 						</div>
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900">Koji stepen angažovanja se zahteva?</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -331,14 +331,14 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Preporuka je minimum tri sata nedeljno ali ne i uslov.</p>
 							</dd>
 						</div>
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900"> Koji su preduslovi da bismo postali psihoterapeut?</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -354,14 +354,14 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Nužno je da završimo psihologiju ili medicinu, a ukoliko smo završili neke od srodnih humanističkih nauka, neophodno je da položimo diferencijalne ispite (propedevtika), što je preduslov da bismo upisali i završili neku od priznatih psihoterapijskih škola.</p>
 							</dd>
 						</div>
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900"> Kako započeti karijeru psihoterapeuta? </span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -377,7 +377,82 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Na naprednim godinama psihoterapijske edukacije očekivano je da počnete da radite sa klijentima uz nadzor supervizora. Najbolje mesto za početak vaše karijere jeste u jednom od naših savetovališta.</p>
+							</dd>
+						</div>
+
+
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900"> Ko je i šta radi psiholog?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Psiholog je završio studije psihologije i osposobljen je da ispituje psihičke funkcije i da da stručan sud o njihovom stanju i razvoju.</p>
+							</dd>
+						</div>
+
+
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900"> Ko je i šta radi psihijatar?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Psihijatar je završio studije medicine, specijalizirao psihijatriju i osposobljen je da daje dijagnozu i prepisuje lekove.</p>
+							</dd>
+						</div>
+
+
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900">Ko je i šta radi psihoterapeut?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Psihoterapeut je stručanjak koji je pored humanistički usmerenog visokog obrazovanja završio i neki od priznatih psihoterapijskih pravaca. Terapeut kroz razgovor sa klijentom i kreativne vežbe pomaže klijentu da ostvari unapred dogovorene ciljeve, kako bi povećao kvalitet svog života.</p>
 							</dd>
 						</div>
 
