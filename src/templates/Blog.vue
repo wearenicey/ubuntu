@@ -6,7 +6,7 @@
 			</div>
 			<div class="relative max-w-7xl mx-auto">
 				<div class="text-center">
-					<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl uppercase">Svi Postovi</h1>
+					<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl uppercase">Svi Tekstovi</h1>
 					<div>
 						<div>
 							<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">asdad...</p>

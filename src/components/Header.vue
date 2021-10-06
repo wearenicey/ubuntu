@@ -266,7 +266,7 @@
 								</div>
 								<div class="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
 									<div>
-										<h3 class="text-sm tracking-wide font-medium text-gray-500 uppercase">Recent Posts</h3>
+										<h3 class="text-sm tracking-wide font-medium text-gray-500 uppercase">Poslednje objave</h3>
 										<ul role="list" class="mt-4 space-y-4">
 											<li v-for="post in $static.blogs.edges" :key="post.node.id" class="text-base truncate">
 												<g-link :to="post.node.path" class="font-medium text-gray-900 hover:text-gray-700">
@@ -276,7 +276,7 @@
 										</ul>
 									</div>
 									<div class="mt-5 text-sm">
-										<a href="/blog" class="font-medium text-indigo-600 hover:text-indigo-500"> Pogledaj sve postove <span aria-hidden="true">&rarr;</span></a>
+										<a href="/blog" class="font-medium text-indigo-600 hover:text-indigo-500"> Pogledaj sve tekstove <span aria-hidden="true">&rarr;</span></a>
 									</div>
 								</div>
 							</div>
@@ -373,7 +373,7 @@
 								<span class="ml-3 text-base font-medium text-gray-900"> Online savetovalište </span>
 							</a>
 
-							<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+							<a href="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 								<!-- Heroicon name: outline/view-grid -->
 								<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 									<path
@@ -426,7 +426,7 @@ query {
   }
 }
 
-category:   allCategory {
+category:   allCategory ( filter:{nav: {eq: true}} limit: 6) {
     edges {
       node {
         id
