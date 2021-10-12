@@ -15,7 +15,7 @@
 				<div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
 					<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
 						<span class="block xl:inline">Beograd je vaš grad, </span>
-						<span class="block xl:inline"> a treba vam <span class="text-indigo-600">psihoterapeut?</span> a treba vam Ubuntu je pravi izbor</span>
+						<span class="block xl:inline"> a treba vam <span class="text-indigo-600">psihoterapeut?</span>Ubuntu je pravi izbor</span>
 					</h1>
 					<p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">Beogradsko savetovalište Ubuntu se nalazi na Zelenom vencu. I na Novom Beogradu.</p>
 					<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
@@ -133,7 +133,9 @@
 						<!-- <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" /> -->
 						<h2 class="text-2xl font-medium sm:text-2xl text-white">Referenca</h2>
 						<blockquote class="mt-6 text-white">
-							<p class="text-xl font-medium sm:text-2xl">Profesionalno od prvog kontakta. Mnogo mi znače Snežanina stručnost, posvećenost klijentu i toplina, zahvaljujući kojima sam stekla korisne uvide koji mi pomažu da razrešim svoje unutrašnje dileme.</p>
+							<p class="text-xl font-medium sm:text-2xl">
+								Profesionalno od prvog kontakta. Mnogo mi znače Snežanina stručnost, posvećenost klijentu i toplina, zahvaljujući kojima sam stekla korisne uvide koji mi pomažu da razrešim svoje unutrašnje dileme.
+							</p>
 							<footer class="mt-6">
 								<p class="flex flex-col font-medium">
 									<span>Nataša, ekonomista</span>
