@@ -130,13 +130,13 @@
 						<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover" />
 					</div>
 					<div class="relative lg:col-span-1">
-						<img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" />
+						<!-- <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" /> -->
+						<h2 class="text-2xl font-medium sm:text-2xl text-white">Referenca</h2>
 						<blockquote class="mt-6 text-white">
-							<p class="text-xl font-medium sm:text-2xl">Workflow has completely transformed how we interact with customers. We've seen record bookings, higher customer satisfaction, and reduced churn.</p>
+							<p class="text-xl font-medium sm:text-2xl">Profesionalno od prvog kontakta. Mnogo mi znače Snežanina stručnost, posvećenost klijentu i toplina, zahvaljujući kojima sam stekla korisne uvide koji mi pomažu da razrešim svoje unutrašnje dileme.</p>
 							<footer class="mt-6">
 								<p class="flex flex-col font-medium">
-									<span>Marie Chilvers</span>
-									<span>CEO, Workcation</span>
+									<span>Nataša, ekonomista</span>
 								</p>
 							</footer>
 						</blockquote>
