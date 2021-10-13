@@ -5,7 +5,7 @@
 				<div class="flex md:absolute md:left-0 md:inset-y-0 lg:static xl:col-span-2">
 					<div class="flex-shrink-0 flex items-center ml-2">
 						<a href="/">
-							<g-image class="block h-12 w-auto " src="~/assets/img/ubuntu_bg.png" alt="Workflow" />
+							<g-image class="block h-12 w-auto" src="~/assets/img/ubuntu_bg.png" alt="Workflow" />
 						</a>
 					</div>
 				</div>
@@ -13,7 +13,7 @@
 					<div class="flex items-center px-6 py-4 md:max-w-3xl md:mx-auto lg:max-w-none lg:mx-0 xl:px-0"></div>
 				</div>
 
-				<div class="lg:flex lg:items-center lg:justify-end xl:col-span-4 ">
+				<div class="lg:flex lg:items-center lg:justify-end xl:col-span-4">
 					<a href="#" @click="onClick()" class="ml-6 inline-flex items-center px-4 py-2 border border-indigo text-sm font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 						<svg class="flex-shrink-0 w-4 h-4 mr-1 text-indigo-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -21,7 +21,7 @@
 						Pišite nam
 					</a>
 					<a
-						href="tel:+38158286883"
+						href="tel:+381658286883"
 						class="
 							ml-4
 							mr-2
