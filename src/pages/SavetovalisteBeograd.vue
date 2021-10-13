@@ -8,7 +8,7 @@
 				</svg>
 			</button>
 		</back-to-top>
-		<navigation-two></navigation-two>
+		<navigation-bg></navigation-bg>
 
 		<main class="lg:relative flex items-center">
 			<div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
@@ -589,7 +589,7 @@
 </template>
 
 <script>
-import NavigationTwo from "../components/NavigationTwo.vue";
+import NavigationBg from "../components/NavigationBg.vue";
 import FooterLanding from "../components/FooterLanding.vue";
 import { required, email } from "vuelidate/lib/validators";
 
@@ -676,7 +676,7 @@ export default {
 	},
 
 	components: {
-		NavigationTwo,
+		NavigationBg,
 		FooterLanding,
 	},
 };

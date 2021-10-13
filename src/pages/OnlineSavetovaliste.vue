@@ -1,9 +1,14 @@
 <template>
 	<div>
-			<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">
-			<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600"><svg class="icon" viewBox="0 0 16 16"> <title>Go to top of page</title> <g stroke-width="1" stroke="currentColor"> <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline> </g> </svg></button>
+		<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">
+			<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600">
+				<svg class="icon" viewBox="0 0 16 16">
+					<title>Go to top of page</title>
+					<g stroke-width="1" stroke="currentColor"><polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline></g>
+				</svg>
+			</button>
 		</back-to-top>
-		<Navigation></Navigation>
+		<navigation-online></navigation-online>
 		<main class="lg:relative">
 			<div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
 				<div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
@@ -556,7 +561,7 @@
 </template>
 
 <script>
-import Navigation from "../components/Navigation";
+import NavigationOnline from "../components/NavigationOnline.vue";
 import FooterLanding from "../components/FooterLanding.vue";
 import { required, email } from "vuelidate/lib/validators";
 
@@ -644,7 +649,7 @@ export default {
 	},
 
 	components: {
-		Navigation,
+		NavigationOnline,
 		FooterLanding,
 	},
 };
