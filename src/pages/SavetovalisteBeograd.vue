@@ -440,9 +440,9 @@
 						<!-- Contact form -->
 						<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
 							<h3 class="text-lg font-medium text-gray-900">Pošaljite nam poruku</h3>
-							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact-bg" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
-									<input type="hidden" name="form-name" value="contact" />
+									<input type="hidden" name="form-name" value="contact-bg" />
 									<p hidden>
 										<label> Don’t fill this out: <input name="bot-field" /> </label>
 									</p>
