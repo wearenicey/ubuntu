@@ -8,8 +8,8 @@
 					<div class="mt-4">
 					
 						<div class="mt-6 sm:max-w-xl">
-							<h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Issue management for growing teams</h1>
-							<p class="mt-6 text-xl text-gray-500">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
+							<h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Psihološko savetovalište Ubuntu - Negujmo mentalno zdravlje</h1>
+							<p class="mt-6 text-xl text-gray-500"> Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
 						</div>
 						<div class="mt-12 sm:max-w-lg sm:w-full sm:flex">
 							<div class="mt-4 sm:mt-0 sm:ml-3">
@@ -142,19 +142,13 @@
 				<div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
 					<!-- Content area -->
 					<div class="pt-12 sm:pt-16 lg:pt-20">
-						<h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">On a mission to empower teams</h2>
+						<h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">Lako dostupna psihološka pomoć</h2>
 						<div class="mt-6 text-gray-500 space-y-6">
 							<p class="text-lg">
-								Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut.
-								Amet vitae fames senectus vitae.
+								Centar za rast i razvoj ljudskog potencijala Ubuntu osnovan je 28. juna 2016. godine u Novom Sadu. Ideja nam je bila da na jednom mestu okupimo visoko kvalifikovane saradnike različitih obrazovnih profila koji su usmereni na mentalno zdravlje.
 							</p>
 							<p class="text-base leading-7">
-								Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed
-								vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
-							</p>
-							<p class="text-base leading-7">
-								Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam
-								nec, a. Morbi enim fermentum lacus in. Viverra.
+								Želeli smo da im damo siguran prostor za rad i kontinuiranu podršku u profesionalnom razvoju kako bismo udruženim snagama vodili računa o mentalnom zdravlju građana naše lokalne zajednice, a i šire..
 							</p>
 						</div>
 					</div>
@@ -163,27 +157,27 @@
 					<div class="mt-10">
 						<dl class="grid grid-cols-2 gap-x-4 gap-y-8">
 							<div class="border-t-2 border-gray-100 pt-6">
-								<dt class="text-base font-medium text-gray-500">Founded</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">2021</dd>
+								<dt class="text-base font-medium text-gray-500">Osnovani </dt>
+								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">2016</dd>
 							</div>
 
 							<div class="border-t-2 border-gray-100 pt-6">
-								<dt class="text-base font-medium text-gray-500">Employees</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">5</dd>
+								<dt class="text-base font-medium text-gray-500">Stručni saradnici</dt>
+								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">50</dd>
 							</div>
 
 							<div class="border-t-2 border-gray-100 pt-6">
-								<dt class="text-base font-medium text-gray-500">Beta Users</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">521</dd>
+								<dt class="text-base font-medium text-gray-500">Klijenti do sada</dt>
+								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">650+</dd>
 							</div>
 
 							<div class="border-t-2 border-gray-100 pt-6">
-								<dt class="text-base font-medium text-gray-500">Raised</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">$25M</dd>
+								<dt class="text-base font-medium text-gray-500">Broj projekata</dt>
+								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">8</dd>
 							</div>
 						</dl>
 						<div class="mt-10">
-							<a href="#" class="text-base font-medium text-red-500"> Learn more about how we're changing the </a>
+							<a href="/zasto-ubuntu/" class="text-base font-medium text-red-500"> Saznajte više o nama </a>
 						</div>
 					</div>
 				</div>
@@ -258,39 +252,17 @@
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
 					<div>
-						<h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Backed by world-renowned investors</h2>
+						<h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Tim psihoterapeuta, Vama na usluzi</h2>
 						<p class="mt-6 max-w-3xl text-lg leading-7 text-gray-500">
-							Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet
-							vitae fames senectus vitae.
+							Trudimo se da naše savetovalište predstavlja sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.
 						</p>
 						<div class="mt-6">
-							<a href="#" class="text-base font-medium text-red-500"> Meet our investors and </a>
+							<a href="/tim/" class="text-base font-medium text-red-500"> Upoznaj Ubuntu tim </a>
 						</div>
 					</div>
-					<div class="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-						<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-							<img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor" />
-						</div>
+					<div class="mt-12 ">
+							<g-image class="w-full h-full" src="~/assets/img/tim.jpg"/>
 
-						<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-							<img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
-						</div>
-
-						<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-							<img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
-						</div>
-
-						<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-							<img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel" />
-						</div>
-
-						<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-							<img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
-						</div>
-
-						<div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-							<img class="max-h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation" />
-						</div>
 					</div>
 				</div>
 			</div>
@@ -300,12 +272,12 @@
 			<!-- Header -->
 			<div class="relative pb-32 bg-gray-800">
 				<div class="absolute inset-0">
-					<img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt="" />
+					<g-image class="w-full h-full object-cover" src="~/assets/img/support.jpg" alt="" />
 					<div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
 				</div>
 				<div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-					<h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Support</h1>
-					<p class="mt-6 max-w-3xl text-xl text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+					<h2 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Prvi korak ka ličnom rastu i zavoju ste već napravili. Da li ste spremni za sledeći?</h2>
+					<p class="mt-6 max-w-3xl text-xl text-gray-300"> Na raspolaganju su vam savetovališta u Novom Sadu i Beogradu. Takođe, postoji mogućnost i za Online savetovanje.</p>
 				</div>
 			</div>
 
@@ -326,11 +298,11 @@
 									/>
 								</svg>
 							</div>
-							<h3 class="text-xl font-medium text-gray-900">Sales</h3>
-							<p class="mt-4 text-base text-gray-500">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.</p>
+							<h3 class="text-xl font-medium text-gray-900"> Novosadsko savetovalište</h3>
+							<p class="mt-4 text-base text-gray-500">Projekat "Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć. </p>
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Contact us<span aria-hidden="true"> &rarr;</span></a>
+							<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
 
@@ -347,11 +319,11 @@
 									/>
 								</svg>
 							</div>
-							<h3 class="text-xl font-medium text-gray-900">Technical Support</h3>
-							<p class="mt-4 text-base text-gray-500">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.</p>
+							<h3 class="text-xl font-medium text-gray-900">Beogradsko savetovalište</h3>
+							<p class="mt-4 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 2 adrese.</p>
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Contact us<span aria-hidden="true"> &rarr;</span></a>
+							<a href="/savetovaliste-beograd/" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
 
@@ -363,11 +335,11 @@
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
 								</svg>
 							</div>
-							<h3 class="text-xl font-medium text-gray-900">Media Inquiries</h3>
-							<p class="mt-4 text-base text-gray-500">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.</p>
+							<h3 class="text-xl font-medium text-gray-900">Online savetovanje </h3>
+							<p class="mt-4 text-base text-gray-500">Kako bi unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online. </p>
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Contact us<span aria-hidden="true"> &rarr;</span></a>
+							<a href="/online-savetovaliste/" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
 				</div>
@@ -408,12 +380,12 @@
 					</div>
 					<div class="relative">
 						<div class="sm:text-center">
-							<h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Get notified when we&rsquo;re launching.</h2>
-							<p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque.</p>
+							<h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Tips & Tricks za mentalni razvoj.</h2>
+							<p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">Želiš da budeš u toku sa našim objavama? Obećavamo da nećemo slati više od jednog mejla nedeljno 😊</p>
 						</div>
 						<form action="#" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
 							<div class="min-w-0 flex-1">
-								<label for="cta-email" class="sr-only">Email address</label>
+								<label for="cta-email" class="sr-only">Enter your email</label>
 								<input
 									id="cta-email"
 									type="email"
@@ -429,7 +401,7 @@
 										shadow-sm
 										focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-red-500
 									"
-									placeholder="Enter your email"
+									placeholder="Upiši svoj email"
 								/>
 							</div>
 							<div class="mt-4 sm:mt-0 sm:ml-3">
@@ -452,7 +424,7 @@
 										sm:px-10
 									"
 								>
-									Notify me
+									Prijavi me
 								</button>
 							</div>
 						</form>

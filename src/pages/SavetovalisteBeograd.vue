@@ -30,8 +30,108 @@
 				<g-image src="~/assets/img/hero-8.png" class="relative" />
 			</div>
 		</main>
+
+		<!-- nova sekcija -->
+		<div class="py-16 overflow-hidden lg:py-24">
+			<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
+				<svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+					<defs>
+						<pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+							<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+						</pattern>
+					</defs>
+					<rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
+				</svg>
+
+				<div class="relative">
+					<h2 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Beogradsko savetovalište Ubuntu</h2>
+					<p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
+						Projekat pokrenut 2019. godine od strane Ubuntu centra za rast i razvoj ljudskog potencijala sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć
+					</p>
+				</div>
+
+				<div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+					<div class="relative">
+						<h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Na koji način savetovalište funkcioniše?</h3>
+						<p class="mt-3 text-lg text-gray-500">
+							Projekat je samoodrživ i finansira se uz pomoć dobrovoljne donacije građana. Donacije se koriste isključivo u svrhu održavanja rada savetovališta i profesionalnog ulagaja u tim koji je angažovan u okviru projekta.
+						</p>
+					</div>
+
+					<div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
+						<svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
+							<defs>
+								<pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+									<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+								</pattern>
+							</defs>
+							<rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
+						</svg>
+						<img class="relative mx-auto" width="490" src="https://tailwindui.com/img/features/feature-example-1.png" alt="" />
+					</div>
+				</div>
+
+				<svg class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+					<defs>
+						<pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+							<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+						</pattern>
+					</defs>
+					<rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+				</svg>
+
+				<div class="relative mt-12 sm:mt-16 lg:mt-24">
+					<div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+						<div class="lg:col-start-2">
+							<h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Koji su prvi koraci?</h3>
+							<p class="mt-3 text-lg text-gray-500">
+								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je nephodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta, koliko
+								je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
+							</p>
+							<a
+								href="#"
+								@click="onClickTwo()"
+								class="
+									text-center
+									mt-4
+									block
+									rounded-md
+									border border-transparent
+									px-5
+									py-3
+									bg-indigo-500
+									text-base
+									font-medium
+									text-white
+									shadow
+									hover:bg-indigo-600
+									focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2
+									sm:px-10
+								"
+							>
+								Kontaktiraj nas za više informacija
+							</a>
+						</div>
+
+						<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+							<svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404" aria-hidden="true">
+								<defs>
+									<pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+										<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+									</pattern>
+								</defs>
+								<rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
+							</svg>
+							<img class="relative mx-auto" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- end nova sekcija -->
 		<!-- feature -->
-		<div class="bg-gray-50 my-10 overflow-hidden">
+		<div class="my-10 overflow-hidden">
 			<div class="relative max-w-7xl mx-auto py-48 px-4 sm:px-6 lg:px-8">
 				<svg class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
 					<defs>
@@ -163,56 +263,10 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Za 60 minuta psihoterapije je neophodno izdvojiti minimum 1.000,00 dinara, kao donacije za rad savetovališta.</p>
+								<p class="text-base text-gray-500">Za 60 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1000 RSD</span>, kao donacije za rad savetovališta.</p>
 							</dd>
 						</div>
 
-						<div x-data="{open: false}" class="pt-6">
-							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
-								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900">Cena partnerske terapije </span>
-									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
-										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-										</svg>
-									</span>
-								</button>
-							</dt>
-							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Za 90 minuta psihoterapije je neophodno izdvojiti po osobi minimum 1.000,00 dinara, kao donacije za rad savetovališta.</p>
-							</dd>
-						</div>
-						<div x-data="{open: false}" class="pt-6">
-							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
-								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900">Cena porodične psihoterapije</span>
-									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
-										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-										</svg>
-									</span>
-								</button>
-							</dt>
-							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Za 90 minuta psihoterapije je neophodno izdvojiti po osobi minimum 1.000,00 dinara, kao donacije za rad savetovališta.</p>
-							</dd>
-						</div>
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
@@ -234,33 +288,12 @@
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
 								<p class="text-base text-gray-500">
-									Prvi i neophodni uslov za započinjanje procesa psihoterapije je psihološka procena. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stručnog saradnika za rad.
+									Prvi i neophodni uslov za započinjanje procesa psihoterapije je <span class="font-bold">psihološka procena</span>. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stručnog saradnika za rad.
+									Za ovaj susret je neophodno izdvojiti <span class="font-bold">2000 RSD</span> donacije po osobi.
 								</p>
 							</dd>
 						</div>
-						<div x-data="{open: false}" class="pt-6">
-							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
-								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900">Cena psihološke procene</span>
-									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
-										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-										</svg>
-									</span>
-								</button>
-							</dt>
-							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Za ovaj susret je neophodno izdvojiti 2.000,00 dinara donacije po osobi.</p>
-							</dd>
-						</div>
+			
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
@@ -281,9 +314,57 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500"><a href="/donacije">Donacije</a> je moguće uplatiti uživo ili na žiro račun centra.</p>
+								<p class="text-base text-gray-500"><a href="/donacije">Donacije</a> je moguće uplatiti <span class="font-bold">uživo</span> ili na <span class="font-bold">žiro račun</span> centra.</p>
 							</dd>
 						</div>
+
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900">Kako se vrši uplata iz inostranstva?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Putem  <span class="font-bold">PayPal</span>-a.</p>
+							</dd>
+						</div>
+							<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900">Da li studenti imaju popust?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Uslovi su isti za sve klijente na projektu.</p>
+							</dd>
+						</div>
+
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
@@ -304,7 +385,55 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Radno vreme centra je svakim danom, uključujući vikend, od 8-22h, a dostupnost termina zavisi od vašeg izabranog psihoterapeuta.</p>
+								<p class="text-base text-gray-500">Radno vreme centra je <span class="font-bold">svakim danom</span>, uključujući vikend, od <span class="font-bold">8-22h</span>, a dostupnost termina zavisi od vašeg izabranog psihoterapeuta.</p>
+							</dd>
+						</div>
+
+						<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900">Koliko traje susret?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Individualni susret traje <span class="font-bold">60 minuta</span>, dok partnerski i porodični susreti traju <span class="font-bold">90 minuta</span>.</p>
+							</dd>
+						</div>
+
+							<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900">Dinamika susreta, koliko se često održavaju?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Susreti se održavaju <span class="font-bold">jednom nedeljno.</span></p>
 							</dd>
 						</div>
 
@@ -672,6 +801,10 @@ export default {
 					)
 					.catch((error) => alert(error));
 			}
+		},
+				onClickTwo() {
+			let element = document.getElementById("scroll");
+			element.scrollIntoView({ behavior: "smooth", block: "start" });
 		},
 	},
 

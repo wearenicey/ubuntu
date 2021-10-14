@@ -9,40 +9,129 @@
 			</button>
 		</back-to-top>
 		<navigation-ns></navigation-ns>
-		<main class="lg:relative">
+	<main class="lg:relative flex items-center">
 			<div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
 				<div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-					<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-						<span class="block xl:inline">Data to enrich your</span>
-						<span class="block text-indigo-600 xl:inline">online business</span>
+					<h1 class="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+						<span class="block xl:inline">Novi Sad je vaš grad, a treba vam <span class="text-indigo-600">psihoterapeut?</span>Ubuntu je pravi izbor</span>
 					</h1>
-					<p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
-					</p>
+					<p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl"> Naša Ubuntu priča počela je baš u ovom gradu 2016. godine.</p>
 					<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
 						<div class="rounded-md shadow">
-							<a href="tel:+381658286881" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-								<svg class="flex-shrink-0 w-4 h-4 mr-1 text-indigo-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-									/>
-								</svg>
-								Zakažite besplatnu konsultaciju
+							<a href="tel:+381658286883" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+								Nazovi za besplatnu konsultaciju
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-				<img class="absolute inset-0 w-full h-full object-cover" src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="" />
+			<div class="relative lg:absolute lg:right-0 lg:w-1/2">
+				<g-image src="~/assets/img/hero-8.png" class="relative" />
 			</div>
 		</main>
+
+		<!-- nova sekcija -->
+		<div class="py-16 overflow-hidden lg:py-24">
+			<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
+				<svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+					<defs>
+						<pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+							<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+						</pattern>
+					</defs>
+					<rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
+				</svg>
+
+				<div class="relative">
+					<h2 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Novosadsko savetovalište Ubuntu</h2>
+					<p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
+						Projekat pokrenut 2016. godine od strane Ubuntu centra za rast i razvoj ljudskog potencijala sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć.
+					</p>
+				</div>
+
+				<div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+					<div class="relative">
+						<h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Na koji način savetovalište funkcioniše?</h3>
+						<p class="mt-3 text-lg text-gray-500">
+							Projekat je samoodrživ i finansira se uz pomoć dobrovoljne donacije građana. Donacije se koriste isključivo u svrhu održavanja rada savetovališta i profesionalnog ulagaja u tim koji je angažovan u okviru projekta.
+						</p>
+					</div>
+
+					<div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
+						<svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
+							<defs>
+								<pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+									<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+								</pattern>
+							</defs>
+							<rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
+						</svg>
+						<img class="relative mx-auto" width="490" src="https://tailwindui.com/img/features/feature-example-1.png" alt="" />
+					</div>
+				</div>
+
+				<svg class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+					<defs>
+						<pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+							<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+						</pattern>
+					</defs>
+					<rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+				</svg>
+
+				<div class="relative mt-12 sm:mt-16 lg:mt-24">
+					<div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+						<div class="lg:col-start-2">
+							<h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Koji su prvi koraci?</h3>
+							<p class="mt-3 text-lg text-gray-500">
+								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je nephodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta, koliko
+								je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
+							</p>
+							<a
+								href="#"
+								@click="onClickTwo()"
+								class="
+									text-center
+									mt-4
+									block
+									rounded-md
+									border border-transparent
+									px-5
+									py-3
+									bg-indigo-500
+									text-base
+									font-medium
+									text-white
+									shadow
+									hover:bg-indigo-600
+									focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2
+									sm:px-10
+								"
+							>
+								Kontaktiraj nas za više informacija
+							</a>
+						</div>
+
+						<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+							<svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404" aria-hidden="true">
+								<defs>
+									<pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+										<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+									</pattern>
+								</defs>
+								<rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
+							</svg>
+							<img class="relative mx-auto" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- end nova sekcija -->
 		<!-- feature -->
-		<div class="bg-gray-50 my-10 overflow-hidden">
-			<div class="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+		<div class="my-10 overflow-hidden">
+			<div class="relative max-w-7xl mx-auto py-48 px-4 sm:px-6 lg:px-8">
 				<svg class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
 					<defs>
 						<pattern id="8b1b5f72-e944-4457-af67-0c6d15a99f38" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -54,7 +143,7 @@
 
 				<div class="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
 					<div class="lg:col-span-1">
-						<h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">A better way to send money.</h2>
+						<h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Psihoterapija dostupna svima</h2>
 					</div>
 					<dl class="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
 						<div>
@@ -70,9 +159,9 @@
 										/>
 									</svg>
 								</div>
-								<p class="mt-5 text-lg leading-6 font-medium text-gray-900">Competitive rates</p>
+								<p class="mt-5 text-lg leading-6 font-medium text-gray-900">Izbor terapeuta</p>
 							</dt>
-							<dd class="mt-2 text-base text-gray-500">Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.</dd>
+							<dd class="mt-2 text-base text-gray-500">Nulti susret služi za procenu psihoterapijske motivacije, na osnovu čega naš tim efikasno odabere najboljeg terapeuta za vas.</dd>
 						</div>
 
 						<div>
@@ -88,9 +177,9 @@
 										/>
 									</svg>
 								</div>
-								<p class="mt-5 text-lg leading-6 font-medium text-gray-900">No hidden fees</p>
+								<p class="mt-5 text-lg leading-6 font-medium text-gray-900">Finansijska pristupačnost</p>
 							</dt>
-							<dd class="mt-2 text-base text-gray-500">Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.</dd>
+							<dd class="mt-2 text-base text-gray-500">Novac koji je neophodno izdvojiti za susret je daleko ispod redovne cene psihoterapije.</dd>
 						</div>
 
 						<div>
@@ -101,9 +190,9 @@
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
 									</svg>
 								</div>
-								<p class="mt-5 text-lg leading-6 font-medium text-gray-900">Instant transfers</p>
+								<p class="mt-5 text-lg leading-6 font-medium text-gray-900">Psihoterapijski pravci</p>
 							</dt>
-							<dd class="mt-2 text-base text-gray-500">Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.</dd>
+							<dd class="mt-2 text-base text-gray-500">Naši psihoterapeuti dolaze iz različitih psihoterapijskih pravaca.</dd>
 						</div>
 
 						<div>
@@ -114,9 +203,9 @@
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 									</svg>
 								</div>
-								<p class="mt-5 text-lg leading-6 font-medium text-gray-900">Reminder emails</p>
+								<p class="mt-5 text-lg leading-6 font-medium text-gray-900">Dostupnost i fleksibilnost</p>
 							</dt>
-							<dd class="mt-2 text-base text-gray-500">Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.</dd>
+							<dd class="mt-2 text-base text-gray-500">Naš tim okuplja veliki broj saradnika, pa je zakazivanje susreta moguće u terminima koji vama odgovaraju.</dd>
 						</div>
 					</dl>
 				</div>
@@ -131,13 +220,15 @@
 						<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover" />
 					</div>
 					<div class="relative lg:col-span-1">
-						<img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" />
+						<!-- <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" /> -->
+						<h2 class="text-2xl font-medium sm:text-2xl text-white">Referenca</h2>
 						<blockquote class="mt-6 text-white">
-							<p class="text-xl font-medium sm:text-2xl">Workflow has completely transformed how we interact with customers. We've seen record bookings, higher customer satisfaction, and reduced churn.</p>
+							<p class="text-xl font-medium sm:text-2xl">
+								Mesto koje otvara mogućnost toplog ali snažnog transformisanja sebe, uz puno razumevanja i terapeutovog prihvatanja. Volela bih da sam se na ovo putovanje sa divnom Ninom odlučila ranije.
+							</p>
 							<footer class="mt-6">
 								<p class="flex flex-col font-medium">
-									<span>Marie Chilvers</span>
-									<span>CEO, Workcation</span>
+									<span>Marina (preduzetnica)</span>
 								</p>
 							</footer>
 						</blockquote>
@@ -149,13 +240,13 @@
 		<div class="bg-gray-50 my-14">
 			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
 				<div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
-					<h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">Frequently asked questions</h2>
+					<h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">Vi pitate, psihoterapeut odgovara</h2>
 					<dl class="mt-6 space-y-6 divide-y divide-gray-200">
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900"> Cena individualne psihoterapije</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -171,7 +262,7 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Za 60 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1000 RSD</span>, kao donacije za rad savetovališta.</p>
 							</dd>
 						</div>
 
@@ -179,7 +270,7 @@
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900">Koji su uslovi za ulazak u naš program i započinjanje psihoterapijskog procesa?</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -195,14 +286,18 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">
+									Prvi i neophodni uslov za započinjanje procesa psihoterapije je <span class="font-bold">psihološka procena</span>. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stručnog saradnika za rad.
+									Za ovaj susret je neophodno izdvojiti <span class="font-bold">2000 RSD</span> donacije po osobi.
+								</p>
 							</dd>
 						</div>
+			
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900">Na koji način mogu izvršiti uplatu?</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -218,14 +313,15 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500"><a href="/donacije">Donacije</a> je moguće uplatiti <span class="font-bold">uživo</span> ili na <span class="font-bold">žiro račun</span> centra.</p>
 							</dd>
 						</div>
+
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900">Kako se vrši uplata iz inostranstva?</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -241,14 +337,38 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Putem  <span class="font-bold">PayPal</span>-a.</p>
 							</dd>
 						</div>
+							<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900">Da li studenti imaju popust?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Uslovi su isti za sve klijente na projektu.</p>
+							</dd>
+						</div>
+
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900">Radno vreme, da li mogu dolaziti vikendom?</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -264,14 +384,15 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Radno vreme centra je <span class="font-bold">svakim danom</span>, uključujući vikend, od <span class="font-bold">8-22h</span>, a dostupnost termina zavisi od vašeg izabranog psihoterapeuta.</p>
 							</dd>
 						</div>
+
 						<div x-data="{open: false}" class="pt-6">
 							<dt class="text-lg">
 								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-									<span class="font-medium text-gray-900"> What&#039;s the best thing about Switzerland? </span>
+									<span class="font-medium text-gray-900">Koliko traje susret?</span>
 									<span class="ml-6 h-7 flex items-center">
 										<!--
                   Expand/collapse icon, toggle classes based on question open state.
@@ -287,7 +408,31 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+								<p class="text-base text-gray-500">Individualni susret traje <span class="font-bold">60 minuta</span>, dok partnerski i porodični susreti traju <span class="font-bold">90 minuta</span>.</p>
+							</dd>
+						</div>
+
+							<div x-data="{open: false}" class="pt-6">
+							<dt class="text-lg">
+								<!-- Expand/collapse question button -->
+								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+									<span class="font-medium text-gray-900">Dinamika susreta, koliko se često održavaju?</span>
+									<span class="ml-6 h-7 flex items-center">
+										<!--
+                  Expand/collapse icon, toggle classes based on question open state.
+
+                  Heroicon name: outline/chevron-down
+
+                  Open: "-rotate-180", Closed: "rotate-0"
+                -->
+										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</span>
+								</button>
+							</dt>
+							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+								<p class="text-base text-gray-500">Susreti se održavaju <span class="font-bold">jednom nedeljno.</span></p>
 							</dd>
 						</div>
 
@@ -301,15 +446,14 @@
 			<div>
 				<div class="max-w-7xl mx-auto pb-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 					<div class="text-center">
-						<h2 class="text-base font-semibold text-indigo-600 tracking-wide uppercase">Pricing</h2>
-						<p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Take control of your team.</p>
-						<p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Start building for free, then add a site plan to go live. Account plans unlock additional features.</p>
+						<p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom</p>
+						<p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo</p>
 					</div>
 				</div>
 			</div>
 			<div class="max-w-7xl mx-auto px-4 pb-20" id="scroll">
 				<div class="relative bg-white shadow-xl">
-					<h2 class="sr-only">Contact us</h2>
+					<h2 class="sr-only">Kontakt informacije</h2>
 
 					<div class="grid grid-cols-1 lg:grid-cols-3">
 						<!-- Contact information -->
@@ -349,7 +493,7 @@
 							</div>
 							<div class="py-10 px-6 sm:px-10 xl:p-12">
 								<h3 class="text-lg font-medium text-white">Kontakt informacije</h3>
-								<p class="mt-6 text-base text-indigo-50 max-w-3xl">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+								<p class="mt-6 text-base text-indigo-50 max-w-3xl">Ubuntu Novi Sad brine o vašem mentalnom zdravlju od 2016. godine</p>
 								<dl class="mt-8 space-y-6">
 									<dt><span class="sr-only">Telefon</span></dt>
 									<dd class="flex text-base text-indigo-50">
@@ -370,12 +514,12 @@
 										<svg class="flex-shrink-0 w-6 h-6 text-indigo-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 										</svg>
-										<span class="ml-3">support@workcation.com</span>
+										<span class="ml-3"><a href="mailto:psihoterapija-ns@ubuntucentar.com">psihoterapija-ns@ubuntucentar.com</a></span>
 									</dd>
 								</dl>
 								<ul role="list" class="mt-8 flex space-x-12">
 									<li>
-										<a class="text-indigo-200 hover:text-indigo-100" href="https://sr-rs.facebook.com/UBUNTUcentar/">
+										<a class="text-indigo-200 hover:text-indigo-100" href="https://sr-rs.facebook.com/UBUNTUcentar/" target="_blank">
 											<span class="sr-only">Facebook</span>
 											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" aria-hidden="true">
 												<path
@@ -386,7 +530,7 @@
 										</a>
 									</li>
 									<li>
-										<a class="text-indigo-200 hover:text-indigo-100" href="https://www.instagram.com/ubuntu_centar/?hl=en">
+										<a class="text-indigo-200 hover:text-indigo-100" href="https://www.instagram.com/ubuntu_centar/?hl=en" target="_blank">
 											<span class="sr-only">Instagram</span>
 											<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 												<path
@@ -655,6 +799,10 @@ export default {
 					)
 					.catch((error) => alert(error));
 			}
+		},
+		onClickTwo() {
+			let element = document.getElementById("scroll");
+			element.scrollIntoView({ behavior: "smooth", block: "start" });
 		},
 	},
 

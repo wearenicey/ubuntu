@@ -1,8 +1,8 @@
 <template>
 	<div class="relative max-w-7xl mx-auto">
 		<div class="text-center">
-			<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">From the blog</h2>
-			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
+			<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Iz naše Blog radionice </h2>
+			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Aktuelni tekstovi na temu psihoterapije i psihologije, kao dodatak ličnom rastu i razvoju</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 			<div v-for="post in $static.pocetna.edges" :key="post.node.id">
