@@ -70,11 +70,11 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Blog</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<a href="/prokrastinacija/" class="text-base text-gray-500 hover:text-gray-900">Prokrastinacija</a>
+									<a href="/stres/" class="text-base text-gray-500 hover:text-gray-900">Stres</a>
 								</li>
 
 								<li>
-									<a href="/anksioznost/" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </a>
+									<a href="/anksioznost-i-anksiozni-poremecaji/" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </a>
 								</li>
 
 								<li>

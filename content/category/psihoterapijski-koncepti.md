@@ -1,5 +1,5 @@
 ---
 id: psihoterapijski-koncepti
 title: "Psihoterapijski koncepti"
-desc: "Psihoterapijski koncepti..."
+desc: "Objašnjenja osnovnih teorijskih pojmova iz psihoterapijske prakse koji vam mogu biti korisni u životu."
 ---

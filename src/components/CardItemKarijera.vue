@@ -1,8 +1,8 @@
 <template>
 	<div class="relative max-w-7xl mx-auto">
 		<div class="text-center">
-			<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">From the blog</h2>
-			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
+			<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Više o psihoterapiji</h2>
+			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Šta je psihoterapija, ko sve može da postane psihoterapeut i šta možemo da očekujemo ako se upustimo u ovaj proce</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 			<div v-for="post in $static.pocetna.edges" :key="post.node.id">
@@ -55,7 +55,7 @@
 </template>
 <static-query>
 	query {
-  pocetna:  allPost ( filter:{featured: {eq: true}} limit: 3) {
+  pocetna:  allPost ( filter:{category: {eq: "psihoterapija"}} limit: 3) {
  
   edges {
     node {

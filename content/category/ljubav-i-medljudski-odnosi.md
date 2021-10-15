@@ -1,5 +1,5 @@
 ---
 id: ljubav-i-medjuljudski-odnosi
 title: "Ljubav i međuljudski odnosi"
-desc: "sdf"
+desc: "O ljubavi, zaljubljenosti, partnerskim i drugim odnosima."
 ---

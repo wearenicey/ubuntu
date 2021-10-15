@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">
+		<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99; width: 60px; height: 60px; padding: 10px 16px; border-radius: 50%; font-size: 22px; line-height: 22px">
 			<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600">
 				<svg class="icon" viewBox="0 0 16 16">
 					<title>Go to top of page</title>
@@ -10,7 +10,7 @@
 		</back-to-top>
 		<navigation-online></navigation-online>
 		<main class="lg:relative flex items-center">
-			<div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+			<div class="mx-auto max-w-7xl w-full pt-16 sm:pb-20 text-center lg:py-48 lg:text-left">
 				<div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
 					<h1 class="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
 						<span class="block xl:inline">Treba vam psiholog ili psihoterapeut online? Ubuntu je pravi izbor</span>
@@ -70,7 +70,7 @@
 											/>
 										</svg>
 									</div>
-									<p class="ml-16 text-lg leading-6 font-medium text-gray-900">Laptop ili desktop računar koji ima kameru i mikrofon</p>
+									<p class="ml-16 pt-3 text-lg leading-6 font-medium text-gray-900">Laptop ili desktop računar koji ima kameru i mikrofon</p>
 								</dt>
 							</div>
 
@@ -87,7 +87,7 @@
 											/>
 										</svg>
 									</div>
-									<p class="ml-16 text-lg leading-6 font-medium text-gray-900">Dobru internet konekciju koja može podržati video poz</p>
+									<p class="ml-16 text-lg smpt-3 leading-6 font-medium text-gray-900">Dobru internet konekciju koja može podržati video poz</p>
 								</dt>
 							</div>
 
@@ -183,7 +183,7 @@
 		<!-- end nova sekcija -->
 		<!-- feature -->
 		<div class="my-10 overflow-hidden">
-			<div class="relative max-w-7xl mx-auto py-48 px-4 sm:px-6 lg:px-8">
+			<div class="relative max-w-7xl mx-auto sm:py-48 px-4 sm:px-6 lg:px-8">
 				<svg class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
 					<defs>
 						<pattern id="8b1b5f72-e944-4457-af67-0c6d15a99f38" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -498,7 +498,7 @@
 		</div>
 
 		<!-- contact -->
-		<div class="pt-24">
+		<div class="sm:pt-24">
 			<div>
 				<div class="max-w-7xl mx-auto pb-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 					<div class="text-center">
@@ -555,8 +555,8 @@
 							<dl class="mt-8 space-y-6">
 								<!-- <dt><span class="sr-only">Telefon</span></dt> -->
 								<!-- <dd class="flex text-base text-indigo-50"> -->
-									<!-- Heroicon name: outline/phone -->
-									<!-- <svg class="flex-shrink-0 w-6 h-6 text-indigo-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+								<!-- Heroicon name: outline/phone -->
+								<!-- <svg class="flex-shrink-0 w-6 h-6 text-indigo-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 										<path
 											stroke-linecap="round"
 											stroke-linejoin="round"
@@ -567,7 +567,7 @@
 									<span class="ml-3"> <a href="tel:+381658286883">065 828 6883</a></span>
 								</dd> -->
 								<dt><span class="sr-only">Email</span></dt>
-								<dd class="flex text-base text-indigo-50">
+								<dd class="flex text-sm text-indigo-50">
 									<!-- Heroicon name: outline/mail -->
 									<svg class="flex-shrink-0 w-6 h-6 text-indigo-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
