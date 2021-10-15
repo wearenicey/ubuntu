@@ -4,7 +4,7 @@
 			<div>
 				<a href="/" class="flex">
 					<span class="sr-only">Workflow</span>
-					<g-image class="h-8 w-auto sm:h-10" src="~/assets/img/ubuntu_centar.png" alt="Workflow" />
+					<g-image class="block h-16 w-auto sm:h-20" src="~/assets/img/ubuntu-logo.png" alt="Workflow"  />
 				</a>
 			</div>
 			<div class="-mr-2 -my-2 md:hidden">
@@ -246,23 +246,22 @@
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
 									<div v-for="category in $static.category.edges" :key="category.node.id">
-									<g-link :to="category.node.id" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-										<!-- Heroicon name: outline/support -->
-										<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
-											/>
-										</svg>
-										<div class="ml-4">
-											<p class="text-base font-medium text-gray-900">{{category.node.title}}</p>
-											<p class="mt-1 text-sm text-gray-500">{{category.node.desc}}</p>
-										</div>
-									</g-link>
-
-								</div>
+										<g-link :to="category.node.id" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+											<!-- Heroicon name: outline/support -->
+											<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
+												/>
+											</svg>
+											<div class="ml-4">
+												<p class="text-base font-medium text-gray-900">{{ category.node.title }}</p>
+												<p class="mt-1 text-sm text-gray-500">{{ category.node.desc }}</p>
+											</div>
+										</g-link>
+									</div>
 								</div>
 								<div class="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
 									<div>
@@ -321,7 +320,7 @@
 				<div class="pt-5 pb-6 px-5">
 					<div class="flex items-center justify-between">
 						<div>
-							<img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow" />
+							<g-image class="block h-14 w-auto sm:h-10" src="~/assets/img/ubuntu-logo.png" alt="Workflow"  />
 						</div>
 						<div class="-mr-2">
 							<button

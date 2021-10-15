@@ -40,4 +40,3 @@ export default {
 	line-height: 22px;
 }
 </style>
-</style>

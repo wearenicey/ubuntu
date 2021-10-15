@@ -5,7 +5,7 @@
 				<div class="flex md:absolute md:left-0 md:inset-y-0 lg:static xl:col-span-2">
 					<div class="flex-shrink-0 flex items-center">
 						<a href="/">
-							<g-image class="block h-12 w-auto" src="~/assets/img/ubuntu_ns.png" alt="Workflow" />
+					<g-image class="block h-16 w-auto sm:h-20" src="~/assets/img/ubuntu-logo.png" alt="Workflow"  />
 						</a>
 					</div>
 				</div>
