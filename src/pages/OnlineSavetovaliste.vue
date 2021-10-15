@@ -70,7 +70,7 @@
 											/>
 										</svg>
 									</div>
-									<p class="ml-16 pt-3 text-lg leading-6 font-medium text-gray-900">Laptop ili desktop računar koji ima kameru i mikrofon</p>
+									<p class="ml-16 sm:pt-3 text-lg leading-6 font-medium text-gray-900">Laptop ili desktop računar koji ima kameru i mikrofon</p>
 								</dt>
 							</div>
 
@@ -87,7 +87,7 @@
 											/>
 										</svg>
 									</div>
-									<p class="ml-16 text-lg smpt-3 leading-6 font-medium text-gray-900">Dobru internet konekciju koja može podržati video poz</p>
+									<p class="ml-16 text-lg sm:pt-3 leading-6 font-medium text-gray-900">Dobru internet konekciju koja može podržati video poz</p>
 								</dt>
 							</div>
 
