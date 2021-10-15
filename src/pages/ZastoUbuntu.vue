@@ -29,9 +29,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">
+					<div class="mt-12  relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">
 						<svg
-							class="absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20"
+							class="absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20 md:visible invisible"
 							width="404"
 							height="384"
 							fill="none"

@@ -4,8 +4,8 @@
 		<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
 			<div class="xl:grid xl:grid-cols-3 xl:gap-8">
 				<div class="space-y-8 xl:col-span-1">
-					<img class="h-10" src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg" alt="Company name" />
-					<p class="text-gray-500 text-base">Making the world a better place through constructing elegant hierarchies.</p>
+					<g-image class="h-14 w-14" src="~/assets/img/ubuntu-logo.png" alt="Company name" />
+					<p class="text-gray-500 text-base">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi..</p>
 					<div class="flex space-x-6">
 						<a href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">
 							<span class="sr-only">Facebook</span>
