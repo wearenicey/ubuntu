@@ -1,4 +1,5 @@
 <template>
+		<transition name="fade" appear>
 	<div class="layout">
 		<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">
 			<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600">
@@ -8,14 +9,15 @@
 				</svg>
 			</button>
 		</back-to-top>
-	
+
 		<Header></Header>
-		<transition name="fade" appear>
 			<slot />
-		</transition>
 
 		<Footer></Footer>
+
 	</div>
+	</transition>
+
 </template>
 
 <static-query>
