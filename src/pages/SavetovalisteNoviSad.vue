@@ -493,7 +493,7 @@
 										</defs>
 									</svg>
 								</div>
-						
+
 								<div class="py-10 px-6 sm:px-10 xl:p-12">
 									<h3 class="text-lg font-medium text-gray-400">Kontakt informacije</h3>
 									<p class="mt-6 text-base text-gray-400 max-w-3xl">Ubuntu Novi Sad brine o vašem mentalnom zdravlju od 2016. godine</p>
