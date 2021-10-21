@@ -15,7 +15,7 @@
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 					<div class="mt-10">
 						<h2 class="text-4xl text-purple-800 sm:text-5xl">
-							<span class="block">Novi Sad je vaš grad,</span>
+							<span class="block">Novi Sad je vaš grad, sasa</span>
 							<span class="block">treba vam psihoterapeut?</span>
 						</h2>
 						<p class="text-gray-700 text-xl pt-4">Naša Ubuntu priča počela je baš u ovom gradu 2016. godine.</p>
