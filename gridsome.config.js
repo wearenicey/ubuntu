@@ -100,12 +100,12 @@ module.exports = {
 	chainWebpack: config => {
 		config.resolve.alias.set('@img', '@/assets/img')
 	},
-	css: {
-		loaderOptions: {
-			postcss: {
-				plugins: postcssPlugins,
-			},
-		},
-	},
+	// css: {
+	// 	loaderOptions: {
+	// 		postcss: {
+	// 			plugins: postcssPlugins,
+	// 		},
+	// 	},
+	// },
 }
 
