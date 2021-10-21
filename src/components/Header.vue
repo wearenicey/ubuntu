@@ -3,7 +3,7 @@
 		<div class="flex justify-between max-w-7xl mx-auto items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10" id="position">
 			<div>
 				<a href="/" class="flex">
-					<span class="sr-only">Workflow</span>
+					<span class="sr-only">Workflows</span>
 					<g-image class="block h-16 w-auto sm:h-20" src="~/assets/img/ubuntu-logo.png" alt="Workflow"  />
 				</a>
 			</div>
