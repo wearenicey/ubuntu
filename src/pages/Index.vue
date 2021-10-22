@@ -1,6 +1,5 @@
 <template>
 	<Layout>
-	
 		<!-- Hero section -->
 <div class="bg-white">
 	<svg class="hidden xl:block absolute transform translate-y-24 " width="34" style="right: 36rem" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,13 +14,24 @@
 						<div class="inline-flex">
 							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
 								Zakažite besplatnu konsultaciju
-
 							</a>
 						</div>
 					</div>
 				<div>
 						<g-image class="mt-20" src="~/assets/img/pocenta-1.jpg"></g-image>
-					</div>	
+			</div>	
+			<svg class="hidden xl:block absolute right-72 transform bottom-60" width="114" height="122" viewBox="0 0 114 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M19.4066 0.362265L113.567 77.8852L0.279537 121.814L19.4066 0.362265Z" fill="#8B5CF6"/>
+			</svg>
+			<svg class="hidden xl:block absolute transform -translate-x-12 -translate-y-32" width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M29.4705 2.82388C38.3672 -0.44558 48.0706 -0.814616 57.1899 1.76967C66.3092 4.35395 74.3763 9.75888 80.2349 17.2098C86.0936 24.6607 89.4431 33.7751 89.8033 43.2467C90.1635 52.7182 87.516 62.0607 82.2402 69.9351C76.9643 77.8095 69.3311 83.8115 60.4344 87.081C51.5377 90.3504 41.8344 90.7195 32.7151 88.1352C23.5958 85.5509 15.5287 80.146 9.67002 72.6951C3.81136 65.2441 0.461882 56.1297 0.101662 46.6582C-0.258558 37.1866 2.38897 27.8442 7.66479 19.9698C12.9406 12.0954 20.5739 6.09334 29.4705 2.82388Z" fill="#FE6600"/>
+			</svg>
+			<svg class="hidden xl:block absolute right-60 bottom-10" width="99" height="118" viewBox="0 0 99 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect width="65.1721" height="126.491" rx="32.5861" transform="matrix(0.835991 0.548743 -0.538065 0.842903 56.0603 -12)" fill="#7DD3FC"/>
+			</svg>
+			<svg class="hidden xl:block  absolute right-1/4 transform -translate-y-80" width="141" height="141" viewBox="0 0 141 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M46.3367 4.67035C60.2481 -0.441992 75.4208 -1.01904 89.6804 3.02191C103.94 7.06286 116.554 15.5144 125.715 27.1651C134.876 38.8158 140.114 53.0677 140.677 67.878C141.24 82.6883 137.1 97.2968 128.851 109.61C120.601 121.923 108.665 131.308 94.7537 136.42C80.8423 141.532 65.6696 142.109 51.41 138.069C37.1505 134.028 24.5363 125.576 15.3753 113.925C6.21433 102.275 0.976878 88.0228 0.413615 73.2125C-0.149648 58.4021 3.99019 43.7936 12.2398 31.4808C20.4894 19.1679 32.4253 9.78269 46.3367 4.67035Z" fill="#FE6600"/>
+			</svg>
     </div>
   </div>
 </div>
