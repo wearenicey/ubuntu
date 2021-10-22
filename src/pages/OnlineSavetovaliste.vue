@@ -204,7 +204,7 @@
 			</div>
 
 			<!-- end nova sekcija -->
-			<svg class="hidden lg:block absolute overflow-x-hidden" style="margin-top: 36rem; margin-left: 101rem" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg class="hidden  lg:block absolute -right-0 transform translate-y-2/4" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
 			</svg>
 			<!-- feature -->

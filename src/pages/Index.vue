@@ -2,148 +2,48 @@
 	<Layout>
 	
 		<!-- Hero section -->
-		<div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
-			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
+<div class="bg-white">
+	<svg class="hidden xl:block absolute transform translate-y-24 " width="34" style="right: 36rem" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2598 7.09437C13.1634 6.52223 13.0907 5.95658 13.0438 5.39086C12.9731 4.54229 13.0168 3.68723 12.9917 2.83866C12.9808 2.47866 12.9377 1.5401 12.9551 1.4051C13.1126 0.228671 14.0621 0.0486495 14.3398 0.0165067C14.4742 -0.00277906 15.8537 -0.156996 16.1514 1.373C16.5165 3.24372 16.6335 5.12726 16.5043 6.97226C16.8058 8.54084 17.3214 10.1029 18.0022 11.5172C20.7112 17.1422 25.8733 17.6887 31.4662 17.6372C32.3263 17.6244 33.0405 18.2994 33.0855 19.1544C33.1305 20.0158 32.4903 20.7615 31.634 20.8387C28.5078 21.1408 22.9611 23.648 21.0435 26.258C20.6424 26.8044 20.409 28.1223 20.1004 29.4144C19.6697 31.208 19.1574 32.9823 18.5833 33.728C18.4972 33.8437 17.4499 35.0266 17.1375 35.2001C16.3866 35.6116 15.7856 35.3737 15.4442 35.1551C15.1029 34.9365 14.7165 34.5058 14.5622 33.7922C14.4009 33.0465 14.5372 31.5165 14.5121 31.1886C14.4208 29.9994 14.183 27.6658 13.6976 25.6601C13.436 24.5801 13.1569 23.5837 12.6954 23.0887C10.9867 21.2565 8.25452 21.5265 5.95373 21.8287C5.68952 21.8608 5.42531 21.8994 5.16174 21.9316C4.22509 22.208 3.23057 22.4137 2.1795 22.5358C0.592283 22.7222 0.331301 21.263 0.317158 21.1665C0.287586 20.9544 0.177646 19.8615 1.374 19.4244C1.5045 19.3794 2.46751 19.1672 2.83844 19.0837C3.3553 18.968 3.87793 18.878 4.4025 18.7944C9.82115 17.1101 12.7642 12.3787 13.2598 7.09437ZM15.1196 12.938C17.1652 17.168 20.2695 19.2123 23.9492 20.138H23.9486C21.651 21.3401 19.5611 22.8444 18.4534 24.3551C18.033 24.9273 17.6473 26.078 17.2995 27.3701C17.1112 26.168 16.8566 24.8886 16.5204 23.7958C16.1379 22.5486 15.6229 21.5137 15.0482 20.8966C13.9386 19.7073 12.5462 19.0451 11.049 18.7173C12.8413 17.1294 14.2003 15.1494 15.1196 12.938Z" fill="#FFCA0D"/>
+</svg>
+  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihološko savetovalište ubuntu</h1>
+      <h2 class="mt-1 text-4xl  text-purple-800 sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
+      <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
+					<div class="mt-10 flex block justify-center">
+						<div class="inline-flex">
+							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
+								Zakažite besplatnu konsultaciju
+
+							</a>
+						</div>
+					</div>
 				<div>
-					<div class="mt-4">
-					
-						<div class="mt-6 sm:max-w-xl">
-							<h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Psihološko savetovalište Ubuntu - Negujmo mentalno zdravlje</h1>
-							<p class="mt-6 text-xl text-gray-500"> Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
-						</div>
-						<div class="mt-12 sm:max-w-lg sm:w-full sm:flex">
-							<div class="mt-4 sm:mt-0 sm:ml-3">
-								<a
-									href="/kontakt"
-									class="
-										text-center
-										block
-										w-full
-										rounded-md
-										border border-transparent
-										px-5
-										py-3
-										bg-red-500
-										text-base
-										font-medium
-										text-white
-										shadow
-										hover:bg-red-600
-										focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2
-										sm:px-10
-									"
-								>
-									Zakažite besplatnu konsultaciju
-								</a>
-							</div>
-						</div>
-						<div class="mt-6">
-							<div class="inline-flex items-center divide-x divide-gray-300">
-								<div class="flex-shrink-0 flex pr-5">
-									<!-- Heroicon name: solid/star -->
-									<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-										<path
-											d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-										/>
-									</svg>
-									<!-- Heroicon name: solid/star -->
-									<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-										<path
-											d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-										/>
-									</svg>
-									<!-- Heroicon name: solid/star -->
-									<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-										<path
-											d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-										/>
-									</svg>
-									<!-- Heroicon name: solid/star -->
-									<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-										<path
-											d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-										/>
-									</svg>
-									<!-- Heroicon name: solid/star -->
-									<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-										<path
-											d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-										/>
-									</svg>
-								</div>
-								<div class="min-w-0 flex-1 pl-5 py-1 text-sm text-gray-500 sm:py-3">
-									<span class="font-medium text-gray-900">Rated 5 stars</span>
-									by over
-									<span class="font-medium text-red-500">500 beta users</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+						<g-image class="mt-20" src="~/assets/img/pocenta-1.jpg"></g-image>
+					</div>	
+    </div>
+  </div>
+</div>
 
-			<div class="sm:mx-auto sm:max-w-3xl sm:px-6">
-				<div class="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-					<div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-						<g-image class="w-full lg:h-full lg:w-auto lg:max-w-none" src="~/assets/img/hero.jpg" alt="" />
-					</div>
-				</div>
-			</div>
-		</div>
+<svg class="absolute hidden lg:block transform -translate-y-2/4" width="214" height="1086" viewBox="0 0 214 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="-329" cy="543" r="543" fill="#FEF2F2"/>
+</svg>
 
-		<!-- Testimonial/stats section -->
-		<div class="relative mt-20">
-			<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
-				<div class="relative sm:py-16 lg:py-0">
-					<div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-						<div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
-						<svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
-							<defs>
-								<pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-									<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-								</pattern>
-							</defs>
-							<rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
-						</svg>
-					</div>
-					<div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
-						<!-- Testimonial card-->
-						<div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
-							<img
-								class="absolute inset-0 h-full w-full object-cover"
-								src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
-								alt=""
-							/>
-							<div class="absolute inset-0 bg-red-500 mix-blend-multiply"></div>
-							<div class="absolute inset-0 bg-gradient-to-t from-red-600 via-red-600 opacity-90"></div>
-							<div class="relative px-8">
-								<div>
-									<img class="h-12" src="https://tailwindui.com/img/logos/workcation.svg?color=white" alt="Workcation" />
-								</div>
-								<blockquote class="mt-8">
-									<div class="relative text-lg font-medium text-white md:flex-grow">
-										<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-red-400" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-											<path
-												d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
-											/>
-										</svg>
-										<p class="relative">Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet.</p>
-									</div>
-
-									<footer class="mt-4">
-										<p class="text-base font-semibold text-red-200">Sarah Williams, CEO at Workcation</p>
-									</footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
-					<!-- Content area -->
-					<div class="pt-12 sm:pt-16 lg:pt-20">
-						<h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">Lako dostupna psihološka pomoć</h2>
-						<div class="mt-6 text-gray-500 space-y-6">
+	<div class="relative bg-green-900 mt-20">
+  	<div class="h-80 w-full absolute bottom-0 xl:inset-0 xl:h-full">
+    <div class="h-full w-full xl:grid xl:grid-cols-2">
+      <div class="h-full xl:relative xl:col-start-2">
+        <g-image class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="~/assets/img/tim.jpg"  alt="People working on laptops" />
+        <div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-green-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
+      </div>
+    </div>
+  	</div>
+ 	 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
+    <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
+      	<div class="">
+						<h2 class="text-3xl text-gray-50  sm:text-4xl">Lako dostupna psihološka pomoć</h2>
+						<div class="mt-6 text-gray-300 space-y-6">
 							<p class="text-lg">
 								Centar za rast i razvoj ljudskog potencijala Ubuntu osnovan je 28. juna 2016. godine u Novom Sadu. Ideja nam je bila da na jednom mestu okupimo visoko kvalifikovane saradnike različitih obrazovnih profila koji su usmereni na mentalno zdravlje.
 							</p>
@@ -156,45 +56,44 @@
 					<!-- Stats section -->
 					<div class="mt-10">
 						<dl class="grid grid-cols-2 gap-x-4 gap-y-8">
-							<div class="border-t-2 border-gray-100 pt-6">
-								<dt class="text-base font-medium text-gray-500">Osnovani </dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">2016</dd>
+							<div class="border-t-2 border-green-800 pt-6">
+								<dt class="text-base font-medium text-green-50">Osnovani </dt>
+								<dd class="text-3xl font-extrabold tracking-tight text-green-400">2016</dd>
 							</div>
 
-							<div class="border-t-2 border-gray-100 pt-6">
-								<dt class="text-base font-medium text-gray-500">Stručni saradnici</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">50</dd>
+							<div class="border-t-2 border-green-800 pt-6">
+								<dt class="text-base font-medium text-green-50">Stručni saradnici</dt>
+								<dd class="text-3xl font-extrabold tracking-tight text-green-400">50</dd>
 							</div>
 
-							<div class="border-t-2 border-gray-100 pt-6">
-								<dt class="text-base font-medium text-gray-500">Klijenti do sada</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">650+</dd>
+							<div class="border-t-2 border-green-800 pt-6">
+								<dt class="text-base font-medium text-green-50">Klijenti do sada</dt>
+								<dd class="text-3xl font-extrabold tracking-tight text-green-400">650+</dd>
 							</div>
 
-							<div class="border-t-2 border-gray-100 pt-6">
-								<dt class="text-base font-medium text-gray-500">Broj projekata</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-gray-900">8</dd>
+							<div class="border-t-2 border-green-800 pt-6">
+								<dt class="text-base font-medium text-green-50">Broj projekata</dt>
+								<dd class="text-3xl font-extrabold tracking-tight text-green-400">8</dd>
 							</div>
 						</dl>
-						<div class="mt-10">
-							<a href="/zasto-ubuntu/" class="text-base font-medium text-red-500"> Saznajte više o nama </a>
-						</div>
+					
 					</div>
-				</div>
-			</div>
-		</div>
+      </div>
+    </div>
+  </div>
+
+
+
 
 		<!-- Testimonial -->
 
-		<section class="bg-indigo-800 container mx-auto my-12 rounded-2xl">
+		<section class=" container mx-auto my-12 rounded-2xl">
 			<div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8 rounded-r-3xl">
-				<div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
-					<div class="md:flex-shrink-0">
-						<img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg" alt="Tuple" />
-					</div>
+				<div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-gray-200 lg:pr-16">
+					
 					<blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
-						<div class="relative text-lg font-medium text-white md:flex-grow">
-							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+						<div class="relative text-lg font-medium text-gray-900 md:flex-grow">
+							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-green-100" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
 								<path
 									d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
 								/>
@@ -207,20 +106,18 @@
 									<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
 								</div>
 								<div class="ml-4">
-									<div class="text-base font-medium text-white">Judith Black</div>
-									<div class="text-base font-medium text-indigo-200">CEO, Tuple</div>
+									<div class="text-base font-medium text-gray-800">Judith Black</div>
+									<div class="text-base font-medium text-green-600">CEO, Tuple</div>
 								</div>
 							</div>
 						</footer>
 					</blockquote>
 				</div>
-				<div class="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-					<div class="md:flex-shrink-0">
-						<img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-indigo-300.svg" alt="Workcation" />
-					</div>
+				<div class="py-12 px-4 border-t-2 border-gray-200 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+				
 					<blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
-						<div class="relative text-lg font-medium text-white md:flex-grow">
-							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32">
+						<div class="relative text-lg font-medium text-gray-900 md:flex-grow">
+							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-green-100" fill="currentColor" viewBox="0 0 32 32">
 								<path
 									d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
 								/>
@@ -235,8 +132,8 @@
 									<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
 								</div>
 								<div class="ml-4">
-									<div class="text-base font-medium text-white">Joseph Rodriguez</div>
-									<div class="text-base font-medium text-indigo-200">CEO, Workcation</div>
+									<div class="text-base font-medium text-gray-800">Joseph Rodriguez</div>
+									<div class="text-base font-medium text-green-600">CEO, Workcation</div>
 								</div>
 							</div>
 						</footer>
@@ -248,17 +145,18 @@
 		<!-- End testimonial -->
 
 		<!-- Logo cloud section -->
-		<div class="mt-32">
-			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+		<div class="my-32">
+
+			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl z-50">
 				<div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
 					<div>
-						<h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Tim psihoterapeuta, Vama na usluzi</h2>
+						<h2 class="text-3xl  text-purple-900 tracking-tight sm:text-5xl">Tim psihoterapeuta, Vama na usluzi</h2>
 						<p class="mt-6 max-w-3xl text-lg leading-7 text-gray-500">
 							Trudimo se da naše savetovalište predstavlja sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.
 						</p>
-						<div class="mt-6">
+						<!-- <div class="mt-6">
 							<a href="/tim/" class="text-base font-medium text-red-500"> Upoznaj Ubuntu tim </a>
-						</div>
+						</div> -->
 					</div>
 					<div class="mt-12 ">
 							<g-image class="w-full h-full" src="~/assets/img/tim.jpg"/>
@@ -266,17 +164,36 @@
 					</div>
 				</div>
 			</div>
+			<svg class="hidden lg:block absolute -right-0 transform -translate-y-2/4" style="z-index: -1;" width="499" height="1086" viewBox="0 0 499 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="543" cy="543" r="543" fill="#FEF2F2"/>
+			</svg>
+
+			<svg class="hidden lg:block absolute right-96 transform -translate-y-60" width="83" height="83" viewBox="0 0 83 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M3.87677 25.954C7.19301 17.9755 12.9499 11.2517 20.3225 6.7462C27.695 2.2407 36.3047 0.184843 44.9174 0.873281C53.5302 1.56172 61.704 4.95912 68.2672 10.5785C74.8304 16.198 79.4462 23.7509 81.4529 32.1549C83.4597 40.5589 82.7544 49.3824 79.4381 57.3609C76.1219 65.3394 70.365 72.0633 62.9924 76.5688C55.6199 81.0743 47.0103 83.1301 38.3975 82.4417C29.7847 81.7532 21.611 78.3558 15.0477 72.7364C8.48451 67.117 3.86874 59.564 1.86199 51.1601C-0.144757 42.7561 0.560531 33.9325 3.87677 25.954Z" fill="#EC4899"/>
+		</svg>
+
+		<svg class="hidden lg:block absolute right-72 transform -translate-y-96" width="112" height="104" style="z-index: -1" viewBox="0 0 112 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0.919267 15.5038L111.126 0.432697L70.4167 103.496L0.919267 15.5038Z" fill="#7DD3FC"/>
+		</svg>
+
+		<svg class="hidden lg:block absolute right-60 transform -translate-y-60"  width="75" height="114" viewBox="0 0 75 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<rect width="59.4361" height="115.358" rx="29.718" transform="matrix(0.970418 -0.241432 0.253756 0.967268 -6.29614 8.51465)" fill="#A377FF"/>
+</svg>
 		</div>
 		<!-- novo  -->
 		<div class="mt-20">
 			<!-- Header -->
 			<div class="relative pb-32 bg-gray-800">
+				<svg class="hidden lg:block absolute top-96" width="257" height="1086" viewBox="0 0 257 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="-286" cy="543" r="543" fill="#FEF2F2"/>
+				</svg>
+				
 				<div class="absolute inset-0">
-					<g-image class="w-full h-full object-cover" src="~/assets/img/support.jpg" alt="" />
-					<div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
+					<g-image class="w-full h-full object-cover" src="~/assets/img/home-prvi-korak.jpg" alt="" />
+					<div class="absolute inset-0 bg-green-800 mix-blend-multiply" aria-hidden="true"></div>
 				</div>
 				<div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-					<h2 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Prvi korak ka ličnom rastu i zavoju ste već napravili. Da li ste spremni za sledeći?</h2>
+					<h2 class="text-4xl  tracking-tight text-white md:text-5xl lg:text-6xl">Prvi korak ka ličnom rastu i zavoju ste već napravili. Da li ste spremni za sledeći?</h2>
 					<p class="mt-6 max-w-3xl text-xl text-gray-300"> Na raspolaganju su vam savetovališta u Novom Sadu i Beogradu. Takođe, postoji mogućnost i za Online savetovanje.</p>
 				</div>
 			</div>
@@ -285,65 +202,81 @@
 			<section class="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
 				<h2 class="sr-only" id="contact-heading">Contact us</h2>
 				<div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-					<div class="flex flex-col bg-white rounded-2xl shadow-xl">
-						<div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-							<div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
-								<!-- Heroicon name: outline/phone -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-									/>
-								</svg>
-							</div>
-							<h3 class="text-xl font-medium text-gray-900"> Novosadsko savetovalište</h3>
-							<p class="mt-4 text-base text-gray-500">Projekat "Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć. </p>
-						</div>
-						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
-						</div>
-					</div>
+				<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+         <div class="flex-shrink-0">
+          <g-image class="h-48 w-full object-cover" src="~/assets/img/novisad.jpg" alt=""/>
+         </div>
+         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1">
+            
+            <a href="/savetovaliste-novi-sad/" class="block mt-2">
+              <h3 class="text-xl font-semibold text-gray-900">
+                Novosadsko savetovalište
 
-					<div class="flex flex-col bg-white rounded-2xl shadow-xl">
-						<div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-							<div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
-								<!-- Heroicon name: outline/support -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
-									/>
-								</svg>
-							</div>
-							<h3 class="text-xl font-medium text-gray-900">Beogradsko savetovalište</h3>
-							<p class="mt-4 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 2 adrese.</p>
+              </h3>
+              <p class="mt-3 text-base text-gray-500">
+									Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć.
+              </p>
+            </a>
+          </div>
+       
+         </div>
+					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+							<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
-						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="/savetovaliste-beograd/" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
-						</div>
-					</div>
+      </div>
 
-					<div class="flex flex-col bg-white rounded-2xl shadow-xl">
-						<div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-							<div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
-								<!-- Heroicon name: outline/newspaper -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-								</svg>
-							</div>
-							<h3 class="text-xl font-medium text-gray-900">Online savetovanje </h3>
-							<p class="mt-4 text-base text-gray-500">Kako bi unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online. </p>
+
+			<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+         <div class="flex-shrink-0">
+          <g-image class="h-48 w-full object-cover" src="~/assets/img/beograd.jpg" alt=""/>
+         </div>
+         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1">
+            
+            <a href="/savetovaliste-beograd/" class="block mt-2">
+              <h3 class="text-xl font-semibold text-gray-900">
+                Beogradsko savetovalište
+
+              </h3>
+              <p class="mt-3 text-base text-gray-500">
+									3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 2 adrese.
+              </p>
+            </a>
+          </div>
+       
+         </div>
+					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+							<a href="/savetovaliste-beograd/" class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
-						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="/online-savetovaliste/" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
+      </div>
+				
+				<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+         <div class="flex-shrink-0">
+          <g-image class="h-48 w-full object-cover" src="~/assets/img/onilne.jpg" alt=""/>
+         </div>
+         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1">
+            
+            <a href="/online-savetovaliste/" class="block mt-2">
+              <h3 class="text-xl font-semibold text-gray-900">
+                Online savetovanje
+
+              </h3>
+              <p class="mt-3 text-base text-gray-500">
+									Kako bi unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.
+              </p>
+            </a>
+          </div>
+       
+         </div>
+					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+							<a href="/online-savetovaliste/" class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
-					</div>
-				</div>
-			</section>
+      </div>
+
+			</div>
+		</section>
 		</div>
 
 		<!-- end novo -->
@@ -354,11 +287,14 @@
 		</div>
 
 		<!-- This example requires Tailwind CSS v2.0+ -->
-
+	<svg class="absolute -right-0 transform -translate-y-3/4" style="z-index:-1" width="264" height="1086" viewBox="0 0 264 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="543" cy="543" r="543" fill="#FEF2F2"/>
+ </svg>
 		<!-- end blog -->
 
 		<!-- CTA section -->
 		<div class="relative mt-24 sm:mt-32 sm:py-16">
+
 			<div aria-hidden="true" class="hidden sm:block">
 							<svg class="absolute -top-12 ml-10 left-3/4  " style="" width="327" height="189" viewBox="0 0 327 189" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M125.487 188.274H80.906C79.4363 188.274 78.3721 186.655 78.767 185.019L85.0621 158.933C85.3305 157.824 86.2052 157.057 87.2019 157.057H131.783C133.253 157.057 134.317 158.676 133.922 160.311L127.626 186.397C127.358 187.506 126.484 188.274 125.487 188.274Z" fill="#57B9A2"/>
