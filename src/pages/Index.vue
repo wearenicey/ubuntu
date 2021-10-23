@@ -2,9 +2,9 @@
 	<Layout>
 		<!-- Hero section -->
 <div class="bg-white">
-	<svg class="hidden xl:block absolute transform translate-y-24 " width="34" style="right: 36rem" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2598 7.09437C13.1634 6.52223 13.0907 5.95658 13.0438 5.39086C12.9731 4.54229 13.0168 3.68723 12.9917 2.83866C12.9808 2.47866 12.9377 1.5401 12.9551 1.4051C13.1126 0.228671 14.0621 0.0486495 14.3398 0.0165067C14.4742 -0.00277906 15.8537 -0.156996 16.1514 1.373C16.5165 3.24372 16.6335 5.12726 16.5043 6.97226C16.8058 8.54084 17.3214 10.1029 18.0022 11.5172C20.7112 17.1422 25.8733 17.6887 31.4662 17.6372C32.3263 17.6244 33.0405 18.2994 33.0855 19.1544C33.1305 20.0158 32.4903 20.7615 31.634 20.8387C28.5078 21.1408 22.9611 23.648 21.0435 26.258C20.6424 26.8044 20.409 28.1223 20.1004 29.4144C19.6697 31.208 19.1574 32.9823 18.5833 33.728C18.4972 33.8437 17.4499 35.0266 17.1375 35.2001C16.3866 35.6116 15.7856 35.3737 15.4442 35.1551C15.1029 34.9365 14.7165 34.5058 14.5622 33.7922C14.4009 33.0465 14.5372 31.5165 14.5121 31.1886C14.4208 29.9994 14.183 27.6658 13.6976 25.6601C13.436 24.5801 13.1569 23.5837 12.6954 23.0887C10.9867 21.2565 8.25452 21.5265 5.95373 21.8287C5.68952 21.8608 5.42531 21.8994 5.16174 21.9316C4.22509 22.208 3.23057 22.4137 2.1795 22.5358C0.592283 22.7222 0.331301 21.263 0.317158 21.1665C0.287586 20.9544 0.177646 19.8615 1.374 19.4244C1.5045 19.3794 2.46751 19.1672 2.83844 19.0837C3.3553 18.968 3.87793 18.878 4.4025 18.7944C9.82115 17.1101 12.7642 12.3787 13.2598 7.09437ZM15.1196 12.938C17.1652 17.168 20.2695 19.2123 23.9492 20.138H23.9486C21.651 21.3401 19.5611 22.8444 18.4534 24.3551C18.033 24.9273 17.6473 26.078 17.2995 27.3701C17.1112 26.168 16.8566 24.8886 16.5204 23.7958C16.1379 22.5486 15.6229 21.5137 15.0482 20.8966C13.9386 19.7073 12.5462 19.0451 11.049 18.7173C12.8413 17.1294 14.2003 15.1494 15.1196 12.938Z" fill="#FFCA0D"/>
-</svg>
+	<!-- <svg class="hidden xl:block absolute transform translate-y-24 " width="34" style="right: 36rem" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2598 7.09437C13.1634 6.52223 13.0907 5.95658 13.0438 5.39086C12.9731 4.54229 13.0168 3.68723 12.9917 2.83866C12.9808 2.47866 12.9377 1.5401 12.9551 1.4051C13.1126 0.228671 14.0621 0.0486495 14.3398 0.0165067C14.4742 -0.00277906 15.8537 -0.156996 16.1514 1.373C16.5165 3.24372 16.6335 5.12726 16.5043 6.97226C16.8058 8.54084 17.3214 10.1029 18.0022 11.5172C20.7112 17.1422 25.8733 17.6887 31.4662 17.6372C32.3263 17.6244 33.0405 18.2994 33.0855 19.1544C33.1305 20.0158 32.4903 20.7615 31.634 20.8387C28.5078 21.1408 22.9611 23.648 21.0435 26.258C20.6424 26.8044 20.409 28.1223 20.1004 29.4144C19.6697 31.208 19.1574 32.9823 18.5833 33.728C18.4972 33.8437 17.4499 35.0266 17.1375 35.2001C16.3866 35.6116 15.7856 35.3737 15.4442 35.1551C15.1029 34.9365 14.7165 34.5058 14.5622 33.7922C14.4009 33.0465 14.5372 31.5165 14.5121 31.1886C14.4208 29.9994 14.183 27.6658 13.6976 25.6601C13.436 24.5801 13.1569 23.5837 12.6954 23.0887C10.9867 21.2565 8.25452 21.5265 5.95373 21.8287C5.68952 21.8608 5.42531 21.8994 5.16174 21.9316C4.22509 22.208 3.23057 22.4137 2.1795 22.5358C0.592283 22.7222 0.331301 21.263 0.317158 21.1665C0.287586 20.9544 0.177646 19.8615 1.374 19.4244C1.5045 19.3794 2.46751 19.1672 2.83844 19.0837C3.3553 18.968 3.87793 18.878 4.4025 18.7944C9.82115 17.1101 12.7642 12.3787 13.2598 7.09437ZM15.1196 12.938C17.1652 17.168 20.2695 19.2123 23.9492 20.138H23.9486C21.651 21.3401 19.5611 22.8444 18.4534 24.3551C18.033 24.9273 17.6473 26.078 17.2995 27.3701C17.1112 26.168 16.8566 24.8886 16.5204 23.7958C16.1379 22.5486 15.6229 21.5137 15.0482 20.8966C13.9386 19.7073 12.5462 19.0451 11.049 18.7173C12.8413 17.1294 14.2003 15.1494 15.1196 12.938Z" fill="#FFCA0D"/>
+	</svg> -->
   <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
     <div class="text-center">
       <h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihološko savetovalište ubuntu</h1>
@@ -19,7 +19,7 @@
 					</div>
 				<div>
 						<g-image class="mt-20" src="~/assets/img/pocenta-1.jpg"></g-image>
-			</div>	
+			</div>
 			<svg class="hidden xl:block absolute right-72 transform bottom-60" width="114" height="122" viewBox="0 0 114 122" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M19.4066 0.362265L113.567 77.8852L0.279537 121.814L19.4066 0.362265Z" fill="#8B5CF6"/>
 			</svg>
@@ -86,7 +86,7 @@
 								<dd class="text-3xl font-extrabold tracking-tight text-green-400">8</dd>
 							</div>
 						</dl>
-					
+
 					</div>
       </div>
     </div>
@@ -100,7 +100,7 @@
 		<section class=" container mx-auto my-12 rounded-2xl">
 			<div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8 rounded-r-3xl">
 				<div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-gray-200 lg:pr-16">
-					
+
 					<blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
 						<div class="relative text-lg font-medium text-gray-900 md:flex-grow">
 							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-green-100" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
@@ -124,7 +124,7 @@
 					</blockquote>
 				</div>
 				<div class="py-12 px-4 border-t-2 border-gray-200 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-				
+
 					<blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
 						<div class="relative text-lg font-medium text-gray-900 md:flex-grow">
 							<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-green-100" fill="currentColor" viewBox="0 0 32 32">
@@ -197,7 +197,7 @@
 				<svg class="hidden lg:block absolute top-96" width="257" height="1086" viewBox="0 0 257 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="-286" cy="543" r="543" fill="#FEF2F2"/>
 				</svg>
-				
+
 				<div class="absolute inset-0">
 					<g-image class="w-full h-full object-cover" src="~/assets/img/home-prvi-korak.jpg" alt="" />
 					<div class="absolute inset-0 bg-green-800 mix-blend-multiply" aria-hidden="true"></div>
@@ -218,7 +218,7 @@
          </div>
          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            
+
             <a href="/savetovaliste-novi-sad/" class="block mt-2">
               <h3 class="text-xl font-semibold text-gray-900">
                 Novosadsko savetovalište
@@ -229,7 +229,7 @@
               </p>
             </a>
           </div>
-       
+
          </div>
 					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
 							<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
@@ -243,7 +243,7 @@
          </div>
          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            
+
             <a href="/savetovaliste-beograd/" class="block mt-2">
               <h3 class="text-xl font-semibold text-gray-900">
                 Beogradsko savetovalište
@@ -254,20 +254,20 @@
               </p>
             </a>
           </div>
-       
+
          </div>
 					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
 							<a href="/savetovaliste-beograd/" class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
       </div>
-				
+
 				<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
          <div class="flex-shrink-0">
           <g-image class="h-48 w-full object-cover" src="~/assets/img/onilne.jpg" alt=""/>
          </div>
          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            
+
             <a href="/online-savetovaliste/" class="block mt-2">
               <h3 class="text-xl font-semibold text-gray-900">
                 Online savetovanje
@@ -278,7 +278,7 @@
               </p>
             </a>
           </div>
-       
+
          </div>
 					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
 							<a href="/online-savetovaliste/" class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span aria-hidden="true"> &rarr;</span></a>

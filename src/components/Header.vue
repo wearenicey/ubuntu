@@ -1,13 +1,13 @@
 <template>
 	<div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
-		<div class="flex justify-between max-w-7xl mx-auto items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10" id="position">
+		<div class="flex max-w-7xl justify-between mx-auto items-center px-4 py-6 sm:px-6 md:space-x-10" id="position">
 			<div>
 				<a href="/" class="flex">
-					<span class="sr-only">Workflows</span>
-					<g-image class="block h-16 w-auto sm:h-20" src="~/assets/img/ubuntu-logo.png" alt="Workflow"  />
+					<span class="sr-only">Ubuntu Savetovaliste</span>
+					<g-image class="block h-16 w-auto sm:h-14" src="~/assets/img/logo.svg" alt="Ubuntu Savetovaliste"  />
 				</a>
 			</div>
-			<div class="-mr-2 -my-2 md:hidden">
+			<div class="mr-2 my-2 md:hidden">
 				<button
 					x-on:click="mobileMenuOpen = true"
 					type="button"
@@ -21,14 +21,14 @@
 					</svg>
 				</button>
 			</div>
-			<div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
+			<div class="hidden md:flex md:items-center md:justify-between">
 				<nav class="flex space-x-10">
 					<div class="relative" x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 						<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 						<button
 							x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 							type="button"
-							class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+							class="text-gray-700 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 							aria-expanded="false"
 						>
 							<span>Naše lokacije</span>
@@ -37,7 +37,7 @@
 
               Item active: "text-gray-600", Item inactive: "text-gray-400"
             -->
-							<svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+							<svg class="text-gray-400 ml-1 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 								<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
 							</svg>
 						</button>
@@ -107,31 +107,16 @@
 										</div>
 									</a>
 								</div>
-								<div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-									<div class="flow-root">
-										<a href="/kontakt/" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
-											<!-- Heroicon name: outline/phone -->
-											<svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-												/>
-											</svg>
-											<span class="ml-3">Kontaktiraj nas</span>
-										</a>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
+
 					<div class="relative" x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 						<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 						<button
 							x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 							type="button"
-							class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+							class="text-gray-700 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 							aria-expanded="false"
 						>
 							<span>O nama</span>
@@ -140,7 +125,7 @@
 
               Item active: "text-gray-600", Item inactive: "text-gray-400"
             -->
-							<svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+							<svg class="text-gray-400 ml-1 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 								<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
 							</svg>
 						</button>
@@ -219,7 +204,7 @@
 						<button
 							x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 							type="button"
-							class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+							class="text-gray-700 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 							aria-expanded="false"
 						>
 							<span>Blog</span>
@@ -228,7 +213,7 @@
 
               Item active: "text-gray-600", Item inactive: "text-gray-400"
             -->
-							<svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+							<svg class="text-gray-400 ml-1 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 								<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
 							</svg>
 						</button>
@@ -281,17 +266,9 @@
 							</div>
 						</div>
 					</div>
-					<!-- <a
-            href="#"
-            class="text-base font-medium text-gray-500 hover:text-gray-900"
-          >
-            Docs
-          </a> -->
+					<g-link to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</g-link>
+					<g-link to="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</g-link>
 				</nav>
-				<div class="flex items-center md:ml-12">
-					<a href="/donacije/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Donacije </a>
-					<a href="/kontakt/" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
-				</div>
 			</div>
 		</div>
 
