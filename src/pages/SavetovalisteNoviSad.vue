@@ -9,7 +9,7 @@
 					</svg>
 				</button>
 			</back-to-top>
-			<navigation-ns></navigation-ns>
+			<Header/>
 
 			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../novi-sad.png)">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
@@ -956,7 +956,7 @@
 </template>
 
 <script>
-import NavigationNs from "../components/NavigationNs.vue";
+import Header from "../components/Header.vue";
 import FooterLanding from "../components/FooterLanding.vue";
 import { required, email } from "vuelidate/lib/validators";
 
@@ -1047,7 +1047,7 @@ export default {
 	},
 
 	components: {
-		NavigationNs,
+		Header,
 		FooterLanding,
 	},
 };

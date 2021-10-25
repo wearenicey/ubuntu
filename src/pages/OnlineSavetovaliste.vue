@@ -10,7 +10,7 @@
 				</button>
 			</back-to-top>
 
-			<navigation-online></navigation-online>
+			<Header />
 
 			<!-- Hero sekcija -->
 			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../online-1.png)">
@@ -1007,7 +1007,7 @@
 </template>
 
 <script>
-import NavigationOnline from "../components/NavigationOnline.vue";
+import Header from "../components/Header.vue";
 import FooterLanding from "../components/FooterLanding.vue";
 import { required, email } from "vuelidate/lib/validators";
 
@@ -1099,7 +1099,7 @@ export default {
 	},
 
 	components: {
-		NavigationOnline,
+		Header,
 		FooterLanding,
 	},
 };
