@@ -9,9 +9,11 @@
 					</svg>
 				</button>
 			</back-to-top>
+
 			<navigation-online></navigation-online>
 
-			<div class="bg-cover bg-bottom w-full mb-20" style="background-image: url(../online-1.png)">
+			<!-- Hero sekcija -->
+			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../online-1.png)">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 					<div class="mt-10">
 						<h2 class="text-4xl text-purple-800 sm:text-5xl">
@@ -28,29 +30,17 @@
 						</div>
 					</div>
 
-					<div class="pt-20 md:pt-48 lg:pt-64 relative flex justify-center">
+					<div class="pt-20 relative flex justify-center">
 						<g-image src="~/assets/img/online-2.png"></g-image>
 					</div>
 				</div>
 			</div>
 
-			<!-- nova sekcija -->
+			<!-- elements -->
 			<div class="py-16 overflow-hidden lg:py-24">
 				<div>
 					<svg class="hidden lg:block absolute mt-36" width="460" height="1086" viewBox="0 0 460 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<circle cx="-83" cy="543" r="543" fill="#FEF2F2" />
-					</svg>
-					<svg class="hidden mt-96 lg:block absolute transform translate-y-96 translate-x-56" width="112" height="104" viewBox="0 0 112 104" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M0.919267 15.5038L111.126 0.432697L70.4167 103.496L0.919267 15.5038Z" fill="#7DD3FC" />
-					</svg>
-					<svg class="hidden lg:block absolute transform translate-y-96 translate-x-56" style="margin-top: 32rem" width="83" height="82" viewBox="0 0 83 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M3.87677 25.3803C7.19301 17.4018 12.9499 10.678 20.3225 6.17247C27.695 1.66697 36.3047 -0.388888 44.9174 0.299551C53.5302 0.987993 61.704 4.38539 68.2672 10.0048C74.8304 15.6242 79.4462 23.1772 81.4529 31.5812C83.4597 39.9851 82.7544 48.8087 79.4381 56.7872C76.1219 64.7657 70.365 71.4895 62.9924 75.995C55.6199 80.5005 47.0103 82.5564 38.3975 81.868C29.7847 81.1795 21.611 77.7821 15.0477 72.1627C8.48451 66.5433 3.86874 58.9903 1.86199 50.5863C-0.144757 42.1824 0.560531 33.3588 3.87677 25.3803Z"
-							fill="#EC4899"
-						/>
-					</svg>
-					<svg class="hidden lg:block absolute transform translate-y-96 translate-x-96 z-50" style="margin-top: 30rem" width="75" height="114" viewBox="0 0 75 114" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<rect width="59.4361" height="115.358" rx="29.718" transform="matrix(0.970418 -0.241432 0.253756 0.967268 -6.29614 8.51453)" fill="#A377FF" />
 					</svg>
 				</div>
 				<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
@@ -158,7 +148,23 @@
 						</div>
 					</div>
 
-					<div class="relative mt-12 sm:mt-16 lg:mt-24">
+					<div class="relative mt-12 sm:mt-16 lg:mt-32">
+						<div class="overflow-hidden">
+							<div>
+								<svg class="hidden mt-96 lg:block absolute transform translate-x-9" width="112" height="104" viewBox="0 0 112 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.919267 15.5038L111.126 0.432697L70.4167 103.496L0.919267 15.5038Z" fill="#7DD3FC" />
+								</svg>
+								<svg class="hidden lg:block absolute transform -translate-x-16 -translate-y-64" style="margin-top: 32rem" width="83" height="82" viewBox="0 0 83 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M3.87677 25.3803C7.19301 17.4018 12.9499 10.678 20.3225 6.17247C27.695 1.66697 36.3047 -0.388888 44.9174 0.299551C53.5302 0.987993 61.704 4.38539 68.2672 10.0048C74.8304 15.6242 79.4462 23.1772 81.4529 31.5812C83.4597 39.9851 82.7544 48.8087 79.4381 56.7872C76.1219 64.7657 70.365 71.4895 62.9924 75.995C55.6199 80.5005 47.0103 82.5564 38.3975 81.868C29.7847 81.1795 21.611 77.7821 15.0477 72.1627C8.48451 66.5433 3.86874 58.9903 1.86199 50.5863C-0.144757 42.1824 0.560531 33.3588 3.87677 25.3803Z"
+										fill="#EC4899"
+									/>
+								</svg>
+								<svg class="hidden lg:block absolute transform -translate-x-24 -translate-y-24 z-50" style="margin-top: 30rem" width="75" height="114" viewBox="0 0 75 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="59.4361" height="115.358" rx="29.718" transform="matrix(0.970418 -0.241432 0.253756 0.967268 -6.29614 8.51453)" fill="#A377FF" />
+								</svg>
+							</div>
+						</div>
 						<div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
 							<div class="lg:col-start-2">
 								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Koji su prvi koraci?</h3>
@@ -170,29 +176,30 @@
 									Sledeći koraci obuhvataju povezivanje sa terapeutom i početak psihoterapije. U okviru Onlajn savetovališta, imate pravo na 12 seansi, koje su podeljene u 4 seanse kroz 3 meseca. Svakog meseca uplaćujete mesečnu članarinu
 									koja iznosi 4.000 dinara i koja Vam obezbeđuje 4 jednočasovna, individualna sustreta sa vašim psihoterapeutom. Uplata članarine služi kao neophodan uslov za početak rada.
 								</p>
-								<a
-									href="#"
-									@click="onClickTwo()"
-									class="
-										text-center
-										mt-4
-										block
-										rounded-3xl
-										border border-transparent
-										px-5
-										py-3
-										bg-green-600
-										text-base
-										font-medium
-										text-white
-										shadow
-										hover:bg-indigo-700
-										focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2
-										sm:px-10
-									"
-								>
-									Kontaktiraj nas za više informacija
-								</a>
+								<div class="block mt-8">
+									<a
+										href="#"
+										@click="onClickTwo()"
+										class="
+											text-center
+											mt-4
+											rounded-3xl
+											border border-transparent
+											px-5
+											py-3
+											bg-green-600
+											text-base
+											font-medium
+											text-white
+											shadow
+											hover:bg-green-700
+											focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2
+											sm:px-10
+										"
+									>
+										Kontaktiraj nas za više informacija
+									</a>
+								</div>
 							</div>
 
 							<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
@@ -203,10 +210,11 @@
 				</div>
 			</div>
 
-			<!-- end nova sekcija -->
-			<svg class="hidden  lg:block absolute -right-0 transform translate-y-2/4" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<!-- krug -->
+			<svg class="hidden lg:block absolute -right-0 transform translate-y-2/4" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
 			</svg>
+
 			<!-- feature -->
 			<div class="my-10 overflow-hidden">
 				<div class="relative max-w-7xl mx-auto sm:py-48 px-4 sm:px-6 lg:px-8">
@@ -313,6 +321,7 @@
 					</div>
 				</div>
 			</div>
+
 			<!--faq  -->
 			<div class="my-14">
 				<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
@@ -520,6 +529,7 @@
 					</div>
 				</div>
 			</div>
+
 			<!-- contact -->
 			<div class="sm:pt-24">
 				<div class="max-w-7xl mx-auto px-4 pb-20" id="scroll">

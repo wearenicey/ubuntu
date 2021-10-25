@@ -11,7 +11,7 @@
 			</back-to-top>
 			<navigation-ns></navigation-ns>
 
-			<div class="bg-cover bg-bottom w-full mb-20" style="background-image: url(../novi-sad.png)">
+			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../novi-sad.png)">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 					<div class="mt-10">
 						<h2 class="text-4xl text-purple-800 sm:text-5xl">
@@ -52,7 +52,7 @@
 						</div>
 					</div>
 
-					<div class="pt-20 md:pt-48 lg:pt-64 relative flex justify-center">
+					<div class="pt-20 relative flex justify-center">
 						<g-image src="~/assets/img/slika-1.png"></g-image>
 					</div>
 				</div>
@@ -125,7 +125,6 @@
 									class="
 										text-center
 										mt-4
-										block
 										rounded-3xl
 										border border-transparent
 										px-5
