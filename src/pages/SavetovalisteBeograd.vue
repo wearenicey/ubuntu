@@ -118,12 +118,12 @@
 									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je nephodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta, koliko
 									je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
 								</p>
+								<div class="mt-6">
 								<a
 									href="#"
 									@click="onClickTwo()"
 									class="
 										text-center
-										mt-4
 										rounded-3xl
 										border border-transparent
 										px-5
@@ -133,13 +133,14 @@
 										font-medium
 										text-white
 										shadow
-										hover:bg-indigo-700
+										hover:bg-green-700
 										focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2
 										sm:px-10
 									"
 								>
 									Kontaktiraj nas za više informacija
 								</a>
+								</div>
 							</div>
 
 							<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
@@ -931,7 +932,7 @@
 												text-white
 												bg-green-600
 												hover:bg-green-700
-												focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
+												focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
 											"
 										>
 											Pošalji poruku

@@ -10,9 +10,9 @@
 							treninge zajedno podižemo kvalitet života naših klijenata.
 						</p>
 
-						<div class="mt-20 flex text-base max-w-prose mx-auto lg:max-w-none">
+						<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
 							<div>
-								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
+								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-green-700"> Kontaktirajte nas </a>
 							</div>
 						</div>
 					</div>
@@ -43,9 +43,9 @@
 						<p class="mt-6 text-lg text-gray-500">Želeli bismo da psihoterapiju i naš ostali edukativni materijal učinimo dostupnim svim ljudima kojima su neophodni.</p>
 						<p class="mt-6 text-lg text-gray-500">Predano radimo na tome da naš Centar bude sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.</p>
 
-						<div class="mt-20 flex text-base max-w-prose mx-auto lg:max-w-none">
+						<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
 							<div>
-								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-indigo-700"> Kontaktirajte nas </a>
+								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-green-700"> Kontaktirajte nas </a>
 							</div>
 						</div>
 					</div>

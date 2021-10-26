@@ -1,12 +1,11 @@
 <template>
-	<div class="relative max-w-7xl mx-auto">
+	<div class="relative max-w-7xl mx-auto px-6 sm:px-0">
 		<div class="text-center">
-			<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Više o psihoterapiji</h2>
+			<h2 class="text-3xl text-purple-800 sm:text-4xl">Više o psihoterapiji</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Šta je psihoterapija, ko sve može da postane psihoterapeut i šta možemo da očekujemo ako se upustimo u ovaj proce</p>
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-			<div v-for="post in $static.pocetna.edges" :key="post.node.id">
-				<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+				<div  v-for="post in $static.pocetna.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden ">
 					<a :href="post.node.path">
 						<div class="flex-shrink-0">
 							<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
@@ -51,7 +50,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 </template>
 <static-query>
 	query {
