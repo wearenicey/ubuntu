@@ -179,7 +179,7 @@
 										</div>
 									</a>
 
-									<a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a href="/404" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/shield-check -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
@@ -370,9 +370,9 @@
 
 						<a href="/karijera/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Karijera </a>
 
-						<a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Edukacije </a>
+						<a href="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Edukacije </a>
 
-						<a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </a>
+						<a href="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </a>
 					</div>
 					<div>
 						<a href="/kontakt/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700"> Kontaktirajte nas </a>

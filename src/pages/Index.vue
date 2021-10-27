@@ -113,7 +113,7 @@
 						<footer class="mt-8">
 							<div class="flex items-start">
 								<div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-									<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+									<g-image class="h-12 w-12 rounded-full" src="~/assets/img/covek.png" alt="" />
 								</div>
 								<div class="ml-4">
 									<div class="text-base font-medium text-gray-800">Marko</div>
@@ -139,7 +139,7 @@
 						<footer class="mt-8">
 							<div class="flex items-start">
 								<div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-																		<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+									<g-image class="h-12 w-12 rounded-full" src="~/assets/img/zena.png" alt="" />
 
 								</div>
 								<div class="ml-4">

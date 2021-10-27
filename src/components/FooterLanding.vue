@@ -83,7 +83,7 @@
 							</ul>
 						</div>
 						<div class="mt-12 md:mt-0">
-							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
+							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Info</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
 									<a href="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </a>
@@ -98,7 +98,7 @@
 				</div>
 			</div>
 			<div class="mt-12 border-t border-gray-200 pt-8">
-				<p class="text-base text-gray-400 xl:text-center">&copy; 2020 Workflow, Inc. All rights reserved.</p>
+				<p class="text-base text-gray-400 xl:text-center">&copy; 2021, <a href="https://www.nicey.rs/">Nicey Agency</a></p>
 			</div>
 		</div>
 	</footer>

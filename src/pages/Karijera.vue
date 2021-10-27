@@ -30,6 +30,9 @@
 
 		<!-- Feature section with screenshot -->
 		<div class="relative">
+			<svg class="hidden lg:block absolute -right-0 transform z-50 -translate-y-10" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
+			</svg>
 			<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
 				<div>
 					<h2 class="mt-2 text-3xl text-purple-800 tracking-tight sm:text-4xl">Zdrav kolektiv za zdrave ideje</h2>
@@ -41,6 +44,9 @@
 			</div>
 		</div>
 
+		<svg class="hidden lg:block absolute mt-36 z-20" width="240" height="1086" viewBox="0 0 240 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="-303" cy="543" r="543" fill="#FEF2F2" />
+		</svg>
 		<!-- Feature section with grid -->
 		<div class="relative bg-white py-16 sm:py-24 lg:py-32">
 			<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
@@ -187,7 +193,7 @@
 		<!-- Testimonial section -->
 
 		<!-- Testimonial section -->
-		<div class="pb-16 bg-green-900 lg:pb-0 lg:z-10 lg:relative">
+		<div class="pb-16 bg-green-900 lg:pb-0 lg:z-10 lg:relative" style="z-index: 99">
 			<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
 				<div class="relative lg:-my-8">
 					<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
@@ -222,10 +228,17 @@
 
 		<!-- Blog section -->
 		<div class="relative py-16 sm:py-24 lg:py-32">
+			<svg class="hidden lg:block absolute -right-0 transform -translate-y-10" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
+			</svg>
 			<div>
 				<card-item-karijera />
 			</div>
 		</div>
+
+		<svg class="hidden lg:block absolute mt-36" width="240" height="1086" viewBox="0 0 240 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="-303" cy="543" r="543" fill="#FEF2F2" />
+		</svg>
 		<!--faq  -->
 		<div class="py-14">
 			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
