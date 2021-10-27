@@ -11,7 +11,7 @@
 			</back-to-top>
 			<Header />
 
-			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../novi-sad.png)">
+			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../beograd-1.png)">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 					<div class="mt-10">
 						<h2 class="text-4xl text-purple-800 sm:text-5xl">
@@ -53,8 +53,10 @@
 					</div>
 
 					<div class="pt-20 relative flex justify-center">
-						<g-image src="~/assets/img/slika-1.png"></g-image>
+						<g-image src="~/assets/img/savetovaliste-novi-sad.jpg"></g-image>
 					</div>
+
+					<g-image class="hidden xl:block absolute right-24 transform -bottom-20" src="~/assets/img/savetovaliste-novi-sad-svg.svg"></g-image>
 				</div>
 			</div>
 
@@ -158,7 +160,7 @@
 			</svg>
 			<!-- feature -->
 			<div class="my-10 overflow-hidden">
-				<div class="relative max-w-7xl mx-auto sm:py-48 px-4 sm:px-6 lg:px-8">
+				<div class="relative max-w-7xl mx-auto sm:py-32 px-4 sm:px-6 lg:px-8">
 					<div class="text-center mb-20">
 						<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl">Psihoterapija dostupna svima</h2>
 					</div>
@@ -263,7 +265,7 @@
 			</div>
 			<!--faq  -->
 			<div class="my-14">
-				<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div class="max-w-3xl mx-auto">
 						<h2 class="text-center text-3xl text-purple-800 sm:text-4xl">Vi pitate, psihoterapeut odgovara</h2>
 						<dl class="mt-6 space-y-6">
@@ -787,7 +789,6 @@
 
 							<!-- Contact form -->
 							<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
-								<h3 class="text-lg font-medium text-gray-900">Pošaljite nam poruku</h3>
 								<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact-ns" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 									<div>
 										<input type="hidden" name="form-name" value="contact-ns" />

@@ -4,7 +4,7 @@
 			<div class="mx-auto max-w-7xl lg:px-8">
 				<div class="lg:grid lg:grid-cols-2 lg:gap-8">
 					<div class="mx-auto max-w-xl px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
-						<div class="lg:pb-32 lg:pt-40">
+						<div class="lg:pb-48 lg:pt-32">
 							<h1 class="pt-8 text-3xl text-green-900 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl">Donacije</h1>
 							<p class="text-base mt-4 text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
 								Kao i svaka skupina entuzijasta koji rade nešto novo i korisno za svoju zajednicu susrećemo se sa izazovom–nedostatkom finansija. Neke stvari je moguće ostvariti pokretačkom energijom i dobrom voljom, ali postoje stvari koje
@@ -23,12 +23,11 @@
 					</div>
 					<div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
 						<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-							<!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
 							<g-image class="lg:absolute lg:inset-y-32 h-80 lg:h-full lg:inset-x-40" src="~/assets/img/donacije.svg" alt="" />
 						</div>
 					</div>
 				</div>
-				<svg class="absolute hidden lg:block transform -translate-y-20 translate-x-96" width="30" height="130" viewBox="0 0 30 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg class="absolute hidden lg:block transform -translate-y-28 translate-x-96" width="30" height="130" viewBox="0 0 30 130" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path
 						fill-rule="evenodd"
 						clip-rule="evenodd"
@@ -45,30 +44,23 @@
 			</div>
 		</div>
 
-			<svg class="hidden lg:block absolute -right-0 transform -translate-y-10" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
-			</svg>
-			
+		<svg class="hidden lg:block absolute -right-0 transform -translate-y-10" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
+		</svg>
+
 		<div class="relative py-10">
-		
 			<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
 				<div class="relative mt-12 sm:mt-16 lg:mt-24">
 					<div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
 						<div class="lg:col-start-2">
 							<dl class="mt-6 space-y-6">
-								<div x-data="{open: false}" class="p-6 rounded-md border">
+								<div x-data="{open: false}" class="p-6 rounded-md border bg-white shadow-sm">
 									<dt class="text-lg">
 										<!-- Expand/collapse question button -->
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Kako da znam da će moja donacija biti utrošena na pravi način? </span>
 											<span class="ml-6 h-7 flex items-center">
-												<!--
-                  Expand/collapse icon, toggle classes based on question open state.
 
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
 												<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 												</svg>
@@ -83,19 +75,13 @@
 									</dd>
 								</div>
 
-								<div x-data="{open: false}" class="p-6 rounded-md border">
+								<div x-data="{open: false}" class="p-6 rounded-md border bg-white shadow-sm">
 									<dt class="text-lg">
 										<!-- Expand/collapse question button -->
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Ko može da donira?</span>
 											<span class="ml-6 h-7 flex items-center">
-												<!--
-                  Expand/collapse icon, toggle classes based on question open state.
 
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
 												<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 												</svg>
@@ -107,19 +93,13 @@
 									</dd>
 								</div>
 
-								<div x-data="{open: false}" class="p-6 rounded-md border">
+								<div x-data="{open: false}" class="p-6 rounded-md border bg-white shadow-sm">
 									<dt class="text-lg">
 										<!-- Expand/collapse question button -->
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Šta ja imam od donacije? </span>
 											<span class="ml-6 h-7 flex items-center">
-												<!--
-                  Expand/collapse icon, toggle classes based on question open state.
 
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
 												<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 												</svg>
@@ -138,7 +118,7 @@
 						</div>
 
 						<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-							<g-image class="relative mx-auto" width="490" src="~/assets/img/donacije-1.png" alt="" />
+							<g-image class="relative mx-auto px-4 md:px-0" src="~/assets/img/donacija-slika.png" alt="" />
 						</div>
 					</div>
 				</div>
