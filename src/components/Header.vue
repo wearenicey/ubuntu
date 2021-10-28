@@ -4,7 +4,7 @@
 			<div>
 				<a href="/" class="flex">
 					<span class="sr-only">Ubuntu Savetovaliste</span>
-					<g-image class="block h-12 w-auto sm:h-14" src="~/assets/img/logo.webp" alt="Ubuntu Savetovaliste" />
+					<img class="block h-12 w-auto sm:h-14" src="/logo.svg" alt="Ubuntu Savetovaliste" />
 				</a>
 			</div>
 			<div class="mr-2 my-2 md:hidden">
@@ -297,7 +297,7 @@
 				<div class="pt-5 pb-6 px-5">
 					<div class="flex items-center justify-between">
 						<div>
-							<g-image class="block h-12 w-auto sm:h-10" src="~/assets/img/logo.webp" alt="Workflow" />
+							<img class="block h-12 w-auto sm:h-10" src="/logo.svg" alt="Workflow" />
 						</div>
 						<div class="-mr-2">
 							<button

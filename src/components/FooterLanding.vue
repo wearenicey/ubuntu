@@ -4,7 +4,7 @@
 		<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
 			<div class="xl:grid xl:grid-cols-3 xl:gap-8">
 				<div class="space-y-8 xl:col-span-1">
-					<g-image class="" src="~/assets/img/logo.webp" alt="Company name" />
+					<img class="" src="/logo.svg" alt="Company name" />
 					<p class="text-gray-500 text-base">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi..</p>
 					<div class="flex space-x-6">
 						<a href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">
