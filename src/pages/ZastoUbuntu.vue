@@ -87,21 +87,21 @@
 				<div class="relative">
 					<blockquote class="mt-10">
 						<div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
-							<p>&ldquo;Prihvatanje, podrška, uvažavanje i saosećanje su nam neophodni da bismo započeli proces zaceljenja i rasta. &rdquo;</p>
+							<p>&ldquo;Nadahnjujuće mi je da gledam saradnike okupljene oko ideje zajedništva kako velikodušno daju delove sebe za viši cilj, a još mi je draže kad vidim kako im se vraća uloženi trud. &rdquo;</p>
 						</div>
 						<footer class="mt-8">
 							<div class="md:flex md:items-center md:justify-center">
 								<div class="md:flex-shrink-0">
-									<g-image class="mx-auto h-10 w-10 rounded-full" src="~/assets/img/slika-1.jpg" alt="" />
+									<g-image class="mx-auto h-10 w-10 rounded-full" src="~/assets/img/stefan.webp" alt="" />
 								</div>
 								<div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-									<div class="text-base font-medium text-gray-900">Miljana Vorkapić Viček</div>
+									<div class="text-base font-medium text-gray-900">Stefan Mitrović Jokanović </div>
 
 									<svg class="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
 										<path d="M11 0h3L9 20H6l5-20z" />
 									</svg>
 
-									<div class="text-base font-medium text-gray-500">Supervizor, Ubuntu centar</div>
+									<div class="text-base font-medium text-gray-500">Generalni direktor</div>
 								</div>
 							</div>
 						</footer>
