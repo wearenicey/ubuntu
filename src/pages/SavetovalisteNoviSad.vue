@@ -54,9 +54,8 @@
 
 					<div class="pt-20 relative flex justify-center">
 						<g-image src="~/assets/img/savetovaliste-novi-sad.jpg"></g-image>
+						<g-image class="hidden xl:block absolute -right-16 transform bottom-0" src="~/assets/img/savetovaliste-novi-sad-svg.svg"></g-image>
 					</div>
-
-					<g-image class="hidden xl:block absolute right-24 transform -bottom-20" src="~/assets/img/savetovaliste-novi-sad-svg.svg"></g-image>
 				</div>
 			</div>
 
