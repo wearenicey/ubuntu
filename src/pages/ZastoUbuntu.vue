@@ -92,7 +92,7 @@
 						<footer class="mt-8">
 							<div class="md:flex md:items-center md:justify-center">
 								<div class="md:flex-shrink-0">
-									<g-image class="mx-auto h-10 w-10 rounded-full" src="~/assets/img/stefan.webp" alt="" />
+									<g-image class="mx-auto h-10 w-10 rounded-full" src="~/assets/img/stefan.jpg" alt="" />
 								</div>
 								<div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
 									<div class="text-base font-medium text-gray-900">Stefan Mitrović Jokanović </div>

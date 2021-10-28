@@ -4,7 +4,7 @@
 			<div>
 				<a href="/" class="flex">
 					<span class="sr-only">Ubuntu Savetovaliste</span>
-					<g-image class="block h-12 w-auto sm:h-14" src="~/assets/img/logo.svg" alt="Ubuntu Savetovaliste"  />
+					<g-image class="block h-12 w-auto sm:h-14" src="~/assets/img/logo.svg" alt="Ubuntu Savetovaliste" />
 				</a>
 			</div>
 			<div class="mr-2 my-2 md:hidden">
@@ -76,7 +76,7 @@
 										</svg> -->
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Novi Sad</p>
-											<p class="mt-1 text-sm text-gray-500">Get a better understanding of where your traffic is coming from.</p>
+											<p class="mt-1 text-sm text-gray-500">Novi Sad je vaš grad, treba vam psihoterapeut?</p>
 										</div>
 									</a>
 
@@ -87,7 +87,7 @@
 										</svg> -->
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Beograd</p>
-											<p class="mt-1 text-sm text-gray-500">Speak directly to your customers in a more meaningful way.</p>
+											<p class="mt-1 text-sm text-gray-500">Beograd je vaš grad, a treba vam psihoterapeut? Ubuntu je pravi izbor</p>
 										</div>
 									</a>
 
@@ -103,7 +103,7 @@
 										</svg> -->
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Online</p>
-											<p class="mt-1 text-sm text-gray-500">Your customers&#039; data will be safe and secure.</p>
+											<p class="mt-1 text-sm text-gray-500">Treba vam psiholog ili psihoterapeut online? Ubuntu je pravi izbor.</p>
 										</div>
 									</a>
 								</div>
@@ -164,7 +164,7 @@
 										</svg> -->
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Zašto Ubuntu?</p>
-											<p class="mt-1 text-sm text-gray-500">Get a better understanding of where your traffic is coming from.</p>
+											<p class="mt-1 text-sm text-gray-500">Misija Ubuntu centra je da svima omogući lako dostupnu psihološku pomoć</p>
 										</div>
 									</a>
 
@@ -175,7 +175,7 @@
 										</svg> -->
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Karijera</p>
-											<p class="mt-1 text-sm text-gray-500">Speak directly to your customers in a more meaningful way.</p>
+											<p class="mt-1 text-sm text-gray-500">Kako postati psihoterapeut? Savetovalište Ubuntu je pravi izbor</p>
 										</div>
 									</a>
 
@@ -191,7 +191,7 @@
 										</svg> -->
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Edukacije</p>
-											<p class="mt-1 text-sm text-gray-500">Your customers&#039; data will be safe and secure.</p>
+											<!-- <p class="mt-1 text-sm text-gray-500">Your customers&#039; data will be safe and secure.</p> -->
 										</div>
 									</a>
 								</div>
@@ -297,7 +297,7 @@
 				<div class="pt-5 pb-6 px-5">
 					<div class="flex items-center justify-between">
 						<div>
-							<g-image class="block h-12 w-auto sm:h-10" src="~/assets/img/logo.svg" alt="Workflow"  />
+							<g-image class="block h-12 w-auto sm:h-10" src="~/assets/img/logo.svg" alt="Workflow" />
 						</div>
 						<div class="-mr-2">
 							<button
@@ -325,7 +325,7 @@
 										d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
 									/>
 								</svg> -->
-								<span class=" text-base font-medium text-gray-900"> Savetovalište Beograd </span>
+								<span class="text-base font-medium text-gray-900"> Savetovalište Beograd </span>
 							</a>
 
 							<a href="/savetovaliste-novi-sad/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
@@ -333,7 +333,7 @@
 								<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
 								</svg> -->
-								<span class=" text-base font-medium text-gray-900"> Savetovalište Novi Sad </span>
+								<span class="text-base font-medium text-gray-900"> Savetovalište Novi Sad </span>
 							</a>
 
 							<a href="/online-savetovaliste/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
