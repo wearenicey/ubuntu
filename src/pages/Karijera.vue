@@ -38,19 +38,19 @@
 			<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
 				<div>
 					<h2 class="mt-2 text-3xl text-purple-800 tracking-tight sm:text-4xl">Zdrav kolektiv za zdrave ideje</h2>
-					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši saradnici i tako se i odnosimo prema njimag</p>
+					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši saradnici i tako se i odnosimo prema njima</p>
 				</div>
-				<div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
+				<div class="mt-12">
 					<g-image class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/assets/img/karijera-1.jpg" alt="" />
 				</div>
 			</div>
 		</div>
 
-		<svg class="hidden lg:block absolute mt-36 z-20" width="240" height="1086" viewBox="0 0 240 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<svg class="hidden lg:block absolute mt-36" style="z-index: -1;" width="240" height="1086" viewBox="0 0 240 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<circle cx="-303" cy="543" r="543" fill="#FEF2F2" />
 		</svg>
 		<!-- Feature section with grid -->
-		<div class="relative bg-white py-16 sm:py-24 lg:py-32">
+		<div class="relativ py-16 sm:py-24 lg:py-32">
 			<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<h2 class="mt-2 text-3xl text-gray-900 sm:text-4xl">Šta naše savetovalište nudi?</h2>
 				<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Možete očekivati sistemsku podršku, logistiku i ohrabrenje za ostvarivanje vaših ličnih ideja i ciljeva</p>
@@ -195,7 +195,7 @@
 		<!-- Testimonial section -->
 
 		<!-- Testimonial section -->
-		<div class="pb-16 bg-green-900 lg:pb-0 lg:z-10 lg:relative" style="z-index: 99">
+		<div class="mt-16 pb-16 bg-green-900 lg:pb-0 lg:z-10 lg:relative" style="z-index: 99">
 			<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
 				<div class="relative lg:-my-8">
 					<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
