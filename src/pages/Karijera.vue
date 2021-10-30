@@ -32,7 +32,7 @@
 
 		<!-- Feature section with screenshot -->
 		<div class="relative">
-			<svg class="hidden lg:block absolute -right-0 transform z-50 -translate-y-10" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg class="hidden lg:block absolute -right-0 transform -translate-y-10" style="z-index: -1;" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
 			</svg>
 			<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
