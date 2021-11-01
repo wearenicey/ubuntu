@@ -122,7 +122,7 @@
 												/>
 											</svg>
 										</div>
-										<p class="ml-16 text-lg sm:pt-3 leading-6 font-medium text-gray-900">Dobru internet konekciju koja može podržati video poz</p>
+										<p class="ml-16 text-lg sm:pt-3 leading-6 font-medium text-gray-900">Dobru internet konekciju koja može podržati video poziv</p>
 									</dt>
 								</div>
 

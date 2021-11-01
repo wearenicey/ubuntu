@@ -76,7 +76,7 @@
 										</svg> -->
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Novi Sad</p>
-											<p class="mt-1 text-sm text-gray-500">Novi Sad je vaš grad, treba vam psihoterapeut?</p>
+											<!-- <p class="mt-1 text-sm text-gray-500">Novi Sad je vaš grad, treba vam psihoterapeut?</p> -->
 										</div>
 									</a>
 
@@ -87,7 +87,7 @@
 										</svg> -->
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Beograd</p>
-											<p class="mt-1 text-sm text-gray-500">Beograd je vaš grad, a treba vam psihoterapeut? Ubuntu je pravi izbor</p>
+											<!-- <p class="mt-1 text-sm text-gray-500">Beograd je vaš grad, a treba vam psihoterapeut? Ubuntu je pravi izbor</p> -->
 										</div>
 									</a>
 
