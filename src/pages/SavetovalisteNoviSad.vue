@@ -973,6 +973,8 @@ import { required, email } from "vuelidate/lib/validators";
 export default {
 	metaInfo: {
 		title: "Savetovalište Novi Sad | Ubuntu",
+		      titleTemplate: "Savetovalište Novi Sad | Ubuntu",
+
 		meta: [
 			{
 				name: "title",

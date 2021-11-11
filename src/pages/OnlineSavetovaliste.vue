@@ -169,8 +169,8 @@
 							<div class="lg:col-start-2">
 								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Koji su prvi koraci?</h3>
 								<p class="mt-3 text-lg text-gray-500">
-									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta, koliko
-									je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
+									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta,
+									koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
 								</p>
 
 								<div class="block mt-8">
@@ -1020,7 +1020,9 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: " Online savetovalište | Ubuntu",
+		title: "Online savetovalište | Ubuntu",
+		titleTemplate: "Online savetovalište | Ubuntu",
+
 		meta: [
 			{
 				name: "title",
