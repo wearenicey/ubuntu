@@ -14,7 +14,9 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
 module.exports = {
-	siteName: 'Gridsome',
+	siteName: 'Ubuntu Centar',
+	siteDescription: 'Ubuntu centar',
+	siteUrl: 'http://www.ubuntucentar.com/',
 	plugins: [
 
 
