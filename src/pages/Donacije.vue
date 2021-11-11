@@ -60,7 +60,6 @@
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Kako da znam da će moja donacija biti utrošena na pravi način? </span>
 											<span class="ml-6 h-7 flex items-center">
-
 												<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 												</svg>
@@ -81,7 +80,6 @@
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Ko može da donira?</span>
 											<span class="ml-6 h-7 flex items-center">
-
 												<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 												</svg>
@@ -99,7 +97,6 @@
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Šta ja imam od donacije? </span>
 											<span class="ml-6 h-7 flex items-center">
-
 												<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 												</svg>
@@ -138,7 +135,7 @@
 					<span class="block">primeru</span>
 				</h2>
 				<div class="mt-8 flex justify-center">
-					<img src="https://www.ubuntucentar.com/wp-content/uploads/brizy/393/assets/images/iW=540&iH=352&oX=0&oY=36&cW=540&cH=280/Screenshot-8.png" alt="" srcset="" />
+					<g-image src="~/assets/img/uplatnica.png" alt="" srcset="" />
 				</div>
 			</div>
 		</div>
@@ -151,7 +148,7 @@
 					<span class="block">vaše banke.</span>
 				</h2>
 				<div class="mt-8 flex justify-center">
-					<img src="https://www.ubuntucentar.com/wp-content/uploads/brizy/393/assets/images/iW=297&iH=297&oX=0&oY=38&cW=297&cH=221/NBSIPSQR.png" alt="" srcset="" />
+					<g-image src="~/assets/img/qr.png" alt="" srcset="" />
 				</div>
 			</div>
 		</div>
