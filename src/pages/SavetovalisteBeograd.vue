@@ -52,7 +52,7 @@
 					</div>
 
 					<div class="pt-20 relative flex justify-center">
-						<g-image class="rounded-2xl" src="~/assets/img/savetovaliste-beograd.jpg"></g-image>
+						<g-image class="rounded-2xl" src="~/assets/img/savetovaliste-beograd.webp"></g-image>
 						<g-image class="hidden xl:block absolute -right-16 transform bottom-0" src="~/assets/img/savetovaliste-novi-sad-svg.svg"></g-image>
 					</div>
 				</div>
