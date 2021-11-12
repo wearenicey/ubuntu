@@ -18,7 +18,7 @@
 						<div class="grid grid-cols-1 lg:grid-cols-2">
 							<!-- Contact information -->
 							<div class="relative overflow-hidden">
-								<svg class="absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<svg class="hidden lg:block absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1911 294.707L10.9152 307.446L15.5598 311.08L23.6494 300.33L16.1911 294.707Z" fill="white" />
 									<path
 										fill-rule="evenodd"
