@@ -789,7 +789,7 @@
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 										</svg>
-										<span class="ml-3"><a href="mailto:psihoterapija-ns@ubuntucentar.com">psihoterapija-ns@ubuntucentar.com</a></span>
+										<span class="ml-3"><a href="mailto:karijera@ubuntucentar.com">karijera@ubuntucentar.com</a></span>
 									</dd>
 								</dl>
 								<dl class="mt-8 space-y-6">
@@ -838,7 +838,7 @@
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 										</svg>
-										<span class="ml-3"><a href="mailto:psihoterapija-ns@ubuntucentar.com">psihoterapija-ns@ubuntucentar.com</a></span>
+										<span class="ml-3"><a href="mailto:karijera@ubuntucentar.com">karijera@ubuntucentar.com</a></span>
 									</dd>
 								</dl>
 								<ul role="list" class="mt-8 flex space-x-12">
