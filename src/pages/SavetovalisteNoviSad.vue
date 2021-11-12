@@ -11,7 +11,7 @@
 			</back-to-top>
 			<Header />
 
-			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../beograd-1.png)">
+			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../beograd-1.webp)">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 					<div class="mt-10">
 						<h1 class="text-4xl text-purple-800 sm:text-5xl">
