@@ -16,10 +16,10 @@
 			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../online-1.png)">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 					<div class="mt-10">
-						<h2 class="text-4xl text-purple-800 sm:text-5xl">
+						<h1 class="text-4xl text-purple-800 sm:text-5xl">
 							<span class="block">Treba vam psiholog ili psihoterapeut </span>
 							<span class="block">online? Ubuntu je pravi izbor</span>
-						</h2>
+						</h1>
 						<p class="text-gray-700 text-xl pt-4">Od 2018. naše online savetovalište radi s ljudima iz cele Srbije, regiona i sveta.</p>
 					</div>
 					<div class="mt-10 flex block justify-center">
@@ -37,7 +37,7 @@
 			</div>
 
 			<!-- elements -->
-			<div class="py-16 overflow-hidden lg:py-24">
+			<div class="py-4 overflow-hidden lg:py-24">
 				<div>
 					<svg class="hidden lg:block absolute mt-36" width="460" height="1086" viewBox="0 0 460 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<circle cx="-83" cy="543" r="543" fill="#FEF2F2" />
@@ -536,7 +536,7 @@
 						<div class="grid grid-cols-1 lg:grid-cols-2">
 							<!-- Contact information -->
 							<div class="relative overflow-hidden">
-								<svg class="absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<svg class="hidden lg:block absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1911 294.707L10.9152 307.446L15.5598 311.08L23.6494 300.33L16.1911 294.707Z" fill="white" />
 									<path
 										fill-rule="evenodd"
@@ -813,7 +813,7 @@
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 											</svg>
-											<span class="ml-3"><a href="mailto:psihoterapija-ns@ubuntucentar.com">psihoterapija-ns@ubuntucentar.com</a></span>
+											<span class="ml-3"><a href="mailto:psihoterapija-onlajn@ubuntucentar.com">psihoterapija-onlajn@ubuntucentar.com</a></span>
 										</dd>
 									</dl>
 									<ul role="list" class="mt-8 flex space-x-12">

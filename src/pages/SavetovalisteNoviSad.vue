@@ -14,10 +14,10 @@
 			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../beograd-1.png)">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 					<div class="mt-10">
-						<h2 class="text-4xl text-purple-800 sm:text-5xl">
+						<h1 class="text-4xl text-purple-800 sm:text-5xl">
 							<span class="block">Novi Sad je vaš grad,</span>
 							<span class="block">treba vam psihoterapeut?</span>
-						</h2>
+						</h1>
 						<p class="text-gray-700 text-xl pt-4">Naša Ubuntu priča počela je baš u ovom gradu 2016. godine.</p>
 						<svg class="hidden lg:block absolute left-full transform -translate-x-96 -translate-y-1/8" width="121" height="106" viewBox="0 0 121 106" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<ellipse cx="60.1786" cy="52.7104" rx="52" ry="42" transform="rotate(13.1245 60.1786 52.7104)" fill="#FEF3C7" />
@@ -117,8 +117,8 @@
 							<div class="lg:col-start-2">
 								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Koji su prvi koraci?</h3>
 								<p class="mt-3 text-lg text-gray-500">
-									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta, koliko
-									je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
+									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta,
+									koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
 								</p>
 								<div class="mt-6">
 									<a
@@ -478,7 +478,7 @@
 						<div class="grid grid-cols-1 lg:grid-cols-2">
 							<!-- Contact information -->
 							<div class="relative overflow-hidden">
-								<svg class="absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<svg class="hidden lg:block absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1911 294.707L10.9152 307.446L15.5598 311.08L23.6494 300.33L16.1911 294.707Z" fill="white" />
 									<path
 										fill-rule="evenodd"
@@ -973,7 +973,7 @@ import { required, email } from "vuelidate/lib/validators";
 export default {
 	metaInfo: {
 		title: "Savetovalište Novi Sad | Ubuntu",
-		      titleTemplate: "Savetovalište Novi Sad | Ubuntu",
+		titleTemplate: "Savetovalište Novi Sad | Ubuntu",
 
 		meta: [
 			{
