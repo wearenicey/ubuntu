@@ -178,7 +178,7 @@
 									</div>
 									<p class="mt-5 text-lg leading-6 font-medium text-gray-800">Izbor terapeuta</p>
 								</dt>
-								<dd class="mt-2 text-base text-gray-500">Nulti susret služi za procenu psihoterapijske motivacije, na osnovu čega naš tim efikasno odabere najboljeg terapeuta za vas.</dd>
+								<dd class="mt-2 text-base text-gray-500">Nulti susret služi za procenu psihoterapijske motivacije, na osnovu čega naš tim efikasno odabere najboljeg terapeuta za Vas.</dd>
 							</div>
 
 							<div>
