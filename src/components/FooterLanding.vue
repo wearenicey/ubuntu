@@ -5,7 +5,7 @@
 			<div class="xl:grid xl:grid-cols-3 xl:gap-8">
 				<div class="space-y-8 xl:col-span-1">
 					<img class="" src="/logo.svg" alt="Company name" />
-					<p class="text-gray-500 text-base">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi..</p>
+					<p class="text-gray-500 text-base">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi.</p>
 					<div class="flex space-x-6">
 						<a href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">
 							<span class="sr-only">Facebook</span>

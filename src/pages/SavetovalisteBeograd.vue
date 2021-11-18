@@ -15,7 +15,7 @@
 					<div class="mt-10">
 						<h1 class="text-4xl text-purple-800 sm:text-5xl">
 							<span class="block">Beograd je vaš grad, a treba vam </span>
-							<span class="block">psihoterapeut? Ubuntu je pravi izbor</span>
+							<span class="block">psihoterapeut? Ubuntu je pravi izbor.</span>
 						</h1>
 						<p class="text-gray-700 text-xl pt-4">Beogradsko savetovalište Ubuntu se nalazi na Zelenom vencu. I na Novom Beogradu.</p>
 						<svg class="hidden lg:block absolute left-full transform -translate-x-96 -translate-y-1/8" width="121" height="106" viewBox="0 0 121 106" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +94,7 @@
 					<div class="relative">
 						<h2 class="text-center text-3xl leading-8 text-purple-800 sm:text-4xl">Beogradsko savetovalište Ubuntu</h2>
 						<p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-							Projekat pokrenut 2019. godine od strane Ubuntu centra za rast i razvoj ljudskog potencijala sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć
+							Projekat pokrenut 2019. godine od strane Ubuntu centra za rast i razvoj ljudskog potencijala s namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć.
 						</p>
 					</div>
 
@@ -102,7 +102,7 @@
 						<div class="relative">
 							<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Na koji način savetovalište funkcioniše?</h3>
 							<p class="mt-3 text-lg text-gray-500">
-								Projekat je samoodrživ i finansira se uz pomoć dobrovoljne donacije građana. Donacije se koriste isključivo u svrhu održavanja rada savetovališta i profesionalnog ulagaja u tim koji je angažovan u okviru projekta.
+								Projekat je samoodrživ i finansira se uz pomoć dobrovoljne donacije građana. Donacije se koriste isključivo u svrhu održavanja rada savetovališta i profesionalnog ulagaju u tim koji je angažovan u okviru projekta.
 							</p>
 						</div>
 
@@ -287,7 +287,7 @@
 									</button>
 								</dt>
 								<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-									<p class="text-base text-gray-500">Za 60 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1000 RSD</span>, kao donacije za rad savetovališta.</p>
+									<p class="text-base text-gray-500">Za 60 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1.000 RSD</span>, kao donaciju za rad savetovališta.</p>
 								</dd>
 							</div>
 
@@ -721,7 +721,7 @@
 
 								<div class="py-10 px-6 sm:px-10 xl:p-12">
 									<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom</h3>
-									<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo</p>
+									<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
 									<dl class="mt-8 space-y-6">
 										<dt><span class="sr-only">Lokacija</span></dt>
 										<dd class="flex text-base text-gray-400">

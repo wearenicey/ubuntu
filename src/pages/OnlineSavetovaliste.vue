@@ -345,7 +345,7 @@
 									</button>
 								</dt>
 								<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-									<p class="text-base text-gray-500">Za 60 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1000 RSD</span>, kao donacije za rad savetovališta.</p>
+									<p class="text-base text-gray-500">Za 60 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1.000 RSD</span>, kao donaciju za rad savetovališta.</p>
 								</dd>
 							</div>
 
@@ -371,7 +371,7 @@
 								<dd x-show="open" class="mt-2 pr-12" id="faq-0">
 									<p class="text-base text-gray-500">
 										Prvi i neophodni uslov za započinjanje procesa psihoterapije je <span class="font-bold">psihološka procena</span>. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir
-										najpodesnijeg stručnog saradnika za rad. Za ovaj susret je neophodno izdvojiti <span class="font-bold">2000 RSD</span> donacije po osobi.
+										najpodesnijeg stručnog saradnika za rad. Za ovaj susret je neophodno izdvojiti <span class="font-bold">2.000 RSD</span> donacije po osobi.
 									</p>
 								</dd>
 							</div>
@@ -780,7 +780,7 @@
 
 								<div class="py-10 px-6 sm:px-10 xl:p-12">
 									<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom</h3>
-									<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo</p>
+									<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
 									<dl class="mt-8 space-y-6">
 										<dt><span class="sr-only">Lokacija</span></dt>
 										<dd class="flex text-base text-gray-400">

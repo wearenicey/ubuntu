@@ -58,7 +58,7 @@
 								Centar za rast i razvoj ljudskog potencijala Ubuntu osnovan je 28. juna 2016. godine u Novom Sadu. Ideja nam je bila da na jednom mestu okupimo visoko kvalifikovane saradnike različitih obrazovnih profila koji su usmereni na mentalno zdravlje.
 							</p>
 							<p class="text-base leading-7">
-								Želeli smo da im damo siguran prostor za rad i kontinuiranu podršku u profesionalnom razvoju kako bismo udruženim snagama vodili računa o mentalnom zdravlju građana naše lokalne zajednice, a i šire..
+								Želeli smo da im damo siguran prostor za rad i kontinuiranu podršku u profesionalnom razvoju, kako bismo udruženim snagama vodili računa o mentalnom zdravlju građana naše lokalne zajednice, a i šire..
 							</p>
 						</div>
 					</div>
@@ -226,7 +226,7 @@
 
               </h3>
               <p class="mt-3 text-base text-gray-500">
-									Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć.
+									Projekat "Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć.
               </p>
             </a>
           </div>
@@ -275,7 +275,7 @@
 
               </h3>
               <p class="mt-3 text-base text-gray-500">
-									Kako bi unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.
+									Kako bismo unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.
               </p>
             </a>
           </div>

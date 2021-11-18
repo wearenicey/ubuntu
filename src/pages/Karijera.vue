@@ -38,7 +38,7 @@
 			<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
 				<div>
 					<h2 class="mt-2 text-3xl text-purple-800 tracking-tight sm:text-4xl">Zdrav kolektiv za zdrave ideje</h2>
-					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši saradnici i tako se i odnosimo prema njima</p>
+					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši saradnici i tako se i odnosimo prema njima.</p>
 				</div>
 				<div class="mt-12">
 					<g-image class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/assets/img/karijera-1.jpg" alt="" />
@@ -53,7 +53,7 @@
 		<div class="relativ py-16 sm:py-24 lg:py-32">
 			<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<h2 class="mt-2 text-3xl text-gray-900 sm:text-4xl">Šta naše savetovalište nudi?</h2>
-				<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Možete očekivati sistemsku podršku, logistiku i ohrabrenje za ostvarivanje vaših ličnih ideja i ciljeva</p>
+				<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Možete očekivati sistemsku podršku, logistiku i ohrabrenje za ostvarivanje vaših ličnih ideja i ciljeva.</p>
 				<div class="mt-12">
 					<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 						<div class="pt-6">
