@@ -18,6 +18,7 @@
 		"@tailwindcss/typography": "^0.4.1",
 		"autoprefixer": "^9.8.6",
 		"gridsome": "^0.7.0",
+		"gridsome-plugin-gtm": "^0.1.1",
 		"gridsome-plugin-recommender": "^1.1.5",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14",
 		"vue-backtotop": "^1.6.1",
