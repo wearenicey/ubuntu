@@ -95,7 +95,7 @@
 									<g-image class="mx-auto h-10 w-10 rounded-full" src="~/assets/img/stefan.jpg" alt="" />
 								</div>
 								<div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-									<div class="text-base font-medium text-gray-900">Stefan Mitrović Jokanović </div>
+									<div class="text-base font-medium text-gray-900">Stefan Mitrović Jokanović</div>
 
 									<svg class="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
 										<path d="M11 0h3L9 20H6l5-20z" />
@@ -166,3 +166,23 @@
 		</div>
 	</Layout>
 </template>
+
+<script>
+export default {
+	metaInfo: {
+		title: "O nama | Savetovalište Ubuntu Centar",
+		titleTemplate: "O nama | Savetovalište Ubuntu Centar",
+
+		meta: [
+			{
+				name: "title",
+				content: "O nama | Savetovalište Ubuntu Centar",
+			},
+			{
+				name: "description",
+				content: "Želimo da psihoterapiju i ostale vidove savetovanja učinimo dostupnim svim ljudima kojima su neophodni.",
+			},
+		],
+	},
+};
+</script>

@@ -1020,17 +1020,17 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Online savetovalište | Ubuntu",
-		titleTemplate: "Online savetovalište | Ubuntu",
+		title: "Online savetovanje | Profesionalna psihoterapija",
+		titleTemplate: "Online savetovanje | Profesionalna psihoterapija",
 
 		meta: [
 			{
 				name: "title",
-				content: "Online savetovalište | Ubuntu",
+				content: "Online savetovanje | Profesionalna psihoterapija",
 			},
 			{
 				name: "description",
-				content: "Savetovaliste je...",
+				content: "Savetovalište Ubuntu nudi usluge profesionalne psihoterapije za pojedince, parove i porodice.",
 			},
 		],
 	},

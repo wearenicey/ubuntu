@@ -158,7 +158,19 @@
 <script>
 export default {
 	metaInfo: {
-		title: "Donacije | Ubuntu ",
+		title: "Donacije | Savetovalište Ubuntu Centar",
+		titleTemplate: "Donacije | Savetovalište Ubuntu Centar",
+
+		meta: [
+			{
+				name: "title",
+				content: "Donacije | Savetovalište Ubuntu Centar",
+			},
+			{
+				name: "description",
+				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.  ",
+			},
+		],
 	},
 
 	methods: {

@@ -1,6 +1,5 @@
 <template>
 	<Layout>
-
 		<div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
 			<div class="absolute inset-0">
 				<div class="bg-white h-1/3 sm:h-2/3" />
@@ -24,7 +23,7 @@
 							<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
 						</div>
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-							<div class="flex-1"> 
+							<div class="flex-1">
 								<!-- <p class="text-sm font-medium text-indigo-600">
 									<a :href="post.node.tags.path" class="hover:underline">
 										{{ post.node.tags.title }}
@@ -68,8 +67,6 @@
 				</div>
 			</div>
 		</div>
-
-
 	</Layout>
 </template>
 
@@ -114,13 +111,11 @@ query($id: ID!) {
 </page-query>
 
 <script>
-
-
 export default {
 	metaInfo() {
 		return {
-			title: this.$page.category.title,
-			titleTemplate: this.$page.category.title,
+			title: this.$page.category.metaTitle,
+			titleTemplate: this.$page.category.metaTitle,
 
 			meta: [{ name: "description", content: this.$page.category.desc }],
 
@@ -129,8 +124,7 @@ export default {
 	},
 
 	data() {
-		return {
-		};
+		return {};
 	},
 };
 </script>

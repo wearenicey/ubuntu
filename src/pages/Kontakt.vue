@@ -545,15 +545,17 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Kontakt | Ubuntu",
+		title: "Kontakt | Savetovalište Ubuntu Centar",
+		titleTemplate: "Kontakt | Savetovalište Ubuntu Centar",
+
 		meta: [
 			{
 				name: "title",
-				content: "Kontakt | Ubuntu",
+				content: "Kontakt | Savetovalište Ubuntu Centar",
 			},
 			{
 				name: "description",
-				content: "Kontaktirajte nas...",
+				content: "Kontaktirajte nas i zakažite besplatnu konsultaciju, sastanak ili online savetovanje.",
 			},
 		],
 	},

@@ -394,8 +394,19 @@ import CardItem from "../components/CardItem.vue";
 
 export default {
 	metaInfo: {
-		      title: "Ubuntu Centar",
-      titleTemplate: "Ubuntu Centar",
+		  title: "Savetovalište Ubuntu | Psihoterapija dostupna svima",
+      titleTemplate: "Savetovalište Ubuntu | Psihoterapija dostupna svima",
+
+					meta: [
+			{
+				name: "title",
+				content: "Savetovalište Ubuntu | Psihoterapija dostupna svima",
+			},
+			{
+				name: "description",
+				content: "Savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
+			},
+		],
 	},
 	components: {
 		CardItem,

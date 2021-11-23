@@ -972,17 +972,17 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Savetovalište Novi Sad | Ubuntu",
-		titleTemplate: "Savetovalište Novi Sad | Ubuntu",
+		title: "Psihoterapija Novi Sad | Savetovalište Ubuntu",
+		titleTemplate: "Psihoterapija Novi Sad | Savetovalište Ubuntu",
 
 		meta: [
 			{
 				name: "title",
-				content: "Savetovalište Novi Sad  | Ubuntu",
+				content: "Psihoterapija Novi Sad | Savetovalište Ubuntu",
 			},
 			{
 				name: "description",
-				content: "Savetovaliste je...",
+				content: "Naš tim psihoterapeuta u Novom Sadu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
 			},
 		],
 	},

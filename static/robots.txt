@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /zasto-ubuntu
+Disallow: /psihoterapija/

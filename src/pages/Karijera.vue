@@ -1045,9 +1045,20 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Karijera | Ubuntu ",
-	},
+		title: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
+		titleTemplate: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
 
+		meta: [
+			{
+				name: "title",
+				content: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
+			},
+			{
+				name: "description",
+				content: "Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine. ",
+			},
+		],
+	},
 	data() {
 		return {
 			success: false,
