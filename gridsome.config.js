@@ -19,6 +19,14 @@ module.exports = {
 	siteUrl: 'http://www.ubuntucentar.com/',
 	plugins: [
 
+		{
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'GTM-TST9HFJ',
+        enabled: true,
+        debug: true
+      }
+    },
 
 		{
 			use: '@gridsome/source-filesystem',
