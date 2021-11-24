@@ -982,17 +982,17 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Savetovalište Beograd | Ubuntu",
-		titleTemplate: "Savetovalište Beograd | Ubuntu",
+		title: "Psihoterapija Beograd | Savetovalište Ubuntu",
+		titleTemplate: "Psihoterapija Beograd | Savetovalište Ubuntu",
 
 		meta: [
 			{
 				name: "title",
-				content: "Savetovalište Beograd | Ubuntu",
+				content: "Psihoterapija Beograd | Savetovalište Ubuntu",
 			},
 			{
 				name: "description",
-				content: "Savetovaliste je...",
+				content: "Naš tim psihoterapeuta u Beogradu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
 			},
 		],
 	},
