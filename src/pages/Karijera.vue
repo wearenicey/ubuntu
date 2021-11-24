@@ -881,9 +881,9 @@
 
 						<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
 							<!-- <h3 class="text-lg font-medium text-gray-900">Pošaljite nam poruku</h3> -->
-							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" id="sign-up" name="sign-up" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" id="kontakt-karijera" name="kontakt-karijera" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
-									<input type="hidden" name="form-name" value="sign-up" />
+									<input type="hidden" name="form-name" value="kontakt-karijera" />
 									<p hidden>
 										<label> Don’t fill this out: <input name="bot-field" /> </label>
 									</p>

@@ -337,30 +337,28 @@
 							<h2 class="text-3xl text-white tracking-tight sm:text-4xl">Saveti za mentalni razvoj.</h2>
 							<p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">Želiš da budeš u toku sa našim objavama? Obećavamo da nećemo slati više od jednog mejla nedeljno 😊</p>
 						</div>
-						<form action="#" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
+						<form @submit.prevent="submit" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex" id="newsletter" name="newsletter" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 							<div class="min-w-0 flex-1">
+									<input type="hidden" name="form-name" value="newsletter" />
+									<p hidden>
+										<label> Don’t fill this out: <input name="bot-field" /> </label>
+									</p>
 								<label for="cta-email" class="sr-only">Enter your email</label>
-								<input
-									id="cta-email"
-									type="email"
-									class="
-										block
-										w-full
-										border border-transparent
-										rounded-md
-										px-5
-										py-3
-										text-base text-gray-900
-										placeholder-gray-500
-										shadow-sm
-										focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-purple-500
-									"
-									placeholder="Upiši svoj email"
-								/>
+									<input
+												:class="{ 'form-group--error border border-red-500': $v.formData.email.$error }"
+												id="email"
+												name="email"
+												type="email"
+												class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+												:invalid="$v.formData.email.$error"
+												v-model="$v.formData.email.$model"
+												placeholder="Upišite Vašu Email adresu"
+											/>
 							</div>
 							<div class="mt-4 sm:mt-0 sm:ml-3">
 								<button
-									type="submit"
+										:disabled="formData.submitStatus === 'PENDING'"
+											type="submit"
 									class="
 										block
 										w-full
@@ -380,6 +378,11 @@
 								>
 									Prijavi me
 								</button>
+										<div class="pt-3 text-white">
+											<p class="typo__p" v-if="formData.submitStatus === 'OK'">Poruka je poslata!</p>
+											<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Popunite ispravno formu.</p>
+											<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Šalje se...</p>
+										</div>
 							</div>
 						</form>
 					</div>
@@ -391,6 +394,7 @@
 
 <script>
 import CardItem from "../components/CardItem.vue";
+import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
@@ -408,6 +412,63 @@ export default {
 			},
 		],
 	},
+
+	data() {
+		return {
+			formData: {
+				email: "",
+				submitStatus: null,
+			},
+		};
+	},
+
+	validations: {
+		formData: {
+		
+			email: {
+				required,
+				email,
+			},
+	
+		},
+	},
+	methods: {
+		encode(data) {
+			return Object.keys(data)
+				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+				.join("&");
+		},
+		submit(e) {
+			console.log("submit!");
+			this.$v.$touch();
+			if (this.$v.formData.$invalid) {
+				this.formData.submitStatus = "ERROR";
+			} else {
+				fetch("/", {
+					method: "POST",
+					headers: { "Content-Type": "application/x-www-form-urlencoded" },
+					body: this.encode({
+						"form-name": e.target.getAttribute("name"),
+						...this.formData,
+					}),
+				})
+					.then(
+						() => (this.formData.submitStatus = "PENDING"),
+
+						setTimeout(() => {
+							this.formData.submitStatus = "OK";
+						}, 500)
+					)
+					.catch((error) => alert(error));
+			}
+		},
+		onClickTwo() {
+			let element = document.getElementById("scroll");
+			element.scrollIntoView({ behavior: "smooth", block: "start" });
+		},
+	},
+
+
 	components: {
 		CardItem,
 	},
