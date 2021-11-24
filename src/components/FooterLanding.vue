@@ -67,9 +67,9 @@
 									<a href="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </a>
 								</li>
 
-								<li>
+								<!-- <li>
 									<a href="/edukacije/" class="text-base text-gray-500 hover:text-gray-900"> Edukacije </a>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 					</div>

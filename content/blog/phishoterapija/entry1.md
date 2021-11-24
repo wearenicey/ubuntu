@@ -1,6 +1,7 @@
 ---
 title: Psihoterapija je...
 category: psihoterapija
+# ovo je i meta desc
 excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
 created: 2021-10-10
 image: slika-2.jpg

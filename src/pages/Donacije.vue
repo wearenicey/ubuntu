@@ -135,7 +135,7 @@
 					<span class="block">primeru</span>
 				</h2>
 				<div class="mt-8 flex justify-center">
-					<g-image src="~/assets/img/uplatnica.png" alt="" srcset="" />
+					<g-image src="~/assets/img/uplatnica.png" quality="100" alt="" srcset="" />
 				</div>
 			</div>
 		</div>

@@ -8,19 +8,22 @@ import Vuelidate from 'vuelidate'
 
 
 export default function (Vue, { router, head, isClient }) {
+
+	head.htmlAttrs = { lang: 'sr' }
+
 	Vue.use(Vuelidate)
 
 
 	if (process.isClient) {
 		Vue.use(require("vue-backtotop").default, {
-		text: "top",
-		visibleoffset: "600",
-		visibleoffsetbottom: "0",
-		bottom: "30px",
-		right: "30px",
-	
+			text: "top",
+			visibleoffset: "600",
+			visibleoffsetbottom: "0",
+			bottom: "30px",
+			right: "30px",
 
-		
+
+
 		});
 	}
 

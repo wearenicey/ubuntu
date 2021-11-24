@@ -179,11 +179,11 @@
 										</div>
 									</a>
 
-									<a href="/404" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<!-- <a href="/404" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<div class="">
 											<p class="text-base font-medium text-gray-900">Edukacije</p>
 										</div>
-									</a>
+									</a> -->
 								</div>
 							</div>
 						</div>
@@ -330,7 +330,7 @@
 
 						<a href="/karijera/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Karijera </a>
 
-						<a href="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Edukacije </a>
+						<!-- <a href="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Edukacije </a> -->
 
 						<a href="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </a>
 					</div>
