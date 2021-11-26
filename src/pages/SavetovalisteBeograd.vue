@@ -1,14 +1,6 @@
 <template>
 	<transition name="fade" appear>
 		<div>
-			<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99; width: 60px; height: 60px; padding: 10px 16px; border-radius: 50%; font-size: 22px; line-height: 22px">
-				<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600">
-					<svg class="icon" viewBox="0 0 16 16">
-						<title>Go to top of page</title>
-						<g stroke-width="1" stroke="currentColor"><polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline></g>
-					</svg>
-				</button>
-			</back-to-top>
 			<Header />
 			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../beograd-1.webp)">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
@@ -958,6 +950,14 @@
 						</div>
 					</div>
 				</div>
+				<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99; width: 60px; height: 60px; padding: 10px 16px; border-radius: 50%; font-size: 22px; line-height: 22px">
+					<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600">
+						<svg class="icon" viewBox="0 0 16 16">
+							<title>Go to top of page</title>
+							<g stroke-width="1" stroke="currentColor"><polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline></g>
+						</svg>
+					</button>
+				</back-to-top>
 			</div>
 
 			<div class="max-w-7xl mx-auto">
