@@ -13,7 +13,7 @@
 						</div>
 					</div>
 					<div class="mt-6 container">
-						<div class="prose mx-auto max-w-6xl text-justify" v-html="$page.post.content"></div>
+						<div class="prose mx-auto max-w-6xl text-left" v-html="$page.post.content"></div>
 					</div>
 				</div>
 			</div>

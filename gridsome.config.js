@@ -82,12 +82,12 @@ module.exports = {
 
 	],
 	templates: {
-		Post: '/blog/:path',
+		Post: '/blog/:category/:path',
 		Blog: '/blog/',
 
 		Category: [
 			{
-				path: '/:title',
+				path: '/blog/:title',
 				componenent: '~/templates/Category.vue',
 			},
 		],
