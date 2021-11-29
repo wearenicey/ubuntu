@@ -293,9 +293,9 @@
 		<!-- end novo -->
 
 		<!-- blog -->
-		<!-- <div>
+		<div>
 			<CardItem />
-		</div> -->
+		</div>
 
 		<!-- This example requires Tailwind CSS v2.0+ -->
 	<svg class="absolute -right-0 transform -translate-y-3/4" style="z-index:-1" width="264" height="1086" viewBox="0 0 264 1086" fill="none" xmlns="http://www.w3.org/2000/svg">

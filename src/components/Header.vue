@@ -188,8 +188,7 @@
 							</div>
 						</div>
 					</div>
-
-					<!-- <div class="relative" x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+					 <div class="relative" x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 						<button
 							x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 							type="button"
@@ -242,7 +241,7 @@
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div> 
 					<g-link to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</g-link>
 					<g-link to="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</g-link>
 				</nav>
@@ -317,10 +316,10 @@
 								<span class="text-base font-medium text-gray-900"> Online savetovalište </span>
 							</a>
 
-							<!-- <a href="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+							<a href="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 						
 								<span class="text-base font-medium text-gray-900"> Blog </span>
-							</a> -->
+							</a> 
 						</nav>
 					</div>
 				</div>

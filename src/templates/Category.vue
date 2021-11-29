@@ -58,7 +58,7 @@
 											{{ post.node.humanTime }}
 										</time>
 										<span aria-hidden="true"> &middot; </span>
-										<span> {{ post.node.timeToRead }} min read </span>
+										<span> {{ post.node.timeToRead }} min čitanja </span>
 									</div>
 								</div>
 							</div>

@@ -1,72 +1,54 @@
 ---
-title: Psihoterapija je...
+title: Šta možete očekivati od terapije i na prvoj seansi
 category: psihoterapija
 # ovo je i meta desc
-excerpt: Lorem markdownum aptos pes, Inachidos caput corrumpere! Vincere ferocia arva.
-created: 2021-10-10
-image: slika-2.jpg
-
+excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske, poslovne ili partnerske). 
+created: 2021-11-27
+image: sta-mozete-ocekivati.jpg
+imageTwo:
+  path: ./images/slika-3.jpg
+  alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
+featured: false
 pocetna: true
-path: psihoterapija-one
-name: test
+path: sta-mozete-ocekivati-od-terapije-i-na-prvoj-seansi
+name: Aloo
 ---
 
-# Viro mihi egit colantur devorat aethera
 
-## Quo putat
+Inspiraciju da napišem ovaj tekst sam dobila kako iz svog iskustva i iskustva svojih prijatelja, tako i poučena iskustvom i očekivanjima svojih klijenata. Smatram da je nekim klijentima važno da znaju šta mogu da očekuju i da možda razbiju određene strahove i predrasude o prvoj seansi pa i o daljem toku terapije. Potpuno je prirodno da osećamo neizvesnost, uznemirenost pa i nervozu od tog prvog susreta. Krećemo u nešto nepoznato, a to ume da bude zastrašujuće.
 
-Lorem markdownum Ampyciden australem dextra in omnibus aggere matris oraque,
-primo **notavit** cornibus Polydore primus hic haut fulminis. Lecto praetereo
-viventia, Caenis?
+Često sam imala prilike da čujem i upotrebim onu rečenicu „terapija je najvažnije, životno ulaganje u sebe“. Odlučiti se za terapiju je jedan veliki korak u svačijem životu. Korak koji je odvažan i hrabar, pokazuje ljubav i brigu prema sebi i inicijativu za promenom. Ali, šta se dešava posle tog prvog koraka? Kako proces ide dalje kada se odvažimo da nazovemo i zakažemo prvu seansu?
 
-![](uploads/chad-avatar.png)
+Sećam se svog prvog odlaska na psihoterapijsku seansu. Bila sam prilično nervozna. Unapred sam spremala šta ću da kažem i na koji način ću da izložim svoj problem. Došavši tamo, osećala sam se glupavo. Kao da su unapred naučene rečenice iščezle iz moje glave i sad ne znam kako da objasnim što sam ja tu i kako se osećam. Zapravo, u tom trenutku se i nisam tako loše osećala. Da li bi ja uopšte trebalo da budem ovde?
 
-```
-if (post_media_pop(1)) {
-    floatingDfsTwain.eTypeDimm(21, keystroke_leaderboard);
-    vistaDeviceRetina.unc_control_paste(terahertzMultithreading,
-            ethics_netbios);
-}
-cpa_unfriend.clean_pcmcia *= 5 + thermistor_ssd(monitorAccess / row,
-        megabitBitmap(stickSpriteCrossplatform, 41, ram_marketing_activex),
-        5);
-if (1) {
-    cycle_install(parity_scroll_runtime);
-} else {
-    wampLanguageComputer(kilobit.simplexDualXhtml(refreshBar), 53 +
-            copyright_upload_powerpoint);
-    clob_enterprise_virus += yobibyte(1);
-    lifoQuad(latency, cybersquatterClobImpact, gis);
-}
-```
+Ovakvi strahovi, premišljanja i dvoumljena, iako su nekada neosnovani, jesu realni i razumljivi. Terapeut to zna, i zato je on tu da vas vodi. Ja to uvek zamišljam kao put kroz mračnu šumu, gde klijent i terapeut idu jedno pored drugog – klijent ima mapu a terapeut svetlo pomoću kog klijent može da vidi kuda ide.
 
-## Iam comas postquam occupat nitidum mei caperet
+**Kako izgleda prva seansa?**
 
-_Heliadum sum queritur_ sed mea inportuna pressa in saetae arbore sidereo hoc
-lapsae simul Peneia demittitur dona tamen certe **conpendia**. Utque et omne
-optat lata, fuit, inmemores illum. Ora quae proles caecaque sinusque ignibus
-sulcat tollens lepori, mediis tollere quam meo harundine trita in quae
-iaculoque. Maior repetita ora proles madidos cantat. Ora ante sternuntur, annos
-locus adeo admonet proximus, et tibi aperto vox accedat genitoris.
+Na prvoj seansi se odigrava upoznavanje. Važno je da klijent i terapeut razviju čvrstu vezu punu poverenja, a to sve započinje prvom seansom. Klijent uglavnom priča zašto je došao, šta ga muči i šta bi hteo da postigne dolaskom kod terapeuta. Ako ni sam nije siguran šta mu je potrebno, šta želi, i to je u redu. Ne mora doći spreman sa nekim određenim planom ili odgovorom na svako pitanje. U redu je da ne znamo šta nam treba. Terapeut je tu da zajedno sa klijentom pronikne do njegovih najdubljih potreba i želja. 
 
-[Urnisque](http://aurataque.org/) non, est pascua et feret. Pithecusas se
-cumque. Qui sternit nomine.
+Na prvoj seansi se takođe dogovaraju tehničke stvari, na primer koliko često bi se susreti odvijali (nekada jednom nedeljno, nekada ređe od toga), koliko dugo traju, kako se vrši plaćanje, šta se dešava u slučaju propuštene seanse, itd.
 
-## Quoque mare
+**Da li terapeut daje savete?**
 
-Qualis convicti [saxa](http://in-linguae.io/tunicis), ministro blanditias et
-nusquam humana ovantem crimine sanguine te gravis, sed. Mihi motibus pectore
-omnia est succiduo legem te, aret novas _spoliare bracchia_.
+Nekada na prvoj seansi terapeut takođe uputi klijenta u neki opšti izgled i tok terapije. Jedan od primera za to može biti podela odgovornosti između klijenta i terapeuta i upućivanje klijenata šta je u tom odnosu terapeutov zadatak. Česta zabluda koju sam imala prilike da čujem je očekivanje klijenta da će terapeut da da savet koji će pomoći da se problem reši brzo i efikasno. Nažalost, brzo rešenje ne postoji. Svaka promena iziskuje vreme i trud i nema čarobnog štapića. Teško je promeniti obrasce ponašanja ili razmišljanja koji traju godinama za samo nekoliko nedelja ili čak meseci.
 
-> Quae loquor, est armis, per victa, trahit? Erat distulit humanam residant **et
-> inpune prima** angues, cruentis. Descendit formae ferat, abactas Minyis
-> distat, **pressa**, veniam generis avidoque erat.
+Davanje saveta je nezahvalno, i nešto što terapeuti retko rade. Mi, terapeuti, smo svesni da su sami klijenti najveći eksperti za svoj život. Oni su ti koji žive u svom telu, koji najbolje znaju šta im prija a šta ne. Davanje saveta podrazumeva polaženje iz svoje perspektive što ne znači da će i klijentu isto rešenje prijati.
 
-**Diu per Iovis** nimiumque invicti [meritumque](http://avium.com/te) in crura
-redeat columbae, illa. Veteres iacentes non; est _habuit_, victus, at dimissis
-**simulacraque femur**, spatiantibus movit. Data denique acceptos liquida mater
-arcus et patrem, non equi recessu. Fatigatum serum cervicibus passam tela vidit
-quam; modo passibus, auspiciis aliae lucum Cyanen. Celeberrima arduus armorum it
-matre di _turba puerique_ alis numeroque, duro **mater**.
+**Da li će neko saznati ono što podelim sa terapeutom?**
+
+Prva seansa je odlično vreme da se pokrene pitanje poverljivosti. U našem poslu je to veoma važno. Klijent treba da se oseća sigurno sa nama a to ne može ako pretpostavlja da ćemo njegove tajne nekom ispričati. Stoga, ako je klijentu ovo prvi put kod terapeuta, on će objasniti da sve ostaje između njih, u toj prostoriji, osim u nekim ekstremnim slučajevima kada klijenti predstavljaju pretnju po sebe ili druge.
+
+Ako je u pitanju terapeut pod supervizijom, objasniće da će fragmente vaših razgovora izložiti svom supervizoru, naravno bez odavanja ličnih podataka i ugrožavanja privatnosti. Supervizor je takođe u obavezi da sve što je čuo zadrži za sebe.
+
+**Da li moramo sve odmah ispričati po dolasku na prvu seansu?**
+
+Klijent proverava na prvoj seansi koliko mu se terapeut dopada, da li ga pažljivo sluša, da li deluje zainteresovano, itd. Zapravo, proverava koliko mu on odgovara i da li sebe može zamisliti da i dalje dolazi tu i otvara se postepeno sve više. Naravno, ne očekuje se da klijent odmah ima toliko poverenja u terapeuta da mu ispriča sve i bez zadrške. Sticanje poverenja je nekada dug proces. Klijent deli onoliko koliko je spreman u tom momentu a terapeut poštuje njegove granice i ne prelazi ih.
+
+**Da li ću se odmah osećati bolje?**
+
+Kao što smo već rekli, terapija je proces koji traje. Nekada se dobro osećamo samo kada sa nekim ko nas pažljivo sluša podelimo svoja osećanja i sa seanse odemo sa olakšanjem, puni nade. Nekada će se desiti da se posle seanse osećamo zbunjeno, tužno i beznadežno. Bitno je znati da je to sve deo terapijskog procesa. Često se dešava da krenemo dva koraka unapred pa napravimo jedan unazad. To može delovati kao nešto strašno, kao kraj napretka, kao da nismo dobili ono po šta smo došli, a to je da se osećamo bolje. Međutim, sve je to deo uspona i padova koje doživljavamo i na svakodnevnom nivou. Ono što otkrijemo o sebi može biti previše bolno i tada nećemo osetiti olakšanje posle seanse. Ponekad nam ponestane motivacije i volje da radimo na sebi. Nekada nam misli odlaze u drugom pravcu. 
+
+To nije ništa neobično, ljudi smo od krvi i mesa, sa svojim manama i vrlinama i nemoguće je da uvek budemo savršeni u nečemu. Ako se ne osećamo dobro povodom svog napretka, ili izostanka istog na terapiji, bitno je da to iskomuniciramo sa svojim terapeutom i proverimo kakva očekivanja imamo od sebe, kao i da li su ona realna.

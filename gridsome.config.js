@@ -83,7 +83,7 @@ module.exports = {
 	],
 	templates: {
 		Post: '/blog/:category/:path',
-		Blog: '/blog/',
+		Blog: '/blog',
 
 		Category: [
 			{

@@ -6,10 +6,12 @@
 			</div>
 			<div class="relative max-w-7xl mx-auto">
 				<div class="text-center">
-					<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl uppercase">Svi Tekstovi</h1>
+					<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl uppercase">Ubuntu Blog
+</h1>
 					<div>
 						<div>
-							<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">asdad...</p>
+							<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Naši terapeuti pišu za vas
+</p>
 						</div>
 					</div>
 				</div>
@@ -33,27 +35,27 @@
 										</p>
 									</a>
 								</div>
-								<div class="mt-6 flex items-center">
-									<div class="flex-shrink-0">
-										<a>
-											<img class="h-10 w-10 rounded-full" :src="`../../${post.node.author.image}`" alt="" />
-										</a>
-									</div>
-									<div class="ml-3">
-										<p class="text-sm font-medium text-gray-900">
-											<a href="#" class="hover:underline">
-												{{ post.node.author.name }}
-											</a>
-										</p>
-										<div class="flex space-x-1 text-sm text-gray-500">
-											<time :datetime="post.node.datetime">
-												{{ post.node.humanTime }}
-											</time>
-											<span aria-hidden="true"> &middot; </span>
-											<span> {{ post.node.timeToRead }} min read </span>
-										</div>
+									<div class="mt-6 flex items-center">
+								<!-- <div class="flex-shrink-0">
+                  <a :href="post.author.href">
+                    <span class="sr-only">{{ post.author.name }}</span>
+                    <img
+                      class="h-10 w-10 rounded-full"
+                      :src="post.author.imageUrl"
+                      alt=""
+                    />
+                  </a>
+                </div> -->
+								<div class="">
+									<div class="flex space-x-1 text-sm text-gray-500">
+										<time :datetime="post.node.datetime">
+											{{ post.node.humanTime }}
+										</time>
+										<span aria-hidden="true"> &middot; </span>
+										<span> {{ post.node.timeToRead }} min čitanja </span>
 									</div>
 								</div>
+							</div>
 							</div>
 						</a>
 					</div>

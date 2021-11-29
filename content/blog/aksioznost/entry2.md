@@ -10,8 +10,8 @@ imageTwo:
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
-featured: true
-pocetna: true
+featured: false
+pocetna: false
 path: sta-je-aksioznost
 name: Aloo
 ---
