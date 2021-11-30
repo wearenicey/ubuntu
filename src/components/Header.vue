@@ -215,7 +215,7 @@
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
 									<div v-for="category in $static.category.edges" :key="category.node.id">
-										<g-link :to="category.node.id" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+										<g-link :to="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										
 											<div class="">
 												<p class="text-base font-medium text-gray-900">{{ category.node.title }}</p>
@@ -226,7 +226,7 @@
 								</div>
 								<div class="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
 									<div>
-										<h3 class="text-sm tracking-wide font-medium text-gray-500 uppercase">Poslednje objave</h3>
+										<p class="text-sm tracking-wide font-medium text-gray-500 uppercase">Poslednje objave</p>
 										<ul role="list" class="mt-4 space-y-4">
 											<li v-for="post in $static.blogs.edges" :key="post.node.id" class="text-base truncate">
 												<g-link :to="post.node.path" class="font-medium text-gray-900 hover:text-gray-700">
@@ -364,6 +364,7 @@ query {
 category:   allCategory ( filter:{nav: {eq: true}} limit: 6) {
     edges {
       node {
+				path
         id
         title
 				desc

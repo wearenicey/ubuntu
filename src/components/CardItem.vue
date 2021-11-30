@@ -8,7 +8,7 @@
 			<div class="my-12 grid gap-2 pt-12 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12 items-center">
 				<div>
 					<div>
-						<a :href="post.node.category" class="inline-block">
+						<a :href="post.node.category.path" class="inline-block">
 							<span class="inline-flex items-center rounded-full text-sm font-medium text-purple-800"> {{ post.node.category.title }} </span>
 						</a>
 					</div>
@@ -56,6 +56,7 @@
 			category {
 					title
 					id
+					path
 			}
 
        title
