@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /anksioznost-i-anksiozni-poremecaji/
 Disallow: /edukacije/
 Disallow: /stres/
 Disallow: /psihoterapija/
@@ -7,7 +6,6 @@ Disallow: /blog/aksioznost-tu/
 Sitemap: https://ubuntucentar.com/sitemap.xml
 
 User-agent: adsbot-google
-Disallow: /anksioznost-i-anksiozni-poremecaji/
 Disallow: /edukacije/
 Disallow: /stres/
 Disallow: /psihoterapija/
@@ -15,7 +13,6 @@ Disallow: /blog/aksioznost-tu/
 Sitemap: https://ubuntucentar.com/sitemap.xml
 
 User-agent: Nutch
-Disallow: /anksioznost-i-anksiozni-poremecaji/
 Disallow: /edukacije/
 Disallow: /stres/
 Disallow: /psihoterapija/
@@ -24,7 +21,6 @@ Sitemap: https://ubuntucentar.com/sitemap.xml
 
 User-agent: AhrefsBot
 Crawl-delay: 10
-Disallow: /anksioznost-i-anksiozni-poremecaji/
 Disallow: /edukacije/
 Disallow: /stres/
 Disallow: /psihoterapija/
@@ -33,7 +29,6 @@ Sitemap: https://ubuntucentar.com/sitemap.xml
 
 User-agent: AhrefsSiteAudit
 Crawl-delay: 10
-Disallow: /anksioznost-i-anksiozni-poremecaji/
 Disallow: /edukacije/
 Disallow: /stres/
 Disallow: /psihoterapija/
