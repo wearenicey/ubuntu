@@ -87,7 +87,7 @@ module.exports = {
 
 		Category: [
 			{
-				path: '/blog/:title',
+				path: '/blog/:id',
 				componenent: '~/templates/Category.vue',
 			},
 		],
