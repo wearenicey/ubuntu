@@ -6,7 +6,7 @@ excerpt: Već dugo grizem sebi rep, taman pomislim da sam usvojila nešto i prom
 created: 2021-11-27
 image: koliko-me-je-bolela-psihoterapija.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /koliko-me-je-bolela-psihoterapija.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

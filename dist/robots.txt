@@ -1,37 +1,27 @@
 User-agent: *
 Disallow: /edukacije/
-Disallow: /stres/
-Disallow: /psihoterapija/
 Disallow: /blog/aksioznost-tu/
 Sitemap: https://ubuntucentar.com/sitemap.xml
 
 User-agent: adsbot-google
 Disallow: /edukacije/
-Disallow: /stres/
-Disallow: /psihoterapija/
 Disallow: /blog/aksioznost-tu/
 Sitemap: https://ubuntucentar.com/sitemap.xml
 
 User-agent: Nutch
 Disallow: /edukacije/
-Disallow: /stres/
-Disallow: /psihoterapija/
 Disallow: /blog/aksioznost-tu/
 Sitemap: https://ubuntucentar.com/sitemap.xml
 
 User-agent: AhrefsBot
 Crawl-delay: 10
 Disallow: /edukacije/
-Disallow: /stres/
-Disallow: /psihoterapija/
 Disallow: /blog/aksioznost-tu/
 Sitemap: https://ubuntucentar.com/sitemap.xml
 
 User-agent: AhrefsSiteAudit
 Crawl-delay: 10
 Disallow: /edukacije/
-Disallow: /stres/
-Disallow: /psihoterapija/
 Disallow: /blog/aksioznost-tu/
 Sitemap: https://ubuntucentar.com/sitemap.xml
 

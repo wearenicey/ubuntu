@@ -1033,6 +1033,37 @@ export default {
 				name: "description",
 				content: "Savetovalište Ubuntu nudi usluge profesionalne psihoterapije za pojedince, parove i porodice.",
 			},
+			{
+        key: 'og:title',
+        name: 'og:title',
+        content: 'Online savetovanje | Profesionalna psihoterapija',
+      },
+
+				 {
+        key: 'og:description',
+        name: 'og:description',
+        content: 'Savetovalište Ubuntu nudi usluge profesionalne psihoterapije za pojedince, parove i porodice.',
+				 },
+			{ 
+				key:"og:image", 
+				property: "og:image", 
+				content: 'https://ubuntucentar.com/assets/static/online-2.8041d15.38382d69de19e13f4305b66c0b7e79e9.png',
+				},
+			{
+        key: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Online savetovanje | Profesionalna psihoterapija',
+      },	
+			{
+        key: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Savetovalište Ubuntu nudi usluge profesionalne psihoterapije za pojedince, parove i porodice.',
+      },
+			{ 
+				key:"twitter:image", 
+				property: "twitter:image", 
+				content: 'https://ubuntucentar.com/assets/static/online-2.8041d15.38382d69de19e13f4305b66c0b7e79e9.png',
+				},
 		],
 	},
 

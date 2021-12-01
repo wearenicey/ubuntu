@@ -6,7 +6,7 @@ excerpt: Ukoliko se odlučimo da krenemo na psihoterapiju jedan od bitnih činil
 created: 2021-11-27
 image: znacaj-motivacije.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /znacaj-motivacije.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

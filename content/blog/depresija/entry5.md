@@ -6,7 +6,7 @@ excerpt: Dešava se da dobijem pitanje vezano za prisustvo depresije među mladi
 created: 2021-11-25
 image: depresija.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /depresija.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

@@ -6,7 +6,7 @@ excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske
 created: 2021-11-27
 image: sta-mozete-ocekivati.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /sta-mozete-ocekivati.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

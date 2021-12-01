@@ -1057,6 +1057,38 @@ export default {
 				name: "description",
 				content: "Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine. ",
 			},
+
+			{
+        key: 'og:title',
+        name: 'og:title',
+        content: 'Karijera psihoterapeuta | Savetovalište Ubuntu Centar',
+      },
+
+				 {
+        key: 'og:description',
+        name: 'og:description',
+        content: 'Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine.',
+      },
+			{ 
+				key:"og:image", 
+				property: "og:image", 
+				content: 'https://ubuntucentar.com/assets/static/karijera-1.42db587.b514f32d297cc5afd76ee3459fb50fbe.jpg',
+				},
+			{
+        key: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Karijera psihoterapeuta | Savetovalište Ubuntu Centar',
+      },	
+			{
+        key: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine.',
+      },
+			{ 
+				key:"twitter:image", 
+				property: "twitter:image", 
+				content: 'https://ubuntucentar.com/assets/static/karijera-1.42db587.b514f32d297cc5afd76ee3459fb50fbe.jpg',
+				},
 		],
 	},
 	data() {

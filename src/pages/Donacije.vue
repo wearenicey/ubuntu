@@ -168,8 +168,39 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.  ",
+				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.",
 			},
+				{
+        key: 'og:title',
+        name: 'og:title',
+				content: "Donacije | Savetovalište Ubuntu Centar",
+      },
+
+				 {
+        key: 'og:description',
+        name: 'og:description',
+				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.",
+      },
+			{ 
+				key:"og:image", 
+				property: "og:image", 
+				content: 'https://www.ubuntucentar.com/wp-content/uploads/brizy/393/assets/images/iW=527&iH=299&oX=3&oY=0&cW=522&cH=299/angie-j-XrhrDsZML9Q-unsplash-scaled.jpg',
+				},
+			{
+        key: 'twitter:title',
+        name: 'twitter:title',
+				content: "Donacije | Savetovalište Ubuntu Centar",
+      },	
+			{
+        key: 'twitter:description',
+        name: 'twitter:description',
+				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.",
+      },
+			{ 
+				key:"twitter:image", 
+				property: "twitter:image", 
+				content: 'https://www.ubuntucentar.com/wp-content/uploads/brizy/393/assets/images/iW=527&iH=299&oX=3&oY=0&cW=522&cH=299/angie-j-XrhrDsZML9Q-unsplash-scaled.jpg',
+				},
 		],
 	},
 

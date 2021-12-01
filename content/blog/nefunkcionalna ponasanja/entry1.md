@@ -6,7 +6,7 @@ excerpt: Svima nam je poznat sledeći scenario:iz ćoška sobe vreba započet ne
 created: 2021-11-27
 image: prokrastinacija.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /prokrastinacija.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

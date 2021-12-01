@@ -6,7 +6,7 @@ excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske
 created: 2021-11-25
 image: raskid.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /raskid.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

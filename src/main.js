@@ -27,6 +27,16 @@ export default function (Vue, { router, head, isClient }) {
       }
     }
   }
+  router.beforeEach((to, _from, next) => {
+    head.meta.push({
+      key: 'og:url',
+      name: 'og:url',
+      content: process.env.GRIDSOME_BASE_PATH + to.path,
+    })
+    next()
+    console.log(to.path)
+
+  })
 	head.htmlAttrs = { lang: 'sr' }
 
 	Vue.use(Vuelidate)

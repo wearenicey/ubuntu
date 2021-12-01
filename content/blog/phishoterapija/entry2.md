@@ -6,7 +6,7 @@ excerpt: Psihijatri, psiholozi i psihoterapeuti često rade zajedno, kao tim, ž
 created: 2021-11-27
 image: razlika.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /razlika.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

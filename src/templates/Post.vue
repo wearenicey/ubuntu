@@ -42,7 +42,10 @@
       image
       image_caption
       excerpt
-    
+			imageTwo {
+          path
+          alt
+        }
       content
       humanTime: created(format: "DD.MM.YYYY")
       datetime: created
@@ -64,7 +67,44 @@ export default {
 			title: this.$page.post.title,
 			titleTemplate: this.$page.post.title,
 
-			meta: [{ name: "description", content: this.$page.post.excerpt }],
+			meta: [
+			{ name: "description", 
+			content: this.$page.post.excerpt ,
+
+				},
+
+				{ 
+				key:"og:image", 
+				property: "og:image", 
+				content: process.env.GRIDSOME_BASE_PATH + this.$page.post.imageTwo.path,
+				},
+			{
+        key: 'og:title',
+        name: 'og:title',
+        content: this.$page.post.title,
+      },
+
+				 {
+        key: 'og:description',
+        name: 'og:description',
+        content: this.$page.post.excerpt,
+				 },
+				{
+        key: 'twitter:title',
+        name: 'twitter:title',
+        content: this.$page.post.title,
+      },	
+			{
+        key: 'twitter:description',
+        name: 'twitter:description',
+        content: this.$page.post.excerpt,
+      },
+			{ 
+				key:"twitter:image", 
+				property: "twitter:image", 
+				content: process.env.GRIDSOME_BASE_PATH + this.$page.post.imageTwo.path,
+				},
+		],
 
 			// etc...
 		};

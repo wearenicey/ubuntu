@@ -6,7 +6,7 @@ excerpt: Svi smo mi pomalo perfekcionisti. Stalo nam je do toga da posao uradimo
 created: 2021-11-27
 image: samopovredjivanje.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /samopovredjivanje.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

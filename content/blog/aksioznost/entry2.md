@@ -6,7 +6,7 @@ excerpt: Anksioznost bismo najbolje mogli opisati kao osećaj napetosti i strepn
 created: 2021-11-25
 image: anksioznost.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /anksioznost.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

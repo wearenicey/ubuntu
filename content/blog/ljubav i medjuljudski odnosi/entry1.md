@@ -6,7 +6,7 @@ excerpt: Od samog rođenja, kvalitet emocionalne povezanosti mame i bebe (ili pr
 created: 2021-11-25
 image: relacione-potrebe.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /relacione-potrebe.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

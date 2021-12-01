@@ -6,7 +6,7 @@ excerpt: Sistemska porodična terapija se u najvećoj meri bavi porodicom i meta
 created: 2021-11-27
 image: metafora-i-porodicna-terapija.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /metafora-i-porodicna-terapija.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

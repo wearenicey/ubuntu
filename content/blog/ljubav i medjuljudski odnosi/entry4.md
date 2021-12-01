@@ -6,7 +6,7 @@ excerpt: Knjiga „Ljubavologija‟ sociologa Bruna Šimleša na drugačiji, sav
 created: 2021-11-25
 image: o-ljubavi.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /o-ljubavi.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

@@ -6,7 +6,7 @@ excerpt: Bilo da su prijatne ili neprijatne, bilo da traju vrlo kratko ili duže
 created: 2021-10-24
 image: ljutnja.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /ljutnja.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1

@@ -6,7 +6,7 @@ excerpt: Da li je biti usamljen isto što i biti sam? Često možemo čuti kako 
 created: 2021-10-23
 image: usamljenost.jpg
 imageTwo:
-  path: ./images/slika-3.jpg
+  path: /usamljenost.jpg
   alt: "A colorful building against a blue sky background"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
