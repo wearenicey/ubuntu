@@ -411,6 +411,39 @@ export default {
 				name: "description",
 				content: "Savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
 			},
+
+			 {
+        key: 'og:title',
+        name: 'og:title',
+        content: 'Savetovalište Ubuntu | Psihoterapija dostupna svima',
+      },
+
+				 {
+        key: 'og:description',
+        name: 'og:description',
+        content: 'Savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.',
+      },
+			{ 
+				key:"og:image", 
+				property: "og:image", 
+				content: 'https://ubuntucentar.com/assets/static/pocenta-1.9e5588a.23e905e0f6067f80bfb7474777de8892.jpg',
+				},
+			{
+        key: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Savetovalište Ubuntu | Psihoterapija dostupna svima',
+      },	
+			{
+        key: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.',
+      },
+			{ 
+				key:"twitter:image", 
+				property: "twitter:image", 
+				content: 'https://ubuntucentar.com/assets/static/pocenta-1.9e5588a.23e905e0f6067f80bfb7474777de8892.jpg',
+				},
+			
 		],
 	},
 
