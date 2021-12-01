@@ -30,9 +30,9 @@
 									</a>
 								</p> -->
 								<p class="text-sm font-medium text-indigo-600">
-									<a :href="post.node.path" class="hover:underline"> </a>
+									<a v-reload :href="post.node.path" class="hover:underline"> </a>
 								</p>
-								<a :href="post.node.path" class="block mt-2">
+								<a v-reload :href="post.node.path" class="block mt-2">
 									<p class="text-xl font-semibold text-gray-900">
 										{{ post.node.title }}
 									</p>

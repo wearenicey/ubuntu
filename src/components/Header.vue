@@ -2,7 +2,7 @@
 	<div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
 		<div class="flex max-w-7xl justify-between mx-auto items-center px-4 py-6 sm:px-6 md:space-x-10" id="position">
 			<div>
-				<a href="/" class="flex">
+				<a v-reload href="/" class="flex">
 					<span class="sr-only">Ubuntu Savetovaliste</span>
 					<img class="block h-12 w-auto sm:h-14" src="/logo.svg" alt="Ubuntu Savetovaliste" />
 				</a>
@@ -64,12 +64,12 @@
 						>
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-									<a href="/savetovaliste-novi-sad/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a v-reload href="/savetovaliste-novi-sad/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 								
 										Novi Sad
 									</a>
 
-									<a href="/savetovaliste-beograd/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a v-reload href="/savetovaliste-beograd/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/cursor-click -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -80,7 +80,7 @@
 										</div>
 									</a>
 
-									<a href="/online-savetovaliste/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a v-reload href="/online-savetovaliste/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/shield-check -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
@@ -141,7 +141,7 @@
 						>
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-									<a href="/zasto-ubuntu/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a v-reload href="/zasto-ubuntu/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/chart-bar -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
@@ -157,7 +157,7 @@
 										</div>
 									</a>
 
-									<a href="/karijera/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<a v-reload href="/karijera/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/cursor-click -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -204,7 +204,7 @@
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
 									<div v-for="category in $static.category.edges" :key="category.node.id">
-										<a :href="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+										<a v-reload :href="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										
 											<div class="">
 												<p class="text-base font-medium text-gray-900">{{ category.node.title }}</p>
@@ -218,7 +218,7 @@
 										<p class="text-sm tracking-wide font-medium text-gray-500 uppercase">Poslednje objave</p>
 										<ul role="list" class="mt-4 space-y-4">
 											<li v-for="post in $static.blogs.edges" :key="post.node.id" class="text-base truncate">
-												<a :href="post.node.path" class="font-medium text-gray-900 hover:text-gray-700">
+												<a v-reload :href="post.node.path" class="font-medium text-gray-900 hover:text-gray-700">
 													{{ post.node.title }}
 												</a>
 											</li>
@@ -231,8 +231,8 @@
 							</div>
 						</div>
 					</div> 
-					<a href="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</a>
-					<a href="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</a>
+					<a v-reload href="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</a>
+					<a v-reload href="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</a>
 				</nav>
 			</div>
 		</div>
@@ -280,21 +280,21 @@
 					</div>
 					<div class="mt-6">
 						<nav class="grid gap-y-8">
-							<a href="/savetovaliste-beograd/" class="-m-3 p-3 text-base font-medium text-gray-900 flex items-center rounded-md hover:bg-gray-50">
+							<a v-reload href="/savetovaliste-beograd/" class="-m-3 p-3 text-base font-medium text-gray-900 flex items-center rounded-md hover:bg-gray-50">
 							
 								Savetovalište Beograd
 							</a>
 
-							<a href="/savetovaliste-novi-sad/" class="-m-3 text-base font-medium text-gray-900 p-3 flex items-center rounded-md hover:bg-gray-50">
+							<a v-reload href="/savetovaliste-novi-sad/" class="-m-3 text-base font-medium text-gray-900 p-3 flex items-center rounded-md hover:bg-gray-50">
 							
 								 Savetovalište Novi Sad
 							</a>
 
-							<a href="/online-savetovaliste/" class="-m-3 p-3 text-base font-medium text-gray-900 flex items-center rounded-md hover:bg-gray-50">
+							<a v-reload href="/online-savetovaliste/" class="-m-3 p-3 text-base font-medium text-gray-900 flex items-center rounded-md hover:bg-gray-50">
 								 Online savetovalište 
 							</a>
 
-							<a href="/blog" class="-m-3 p-3 text-base font-medium text-gray-900 flex items-center rounded-md hover:bg-gray-50">
+							<a v-reload href="/blog" class="-m-3 p-3 text-base font-medium text-gray-900 flex items-center rounded-md hover:bg-gray-50">
 						
 								Blog 
 							</a> 
