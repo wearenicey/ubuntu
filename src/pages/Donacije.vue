@@ -184,7 +184,7 @@ export default {
 			{ 
 				key:"og:image", 
 				property: "og:image", 
-				content: 'https://www.ubuntucentar.com/wp-content/uploads/brizy/393/assets/images/iW=527&iH=299&oX=3&oY=0&cW=522&cH=299/angie-j-XrhrDsZML9Q-unsplash-scaled.jpg',
+				content: 'https://ubuntucentar.com/assets/static/donacija-slika.3b6e8e5.e44d69cc10ef6d3a1ce2fd1cf0a02009.png',
 				},
 			{
         key: 'twitter:title',
@@ -199,7 +199,7 @@ export default {
 			{ 
 				key:"twitter:image", 
 				property: "twitter:image", 
-				content: 'https://www.ubuntucentar.com/wp-content/uploads/brizy/393/assets/images/iW=527&iH=299&oX=3&oY=0&cW=522&cH=299/angie-j-XrhrDsZML9Q-unsplash-scaled.jpg',
+				content: 'https://ubuntucentar.com/assets/static/donacija-slika.3b6e8e5.e44d69cc10ef6d3a1ce2fd1cf0a02009.png',
 				},
 		],
 	},
