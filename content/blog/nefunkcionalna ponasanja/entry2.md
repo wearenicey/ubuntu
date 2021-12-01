@@ -4,7 +4,7 @@ category: nefunkionalna-ponasanja
 # ovo je i meta desc
 excerpt: Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa našim stvarnim ili zamišljenim nedostacima.
 created: 2021-11-27
-image: prokrastinacija.jpg
+image: sabotaza.jpg
 imageTwo:
   path: ./images/slika-3.jpg
   alt: "A colorful building against a blue sky background"
