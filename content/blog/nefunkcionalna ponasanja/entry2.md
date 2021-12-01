@@ -1,6 +1,6 @@
 ---
 title: Zašto ljudi razvijaju samosabotažne obrasce ponašanja?
-category: nefunkionalna-ponasanja
+category: nefunkcionalna-ponasanja
 # ovo je i meta desc
 excerpt: Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa našim stvarnim ili zamišljenim nedostacima.
 created: 2021-11-27

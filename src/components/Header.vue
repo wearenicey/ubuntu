@@ -215,13 +215,13 @@
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
 									<div v-for="category in $static.category.edges" :key="category.node.id">
-										<g-link :to="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+										<a :href="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										
 											<div class="">
 												<p class="text-base font-medium text-gray-900">{{ category.node.title }}</p>
 												<p class="mt-1 text-sm text-gray-500">{{ category.node.desc }}</p>
 											</div>
-										</g-link>
+										</a>
 									</div>
 								</div>
 								<div class="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
@@ -229,9 +229,9 @@
 										<p class="text-sm tracking-wide font-medium text-gray-500 uppercase">Poslednje objave</p>
 										<ul role="list" class="mt-4 space-y-4">
 											<li v-for="post in $static.blogs.edges" :key="post.node.id" class="text-base truncate">
-												<g-link :to="post.node.path" class="font-medium text-gray-900 hover:text-gray-700">
+												<a :href="post.node.path" class="font-medium text-gray-900 hover:text-gray-700">
 													{{ post.node.title }}
-												</g-link>
+												</a>
 											</li>
 										</ul>
 									</div>
@@ -242,8 +242,8 @@
 							</div>
 						</div>
 					</div> 
-					<g-link to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</g-link>
-					<g-link to="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</g-link>
+					<a href="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</a>
+					<a href="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</a>
 				</nav>
 			</div>
 		</div>
