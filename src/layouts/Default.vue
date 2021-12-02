@@ -1,10 +1,12 @@
 <template>
 	<transition name="fade" appear>
+		<div>
 
-			<Header></Header>
-			<slot />
+			<Header />
+			<slot></slot>
+			<Footer />
 
-			<Footer></Footer>
+		</div>
 	</transition>
 </template>
 
