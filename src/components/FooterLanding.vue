@@ -78,15 +78,15 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Blog</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<a href="/stres/" class="text-base text-gray-500 hover:text-gray-900">Stres</a>
+									<a href="../blog/stres/" class="text-base text-gray-500 hover:text-gray-900">Stres</a>
 								</li>
 
 								<li>
-									<a href="/anksioznost-i-anksiozni-poremecaji/" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </a>
+									<a href="../blog/anksioznost-i-anksiozni-poremecaji/" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </a>
 								</li>
 
 								<li>
-									<a href="/psihoterapija/" class="text-base text-gray-500 hover:text-gray-900"> Psihoterapija</a>
+									<a href="../blog/psihoterapija/" class="text-base text-gray-500 hover:text-gray-900"> Psihoterapija</a>
 								</li>
 							</ul>
 						</div>
