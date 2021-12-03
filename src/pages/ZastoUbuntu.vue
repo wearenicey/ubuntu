@@ -183,36 +183,36 @@ export default {
 				content: "Želimo da psihoterapiju i ostale vidove savetovanja učinimo dostupnim svim ljudima kojima su neophodni.",
 			},
 			{
-        key: 'og:title',
-        name: 'og:title',
+				key: "og:title",
+				name: "og:title",
 				content: "O nama | Savetovalište Ubuntu Centar",
-      },
+			},
 
-				 {
-        key: 'og:description',
-        name: 'og:description',
-				content: "Želimo da psihoterapiju i ostale vidove savetovanja učinimo dostupnim svim ljudima kojima su neophodni.",
-				 },
-			{ 
-				key:"og:image", 
-				property: "og:image", 
-				content: 'https://ubuntucentar.com/assets/static/zasto-ubuntu-1.0b1c2c4.473f147bffc155faa44db4e41a5d34bf.png',
-				},
 			{
-        key: 'twitter:title',
-        name: 'twitter:title',
+				key: "og:description",
+				name: "og:description",
+				content: "Želimo da psihoterapiju i ostale vidove savetovanja učinimo dostupnim svim ljudima kojima su neophodni.",
+			},
+			{
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/zasto-ubuntu-1.0b1c2c4.473f147bffc155faa44db4e41a5d34bf.png",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
 				content: "O nama | Savetovalište Ubuntu Centar",
-      },	
+			},
 			{
-        key: 'twitter:description',
-        name: 'twitter:description',
+				key: "twitter:description",
+				name: "twitter:description",
 				content: "Želimo da psihoterapiju i ostale vidove savetovanja učinimo dostupnim svim ljudima kojima su neophodni.",
-      },
-			{ 
-				key:"twitter:image", 
-				property: "twitter:image", 
-				content: 'https://ubuntucentar.com/assets/static/zasto-ubuntu-1.0b1c2c4.473f147bffc155faa44db4e41a5d34bf.png',
-				},
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/zasto-ubuntu-1.0b1c2c4.473f147bffc155faa44db4e41a5d34bf.png",
+			},
 		],
 	},
 };

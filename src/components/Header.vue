@@ -188,7 +188,7 @@
 							</div>
 						</div>
 					</div>
-					 <div class="relative" x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
+					<div class="relative" x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 						<button
 							x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
 							type="button"
@@ -196,7 +196,7 @@
 							aria-expanded="false"
 						>
 							<span>Blog</span>
-					
+
 							<svg class="text-gray-400 ml-1 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 								<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
 							</svg>
@@ -216,7 +216,6 @@
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
 									<div v-for="category in $static.category.edges" :key="category.node.id">
 										<g-link :to="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-										
 											<div class="">
 												<p class="text-base font-medium text-gray-900">{{ category.node.title }}</p>
 												<p class="mt-1 text-sm text-gray-500">{{ category.node.desc }}</p>
@@ -241,7 +240,7 @@
 								</div>
 							</div>
 						</div>
-					</div> 
+					</div>
 					<g-link v-reload to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</g-link>
 					<g-link v-reload to="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</g-link>
 				</nav>
@@ -317,9 +316,8 @@
 							</g-link>
 
 							<g-link v-reload to="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-						
 								<span class="text-base font-medium text-gray-900"> Blog </span>
-							</g-link> 
+							</g-link>
 						</nav>
 					</div>
 				</div>
@@ -334,7 +332,9 @@
 						<g-link v-reload to="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </g-link>
 					</div>
 					<div>
-						<g-link v-reload to="/kontakt/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700"> Kontaktirajte nas </g-link>
+						<g-link v-reload to="/kontakt/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700">
+							Kontaktirajte nas
+						</g-link>
 						<p class="mt-6 text-center text-base font-medium text-gray-500">
 							Želite da pomognete?
 							<g-link v-reload to="/donacije/" class="text-green-600 hover:text-green-500"> Donirajte </g-link>

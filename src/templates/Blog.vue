@@ -6,12 +6,10 @@
 			</div>
 			<div class="relative max-w-7xl mx-auto">
 				<div class="text-center">
-					<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl uppercase">Ubuntu Blog
-</h1>
+					<h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl uppercase">Ubuntu Blog</h1>
 					<div>
 						<div>
-							<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Naši terapeuti pišu za vas
-</p>
+							<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Naši terapeuti pišu za vas</p>
 						</div>
 					</div>
 				</div>
@@ -35,8 +33,8 @@
 										</p>
 									</a>
 								</div>
-									<div class="mt-6 flex items-center">
-								<!-- <div class="flex-shrink-0">
+								<div class="mt-6 flex items-center">
+									<!-- <div class="flex-shrink-0">
                   <a :href="post.author.href">
                     <span class="sr-only">{{ post.author.name }}</span>
                     <img
@@ -46,16 +44,16 @@
                     />
                   </a>
                 </div> -->
-								<div class="">
-									<div class="flex space-x-1 text-sm text-gray-500">
-										<time :datetime="post.node.datetime">
-											{{ post.node.humanTime }}
-										</time>
-										<span aria-hidden="true"> &middot; </span>
-										<span> {{ post.node.timeToRead }} min čitanja </span>
+									<div class="">
+										<div class="flex space-x-1 text-sm text-gray-500">
+											<time :datetime="post.node.datetime">
+												{{ post.node.humanTime }}
+											</time>
+											<span aria-hidden="true"> &middot; </span>
+											<span> {{ post.node.timeToRead }} min čitanja </span>
+										</div>
 									</div>
 								</div>
-							</div>
 							</div>
 						</a>
 					</div>
@@ -105,43 +103,40 @@ export default {
 			titleTemplate: "Blog | Ubuntu Centar",
 
 			meta: [
-			{ name: "description", 
-			content: "Blogovi o psihoterapiji" ,
+				{ name: "description", content: "Blogovi o psihoterapiji" },
 
-				},
-
-				// { 
-				// key:"og:image", 
-				// property: "og:image", 
+				// {
+				// key:"og:image",
+				// property: "og:image",
 				// content: process.env.GRIDSOME_BASE_PATH + this.$page.post.imageTwo.path,
 				// },
-			{
-        key: 'og:title',
-        name: 'og:title',
-        content: "Blog | Ubuntu Centar",
-      },
-
-				 {
-        key: 'og:description',
-        name: 'og:description',
-			content: "Blogovi o psihoterapiji" ,
-				 },
 				{
-        key: 'twitter:title',
-        name: 'twitter:title',
-        content: "Blog | Ubuntu Centar",
-      },	
-			{
-        key: 'twitter:description',
-        name: 'twitter:description',
-			content: "Blogovi o psihoterapiji" ,
-      },
-			// { 
-			// 	key:"twitter:image", 
-			// 	property: "twitter:image", 
-			// 	content: process.env.GRIDSOME_BASE_PATH + this.$page.post.imageTwo.path,
-			// 	},
-		],
+					key: "og:title",
+					name: "og:title",
+					content: "Blog | Ubuntu Centar",
+				},
+
+				{
+					key: "og:description",
+					name: "og:description",
+					content: "Blogovi o psihoterapiji",
+				},
+				{
+					key: "twitter:title",
+					name: "twitter:title",
+					content: "Blog | Ubuntu Centar",
+				},
+				{
+					key: "twitter:description",
+					name: "twitter:description",
+					content: "Blogovi o psihoterapiji",
+				},
+				// {
+				// 	key:"twitter:image",
+				// 	property: "twitter:image",
+				// 	content: process.env.GRIDSOME_BASE_PATH + this.$page.post.imageTwo.path,
+				// 	},
+			],
 
 			// etc...
 		};

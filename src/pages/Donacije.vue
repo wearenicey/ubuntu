@@ -170,37 +170,37 @@ export default {
 				name: "description",
 				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.",
 			},
-				{
-        key: 'og:title',
-        name: 'og:title',
+			{
+				key: "og:title",
+				name: "og:title",
 				content: "Donacije | Savetovalište Ubuntu Centar",
-      },
+			},
 
-				 {
-        key: 'og:description',
-        name: 'og:description',
-				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.",
-      },
-			{ 
-				key:"og:image", 
-				property: "og:image", 
-				content: 'https://ubuntucentar.com/assets/static/donacija-slika.3b6e8e5.e44d69cc10ef6d3a1ce2fd1cf0a02009.png',
-				},
 			{
-        key: 'twitter:title',
-        name: 'twitter:title',
+				key: "og:description",
+				name: "og:description",
+				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.",
+			},
+			{
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/donacija-slika.3b6e8e5.e44d69cc10ef6d3a1ce2fd1cf0a02009.png",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
 				content: "Donacije | Savetovalište Ubuntu Centar",
-      },	
+			},
 			{
-        key: 'twitter:description',
-        name: 'twitter:description',
+				key: "twitter:description",
+				name: "twitter:description",
 				content: "Donirajte rad savetovališta i omogućite pružanje psihološke pomoći svim članovima društva.",
-      },
-			{ 
-				key:"twitter:image", 
-				property: "twitter:image", 
-				content: 'https://ubuntucentar.com/assets/static/donacija-slika.3b6e8e5.e44d69cc10ef6d3a1ce2fd1cf0a02009.png',
-				},
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/donacija-slika.3b6e8e5.e44d69cc10ef6d3a1ce2fd1cf0a02009.png",
+			},
 		],
 	},
 

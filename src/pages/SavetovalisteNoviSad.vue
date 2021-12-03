@@ -1,7 +1,6 @@
 <template>
 	<transition name="fade" appear>
 		<div>
-			
 			<Header />
 
 			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../beograd-1.webp)">
@@ -985,37 +984,37 @@ export default {
 				name: "description",
 				content: "Naš tim psihoterapeuta u Novom Sadu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
 			},
-				{
-        key: 'og:title',
-        name: 'og:title',
+			{
+				key: "og:title",
+				name: "og:title",
 				content: "Psihoterapija Novi Sad | Savetovalište Ubuntu",
-      },
+			},
 
-				 {
-        key: 'og:description',
-        name: 'og:description',
-				content: "Naš tim psihoterapeuta u Novom Sadu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
-				 },
-			{ 
-				key:"og:image", 
-				property: "og:image", 
-				content: 'https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg',
-				},
 			{
-        key: 'twitter:title',
-        name: 'twitter:title',
+				key: "og:description",
+				name: "og:description",
+				content: "Naš tim psihoterapeuta u Novom Sadu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
+			},
+			{
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
 				content: "Psihoterapija Novi Sad | Savetovalište Ubuntu",
-      },	
+			},
 			{
-        key: 'twitter:description',
-        name: 'twitter:description',
+				key: "twitter:description",
+				name: "twitter:description",
 				content: "Naš tim psihoterapeuta u Novom Sadu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
-      },
-			{ 
-				key:"twitter:image", 
-				property: "twitter:image", 
-				content: 'https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg',
-				},
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
+			},
 		],
 	},
 

@@ -558,36 +558,36 @@ export default {
 				content: "Kontaktirajte nas i zakažite besplatnu konsultaciju, sastanak ili online savetovanje.",
 			},
 			{
-        key: 'og:title',
-        name: 'og:title',
+				key: "og:title",
+				name: "og:title",
 				content: "Kontakt | Savetovalište Ubuntu Centar",
-      },
+			},
 
-				 {
-        key: 'og:description',
-        name: 'og:description',
-				content: "Kontaktirajte nas i zakažite besplatnu konsultaciju, sastanak ili online savetovanje.",
-				 },
-			{ 
-				key:"og:image", 
-				property: "og:image", 
-				content: 'https://ubuntucentar.com/assets/static/pocenta-1.9e5588a.23e905e0f6067f80bfb7474777de8892.jpg',
-				},
 			{
-        key: 'twitter:title',
-        name: 'twitter:title',
+				key: "og:description",
+				name: "og:description",
+				content: "Kontaktirajte nas i zakažite besplatnu konsultaciju, sastanak ili online savetovanje.",
+			},
+			{
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/pocenta-1.9e5588a.23e905e0f6067f80bfb7474777de8892.jpg",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
 				content: "Kontakt | Savetovalište Ubuntu Centar",
-      },	
+			},
 			{
-        key: 'twitter:description',
-        name: 'twitter:description',
+				key: "twitter:description",
+				name: "twitter:description",
 				content: "Kontaktirajte nas i zakažite besplatnu konsultaciju, sastanak ili online savetovanje.",
-      },
-			{ 
-				key:"twitter:image", 
-				property: "twitter:image", 
-				content: 'https://ubuntucentar.com/assets/static/pocenta-1.9e5588a.23e905e0f6067f80bfb7474777de8892.jpg',
-				},
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/pocenta-1.9e5588a.23e905e0f6067f80bfb7474777de8892.jpg",
+			},
 		],
 	},
 
