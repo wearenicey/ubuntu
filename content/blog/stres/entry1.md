@@ -14,15 +14,16 @@ featured: false
 pocetna: false
 path: stres-na-poslu
 name: Aloo
+metaDesc: "Stres kao pojava na poslu kojim se bavimo"
 ---
 
-Izbor profesije može uticati na opšti osećaj blagostanja i sreća je baviti se poslom koji je u skladu sa našim sposobnostima i potencijalima. Ipak, gotovo da nema osobe koja u određenom momentu nije proživljavala neki oblik stresa na radnom mestu. 
+Izbor profesije može uticati na opšti osećaj blagostanja i sreća je baviti se poslom koji je u skladu sa našim sposobnostima i potencijalima. Ipak, gotovo da nema osobe koja u određenom momentu nije proživljavala neki oblik stresa na radnom mestu.
 
 Uzroci stresa mogu zavisiti od pozicije na poslu, međuljudskih odnosa, vremenskih rokova, razumevanja uloge u timu i jasnoće zadatka, kao i same percepcije i apercepcije određene situacije.
 
 ### Kako da bolje razumemo stres?
 
-Reakcija koju doživljavamo u toku stresa fiziološki odgovara reakciji „fight or flight“- bori se ili beži. To znači da se u našem telu u toku stresne reakcije, dešavaju promene na neurofiziološkom nivou koje obezbeđuju telo supstancama potrebnim za borbu ili beg. Međutim, to često nije opcija, pa nam preostaje jedino da se sa problemom suočimo na socijalno prihvatljiv način. Da ne bismo određenu situaciju doživljavali kao pretnju ponekad je potrebno usvojiti nove veštine i edukovati se u pravcu boljeg razumevanja posla. 
+Reakcija koju doživljavamo u toku stresa fiziološki odgovara reakciji „fight or flight“- bori se ili beži. To znači da se u našem telu u toku stresne reakcije, dešavaju promene na neurofiziološkom nivou koje obezbeđuju telo supstancama potrebnim za borbu ili beg. Međutim, to često nije opcija, pa nam preostaje jedino da se sa problemom suočimo na socijalno prihvatljiv način. Da ne bismo određenu situaciju doživljavali kao pretnju ponekad je potrebno usvojiti nove veštine i edukovati se u pravcu boljeg razumevanja posla.
 
 Kako bismo bolje razumeli stres može nam biti od pomoći i sama rekonstrukcija događaja, radi boljeg razumevanja naših reakcija. Kada sagledavamo uzročnike stresa potrebno je obratiti pažnju na stimulusnu situaciju i na koji način opažamo stimulusnu situaciju. Apercepcija određene situacije znači da mi pridajemo određeni smisao stimulusu, a takođe dajemo i važnost, valorizujemo, i procenjujemo koliko je situacija ugrožavajuća za nas. Apercepciju prati naša emocionalna telesna reakcija – uzbuđenje, ubrzani rad srca... U tom momentu stres podiže energetski nivo tela da bi ga pripremio na akciju i osoba se priprema za određenu vrstu ponašanja. Stres utiče na mentalne procese zahtevajući prioritet za ono čime se bavi. Ovakvo razmišljanje je veoma intenzivno, fokusirano, ali i na izvestan način ograničeno. Na kraju naše ponašanje dovodi do daljeg razvoja situacije. Adaptivno ponašanje znači da se osoba ponaša u skladu sa smislom i značenjem koje je pripisala datoj situaciji, a težnja čoveka je da ponovo uspostavi sklad između svojih mogućnosti i zahteva spoljašnjeg sveta.
 
@@ -41,5 +42,3 @@ Burnout sindrom ili sindrom izgaranja je stanje mentalne, emocionalne i fizičk
 ### Prevencija stresa i sindroma izgaranja
 
 Sindrom izgaranja i stres su znaci da u našem životu nešto pogrešno funkcioniše i da treba da preispitamo ciljeve i prioritete. Potrebno je postaviti granice i obezbediti sebi vreme za odmor, obogatiti emocionalni i socijalni život, odustati od definisanja sebe kroz posao, naučiti neke relaksacione tehnike i obratiti se psihoterapeutu.
-
-

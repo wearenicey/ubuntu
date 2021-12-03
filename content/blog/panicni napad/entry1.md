@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: sta-su-panicni-napadi-zbog-cega-nastaju
 name: Aloo
+metaDesc: "Tekst o napadima panike"
 ---
 
 Trudim se da što manje idem liftom, što zbog negovanja sportskog duha, što zbog toga što može da te odvede u među svetove kao u Murakamijevoj knjizi Igraj igraj igraj.

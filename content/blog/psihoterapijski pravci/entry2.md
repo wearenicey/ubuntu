@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: psihodorama
 name: Aloo
+metaDesc: "Psihodrama je prvenstveno grupni akcioni metod psihoterapije ali se koristi i u individualnom radu"
 ---
 
 

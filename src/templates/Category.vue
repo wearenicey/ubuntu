@@ -77,6 +77,8 @@ query($id: ID!) {
 		id
     title
 		desc
+		metaTitle
+		metaDesc
     belongsTo  {
       totalCount
       pageInfo {
@@ -117,7 +119,7 @@ export default {
 			title: this.$page.category.metaTitle,
 			titleTemplate: this.$page.category.metaTitle,
 
-			meta: [{ name: "description", content: this.$page.category.desc }],
+			meta: [{ name: "description", content: this.$page.category.metaDesc }],
 
 			// etc...
 		};

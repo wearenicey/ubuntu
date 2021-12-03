@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: homoseksualnost-i-otvaranje-pred-drugima
 name: Aloo
+metaDesc: "Tekst o homoseksualnosti i kako je predstaviti okolini"
 ---
 
 

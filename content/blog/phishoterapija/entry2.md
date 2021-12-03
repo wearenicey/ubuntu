@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: razlika-izmedju-psihologa-psihijatra-i-psihoterapeuta
 name: Aloo
+metaDesc: "Psihijatri, psiholozi i psihoterapeuti često rade zajedno, kao tim, želeći da pomognu."
 ---
 
 

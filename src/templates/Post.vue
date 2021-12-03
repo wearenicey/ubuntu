@@ -34,8 +34,9 @@
 <page-query>
   query Post ($path: String!) {
   post: post (path: $path) {
-		name
+			name
       title
+			metaDesc
 			category {
 			title
 	}
@@ -64,12 +65,12 @@
 export default {
 	metaInfo() {
 		return {
-			title: this.$page.post.title,
-			titleTemplate: this.$page.post.title,
+			title: this.$page.post.title + " | Ubuntu Blog",
+			titleTemplate: this.$page.post.title + " | Ubuntu Blog",
 
 			meta: [
 			{ name: "description", 
-			content: this.$page.post.excerpt ,
+			content: this.$page.post.metaDesc ,
 
 				},
 
@@ -81,23 +82,23 @@ export default {
 			{
         key: 'og:title',
         name: 'og:title',
-        content: this.$page.post.title,
+        content: this.$page.post.title + " | Ubuntu Blog",
       },
 
 				 {
         key: 'og:description',
         name: 'og:description',
-        content: this.$page.post.excerpt,
+        content: this.$page.post.metaDesc,
 				 },
 				{
         key: 'twitter:title',
         name: 'twitter:title',
-        content: this.$page.post.title,
+        content: this.$page.post.title + " | Ubuntu Blog",
       },	
 			{
         key: 'twitter:description',
         name: 'twitter:description',
-        content: this.$page.post.excerpt,
+        content: this.$page.post.metaDesc,
       },
 			{ 
 				key:"twitter:image", 

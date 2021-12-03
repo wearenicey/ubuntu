@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: uvod-u-osnovne-emocije-sreca
 name: Aloo
+metaDesc: "Sreća kao prijatna emocija koja traje vrlo kratko ili duže, ogroman je izvor informacija."
 ---
 
 

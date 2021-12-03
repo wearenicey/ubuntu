@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: zasto-ljudi-razvijaju-sabotazne-obrasce-ponasanja
 name: Aloo
+metaDesc: "Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa našim stvarnim ili zamišljenim nedostacima."
 ---
 
 Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa našim stvarnim ili zamišljenim nedostacima. Osnovne funkcije samosabotaže su samozaštita, očuvanje samopouzdanja, trenutno smanjenje anksioznosti. Međutim, to je, dugoročno posmatrano, neproduktivan način. Ljudi pokušavaju nizom ponašanja da očuvaju vlastito samopoimanje, samovrednovanje ili svoju sliku u očima drugih. Slika o sopstvenoj kompetenciji i sposobnostima predstavlja jedan od bazičnih elemenata na kojima se zasniva samopouzdanje individue.

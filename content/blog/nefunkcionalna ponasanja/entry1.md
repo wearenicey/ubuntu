@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: prokrastinacija-i-sta-sa-njom
 name: Aloo
+metaDesc: "O prokrastinaciji i kako se izboriti sa njom: nedovršen master rad, gomila neodgovorenih mejlova sa posla..."
 ---
 
 

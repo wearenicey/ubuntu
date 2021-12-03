@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: sezonska-depresija
 name: Aloo
+metaDesc: "Sezonska depresija kao fenomen koji se povremeno ispoljava"
 ---
 
 Početak je decembra, u jesen smo već duboko zagazili, a i zima je na pomolu. Moje višegodišnje iskustvo u radu s klijentima govori mi da su s oblacima i kišom osetni neraspoloženje kod ljudi, pojačana anksioznost i strahovi, a naročito u doba pandemije koju trenutno proživljavamo. Možda ste nekada čuli od vama bliskih ljudi, a moguće i sami izgovorili, rečenice poput: „oblačno vreme loše utiče na mene&quot;, kako neko nije zimski tip ili kako je osoba meteoropata. Iza svih ovih i sličnih rečenica, često se krije sezonska depresija a da sama osoba nije svesna ozbiljnosti problema, već to smatra normalnim osećanjem u ovo doba godine.

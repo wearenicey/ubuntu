@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: konstruktivizam-i-psihologija-licnih-konsturkata
 name: Aloo
+metaDesc: "Konstruktivizam je pojam koji u oblasti psihologije i psihoterapije objedinjuje mnoštvo pristupa."
 ---
 
 

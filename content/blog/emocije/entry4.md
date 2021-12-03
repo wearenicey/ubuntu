@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: uvod-u-osnovne-emocije-ljutnja
 name: Aloo
+metaDesc: "Ljutnja kao neprijatna emocija koja traje vrlo kratko ili duže, ogroman je izvor informacija."
 ---
 
 

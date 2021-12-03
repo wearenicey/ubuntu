@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: metafora-i-sistemska-porodicna-psihoterapija
 name: Aloo
+metaDesc: "Sistemska porodična terapija se u najvećoj meri bavi porodicom i metafora koja je najbolje opisuje je čišćenje kuće"
 ---
 
 „Porodica je kao krug, povezanost nikad ne prestaje.“ 

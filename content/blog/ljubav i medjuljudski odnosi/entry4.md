@@ -14,6 +14,7 @@ featured: false
 pocetna: true
 path: o-ljubavi
 name: Aloo
+metaDesc: "Knjiga „Ljubavologija‟ sociologa Bruna Šimleša na drugačiji, savremeniji način opisuje ljubav i njene činioce."
 ---
 
 Knjiga „Ljubavologija‟ sociologa Bruna Šimleša na drugačiji, savremeniji način opisuje ljubav i njene činioce. On sagledava ovu temu iz brojnih uglova i pokušava da reši dileme koje nas svakodnevno muče. U ovom tekstu ću obuhvatiti samo deo ove neiscrpne teme koja je uvek prisutna i aktuelna. 

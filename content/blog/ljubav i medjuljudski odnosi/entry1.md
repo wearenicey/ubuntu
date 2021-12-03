@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: relacione-potrebe-ljudi
 name: Aloo
+metaDesc: "Relacione potrebe ljudi i tekst koji ih opisuje"
 ---
 
 Od samog rođenja, kvalitet emocionalne povezanosti mame i bebe (ili primarnog staratelja) od izuzetnog je značaja za formiranje ličnosti i građenje odnosa sa drugim ljudima kroz ceo život. U zavisnosti od toga koliko se dosledno, konzistentno i adekvatno odgovaralo na bebine potrebe, ona će razviti siguran ili nesiguran obrazac afektivne vezanosti. Obrazac afektivne vezanosti utiče na sve odnose tokom odrastanja, od prijateljstava, poslovnih relacija, pa do partnerskih i bračnih odnosa. Na obrazac afektivne vezanosti posebno utiče fizička dostupnost roditelja, emocionalna toplina, telesna nežnost, brižnost, pružanje zaštite i bezbednosti za dete. Ukoliko su ove potrebe na najranijem uzrastu bile zadovoljene i podržane, osobe osećaju sigurnost i zadovoljstvo u odnosima sa drugim ljudima. Ako su relacione potrebe deteta na bilo koji način zanemarivane, ako nije bilo dovoljno emocionalne topline, osoba će u odraslom dobu i dalje žudeti za onim što nije dobila na najranijem uzrastu. Relacione potrebe se smatraju komponentom ljudske žudnje za sigurnom povezanošću i empirijskim putem izdiferencirano je da ih ima osam. Svako ljudsko biće ima relacione potrebe, ako su one zadovoljene, osoba će se osećati sigurno u odnosu, ako nisu, osećaće se nesigurno. 

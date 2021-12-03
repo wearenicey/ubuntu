@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: samoca-i-usamljenost
 name: Aloo
+metaDesc: "Da li je biti usamljen isto što i biti sam? Tekst koji pojašnjava da samoća i usamljenost ne znače isto."
 ---
 
 

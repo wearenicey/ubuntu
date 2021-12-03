@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: osnovni-principi-transakcione-analize
 name: Aloo
+metaDesc: "Transakciona analiza je jedan od načina razumevanja čovekove ličnosti."
 ---
 
 

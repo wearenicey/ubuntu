@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: samopovredjivanje
 name: Aloo
+metaDesc: "Samopovređivanje - opis i razlozi"
 ---
 
 

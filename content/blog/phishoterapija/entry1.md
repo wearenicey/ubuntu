@@ -14,6 +14,7 @@ featured: false
 pocetna: true
 path: sta-mozete-ocekivati-od-terapije-i-na-prvoj-seansi
 name: Aloo
+metaDesc: "Opis prve i ostalih seansi"
 ---
 
 

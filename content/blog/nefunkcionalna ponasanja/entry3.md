@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: perfekcionizam
 name: Aloo
+metaDesc: "Svi smo mi pomalo perfekcionisti. Stalo nam je do toga da posao uradimo najbolje što možemo..."
 ---
 
 (prvi deo)

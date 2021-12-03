@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: koliko-me-je-do-sada-bolela-psihoterapija
 name: Aloo
+metaDesc: "Psihoterapija iz ugla osobe kojoj treba pomoć"
 ---
 
 Već dugo grizem sebi rep, taman pomislim da sam usvojila nešto i promenila pravac, kada se iznova sudarim sa samom sobom.

@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: znacaj-motivacije-u-psihoterapiji
 name: Aloo
+metaDesc: "Ukoliko se odlučimo da krenemo na psihoterapiju jedan od bitnih činilaca je motivacija."
 ---
 
 Ukoliko se odlučimo da krenemo na psihoterapiju jedan od bitnih činilaca je motivacija. Važno je da je sama osoba motivisana da potraži pomoć i da postoji problem na kome hoće da radi. Bitno je da je cilj lična promena, a ne promena drugih, kao i da postoji svesnost da se problemi koji godinama traju ne mogu rešiti brzo, za jedan ili nekoliko susreta.

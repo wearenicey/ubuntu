@@ -14,6 +14,8 @@ featured: false
 pocetna: false
 path: depresivna-anskiozna-stanja-danas-licna-zapazanja
 name: Aloo
+metaDesc: "Zapažanja o pitanjima u vezi sa prisustvom depresije među ljudima."
+
 ---
 
 Dešava se da dobijem pitanje vezano za prisustvo depresije među mladim ljudima kako u našoj zemlji tako na čitavoj planeti. Oni koji me pitaju žele da potvrdim ili opovrgnem utisak da mladi, koji se često nazivaju „milenijalcima“, drže monopol nad dijagnozom depresije. Sve češće čujemo, kažu, kako oni otvoreno pričaju o odlasku na psihoterapiju i dele iskustva sa drugima. Pitaju me, na kraju, ono pravo pitanje: Da li je to tako, da li su mladi zaista depresivniji nego ranije, ili neko preteruje? U narednim pasusima neću pokušati da dam odgovor na ovo pitanje. Kroz tekst ću dati svoje opservacije, sa kojima se čitalac može, ali i ne mora složiti, ali verujem da će nam pomoći da objasnimo makar mali deo postavljenih pitanja.

@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: sta-je-aksioznost
 name: Aloo
+metaDesc: "Anksioznost kao osećaj napetosti i strepnje. To je odgovor na ono što osećamo kao potencijalnu opasnost."
 ---
 
 Anksioznost bismo najbolje mogli opisati kao osećaj napetosti i strepnje. To je prirodan odgovor na ono što percipiramo kao potencijalnu opasnost. Anksioznost se najčešće povezuje sa strahom od budućnosti, ili života u celosti. U pitanju je, međutim, doživljaj da nemamo kapacitete da se nosimo sa stvarima koje nam se događaju. Može se javiti kao posledica trenutnog stresa, trauma, okolnosti koje smo proživeli u detinjstvu, potiskivanja osećanja, iskrivljenih uverenja, nedostatka asertivnosti...

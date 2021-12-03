@@ -14,6 +14,7 @@ featured: false
 pocetna: false
 path: kako-nastaviti-dalje-nakon-prekida-veze
 name: Aloo
+metaDesc: "Emocije i odnosi nakon prekida veze (prijateljske, rodbinske, poslovne ili partnerske)."
 ---
 
 
