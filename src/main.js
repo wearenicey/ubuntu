@@ -9,20 +9,20 @@ import Vuelidate from 'vuelidate'
 
 export default function (Vue, { router, head, isClient }) {
   
-  Vue.mixin({
-    directives: {
-      reload: {
-        inserted: function (el, binding, vnode) {
-          el.addEventListener('click', (evt) => {
-            if (process.isClient) {
-              evt.preventDefault();
-              window.location.href = evt.target.href || el.href;
-            }
-          });
-        }
-      }
-    },
-  });
+  // Vue.mixin({
+  //   directives: {
+  //     reload: {
+  //       inserted: function (el, binding, vnode) {
+  //         el.addEventListener('click', (evt) => {
+  //           if (process.isClient) {
+  //             evt.preventDefault();
+  //             window.location.href = evt.target.href || el.href;
+  //           }
+  //         });
+  //       }
+  //     }
+  //   },
+  // });
 
   router.beforeEach((to, _from, next) => {
     head.meta.push({
