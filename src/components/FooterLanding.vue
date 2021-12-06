@@ -7,7 +7,7 @@
 					<img class="" src="/logo.svg" alt="Company name" />
 					<p class="text-gray-500 text-base">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi.</p>
 					<div class="flex space-x-6">
-						<a href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">
+						<a v-reload href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">
 							<span class="sr-only">Facebook</span>
 							<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 								<path
@@ -18,7 +18,7 @@
 							</svg>
 						</a>
 
-						<a href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
+						<a v-reload href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
 							<span class="sr-only">Instagram</span>
 							<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 								<path
@@ -28,7 +28,7 @@
 								/>
 							</svg>
 						</a>
-						<a class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
+						<a v-reload class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
 							<span class="sr-only">Linkedin</span>
 							<svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 								<path

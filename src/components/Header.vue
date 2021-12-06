@@ -2,7 +2,7 @@
 	<div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
 		<div class="flex max-w-7xl justify-between mx-auto items-center px-4 py-6 sm:px-6 md:space-x-10" id="position">
 			<div>
-			<g-link to="/" class="flex"	>
+			<g-link v-reload to="/" class="flex"	>
 					<span class="sr-only">Ubuntu Savetovaliste</span>
 					<img class="block h-12 w-auto sm:h-14" src="/logo.svg" alt="Ubuntu Savetovaliste" />
 				</g-link
@@ -81,7 +81,7 @@
 										</div>
 									</g-link>
 
-									<g-link to="/savetovaliste-beograd/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<g-link v-reload to="/savetovaliste-beograd/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/cursor-click -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -92,7 +92,7 @@
 										</div>
 									</g-link>
 
-									<g-link to="/online-savetovaliste/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<g-link v-reload to="/online-savetovaliste/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/shield-check -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
@@ -242,8 +242,8 @@
 							</div>
 						</div>
 					</div>
-					<a href="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</a>
-					<a href="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</a>
+					<g-link v-reload href="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</g-link>
+					<g-link v-reload href="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</g-link>
 				</nav>
 			</div>
 		</div>
@@ -291,7 +291,7 @@
 					</div>
 					<div class="mt-6">
 						<nav class="grid gap-y-8">
-							<g-link to="/savetovaliste-beograd/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+							<g-link v-reload to="/savetovaliste-beograd/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 								<!-- Heroicon name: outline/chart-bar -->
 								<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 									<path
@@ -304,7 +304,7 @@
 								<span class="text-base font-medium text-gray-900"> Savetovalište Beograd </span>
 							</g-link>
 
-							<g-link to="/savetovaliste-novi-sad/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+							<g-link v-reload to="/savetovaliste-novi-sad/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 								<!-- Heroicon name: outline/cursor-click -->
 								<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -312,7 +312,7 @@
 								<span class="text-base font-medium text-gray-900"> Savetovalište Novi Sad </span>
 							</g-link>
 
-							<g-link to="/online-savetovaliste/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+							<g-link v-reload to="/online-savetovaliste/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 								<span class="text-base font-medium text-gray-900"> Online savetovalište </span>
 							</g-link>
 
@@ -330,7 +330,7 @@
 
 						<!-- <g-link to="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Edukacije </g-link> -->
 
-						<g-link to="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </g-link>
+						<g-link v-reload to="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </g-link>
 					</div>
 					<div>
 						<g-link v-reload to="/kontakt/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700">
@@ -338,7 +338,7 @@
 						</g-link>
 						<p class="mt-6 text-center text-base font-medium text-gray-500">
 							Želite da pomognete?
-							<g-link to="/donacije/" class="text-green-600 hover:text-green-500"> Donirajte </g-link>
+							<g-link v-reload to="/donacije/" class="text-green-600 hover:text-green-500"> Donirajte </g-link>
 						</p>
 					</div>
 				</div>

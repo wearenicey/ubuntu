@@ -7,26 +7,26 @@
 				</div>
 
 				<div class="px-5 py-2">
-					<a href="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900"> Beograd </a>
+					<a v-reload href="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900"> Beograd </a>
 				</div>
 
 				<div class="px-5 py-2">
-					<a href="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online </a>
+					<a v-reload href="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online </a>
 				</div>
 
 				<div class="px-5 py-2">
-					<a href="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> O nama </a>
+					<a v-reload href="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> O nama </a>
 				</div>
 
 				<div class="px-5 py-2">
-					<a href="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </a>
+					<a v-reload href="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </a>
 				</div>
 
 				<div class="px-5 py-2">
-					<a href="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </a>
+					<a v-reload href="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="/kontakt/" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </a>
+					<a v-reload href="/kontakt/" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </a>
 				</div>
 			</nav>
 			<div class="mt-8 flex justify-center space-x-6">
@@ -41,7 +41,7 @@
 					</svg>
 				</a>
 
-				<a href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
+				<a v-reload href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
 					<span class="sr-only">Instagram</span>
 					<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path
@@ -51,7 +51,7 @@
 						/>
 					</svg>
 				</a>
-				<a class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
+				<a v-reload class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
 					<span class="sr-only">Linkedin</span>
 					<svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 						<path

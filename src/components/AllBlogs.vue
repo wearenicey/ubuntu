@@ -6,7 +6,7 @@
 		</div>
 		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 			<div v-for="post in $static.sviPostovi.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-				<a :href="post.node.path">
+				<a v-reload :href="post.node.path">
 					<div class="flex-shrink-0">
 						<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
 					</div>
