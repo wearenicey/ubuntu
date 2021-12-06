@@ -4,9 +4,8 @@
 			<h2 class="text-3xl text-purple-800 sm:text-4xl">Iz naše Blog radionice</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Aktuelni tekstovi na temu psihoterapije i psihologije, kao dodatak ličnom rastu i razvoju</p>
 		</div>
-		<div v-for="post in $static.pocetna.edges" :key="post.node.id">
 			<div class="my-12 grid gap-2 pt-12 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12 items-center">
-				<div>
+		<div v-for="post in $static.pocetna.edges" :key="post.node.id">
 					<div>
 						<a :href="post.node.category.path" class="inline-block">
 							<span class="inline-flex items-center rounded-full text-sm font-medium text-purple-800"> {{ post.node.category.title }} </span>
@@ -47,7 +46,6 @@
 				<g-image class="sm:h-96 w-full object-cover order-first md:order-last" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
 			</div>
 		</div>
-	</div>
 </template>
 <static-query>
 	query {
