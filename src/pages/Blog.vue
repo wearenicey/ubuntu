@@ -56,7 +56,7 @@
 
 <static-query>
 query {
-  sviPostovi:  allPosts  {
+  sviPostovi:  allPost  {
  
   edges {
     node {
