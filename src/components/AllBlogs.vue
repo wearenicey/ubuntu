@@ -8,7 +8,7 @@
 			<div v-for="post in $static.sviPostovi.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 				<a :href="post.node.path">
 					<div class="flex-shrink-0">
-						<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
+						<img class="h-48 w-full object-cover" :src="post.node.image" alt="" />
 					</div>
 					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 						<div class="flex-1">
