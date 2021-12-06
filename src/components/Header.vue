@@ -240,15 +240,9 @@
 								</div>
 							</div>
 						</div>
-<<<<<<< HEAD
-					</div> 
-					<g-link  to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</g-link>
-					<g-link  to="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</g-link>
-=======
 					</div>
 					<g-link v-reload to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</g-link>
 					<g-link v-reload to="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</g-link>
->>>>>>> 77f244dd5686971864b382b12afa5323db095b98
 				</nav>
 			</div>
 		</div>
@@ -321,12 +315,7 @@
 								<span class="text-base font-medium text-gray-900"> Online savetovalište </span>
 							</g-link>
 
-<<<<<<< HEAD
-							<g-link  to="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-						
-=======
 							<g-link v-reload to="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
->>>>>>> 77f244dd5686971864b382b12afa5323db095b98
 								<span class="text-base font-medium text-gray-900"> Blog </span>
 							</g-link>
 						</nav>
@@ -343,13 +332,9 @@
 						<g-link to="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </g-link>
 					</div>
 					<div>
-<<<<<<< HEAD
-						<g-link  to="/kontakt/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700"> Kontaktirajte nas </g-link>
-=======
 						<g-link v-reload to="/kontakt/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700">
 							Kontaktirajte nas
 						</g-link>
->>>>>>> 77f244dd5686971864b382b12afa5323db095b98
 						<p class="mt-6 text-center text-base font-medium text-gray-500">
 							Želite da pomognete?
 							<g-link to="/donacije/" class="text-green-600 hover:text-green-500"> Donirajte </g-link>
