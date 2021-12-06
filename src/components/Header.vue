@@ -2,12 +2,11 @@
 	<div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
 		<div class="flex max-w-7xl justify-between mx-auto items-center px-4 py-6 sm:px-6 md:space-x-10" id="position">
 			<div>
-				**<g-link to="/" class="flex"
-					>**
+			<g-link to="/" class="flex"	>
 					<span class="sr-only">Ubuntu Savetovaliste</span>
 					<img class="block h-12 w-auto sm:h-14" src="/logo.svg" alt="Ubuntu Savetovaliste" />
-					**</g-link
-				>**
+				</g-link
+				>
 			</div>
 			<div class="mr-2 my-2 md:hidden">
 				<button
