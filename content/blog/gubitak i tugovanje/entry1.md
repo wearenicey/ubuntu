@@ -14,7 +14,7 @@ featured: false
 pocetna: true
 path: gubitak-tuga-i-tugovanje
 name: Aloo
-metaDesc: "Tekst o emocijama kad se  susretnemo sa gubitkom. Neko zbog prekida veze, razvoda..."
+metaDesc: "Tekst o tuzi i tugovanju. Suočavanje, prihvatanje i manifestacije gubitka. Depresija zbog tuge"
 ---
 
 Svi se mi tokom života susretnemo sa gubitkom. Neko zbog prekida veze, razvoda, prekida prijateljstva, promene posla, preseljenja, a nekome ugine kućni ljubimac. Svaki od ovih gubitaka je težak. Ali gubitak koji izazove smrt bliske osobe (roditelja, partnera, deteta,...) jedan je od najstresnijih događaja a kao takav je jako težak i bolan.

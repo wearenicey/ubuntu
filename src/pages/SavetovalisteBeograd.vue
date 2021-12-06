@@ -994,37 +994,37 @@ export default {
 				name: "description",
 				content: "Naš tim psihoterapeuta u Beogradu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
 			},
-				{
-        key: 'og:title',
-        name: 'og:title',
+			{
+				key: "og:title",
+				name: "og:title",
 				content: "Psihoterapija Beograd | Savetovalište Ubuntu",
-      },
+			},
 
-				 {
-        key: 'og:description',
-        name: 'og:description',
-				content: "Naš tim psihoterapeuta u Beogradu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
-				 },
-			{ 
-				key:"og:image", 
-				property: "og:image", 
-				content: 'https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp',
-				},
 			{
-        key: 'twitter:title',
-        name: 'twitter:title',
+				key: "og:description",
+				name: "og:description",
+				content: "Naš tim psihoterapeuta u Beogradu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
+			},
+			{
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
 				content: "Psihoterapija Beograd | Savetovalište Ubuntu",
-      },	
+			},
 			{
-        key: 'twitter:description',
-        name: 'twitter:description',
+				key: "twitter:description",
+				name: "twitter:description",
 				content: "Naš tim psihoterapeuta u Beogradu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
-      },
-			{ 
-				key:"twitter:image", 
-				property: "twitter:image", 
-				content: 'https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp',
-				},
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp",
+			},
 		],
 	},
 
