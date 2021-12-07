@@ -39,7 +39,7 @@
 					<div class="mt-10 flex block justify-center">
 						<div class="inline-flex">
 							<a href="tel:+381658286881" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
-								Nazovi za besplatnu konsultaciju
+								Nazovi za konsultaciju
 							</a>
 						</div>
 					</div>
