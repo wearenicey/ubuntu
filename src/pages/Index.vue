@@ -12,9 +12,9 @@
       <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
 					<div class="mt-10 flex block justify-center">
 						<div class="inline-flex">
-							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
-								Zakažite besplatnu konsultaciju
-							</a>
+							<g-link v-reload href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
+								Zakažite konsultaciju
+							</g-link>
 						</div>
 					</div>
 				<div>
