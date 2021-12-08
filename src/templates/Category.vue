@@ -23,7 +23,9 @@
 				<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 					<div v-for="post in $page.category.belongsTo.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<div class="flex-shrink-0">
-							<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
+							<a :href="post.node.path">
+								<g-image class="h-48 w-full object-cover" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
+							</a>
 						</div>
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">

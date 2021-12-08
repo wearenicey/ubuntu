@@ -22,7 +22,6 @@
 					</div>
 					<div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
 						<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-							<!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
 							<g-image class="lg:absolute lg:inset-y-5" src="~/assets/img/content.svg" alt="" />
 						</div>
 					</div>
@@ -30,7 +29,6 @@
 			</div>
 		</div>
 
-		<!-- Feature section with screenshot -->
 		<div class="relative">
 			<svg class="hidden lg:block absolute -right-0 transform -translate-y-10" style="z-index: -1" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
@@ -49,7 +47,6 @@
 		<svg class="hidden lg:block absolute mt-36" style="z-index: -1" width="240" height="1086" viewBox="0 0 240 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<circle cx="-303" cy="543" r="543" fill="#FEF2F2" />
 		</svg>
-		<!-- Feature section with grid -->
 		<div class="relativ py-16 sm:py-24 lg:py-32">
 			<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<h2 class="mt-2 text-3xl text-gray-900 sm:text-4xl">Šta naše savetovalište nudi?</h2>
@@ -60,7 +57,6 @@
 							<div class="flow-root bg-purple-50 rounded-lg px-6 pb-8">
 								<div class="-mt-6">
 									<div>
-										<!-- Heroicon name: outline/cloud-upload -->
 										<svg class="inline-flex items-center justify-center w-16 h-16" width="56" height="45" viewBox="0 0 56 45" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path
 												d="M26.2932 1.06395C26.0745 1.30928 25.9198 1.65595 25.7118 2.36528C25.3438 3.60795 25.0132 5.79462 25.0132 6.98928C25.0132 7.78928 25.3225 10.1679 25.5572 11.1759C25.6158 11.4373 25.6532 11.6559 25.6425 11.6719C25.6265 11.6826 25.2212 11.7306 24.7412 11.7733C22.6078 11.9759 20.5652 12.344 18.5172 12.8933C16.9278 13.32 16.3892 13.4906 15.4558 13.8586C15.0558 14.0186 14.7145 14.1466 14.6985 14.1466C14.6825 14.1466 14.5332 13.8799 14.3678 13.5599C13.7492 12.3386 12.4905 10.8186 10.1652 8.45061C9.29048 7.56528 8.96515 7.26662 8.88515 7.27728C8.61848 7.31462 8.84248 7.97595 9.64782 9.53328C10.6558 11.4799 11.9945 13.8053 12.5598 14.5946C12.7198 14.8239 12.8532 15.0213 12.8532 15.0426C12.8532 15.0639 12.5598 15.2453 12.1972 15.448C10.3252 16.5146 8.35182 17.8586 7.11449 18.92L6.63982 19.3253L6.49049 19.1386C6.23982 18.8239 5.46115 18.2053 4.36249 17.4373C3.10382 16.5573 2.77315 16.3013 2.77315 16.1999C2.77315 16.0826 2.54382 16.104 2.40515 16.2319C2.21849 16.4079 2.27715 16.7173 2.63449 17.4266C3.12515 18.3866 4.20782 19.7893 4.92782 20.3866L5.26915 20.6746L4.89049 21.08C3.66382 22.3653 2.71449 23.5599 2.08515 24.6106C1.86649 24.9679 1.50915 25.5546 1.29049 25.9013C1.07715 26.2479 0.885153 26.6106 0.869153 26.7013C0.826486 26.9839 1.25849 27.688 1.48249 27.6933C1.59449 27.6933 2.90115 26.7866 3.70649 26.1466C5.40782 24.7919 9.02915 22.2906 10.9065 21.176C12.0105 20.5253 15.0665 18.7866 15.1145 18.7866C15.1252 18.7866 15.0665 18.9626 14.9812 19.1813C14.4532 20.5413 14.1918 22.5199 14.3412 24.0666C14.5652 26.4026 15.3652 28.5999 16.8692 31.0266C18.2185 33.1973 20.5918 35.3466 23.1198 36.6853C25.4185 37.9013 27.4398 38.376 30.3998 38.3813C31.8665 38.3866 32.4798 38.3173 33.4718 38.0346C34.6825 37.6986 35.8718 36.9893 36.9705 35.96C37.7598 35.2293 38.7732 33.9493 39.4025 32.8986C39.7971 32.2426 40.7252 30.4026 40.9492 29.8266C41.5252 28.3653 42.0158 26.5786 42.2505 25.1066C42.3572 24.4453 42.3678 24.1626 42.3678 22.5999C42.3625 21.1333 42.3465 20.7333 42.2612 20.1946L42.1598 19.5439L42.4798 19.704C43.7171 20.3279 45.8505 21.5706 46.9865 22.3226C48.5865 23.3946 50.6025 24.9573 52.5065 26.5999C52.8585 26.9039 53.2478 27.2133 53.7011 27.5439C53.8131 27.6186 53.9838 27.7039 54.0851 27.7306L54.2665 27.7786L53.7011 28.1573C53.3865 28.3706 52.6931 28.8719 52.1545 29.2773C49.4451 31.3146 46.4371 33.1013 41.7598 35.448C39.0932 36.7866 38.5065 37.064 37.2265 37.5866C34.5758 38.664 32.7252 39.1173 30.1385 39.32C28.6132 39.4373 26.1492 39.3733 24.6132 39.1813C21.7918 38.8293 19.1145 37.9173 16.5065 36.4133C14.2238 35.1013 12.8585 34.0879 9.49315 31.1919C8.94915 30.7279 8.34115 30.2266 8.13315 30.0826C7.65848 29.7413 5.81849 28.8346 4.98649 28.5253C4.23449 28.2479 2.72515 27.7946 2.44249 27.7573C2.18115 27.7306 2.11182 27.8586 2.14915 28.3013C2.18115 28.7226 2.31449 29.0586 2.76249 29.8799C3.79715 31.7733 4.92249 33.2559 6.11182 34.2746C7.56782 35.5333 8.01582 35.9066 8.74648 36.4986C9.96782 37.4853 11.5572 38.7066 12.3465 39.256C15.0345 41.1386 19.0505 43.016 21.8345 43.6933C23.4078 44.0826 24.5598 44.2213 26.4532 44.264C28.9332 44.3173 30.7518 44.1093 33.2265 43.5013C36.2878 42.744 38.8745 41.5973 43.4558 38.9626C46.4692 37.2293 48.2718 36.0186 49.9998 34.5573C51.5731 33.224 52.6185 32.1573 53.9358 30.5253C54.3518 30.0133 54.9171 29.3253 55.1945 29.0053C55.7385 28.3653 55.9998 27.8959 55.9998 27.5386C55.9998 27.3573 55.9785 27.3146 55.8291 27.2453C55.7385 27.1973 55.6318 27.1599 55.5891 27.1599C55.5038 27.1599 55.5038 27.1333 55.5998 26.8666C55.7011 26.584 55.7011 25.5386 55.6051 25.0693C55.5198 24.6799 55.4131 24.4453 55.2105 24.1999C55.0665 24.0239 53.8505 22.9093 53.0025 22.1733L52.4531 21.6986L52.7838 21.0266C53.3651 19.8479 53.8558 18.3226 54.0798 16.9946C54.1971 16.3066 54.2291 14.9253 54.1278 14.8666C53.9945 14.7813 53.8131 14.9253 53.4398 15.4106C53.2211 15.6933 52.6078 16.4666 52.0798 17.128C50.8851 18.632 50.4905 19.1546 50.3092 19.4693C50.2291 19.608 50.1598 19.7306 50.1491 19.7413C50.1385 19.7573 50.0798 19.7146 50.0105 19.656C49.7758 19.4373 48.6558 18.6586 47.8185 18.1253C46.4745 17.2773 45.4985 16.7279 43.8665 15.9013C43.3385 15.6346 42.8852 15.3946 42.8585 15.3733C42.8318 15.3466 42.8585 15.2613 42.9225 15.1759C43.1465 14.8559 43.7491 13.608 43.9678 12.9999C44.2345 12.2586 44.5491 11.0053 44.6611 10.1999C44.8425 8.96262 44.8905 7.57595 44.7678 7.11728C44.7198 6.94662 44.5225 6.96795 44.1545 7.19195C43.5305 7.57061 42.6398 8.50928 41.7491 9.73062C40.9171 10.8719 40.6185 11.464 40.0798 13.0586L39.7705 13.9653L39.2318 13.7573C36.1651 12.5573 32.9492 11.896 29.1465 11.6933C28.5332 11.6559 28.0212 11.624 28.0158 11.6186C28.0052 11.6133 28.0318 11.3946 28.0638 11.1279C28.1492 10.4293 28.1492 7.09595 28.0638 6.46661C27.9038 5.33595 27.4025 3.19195 26.9225 1.59728C26.7252 0.94128 26.6932 0.866615 26.5865 0.866615C26.5118 0.866615 26.3945 0.946613 26.2932 1.06395ZM29.6265 15.5866C30.5758 15.6613 32.0158 15.8639 32.9812 16.0666C33.9465 16.2746 35.5145 16.6906 35.6585 16.7866C35.7812 16.8666 36.4478 17.7306 37.1892 18.7653C37.7065 19.496 37.7971 19.736 37.9571 20.8133C38.0691 21.5653 38.0798 23.6239 37.9785 24.4133C37.7172 26.5199 37.1038 28.1626 35.9252 29.9599C34.4905 32.1359 32.6558 33.7466 31.0132 34.2693C30.6292 34.392 29.7598 34.5093 28.7572 34.5733C26.3732 34.7226 24.2665 34.1946 22.5172 33.0106C20.5705 31.6933 19.1998 30.1146 18.1865 28.0399C16.8478 25.3039 16.4425 22.2746 17.0985 19.9599C17.2638 19.3786 17.5092 18.8826 17.9838 18.1626C18.6238 17.1866 18.7305 17.08 19.3118 16.8826C21.3065 16.1946 23.4185 15.7839 26.0532 15.5706C26.5812 15.528 28.9492 15.5386 29.6265 15.5866Z"
@@ -192,9 +188,7 @@
 			</div>
 		</div>
 
-		<!-- Testimonial section -->
 
-		<!-- Testimonial section -->
 		<div class="mt-16 pb-16 bg-green-900 lg:pb-0 lg:z-10 lg:relative" style="z-index: 99">
 			<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
 				<div class="relative lg:-my-8">
@@ -228,20 +222,10 @@
 			</div>
 		</div>
 
-		<!-- Blog section -->
-		<!-- <div class="relative py-16 sm:py-24 lg:py-32">
-			<svg class="hidden lg:block absolute -right-0 transform -translate-y-10" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
-			</svg>
-			<div>
-				<card-item-karijera />
-			</div>
-		</div> -->
 
 		<svg class="hidden lg:block absolute mt-36" width="240" height="1086" viewBox="0 0 240 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<circle cx="-303" cy="543" r="543" fill="#FEF2F2" />
 		</svg>
-		<!--faq  -->
 		<div class="py-14">
 			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
 				<div class="max-w-3xl mx-auto">
@@ -249,17 +233,10 @@
 					<dl class="mt-6 space-y-6">
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Koji je tip zaposlenja/saradnje? </span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -273,17 +250,10 @@
 
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Kolika je nadoknada za angažovanje u centru?</span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+			
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -298,17 +268,10 @@
 						</div>
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Da li se radi puno radno vreme, parcijalno ili se radi od kuće sa brojem klijenata po želji? </span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+						
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -321,17 +284,10 @@
 						</div>
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900">Koji stepen angažovanja se zahteva?</span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+					
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -344,17 +300,10 @@
 						</div>
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Koji su preduslovi da bismo postali psihoterapeut?</span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+								
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -370,17 +319,10 @@
 						</div>
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Kako započeti karijeru psihoterapeuta? </span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -396,17 +338,10 @@
 
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Ko je i šta radi psiholog?</span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -420,17 +355,10 @@
 
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Ko je i šta radi psihijatar?</span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -444,17 +372,10 @@
 
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
-								<!-- Expand/collapse question button -->
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900">Ko je i šta radi psihoterapeut?</span>
 									<span class="ml-6 h-7 flex items-center">
-										<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+								
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -469,13 +390,11 @@
 							</dd>
 						</div>
 
-						<!-- More questions... -->
 					</dl>
 				</div>
 			</div>
 		</div>
 
-		<!-- CTA Section -->
 		<div class="relative bg-purple-100">
 			<div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
 				<g-image class="w-full h-full object-cover" src="~/assets/img/karijera-3.jpg" alt="" />
@@ -493,7 +412,6 @@
 						<div class="inline-flex rounded-3xl shadow">
 							<a href="/zasto-ubuntu" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-gray-700">
 								Saznaj više o Ubuntu Savetovalištu
-								<!-- Heroicon name: solid/external-link -->
 							</a>
 						</div>
 					</div>
@@ -501,14 +419,12 @@
 			</div>
 		</div>
 
-		<!-- contact -->
 		<div class="sm:pt-24">
 			<div class="max-w-7xl mx-auto px-4 pb-20" id="scroll">
 				<div class="relative bg-white">
 					<h2 class="sr-only">Kontakt informacije</h2>
 
 					<div class="grid grid-cols-1 lg:grid-cols-2">
-						<!-- Contact information -->
 						<div class="relative overflow-hidden">
 							<svg class="absolute mt-80 ml-96" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1911 294.707L10.9152 307.446L15.5598 311.08L23.6494 300.33L16.1911 294.707Z" fill="white" />
@@ -760,7 +676,6 @@
 									<p class="mt-6 text-base text-xl text-gray-600 max-w-3xl">Novi Sad</p>
 									<dt><span class="sr-only">Lokacija</span></dt>
 									<dd class="flex text-base text-gray-400">
-										<!-- Heroicon name: outline/location -->
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 										</svg>
@@ -772,7 +687,6 @@
 									</dd>
 									<dt><span class="sr-only">Telefon</span></dt>
 									<dd class="flex text-base text-gray-400">
-										<!-- Heroicon name: outline/phone -->
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
 												stroke-linecap="round"
@@ -785,7 +699,6 @@
 									</dd>
 									<dt><span class="sr-only">Email</span></dt>
 									<dd class="flex text-base text-gray-400">
-										<!-- Heroicon name: outline/mail -->
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 										</svg>
@@ -797,7 +710,6 @@
 
 									<dt><span class="sr-only">Lokacija</span></dt>
 									<dd class="flex text-base text-gray-400">
-										<!-- Heroicon name: outline/location -->
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 										</svg>
@@ -809,7 +721,6 @@
 									</dd>
 									<dt><span class="sr-only">Lokacija</span></dt>
 									<dd class="flex text-base text-gray-400">
-										<!-- Heroicon name: outline/location -->
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 										</svg>
@@ -821,7 +732,6 @@
 									</dd>
 									<dt><span class="sr-only">Telefon</span></dt>
 									<dd class="flex text-base text-gray-400">
-										<!-- Heroicon name: outline/phone -->
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
 												stroke-linecap="round"
@@ -834,7 +744,6 @@
 									</dd>
 									<dt><span class="sr-only">Email</span></dt>
 									<dd class="flex text-base text-gray-400">
-										<!-- Heroicon name: outline/mail -->
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 										</svg>
@@ -880,7 +789,6 @@
 						</div>
 
 						<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
-							<!-- <h3 class="text-lg font-medium text-gray-900">Pošaljite nam poruku</h3> -->
 							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" id="kontakt-karijera" name="kontakt-karijera" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
 									<input type="hidden" name="form-name" value="kontakt-karijera" />

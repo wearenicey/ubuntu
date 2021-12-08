@@ -16,7 +16,6 @@
 						<h2 class="sr-only">Kontakt informacije</h2>
 
 						<div class="grid grid-cols-1 lg:grid-cols-2">
-							<!-- Contact information -->
 							<div class="relative overflow-hidden">
 								<svg class="hidden lg:block absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1911 294.707L10.9152 307.446L15.5598 311.08L23.6494 300.33L16.1911 294.707Z" fill="white" />
@@ -266,7 +265,6 @@
 										<p class="mt-6 text-base text-xl text-gray-600 max-w-3xl">Novi Sad</p>
 										<dt><span class="sr-only">Lokacija</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/location -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 											</svg>
@@ -278,7 +276,6 @@
 										</dd>
 										<dt><span class="sr-only">Telefon</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/phone -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path
 													stroke-linecap="round"
@@ -291,7 +288,6 @@
 										</dd>
 										<dt><span class="sr-only">Email</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/mail -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 											</svg>
@@ -299,11 +295,10 @@
 										</dd>
 									</dl>
 									<dl class="mt-8 space-y-6">
-										<p class="mt-6 text-base text-xl text-gray-600 max-w-3xl">Beograd</p>
+										<p class="mt-6  text-xl text-gray-600 max-w-3xl">Beograd</p>
 
 										<dt><span class="sr-only">Lokacija</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/location -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 											</svg>
@@ -315,7 +310,6 @@
 										</dd>
 										<dt><span class="sr-only">Lokacija</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/location -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 											</svg>
@@ -327,7 +321,6 @@
 										</dd>
 										<dt><span class="sr-only">Telefon</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/phone -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path
 													stroke-linecap="round"
@@ -340,7 +333,6 @@
 										</dd>
 										<dt><span class="sr-only">Email</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/mail -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 											</svg>
@@ -385,7 +377,6 @@
 								</div>
 							</div>
 							<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
-								<!-- <h3 class="text-lg font-medium text-gray-900">Pošaljite nam poruku</h3> -->
 								<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 									<div>
 										<input type="hidden" name="form-name" value="contact" />

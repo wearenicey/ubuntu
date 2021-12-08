@@ -237,7 +237,6 @@
 							<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover" />
 						</div>
 						<div class="relative lg:col-span-1">
-							<!-- <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" /> -->
 							<h2 class="text-2xl font-medium sm:text-2xl text-white">Referenca</h2>
 							<blockquote class="mt-6 text-white">
 								<p class="text-xl font-medium sm:text-2xl">
@@ -261,17 +260,10 @@
 						<dl class="mt-6 space-y-6">
 							<div x-data="{open: false}" class="p-6 rounded-md border">
 								<dt class="text-lg">
-									<!-- Expand/collapse question button -->
 									<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 										<span class="font-medium text-gray-900"> Cena individualne psihoterapije</span>
 										<span class="ml-6 h-7 flex items-center">
-											<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+								
 											<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 											</svg>
@@ -285,17 +277,10 @@
 
 							<div x-data="{open: false}" class="p-6 rounded-md border">
 								<dt class="text-lg">
-									<!-- Expand/collapse question button -->
 									<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 										<span class="font-medium text-gray-900">Koji su uslovi za ulazak u naš program i započinjanje psihoterapijskog procesa?</span>
 										<span class="ml-6 h-7 flex items-center">
-											<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+						
 											<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 											</svg>
@@ -312,17 +297,10 @@
 
 							<div x-data="{open: false}" class="p-6 rounded-md border">
 								<dt class="text-lg">
-									<!-- Expand/collapse question button -->
 									<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 										<span class="font-medium text-gray-900">Na koji način mogu izvršiti uplatu?</span>
 										<span class="ml-6 h-7 flex items-center">
-											<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+									
 											<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 											</svg>
@@ -336,17 +314,10 @@
 
 							<div x-data="{open: false}" class="p-6 rounded-md border">
 								<dt class="text-lg">
-									<!-- Expand/collapse question button -->
 									<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 										<span class="font-medium text-gray-800">Kako se vrši uplata iz inostranstva?</span>
 										<span class="ml-6 h-7 flex items-center">
-											<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 											<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 											</svg>
@@ -359,17 +330,10 @@
 							</div>
 							<div x-data="{open: false}" class="p-6 rounded-md border">
 								<dt class="text-lg">
-									<!-- Expand/collapse question button -->
 									<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 										<span class="font-medium text-gray-800">Da li studenti imaju popust?</span>
 										<span class="ml-6 h-7 flex items-center">
-											<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 											<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 											</svg>
@@ -383,17 +347,10 @@
 
 							<div x-data="{open: false}" class="p-6 rounded-md border">
 								<dt class="text-lg">
-									<!-- Expand/collapse question button -->
 									<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 										<span class="font-medium text-gray-800">Radno vreme, da li mogu dolaziti vikendom?</span>
 										<span class="ml-6 h-7 flex items-center">
-											<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 											<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 											</svg>
@@ -409,17 +366,10 @@
 
 							<div x-data="{open: false}" class="p-6 rounded-md border">
 								<dt class="text-lg">
-									<!-- Expand/collapse question button -->
 									<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 										<span class="font-medium text-gray-800">Koliko traje susret?</span>
 										<span class="ml-6 h-7 flex items-center">
-											<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 											<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 											</svg>
@@ -433,17 +383,10 @@
 
 							<div x-data="{open: false}" class="p-6 rounded-md border">
 								<dt class="text-lg">
-									<!-- Expand/collapse question button -->
 									<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 										<span class="font-medium text-gray-800">Dinamika susreta, koliko se često održavaju?</span>
 										<span class="ml-6 h-7 flex items-center">
-											<!--
-                  Expand/collapse icon, toggle classes based on question open state.
-
-                  Heroicon name: outline/chevron-down
-
-                  Open: "-rotate-180", Closed: "rotate-0"
-                -->
+							
 											<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 											</svg>
@@ -455,19 +398,16 @@
 								</dd>
 							</div>
 
-							<!-- More questions... -->
 						</dl>
 					</div>
 				</div>
 			</div>
-			<!-- contact -->
 			<div class="sm:pt-24">
 				<div class="max-w-7xl mx-auto px-4 pb-20" id="scroll">
 					<div class="relative bg-white">
 						<h2 class="sr-only">Kontakt informacije</h2>
 
 						<div class="grid grid-cols-1 lg:grid-cols-2">
-							<!-- Contact information -->
 							<div class="relative overflow-hidden">
 								<svg class="hidden lg:block absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1911 294.707L10.9152 307.446L15.5598 311.08L23.6494 300.33L16.1911 294.707Z" fill="white" />

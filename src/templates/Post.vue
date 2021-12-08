@@ -18,7 +18,6 @@
 						</h1>
 
 						<div>
-							<!-- <p>{{ $page.post.excerpt }}</p> -->
 						</div>
 					</div>
 					<div class="mt-6 container">

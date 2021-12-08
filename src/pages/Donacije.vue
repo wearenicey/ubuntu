@@ -56,7 +56,6 @@
 							<dl class="mt-6 space-y-6">
 								<div x-data="{open: false}" class="p-6 rounded-md border bg-white shadow-sm">
 									<dt class="text-lg">
-										<!-- Expand/collapse question button -->
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Kako da znam da će moja donacija biti utrošena na pravi način? </span>
 											<span class="ml-6 h-7 flex items-center">
@@ -76,7 +75,6 @@
 
 								<div x-data="{open: false}" class="p-6 rounded-md border bg-white shadow-sm">
 									<dt class="text-lg">
-										<!-- Expand/collapse question button -->
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Ko može da donira?</span>
 											<span class="ml-6 h-7 flex items-center">
@@ -93,7 +91,6 @@
 
 								<div x-data="{open: false}" class="p-6 rounded-md border bg-white shadow-sm">
 									<dt class="text-lg">
-										<!-- Expand/collapse question button -->
 										<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 											<span class="font-medium text-gray-900"> Šta ja imam od donacije? </span>
 											<span class="ml-6 h-7 flex items-center">

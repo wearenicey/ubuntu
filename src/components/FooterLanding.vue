@@ -67,9 +67,6 @@
 									<g-link v-reload to="/karijera" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
 								</li>
 
-								<!-- <li>
-									<g-link v-reload to="/edukacije/" class="text-base text-gray-500 hover:text-gray-900"> Edukacije </g-link>
-								</li> -->
 							</ul>
 						</div>
 					</div>

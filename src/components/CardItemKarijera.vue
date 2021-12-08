@@ -25,16 +25,7 @@
 							</a>
 						</div>
 						<div class="mt-6 flex items-center">
-							<!-- <div class="flex-shrink-0">
-                  <a :href="post.author.href">
-                    <span class="sr-only">{{ post.author.name }}</span>
-                    <img
-                      class="h-10 w-10 rounded-full"
-                      :src="post.author.imageUrl"
-                      alt=""
-                    />
-                  </a>
-                </div> -->
+					
 							<div class="">
 								<div class="flex space-x-1 text-sm text-gray-500">
 									<time :datetime="post.node.datetime">
