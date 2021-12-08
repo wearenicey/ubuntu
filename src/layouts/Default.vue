@@ -2,6 +2,7 @@
 	<transition name="fade" appear>
 		<div>
 			<Header />
+			
 			<slot></slot>
 			<Footer />
 			<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">

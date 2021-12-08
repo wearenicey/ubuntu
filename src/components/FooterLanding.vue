@@ -7,7 +7,7 @@
 					<img class="" src="/logo.svg" alt="Company name" />
 					<p class="text-gray-500 text-base">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi.</p>
 					<div class="flex space-x-6">
-						<a v-reload href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">
+						<a href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">
 							<span class="sr-only">Facebook</span>
 							<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 								<path
@@ -18,7 +18,7 @@
 							</svg>
 						</a>
 
-						<a v-reload href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
+						<a  href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
 							<span class="sr-only">Instagram</span>
 							<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 								<path
@@ -28,7 +28,7 @@
 								/>
 							</svg>
 						</a>
-						<a v-reload class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
+						<a  class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
 							<span class="sr-only">Linkedin</span>
 							<svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 								<path
@@ -44,15 +44,15 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Naše lokacije</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link v-reload to="/savetovaliste-novi-sad" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </g-link>
+									<g-link  to="/savetovaliste-novi-sad" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </g-link>
 								</li>
 
 								<li>
-									<g-link v-reload to="/savetovaliste-beograd" class="text-base text-gray-500 hover:text-gray-900"> Beograd </g-link>
+									<g-link  to="/savetovaliste-beograd" class="text-base text-gray-500 hover:text-gray-900"> Beograd </g-link>
 								</li>
 
 								<li>
-									<g-link v-reload to="/online-savetovaliste" class="text-base text-gray-500 hover:text-gray-900"> Online </g-link>
+									<g-link to="/online-savetovaliste" class="text-base text-gray-500 hover:text-gray-900"> Online </g-link>
 								</li>
 							</ul>
 						</div>
@@ -60,11 +60,11 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">O nama</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link v-reload to="/zasto-ubuntu" class="text-base text-gray-500 hover:text-gray-900"> Zašto Ubuntu </g-link>
+									<g-link to="/zasto-ubuntu" class="text-base text-gray-500 hover:text-gray-900"> Zašto Ubuntu </g-link>
 								</li>
 
 								<li>
-									<g-link v-reload to="/karijera" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
+									<g-link  to="/karijera" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
 								</li>
 
 							</ul>
@@ -75,15 +75,15 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Blog</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link v-reload to="/blog/stres" class="text-base text-gray-500 hover:text-gray-900">Stres</g-link>
+									<g-link  to="/blog/stres" class="text-base text-gray-500 hover:text-gray-900">Stres</g-link>
 								</li>
 
 								<li>
-									<g-link v-reload to="/blog/anksioznost-i-anksiozni-poremecaji" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </g-link>
+									<g-link to="/blog/anksioznost-i-anksiozni-poremecaji" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </g-link>
 								</li>
 
 								<li>
-									<g-link v-reload to="/blog/psihoterapija" class="text-base text-gray-500 hover:text-gray-900"> Psihoterapija</g-link>
+									<g-link  to="/blog/psihoterapija" class="text-base text-gray-500 hover:text-gray-900"> Psihoterapija</g-link>
 								</li>
 							</ul>
 						</div>
@@ -91,11 +91,11 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Info</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link v-reload to="/donacije" class="text-base text-gray-500 hover:text-gray-900"> Donacije </g-link>
+									<g-link to="/donacije" class="text-base text-gray-500 hover:text-gray-900"> Donacije </g-link>
 								</li>
 
 								<li>
-									<g-link v-reload to="/kontakt" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </g-link>
+									<g-link to="/kontakt" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </g-link>
 								</li>
 							</ul>
 						</div>

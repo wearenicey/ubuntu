@@ -3,30 +3,30 @@
 		<div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
 			<nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
 				<div class="px-5 py-2">
-					<g-link v-reload href="/savetovaliste-novi-sad/" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </g-link>
+					<g-link  to="/savetovaliste-novi-sad/" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<g-link v-reload href="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900"> Beograd </g-link>
+					<g-link  to="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900"> Beograd </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<g-link v-reload href="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online </g-link>
+					<g-link  to="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<g-link v-reload href="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> O nama </g-link>
+					<g-link  to="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> O nama </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<g-link v-reload href="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
+					<g-link  to="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<g-link v-reload href="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </g-link>
+					<g-link  to="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </g-link>
 				</div>
 				<div class="px-5 py-2">
-					<g-link v-reload href="/kontakt/" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </g-link>
+					<g-link  to="/kontakt/" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </g-link>
 				</div>
 			</nav>
 			<div class="mt-8 flex justify-center space-x-6">

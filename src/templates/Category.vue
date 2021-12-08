@@ -29,11 +29,7 @@
 						</div>
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
-								<!-- <p class="text-sm font-medium text-indigo-600">
-									<a :href="post.node.tags.path" class="hover:underline">
-										{{ post.node.tags.title }}
-									</a>
-								</p> -->
+				
 								<p class="text-sm font-medium text-indigo-600">
 									<a v-reload :href="post.node.path" class="hover:underline"> </a>
 								</p>
@@ -47,16 +43,6 @@
 								</a>
 							</div>
 							<div class="mt-6 flex items-center">
-								<!-- <div class="flex-shrink-0">
-                  <a :href="post.author.href">
-                    <span class="sr-only">{{ post.author.name }}</span>
-                    <img
-                      class="h-10 w-10 rounded-full"
-                      :src="post.author.imageUrl"
-                      alt=""
-                    />
-                  </a>
-                </div> -->
 								<div class="">
 									<div class="flex space-x-1 text-sm text-gray-500">
 										<time :datetime="post.node.datetime">
