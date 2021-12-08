@@ -4,11 +4,15 @@ require('~/main.css')
 
 import DefaultLayout from '~/layouts/Default.vue'
 import Vuelidate from 'vuelidate'
+// import VueHorizontal from 'vue-horizontal';
+
 
 
 
 export default function (Vue, { router, head, isClient }) {
-  
+  // Vue.use(VueHorizontal);
+
+
   Vue.mixin({
     directives: {
       reload: {
@@ -52,9 +56,9 @@ export default function (Vue, { router, head, isClient }) {
 		});
 	}
 
-	if (process.isClient) {
-		Vue.use(require("vue-horizontal").default )
-	}
+	// if (process.isClient) {
+	// 	Vue.use(require("vue-horizontal").default )
+	// }
 	// Set default layout as a global component
 	Vue.component('Layout', DefaultLayout)
 }

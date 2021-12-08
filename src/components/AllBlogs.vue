@@ -1,9 +1,9 @@
 <template>
 <div>
-	<div class="relative max-w-7xl mx-auto ">
+	<!-- <div class="relative max-w-7xl mx-auto ">
 			<Scroll/>
 
-	</div>
+	</div> -->
 	<div class="relative max-w-7xl mx-auto px-6 mt-20 sm:px-0">
 		
 		<div class="text-center">
@@ -93,10 +93,10 @@ query {
 </static-query>
 <script>
 // Depending on how you installed it, import it if required.
-import Scroll from './Scroll.vue';
+// import Scroll from './Scroll.vue';
 
 export default {
-	components: {Scroll},
+	// components: {Scroll},
 	data() {
 		return { items: [1, 2, 3] };
 	},
