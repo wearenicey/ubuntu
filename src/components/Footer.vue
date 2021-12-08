@@ -3,30 +3,30 @@
 		<div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
 			<nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
 				<div class="px-5 py-2">
-					<a href="/savetovaliste-novi-sad/" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </a>
+					<g-link v-reload href="/savetovaliste-novi-sad/" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<a v-reload href="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900"> Beograd </a>
+					<g-link v-reload href="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900"> Beograd </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<a v-reload href="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online </a>
+					<g-link v-reload href="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<a v-reload href="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> O nama </a>
+					<g-link v-reload href="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> O nama </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<a v-reload href="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </a>
+					<g-link v-reload href="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
 				</div>
 
 				<div class="px-5 py-2">
-					<a v-reload href="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </a>
+					<g-link v-reload href="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </g-link>
 				</div>
 				<div class="px-5 py-2">
-					<a v-reload href="/kontakt/" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </a>
+					<g-link v-reload href="/kontakt/" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </g-link>
 				</div>
 			</nav>
 			<div class="mt-8 flex justify-center space-x-6">
@@ -41,7 +41,7 @@
 					</svg>
 				</a>
 
-				<a v-reload href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
+				<a href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
 					<span class="sr-only">Instagram</span>
 					<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path
@@ -51,7 +51,7 @@
 						/>
 					</svg>
 				</a>
-				<a v-reload class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
+				<a class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
 					<span class="sr-only">Linkedin</span>
 					<svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 						<path
@@ -60,7 +60,7 @@
 					</svg>
 				</a>
 			</div>
-			<p class="mt-8 text-center text-base text-gray-400">&copy; 2021, <a href="https://www.nicey.rs/">Nicey Agency</a></p>
+			<p class="mt-8 text-center text-base text-gray-400">&copy; 2021, <g-link href="https://www.nicey.rs/">Nicey Agency</g-link></p>
 		</div>
 	</footer>
 </template>

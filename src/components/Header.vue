@@ -65,7 +65,7 @@
 						>
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-									<g-link to="/savetovaliste-novi-sad/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<g-link v-reload to="/savetovaliste-novi-sad/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/chart-bar -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
@@ -75,7 +75,7 @@
 												d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
 											/>
 										</svg> -->
-										<div class="">
+										<div>
 											<p class="text-base font-medium text-gray-900">Novi Sad</p>
 											<!-- <p class="mt-1 text-sm text-gray-500">Novi Sad je vaš grad, treba vam psihoterapeut?</p> -->
 										</div>
@@ -86,7 +86,7 @@
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
 										</svg> -->
-										<div class="">
+										<div>
 											<p class="text-base font-medium text-gray-900">Beograd</p>
 											<!-- <p class="mt-1 text-sm text-gray-500">Beograd je vaš grad, a treba vam psihoterapeut? Ubuntu je pravi izbor</p> -->
 										</div>
@@ -102,7 +102,7 @@
 												d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
 											/>
 										</svg> -->
-										<div class="">
+										<div>
 											<p class="text-base font-medium text-gray-900">Online</p>
 											<p class="mt-1 text-sm text-gray-500">Treba vam psiholog ili psihoterapeut online? Ubuntu je pravi izbor.</p>
 										</div>
@@ -153,7 +153,7 @@
 						>
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-									<g-link to="/zasto-ubuntu/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<g-link v-reload to="/zasto-ubuntu/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/chart-bar -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path
@@ -163,25 +163,25 @@
 												d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
 											/>
 										</svg> -->
-										<div class="">
+										<div>
 											<p class="text-base font-medium text-gray-900">Zašto Ubuntu?</p>
 											<p class="mt-1 text-sm text-gray-500">Misija Ubuntu centra je da svima omogući lako dostupnu psihološku pomoć</p>
 										</div>
 									</g-link>
 
-									<g-link to="/karijera/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+									<g-link v-reload to="/karijera/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 										<!-- Heroicon name: outline/cursor-click -->
 										<!-- <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
 										</svg> -->
-										<div class="">
+										<div>
 											<p class="text-base font-medium text-gray-900">Karijera</p>
 											<p class="mt-1 text-sm text-gray-500">Kako postati psihoterapeut? Savetovalište Ubuntu je pravi izbor</p>
 										</div>
 									</g-link>
 
 									<!-- <g-link to="/404" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-										<div class="">
+										<div>
 											<p class="text-base font-medium text-gray-900">Edukacije</p>
 										</div>
 									</g-link> -->
@@ -217,7 +217,7 @@
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
 									<div v-for="category in $static.category.edges" :key="category.node.id">
 										<g-link :to="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-											<div class="">
+											<div>
 												<p class="text-base font-medium text-gray-900">{{ category.node.title }}</p>
 												<p class="mt-1 text-sm text-gray-500">{{ category.node.desc }}</p>
 											</div>
@@ -324,9 +324,9 @@
 				</div>
 				<div class="py-6 px-5 space-y-6">
 					<div class="grid grid-cols-2 gap-y-4 gap-x-8">
-						<g-link to="/zasto-ubuntu/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Zašto Ubuntu? </g-link>
+						<g-link v-reload to="/zasto-ubuntu/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Zašto Ubuntu? </g-link>
 
-						<g-link to="/karijera/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Karijera </g-link>
+						<g-link v-reload to="/karijera/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Karijera </g-link>
 
 						<!-- <g-link to="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Edukacije </g-link> -->
 
