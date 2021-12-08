@@ -17,12 +17,22 @@
 							<g-image class="mt-4 w-full object-cover" :src="require(`!!assets-loader!@img/${$page.post.image}`)" alt="" />
 						</h1>
 
-						<div>
-						</div>
+						<div></div>
 					</div>
 					<div class="mt-6 container">
 						<div class="prose mx-auto text-left" v-html="$page.post.content"></div>
-				
+					</div>
+					<div class="text-center mt-10">
+						<a
+							id="fb-share"
+							style="text-decoration: none"
+							type="icon_link"
+							onClick="window.open('http://www.facebook.com/sharer.php?s=100&p[title]=YOUR_TITLE&p[summary]=YOUR_DESCRIPTION&p[url]=YOUR_URL&p[images][0]=YOUR_IMAGE','sharer','toolbar=0,status=0,width=580,height=325');"
+							href="javascript: void(0)"
+							>Share</a
+						>
+
+						>
 					</div>
 				</div>
 			</div>
@@ -33,6 +43,7 @@
 <page-query>
   query Post ($path: String!) {
   post: post (path: $path) {
+		path
 			name
       title
 			metaDesc
@@ -104,6 +115,12 @@ export default {
 			],
 
 			// etc...
+		};
+	},
+	data: function () {
+		return {
+			api_url: "https://ubuntucentar.com/",
+			facebook: "http://www.facebook.com/sharer/sharer.php?u=",
 		};
 	},
 	components: {},
