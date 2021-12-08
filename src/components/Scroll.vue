@@ -36,6 +36,5 @@ export default {
 <style scoped>
 a.active--exact.active {
 	color: #059669;
-	font-weight: bold;
 }
 </style>

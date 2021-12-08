@@ -29,11 +29,10 @@
 						</div>
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
-				
 								<p class="text-sm font-medium text-indigo-600">
-									<a v-reload :href="post.node.path" class="hover:underline"> </a>
+									<a :href="post.node.path" class="hover:underline"> </a>
 								</p>
-								<a v-reload :href="post.node.path" class="block mt-2">
+								<a :href="post.node.path" class="block mt-2">
 									<p class="text-xl font-semibold text-gray-900">
 										{{ post.node.title }}
 									</p>
