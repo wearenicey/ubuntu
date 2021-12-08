@@ -4,6 +4,7 @@ category: ljubav-i-medjuljudski-odnosi
 # ovo je i meta desc
 excerpt: Od samog rođenja, kvalitet emocionalne povezanosti mame i bebe (ili primarnog staratelja) od izuzetnog je značaja za formiranje ličnosti...
 created: 2021-11-25
+date: 2021.11.25
 image: homoseksualnost.jpg
 imageTwo:
   path: /homoseksualnost.jpg

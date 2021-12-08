@@ -4,6 +4,7 @@ category: psihoterapija
 # ovo je i meta desc
 excerpt: Već dugo grizem sebi rep, taman pomislim da sam usvojila nešto i promenila pravac, kada se iznova sudarim sa samom sobom.
 created: 2021-11-27
+date: 2021.11.27
 image: koliko-me-je-bolela-psihoterapija.jpg
 imageTwo:
   path: /koliko-me-je-bolela-psihoterapija.jpg

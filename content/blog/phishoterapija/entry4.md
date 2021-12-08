@@ -4,6 +4,7 @@ category: psihoterapija
 # ovo je i meta desc
 excerpt: Ukoliko se odlučimo da krenemo na psihoterapiju jedan od bitnih činilaca je motivacija.
 created: 2021-11-27
+date: 2021.11.27
 image: znacaj-motivacije.jpg
 imageTwo:
   path: /znacaj-motivacije.jpg

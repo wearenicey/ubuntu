@@ -4,6 +4,7 @@ category: emocije
 # ovo je i meta desc
 excerpt: Bilo da su prijatne ili neprijatne, bilo da traju vrlo kratko ili duže, naše emocije su ogroman izvor informacija.
 created: 2021-10-24
+date: 2021.11.25
 image: osnovne-emocije.jpg
 imageTwo:
   path: /osnovne-emocije.jpg

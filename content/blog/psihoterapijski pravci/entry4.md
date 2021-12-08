@@ -4,6 +4,7 @@ category: psihoterapijski-pravci
 # ovo je i meta desc
 excerpt: Konstruktivizam je pojam koji u oblasti psihologije i psihoterapije objedinjuje mnoštvo pristupa.
 created: 2021-11-20
+date: 2021.11.20
 image: konsturktivizam.jpg
 imageTwo:
   path: /konsturktivizam.jpg

@@ -13,7 +13,7 @@
 					<div class="mt-10 flex block justify-center">
 						<div class="inline-flex">
 							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
-								Zakažite besplatnu konsultaciju
+								Zakažite konsultaciju
 							</a>
 						</div>
 					</div>

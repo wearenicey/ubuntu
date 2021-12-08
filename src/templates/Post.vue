@@ -23,6 +23,7 @@
 					</div>
 					<div class="mt-6 container">
 						<div class="prose mx-auto text-left" v-html="$page.post.content"></div>
+				
 					</div>
 				</div>
 			</div>

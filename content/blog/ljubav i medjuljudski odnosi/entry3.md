@@ -4,6 +4,7 @@ category: ljubav-i-medjuljudski-odnosi
 # ovo je i meta desc
 excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske, poslovne ili partnerske). 
 created: 2021-11-25
+date: 2021.11.25
 image: raskid.jpg
 imageTwo:
   path: /raskid.jpg

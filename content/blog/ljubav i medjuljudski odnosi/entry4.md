@@ -4,6 +4,7 @@ category: ljubav-i-medjuljudski-odnosi
 # ovo je i meta desc
 excerpt: Knjiga „Ljubavologija‟ sociologa Bruna Šimleša na drugačiji, savremeniji način opisuje ljubav i njene činioce.
 created: 2021-11-25
+date: 2021.11.25
 image: o-ljubavi.jpg
 imageTwo:
   path: /o-ljubavi.jpg

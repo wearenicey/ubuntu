@@ -4,6 +4,7 @@ category: panicni-napadi
 # ovo je i meta desc
 excerpt: Trudim se da što manje idem liftom, što zbog negovanja sportskog duha...
 created: 2021-11-27
+date: 2021.11.27
 image: panicni-napad.jpg
 imageTwo:
   path: ./images/slika-3.jpg

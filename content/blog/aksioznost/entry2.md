@@ -4,6 +4,7 @@ category: anksioznost-i-anksiozni-poremecaji
 # ovo je i meta desc
 excerpt: Anksioznost bismo najbolje mogli opisati kao osećaj napetosti i strepnje. To je prirodan odgovor na ono što percipiramo kao potencijalnu opasnost.
 created: 2021-11-25
+date: 2021.11.25
 image: anksioznost.jpg
 imageTwo:
   path: /anksioznost.jpg

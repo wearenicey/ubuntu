@@ -1,5 +1,8 @@
 <template>
 	<Layout>
+		<div class="relative max-w-7xl mx-auto">
+			<Scroll />
+		</div>
 		<div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
 			<div class="absolute inset-0">
 				<div class="bg-white h-1/3 sm:h-2/3" />
@@ -113,7 +116,11 @@ query($id: ID!) {
 </page-query>
 
 <script>
+import Scroll from "../components/Scroll.vue";
+
 export default {
+	components: { Scroll },
+
 	metaInfo() {
 		return {
 			title: this.$page.category.metaTitle,

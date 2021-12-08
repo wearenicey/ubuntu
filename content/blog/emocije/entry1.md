@@ -4,6 +4,7 @@ category: emocije
 # ovo je i meta desc
 excerpt: Potreba za hranom jedna je od osnovnih ljudskih potreba. Hrana nam je potrebna da zadovoljimo glad, sačuvamo zdravlje i održimo energiju.
 created: 2021-11-25
+date: 2021.11.25
 image: emocionalna-glad.jpg
 imageTwo:
   path: /emocionalna-glad.jpg

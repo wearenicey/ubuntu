@@ -4,6 +4,7 @@ category: gubitak-i-tugovanje
 # ovo je i meta desc
 excerpt: Svi se mi  tokom života susretnemo sa gubitkom. Neko zbog prekida veze, razvoda...
 created: 2021-11-25
+date: 2021.11.25
 image: gubitak.jpg
 imageTwo:
   path: /gubitak.jpg

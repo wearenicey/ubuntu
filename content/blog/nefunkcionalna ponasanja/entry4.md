@@ -4,6 +4,7 @@ category: nefunkcionalna-ponasanja
 # ovo je i meta desc
 excerpt: Svi smo mi pomalo perfekcionisti. Stalo nam je do toga da posao uradimo najbolje što možemo...
 created: 2021-11-27
+date: 2021.11.27
 image: samopovredjivanje.jpg
 imageTwo:
   path: /samopovredjivanje.jpg

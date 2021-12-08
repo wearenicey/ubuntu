@@ -4,6 +4,7 @@ category: stres
 # ovo je i meta desc
 excerpt: Izbor profesije može uticati na opšti osećaj blagostanja i sreća je baviti se poslom koji je u skladu sa našim sposobnostima i potencijalima.
 created: 2021-11-20
+date: 2021.11.20
 image: stres.jpg
 imageTwo:
   path: /stres.jpg

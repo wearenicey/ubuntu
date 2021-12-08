@@ -4,6 +4,7 @@ category: psihoterapija
 # ovo je i meta desc
 excerpt: Psihijatri, psiholozi i psihoterapeuti često rade zajedno, kao tim, želeći da pomognu.
 created: 2021-11-27
+date: 2021.11.27
 image: razlika.jpg
 imageTwo:
   path: /razlika.jpg

@@ -4,6 +4,7 @@ category: depresija
 # ovo je i meta desc
 excerpt: Dešava se da dobijem pitanje vezano za prisustvo depresije među mladim ljudima kako u našoj zemlji tako na čitavoj planeti. 
 created: 2021-11-25
+date: 2021.11.25
 image: depresija.jpg
 imageTwo:
   path: /depresija.jpg

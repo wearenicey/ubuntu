@@ -4,6 +4,7 @@ category: psihoterapijski-pravci
 # ovo je i meta desc
 excerpt: Sistemska porodična terapija se u najvećoj meri bavi porodicom i metafora koja je najbolje opisuje je čišćenje kuće
 created: 2021-11-27
+date: 2021.11.27
 image: metafora-i-porodicna-terapija.jpg
 imageTwo:
   path: /metafora-i-porodicna-terapija.jpg

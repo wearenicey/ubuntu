@@ -4,6 +4,7 @@ category: psihoterapijski-pravci
 # ovo je i meta desc
 excerpt: Psihodrama je prvenstveno grupni akcioni metod psihoterapije ali se koristi i u individualnom radu 
 created: 2021-11-27
+date: 2021.11.27
 image: psihodrama.jpg
 imageTwo:
   path: /psihodrama.jpg

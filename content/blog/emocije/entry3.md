@@ -4,6 +4,7 @@ category: emocije
 # ovo je i meta desc
 excerpt: Da li je biti usamljen isto što i biti sam? Često možemo čuti kako se usamljenost i samoća poistovećuju. Ali samoća i usamljenost ne znače  isto.
 created: 2021-10-23
+date: 2021.10.23
 image: usamljenost.jpg
 imageTwo:
   path: /usamljenost.jpg

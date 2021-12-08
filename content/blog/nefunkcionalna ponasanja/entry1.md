@@ -4,6 +4,7 @@ category: nefunkcionalna-ponasanja
 # ovo je i meta desc
 excerpt: Svima nam je poznat sledeći scenario:iz ćoška sobe vreba započet nedovršen master rad, gomila neodgovorenih mejlova sa posla...
 created: 2021-11-27
+date: 2021.11.27
 image: prokrastinacija.jpg
 imageTwo:
   path: /prokrastinacija.jpg

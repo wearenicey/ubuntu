@@ -4,6 +4,7 @@ category: psihoterapijski-pravci
 # ovo je i meta desc
 excerpt: Transakciona analiza je jedan od načina razumevanja čovekove ličnosti.
 created: 2021-11-27
+date: 2021.11.27
 image: transakciona-analiza.jpg
 imageTwo:
   path: /transakciona-analiza.jpg
