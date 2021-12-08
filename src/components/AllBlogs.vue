@@ -93,10 +93,10 @@ query {
 </static-query>
 <script>
 // Depending on how you installed it, import it if required.
-// import Scroll from './Scroll.vue';
+import Scroll from './Scroll.vue';
 
 export default {
-	// components: {Scroll},
+	components: {Scroll},
 	data() {
 		return { items: [1, 2, 3] };
 	},

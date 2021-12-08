@@ -56,9 +56,9 @@ export default function (Vue, { router, head, isClient }) {
 		});
 	}
 
-	// if (process.isClient) {
-	// 	Vue.use(require("vue-horizontal").default )
-	// }
+	if (process.isClient) {
+		Vue.use(require("vue-horizontal") )
+	}
 	// Set default layout as a global component
 	Vue.component('Layout', DefaultLayout)
 }
