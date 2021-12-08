@@ -1,7 +1,7 @@
 <template>
 	<vue-horizontal>
 		<section class="py-6" v-for="cate in $static.allCategory.edges" :key="cate.node.id">
-			<g-link :to="cate.node.path" class="px-5 rounded-md py-3 bg-gray-100 mr-3">{{ cate.node.title }}</g-link>
+			<g-link  :to="cate.node.path" class="px-5 rounded-md py-3 bg-gray-100 mr-3">{{ cate.node.title }}</g-link>
 		</section>
 	</vue-horizontal>
 </template>
@@ -22,10 +22,15 @@ query {
 
 <script>
 // Depending on how you installed it, import it if required.
-import VueHorizontal from "vue-horizontal";
+// import VueHorizontal from "vue-horizontal";
 
 export default {
-	components: { VueHorizontal },
+	// components: {  
+	//  VueHorizontal: () =>
+  //       import ('vue-horizontal')
+  //       .then(m => m.Carousel)
+  //       .catch()
+	// 			},
 	data() {
 		return { items: [1, 2, 3] };
 	},
