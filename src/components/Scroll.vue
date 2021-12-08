@@ -1,11 +1,11 @@
 <template>
-<client-only> 
-	<vue-horizontal>
-		<section class="py-6" v-for="cate in $static.allCategory.edges" :key="cate.node.id">
-			<g-link :to="cate.node.path" class="px-5 rounded-md py-3 bg-gray-100 mr-3">{{ cate.node.title }}</g-link>
-		</section>
-	</vue-horizontal>
-</client-only>
+	<client-only>
+		<vue-horizontal class="this">
+			<section class="py-6 first mr-3" v-for="cate in $static.allCategory.edges" :key="cate.node.id">
+				<g-link :to="cate.node.path" class="px-5 rounded-md py-3  bg-gray-100 ">{{ cate.node.title }}</g-link>
+			</section>
+		</vue-horizontal>
+	</client-only>
 </template>
 
 <static-query>
@@ -36,5 +36,13 @@ export default {
 <style scoped>
 a.active--exact.active {
 	color: #059669;
+}
+@media only screen and (max-width: 600px) {
+	.this >>> .v-hl-btn {
+		display: none !important;
+	}
+	.first:first-child {
+		padding-left: 1.5rem !important;
+	}
 }
 </style>
