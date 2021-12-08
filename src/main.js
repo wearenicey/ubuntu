@@ -4,40 +4,38 @@ require('~/main.css')
 
 import DefaultLayout from '~/layouts/Default.vue'
 import Vuelidate from 'vuelidate'
-// import VueHorizontal from 'vue-horizontal';
 
 
 
 
 export default function (Vue, { router, head, isClient }) {
-  // Vue.use(VueHorizontal);
 
 
-  Vue.mixin({
-    directives: {
-      reload: {
-        inserted: function (el, binding, vnode) {
-          el.addEventListener('click', (evt) => {
-            if (process.isClient) {
-              evt.preventDefault();
-              window.location.href = evt.target.href || el.href;
-            }
-          });
-        }
-      }
-    },
-  });
+	Vue.mixin({
+		directives: {
+			reload: {
+				inserted: function (el, binding, vnode) {
+					el.addEventListener('click', (evt) => {
+						if (process.isClient) {
+							evt.preventDefault();
+							window.location.href = evt.target.href || el.href;
+						}
+					});
+				}
+			}
+		},
+	});
 
-  router.beforeEach((to, _from, next) => {
-    head.meta.push({
-      key: 'og:url',
-      name: 'og:url',
-      content: process.env.GRIDSOME_BASE_PATH + to.path,
-    })
-    next()
-    console.log(to.path)
+	router.beforeEach((to, _from, next) => {
+		head.meta.push({
+			key: 'og:url',
+			name: 'og:url',
+			content: process.env.GRIDSOME_BASE_PATH + to.path,
+		})
+		next()
+		console.log(to.path)
 
-  })
+	})
 	head.htmlAttrs = { lang: 'sr' }
 
 	Vue.use(Vuelidate)
@@ -57,7 +55,10 @@ export default function (Vue, { router, head, isClient }) {
 	}
 
 	if (process.isClient) {
-		Vue.use(require("vue-horizontal").default )
+		Vue.use(require("vue-horizontal").default)
+	}
+	if (process.isClient) {
+		Vue.use(require("vue-social-sharing").default)
 	}
 	// Set default layout as a global component
 	Vue.component('Layout', DefaultLayout)
