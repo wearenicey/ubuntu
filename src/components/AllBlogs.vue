@@ -1,9 +1,9 @@
 <template>
 <div>
-	<!-- <div class="relative max-w-7xl mx-auto ">
+	<div class="relative max-w-7xl mx-auto ">
 			<Scroll/>
 
-	</div> -->
+	</div>
 	<div class="relative max-w-7xl mx-auto px-6 mt-20 sm:px-0">
 		
 		<div class="text-center">

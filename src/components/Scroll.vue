@@ -22,10 +22,10 @@ query {
 
 <script>
 // Depending on how you installed it, import it if required.
-// import VueHorizontal from "vue-horizontal";
+import VueHorizontal from "vue-horizontal";
 
 export default {
-	// components: { VueHorizontal },
+	components: { VueHorizontal },
 	data() {
 		return { items: [1, 2, 3] };
 	},
