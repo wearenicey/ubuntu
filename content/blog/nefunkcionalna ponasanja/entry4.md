@@ -2,20 +2,20 @@
 title: Samopovređivanje
 category: nefunkcionalna-ponasanja
 # ovo je i meta desc
-excerpt: Svi smo mi pomalo perfekcionisti. Stalo nam je do toga da posao uradimo najbolje što možemo...
+excerpt: Svi mi ponekad radimo stvari koje nisu dobre po nas ili su direktno štetne
 created: 2021-11-27
 date: 2021.11.27
 image: samopovredjivanje.jpg
 imageTwo:
   path: /samopovredjivanje.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "tužan čovek pored zida"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
 path: samopovredjivanje
 name: Aloo
-metaDesc: "Samopovređivanje - opis i razlozi"
+metaDesc: "Psihioterpautski uzroci samopovređivanja i informacije koje bi pomogle onima koji se samopovređuju da pronađu pomoć."
 ---
 
 

@@ -8,14 +8,14 @@ date: 2021.11.27
 image: panicni-napad.jpg
 imageTwo:
   path: ./images/slika-3.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "čovek skače u suton"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
 path: sta-su-panicni-napadi-zbog-cega-nastaju
 name: Aloo
-metaDesc: "Tekst o napadima panike"
+metaDesc: "Članak koji opisuje na napade panike. Pruža korisne informacije o uzrocima kako pacijentima, tako i profesionalcima na polju psihijatrije."
 ---
 
 Trudim se da što manje idem liftom, što zbog negovanja sportskog duha, što zbog toga što može da te odvede u među svetove kao u Murakamijevoj knjizi Igraj igraj igraj.

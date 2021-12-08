@@ -5,17 +5,15 @@
 				<div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full"></div>
 				<div class="relative px-4 sm:px-6 lg:px-8">
 					<div class="text-lg max-w-prose mx-auto">
-						<h1>
-							<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ $page.post.title }}</span>
-							<div class="text-center space-x-1 text-md pt-6 text-gray-500">
-								<time :datetime="$page.post.datetime">
-									{{ $page.post.humanTime }}
-								</time>
-								<span aria-hidden="true"> &middot; </span>
-								<span> {{ $page.post.timeToRead }} min čitanja</span>
-							</div>
-							<g-image class="mt-4 w-full object-cover" :src="require(`!!assets-loader!@img/${$page.post.image}`)" alt="" />
-						</h1>
+						<h1 class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ $page.post.title }}</h1>
+						<div class="text-center space-x-1 text-md pt-6 text-gray-500">
+							<time :datetime="$page.post.datetime">
+								{{ $page.post.humanTime }}
+							</time>
+							<span aria-hidden="true"> &middot; </span>
+							<span> {{ $page.post.timeToRead }} min čitanja</span>
+						</div>
+						<g-image class="mt-4 w-full object-cover" :src="require(`!!assets-loader!@img/${$page.post.image}`)" alt="" />
 
 						<div></div>
 					</div>
@@ -41,13 +39,13 @@
 						</div>
 						<div>
 							<ShareNetwork
-								class="linkdiln px-4  py-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+								class="linkdiln px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
 								network="linkedin"
 								v-bind:url="api_url + this.$page.post.path"
 								v-bind:title="this.$page.post.title"
 								v-bind:description="this.$page.post.excerpt"
 							>
-								<svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24">
+								<svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<path
 										d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
 									/>

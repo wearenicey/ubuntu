@@ -8,14 +8,14 @@ date: 2021.11.20
 image: stres.jpg
 imageTwo:
   path: /stres.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "žena sa maskom drži se za glavu"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
 path: stres-na-poslu
 name: Aloo
-metaDesc: "Stres kao pojava na poslu kojim se bavimo"
+metaDesc: "Da li se osećate pod stresom na poslu i morate da razgovarate sa nekim? Psihoterapija može pomoći. Evo nekoliko saveta o tome."
 ---
 
 Izbor profesije može uticati na opšti osećaj blagostanja i sreća je baviti se poslom koji je u skladu sa našim sposobnostima i potencijalima. Ipak, gotovo da nema osobe koja u određenom momentu nije proživljavala neki oblik stresa na radnom mestu.

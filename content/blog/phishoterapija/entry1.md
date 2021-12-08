@@ -8,14 +8,14 @@ date: 2021.11.27
 image: sta-mozete-ocekivati.jpg
 imageTwo:
   path: /sta-mozete-ocekivati.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "ruke kao podrška"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: true
 path: sta-mozete-ocekivati-od-terapije-i-na-prvoj-seansi
 name: Aloo
-metaDesc: "Opis prve i ostalih seansi"
+metaDesc: "Razlika između dobrog i lošeg iskustva može biti ogromna, pa je veoma važno znati šta možete očekivati na prvoj seansi."
 ---
 
 
