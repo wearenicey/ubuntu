@@ -29,7 +29,7 @@ Konstruktivizam je pojam koji u oblasti psihologije i psihoterapije objedinjuje 
 
 3. Saznanje je neodvojivo od samog saznavaoca i ono što saznajemo o svetu je posredovano i ograničeno našim pogledom na svet, kulturom, jezikom, istorijom i trenutnim narativom. Postoji izreka u psihoterapiji koja zgodno ilustruje ovu ideju: „*Kada Milica priča o Jovici, to više govori o Milici nego o Jovici*“.
 
-\4. Konstruktivistička objašnjenja naglašavaju procese a ne strukture. Psihološka priroda čoveka nije datost koja se može utvrditi jednom za svagda jer se psihološki sistem konstantno menja, prilagođava, razvija i raste. Umesto pokušaja da se otkrije jedna nepromenljiva struktura koja predstavlja ljudsku osnovu (poput karaktera, temperamenta, crta ličnosti…) akcenat se pomera na ličnu dinamiku, odnose sa drugima i kontekst u kome se neko nalazi.
+4. Konstruktivistička objašnjenja naglašavaju procese a ne strukture. Psihološka priroda čoveka nije datost koja se može utvrditi jednom za svagda jer se psihološki sistem konstantno menja, prilagođava, razvija i raste. Umesto pokušaja da se otkrije jedna nepromenljiva struktura koja predstavlja ljudsku osnovu (poput karaktera, temperamenta, crta ličnosti…) akcenat se pomera na ličnu dinamiku, odnose sa drugima i kontekst u kome se neko nalazi.
 
 **Psihologija ličnih konstrukata** 
 

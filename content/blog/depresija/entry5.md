@@ -45,4 +45,5 @@ Na kraju ovakvog dana sebi možemo reći: „Ne znam više ko sam!“ Ko smo mi,
 
 To što se čini da pojedinac olako priča o svojoj depresiji, o problemima sa raspoloženjem, anksioznosti, o psihoterapiji, na to bih obratio posebnu pažnju. Mnogi kažu: „Privlači pažnju“, iako prostom pogledom u sopstveni unutrašnji svet možemo pronaći sijaset drugih razloga. A što se tiče privlačenja pažnje –da li imamo pravo vrednosno oceniti tako nešto kao loše ili dobro. Da, možda privlači pažnju, možda nam to ponekad deluje kao odigravanje žrtve, ali ne mora biti laganje. Kako bismo drugačije, u sklopu okoline koja obiluje distraktorima, videli kome treba da pružimo ruku? Druga najgora stvar koju možemo da uradimo je da usiljeno kažemo: „Bravo, drago mi je zbog tebe, tako si hrabar i imaš moju podršku“, i da na tome završimo. Kontakt nije komentar podrške i/ili lajk na Instagramu. Na kraju, lično vidim statuse i mimove mladih kao vapaj za kontaktom koji bi trebalo da da smisao iskustvu.
 
+
 Stevan Stevanović

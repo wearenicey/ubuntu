@@ -18,7 +18,7 @@ name: Aloo
 metaDesc: "Članak koji opisuje na napade panike. Pruža korisne informacije o uzrocima kako pacijentima, tako i profesionalcima na polju psihijatrije."
 ---
 
-Trudim se da što manje idem liftom, što zbog negovanja sportskog duha, što zbog toga što može da te odvede u među svetove kao u Murakamijevoj knjizi Igraj igraj igraj.
+Trudim se da što manje idem liftom, što zbog negovanja sportskog duha, što zbog toga što može da te odvede u međusvetove kao u Murakamijevoj knjizi "Igraj igraj igraj".
 
 Jutros sam ipak krenula liftom, imala sam puno toga da ponesem. Nešto je spor, neuobičajeno spor, šta ako se zaglavim...proletela mi je misao. Ulazim u lift, sve je ok, ali šta ako se zaglavim i ostanem bez vazduha, stiskam dugme i lift kreće. Razmišljam šta sve treba da uradim danas, hoću li stići, tek sad vidim fleku na košulji, hoću da se presvučem, kako je spor, ostaću bez vazduha. Malo se zatrese između spratova, zbog potpunijeg ugođaja. Znoje mi se dlanovi, srce jače lupa, da to je to ostaću zarobljena u liftu, ne mogu da dođem do vazduha, žmarci u prstima mi prolaze, ako ikada izađem živa iz ovog lifta, nikada više neću ići liftom.
 
@@ -26,7 +26,7 @@ Ovo je bio prikaz jednog blagog paničnog napada, počevši od toka misli, samoz
 
 **Panični napadi i panični poremećaj**
 
-Panični napadi su česta pojava kod ljudi, nekada su blaži, a nekada jači i remete svakodnevno funkcionisanje. Panični poremećaj se može dijagnostikovati kada su učestali panični napadi  i kada osoba puno vremena strepi i iščekuje kada će biti sledeći panični napad.
+Panični napadi su česta pojava kod ljudi, nekada su blaži, a nekada jači i remete svakodnevno funkcionisanje. Panični poremećaj se može dijagnostikovati kada su učestali panični napadi i kada osoba puno vremena strepi i iščekuje kada će biti sledeći panični napad.
 
 Neki ljudi se sažive sa svojim paničnim napadima i uspevaju da izađu na kraj sa njima, dok drugi zbog paničnih napada izbegavaju neke situacije. Vrlo često osoba nalazi neku vezu između određene situacije i paničnog napada i onda izbegava tu situaciju.
 
@@ -102,17 +102,16 @@ Prvi panični napad će se zaista retko javiti kada je osoba opuštena, zadovolj
 
 **Da li postoji rešenje za panične napade?**
 
-Panični napadi iako deluju kao da će nam zauvek smetati u našem normalnom funkcionisanju i čine da se osećamo izrazito neprijatno, ipak su rešivi. Na psihoterapiji se uče tehnike prevencije i smanjivanja paničnih napada, kao i mapiranje i razumevanje uzroka nastanka paničnih napada. Razumevanjem unutrašnje logike, ovaj nefunkcionalni sistem samozaštite se može preusmeriti u funkcionalnu i korisnu strategiju nošenja sa stresom.
-
-Izvor: Strah, panika i agorafobija (priručnik za pacijente) dr Vladan Starčević
-
-Instagram
+Panični napadi, iako deluju kao da će nam zauvek smetati u našem normalnom funkcionisanju i čine da se osećamo izrazito neprijatno, ipak su rešivi. Na psihoterapiji se uče tehnike prevencije i smanjivanja paničnih napada, kao i mapiranje i razumevanje uzroka nastanka paničnih napada. Razumevanjem unutrašnje logike, ovaj nefunkcionalni sistem samozaštite se može preusmeriti u funkcionalnu i korisnu strategiju nošenja sa stresom.
 
 **Kako izgleda panični napad?**
 
 Panični napad je iznenadni doživljaj veoma jakog straha ili izrazite neprijatnosti u situaciji u kojoj se većina ljudi ne bi tako osećala. Vrlo često osoba nalazi neku vezu između određene situacije i paničnog napada i onda izbegava tu situaciju.
 
 U toku paničnog napada mogu se javiti sledeći simptomi: otežano disanje ili nedostatak vazduha, ubrzan rad srca ili lupanje srca, trnjenje ili žmarci u prstima, izmaglica, zamućen vid, vrtoglavica, preznojavanje, nesvestica, bol u grudima, vrući ili hladni talasi po telu, gušenje, potreba da se pobegne, suva usta, potreba da se odmah ide u toalet, napetost u mišićima, treperenje u stomaku ili muka, osećaj da ne možete da sakupite svoje misli ili da govorite, stah da ćete umreti, izgubiti kontrolu nad sobom, ili poludeti.
+
+
+Ivana Petrović
 
 
 

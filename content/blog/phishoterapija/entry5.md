@@ -50,4 +50,5 @@ I za kraj, da bi se stiglo do licence, polažu se ispiti pred komisijom (često 
 
 Da zaključimo, za posao psihoterapeuta je potrebna diploma fakulteta (psihologija ili humanističke nauke) kao i edukacija u trajanju od oko četiri godine, više stotina rada sa klijentima i ličnog rada kod svog terapeuta kao i kod svog supervizora. Potrebno je mnogo truda, vremena, i naravno novca da bi se sve to postiglo, tako da uvek savetujem svima da razmisle i procene da li se mogu obavezati na toliku odgovornost. Srećno!
 
+
 Aleksandra Biberdžić

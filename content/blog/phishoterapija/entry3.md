@@ -44,5 +44,6 @@ Ponekad kada zatvorim oči, gledam kroz njegove oči.
 
 Pod se zacelio, rupe u zidovima su se smanjile, nije mi više hladno. U celini kuća je postala dobra, čak nekad i čarobna. Ima neke tajne sobe, prolaze i kutke i svaki ima svoju priču, baš onakvu kakva je oduvek trebalo da bude.
 
-Autor: Ivana Petrović
+
+Ivana Petrović
 

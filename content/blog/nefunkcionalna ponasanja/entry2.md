@@ -42,5 +42,6 @@ Neretko se, još u ranom detinjstvu, doživljavaju neugodna iskustva, i to u por
 
 Načini razmišljanja igraju veliku ulogu. Kako bi se naučena bespomoćnost mogla razumeti i otkloniti, važno je znati da nas uverenja pokreću ka pozitivnim i ka zdravlju usmerenim ponašanjima ili nas guraju u rizična ponašanja, loša raspoloženja i bolest.
 
+
 Tijana Stojšić
 

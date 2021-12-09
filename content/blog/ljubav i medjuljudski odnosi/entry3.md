@@ -40,5 +40,4 @@ Za nastavak dalje nakon prekida veze, potrebno je da donesemo odluku da želimo 
 Tada bi bilo dobro usredsrediti se ne na ono što smo izgubili, već na ono šta smo iz toga naučili. Osećaćemo se bolje, sigurno.
 
 
-
 Bajić Aleksandra

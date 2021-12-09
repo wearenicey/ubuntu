@@ -47,4 +47,5 @@ Na suprotnom kraju tog kontinuuma koga u ovom tekstu zovemo sreća, je konstanta
 
 Kao što smo rekli, *svaka emocija je korisna i ima svoju funkciju*. Osećati sreću konstantno ne ostavlja prostora za druge emocije, za balans u životu koji nam je potreban, i ne ostavlja prostor za "signale upozorenja" koje nam ostale emocije šalju. Osećati pritisak da ne smemo biti nezahvalni, da moramo biti zadovoljni, srećni i uspešni je strašan pritisak kome smo svi podložni. Nakon takve vrste pritiska, može se lako desiti da se osećamo vrlo tužno i neadekvatno jer nismo uspeli da dostignemo taj nivo zadovoljstva i radosti. Život jeste smena prijatnih i neprijatnih emocija. Posle kiše će doći sunce, ali će posle sunca možda doći magla ili sneg.
 
+
 Aleksandra Biberdžić

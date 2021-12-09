@@ -31,11 +31,11 @@ Osnovni pojmovi u psihodrami:
 
 **Protagonista** je član grupe čiji je rad u fokusu cele grupe, osoba koja je u datom trenutku najspremnija za proradu svojih unutašnjih sadržaja kroz psihodramski rad.
 
-**Direktor**(režiser) je psihoterapeut grupe koji vodi i usmerava psihodramsku seansu.
+**Direktor** (režiser) je psihoterapeut grupe koji vodi i usmerava psihodramsku seansu.
 
 **Pomoćni egoi** su članovi grupe koji na psihodramskoj sceni igraju uloge značajnih figura, osećanja, predstava iz života protagoniste.
 
-**Publika*** su svi oni članovi grupe koji ne učestvuju direktno u psihodramskom odigravanju već posmatraju akciju na sceni. Oni mogu uzeti učešće kroz postavljanje pitanja akterima na sceni kao i kroz dubliranje ukoliko to direktor i protagonista odobre.
+**Publika** su svi oni članovi grupe koji ne učestvuju direktno u psihodramskom odigravanju već posmatraju akciju na sceni. Oni mogu uzeti učešće kroz postavljanje pitanja akterima na sceni kao i kroz dubliranje ukoliko to direktor i protagonista odobre.
 
 **Scena** je prostor na kome se odigrava psihodrama.
 
@@ -55,10 +55,13 @@ Zagrevanje je uvod u psihodramsku seansu. Kako samo ime kaže ovaj deo “zagrev
 
 Psihodramska akcija je središnji, glavni deo psihodramske seanse i tokom nje protagonista oživljava na sceni, uz pomoćne egoe i terapeuta, ono što ga trenutno najsnažnije pokreće. 
 
-Podela osećanja je poslednji deo seanse koji zaokružuje ceo proces i omogućava protagonisti da dobije povratnu informaciju od ostalih članova grupe o tome kako se njegov rad reflektovao na njih. Publika i pomoćni egoi sada dele kako su se osećali posmatrajući ili igrajući uloge za protagonistu, kako je to povezano sa njihovim ličnim iskustvom i zašto je to za njih bilo značajno. Terapeut(direktor) takođe može podeliti svoj lični doživljaj sa protagonistom. Psihodramska seansa najčešće traje 2,5h dok je u individualnom setingu trajanje 1h.
+Podela osećanja je poslednji deo seanse koji zaokružuje ceo proces i omogućava protagonisti da dobije povratnu informaciju od ostalih članova grupe o tome kako se njegov rad reflektovao na njih. Publika i pomoćni egoi sada dele kako su se osećali posmatrajući ili igrajući uloge za protagonistu, kako je to povezano sa njihovim ličnim iskustvom i zašto je to za njih bilo značajno. Terapeut (direktor) takođe može podeliti svoj lični doživljaj sa protagonistom. Psihodramska seansa najčešće traje 2,5h dok je u individualnom setingu trajanje 1h.
 
 Svaka psihodramska seansa je jedinstven susret, kako jednih sa drugima tako i sa samim sobom. Svako od članova grupe donosi čitavu riznicu svojih ličnih osećanja, razmišljanja, iskustava koja na psihodramskoj sceni dobijaju priliku da budu oživljena, vidljiva, doživljena na jedan kreativan, drugačiji način, negovana i podržana grupom. 
 
 Tokom svoje edukacije prolazeći lični rad bivala sam često iznenađena onim što sam o sebi otkrivala. Ako se prepustite toj naizled vrlo jednostavnoj igri otkrivanja svog unutrašnjeg sveta autentičnije ćete se susresti sa najskrivenijim delovima sebe za koje možda niste ni znali da su tu. 
 
-Psihodrama iznosi pred naše oči i stavlja u naše ruke ono što nosimo u sebi bilo da su to strahovi, želje, fantazije, odnosi sa drugim ljudima, tuga, bes, ljubav. Otelovljuje sve ono što nam je značajno i dozvoljava nam da na dnevnoj svetlosti, uz podršku cele grupe vidimo šta je to što nas muči i šta sa tim možemo da uradimo kako bismo zdravije i autentičnije funkcionisali.  
+Psihodrama iznosi pred naše oči i stavlja u naše ruke ono što nosimo u sebi bilo da su to strahovi, želje, fantazije, odnosi sa drugim ljudima, tuga, bes, ljubav. Otelovljuje sve ono što nam je značajno i dozvoljava nam da na dnevnoj svetlosti, uz podršku cele grupe vidimo šta je to što nas muči i šta sa tim možemo da uradimo kako bismo zdravije i autentičnije funkcionisali.  ,
+
+
+Ivana Stamenković

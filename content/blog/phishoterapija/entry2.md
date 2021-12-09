@@ -53,4 +53,5 @@ Različite su terapijske škole i pravci za koje se psihoterapeuti opredeljuju i
 
 *Zašto idemo kod psihoterapeuta*? Ljudi odlaze kod terapeuta iz najrazličitijih razloga, a zajedničko im je to što žele da rade na sebi i da imaju bolji kvalitet života. Razlozi mogu biti: problemi sa učenjem, nemogućnost da se nosi sa sopstvenim emocijama, bitni životni događaji i odluke koji se donose, životne krize, želja da se nauči više o sebi, da se poboljša komunikacija sa drugima, itd. Razlog ne mora biti jasno definisan. Nekada se klijent samo oseća loše a da ni sam ne zna zašto, i onda sa terapeutom otkriva koji bi mogli da budu razlozi za to.
 
+
 Aleksandra Biberdžić

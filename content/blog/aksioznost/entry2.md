@@ -35,4 +35,5 @@ Za početak probajte da zapisujete misli koje se javljaju u vama uznemirujućim 
 Radite na sebi i jačajte svoje samopouzdanje.
 Ukoliko vam je teško da se sami suočite sa svojim strahovima, možete se odlučiti za psihološko savetovanje.
 
+
 Tijana Stojšić, master psiholog i praktičar transakcione analize

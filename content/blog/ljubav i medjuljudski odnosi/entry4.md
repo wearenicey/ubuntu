@@ -63,7 +63,5 @@ Kako? Razgovorom, smernicama, objektivnim uvidima, pružanjem sigurne baze i sti
 Ukoliko primetite da postoji neki problem, koji ne možete samostalno rešiti, toplo vam preporučujem da  potražite stručnu pomoć psihoterapeutra koji vas može voditi na putu ka samoisceljenju. 
 
 
-*Autor teksta:*
-
-*Jelena Radovanović*
+Jelena Radovanović
 

@@ -42,5 +42,4 @@ Jedan od ciljeva psihoterapije može da bude i bolje upoznavanje sebe, ličnih s
 Tako da je preispitivanje lične motivacije za javljanje na psihoterapiju od velike važnosti za sam uspeh procesa psihoterapije.
 
 
-
 Bajić Aleksandra

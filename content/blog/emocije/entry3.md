@@ -52,5 +52,4 @@ U redu je da nam je potreban kontakt, društvo i bliskost, svi smo mi društvena
 Važno je isto tako razmisliti – da li smo sami zato što želimo da budemo sami ili smo sami zato što nas je strah da ćemo biti odbačeni, ako pustimo da nam se neko približi? I da li je ovo moderno doba društvenih mreža u kome deluje da smo svi povezani, da smo svi zajedno, a u stvari je dobar deo nas nikad usamljeniji?
 
 
-
 Aleksandra Bajić

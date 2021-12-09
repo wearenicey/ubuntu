@@ -22,7 +22,7 @@ metaDesc: "Sistemska porodična terapija se u najvećoj meri bavi porodicom i me
 
 Nikol O’Nil
 
-Razmišljajući o svom radu kao psihoterapeut, ali i o sebi kao klijentu često se setim različitih metafora koje sam koristila kako bih klijentu i sebi približila značenje misli i osećanja. Metaforom sam dobijala novu perspektivu, nešto što je zvučalo komplikovano postalo bi jednostavnije za prepoznati i razumeti. Metafora bi postala most između dva jezika, stvorila bi prostor za cirkulaciju osećanja između terapeuta i klijenta. Upravo to je razlog koji je naveo koleginice i mene da naš prvi blog tekst bude baš na ovu temu – da kroz koncept metafore otvorimo prozor u Sistemsku porodičnu terapiju.
+Razmišljajući o svom radu kao psihoterapeutu, ali i o sebi kao klijentu često se setim različitih metafora koje sam koristila kako bih klijentu i sebi približila značenje misli i osećanja. Metaforom sam dobijala novu perspektivu, nešto što je zvučalo komplikovano postalo bi jednostavnije za prepoznati i razumeti. Metafora bi postala most između dva jezika, stvorila bi prostor za cirkulaciju osećanja između terapeuta i klijenta. Upravo to je razlog koji je naveo koleginice i mene da naš prvi blog tekst bude baš na ovu temu – da kroz koncept metafore otvorimo prozor u Sistemsku porodičnu terapiju.
 
 Sistemska porodična terapija se u najvećoj meri bavi porodicom i metafora koja je najbolje opisuje je **čišćenje kuće –** to je, naime, ono što rade klijenti i terapeut. Najpre pregledaju kuću, utvrđuju stanje i problemske situacije. Potom dogovaraju odakle počinju čišćenje, šta je najvažnije, šta će ostaviti za kasnije, ko sve učestvuje u čišćenju, kako će podeliti odgovornost, ko će sarađivati i raditi timski od članova porodice, koje su snage porodice, na koji način psihoterapeut može da učestvuje u rasčišćavanju.
 
@@ -49,6 +49,7 @@ Metafora je korisna da približi članovima porodice koncept sistema kao celine,
 Ova metafora se često koristi kod takozvanih step-porodica (spajanje dve porodice) kako bi se ukazalo da proces izgradnje odnosa zahteva vreme i strpljenje da bi konstrukcija bila stabilna. Može se koristiti i kada pojedini članovi porodice prekinu, pa ponovo obnove odnos. 
 
 Koju biste vi metaforu koristili za vašu porodice? Kako biste opisali vaše odnose, komunikaciju, bliskost? Da li bi bila neka od navedenih ili imate neku koja vas podseća na vašu porodicu? Koju metaforu bi iskoristili članovi vaše porodice?
+
 
 Jana, Sneža i Daliborka
 

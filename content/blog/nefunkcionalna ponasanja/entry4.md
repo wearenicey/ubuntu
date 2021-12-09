@@ -70,5 +70,6 @@ Fraze poput „privlači pažnju“, „samo troši moje vreme“, „manipuliš
 
 Kao što smo videli, ljudi se mogu samopovređivati iz više razloga koji ne moraju biti međusobno isključivi. Ono što je važno imati na umu je da svako ko se samopovređuje radi to da bi ostvario određenu psihološku dobit – neko to radi da bi se osetio živim, neko da bi umanjio stres i napetost, a neko možda i da bi privukao pažnju. Najpre moramo otkriti koju to psihološku dobit osoba ostvaruje takvim ponašanjem kako bismo mogli da joj pomognemo da je ostvari na način koji ne uključuje nanošenje štete sebi.
 
+
 Darja Pačevski
 

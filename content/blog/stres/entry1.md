@@ -38,8 +38,11 @@ Druga vrsta stresa je distres i može se definisati kao štetan jer ometa normal
 
 ### Burnout
 
-Burnout sindrom ili sindrom izgaranja je stanje mentalne, emocionalne i fizičke ispcrpljenosti koje je prouzrokovano dugotrajnim i intenzivnim stresom. Kada je u burnout-u, osoba se oseća iscrpljeno, umanjena je njena produktivnost i ima osećaj da ne može da izađe na kraj sa zadacima koji joj se nameću. Treba razlikovati stres od izgaranja koje podrazumeva da osoba ne vidi perspektivu da će se bilo šta promeniti na bolje. Stres najčešće izaziva anksioznost, dok burnout može voditi u depresiju. Suština ovog sindroma je u doživljaju preplavljenosti obavezama i osećaju besmisla u vezi s tim.
+Burnout sindrom ili sindrom izgaranja je stanje mentalne, emocionalne i fizičke iscrpljenosti koje je prouzrokovano dugotrajnim i intenzivnim stresom. Kada je u burnout-u, osoba se oseća iscrpljeno, umanjena je njena produktivnost i ima osećaj da ne može da izađe na kraj sa zadacima koji joj se nameću. Treba razlikovati stres od izgaranja koje podrazumeva da osoba ne vidi perspektivu da će se bilo šta promeniti na bolje. Stres najčešće izaziva anksioznost, dok burnout može voditi u depresiju. Suština ovog sindroma je u doživljaju preplavljenosti obavezama i osećaju besmisla u vezi s tim.
 
 ### Prevencija stresa i sindroma izgaranja
 
 Sindrom izgaranja i stres su znaci da u našem životu nešto pogrešno funkcioniše i da treba da preispitamo ciljeve i prioritete. Potrebno je postaviti granice i obezbediti sebi vreme za odmor, obogatiti emocionalni i socijalni život, odustati od definisanja sebe kroz posao, naučiti neke relaksacione tehnike i obratiti se psihoterapeutu.
+
+
+Tijana Stojšić

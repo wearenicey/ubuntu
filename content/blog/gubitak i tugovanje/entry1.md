@@ -44,4 +44,5 @@ Istraživanja pokazuju da potiskivanje tuge dovodi do potiskivanja i drugih emoc
 
 U redu je i ako to ne možete sami. Možda je to nešto o čemu nikada i ni sa kim niste razgovarali. A ako ne možete sami, moguće je da to uradite u saradnji sa psihoterapeutom.
 
+
 Aleksandra Bajić
