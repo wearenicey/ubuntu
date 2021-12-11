@@ -46,6 +46,22 @@ module.exports = {
     //   }
     // },
 
+		// {
+    //   use: "gridsome-plugin-htaccess",
+    //   options: {
+    //     redirections: [
+    //       {
+    //         from: "/about",
+    //         to: "/about-us",
+    //       },
+    //       {
+    //         from: "/webp",
+    //         to: "https://dev.to/webp",
+    //       },
+    //     ],
+    //   },
+    // },
+
 		{
 			use: '@gridsome/source-filesystem',
 			options: {
