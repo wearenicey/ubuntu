@@ -26,7 +26,9 @@ Građenje odnosa i zajedničkog života podrazumeva adaptaciju, ali ne mora uvek
 
 Kada postoji neslaganje u važnim pitanjima, razgovor o tome doprinosi produbljivanju odnosa i boljem razumevanju. Ako biramo da ignorišemo stvari koje su nam značajne ili potiskujemo nešto, to će pre ili kasnije izbiti na površinu na mnogo ružnije načine. Međutim, svaka osoba može imati drugačiju predstavu o tome šta je adekvatno ponašanje tokom svađe. Zato je potrebno poštovati opšte principe zdravog konflikta.
 
-**Šta podrazumeva zdrav konflikt i koje su greške koje najčešće pravimo?**
+
+## Šta podrazumeva zdrav konflikt i koje su greške koje najčešće pravimo?
+
 
 Ljutnja koju osećamo tokom svađe je zahtev za promenom ponašnja. Afekat ljutnje je bes, a bes ponekad vodi gubitku kontrole nad rečima i delima. Važno je uvedeti da ljutnja nije napad na ličnost. Odnosno, **potrebno je adekvatno uputiti kritiku na ponašanje, a ne na biće osobe**. Kritika na biće je etiketiranje (a može biti i vređanje). Kada se identitet tj. ličnost veže za etiketu, promena je teška.
 
