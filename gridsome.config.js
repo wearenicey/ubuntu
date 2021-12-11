@@ -27,6 +27,25 @@ module.exports = {
 			}
 		},
 
+		// {
+    //   use: '@gridsome/plugin-sitemap',
+    //   options: {
+    //     exclude: ['/404'],
+    //     config: {
+    //       '/blog/**/*': {
+    //         changefreq: 'daily',
+    //         priority: 0.9,
+    //         lastmod: '2021-12-11',
+    //       },
+    //       '/online-savetovaliste/': {
+    //         changefreq: 'daily',
+    //         priority: 0.8,
+    //         lastmod: '2021-12-',
+    //       }
+    //     }
+    //   }
+    // },
+
 		{
 			use: '@gridsome/source-filesystem',
 			options: {
