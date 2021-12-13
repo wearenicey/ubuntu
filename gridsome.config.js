@@ -43,10 +43,41 @@ module.exports = {
 		        lastmod: '2021-12-11',
 		      },
 					'/savetovaliste-beograd/': {
-						changefreq: 'daily',
-						priority: 0.8,
-						lastmod: '2021-10-12',
-					},
+				changefreq: 'weekly',
+				priority: 0.9,
+				lastmod: '2021-10-12',
+			  },
+					'/savetovaliste-novi-sad/': {
+				changefreq: 'weekly',
+				priority: 0.9,
+				lastmod: '2021-10-12',
+			  },
+					'/online-savetovaliste/': {
+				changefreq: 'weekly',
+				priority: 0.9,
+				lastmod: '2021-10-12',
+			  },
+					'/karijera/': {
+				changefreq: 'monthly',
+				priority: 0.8,
+				lastmod: '2021-10-12',
+			  },
+					'/kontakt/': {
+				changefreq: 'monthly',
+				priority: 0.7,
+				lastmod: '2021-10-12',
+			  },
+					'/zasto-ubuntu/': {
+				changefreq: 'monthly',
+				priority: 0.8,
+				lastmod: '2021-10-12',
+			  },
+			   		'/donacije/': {
+				changefreq: 'monthly',
+				priority: 0.7,
+				lastmod: '2021-10-12',
+			  },
+					
 
 		    }
 		  }
