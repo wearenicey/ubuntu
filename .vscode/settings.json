@@ -17,5 +17,8 @@
       "strings": true
     },
     "editor.suggest.insertMode": "replace"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
   }
 }

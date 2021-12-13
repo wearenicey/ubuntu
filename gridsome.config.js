@@ -30,13 +30,24 @@ module.exports = {
 		{
 		  use: '@gridsome/plugin-sitemap',
 		  options: {
-		    exclude: ['/404'],
+		    exclude: ['/404', '/blog/2', '/blog/3'],
 		    config: {
-		      '/blog/**/*': {
+		      '/blog/*': {
 		        changefreq: 'daily',
 		        priority: 0.9,
 		        lastmod: '2021-12-11',
-		      }
+		      },
+					'/blog/*/*': {
+		        changefreq: 'daily',
+		        priority: 0.8,
+		        lastmod: '2021-12-11',
+		      },
+					'/savetovaliste-beograd/': {
+						changefreq: 'daily',
+						priority: 0.8,
+						lastmod: '2021-10-12',
+					},
+
 		    }
 		  }
 		},

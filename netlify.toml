@@ -2,3 +2,8 @@
   from = "https://www.ubuntucentar.com/savetovaliste-u-beogradu/"
   to = "/savetovaliste-beograd/"
   status = 301
+
+[[redirects]]
+  from = "https://www.ubuntucentar.com/blog/samopovredivanje/"
+  to = "/blog/nefunkcionalna-ponasanja/samopovredjivanje/"
+  status = 301
