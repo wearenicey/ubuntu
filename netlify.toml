@@ -64,7 +64,7 @@
   status = 301  
 
 [[redirects]]
-  from = https://www.ubuntucentar.com/category/blog/feed/"
+  from = "https://www.ubuntucentar.com/category/blog/feed/"
   to = "/blog/"
   status = 301  
 
