@@ -22,7 +22,7 @@ Anksioznost bismo najbolje mogli opisati kao osećaj napetosti i strepnje. To je
 
 ## Mnoga lica anksioznosti
 
-Postoje različiti tipovi ispoljavanja anksioznosti, koji se razlikuju po situacijama u kojima se javljaju: generalizovana anksioznost, socijala anksioznost, panični napadi, fobije, opsesivno-kompulzivni poremećaj. Ovo su neke od mogućih manifestacija anksioznosti, a u ovom tekstu ćemo se osvrnuti prvenstveno na socijalnu anksioznost, njene uzroke i načine na koje možemo da je prevaziđemo.
+Postoje različiti tipovi ispoljavanja anksioznosti, koji se razlikuju po situacijama u kojima se javljaju: generalizovana anksioznost, socijalna anksioznost, panični napadi, fobije, opsesivno-kompulzivni poremećaj. Ovo su neke od mogućih manifestacija anksioznosti, a u ovom tekstu ćemo se osvrnuti prvenstveno na socijalnu anksioznost, njene uzroke i načine na koje možemo da je prevaziđemo.
 
 ## Socijalna anksioznost
 
@@ -35,5 +35,4 @@ Za početak probajte da zapisujete misli koje se javljaju u vama uznemirujućim 
 Radite na sebi i jačajte svoje samopouzdanje.
 Ukoliko vam je teško da se sami suočite sa svojim strahovima, možete se odlučiti za psihološko savetovanje.
 
-
-Tijana Stojšić, master psiholog i praktičar transakcione analize
+Tijana Stojšić

@@ -40,7 +40,7 @@ Umesto da okrivljujemo drugu stranu, **potrebno je preuzeti svoj deo odgovornost
 
 **Priznavanje da problem postoji** i prihvatanje svog dela odgovornosti ne ostavlja mesto za stvaranje toksične atmosfere u vezi.
 
-**Uvažavanje međusobnih razlika doprinosi boljem razumevanju***. Ove razlike se mogu nalaziti u samoj biološkoj osnovi, mogu dolaziti iz kulturalnog ili socijalnog miljea, tome doprinosi i način na koji je neko bio vaspitavan ili u kakvoj je porodici osoba odrastala. Postoje još mnoge druge različitosti koje se mogu javiti među partnerima, a senzitivnost na te razlike i razumevanje doprinosi istinskom upoznavanju voljenog bića.
+**Uvažavanje međusobnih razlika doprinosi boljem razumevanju**. Ove razlike se mogu nalaziti u samoj biološkoj osnovi, mogu dolaziti iz kulturalnog ili socijalnog miljea, tome doprinosi i način na koji je neko bio vaspitavan ili u kakvoj je porodici osoba odrastala. Postoje još mnoge druge različitosti koje se mogu javiti među partnerima, a senzitivnost na te razlike i razumevanje doprinosi istinskom upoznavanju voljenog bića.
 
 Na promeni ponašanja se uvek može raditi, a prvi korak ka tome jeste upoznavanje sebe. Kvalitetu svakog odnosa doprinosi emocionalna pismenost i asertivna komunikacija. Ukoliko vam je potrebna podrška da osvestite ili prepoznate nefunkcionalne obrasce ponašanja u odnosu, možete potražiti psihološku podršku.
 

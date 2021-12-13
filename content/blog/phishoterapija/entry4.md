@@ -32,8 +32,7 @@ Još jedan pogrešan motiv javljanja na psihoterapiju. Osoba se javi da bi, na p
 
 ### Nerealni ciljevi
 
-Često očekivanje od psihoterapije bude da se problem koji traje godinama reši za jedan ili nekoliko susreta, odnosno razgovora sa psihoterapeutom. Ali u pitanju je proces, što znači da i oporavak, kao i sama promena traju. Na to ne možemo da utičemo. Ali ono na šta možemo je sadašnji trenutak u kome živimo, kao i način na koji razumemo svoju prošlost kako bismo sa njom mogli da živimo i sada i u budućnosti. 
-
+Često očekivanje od psihoterapije bude da se problem koji traje godinama reši za jedan ili nekoliko susreta, odnosno razgovora sa psihoterapeutom. Ali u pitanju je proces, što znači da i oporavak, kao i sama promena traju. Na to ne možemo da utičemo. Ali ono na šta možemo je sadašnji trenutak u kome živimo, kao i način na koji razumemo svoju prošlost kako bismo sa njom mogli da živimo i sada i u budućnosti.
 
 ### Promena je suština psihoterapije
 
@@ -41,5 +40,4 @@ Jedan od ciljeva psihoterapije može da bude i bolje upoznavanje sebe, ličnih s
 
 Tako da je preispitivanje lične motivacije za javljanje na psihoterapiju od velike važnosti za sam uspeh procesa psihoterapije.
 
-
-Bajić Aleksandra
+Aleksandra Bajić

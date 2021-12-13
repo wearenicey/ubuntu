@@ -2,7 +2,7 @@
 title: Šta možete očekivati od terapije i na prvoj seansi
 category: psihoterapija
 # ovo je i meta desc
-excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske, poslovne ili partnerske). 
+excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske, poslovne ili partnerske).
 created: 2021-11-27
 date: 2021.11.27
 image: sta-mozete-ocekivati.jpg
@@ -18,7 +18,6 @@ name: Aloo
 metaDesc: "Razlika između dobrog i lošeg iskustva može biti ogromna, pa je veoma važno znati šta možete očekivati na prvoj seansi."
 ---
 
-
 Inspiraciju da napišem ovaj tekst sam dobila kako iz svog iskustva i iskustva svojih prijatelja, tako i poučena iskustvom i očekivanjima svojih klijenata. Smatram da je nekim klijentima važno da znaju šta mogu da očekuju i da možda razbiju određene strahove i predrasude o prvoj seansi pa i o daljem toku terapije. Potpuno je prirodno da osećamo neizvesnost, uznemirenost pa i nervozu od tog prvog susreta. Krećemo u nešto nepoznato, a to ume da bude zastrašujuće.
 
 Često sam imala prilike da čujem i upotrebim onu rečenicu „terapija je najvažnije, životno ulaganje u sebe“. Odlučiti se za terapiju je jedan veliki korak u svačijem životu. Korak koji je odvažan i hrabar, pokazuje ljubav i brigu prema sebi i inicijativu za promenom. Ali, šta se dešava posle tog prvog koraka? Kako proces ide dalje kada se odvažimo da nazovemo i zakažemo prvu seansu?
@@ -29,7 +28,7 @@ Ovakvi strahovi, premišljanja i dvoumljena, iako su nekada neosnovani, jesu rea
 
 **Kako izgleda prva seansa?**
 
-Na prvoj seansi se odigrava upoznavanje. Važno je da klijent i terapeut razviju čvrstu vezu punu poverenja, a to sve započinje prvom seansom. Klijent uglavnom priča zašto je došao, šta ga muči i šta bi hteo da postigne dolaskom kod terapeuta. Ako ni sam nije siguran šta mu je potrebno, šta želi, i to je u redu. Ne mora doći spreman sa nekim određenim planom ili odgovorom na svako pitanje. U redu je da ne znamo šta nam treba. Terapeut je tu da zajedno sa klijentom pronikne do njegovih najdubljih potreba i želja. 
+Na prvoj seansi se odigrava upoznavanje. Važno je da klijent i terapeut razviju čvrstu vezu punu poverenja, a to sve započinje prvom seansom. Klijent uglavnom priča zašto je došao, šta ga muči i šta bi hteo da postigne dolaskom kod terapeuta. Ako ni sam nije siguran šta mu je potrebno, šta želi, i to je u redu. Ne mora doći spreman sa nekim određenim planom ili odgovorom na svako pitanje. U redu je da ne znamo šta nam treba. Terapeut je tu da zajedno sa klijentom pronikne do njegovih najdubljih potreba i želja.
 
 Na prvoj seansi se takođe dogovaraju tehničke stvari, na primer koliko često bi se susreti odvijali (nekada jednom nedeljno, nekada ređe od toga), koliko dugo traju, kako se vrši plaćanje, šta se dešava u slučaju propuštene seanse, itd.
 
@@ -51,6 +50,8 @@ Klijent proverava na prvoj seansi koliko mu se terapeut dopada, da li ga pažlji
 
 **Da li ću se odmah osećati bolje?**
 
-Kao što smo već rekli, terapija je proces koji traje. Nekada se dobro osećamo samo kada sa nekim ko nas pažljivo sluša podelimo svoja osećanja i sa seanse odemo sa olakšanjem, puni nade. Nekada će se desiti da se posle seanse osećamo zbunjeno, tužno i beznadežno. Bitno je znati da je to sve deo terapijskog procesa. Često se dešava da krenemo dva koraka unapred pa napravimo jedan unazad. To može delovati kao nešto strašno, kao kraj napretka, kao da nismo dobili ono po šta smo došli, a to je da se osećamo bolje. Međutim, sve je to deo uspona i padova koje doživljavamo i na svakodnevnom nivou. Ono što otkrijemo o sebi može biti previše bolno i tada nećemo osetiti olakšanje posle seanse. Ponekad nam ponestane motivacije i volje da radimo na sebi. Nekada nam misli odlaze u drugom pravcu. 
+Kao što smo već rekli, terapija je proces koji traje. Nekada se dobro osećamo samo kada sa nekim ko nas pažljivo sluša podelimo svoja osećanja i sa seanse odemo sa olakšanjem, puni nade. Nekada će se desiti da se posle seanse osećamo zbunjeno, tužno i beznadežno. Bitno je znati da je to sve deo terapijskog procesa. Često se dešava da krenemo dva koraka unapred pa napravimo jedan unazad. To može delovati kao nešto strašno, kao kraj napretka, kao da nismo dobili ono po šta smo došli, a to je da se osećamo bolje. Međutim, sve je to deo uspona i padova koje doživljavamo i na svakodnevnom nivou. Ono što otkrijemo o sebi može biti previše bolno i tada nećemo osetiti olakšanje posle seanse. Ponekad nam ponestane motivacije i volje da radimo na sebi. Nekada nam misli odlaze u drugom pravcu.
 
 To nije ništa neobično, ljudi smo od krvi i mesa, sa svojim manama i vrlinama i nemoguće je da uvek budemo savršeni u nečemu. Ako se ne osećamo dobro povodom svog napretka, ili izostanka istog na terapiji, bitno je da to iskomuniciramo sa svojim terapeutom i proverimo kakva očekivanja imamo od sebe, kao i da li su ona realna.
+
+Aleksandra Bajić

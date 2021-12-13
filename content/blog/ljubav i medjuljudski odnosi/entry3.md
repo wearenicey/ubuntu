@@ -33,11 +33,11 @@ Zbog toga što smo izvestan vremenski period proveli u vezi koja nije bila dobra
 
 ## Odluka 
 
-Za nastavak dalje nakon prekida veze, potrebno je da donesemo odluku da želimo da idemo dalje. A to znači da se ne vraćamo nazad, u prošlost i ne kritikujemo sebe ili bivšeg partnera/ partnerku: „Kako je mogao/la to da uradi?”, „Zašto je to uradio/la?”, „Da sam znao/la ranije…”, „Ja sam se toliko trudio/la, a on/a tako.”  Kada prođe vreme i kada sagledamo deo svoje odgovornosti u tom odnosu i sami ćemo odlučiti da krenemo dalje ka nekim novim ciljevima i boljim odnosiima. I sasvim je ok doneti odluku da ćemo više voleti sebe, postaviti i poštovati svoje granice, oprostiti sebi i drugome što nismo umeli bolje, pa zatim nastaviti dalje.
+Za nastavak dalje nakon prekida veze, potrebno je da donesemo odluku da želimo da idemo dalje. A to znači da se ne vraćamo nazad, u prošlost i ne kritikujemo sebe ili bivšeg partnera/ partnerku: „Kako je mogao/la to da uradi?”, „Zašto je to uradio/la?”, „Da sam znao/la ranije…”, „Ja sam se toliko trudio/la, a on/a tako.”  Kada prođe vreme i kada sagledamo deo svoje odgovornosti u tom odnosu i sami ćemo odlučiti da krenemo dalje ka nekim novim ciljevima i boljim odnosima. I sasvim je ok doneti odluku da ćemo više voleti sebe, postaviti i poštovati svoje granice, oprostiti sebi i drugome što nismo umeli bolje, pa zatim nastaviti dalje.
 
-Često se desi  i  da  damo sebi vremena, donesemo odluku da idemo dalje, učimo da više brinemo o sebi , a i dalje imamo osećaj da nam nešto nedostaje.  Ono za čim žalimo obično bude ono za šta smo mislili da taj odnos ili osoba može biti. To je žal za fantazijom, predstavom koju smo imali , ali ni partner ni odnos nisu bili takvi i zato se sve to i završilo. 
+Često se desi  i  da  damo sebi vremena, donesemo odluku da idemo dalje, učimo da više brinemo o sebi, a i dalje imamo osećaj da nam nešto nedostaje.  Ono za čim žalimo obično bude ono za šta smo mislili da taj odnos ili osoba može biti. To je žal za fantazijom, predstavom koju smo imali, ali ni partner ni odnos nisu bili takvi i zato se sve to i završilo. 
 
 Tada bi bilo dobro usredsrediti se ne na ono što smo izgubili, već na ono šta smo iz toga naučili. Osećaćemo se bolje, sigurno.
 
 
-Bajić Aleksandra
+ Aleksandra Bajić

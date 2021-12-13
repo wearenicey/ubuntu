@@ -55,4 +55,4 @@ Pojava sezonske depresije je veoma česta. Ako svemu ovome dodamo i novonastalo 
 Briga o sebi kao i nega sebe jeste od velike pomoći kada kreće sezona kiša i zimski period. Pobrinite se za sebe tako što ćete uz neki vaš omiljeni topli napitak ispod ćebeta, pogledati film ili seriju, pročitati knjigu ili samo biti u društvu drage osobe ili ljubimca. Ono što još možemo sami i sigurno će pozitivno uticati na raspoloženje i energiju, jeste da dosta vremena provodimo napolju, naročito po danu. Svež vazduh i prirodna svetlost uvek imaju pozitivan uticaj na organizam. Fizička aktivnost i izbalansirana ishrana dokazano imaju pozitivan uticaj na raspoloženje, san i celokupno zdravlje. Svakako, ukoliko i pored svih saveta, imate osećaj sniženog raspoloženja, osećaj da vas ne ispunjavaju situacije koje tokom leta jesu i da se to ponavlja već drugu (ili više) jesen/i (zime) zaredom, vrlo je verovatno da imate sezonsku depresiju, te razgovor sa psihologom ili psihoterapeutom može biti od izuzetne važnosti.
 
 
-Ivana Zeljković, Master Psiholog
+Ivana Zeljković

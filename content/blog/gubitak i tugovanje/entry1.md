@@ -20,7 +20,7 @@ metaDesc: "Tekst o tuzi i tugovanju. Suočavanje, prihvatanje i manifestacije gu
 
 Svi se mi tokom života susretnemo sa gubitkom. Neko zbog prekida veze, razvoda, prekida prijateljstva, promene posla, preseljenja, a nekome ugine kućni ljubimac. Svaki od ovih gubitaka je težak. Ali gubitak koji izazove smrt bliske osobe (roditelja, partnera, deteta,...) jedan je od najstresnijih događaja a kao takav je jako težak i bolan.
 
-„Tebi je lakše, ti si bila mala.“ „ Lakše ti je, čega se ti sećaš?“ „Meni je teže!“ Odzvanjaju mi u glavi te rečenice. Nisam ništa rekla, ali ona jeste. Imala je potrebu , znajući moju životnu priču da poredi njen i moj gubitak, njen i moj bol. A da li to može da se uporedi? Naravno, NE. Svaki gubitak je težak, a onome ko ga doživi je najteži. To je nešto s čim će da živi.
+„Tebi je lakše, ti si bila mala.“ „ Lakše ti je, čega se ti sećaš?“ „Meni je teže!“ Odzvanjaju mi u glavi te rečenice. Nisam ništa rekla, ali ona jeste. Imala je potrebu, znajući moju životnu priču da poredi njen i moj gubitak, njen i moj bol. A da li to može da se uporedi? Naravno, NE. Svaki gubitak je težak, a onome ko ga doživi je najteži. To je nešto s čim će da živi.
 
 ## SUOČAVANJE I PRIHVATANJE GUBITKA
 
@@ -32,7 +32,7 @@ Tuga nas nauči da nam je neko bio važan, više ga nema, ostala je praznina koj
 
 ## RAZLIČITE MANIFESTACIJE TUGE
 
-Tuga se može maniifestovati i kroz telesne simptome kao što su pritisak u grudima, nedostatak vazduha, glavobolja, suvoća usta, opšta slabost, umor. Može se manifestovati i kroz nevericu i negiranje da se smrt desila, kroz samooptuživanje šta smo sve mogli, a nismo, kroz plakanje, nesanicu, gubitak apetita , kroz teškoću da se organizujemo, živimo i radimo kao ranije. Sve ove reakcije su normalne za proces tugovanja. Kad dobijemo dovoljno podrške drugih i dozvolimo sebi da osetimo tugu, prihvatimo gubitak, ove reakcije će se polako smanjivati i vremenom nestati.
+Tuga se može manifestovati i kroz telesne simptome kao što su pritisak u grudima, nedostatak vazduha, glavobolja, suvoća usta, opšta slabost, umor. Može se manifestovati i kroz nevericu i negiranje da se smrt desila, kroz samooptuživanje šta smo sve mogli, a nismo, kroz plakanje, nesanicu, gubitak apetita , kroz teškoću da se organizujemo, živimo i radimo kao ranije. Sve ove reakcije su normalne za proces tugovanja. Kad dobijemo dovoljno podrške drugih i dozvolimo sebi da osetimo tugu, prihvatimo gubitak, ove reakcije će se polako smanjivati i vremenom nestati.
 
 ## PONEKAD SE LJUDI UPLAŠE TUGE
 
@@ -43,6 +43,5 @@ Može da se dogodi da kad se tema tuge pokrene u društvu, počnemo da se izvinj
 Istraživanja pokazuju da potiskivanje tuge dovodi do potiskivanja i drugih emocija, naročito radosti, tako da dolazi do bezvoljnosti, manjka energije, pojave depresije. Tuga je zdrava emocija i njena pojava je normalna u situacijama gubitka. Ona ima svoj početak, razvoj i kraj. S druge strane, potiskivanje tuge može beskrajno da traje jer se tako sprećava psihološko razrešenje.
 
 U redu je i ako to ne možete sami. Možda je to nešto o čemu nikada i ni sa kim niste razgovarali. A ako ne možete sami, moguće je da to uradite u saradnji sa psihoterapeutom.
-
 
 Aleksandra Bajić
