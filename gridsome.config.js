@@ -49,6 +49,7 @@ module.exports = {
 		{
 			use: "gridsome-plugin-htaccess",
 			options: {
+				forceHttps: true,
 				redirections: [
 					{
 						from: "https://www.ubuntucentar.com/savetovaliste-u-beogradu/",

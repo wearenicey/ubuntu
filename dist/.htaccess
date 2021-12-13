@@ -1,3 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
 # Permanents redirections (301)
 Redirect 301 https://www.ubuntucentar.com/savetovaliste-u-beogradu/ /savetovaliste-beograd/
 Redirect 301 https://www.ubuntucentar.com/blog/samopovredivanje/ /blog/nefunkcionalna-ponasanja/samopovredjivanje/
@@ -23,4 +25,5 @@ Redirect 301 http://www.ubuntucentar.com/uncategorized/anksioznost/feed/ /blog/a
 Redirect 301 http://www.ubuntucentar.com/author/admin/feed/ /blog
 Redirect 301 https://www.ubuntucentar.com/feed/ /blog
 Redirect 301 http://www.ubuntucentar.com/feed/ /blog
+</IfModule>
 
