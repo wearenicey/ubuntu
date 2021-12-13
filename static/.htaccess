@@ -1,3 +1,10 @@
+# Users' browser will be forced to visit the HTTPS version of your web app
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+
 # Permanents redirections (301)
 Redirect 301 https://www.ubuntucentar.com/savetovaliste-u-beogradu/ /savetovaliste-beograd/
 Redirect 301 https://www.ubuntucentar.com/blog/samopovredivanje/ /blog/nefunkcionalna-ponasanja/samopovredjivanje/
