@@ -25,6 +25,7 @@
 		"vue-backtotop": "^1.6.1",
 		"vue-backtotop-ssr": "^1.6.3",
 		"vue-horizontal": "^0.8.12",
+		"vue-infinite-loading": "^2.4.5",
 		"vue-share-buttons": "^1.1.0",
 		"vue-social-sharing": "^3.0.8",
 		"vuelidate": "^0.7.6"

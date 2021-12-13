@@ -5,11 +5,13 @@ require('~/main.css')
 import DefaultLayout from '~/layouts/Default.vue'
 import Vuelidate from 'vuelidate'
 
+import InfiniteLoading from 'vue-infinite-loading'
 
 
 
 export default function (Vue, { router, head, isClient }) {
 
+	Vue.use(InfiniteLoading)
 
 	Vue.mixin({
 		directives: {
