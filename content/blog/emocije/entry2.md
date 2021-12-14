@@ -25,7 +25,7 @@ Pa ipak, dosta mojih klijenata ima problem sa njihovim prepoznavanjem i razlikov
 
 Kada nismo sigurni šta osećamo i zašto, uzrok tome je često to što nismo u kontaktu sa svojim emocijama i potrebama. To znači da smo negde duboko zakopali osećanja koja su nam neprijatna i bolna i rešili da tu fioku više ne otvaramo. Pa ipak, sva ta osećanja koja smatramo neprijatnim su znak da nam nešto ne odgovara, da nešto treba menjati i prilagođavati, i zato ih je korisno osećati. Štaviše, ona su nam vrlo korisni saveznici, zato je važno razlikovati ih i prepoznavati.
 
-Različiti naučnici su postavili teorije o osnovnim emocijama, a one su: sreća, tuga, ljutnja, strah, gađenje i iznenađenje.
+Različiti naučnici su postavili teorije o osnovnim emocijama, a one su: sreća, tuga, [ljutnja](/blog/emocije/uvod-u-osnovne-emocije-ljutnja), strah, gađenje i iznenađenje.
 
 **Sreća**
 

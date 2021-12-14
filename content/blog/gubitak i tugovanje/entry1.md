@@ -40,7 +40,7 @@ Može da se dogodi da kad se tema tuge pokrene u društvu, počnemo da se izvinj
 
 ## POTISKIVANJE TUGE MOŽE IZAZVATI DEPRESIJU
 
-Istraživanja pokazuju da potiskivanje tuge dovodi do potiskivanja i drugih emocija, naročito radosti, tako da dolazi do bezvoljnosti, manjka energije, pojave depresije. Tuga je zdrava emocija i njena pojava je normalna u situacijama gubitka. Ona ima svoj početak, razvoj i kraj. S druge strane, potiskivanje tuge može beskrajno da traje jer se tako sprećava psihološko razrešenje.
+Istraživanja pokazuju da potiskivanje tuge dovodi do potiskivanja i drugih emocija, naročito radosti, tako da dolazi do bezvoljnosti, manjka energije, pojave [depresije](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja). Tuga je zdrava emocija i njena pojava je normalna u situacijama gubitka. Ona ima svoj početak, razvoj i kraj. S druge strane, potiskivanje tuge može beskrajno da traje jer se tako sprećava psihološko razrešenje.
 
 U redu je i ako to ne možete sami. Možda je to nešto o čemu nikada i ni sa kim niste razgovarali. A ako ne možete sami, moguće je da to uradite u saradnji sa psihoterapeutom.
 
