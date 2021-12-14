@@ -22,7 +22,7 @@ Početak je decembra, u jesen smo već duboko zagazili, a i zima je na pomolu. M
 
 ## Šta je depresija?
 
-Kako bismo razlikovali sezonsku depresiju od depresije, najpre bih pojasnila i definisala kako izgleda kad neko ima dijagnozu depresije. Važno je istaći da je potrebno da osoba ima depresivno raspoloženje, gubitak interesovanja i zadovoljstva kao i smanjenu energiju svaki dan, tokom većeg dela dana i to minimum dve nedelje, uglavnom bez jasnog stresogenog uzroka. Karakteristično je i da osoba ima poremećaj spavanja kao i pesimistično razmišljanje, nesposobnost za uživanje, odsustvo radosti i veselosti, lošu koncentraciju.
+Kako bismo razlikovali sezonsku depresiju od depresije, najpre bih pojasnila i definisala kako izgleda kad neko ima dijagnozu [depresije](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja). Važno je istaći da je potrebno da osoba ima depresivno raspoloženje, gubitak interesovanja i zadovoljstva kao i smanjenu energiju svaki dan, tokom većeg dela dana i to minimum dve nedelje, uglavnom bez jasnog stresogenog uzroka. Karakteristično je i da osoba ima poremećaj spavanja kao i pesimistično razmišljanje, nesposobnost za uživanje, odsustvo radosti i veselosti, lošu koncentraciju.
 
 ## Sezonska depresija
 

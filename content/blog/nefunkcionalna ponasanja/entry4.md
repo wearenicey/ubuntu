@@ -54,7 +54,7 @@ Kada neko ko je pod stresom nema zreo i efikasan način nošenja sa stresom, on 
 
 5. Samopovređivanje kao fizički izraz emocionalnog bola
 
-Kod osoba koje osećaju intenzivan stid, anksioznost, depresiju ili očajanje sečenje može da bude fizička ekspresija emocionalnog bola i ona individui omogućava da ima vidljivi dokaz tog bola. Ponekad osobe koje se samopovređuju govore o svojim ranama i ožiljcima kako bi drugima ukazale na bol koji osećaju iznutra u nadi da će im neko pomoći da izađu na kraj s njim.
+Kod osoba koje osećaju intenzivan stid, [anksioznost](/blog/anksioznost-i-anksiozni-poremecaji/sta-je-aksioznost), [depresiju](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja) ili očajanje sečenje može da bude fizička ekspresija emocionalnog bola i ona individui omogućava da ima vidljivi dokaz tog bola. Ponekad osobe koje se samopovređuju govore o svojim ranama i ožiljcima kako bi drugima ukazale na bol koji osećaju iznutra u nadi da će im neko pomoći da izađu na kraj s njim.
 
 6. Samopovređivanje kao oblik samonege
 
