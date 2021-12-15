@@ -22,37 +22,37 @@ Trudim se da što manje idem liftom, što zbog negovanja sportskog duha, što zb
 
 Jutros sam ipak krenula liftom, imala sam puno toga da ponesem. Nešto je spor, neuobičajeno spor, šta ako se zaglavim...proletela mi je misao. Ulazim u lift, sve je ok, ali šta ako se zaglavim i ostanem bez vazduha, stiskam dugme i lift kreće. Razmišljam šta sve treba da uradim danas, hoću li stići, tek sad vidim fleku na košulji, hoću da se presvučem, kako je spor, ostaću bez vazduha. Malo se zatrese između spratova, zbog potpunijeg ugođaja. Znoje mi se dlanovi, srce jače lupa, da to je to ostaću zarobljena u liftu, ne mogu da dođem do vazduha, žmarci u prstima mi prolaze, ako ikada izađem živa iz ovog lifta, nikada više neću ići liftom.
 
-Ovo je bio prikaz jednog blagog paničnog napada, počevši od toka misli, samozastrašujućih ideja, do fizioloških promena i fizičkih reakcija.
+Ovo je bio prikaz jednog **blagog paničnog napada**, počevši od toka misli, samozastrašujućih ideja, do fizioloških promena i fizičkih reakcija.
 
-**Panični napadi i panični poremećaj**
+## Panični napadi i panični poremećaj
 
-Panični napadi su česta pojava kod ljudi, nekada su blaži, a nekada jači i remete svakodnevno funkcionisanje. Panični poremećaj se može dijagnostikovati kada su učestali panični napadi i kada osoba puno vremena strepi i iščekuje kada će biti sledeći panični napad.
+Panični napadi su česta pojava kod ljudi, nekada su blaži, a nekada jači i remete svakodnevno funkcionisanje. **Panični poremećaj** se može dijagnostikovati kada su učestali panični napadi i kada osoba puno vremena strepi i iščekuje kada će biti sledeći panični napad.
 
 Neki ljudi se sažive sa svojim paničnim napadima i uspevaju da izađu na kraj sa njima, dok drugi zbog paničnih napada izbegavaju neke situacije. Vrlo često osoba nalazi neku vezu između određene situacije i paničnog napada i onda izbegava tu situaciju.
 
-**Kako izgleda panični napad?**
+## Kako izgleda panični napad?
 
 Panični napad je iznenadni doživljaj veoma jakog straha ili izrazite neprijatnosti u situaciji u kojoj se većina ljudi ne bi tako osećala. U toku paničnog napada mogu se javiti sledeći simptomi:
 
-- Otežano disanje ili nedostatak vazduha
+- **Otežano disanje** ili **nedostatak vazduha**
 
-- Ubrzan rad srca ili lupanje srca
+- **Ubrzan rad srca** ili **lupanje srca**
 
 - Trnjenje ili žmarci u prstima
 
 - Izmaglica, zamućen vid
 
-- Vrtoglavica
+- **Vrtoglavica**
 
 - Preznojavanje
 
-- Nesvestica
+- **Nesvestica**
 
-- Bol u grudima
+- **Bol u grudima**
 
 - Vrući ili hladni talasi po telu
 
-- Gušenje
+- **Gušenje**
 
 - Potreba da se pobegne
 
@@ -60,7 +60,7 @@ Panični napad je iznenadni doživljaj veoma jakog straha ili izrazite neprijatn
 
 - Potreba da se odmah ide u toalet
 
-- Napetost u mišićima
+- **Napetost u mišićima**
 
 - Treperenje u stomaku ili muka
 
@@ -68,13 +68,13 @@ Panični napad je iznenadni doživljaj veoma jakog straha ili izrazite neprijatn
 
 - Stah da ćete umreti, izgubiti kontrolu nad sobom, ili poludeti
 
-**Zašto se dešavaju panični napadi?**
+## Zašto se dešavaju panični napadi?
 
 Retko je jedan uzrok paničnih napada, najčešće je prisutna kombinacija različitih faktora
 
 **1.Stres**
 
-Pre pojave paničnog napada, osoba je često pod pojačanim stresom. Šta sve može biti uzrok stresa: nedovoljno spavanje, nizak nivo šećera u krvi, iscrpljenost, preterano uzimanje alkoholnih pića ili droga, sukobi i svađe, teškoće u odnosima sa ljudima, materijalni problemi, smrt ili teška bolest bliske osobe, telesna bolest, napeta situacija na poslu.
+Pre pojave paničnog napada, osoba je često pod pojačanim stresom. Šta sve može biti uzrok stresa: **nedovoljno spavanje**, **nizak nivo šećera u krvi**, iscrpljenost, preterano uzimanje alkoholnih pića ili droga, sukobi i svađe, teškoće u odnosima sa ljudima, materijalni problemi, smrt ili teška bolest bliske osobe, telesna bolest, napeta situacija na poslu.
 
 **2. Sklonost**
 
