@@ -38,9 +38,7 @@
 					</div>
 					<div class="mt-10 flex block justify-center">
 						<div class="inline-flex">
-							<a href="tel:+381658286881" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
-								Nazovi za konsultaciju
-							</a>
+							<a href="tel:+381658286881" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Nazovi za konsultaciju </a>
 						</div>
 					</div>
 
@@ -928,10 +926,14 @@
 										>
 											Pošalji poruku
 										</button>
-										<div class="pt-5">
-											<p class="typo__p" v-if="formData.submitStatus === 'OK'">Poruka je poslata!</p>
-											<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Popunite ispravno formu.</p>
-											<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Šalje se...</p>
+										<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100" v-if="formData.submitStatus === 'OK'">
+											<p class="typo__p">Poruka je poslata!</p>
+										</div>
+										<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-red-900 bg-red-100" v-if="formData.submitStatus === 'ERROR'">
+											<p class="typo__p">Popunite ispravno formu.</p>
+										</div>
+										<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-blue-900 bg-blue-100" v-if="formData.submitStatus === 'PENDING'">
+											<p class="typo__p">Poruka se šalje...</p>
 										</div>
 									</div>
 								</form>
