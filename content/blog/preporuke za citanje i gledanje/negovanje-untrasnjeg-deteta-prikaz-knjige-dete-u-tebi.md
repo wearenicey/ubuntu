@@ -1,5 +1,5 @@
 ---
-title: Negovanje unutrašnjeg deteta – prikaz knjige „Dete u tebi mora da pronađe svoj zavičaj“
+title: Recenzija knjige „Dete u tebi mora da pronađe svoj zavičaj“
 category: preporuke-za-citanje-i-gledanje
 # ovo je i meta desc
 excerpt:  Prikaz knjige koja nas uči kako da sagledamo i preispitamo svoja uverenja o sebi, prihvatimo da su ona deo nas i da smo njima pokušali da se zaštitimo i preživimo.
