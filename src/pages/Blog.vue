@@ -1,18 +1,18 @@
 <template>
 	<Layout>
 		<div>
-			<div class="relative max-w-7xl mx-auto">
-				<Scroll />
-			</div>
 			<div class="relative max-w-7xl mx-auto px-6 mt-20 sm:px-0">
 				<div class="text-center">
 					<h1 class="text-3xl text-gray-800 sm:text-4xl">Ubuntu Blog</h1>
 					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Naši terapeuti pišu za vas</p>
 					<div class="mt-10"></div>
 				</div>
+				<div class="relative max-w-7xl mx-auto">
+					<Scroll />
+				</div>
 				<div class="posts">
 					<transition name="fade">
-						<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+						<div class="mt-4 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 							<div v-for="blog of loadedPosts" :key="blog.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden tst">
 								<div class="flex-shrink-0">
 									<a :href="blog.node.path">

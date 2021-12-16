@@ -130,6 +130,12 @@ export default {
 				},
 
 				{
+					key: "og:type",
+					name: "og:type",
+					content: "article",
+				},
+
+				{
 					key: "og:description",
 					name: "og:description",
 					content: this.$page.post.metaDesc,
