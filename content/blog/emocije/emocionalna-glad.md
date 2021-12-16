@@ -24,7 +24,7 @@ Potreba za hranom jedna je od osnovnih ljudskih potreba. Hrana nam je potrebna d
 
 Nakon što naučimo da ih razlikujemo, potrebno je da pronađemo šta nam je okidač, šta je to što pokreće našu _emocionalnu glad_.
 
-**Četiri okidača emocionalne gladi**
+## Četiri okidača emocionalne gladi
 
 1. **_Stres_** – U stresnom period, hrana koju pojedemo ima za cilj da podigne nivo hormona zadovoljstva u mozgu od čega nam odmah bude prijatnije, a stres bude manji. Na taj način se stvara navika povezivanja hrane sa zadovoljstvom, a vremenom se može pojaviti i višak kilograma. Ukoliko nam se nešto jako jede treba da proverimo sa sobom da li smo pod stresom jer ima i boljih načina da se oslobodimo stresa.
 

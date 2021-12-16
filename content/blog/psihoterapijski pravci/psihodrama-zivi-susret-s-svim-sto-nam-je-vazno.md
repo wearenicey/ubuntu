@@ -19,7 +19,7 @@ metaDesc: "Psihodrama je prvenstveno grupni akcioni metod psihoterapije ali se k
 ---
 
 
-Osnivač psihodrame i sociometrije je Jakob Levi Moreno (1889-1974) i on je jedan od glavnih začetnika grupne psihoterapije,”posvećen svojoj viziji da ljudi prepoznaju božanstvenu prirodu unutar samih sebe”(Džokić, Moć psihodrame). 
+Osnivač psihodrame i sociometrije je Jakob Levi Moreno (1889-1974) i on je jedan od glavnih začetnika grupne psihoterapije,”posvećen svojoj viziji da ljudi prepoznaju božanstvenu prirodu unutar samih sebe” (Džokić, Moć psihodrame). 
 
 Psihodrama je prvenstveno grupni akcioni metod psihoterapije ali se koristi i u individualnom radu s tim što tada ulogu pomoćnih egoa preuzimaju predmeti dok u grupi to čine članovi grupe. U svojoj suštini, psihodrama je egzistencijalistička, humanistička terapija koja čoveka posmatra celovito i sa verom u zdrave potencijale svakog pojedinca. 
 

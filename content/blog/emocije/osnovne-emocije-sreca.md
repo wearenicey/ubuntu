@@ -27,7 +27,7 @@ Kada nismo sigurni šta osećamo i zašto, uzrok tome je često to što nismo u 
 
 Različiti naučnici su postavili teorije o osnovnim emocijama, a one su: sreća, tuga, [ljutnja](/blog/emocije/uvod-u-osnovne-emocije-ljutnja), strah, gađenje i iznenađenje.
 
-**Sreća**
+## Sreća
 
 Sreća je emocija koja nam je vrlo prijatna. Kao i svaka emocija ona ima svoj "rok trajanja", tako da se često meša sa zadovoljstvom ili blagostanjem, koje je ipak stanje u kom možemo biti neko duže vreme. Sreća je takođe vrlo individualna emocija - ono što nas čini srećnim, ne mora da važi i za druge osobe. 
 
@@ -41,7 +41,7 @@ Pa opet, nekima je teško da izraze i pokažu sreću. To se dešava iz različit
 
 U vrlo ranom uzrastu deca usvajaju od značajnih odraslih da izražavanje emocija nije poželjno, da je to nešto što treba suzbiti i držati za sebe, da nam glasan smeh ne priliči ili da će nam ta sreća iskliznuti iz ruku u momentu kada je jasno i glasno izrazimo. To može i objasniti rečenicu koju smo svi čuli bar jednom - "Nemoj toliko da se smeješ, posle ćeš plakati". Rečenica izazvana strahom i magijskim uverenjem da će osećanje sreće biti vrlo kratkotrajno, kako to obično biva, i da ćemo biti kažnjeni tako što će sreća biti zamenjena tugom.
 
-` `Klijenti koji su odrasli pod takvim uverenjima imaju teškoću da osete sreću (i druge emocije) punim plućima kao i da je izraze (rečima, osmehom, smehom, zagrljajem). Ako osetimo problem da nismo sigurni šta nas čini srećnima, dobra vežba je da se setimo koje aktivnosti su nam donosile radost u detinjstvu, šta smo radili sa uživanjem i bez stresa.
+Klijenti koji su odrasli pod takvim uverenjima imaju teškoću da osete sreću (i druge emocije) punim plućima kao i da je izraze (rečima, osmehom, smehom, zagrljajem). Ako osetimo problem da nismo sigurni šta nas čini srećnima, dobra vežba je da se setimo koje aktivnosti su nam donosile radost u detinjstvu, šta smo radili sa uživanjem i bez stresa.
 
 Na suprotnom kraju tog kontinuuma koga u ovom tekstu zovemo sreća, je konstantan pritisak u današnjem svetu da sreću treba osećati stalno. Bombardovani smo tekstovima i receptima kako ulepšati svoj život, kako privući novac, sreću, kako naći prečicu, zaobići tugu i skočiti pravo u srećne momente. 
 
