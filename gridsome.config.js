@@ -32,6 +32,11 @@ module.exports = {
 			options: {
 				exclude: ['/404', '/blog/2', '/blog/3'],
 				config: {
+					'/blog/': {
+						changefreq: 'daily',
+						priority: 0.9,
+						lastmod: '2021-12-11',
+					},
 					'/blog/*': {
 						changefreq: 'daily',
 						priority: 0.9,
