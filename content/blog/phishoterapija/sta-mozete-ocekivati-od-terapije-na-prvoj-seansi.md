@@ -53,5 +53,7 @@ Klijent proverava na prvoj seansi koliko mu se terapeut dopada, da li ga pažlji
 Kao što smo već rekli, terapija je proces koji traje. Nekada se dobro osećamo samo kada sa nekim ko nas pažljivo sluša podelimo svoja osećanja i sa seanse odemo sa olakšanjem, puni nade. Nekada će se desiti da se posle seanse osećamo zbunjeno, tužno i beznadežno. Bitno je znati da je to sve deo terapijskog procesa. Često se dešava da krenemo dva koraka unapred pa napravimo jedan unazad. To može delovati kao nešto strašno, kao kraj napretka, kao da nismo dobili ono po šta smo došli, a to je da se osećamo bolje. Međutim, sve je to deo uspona i padova koje doživljavamo i na svakodnevnom nivou. Ono što otkrijemo o sebi može biti previše bolno i tada nećemo osetiti olakšanje posle seanse. Ponekad nam ponestane motivacije i volje da radimo na sebi. Nekada nam misli odlaze u drugom pravcu.
 
 To nije ništa neobično, ljudi smo od krvi i mesa, sa svojim manama i vrlinama i nemoguće je da uvek budemo savršeni u nečemu. Ako se ne osećamo dobro povodom svog napretka, ili izostanka istog na terapiji, bitno je da to iskomuniciramo sa svojim terapeutom i proverimo kakva očekivanja imamo od sebe, kao i da li su ona realna.
-gri
+
+
+
 Aleksandra Biberdžić
