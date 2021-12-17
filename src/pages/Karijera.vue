@@ -188,7 +188,6 @@
 			</div>
 		</div>
 
-
 		<div class="mt-16 pb-16 bg-green-900 lg:pb-0 lg:z-10 lg:relative" style="z-index: 99">
 			<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
 				<div class="relative lg:-my-8">
@@ -222,7 +221,6 @@
 			</div>
 		</div>
 
-
 		<svg class="hidden lg:block absolute mt-36" width="240" height="1086" viewBox="0 0 240 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<circle cx="-303" cy="543" r="543" fill="#FEF2F2" />
 		</svg>
@@ -236,7 +234,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Koji je tip zaposlenja/saradnje? </span>
 									<span class="ml-6 h-7 flex items-center">
-							
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -253,7 +250,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Kolika je nadoknada za angažovanje u centru?</span>
 									<span class="ml-6 h-7 flex items-center">
-			
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -271,7 +267,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Da li se radi puno radno vreme, parcijalno ili se radi od kuće sa brojem klijenata po želji? </span>
 									<span class="ml-6 h-7 flex items-center">
-						
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -287,7 +282,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900">Koji stepen angažovanja se zahteva?</span>
 									<span class="ml-6 h-7 flex items-center">
-					
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -303,7 +297,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Koji su preduslovi da bismo postali psihoterapeut?</span>
 									<span class="ml-6 h-7 flex items-center">
-								
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -322,7 +315,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Kako započeti karijeru psihoterapeuta? </span>
 									<span class="ml-6 h-7 flex items-center">
-							
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -341,7 +333,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Ko je i šta radi psiholog?</span>
 									<span class="ml-6 h-7 flex items-center">
-							
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -358,7 +349,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900"> Ko je i šta radi psihijatar?</span>
 									<span class="ml-6 h-7 flex items-center">
-							
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -375,7 +365,6 @@
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
 									<span class="font-medium text-gray-900">Ko je i šta radi psihoterapeut?</span>
 									<span class="ml-6 h-7 flex items-center">
-								
 										<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 										</svg>
@@ -389,7 +378,6 @@
 								</p>
 							</dd>
 						</div>
-
 					</dl>
 				</div>
 			</div>
@@ -410,9 +398,7 @@
 					</p>
 					<div class="mt-8">
 						<div class="inline-flex rounded-3xl shadow">
-							<a href="/zasto-ubuntu" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-gray-700">
-								Saznaj više o Ubuntu Savetovalištu
-							</a>
+							<a href="/zasto-ubuntu" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-gray-700"> Saznaj više o Ubuntu Savetovalištu </a>
 						</div>
 					</div>
 				</div>
@@ -933,10 +919,14 @@
 									>
 										Pošalji poruku
 									</button>
-									<div class="pt-1">
-										<p class="typo__p" v-if="formData.submitStatus === 'OK'">Poruka je poslata!</p>
-										<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Popunite ispravno formu.</p>
-										<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Šalje se...</p>
+									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100" v-if="formData.submitStatus === 'OK'">
+										<p class="typo__p">Poruka je poslata!</p>
+									</div>
+									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-red-900 bg-red-100" v-if="formData.submitStatus === 'ERROR'">
+										<p class="typo__p">Popunite ispravno formu.</p>
+									</div>
+									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-blue-900 bg-blue-100" v-if="formData.submitStatus === 'PENDING'">
+										<p class="typo__p">Poruka se šalje...</p>
 									</div>
 								</div>
 							</form>
@@ -967,36 +957,36 @@ export default {
 			},
 
 			{
-        key: 'og:title',
-        name: 'og:title',
-        content: 'Karijera psihoterapeuta | Savetovalište Ubuntu Centar',
-      },
+				key: "og:title",
+				name: "og:title",
+				content: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
+			},
 
-				 {
-        key: 'og:description',
-        name: 'og:description',
-        content: 'Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine.',
-      },
-			{ 
-				key:"og:image", 
-				property: "og:image", 
-				content: 'https://ubuntucentar.com/assets/static/karijera-1.42db587.b514f32d297cc5afd76ee3459fb50fbe.jpg',
-				},
 			{
-        key: 'twitter:title',
-        name: 'twitter:title',
-        content: 'Karijera psihoterapeuta | Savetovalište Ubuntu Centar',
-      },	
+				key: "og:description",
+				name: "og:description",
+				content: "Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine.",
+			},
 			{
-        key: 'twitter:description',
-        name: 'twitter:description',
-        content: 'Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine.',
-      },
-			{ 
-				key:"twitter:image", 
-				property: "twitter:image", 
-				content: 'https://ubuntucentar.com/assets/static/karijera-1.42db587.b514f32d297cc5afd76ee3459fb50fbe.jpg',
-				},
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/karijera-1.42db587.b514f32d297cc5afd76ee3459fb50fbe.jpg",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
+				content: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
+			},
+			{
+				key: "twitter:description",
+				name: "twitter:description",
+				content: "Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine.",
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/karijera-1.42db587.b514f32d297cc5afd76ee3459fb50fbe.jpg",
+			},
 		],
 	},
 	data() {

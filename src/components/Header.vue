@@ -144,7 +144,6 @@
 										<g-link :to="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 											<div>
 												<p class="text-base font-medium text-gray-900">{{ category.node.title }}</p>
-												<p class="mt-1 text-sm text-gray-500">{{ category.node.desc }}</p>
 											</div>
 										</g-link>
 									</div>

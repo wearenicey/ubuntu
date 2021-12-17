@@ -419,10 +419,14 @@
 								>
 									Prijavi me
 								</button>
-								<div class="pt-3 text-white">
-									<p class="typo__p" v-if="formData.submitStatus === 'OK'">Poruka je poslata!</p>
-									<p class="typo__p" v-if="formData.submitStatus === 'ERROR'">Popunite ispravno formu.</p>
-									<p class="typo__p" v-if="formData.submitStatus === 'PENDING'">Šalje se...</p>
+								<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100" v-if="formData.submitStatus === 'OK'">
+									<p class="typo__p">Poruka je poslata!</p>
+								</div>
+								<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-red-900 bg-red-100" v-if="formData.submitStatus === 'ERROR'">
+									<p class="typo__p">Popunite ispravno formu.</p>
+								</div>
+								<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-blue-900 bg-blue-100" v-if="formData.submitStatus === 'PENDING'">
+									<p class="typo__p">Poruka se šalje...</p>
 								</div>
 							</div>
 						</form>
