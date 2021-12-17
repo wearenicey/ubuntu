@@ -121,7 +121,7 @@ export default {
 				{
 					key: "og:image",
 					property: "og:image",
-					content: process.env.GRIDSOME_BASE_PATH + this.$page.post.imageTwo.path,
+					content: "https://ubuntucentar.com" + this.$page.post.imageTwo.path,
 				},
 				{
 					key: "og:title",
@@ -147,7 +147,7 @@ export default {
 				{
 					key: "twitter:image",
 					property: "twitter:image",
-					content: process.env.GRIDSOME_BASE_PATH + this.$page.post.imageTwo.path,
+					content: "https://ubuntucentar.com" + this.$page.post.imageTwo.path,
 				},
 			],
 
