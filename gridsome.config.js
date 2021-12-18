@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require(
 
 module.exports = {
 	siteName: 'Ubuntu Centar',
-	siteUrl: 'https://www.ubuntucentar.com/',
+	siteUrl: 'https://ubuntucentar.com/',
 	plugins: [
 
 		{
