@@ -1,10 +1,7 @@
 <template>
 	<Layout>
-		<!-- Hero section -->
 		<div class="bg-white">
-			<!-- <svg class="hidden xl:block absolute transform translate-y-24 " width="34" style="right: 36rem" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2598 7.09437C13.1634 6.52223 13.0907 5.95658 13.0438 5.39086C12.9731 4.54229 13.0168 3.68723 12.9917 2.83866C12.9808 2.47866 12.9377 1.5401 12.9551 1.4051C13.1126 0.228671 14.0621 0.0486495 14.3398 0.0165067C14.4742 -0.00277906 15.8537 -0.156996 16.1514 1.373C16.5165 3.24372 16.6335 5.12726 16.5043 6.97226C16.8058 8.54084 17.3214 10.1029 18.0022 11.5172C20.7112 17.1422 25.8733 17.6887 31.4662 17.6372C32.3263 17.6244 33.0405 18.2994 33.0855 19.1544C33.1305 20.0158 32.4903 20.7615 31.634 20.8387C28.5078 21.1408 22.9611 23.648 21.0435 26.258C20.6424 26.8044 20.409 28.1223 20.1004 29.4144C19.6697 31.208 19.1574 32.9823 18.5833 33.728C18.4972 33.8437 17.4499 35.0266 17.1375 35.2001C16.3866 35.6116 15.7856 35.3737 15.4442 35.1551C15.1029 34.9365 14.7165 34.5058 14.5622 33.7922C14.4009 33.0465 14.5372 31.5165 14.5121 31.1886C14.4208 29.9994 14.183 27.6658 13.6976 25.6601C13.436 24.5801 13.1569 23.5837 12.6954 23.0887C10.9867 21.2565 8.25452 21.5265 5.95373 21.8287C5.68952 21.8608 5.42531 21.8994 5.16174 21.9316C4.22509 22.208 3.23057 22.4137 2.1795 22.5358C0.592283 22.7222 0.331301 21.263 0.317158 21.1665C0.287586 20.9544 0.177646 19.8615 1.374 19.4244C1.5045 19.3794 2.46751 19.1672 2.83844 19.0837C3.3553 18.968 3.87793 18.878 4.4025 18.7944C9.82115 17.1101 12.7642 12.3787 13.2598 7.09437ZM15.1196 12.938C17.1652 17.168 20.2695 19.2123 23.9492 20.138H23.9486C21.651 21.3401 19.5611 22.8444 18.4534 24.3551C18.033 24.9273 17.6473 26.078 17.2995 27.3701C17.1112 26.168 16.8566 24.8886 16.5204 23.7958C16.1379 22.5486 15.6229 21.5137 15.0482 20.8966C13.9386 19.7073 12.5462 19.0451 11.049 18.7173C12.8413 17.1294 14.2003 15.1494 15.1196 12.938Z" fill="#FFCA0D"/>
-	</svg> -->
+
 			<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div class="text-center">
 					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihološko savetovalište ubuntu</h1>
@@ -68,7 +65,6 @@
 						</div>
 					</div>
 
-					<!-- Stats section -->
 					<div class="mt-10">
 						<dl class="grid grid-cols-2 gap-x-4 gap-y-8">
 							<div class="border-t-2 border-green-800 pt-6">
@@ -96,7 +92,6 @@
 			</div>
 		</div>
 
-		<!-- Testimonial -->
 
 		<section class="container mx-auto my-12 rounded-2xl">
 			<div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8 rounded-r-3xl">
@@ -149,18 +144,13 @@
 			</div>
 		</section>
 
-		<!-- End testimonial -->
 
-		<!-- Logo cloud section -->
 		<div class="my-32">
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl z-50">
 				<div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
 					<div>
 						<h2 class="text-3xl text-purple-900 tracking-tight sm:text-5xl">Tim psihoterapeuta, Vama na usluzi</h2>
 						<p class="mt-6 max-w-3xl text-lg leading-7 text-gray-500">Trudimo se da naše savetovalište predstavlja sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.</p>
-						<!-- <div class="mt-6">
-							<a href="/tim/" class="text-base font-medium text-red-500"> Upoznaj Ubuntu tim </a>
-						</div> -->
 					</div>
 					<div class="mt-12">
 						<g-image class="w-full h-full" src="~/assets/img/tim.jpg" />
@@ -186,9 +176,7 @@
 				<rect width="59.4361" height="115.358" rx="29.718" transform="matrix(0.970418 -0.241432 0.253756 0.967268 -6.29614 8.51465)" fill="#A377FF" />
 			</svg>
 		</div>
-		<!-- novo  -->
 		<div class="mt-20">
-			<!-- Header -->
 			<div class="relative pb-32 bg-gray-800">
 				<svg class="hidden lg:block absolute top-96" width="257" height="1086" viewBox="0 0 257 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="-286" cy="543" r="543" fill="#FEF2F2" />
@@ -204,7 +192,6 @@
 				</div>
 			</div>
 
-			<!-- Overlapping cards -->
 			<section class="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
 				<h2 class="sr-only" id="contact-heading">Contact us</h2>
 				<div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
@@ -262,20 +249,15 @@
 			</section>
 		</div>
 
-		<!-- end novo -->
 
-		<!-- blog -->
 		<div>
 			<CardItem />
 		</div>
 
-		<!-- This example requires Tailwind CSS v2.0+ -->
 		<svg class="absolute -right-0 transform -translate-y-3/4" style="z-index: -1" width="264" height="1086" viewBox="0 0 264 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
 		</svg>
-		<!-- end blog -->
 
-		<!-- CTA section -->
 		<div class="relative mt-24 sm:mt-32 sm:py-16">
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
 				<div aria-hidden="true" class="hidden sm:block">
@@ -443,13 +425,13 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Savetovalište Ubuntu | Psihoterapija dostupna svima",
-		titleTemplate: "Savetovalište Ubuntu | Psihoterapija dostupna svima",
+		title: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
+		titleTemplate: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
 
 		meta: [
 			{
 				name: "title",
-				content: "Savetovalište Ubuntu | Psihoterapija dostupna svima",
+				content: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
 			},
 			{
 				name: "description",
@@ -459,7 +441,7 @@ export default {
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Savetovalište Ubuntu | Psihoterapija dostupna svima",
+				content: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
 			},
 
 			{
@@ -475,7 +457,7 @@ export default {
 			{
 				key: "twitter:title",
 				name: "twitter:title",
-				content: "Savetovalište Ubuntu | Psihoterapija dostupna svima",
+				content: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
 			},
 			{
 				key: "twitter:description",

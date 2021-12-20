@@ -1,11 +1,11 @@
 <template>
 	<Layout>
-		<div class="bg-no-repeat bg-bottom w-full mb-20 py-20" style="background-image: url(../pozadina.svg)">
+		<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../pozadina.svg)">
 			<div class="mx-auto max-w-7xl lg:px-8">
-				<div class="lg:grid lg:grid-cols-2 lg:gap-8">
+				<div class="lg:grid lg:grid-cols-2 lg:gap-8 py-20">
 					<div class="mx-auto max-w-xl px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
 						<div class="lg:pb-32">
-							<h1 class="mt-4 text-3xl text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl">Kako postati psihoterapeut? Savetovalište Ubuntu je pravi izbor.</h1>
+							<h1 class="text-3xl text-white sm:text-6xl xl:text-4xl">Kako postati psihoterapeut? Savetovalište Ubuntu je pravi izbor.</h1>
 							<p class="text-base mt-4 text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
 								Svako savetovalište Ubuntu nudi mogućnost svojim saradnicima da započnu i, uz sistematsku podršku, razvijaju svoju terapijsku praksu. Uz to ih i podržava na njihovom putu do samostalnosti.
 							</p>
@@ -22,7 +22,7 @@
 					</div>
 					<div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
 						<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-							<g-image class="lg:absolute lg:inset-y-5" src="~/assets/img/content.svg" alt="" />
+							<g-image immediate="true" class="lg:absolute lg:inset-y-5" src="~/assets/img/content.svg" alt="" />
 						</div>
 					</div>
 				</div>

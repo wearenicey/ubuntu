@@ -3,7 +3,7 @@
 		<div>
 			<Header />
 
-			<div class="bg-no-repeat bg-bottom w-full mb-20" style="background-image: url(../online-1.png)">
+			<div class="bg-no-repeat bg-bottom w-full">
 				<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 					<div class="mt-10">
 						<h1 class="text-4xl text-purple-800 sm:text-5xl">
@@ -691,7 +691,6 @@
 									<dl class="mt-8 space-y-6">
 										<dt><span class="sr-only">Lokacija</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/location -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 											</svg>
@@ -703,7 +702,6 @@
 										</dd>
 										<dt><span class="sr-only">Telefon</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/phone -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path
 													stroke-linecap="round"
@@ -716,7 +714,6 @@
 										</dd>
 										<dt><span class="sr-only">Email</span></dt>
 										<dd class="flex text-base text-gray-400">
-											<!-- Heroicon name: outline/mail -->
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 											</svg>
@@ -919,8 +916,8 @@
 			</div>
 
 			<footer-landing></footer-landing>
-			<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99; width: 60px; height: 60px; padding: 10px 16px; border-radius: 50%; font-size: 22px; line-height: 22px">
-				<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600">
+			<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">
+				<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-lg text-base font-bold text-green-600 bg-white">
 					<svg class="icon" viewBox="0 0 16 16">
 						<title>Go to top of page</title>
 						<g stroke-width="1" stroke="currentColor"><polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline></g>

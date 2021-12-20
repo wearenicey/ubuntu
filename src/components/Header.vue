@@ -114,6 +114,7 @@
 							</div>
 						</div>
 					</div>
+
 					<div class="relative" x-description="Flyout menu, show/hide based on flyout menu state." x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 						<button
 							x-on:click="flyoutMenuOpen = !flyoutMenuOpen"
@@ -129,7 +130,7 @@
 						</button>
 
 						<div
-							class="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 -right-20"
+							class="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-xl sm:px-0 lg:ml-0 -right-20"
 							x-show="flyoutMenuOpen"
 							x-transition:enter="transition ease-out duration-200"
 							x-transition:enter-start="opacity-0 translate-y-1"
@@ -139,7 +140,7 @@
 							x-transition:leave-end="opacity-0 translate-y-1"
 						>
 							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+								<div class="relative grid gap-6 bg-white px-5 py-6 sm:p-8">
 									<div v-for="category in $static.category.edges" :key="category.node.id">
 										<g-link :to="category.node.path" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 											<div>
@@ -151,21 +152,28 @@
 								<div class="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
 									<div>
 										<p class="text-sm tracking-wide font-medium text-gray-500 uppercase">Poslednje objave</p>
-										<ul role="list" class="mt-4 space-y-4">
-											<li v-for="post in $static.blogs.edges" :key="post.node.id" class="text-base truncate">
-												<g-link :to="post.node.path" class="font-medium text-gray-900 hover:text-gray-700">
-													{{ post.node.title }}
+										<ul role="list" class="mt-6 space-y-6">
+											<li class="flow-root" v-for="post in $static.blogs.edges" :key="post.node.id">
+												<g-link :to="post.node.path" class="-m-3 p-3 flex rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
+													<div class="hidden sm:block flex-shrink-0">
+														<img class="w-32 h-20 object-cover rounded-md" :src="post.node.imageTwo.path" :alt="post.node.imageTwo.alt" />
+													</div>
+													<div class="min-w-0 flex-1 sm:ml-8">
+														<p class="font-medium text-gray-900 hover:text-gray-700">{{ post.node.title }}</p>
+														<p class="mt-1 text-sm text-gray-500">{{ post.node.excerpt }}</p>
+													</div>
 												</g-link>
 											</li>
+											<div class="mt-5 text-sm">
+												<g-link to="/blog" class="font-medium text-green-600 hover:text-green-500"> Pogledaj sve tekstove <span aria-hidden="true">&rarr;</span></g-link>
+											</div>
 										</ul>
-									</div>
-									<div class="mt-5 text-sm">
-										<g-link to="/blog" class="font-medium text-indigo-600 hover:text-indigo-500"> Pogledaj sve tekstove <span aria-hidden="true">&rarr;</span></g-link>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
 					<g-link to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije</g-link>
 					<g-link to="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt</g-link>
 				</nav>
@@ -225,10 +233,7 @@
 				<div class="py-6 px-5 space-y-6">
 					<div class="grid grid-cols-2 gap-y-4 gap-x-8">
 						<g-link to="/zasto-ubuntu/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Zašto Ubuntu? </g-link>
-
 						<g-link to="/karijera/" class="text-base font-medium text-gray-900 hover:text-gray-700"> Karijera </g-link>
-
-						<g-link to="/404" class="text-base font-medium text-gray-900 hover:text-gray-700"> Tim </g-link>
 					</div>
 					<div>
 						<g-link to="/kontakt/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700"> Kontaktirajte nas </g-link>
@@ -245,7 +250,7 @@
 
 <static-query>
 query {
- blogs:  allPost (sortBy: "created",  limit: 3) {
+ blogs:  allPost (sortBy: "created",  limit: 2) {
   edges {
     node {
       id
@@ -254,6 +259,10 @@ query {
       excerpt
       image
       created
+			imageTwo {
+				path
+				alt
+			}
     }
   }
 }

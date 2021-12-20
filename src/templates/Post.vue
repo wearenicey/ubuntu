@@ -13,9 +13,7 @@
 							<span aria-hidden="true"> &middot; </span>
 							<span> {{ $page.post.timeToRead }} min čitanja</span>
 						</div>
-						<g-image class="mt-4 w-full object-cover" :src="require(`!!assets-loader!@img/${$page.post.image}`)" alt="" />
-
-						<div></div>
+						<g-image immediate="true" class="mt-4 w-full object-cover" :src="require(`!!assets-loader!@img/${$page.post.image}`)" alt="" />
 					</div>
 					<div class="mt-6 container">
 						<div class="prose mx-auto text-left" v-html="$page.post.content"></div>
@@ -85,26 +83,20 @@
       title
 			metaDesc
 			category {
-			title
-	}
+				title
+			}
       image
       image_caption
       excerpt
 			imageTwo {
-          path
-          alt
-        }
+        path
+        alt
+      }
       content
       humanTime: created(format: "DD.MM.YYYY")
       datetime: created
-
       timeToRead
-     
-  }
-
-
-
-
+  	}
   }
 </page-query>
 

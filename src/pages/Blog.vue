@@ -139,7 +139,6 @@ export default {
 				// 	},
 			],
 
-			// etc...
 		};
 	},
 	components: {
