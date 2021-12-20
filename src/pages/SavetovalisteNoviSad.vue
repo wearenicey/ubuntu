@@ -15,16 +15,16 @@
 								alt="Psiholosko savetovaliste Novi Sad"
 							/>
 
-							<div class="absolute inset-0 bg-cyan-700 mix-blend-multiply"></div>
+							<div class="absolute inset-0 bg-cyan-600 mix-blend-multiply"></div>
 						</div>
 						<div class="relative max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-12">
 							<h1 class="font-serif text-center text-4xl tracking-tigh sm:text-5xl lg:text-6xl text-white">
-								<span class="text-green-200 font-bold">Novi Sad</span> je vaš grad, treba vam <span class="text-green-200 font-bold">psihoterapeut</span>?
+								<span class="text-green-200 ">Novi Sad</span> je vaš grad, treba vam <span class="text-green-200 ">psihoterapeut</span>?
 							</h1>
-							<p class="mt-6 text-2xl text-center text-indigo-200 max-w-lg mx-auto">Naša Ubuntu priča počela je baš u ovom gradu 2016. godine.</p>
+							<p class="mt-6 text-2xl text-center text-white mx-auto">Naša Ubuntu priča počela je baš u ovom gradu 2016. godine.</p>
 							<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:gap-5">
-									<a href="tel:+381658286881" class="flex items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-green-500 hover:bg-green-600 sm:px-8">
+									<a href="tel:+381658286881" class="flex items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-yellow-600 hover:bg-yellow-700 sm:px-8">
 										Nazovi za konsultaciju
 									</a>
 								</div>
