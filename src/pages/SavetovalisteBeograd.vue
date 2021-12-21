@@ -10,8 +10,8 @@
 							<g-image
 								immediate="true"
 								class="h-full w-full object-cover"
-								src="https://images.unsplash.com/photo-1632343084107-353ad9e95e37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
-								alt="Psiholosko savetovaliste Novi Sad"
+								src="~/assets/img/beograd-psihoterapija.jpg"
+								alt="Psiholosko savetovaliste Beograd"
 							/>
 
 							<div class="absolute inset-0 bg-cyan-600 mix-blend-multiply"></div>

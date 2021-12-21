@@ -13,7 +13,7 @@
 						</div>
 					</div>
 					<div>
-						<g-image class="lg:mt-20 mt-10" src="~/assets/img/pocenta-1.jpg"></g-image>
+						<g-image immediate="true" class="lg:mt-20 mt-10" src="~/assets/img/pocenta-1.jpg"></g-image>
 					</div>
 					<svg class="hidden xl:block absolute right-72 transform bottom-60" width="114" height="122" viewBox="0 0 114 122" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M19.4066 0.362265L113.567 77.8852L0.279537 121.814L19.4066 0.362265Z" fill="#8B5CF6" />

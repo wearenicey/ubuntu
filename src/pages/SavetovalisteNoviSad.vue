@@ -11,7 +11,7 @@
 							<g-image
 								immediate="true"
 								class="h-full w-full object-cover"
-								src="https://images.unsplash.com/photo-1564982547455-b9e810ae9223?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+								src="~/assets/img/novi-sad-psihoterapija.jpg"
 								alt="Psiholosko savetovaliste Novi Sad"
 							/>
 

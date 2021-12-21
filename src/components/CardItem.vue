@@ -1,5 +1,5 @@
 <template>
-	<div class="relative mx-auto max-w-6xl px-4">
+	<div class="relative mx-auto max-w-4xl px-4 mt-12">
 		<div class="text-center">
 			<h2 class="text-3xl text-purple-800 sm:text-4xl">Iz naše Blog radionice</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Aktuelni tekstovi na temu psihoterapije i psihologije, kao dodatak ličnom rastu i razvoju</p>
@@ -13,13 +13,11 @@
 						</a>
 					</div>
 					<a href="#" class="block mt-4">
-						<p class="text-xl font-semibold text-gray-900">{{ post.node.title }}</p>
-						<p class="mt-3 text-base text-gray-500">{{ post.node.excerpt }}</p>
+						<p class="text-2xl font-semibold text-gray-900">{{ post.node.title }}</p>
+						<p class="mt-3 text-lg text-gray-700">{{ post.node.excerpt }}</p>
 					</a>
 					<div class="mt-6 flex items-center">
-				
 						<div class="">
-			
 							<div class="flex space-x-1 text-sm text-gray-500">
 								<time :datetime="post.node.datetime">
 									{{ post.node.humanTime }}
@@ -29,15 +27,15 @@
 							</div>
 						</div>
 					</div>
-					<a  :href="post.node.path" class="block mt-8">
+					<a :href="post.node.path" class="block mt-8">
 						<button
-							class="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+							class="inline-flex items-center px-6 py-3 border shadow-sm text-sm font-medium rounded-full text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 						>
 							Pročitaj više
 						</button>
 					</a>
 				</div>
-				<g-image class="sm:h-96 w-full object-cover order-first md:order-last" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
+				<g-image class="sm:h-96 w-full object-cover order-first md:order-last rounded-md shadow-md" :src="require(`!!assets-loader!@img/${post.node.image}`)" alt="" />
 			</div>
 		</div>
 	</div>
