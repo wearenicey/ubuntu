@@ -8,7 +8,7 @@ date: 2021.11.25
 image: anksioznost.jpg
 imageTwo:
   path: /anksioznost.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "anksioznost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
@@ -22,7 +22,7 @@ Anksioznost bismo najbolje mogli opisati kao osećaj napetosti i strepnje. To je
 
 ## Mnoga lica anksioznosti
 
-Postoje različiti tipovi ispoljavanja anksioznosti, koji se razlikuju po situacijama u kojima se javljaju: generalizovana anksioznost, socijalna anksioznost, [panični napadi](/blog/panicni-napadi/sta-su-panicni-napadi-zbog-cega-nastaju), fobije, opsesivno-kompulzivni poremećaj. Ovo su neke od mogućih manifestacija anksioznosti, a u ovom tekstu ćemo se osvrnuti prvenstveno na socijalnu anksioznost, njene uzroke i načine na koje možemo da je prevaziđemo.
+Postoje različiti tipovi ispoljavanja anksioznosti, koji se razlikuju po situacijama u kojima se javljaju: generalizovana anksioznost, socijalna anksioznost, [panični napadi](/blog/panicni-napadi/sta-su-panicni-napadi-zbog-cega-nastaju/), fobije, opsesivno-kompulzivni poremećaj. Ovo su neke od mogućih manifestacija anksioznosti, a u ovom tekstu ćemo se osvrnuti prvenstveno na socijalnu anksioznost, njene uzroke i načine na koje možemo da je prevaziđemo.
 
 ## Socijalna anksioznost
 

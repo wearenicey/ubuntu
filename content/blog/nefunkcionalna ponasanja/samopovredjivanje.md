@@ -8,7 +8,7 @@ date: 2021.11.27
 image: samopovredjivanje.jpg
 imageTwo:
   path: /samopovredjivanje.jpg
-  alt: "tužan čovek pored zida"
+  alt: "samopovređivanje čoveka"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
@@ -22,19 +22,19 @@ metaDesc: "Psihioterpautski uzroci samopovređivanja i informacije koje bi pomog
 
 Svi mi ponekad radimo stvari koje nisu dobre po nas ili su direktno štetne. Prejedanje, pušenje, preterano konzumiranje alkohola samo su neka od ponašanja koja na duge staze svakako za nas nisu dobra a da njihove fizičke posledice nisu odmah vidljive. Indirektno samopovređivanje uključuje zloupotrebu supstanci, poremećaje ishrane, rizična ponašanja poput hodanja po krovu, prebrze vožnje, kao i upuštanja u nezaštićeni seks sa strancima.
 
-**Šta je samopovređivanje?**
+## Šta je samopovređivanje?
 
 Usko shvaćeno, samopovređivanje je ponašanje koje podrazumeva namerno nanošenje povreda samom sebi: sečenjem, žigosanjem, udaranjem glavom ili drugim delovima tela o zid, čupanjem kose ili sprečavanjem rana da zarastu. 
 
 Tetovaže i pirsinzi, kao jedan oblik sakaćenja tela, deo su rituala i inicijacijskih procesa u okviru različitih kultura hiljadama godina unazad, kako u primitivnim zajednicama tako i u razvijenim društvima, dok je samopovređivanje u velikoj meri jedan moderan fenomen.
 
-**Samopovređivanje nije isto što i samoubistvo**
+## Samopovređivanje nije isto što i samoubistvo
 
 Često se mešaju pojmovi samoubistvo i samopovređivanje, međutim, za razliku od samoubistva u kome osoba ima za cilj da okonča svoj život, samopovređivanje je način da se regulišu emocije, da se preživi i da se izađe na kraj sa svakodnevnim stresom.
 
 Iako nijedan čin samopovređivanja nije isti kao drugi, oslanjajući se na različite autore koji su se bavili ovom temom, grupisaćemo razloge za samopovređivanje u osam kategorija, sa svešću o tome da se, kad je u pitanju konkretna osoba, retko kad nalaze ovako u „čistom“ obliku. 
 
-**Osam razloga za samopovređivanje**
+## Osam razloga za samopovređivanje
 
 1. Samopovređivanje kao društveni trend
 
@@ -54,7 +54,7 @@ Kada neko ko je pod stresom nema zreo i efikasan način nošenja sa stresom, on 
 
 5. Samopovređivanje kao fizički izraz emocionalnog bola
 
-Kod osoba koje osećaju intenzivan stid, [anksioznost](/blog/anksioznost-i-anksiozni-poremecaji/sta-je-aksioznost), [depresiju](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja) ili očajanje sečenje može da bude fizička ekspresija emocionalnog bola i ona individui omogućava da ima vidljivi dokaz tog bola. Ponekad osobe koje se samopovređuju govore o svojim ranama i ožiljcima kako bi drugima ukazale na bol koji osećaju iznutra u nadi da će im neko pomoći da izađu na kraj s njim.
+Kod osoba koje osećaju intenzivan stid, [anksioznost](/blog/anksioznost-i-anksiozni-poremecaji/sta-je-aksioznost/), [depresiju](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja/) ili očajanje sečenje može da bude fizička ekspresija emocionalnog bola i ona individui omogućava da ima vidljivi dokaz tog bola. Ponekad osobe koje se samopovređuju govore o svojim ranama i ožiljcima kako bi drugima ukazale na bol koji osećaju iznutra u nadi da će im neko pomoći da izađu na kraj s njim.
 
 6. Samopovređivanje kao oblik samonege
 

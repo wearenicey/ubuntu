@@ -8,7 +8,7 @@ date: 2021.12.17
 image: dete-u-tebi-mora-da-pronadje-svoj-zavicaj.jpg
 imageTwo:
   path: /dete-u-tebi-mora-da-pronadje-svoj-zavicaj.jpg
-  alt: "knjiga dete sa balonom"
+  alt: "knjiga dete u tebi"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

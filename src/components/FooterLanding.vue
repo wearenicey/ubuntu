@@ -44,15 +44,15 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Naše lokacije</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link  to="/savetovaliste-novi-sad" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </g-link>
+									<g-link  to="/savetovaliste-novi-sad/" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </g-link>
 								</li>
 
 								<li>
-									<g-link  to="/savetovaliste-beograd" class="text-base text-gray-500 hover:text-gray-900"> Beograd </g-link>
+									<g-link  to="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900"> Beograd </g-link>
 								</li>
 
 								<li>
-									<g-link to="/online-savetovaliste" class="text-base text-gray-500 hover:text-gray-900"> Online </g-link>
+									<g-link to="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online </g-link>
 								</li>
 							</ul>
 						</div>
@@ -60,11 +60,11 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">O nama</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link to="/zasto-ubuntu" class="text-base text-gray-500 hover:text-gray-900"> Zašto Ubuntu </g-link>
+									<g-link to="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> Zašto Ubuntu </g-link>
 								</li>
 
 								<li>
-									<g-link  to="/karijera" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
+									<g-link  to="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
 								</li>
 
 							</ul>
@@ -75,15 +75,15 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Blog</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link  to="/blog/stres" class="text-base text-gray-500 hover:text-gray-900">Stres</g-link>
+									<g-link  to="/blog/stres/" class="text-base text-gray-500 hover:text-gray-900">Stres</g-link>
 								</li>
 
 								<li>
-									<g-link to="/blog/anksioznost-i-anksiozni-poremecaji" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </g-link>
+									<g-link to="/blog/anksioznost-i-anksiozni-poremecaji/" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </g-link>
 								</li>
 
 								<li>
-									<g-link  to="/blog/psihoterapija" class="text-base text-gray-500 hover:text-gray-900"> Psihoterapija</g-link>
+									<g-link  to="/blog/psihoterapija/" class="text-base text-gray-500 hover:text-gray-900"> Psihoterapija</g-link>
 								</li>
 							</ul>
 						</div>
@@ -91,11 +91,11 @@
 							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Info</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link to="/donacije" class="text-base text-gray-500 hover:text-gray-900"> Donacije </g-link>
+									<g-link to="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </g-link>
 								</li>
 
 								<li>
-									<g-link to="/kontakt" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </g-link>
+									<g-link to="/kontakt/" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </g-link>
 								</li>
 							</ul>
 						</div>

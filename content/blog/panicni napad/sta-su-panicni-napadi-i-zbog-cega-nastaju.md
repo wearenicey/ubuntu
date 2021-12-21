@@ -94,17 +94,17 @@ Osobe sa čestim paničnim napadima, sklone su preteranoj brizi, što za sebe, �
 
 Kada se doživi panični napad većina ljudi pokušava da ode ili da pobegne sa mesta gde se dogodio napad, u nadi da će da prestane. Traže pomoć od nekoga kako bi se obezbedili u slučaju da dožive srčani napad ili da polude.
 
-**Šta je u osnovi paničnih napada?**
+## Šta je u osnovi paničnih napada?
 
 U osnovi paničnih napada je najčešće strah od smrti (od srčanog udara) ili strah od ludila. U svakom slučaju ono što ih objedinjuje je strah od gubitka kontrole. Važno je znati da od paničnog napada ne može da se umre, niti poludi. Osoba vremenom nauči da joj se neće ništa dogoditi tokom paničnog napada, ali ipak strepi da će naredni put biti onaj „najgori“.
 
 Prvi panični napad će se zaista retko javiti kada je osoba opuštena, zadovoljna i smirena i nije izložena nikakvom stresu, zato ako se panični napad dogodi, važno je uraditi „proveru“ sa samim sobom, šta me to muči i koji bi sve bili potencijalni izvori stresa.
 
-**Da li postoji rešenje za panične napade?**
+## Da li postoji rešenje za panične napade?
 
 Panični napadi, iako deluju kao da će nam zauvek smetati u našem normalnom funkcionisanju i čine da se osećamo izrazito neprijatno, ipak su rešivi. Na psihoterapiji se uče tehnike prevencije i smanjivanja paničnih napada, kao i mapiranje i razumevanje uzroka nastanka paničnih napada. Razumevanjem unutrašnje logike, ovaj nefunkcionalni sistem samozaštite se može preusmeriti u funkcionalnu i korisnu strategiju nošenja sa stresom.
 
-**Kako izgleda panični napad?**
+## Kako izgleda panični napad?
 
 Panični napad je iznenadni doživljaj veoma jakog straha ili izrazite neprijatnosti u situaciji u kojoj se većina ljudi ne bi tako osećala. Vrlo često osoba nalazi neku vezu između određene situacije i paničnog napada i onda izbegava tu situaciju.
 

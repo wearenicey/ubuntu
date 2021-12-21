@@ -18,11 +18,11 @@ name: Aloo
 metaDesc: "Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa našim stvarnim ili zamišljenim nedostacima."
 ---
 
-Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa našim stvarnim ili zamišljenim nedostacima. Osnovne funkcije samosabotaže su samozaštita, očuvanje samopouzdanja, trenutno smanjenje [anksioznosti](/blog/anksioznost-i-anksiozni-poremecaji/sta-je-aksioznost). Međutim, to je, dugoročno posmatrano, neproduktivan način. Ljudi pokušavaju nizom ponašanja da očuvaju vlastito samopoimanje, samovrednovanje ili svoju sliku u očima drugih. Slika o sopstvenoj kompetenciji i sposobnostima predstavlja jedan od bazičnih elemenata na kojima se zasniva samopouzdanje individue.
+Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa našim stvarnim ili zamišljenim nedostacima. Osnovne funkcije samosabotaže su samozaštita, očuvanje samopouzdanja, trenutno smanjenje [anksioznosti](/blog/anksioznost-i-anksiozni-poremecaji/sta-je-aksioznost/). Međutim, to je, dugoročno posmatrano, neproduktivan način. Ljudi pokušavaju nizom ponašanja da očuvaju vlastito samopoimanje, samovrednovanje ili svoju sliku u očima drugih. Slika o sopstvenoj kompetenciji i sposobnostima predstavlja jedan od bazičnih elemenata na kojima se zasniva samopouzdanje individue.
 
 Samosabotaža je nastojanje osoba da kreiraju prepreke ili inhibirajuće faktore sopstvenom postignuću da bi na taj način izbegle pripisivanje eventualnog neuspeha nedostatku sposobnosti, a uvećale sliku o sopstvenim sposobnostima u slučaju eventualnog uspeha.
 
-### Koje su glavne “tehnike” samosabotažera?
+## Koje su glavne “tehnike” samosabotažera?
 
 Samosabotažne tehnike mogu biti: kašnjenje, neodlučnost, loše navike, ograničavajuće razmišljanje, negativna uverenja o sebi i drugima, minimiziranje sopstvene zasluge za postignuti uspeh, nesposobnost prihvatanja komplimenata, stalno poređenje sa drugima...
 
@@ -34,7 +34,7 @@ Samosabotažom se postiže i određena dobit, kao što je, na primer, zadržavan
 
 Strategije samosabotaže koriste svi ljudi u situacijama koje ugrožavaju samopouzdanje. Kada se umereno koriste mogu čak biti i korisne i imati adaptivne uloge. Međutim, problem je ako one prerastu u životni stil i onemoguće osobu da funkcioniše u važnim životnim oblastima. Tada postaju disfunkcionalane i onemogućavaju adekvatno prilagođavanje zahtevima realnosti.
 
-### Da li ste čuli za termin “naučena bespomoćnost”?
+## Da li ste čuli za termin “naučena bespomoćnost”?
 
 Samosabotažno ponašanje se može dovesti u vezu sa teorijom “naučene bespomoćnosti”, čije osnove je utvrdio psiholog Martin Selidžmen. Prema toj teoriji pojam naučene bespomoćnosti označava pasivno prihvatanje neke nelagode, bez pokušaja promene ili kontrolisanja situacije. Takvo stanje proizilazi iz prethodnih iskustava osobe koja je, kroz izlaganje bolnoj ili neugodnoj situaciji, naučila da nad njom nema kontrolu. Ta naučena reakcija se generalizuje i na ostale situacije, i ponavlja se i kada se osobi pruži prilika da pomogne sebi ili izbegne neprijatnu ili štetnu okolnost kojoj je izložena. Osobe sa naučenom bespomoćnošću lako odustaju od svojih ciljeva. Intezitet doživljaja naučene bespomoćnosti zavisi od toga šta osoba smatra da utiče i uslovljava njenu bespomoćnost.
 

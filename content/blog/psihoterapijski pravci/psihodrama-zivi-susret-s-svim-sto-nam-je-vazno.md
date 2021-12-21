@@ -8,7 +8,7 @@ date: 2021.11.27
 image: psihodrama.jpg
 imageTwo:
   path: /psihodrama.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "psihodrama"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
@@ -59,9 +59,9 @@ Podela osećanja je poslednji deo seanse koji zaokružuje ceo proces i omogućav
 
 Svaka psihodramska seansa je jedinstven susret, kako jednih sa drugima tako i sa samim sobom. Svako od članova grupe donosi čitavu riznicu svojih ličnih osećanja, razmišljanja, iskustava koja na psihodramskoj sceni dobijaju priliku da budu oživljena, vidljiva, doživljena na jedan kreativan, drugačiji način, negovana i podržana grupom. 
 
-Tokom svoje edukacije prolazeći lični rad bivala sam često iznenađena onim što sam o sebi otkrivala. Ako se prepustite toj naizled vrlo jednostavnoj igri otkrivanja svog unutrašnjeg sveta autentičnije ćete se susresti sa najskrivenijim delovima sebe za koje možda niste ni znali da su tu. 
+Tokom svoje edukacije prolazeći lični rad bivala sam često iznenađena onim što sam o sebi otkrivala. Ako se prepustite toj naizgled vrlo jednostavnoj igri otkrivanja svog unutrašnjeg sveta autentičnije ćete se susresti sa najskrivenijim delovima sebe za koje možda niste ni znali da su tu. 
 
-Psihodrama iznosi pred naše oči i stavlja u naše ruke ono što nosimo u sebi bilo da su to strahovi, želje, fantazije, odnosi sa drugim ljudima, tuga, bes, ljubav. Otelovljuje sve ono što nam je značajno i dozvoljava nam da na dnevnoj svetlosti, uz podršku cele grupe vidimo šta je to što nas muči i šta sa tim možemo da uradimo kako bismo zdravije i autentičnije funkcionisali.  ,
+Psihodrama iznosi pred naše oči i stavlja u naše ruke ono što nosimo u sebi bilo da su to strahovi, želje, fantazije, odnosi sa drugim ljudima, tuga, bes, ljubav. Otelovljuje sve ono što nam je značajno i dozvoljava nam da na dnevnoj svetlosti, uz podršku cele grupe vidimo šta je to što nas muči i šta sa tim možemo da uradimo kako bismo zdravije i autentičnije funkcionisali.
 
 
 Ivana Stamenković

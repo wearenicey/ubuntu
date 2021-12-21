@@ -8,7 +8,7 @@ date: 2021.11.27
 image: koliko-me-je-bolela-psihoterapija.jpg
 imageTwo:
   path: /koliko-me-je-bolela-psihoterapija.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "bolna psihoterapija"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

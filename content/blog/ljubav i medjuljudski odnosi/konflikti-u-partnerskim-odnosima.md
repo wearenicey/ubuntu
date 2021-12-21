@@ -8,7 +8,7 @@ date: 2021.12.09
 image: konflikti-u-partnerskim-odnosima.jpg
 imageTwo:
   path: /konflikti-u-partnerskim-odnosima.jpg
-  alt: "rasprava dvoje ljudi"
+  alt: "konflikt partnera"
 image_caption: unsplash
 author: author1
 featured: false

@@ -8,7 +8,7 @@ date: 2021.11.25
 image: o-ljubavi.jpg
 imageTwo:
   path: /o-ljubavi.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "ljubav"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
@@ -20,13 +20,13 @@ metaDesc: "Knjiga „Ljubavologija‟ sociologa Bruna Šimleša na drugačiji, s
 
 Knjiga „Ljubavologija‟ sociologa Bruna Šimleša na drugačiji, savremeniji način opisuje ljubav i njene činioce. On sagledava ovu temu iz brojnih uglova i pokušava da reši dileme koje nas svakodnevno muče. U ovom tekstu ću obuhvatiti samo deo ove neiscrpne teme koja je uvek prisutna i aktuelna. 
 
-**Najčešća pitanja**
+## Najčešća pitanja
 
 Ova knjiga postavlja mnoštvo bitnih pitanja, a ovo su neka od njih: Šta zaista znači imati sreće u ljubavi? Postoje li srodne duše? Šta je bezuslovna, a šta bezrazložna ljubav? Šta se dešava sa ljubavlju u dugim vezama i braku? Kako se samoobmanjujemo ostajući u lošim vezama?
 
 Svi smo nekada, tokom svog života, postavili bar jedno od navedenih pitanja. Na neka smo i odgovorili, dok su druga još uvek bez odgovora. Činjenica je da je definicija ljubavi individualna – svaka osoba ima svoju jedinstvenu definiciju ljubavi. Ja smatram da je ljubav skup ponašanja i osećanja koja druga osoba budi u nama.
 
-„**Ljubav je doživljaj svetosti života”**. 
+## "Ljubav je doživljaj svetosti života”
 
 Da pojasnimo. 
 
@@ -34,7 +34,7 @@ Da pojasnimo.
 
 Napomenula bih  da se ova tvrdnja o ljubavi zasniva na tome da je pre svega najbitnije voleti sebe kako bismo bili u stanju da ljubav, onu “pravu”, pružimo nekom drugom. 
 
-**Standardno pitanje –** „**Kako ljubav?”**
+## Standardno pitanje: "Kako ljubav?"
 
 Kad nas neko pita „Kako ljubav?”, odmah počnemo da pričamo o partnerskom odnosu. Zašto? 
 
@@ -46,11 +46,11 @@ Zvuči malo komplikovano jel’ da? Verujte mi, nije.
 
 Svako od nas kad se rodi ima potencijal da voli sebe, naime, tako smo “naštelovani”. Ono što može to da nam oteža jesu okolnosti (kako socijalne tako i porodične). Detinjstvo kao naš početak ima ključnu ulogu u tome kako sebe vidimo i doživljavamo. Sigurna baza koja je potrebna za uspešan razvoj može biti malo “poljuljana” i tu može nastati problem, koji nije nepopravljiv. 
 
-**Kako unaprediti sebe i svoj rast i razvoj?** 
+## Kako unaprediti sebe i svoj rast i razvoj?
 
 Glavno je prepoznati problem i reagovati na vreme. Početak napretka se zasniva na motivaciji. Motivacija je ono što nam je potrebno da krenemo da radimo na sebi. Ukoliko ne možemo sami, nije sramota potražiti stručnu psihološku  pomoć. 
 
-**Uloga psihoterapije**
+## Uloga psihoterapije
 
 Kroz psihoterapiju ponovo upoznajemo sebe i uočavamo one “kontaminirane” delove svoje ličnosti koje postepeno razgrađujemo i “čistimo”. 
 
@@ -58,7 +58,7 @@ Odnos sa psihoterapeutom, koji se vremenom gradi, pomaže osobi da lakše prebro
 
 Kako? Razgovorom, smernicama, objektivnim uvidima, pružanjem sigurne baze i sticanjem poverenja.
 
-**Preporuka autorke teksta**
+## Preporuka autorke teksta
 
 Ukoliko primetite da postoji neki problem, koji ne možete samostalno rešiti, toplo vam preporučujem da  potražite stručnu pomoć psihoterapeutra koji vas može voditi na putu ka samoisceljenju. 
 

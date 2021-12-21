@@ -8,7 +8,7 @@ date: 2021.11.27
 image: prokrastinacija.jpg
 imageTwo:
   path: /prokrastinacija.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "prokrastinacija"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
@@ -22,13 +22,13 @@ Svima nam je poznat sledeći scenario: iz ćoška sobe vreba započet nedovršen
 
 Prokrastinacija se definiše kao svesno i namerno odlaganje obaveza bez pravog razloga, uprkos svesti da takvo odlaganje nosi sa sobom negativne posledice. Sama reč, prevedena sa latinskog, znači „pomeriti za sutra“ i oslikava upravo naviku da za “sutra“ odlažemo, bez realnog razloga, sve one obaveze i zadatke koje percipiramo kao teške, dosadne, izazovne. Najprepoznatija i najistraživanija je akademska prokrastinacija – ona koja se odnosi na akademski kontekst i obaveze vezane za isti – spremanje ispita, pisanje seminarskih, diplomskih i master radova i sl. Različita ispitivanja upućuju da čak do 70% studenata izjavljuje da su skloni ovakvom načinu izbegavanja i odlaganja obaveza, dok 50% njih prokrastinaciju smatra konstantnom pojavom u svom životu i vidi je kao izvor velikih problema.
 
-**Zbog čega proskrastiniramo?**
+## Zbog čega proskrastiniramo?
 
 Sa psihološke tačke gledišta, razlozi zbog kojih prokrastiniramo su različiti i postoji više teorijskih okvira kojima se objašnjavaju uzroci i posledice ovakvog oblika ponašanja. Neki autori smatraju da je za prokrastinaciju odgovoran princip zadovoljstva – odnosno sklonost ljudi da odlažu negativne emocije odlaganjem zadataka koje percipiraju kao stresne. Kako se rok za izvršenje nekog zadatka približava, nivo anksioznosti raste, zadatak odlažemo kako bismo umanjili anksioznost, što dovodi do kratkotrajnog olakšanja, ali onda dolazi do griže savesti i krivice koje ponovo povišavaju anksioznost – koju umanjujemo ponovnim udaljavanjem od zadatka odnosno izvora anksioznosti – što nas vodi u „začarani krug“ prokrastinacije.
 
-Iako uzroci prokrastinacije mogu biti različiti i zavise od individualnih, kontekstualnih pa čak i kulturoloških razlika, kao najčešći se pominju: apstraktni ciljevi, preplavljenost zadatkom, strah od negativnog fidbeka, strah od neuspeha, perfekcionizam, nedostatak motivacije, manjak energije, percipirani nedostatak kontrole. Sklonost ka prokrastinaciji može biti i posledica mentalnih poremećaja kao što su [anksioznost](/blog/anksioznost-i-anksiozni-poremecaji/sta-je-aksioznost), [depresija](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja) i poremećaj pažnje. Ovde ćemo predstaviti četiri česta uzroka prokrastinacije i predloge za njihovo prevazilaženje.
+Iako uzroci prokrastinacije mogu biti različiti i zavise od individualnih, kontekstualnih pa čak i kulturoloških razlika, kao najčešći se pominju: apstraktni ciljevi, preplavljenost zadatkom, strah od negativnog fidbeka, strah od neuspeha, perfekcionizam, nedostatak motivacije, manjak energije, percipirani nedostatak kontrole. Sklonost ka prokrastinaciji može biti i posledica mentalnih poremećaja kao što su [anksioznost](/blog/anksioznost-i-anksiozni-poremecaji/sta-je-aksioznost/), [depresija](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja/) i poremećaj pažnje. Ovde ćemo predstaviti četiri česta uzroka prokrastinacije i predloge za njihovo prevazilaženje.
 
-**Četiri uzroka prokrastinacije**
+## Četiri uzroka prokrastinacije
 
 1. STRAH OD NEUSPEHA
 
@@ -36,7 +36,7 @@ Strah od neuspeha može biti vezan za sam zadatak – možda nismo sigurni da za
 
 2. PERFEKCIONIZAM
 
-Iako uglavnom percipiran kao pozitivna osobina, [perfekcionizam](/blog/nefunkcionalna-ponasanja/perfekcionizam) često stoji na putu efikasnosti. Budući da ga je nemoguće uvek dostići i biti najbolji u svemu, u osnovi perfekcionizma nailazimo na nerealistična očekivanja. Perfekcionisti su skloni odlaganju obaveza i zadataka usled čekanja „pravog, savršenog momenta“ koji, naravno, nikada ne dođe. Jedan od načina prevazilaženja prokrastrinacije prouzrokovane perfekcionizmom je menjanje „sve ili ništa“ pristupa „sve ili nešto“ pristupom. Neki zadaci su preteški, neki nedovoljno inspirativni, neki jednostavno ne mnogo važni da bi bili perfektno urađeni – dovoljno je samo da budu „OK“ i završeni. Početi i obaviti zadatak nekada je sam po sebi dovoljno veliki uspeh bez obzira na rezultat.
+Iako uglavnom percipiran kao pozitivna osobina, [perfekcionizam](/blog/nefunkcionalna-ponasanja/perfekcionizam/) često stoji na putu efikasnosti. Budući da ga je nemoguće uvek dostići i biti najbolji u svemu, u osnovi perfekcionizma nailazimo na nerealistična očekivanja. Perfekcionisti su skloni odlaganju obaveza i zadataka usled čekanja „pravog, savršenog momenta“ koji, naravno, nikada ne dođe. Jedan od načina prevazilaženja prokrastrinacije prouzrokovane perfekcionizmom je menjanje „sve ili ništa“ pristupa „sve ili nešto“ pristupom. Neki zadaci su preteški, neki nedovoljno inspirativni, neki jednostavno ne mnogo važni da bi bili perfektno urađeni – dovoljno je samo da budu „OK“ i završeni. Početi i obaviti zadatak nekada je sam po sebi dovoljno veliki uspeh bez obzira na rezultat.
 
 3. MANJAK ENERGIJE
 
