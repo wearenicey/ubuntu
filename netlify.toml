@@ -124,5 +124,8 @@
   status = 301  
 
 
-
+[[redirects]]
+  from = "http://ubuntucentar.com/uncategorized/razlika-izmedu-psihologa-psihijatra-i-psihoterapeuta/"
+  to = "/blog/psihoterapija/razlika-izmedju-psihologa-psihijatra-i-psihoterapeuta/"
+  status = 301  
 
