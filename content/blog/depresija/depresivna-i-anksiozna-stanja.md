@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: depresivna-anskiozna-stanja-danas-licna-zapazanja
 name: Aloo
-metaDesc: " o tome kako pristupiti depresiji ili anksioznosti iz psihoterapijske perspektive. Saveti i drugima koji dele slična iskustva."
+metaDesc: "Kako pristupiti depresiji ili anksioznosti iz psihoterapijske perspektive. Saveti i drugima koji dele slična iskustva."
 
 ---
 
