@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: depresivna-anskiozna-stanja-danas-licna-zapazanja
 name: Aloo
-metaDesc: "Zapažanja o pitanjima u vezi sa prisustvom depresije među ljudima."
+metaDesc: " o tome kako pristupiti depresiji ili anksioznosti iz psihoterapijske perspektive. Saveti i drugima koji dele slična iskustva."
 
 ---
 

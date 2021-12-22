@@ -114,7 +114,7 @@
   status = 301  
 
 [[redirects]]
-  from = "https://www.ubuntucentar.com/uncategorized/sta-su-panicni-napadi-i-zbog-cega-nastaju/feed/"
+  from = "https://www.ubuntucentar.com/uncategorized/sta-su-panicni-napadi-i-zbog-cega-nastaju/"
   to = "/blog/panicni-napadi/sta-su-panicni-napadi-zbog-cega-nastaju/"
   status = 301  
 
