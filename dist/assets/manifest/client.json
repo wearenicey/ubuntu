@@ -2,40 +2,40 @@
   "publicPath": "/",
   "all": [
     "assets/css/0.styles.1b61de77.css",
-    "assets/js/app.77c75a88.js",
+    "assets/js/app.bf35db84.js",
     "assets/js/page--src-pages-404-vue.ea8ca2dc.js",
-    "assets/js/page--src-pages-blog-vue.90390052.js",
+    "assets/js/page--src-pages-blog-vue.8f07d7bd.js",
     "assets/js/page--src-pages-blog-vue~page--src-pages-index-vue~page--src-pages-karijera-vue~page--src-templates-~321f2b7f.f4c2ded9.js",
     "assets/js/page--src-pages-donacije-vue.22477cff.js",
     "assets/js/page--src-pages-index-vue.07503018.js",
-    "assets/js/page--src-pages-karijera-vue.d9af814f.js",
+    "assets/js/page--src-pages-karijera-vue.c69c26be.js",
     "assets/js/page--src-pages-kontakt-vue.62b0215c.js",
     "assets/js/page--src-pages-online-savetovaliste-vue.487e059b.js",
     "assets/js/page--src-pages-online-savetovaliste-vue~page--src-pages-savetovaliste-beograd-vue~page--src-pages-s~dd5c87d9.2d456e76.js",
     "assets/js/page--src-pages-savetovaliste-beograd-vue.bf1124b3.js",
     "assets/js/page--src-pages-savetovaliste-novi-sad-vue.7a2298cd.js",
     "assets/js/page--src-pages-zasto-ubuntu-vue.deb10dfa.js",
-    "assets/js/page--src-templates-category-vue.d3798c52.js",
+    "assets/js/page--src-templates-category-vue.4bdca222.js",
     "assets/js/page--src-templates-post-vue.deb3b616.js"
   ],
   "initial": [
     "assets/css/0.styles.1b61de77.css",
-    "assets/js/app.77c75a88.js"
+    "assets/js/app.bf35db84.js"
   ],
   "async": [
     "assets/js/page--src-pages-404-vue.ea8ca2dc.js",
-    "assets/js/page--src-pages-blog-vue.90390052.js",
+    "assets/js/page--src-pages-blog-vue.8f07d7bd.js",
     "assets/js/page--src-pages-blog-vue~page--src-pages-index-vue~page--src-pages-karijera-vue~page--src-templates-~321f2b7f.f4c2ded9.js",
     "assets/js/page--src-pages-donacije-vue.22477cff.js",
     "assets/js/page--src-pages-index-vue.07503018.js",
-    "assets/js/page--src-pages-karijera-vue.d9af814f.js",
+    "assets/js/page--src-pages-karijera-vue.c69c26be.js",
     "assets/js/page--src-pages-kontakt-vue.62b0215c.js",
     "assets/js/page--src-pages-online-savetovaliste-vue.487e059b.js",
     "assets/js/page--src-pages-online-savetovaliste-vue~page--src-pages-savetovaliste-beograd-vue~page--src-pages-s~dd5c87d9.2d456e76.js",
     "assets/js/page--src-pages-savetovaliste-beograd-vue.bf1124b3.js",
     "assets/js/page--src-pages-savetovaliste-novi-sad-vue.7a2298cd.js",
     "assets/js/page--src-pages-zasto-ubuntu-vue.deb10dfa.js",
-    "assets/js/page--src-templates-category-vue.d3798c52.js",
+    "assets/js/page--src-templates-category-vue.4bdca222.js",
     "assets/js/page--src-templates-post-vue.deb3b616.js"
   ],
   "modules": {
