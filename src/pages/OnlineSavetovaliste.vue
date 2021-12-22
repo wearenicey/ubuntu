@@ -347,7 +347,7 @@
 									</button>
 								</dt>
 								<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-									<p class="text-base text-gray-500"><a href="/donacije">Donacije</a> je moguće uplatiti <span class="font-bold">uživo</span> ili na <span class="font-bold">žiro račun</span> centra.</p>
+									<p class="text-base text-gray-500"><a href="/donacije/">Donacije</a> je moguće uplatiti <span class="font-bold">uživo</span> ili na <span class="font-bold">žiro račun</span> centra.</p>
 								</dd>
 							</div>
 

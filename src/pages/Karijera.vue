@@ -398,7 +398,7 @@
 					</p>
 					<div class="mt-8">
 						<div class="inline-flex rounded-3xl shadow">
-							<a href="/zasto-ubuntu" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-gray-700"> Saznaj više o Ubuntu Savetovalištu </a>
+							<a href="/zasto-ubuntu/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-gray-700"> Saznaj više o Ubuntu Savetovalištu </a>
 						</div>
 					</div>
 				</div>

@@ -35,52 +35,52 @@ module.exports = {
 					'/blog/': {
 						changefreq: 'daily',
 						priority: 0.9,
-						lastmod: '2021-12-11',
+						lastmod: '2021-12-22',
 					},
 					'/blog/*': {
 						changefreq: 'daily',
 						priority: 0.9,
-						lastmod: '2021-12-11',
+						lastmod: '2021-12-22',
 					},
 					'/blog/*/*': {
 						changefreq: 'daily',
 						priority: 0.8,
-						lastmod: '2021-12-11',
+						lastmod: '2021-12-22',
 					},
 					'/savetovaliste-beograd/': {
 						changefreq: 'weekly',
 						priority: 0.9,
-						lastmod: '2021-10-12',
+						lastmod: '2021-12-22',
 					},
 					'/savetovaliste-novi-sad/': {
 						changefreq: 'weekly',
 						priority: 0.9,
-						lastmod: '2021-10-12',
+						lastmod: '2021-12-22',
 					},
 					'/online-savetovaliste/': {
 						changefreq: 'weekly',
 						priority: 0.9,
-						lastmod: '2021-10-12',
+						lastmod: '2021-12-22',
 					},
 					'/karijera/': {
 						changefreq: 'monthly',
 						priority: 0.8,
-						lastmod: '2021-10-12',
+						lastmod: '2021-12-22',
 					},
 					'/kontakt/': {
 						changefreq: 'monthly',
 						priority: 0.7,
-						lastmod: '2021-10-12',
+						lastmod: '2021-12-22',
 					},
 					'/zasto-ubuntu/': {
 						changefreq: 'monthly',
 						priority: 0.8,
-						lastmod: '2021-10-12',
+						lastmod: '2021-12-22',
 					},
 					'/donacije/': {
 						changefreq: 'monthly',
 						priority: 0.7,
-						lastmod: '2021-10-12',
+						lastmod: '2021-12-22',
 					},
 				}
 			}
