@@ -138,7 +138,6 @@ export default {
 				// 	content: process.env.GRIDSOME_BASE_PATH + this.$page.post.imageTwo.path,
 				// 	},
 			],
-
 		};
 	},
 	components: {
