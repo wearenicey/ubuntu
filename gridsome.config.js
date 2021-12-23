@@ -45,7 +45,7 @@ module.exports = {
 					'/blog/*/*': {
 						changefreq: 'daily',
 						priority: 0.8,
-						lastmod: '2021-12-22',
+						lastmod: '2021-12-24',
 					},
 					'/savetovaliste-beograd/': {
 						changefreq: 'weekly',
