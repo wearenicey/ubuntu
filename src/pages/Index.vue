@@ -425,29 +425,29 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
-		titleTemplate: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
+		title: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
+		titleTemplate: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
 
 		meta: [
 			{
 				name: "title",
-				content: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
+				content: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
 			},
 			{
 				name: "description",
-				content: "Savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
+				content: "Ubuntu psihološko savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
 			},
 
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
+				content: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
 			},
 
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
+				content: "Ubuntu psihološko savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
 			},
 			{
 				key: "og:image",
