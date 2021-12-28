@@ -194,7 +194,7 @@
 
 			<section class="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
 				<h2 class="sr-only" id="contact-heading">Contact us</h2>
-				<div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+				<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
 					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<div class="flex-shrink-0">
 							<g-image class="h-48 w-full object-cover" src="~/assets/img/novisad.jpg" alt="" />
@@ -356,8 +356,8 @@
 						</svg>
 					</div>
 					<div class="relative">
-						<div class="sm:text-center">
-							<h2 class="text-3xl text-white tracking-tight sm:text-4xl">Saveti za mentalni razvoj.</h2>
+						<div class="text-center">
+							<h2 class="text-3xl text-white tracking-tight sm:text-4xl">Saveti za mentalni razvoj</h2>
 							<p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">Želiš da budeš u toku sa našim objavama? Obećavamo da nećemo slati više od jednog mejla nedeljno 😊</p>
 						</div>
 						<form @submit.prevent="submit" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex" id="newsletter" name="newsletter" method="post" data-netlify="true" data-netlify-honeypot="bot-field">

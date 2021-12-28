@@ -103,7 +103,7 @@
 				</div>
 			</div>
 			<div class="mt-12 border-t border-gray-200 pt-8">
-				<p class="text-base text-gray-400 xl:text-center">&copy; 2021, <a href="https://www.nicey.rs/">Nicey Agency</a></p>
+				<p class="text-base text-gray-400 xl:text-center">&copy; 2021, <a href="https://nicey.rs/">Nicey Consulting</a></p>
 			</div>
 		</div>
 	</footer>
