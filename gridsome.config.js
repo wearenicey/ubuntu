@@ -82,6 +82,11 @@ module.exports = {
 						priority: 0.7,
 						lastmod: '2021-12-22',
 					},
+					'/': {
+						changefreq: 'weekly',
+						priority: 1.0,
+						lastmod: '2021-12-25',
+					},
 				}
 			}
 		},
