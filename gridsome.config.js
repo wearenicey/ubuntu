@@ -32,20 +32,11 @@ module.exports = {
 			options: {
 				exclude: ['/404', '/blog/2', '/blog/3'],
 				config: {
-					'/blog/': {
-						changefreq: 'daily',
-						priority: 0.9,
-						lastmod: '2021-12-22',
-					},
-					'/blog/*': {
-						changefreq: 'daily',
-						priority: 0.9,
-						lastmod: '2021-12-22',
-					},
-					'/blog/*/*': {
-						changefreq: 'daily',
-						priority: 0.8,
-						lastmod: '2021-12-23',
+					
+					'/': {
+						changefreq: 'weekly',
+						priority: 1.0,
+						lastmod: '2021-12-25',
 					},
 					'/savetovaliste-beograd/': {
 						changefreq: 'weekly',
@@ -61,6 +52,21 @@ module.exports = {
 						changefreq: 'weekly',
 						priority: 0.9,
 						lastmod: '2021-12-22',
+					},
+					'/blog/': {
+						changefreq: 'daily',
+						priority: 0.9,
+						lastmod: '2021-12-22',
+					},
+					'/blog/*': {
+						changefreq: 'daily',
+						priority: 0.9,
+						lastmod: '2021-12-22',
+					},
+					'/blog/*/*': {
+						changefreq: 'daily',
+						priority: 0.8,
+						lastmod: '2021-12-23',
 					},
 					'/karijera/': {
 						changefreq: 'monthly',
@@ -82,11 +88,7 @@ module.exports = {
 						priority: 0.7,
 						lastmod: '2021-12-22',
 					},
-					'/': {
-						changefreq: 'weekly',
-						priority: 1.0,
-						lastmod: '2021-12-25',
-					},
+					
 				}
 			}
 		},
