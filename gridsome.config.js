@@ -66,7 +66,7 @@ module.exports = {
 					'/blog/*/*': {
 						changefreq: 'daily',
 						priority: 0.8,
-						lastmod: '2021-12-23',
+						lastmod: '2021-12-25',
 					},
 					'/karijera/': {
 						changefreq: 'monthly',
