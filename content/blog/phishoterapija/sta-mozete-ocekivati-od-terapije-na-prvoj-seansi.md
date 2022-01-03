@@ -12,7 +12,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: sta-mozete-ocekivati-od-terapije-i-na-prvoj-seansi
 name: Aloo
 metaDesc: "Razlika između dobrog i lošeg iskustva može biti ogromna, pa je veoma važno znati šta možete očekivati na prvoj seansi."

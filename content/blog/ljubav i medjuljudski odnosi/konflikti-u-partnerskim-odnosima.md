@@ -12,7 +12,7 @@ imageTwo:
 image_caption: unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: konflikti-u-partnerskim-odnosima
 name: Aloo
 metaDesc: "Kada počnu da nastaju sukobi između partnera, šta se može učiniti? Saznajte o načinima za rešavanje nesuglasica."
