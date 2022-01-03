@@ -151,7 +151,7 @@
 						</div>
 						<div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
 							<div class="lg:col-start-2">
-								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Koji su prvi koraci?</h3>
+								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
 								<p class="mt-3 text-lg text-gray-500">
 									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta,
 									koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
@@ -213,7 +213,7 @@
 											/>
 										</svg>
 									</div>
-									<p class="mt-5 text-lg leading-6 font-medium text-gray-800">Izbor terapeuta</p>
+									<p class="mt-5 text-lg leading-6 font-medium text-gray-800">Izbor psihoterapeuta</p>
 								</dt>
 								<dd class="mt-2 text-base text-gray-500">Nulti susret služi za procenu psihoterapijske motivacije, na osnovu čega naš tim efikasno odabere najboljeg terapeuta za Vas.</dd>
 							</div>
@@ -686,7 +686,7 @@
 								</div>
 
 								<div class="py-10 px-6 sm:px-10 xl:p-12">
-									<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom</h3>
+									<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom online</h3>
 									<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
 									<dl class="mt-8 space-y-6">
 										<dt><span class="sr-only">Lokacija</span></dt>

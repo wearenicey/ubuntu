@@ -18,7 +18,7 @@
 						</div>
 					</div>
 					<div>
-						<g-image immediate="true" class="lg:mt-20 mt-10" src="~/assets/img/pocenta-1.jpg"></g-image>
+						<g-image immediate="true" class="lg:mt-20 mt-10" src="~/assets/img/pocenta-1.jpg" alt="psihoterapeut savetuje"></g-image>
 					</div>
 					<svg class="hidden xl:block absolute right-72 transform bottom-60" width="114" height="122"
 						viewBox="0 0 114 122" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +55,7 @@
 				<div class="h-full w-full xl:grid xl:grid-cols-2">
 					<div class="h-full xl:relative xl:col-start-2">
 						<g-image class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-							src="~/assets/img/tim.jpg" alt="People working on laptops" />
+							src="~/assets/img/tim.jpg" alt="psihološko savetovalište u grupi" />
 						<div aria-hidden="true"
 							class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-green-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r">
 						</div>
@@ -70,13 +70,14 @@
 						<div class="mt-6 text-gray-300 space-y-6">
 							<p class="text-lg">
 								Centar za rast i razvoj ljudskog potencijala Ubuntu osnovan je 28. juna 2016. godine u
-								Novom Sadu. Ideja našeg <span class="font-bold">psihološkog savetovališta</span> jeste da na jednom mestu okupimo psihologe i ostale visoko kvalifikovane
-							psihoterapeute.
+								Novom Sadu. Ideja našeg <span class="font-bold">psihološkog savetovališta</span> jeste
+								da na jednom mestu okupimo psihologe i ostale visoko kvalifikovane
+								psihoterapeute.
 							</p>
 							<p class="text-base leading-7">
 								Želeli smo da im damo siguran prostor za rad i kontinuiranu podršku u profesionalnom
 								razvoju, kako bismo udruženim snagama vodili računa o mentalnom zdravlju građana naše
-								lokalne zajednice, a i šire..
+								lokalne zajednice, a i šire.
 							</p>
 						</div>
 					</div>
@@ -171,13 +172,14 @@
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl z-50">
 				<div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
 					<div>
-						<h2 class="text-3xl text-purple-900 tracking-tight sm:text-5xl">Tim psihoterapeuta našeg savetovališta, Vama na usluzi.</h2>
-						<p class="mt-6 max-w-3xl text-lg leading-7 text-gray-500">Trudimo se da naše psihološko savetovalište predstavlja sinonim za
-						 zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.
+						<h2 class="text-3xl text-purple-900 tracking-tight sm:text-5xl">Tim psihoterapeuta savetovališta, Vama na usluzi.</h2>
+						<p class="mt-6 max-w-3xl text-lg leading-7 text-gray-500">Trudimo se da naše psihološko
+							savetovalište predstavlja sinonim za
+							zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.
 						</p>
 					</div>
 					<div class="mt-12">
-						<g-image class="w-full h-full" src="~/assets/img/tim.jpg" />
+						<g-image class="w-full h-full" src="~/assets/img/tim.jpg" alt="psihoterapija u grupi"/>
 					</div>
 				</div>
 			</div>
@@ -212,15 +214,16 @@
 				</svg>
 
 				<div class="absolute inset-0">
-					<g-image class="w-full h-full object-cover" src="~/assets/img/home-prvi-korak.jpg" alt="" />
+					<g-image class="w-full h-full object-cover" src="~/assets/img/home-prvi-korak.jpg" alt="prvi koraci u psihoterapiji" />
 					<div class="absolute inset-0 bg-green-800 mix-blend-multiply" aria-hidden="true"></div>
 				</div>
 				<div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
 					<h2 class="text-4xl tracking-tight text-white md:text-5xl lg:text-6xl">Prvi korak ka ličnom rastu i
 						razvoju ste već napravili. Da li ste spremni za sledeći?</h2>
 					<p class="mt-6 max-w-3xl text-xl text-gray-300">Na raspolaganju su
-					vam 
-					<span class="font-bold">psihološka savetovališta</span> u Novom Sadu i Beogradu. Takođe, postoji mogućnost i za <span class="font-bold">online psihološko savetovanje</span>.</p>
+						vam
+						<span class="font-bold">psihološka savetovališta</span> u Novom Sadu i Beogradu. Takođe, postoji
+						mogućnost i za <span class="font-bold">psihoterapiju online</span>.</p>
 				</div>
 			</div>
 
@@ -230,12 +233,13 @@
 				<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
 					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<div class="flex-shrink-0">
-							<g-image class="h-48 w-full object-cover" src="~/assets/img/novisad.jpg" alt="" />
+							<g-image class="h-48 w-full object-cover" src="~/assets/img/novisad.jpg" alt="psihološko savetovalište novi sad" />
 						</div>
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
 								<a href="/savetovaliste-novi-sad/" class="block mt-2">
-									<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Novom Sadu</h3>
+									<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Novom
+										Sadu</h3>
 									<p class="mt-3 text-base text-gray-500">Projekat "Novosadsko savetovalište Ubuntu"
 										je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako
 										dostupnu psihološku pomoć u Novom Sadu.</p>
@@ -251,12 +255,13 @@
 
 					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<div class="flex-shrink-0">
-							<g-image class="h-48 w-full object-cover" src="~/assets/img/beograd.jpg" alt="" />
+							<g-image class="h-48 w-full object-cover" src="~/assets/img/beograd.jpg" alt="psihološksko savetovalište beograd" />
 						</div>
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
 								<a href="/savetovaliste-beograd/" class="block mt-2">
-									<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu</h3>
+									<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu
+									</h3>
 									<p class="mt-3 text-base text-gray-500">3 godine kasnije, usled velikog
 										interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište
 										Ubuntu", trenutno na 2 adrese.</p>
@@ -272,12 +277,12 @@
 
 					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<div class="flex-shrink-0">
-							<g-image class="h-48 w-full object-cover" src="~/assets/img/onilne.jpg" alt="" />
+							<g-image class="h-48 w-full object-cover" src="~/assets/img/onilne.jpg" alt="online psihoterapija" />
 						</div>
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
 								<a href="/online-savetovaliste/" class="block mt-2">
-									<h3 class="text-xl font-semibold text-gray-900">Online psihološko savetovalište</h3>
+									<h3 class="text-xl font-semibold text-gray-900">Online psihoterapija</h3>
 									<p class="mt-3 text-base text-gray-500">Kako bismo unapredili rad savetovališta i
 										usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.
 									</p>

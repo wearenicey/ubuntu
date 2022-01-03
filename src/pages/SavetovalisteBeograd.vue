@@ -8,7 +8,7 @@
 					<div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
 						<div class="absolute inset-0">
 							<g-image immediate="true" class="h-full w-full object-cover"
-								src="~/assets/img/beograd-psihoterapija.jpg" alt="Psiholosko savetovaliste Beograd" />
+								src="~/assets/img/beograd-psihoterapija.jpg" alt="Psiholosko savetovaliste Ubuntu Beograd" />
 
 							<div class="absolute inset-0 bg-cyan-600 mix-blend-multiply"></div>
 						</div>
@@ -90,19 +90,19 @@
 							<p class="mt-3 text-lg text-gray-500">
 								Projekat je samoodrživ i finansira se uz pomoć dobrovoljne donacije građana. Donacije 
 								se koriste isključivo u svrhu održavanja rada savetovališta i profesionalnog ulaganja 
-								u tim psihoterapeuta koji je angažovan u okviru projekta
+								u tim psihoterapeuta koji je angažovan u okviru projekta.
 							</p>
 						</div>
 
 						<div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-							<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-1.jpg" alt="" />
+							<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-1.jpg" alt="psihološka podrška" />
 						</div>
 					</div>
 
 					<div class="relative mt-12 sm:mt-16 lg:mt-24">
 						<div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
 							<div class="lg:col-start-2">
-								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i koja je cena?</h3>
+								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
 								<p class="mt-3 text-lg text-gray-500">
 									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i
 									motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 2.000 dinara kao
@@ -133,7 +133,7 @@
 
 							<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
 								<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-2.jpg"
-									alt="" />
+									alt="psiholopki napredak" />
 							</div>
 						</div>
 					</div>
@@ -165,7 +165,7 @@
 												fill="#34D399" />
 										</svg>
 									</div>
-									<p class="mt-5 text-lg leading-6 font-medium text-gray-800">Izbor terapeuta</p>
+									<p class="mt-5 text-lg leading-6 font-medium text-gray-800">Izbor psihoterapeuta</p>
 								</dt>
 								<dd class="mt-2 text-base text-gray-500">Nulti susret služi za procenu psihoterapijske
 									motivacije, na osnovu čega naš tim efikasno odabere najboljeg terapeuta za Vas.</dd>
