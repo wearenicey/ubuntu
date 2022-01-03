@@ -19,7 +19,7 @@
 					</div>
 
 					<div class="pt-20 relative flex justify-center">
-						<g-image src="~/assets/img/online-2.png"></g-image>
+						<g-image src="~/assets/img/online-2.png" alt="online psihoterapija"></g-image>
 					</div>
 				</div>
 			</div>
@@ -128,7 +128,7 @@
 						</div>
 
 						<div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-							<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-1.jpg" alt="" />
+							<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-1.jpg" alt="psihološka podrška" />
 						</div>
 					</div>
 
@@ -184,7 +184,7 @@
 							</div>
 
 							<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-								<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-2.jpg" alt="" />
+								<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-2.jpg" alt="psihološki napredak" />
 							</div>
 						</div>
 					</div>
