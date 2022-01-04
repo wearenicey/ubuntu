@@ -14,7 +14,7 @@
 					</div>
 					<div class="mt-10 flex block justify-center">
 						<div class="inline-flex">
-							<a href="tel:+381658286881" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Nazovi za konsultaciju </a>
+							<a href="tel:+381658286881" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Nazovite za konsultaciju </a>
 						</div>
 					</div>
 
@@ -178,7 +178,7 @@
 											sm:px-10
 										"
 									>
-										Kontaktiraj nas za više informacija
+										Kontaktirajte nas za više informacija
 									</a>
 								</div>
 							</div>
@@ -759,7 +759,7 @@
 							</div>
 
 							<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
-								<h3 class="text-lg font-medium text-gray-900">Pošaljite nam poruku</h3>
+								<h3 class="text-lg font-medium text-gray-900">Pošaljite poruku</h3>
 								<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact-online" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 									<div>
 										<input type="hidden" name="form-name" value="contact-online" />
@@ -896,7 +896,7 @@
 												focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
 											"
 										>
-											Pošalji poruku
+											Pošaljite poruku
 										</button>
 										<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100" v-if="formData.submitStatus === 'OK'">
 											<p class="typo__p">Poruka je poslata!</p>

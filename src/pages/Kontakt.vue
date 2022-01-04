@@ -513,7 +513,7 @@
 												focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
 											"
 										>
-											Pošalji poruku
+											Pošaljite poruku
 										</button>
 										<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100" v-if="formData.submitStatus === 'OK'">
 											<p class="typo__p">Poruka je poslata!</p>

@@ -31,7 +31,7 @@
 						<button
 							class="inline-flex items-center px-6 py-3 border shadow-sm text-sm font-medium rounded-full text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 						>
-							Pročitaj više
+							Pročitajte više
 						</button>
 					</a>
 				</div>

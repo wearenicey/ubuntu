@@ -14,7 +14,7 @@
 								<div class="sm:max-w-xl sm:mx-auto lg:mx-0">
 									<div class="sm:flex">
 										<div class="mt-3 text-center">
-											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Doniraj </a>
+											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Donirajte </a>
 										</div>
 									</div>
 								</div>

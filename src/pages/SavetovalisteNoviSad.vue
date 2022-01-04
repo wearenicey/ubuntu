@@ -25,7 +25,7 @@
 								<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:gap-5">
 									<a href="tel:+381658286881"
 										class="flex items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-yellow-600 hover:bg-yellow-700 sm:px-8">
-										Nazovi za konsultaciju
+										Nazovite za konsultaciju
 									</a>
 								</div>
 							</div>
@@ -126,7 +126,7 @@
 											focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2
 											sm:px-10
 										">
-										Kontaktiraj nas za više informacija
+										Kontaktirajte nas za više informacija
 									</a>
 								</div>
 							</div>
@@ -826,7 +826,7 @@
 												hover:bg-green-700
 												focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
 											">
-											Pošalji poruku
+											Pošaljite poruku
 										</button>
 										<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100"
 											v-if="formData.submitStatus === 'OK'">

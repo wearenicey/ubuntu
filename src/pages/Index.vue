@@ -128,7 +128,7 @@
 						<footer class="mt-8">
 							<div class="flex items-start">
 								<div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-									<g-image class="h-12 w-12 rounded-full" src="~/assets/img/covek.png" alt="" />
+									<g-image class="h-12 w-12 rounded-full" src="~/assets/img/covek.png" alt="zadovoljan čovek" />
 								</div>
 								<div class="ml-4">
 									<div class="text-base font-medium text-gray-800">Marko</div>
@@ -154,7 +154,7 @@
 						<footer class="mt-8">
 							<div class="flex items-start">
 								<div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-									<g-image class="h-12 w-12 rounded-full" src="~/assets/img/zena.png" alt="" />
+									<g-image class="h-12 w-12 rounded-full" src="~/assets/img/zena.png" alt="zadovoljna žena" />
 								</div>
 								<div class="ml-4">
 									<div class="text-base font-medium text-gray-800">Mirjana</div>
@@ -229,7 +229,7 @@
 
 			<section class="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8"
 				aria-labelledby="contact-heading">
-				<h2 class="sr-only" id="contact-heading">Contact us</h2>
+				<h2 class="sr-only" id="contact-heading">Kontaktirajte nas</h2>
 				<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
 					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<div class="flex-shrink-0">
@@ -248,14 +248,14 @@
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
 							<a href="/savetovaliste-novi-sad/"
-								class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span
+								class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span
 									aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
 
 					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<div class="flex-shrink-0">
-							<g-image class="h-48 w-full object-cover" src="~/assets/img/beograd.jpg" alt="psihološksko savetovalište beograd" />
+							<g-image class="h-48 w-full object-cover" src="~/assets/img/beograd.jpg" alt="psihološko savetovalište beograd" />
 						</div>
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
@@ -270,7 +270,7 @@
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
 							<a href="/savetovaliste-beograd/"
-								class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span
+								class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span
 									aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
@@ -291,7 +291,7 @@
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
 							<a href="/online-savetovaliste/"
-								class="text-base font-medium text-green-700 hover:text-green-600">Saznaj više<span
+								class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span
 									aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
@@ -371,7 +371,7 @@
 					<div class="relative">
 						<div class="text-center">
 							<h2 class="text-3xl text-white tracking-tight sm:text-4xl">Saveti za psihološki razvoj</h2>
-							<p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">Želiš da budeš u toku sa našim
+							<p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">Želite da budete u toku sa našim
 								objavama? Obećavamo da nećemo slati više od jednog mejla nedeljno 😊</p>
 						</div>
 						<form @submit.prevent="submit" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex" id="newsletter"
@@ -381,7 +381,7 @@
 								<p hidden>
 									<label> Don’t fill this out: <input name="bot-field" /> </label>
 								</p>
-								<label for="cta-email" class="sr-only">Enter your email</label>
+								<label for="cta-email" class="sr-only">Unesite imejl adresu</label>
 								<input :class="{ 'form-group--error border border-red-500': $v.formData.email.$error }"
 									id="email" name="email" type="email"
 									class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
@@ -405,7 +405,7 @@
 										focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-green-500
 										sm:px-10
 									">
-									Prijavi me
+									Prijavite se
 								</button>
 								<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100"
 									v-if="formData.submitStatus === 'OK'">

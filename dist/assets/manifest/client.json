@@ -1,41 +1,41 @@
 {
   "publicPath": "/",
   "all": [
-    "assets/css/0.styles.88f5ac2d.css",
-    "assets/js/app.8df853e4.js",
+    "assets/css/0.styles.3e03c492.css",
+    "assets/js/app.f59bab63.js",
     "assets/js/page--src-pages-404-vue.ea8ca2dc.js",
-    "assets/js/page--src-pages-blog-vue.1e2d0e1a.js",
+    "assets/js/page--src-pages-blog-vue.e2b44d0a.js",
     "assets/js/page--src-pages-blog-vue~page--src-pages-index-vue~page--src-pages-karijera-vue~page--src-templates-~321f2b7f.7dc16813.js",
-    "assets/js/page--src-pages-donacije-vue.22477cff.js",
-    "assets/js/page--src-pages-index-vue.78b05ccb.js",
-    "assets/js/page--src-pages-karijera-vue.18342d0e.js",
-    "assets/js/page--src-pages-kontakt-vue.62b0215c.js",
-    "assets/js/page--src-pages-online-savetovaliste-vue.e70eb328.js",
+    "assets/js/page--src-pages-donacije-vue.b1b99dec.js",
+    "assets/js/page--src-pages-index-vue.5d007343.js",
+    "assets/js/page--src-pages-karijera-vue.2975f161.js",
+    "assets/js/page--src-pages-kontakt-vue.ef86242b.js",
+    "assets/js/page--src-pages-online-savetovaliste-vue.e4c5c4e3.js",
     "assets/js/page--src-pages-online-savetovaliste-vue~page--src-pages-savetovaliste-novi-sad-vue.dabab51b.js",
-    "assets/js/page--src-pages-savetovaliste-beograd-vue.607b934d.js",
-    "assets/js/page--src-pages-savetovaliste-novi-sad-vue.59ad3116.js",
-    "assets/js/page--src-pages-zasto-ubuntu-vue.deb10dfa.js",
-    "assets/js/page--src-templates-category-vue.29bfaba8.js",
+    "assets/js/page--src-pages-savetovaliste-beograd-vue.ecea7327.js",
+    "assets/js/page--src-pages-savetovaliste-novi-sad-vue.cecf25ac.js",
+    "assets/js/page--src-pages-zasto-ubuntu-vue.22f19905.js",
+    "assets/js/page--src-templates-category-vue.6bb19949.js",
     "assets/js/page--src-templates-post-vue.deb3b616.js"
   ],
   "initial": [
-    "assets/css/0.styles.88f5ac2d.css",
-    "assets/js/app.8df853e4.js"
+    "assets/css/0.styles.3e03c492.css",
+    "assets/js/app.f59bab63.js"
   ],
   "async": [
     "assets/js/page--src-pages-404-vue.ea8ca2dc.js",
-    "assets/js/page--src-pages-blog-vue.1e2d0e1a.js",
+    "assets/js/page--src-pages-blog-vue.e2b44d0a.js",
     "assets/js/page--src-pages-blog-vue~page--src-pages-index-vue~page--src-pages-karijera-vue~page--src-templates-~321f2b7f.7dc16813.js",
-    "assets/js/page--src-pages-donacije-vue.22477cff.js",
-    "assets/js/page--src-pages-index-vue.78b05ccb.js",
-    "assets/js/page--src-pages-karijera-vue.18342d0e.js",
-    "assets/js/page--src-pages-kontakt-vue.62b0215c.js",
-    "assets/js/page--src-pages-online-savetovaliste-vue.e70eb328.js",
+    "assets/js/page--src-pages-donacije-vue.b1b99dec.js",
+    "assets/js/page--src-pages-index-vue.5d007343.js",
+    "assets/js/page--src-pages-karijera-vue.2975f161.js",
+    "assets/js/page--src-pages-kontakt-vue.ef86242b.js",
+    "assets/js/page--src-pages-online-savetovaliste-vue.e4c5c4e3.js",
     "assets/js/page--src-pages-online-savetovaliste-vue~page--src-pages-savetovaliste-novi-sad-vue.dabab51b.js",
-    "assets/js/page--src-pages-savetovaliste-beograd-vue.607b934d.js",
-    "assets/js/page--src-pages-savetovaliste-novi-sad-vue.59ad3116.js",
-    "assets/js/page--src-pages-zasto-ubuntu-vue.deb10dfa.js",
-    "assets/js/page--src-templates-category-vue.29bfaba8.js",
+    "assets/js/page--src-pages-savetovaliste-beograd-vue.ecea7327.js",
+    "assets/js/page--src-pages-savetovaliste-novi-sad-vue.cecf25ac.js",
+    "assets/js/page--src-pages-zasto-ubuntu-vue.22f19905.js",
+    "assets/js/page--src-templates-category-vue.6bb19949.js",
     "assets/js/page--src-templates-post-vue.deb3b616.js"
   ],
   "modules": {
@@ -66,9 +66,6 @@
     "65765341": [
       1
     ],
-    "71739416": [
-      9
-    ],
     "72573024": [
       4
     ],
@@ -87,15 +84,15 @@
       0,
       -1
     ],
-    "4d68d41e": [
+    "0ef95ce1": [
       0,
       -1
     ],
-    "519ec357": [
+    "1577aee5": [
       0,
       -1
     ],
-    "dcdac570": [
+    "33b8f056": [
       0,
       -1
     ],
@@ -275,6 +272,9 @@
     "5bc1294e": [
       4
     ],
+    "fb611540": [
+      11
+    ],
     "6839a10c": [
       2
     ],
@@ -313,9 +313,6 @@
     ],
     "00d061a7": [
       1
-    ],
-    "1060a657": [
-      12
     ],
     "1aa057b3": [
       5
@@ -449,6 +446,9 @@
     "95d492a0": [
       4
     ],
+    "d7749018": [
+      11
+    ],
     "6bb532cb": [
       1
     ],
@@ -467,14 +467,14 @@
     "4d6cc674": [
       1
     ],
-    "5f266734": [
-      11
-    ],
     "72b6c9df": [
       1
     ],
     "d8dc98dc": [
       1
+    ],
+    "64f190e4": [
+      12
     ],
     "cc18e15c": [
       4
@@ -502,9 +502,6 @@
     ],
     "59a2f40b": [
       1
-    ],
-    "4957a47b": [
-      6
     ],
     "25e19a03": [
       4
@@ -536,6 +533,9 @@
     "a8baaaac": [
       1
     ],
+    "bd231018": [
+      6
+    ],
     "4058b720": [
       4
     ],
@@ -545,17 +545,11 @@
     "69e1fa79": [
       4
     ],
-    "55bea1fc": [
-      9
-    ],
     "8fa16cba": [
       6
     ],
     "62e5e6b3": [
       4
-    ],
-    "281c5ac9": [
-      6
     ],
     "811fded2": [
       6
@@ -610,6 +604,9 @@
     ],
     "6323c866": [
       1
+    ],
+    "0ace75f2": [
+      9
     ],
     "27da90f0": [
       4
@@ -682,6 +679,9 @@
     ],
     "518f7dee": [
       1
+    ],
+    "7b5ac18a": [
+      6
     ],
     "85d46992": [
       4
@@ -872,9 +872,6 @@
     "4b43749a": [
       4
     ],
-    "61b0191c": [
-      6
-    ],
     "6da494b6": [
       14
     ],
@@ -889,6 +886,9 @@
     ],
     "192b659e": [
       1
+    ],
+    "b4f8dda4": [
+      6
     ],
     "42848cfa": [
       1
@@ -919,9 +919,6 @@
     ],
     "364f85c2": [
       1
-    ],
-    "032b387a": [
-      12
     ],
     "3b991398": [
       4
@@ -974,11 +971,11 @@
     "1912ffb3": [
       7
     ],
-    "8312ec5c": [
-      11
-    ],
     "d16697e2": [
       1
+    ],
+    "52fb4e50": [
+      12
     ],
     "16b80f62": [
       1
@@ -1012,6 +1009,9 @@
     ],
     "6683450d": [
       4
+    ],
+    "b1bd49f4": [
+      9
     ],
     "7a4dda98": [
       1

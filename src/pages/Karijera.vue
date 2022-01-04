@@ -13,7 +13,7 @@
 								<div class="sm:max-w-xl sm:mx-auto lg:mx-0">
 									<div class="sm:flex">
 										<div class="mt-3 text-center">
-											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Popuni formular </a>
+											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Popunite formular </a>
 										</div>
 									</div>
 								</div>
@@ -398,7 +398,7 @@
 					</p>
 					<div class="mt-8">
 						<div class="inline-flex rounded-3xl shadow">
-							<a href="/zasto-ubuntu/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-gray-700"> Saznaj više o Ubuntu Savetovalištu </a>
+							<a href="/zasto-ubuntu/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-gray-700"> Saznajte više o Ubuntu Savetovalištu </a>
 						</div>
 					</div>
 				</div>
@@ -917,7 +917,7 @@
 											focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
 										"
 									>
-										Pošalji poruku
+										Pošaljite poruku
 									</button>
 									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100" v-if="formData.submitStatus === 'OK'">
 										<p class="typo__p">Poruka je poslata!</p>
