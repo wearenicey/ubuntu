@@ -1,7 +1,5 @@
 {
 	"name": "ubuntu",
-	"author": "nicey",
-	"version": "1.0",
 	"private": true,
 	"scripts": {
 		"develop": "gridsome develop",
