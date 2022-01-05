@@ -752,7 +752,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Naš tim psihoterapeuta u Beogradu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
+				content: "",
 			},
 			{
 				key: "og:title",
@@ -763,7 +763,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Naš tim psihoterapeuta u Beogradu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
+				content: "",
 			},
 		],
 	},
