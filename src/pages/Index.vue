@@ -173,10 +173,20 @@
 				<div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
 					<div>
 						<h2 class="text-3xl text-purple-900 tracking-tight sm:text-5xl">Tim psihoterapeuta savetovališta, Vama na usluzi.</h2>
-						<p class="mt-6 max-w-3xl text-lg leading-7 text-gray-500">Trudimo se da naše psihološko
+						<p class="mt-6 max-w-3xl text-lg leading-7 pb-4 text-gray-500">Trudimo se da naše psihološko
 							savetovalište predstavlja sinonim za
 							zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.
 						</p>
+						<div class="space-y-4">
+						<a href="/psihoterapeuti-beograd" class="inline-block  items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
+								Psihoterapeuti Beograd
+
+								</a>
+									<a href="/psihoterapeuti-novi-sad" class="inline-block  items-center lg:ml-2 rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
+								Psihoterapeuti Novi Sad
+
+								</a>
+						</div>
 					</div>
 					<div class="mt-12">
 						<g-image class="w-full h-full" src="~/assets/img/tim.jpg" alt="psihoterapija u grupi"/>
