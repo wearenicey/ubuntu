@@ -21,29 +21,29 @@
 										<div class="flex items-center space-x-6 lg:space-x-8">
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 												<div class="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-													<img src="/Zorana Stracenski.jpg" alt="" class="w-full h-full object-center object-cover" />
+													<img src="/Bogdan Markovic.jpg" alt="" class="w-full h-full object-center object-cover" />
 												</div>
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Marija Stanišić.jpg" alt="" class="w-full h-full object-center object-cover" />
-												</div>
-											</div>
-											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Aleksandra Ristić.jpg" alt="" class="w-full h-full object-center object-cover" />
-												</div>
-												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Bogdan Marković.jpg" alt="" class="w-full h-full object-center object-cover" />
-												</div>
-												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Natalija Ignjatović.jpg" alt="" class="w-full h-full object-center object-cover" />
+													<img src="/Darja Pacevski.jpg" alt="" class="w-full h-full object-center object-cover" />
 												</div>
 											</div>
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Nebojša Ratković.jpg" alt="" class="w-full h-full object-center object-cover" />
+													<img src="/Marija Stanisic.jpg" alt="" class="w-full h-full object-center object-cover" />
 												</div>
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Nikolina Dobraš.jpg" alt="" class="w-full h-full object-center object-cover" />
+													<img src="/Milena Sekularac.jpg" alt="" class="w-full h-full object-center object-cover" />
+												</div>
+												<div class="w-44 h-64 rounded-lg overflow-hidden">
+													<img src="/Milica Andjelkovic.jpg" alt="" class="w-full h-full object-center object-cover" />
+												</div>
+											</div>
+											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+												<div class="w-44 h-64 rounded-lg overflow-hidden">
+													<img src="/Natalija Ignjatovic.jpg" alt="" class="w-full h-full object-center object-cover" />
+												</div>
+												<div class="w-44 h-64 rounded-lg overflow-hidden">
+													<img src="/Nebojsa Ratkovic.jpg" alt="" class="w-full h-full object-center object-cover" />
 												</div>
 											</div>
 										</div>
@@ -63,7 +63,7 @@
 					<ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 						<li v-for="person in people" :key="person.name">
 							<div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
-								<div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+								<div class="h-0 aspect-w-3 aspect-h-3 sm:aspect-w-3 sm:aspect-h-4">
 									<g-image class="object-cover shadow-lg rounded-lg" :src="require(`!!assets-loader!@img/${person.imageUrl}`)" alt="" />
 								</div>
 								<div class="sm:col-span-2">
@@ -670,7 +670,7 @@ const people = [
 	{
 		name: "Irena Stojadinović",
 		role: "Telesna psihoterapija",
-		imageUrl: "Irena Stojadinovic.jpeg",
+		imageUrl: "Irena Stojadinovic.jpg",
 		bio: "Izabrala sam da se bavim telesnom psihoterapijom jer se kroz nju pristupa osobi u celosti. Sa klijentima radim na ponovnom povezivanju i izražavanju osećanja, u cilju oslobađanja od starih obrazaca i usmeravanja ka svrhovitom življenju.",
 	},
 	{
