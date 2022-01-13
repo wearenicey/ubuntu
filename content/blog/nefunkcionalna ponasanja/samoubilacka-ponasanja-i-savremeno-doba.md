@@ -13,7 +13,7 @@ image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
-path: zasto-ljudi-razvijaju-sabotazne-obrasce-ponasanja
+path: samoubilacka-ponasanja-i-savremeno-doba
 name: Aloo
 metaDesc: "Ako „porast samoubistava“ i „porast depresije“ među mladima postoje, ne bih decidno tvrdio da su u prostoj uzročno-posledičnoj vezi..."
 ---
