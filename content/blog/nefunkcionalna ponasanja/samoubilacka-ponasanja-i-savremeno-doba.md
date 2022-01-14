@@ -2,7 +2,7 @@
 title: Samoubilačka ponašanja i savremeno doba
 category: nefunkcionalna-ponasanja
 # ovo je i meta desc
-excerpt: Kako možemo identifikovati uzroke i razgovarati o samoubilačkim idejama i ponašanju u modernom dobu.
+excerpt: Ako „porast samoubistava“ i „porast depresije“ među mladima postoje, ne bih decidno tvrdio da su u prostoj uzročno-posledičnoj vezi...
 created: 2022-01-13
 date: 2022.01.13
 image: samoubilacka-ponasanja-i-savremeno-doba.jpg
@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: samoubilacka-ponasanja-i-savremeno-doba
 name: Aloo
-metaDesc: "Ako „porast samoubistava“ i „porast depresije“ među mladima postoje, ne bih decidno tvrdio da su u prostoj uzročno-posledičnoj vezi..."
+metaDesc: "Kako možemo identifikovati uzroke i razgovarati o samoubilačkim idejama i ponašanju u modernom dobu"
 ---
 
 Istina je da nemamo podatke za Srbiju, ali podaci iz SAD navode da su dva glavna uzroka smrti među mladima samoubistva i slučajne povrede, među kojima dominiraju saobraćajne nesreće. Slušam svoju okolinu i često čujem pitanje – da li „porast samoubistava“ ima veze sa „porastom **depresije** među mladima“. Ako „porast samoubistava“ i „porast depresije“ među mladima postoje, ne bih decidno tvrdio da su u prostoj uzročno-posledičnoj vezi, pogotovo zbog činjenice da su istraživanja pokazala da su samoubistva povezana sa depresivnim, **anksioznim**, bipolarnim poremećajem, shizofrenijom i drugim psihotičnim poremećajima, zloupotrebom supstanci, telesnim poremećajima kao što su hronični umor i rak, itd. Priznajem, ne raspolažem podacima o trendu rasta dve promenljive na koje smo se okomili, pogotovo ne kada je u pitanju Srbija. Ali postavljam sebi pitanje: da li su samoubistva učestalija ili vidljivija?
