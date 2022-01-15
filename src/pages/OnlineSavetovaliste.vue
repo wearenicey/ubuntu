@@ -935,28 +935,28 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Online savetovanje | Profesionalna psihoterapija",
-		titleTemplate: "Online savetovanje | Profesionalna psihoterapija",
+		title: "Online psihoterapija | Savetovalište Ubuntu",
+		titleTemplate: "Online psihoterapija | Savetovalište Ubuntu",
 
 		meta: [
 			{
 				name: "title",
-				content: "Online savetovanje | Profesionalna psihoterapija",
+				content: "Online psihoterapija | Savetovalište Ubuntu",
 			},
 			{
 				name: "description",
-				content: "Savetovalište Ubuntu nudi usluge profesionalne psihoterapije za pojedince, parove i porodice.",
+				content: "Savetovalište Ubuntu nudi usluge profesionalne online psihoterapije za pojedince, parove i porodice.",
 			},
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Online savetovanje | Profesionalna psihoterapija",
+				content: "Online psihoterapija | Savetovalište Ubuntu",
 			},
 
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Savetovalište Ubuntu nudi usluge profesionalne psihoterapije za pojedince, parove i porodice.",
+				content: "Savetovalište Ubuntu nudi usluge profesionalne online psihoterapije za pojedince, parove i porodice.",
 			},
 			{
 				key: "og:image",
@@ -966,12 +966,12 @@ export default {
 			{
 				key: "twitter:title",
 				name: "twitter:title",
-				content: "Online savetovanje | Profesionalna psihoterapija",
+				content: "Online psihoterapija | Savetovalište Ubuntu",
 			},
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Savetovalište Ubuntu nudi usluge profesionalne psihoterapije za pojedince, parove i porodice.",
+				content: "Savetovalište Ubuntu nudi usluge profesionalne online psihoterapije za pojedince, parove i porodice.",
 			},
 			{
 				key: "twitter:image",

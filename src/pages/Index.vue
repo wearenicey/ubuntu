@@ -437,12 +437,12 @@
 
 	export default {
 		metaInfo: {
-			title: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
-			titleTemplate: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
+			title: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
+			titleTemplate: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
 
 			meta: [{
 					name: "title",
-					content: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
+					content: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
 				},
 				{
 					name: "description",
@@ -452,7 +452,7 @@
 				{
 					key: "og:title",
 					name: "og:title",
-					content: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
+					content: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
 				},
 
 				{
@@ -468,7 +468,7 @@
 				{
 					key: "twitter:title",
 					name: "twitter:title",
-					content: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
+					content: "Savetovalište Ubuntu | Psihoterapija Novi Sad i Beograd",
 				},
 				{
 					key: "twitter:description",
