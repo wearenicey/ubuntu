@@ -1,4 +1,23 @@
 [[redirects]]
+  from = "http://ubuntucentar.com/"
+  to = "/"
+  status = 301  
+
+
+[[redirects]]
+  from = "http://www.ubuntucentar.com/"
+  to = "/"
+  status = 301
+
+
+
+[[redirects]]
+  from = "https://www.ubuntucentar.com/"
+  to = "/"
+  status = 301
+
+
+[[redirects]]
   from = "https://www.ubuntucentar.com/savetovaliste-u-beogradu/"
   to = "/savetovaliste-beograd/"
   status = 301
@@ -128,4 +147,7 @@
   from = "https://ubuntucentar.com/uncategorized/razlika-izmedu-psihologa-psihijatra-i-psihoterapeuta/"
   to = "/blog/psihoterapija/razlika-izmedju-psihologa-psihijatra-i-psihoterapeuta/"
   status = 301  
+
+
+
 
