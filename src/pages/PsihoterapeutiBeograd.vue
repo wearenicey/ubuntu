@@ -5,7 +5,9 @@
 				<div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
 					<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
 						<div class="sm:max-w-lg">
-							<h1 class="text-4xl font font-extrabold tracking-tight text-gray-900 pb-4 sm:text-6xl">Ubuntu terapeuti u Beogradu</h1>
+							<h1 class="text-4xl font font-extrabold tracking-tight text-gray-900 pb-4 sm:text-6xl">Ubuntu psihoterapeuti u beogradskom savetovalištu</h1>
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+
 							<div class="text-center lg:text-left pt-6 space-y-4">
 								<a href="tel:+381658286883" class="items-center flex lg:inline-block rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
 									Nazovite za konsultaciju
@@ -21,7 +23,7 @@
 										<div class="flex items-center space-x-6 lg:space-x-8">
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 												<div class="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-													<img src="/Bogdan Markovic.jpg" alt="" class="w-full h-full object-center object-cover" />
+													<img src="/Natalija Ignjatovic.jpg" alt="" class="w-full h-full object-center object-cover" />
 												</div>
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
 													<img src="/Darja Pacevski.jpg" alt="" class="w-full h-full object-center object-cover" />
@@ -40,7 +42,7 @@
 											</div>
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Natalija Ignjatovic.jpg" alt="" class="w-full h-full object-center object-cover" />
+													<img  src="/Bogdan Markovic.jpg" alt="" class="w-full h-full object-center object-cover" />
 												</div>
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
 													<img src="/Nebojsa Ratkovic.jpg" alt="" class="w-full h-full object-center object-cover" />
