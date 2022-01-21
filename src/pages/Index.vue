@@ -177,16 +177,6 @@
 							savetovalište predstavlja sinonim za
 							zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.
 						</p>
-						<div class="space-y-4">
-						<a href="/psihoterapeuti-beograd" class="inline-block  items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
-								Psihoterapeuti Beograd
-
-								</a>
-									<a href="/psihoterapeuti-novi-sad" class="inline-block  items-center lg:ml-2 rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
-								Psihoterapeuti Novi Sad
-
-								</a>
-						</div>
 					</div>
 					<div class="mt-12">
 						<g-image class="w-full h-full" src="~/assets/img/tim.jpg" alt="psihoterapija u grupi"/>
@@ -447,12 +437,12 @@
 
 	export default {
 		metaInfo: {
-			title: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
-			titleTemplate: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
+			title: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
+			titleTemplate: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
 
 			meta: [{
 					name: "title",
-					content: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
+					content: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
 				},
 				{
 					name: "description",
@@ -462,7 +452,7 @@
 				{
 					key: "og:title",
 					name: "og:title",
-					content: "Psihološko savetovalište | Psihoterapija Novi Sad, Beograd i Online",
+					content: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
 				},
 
 				{
@@ -478,7 +468,7 @@
 				{
 					key: "twitter:title",
 					name: "twitter:title",
-					content: "Savetovalište Ubuntu | Psihoterapija Novi Sad, Beograd i Online",
+					content: "Savetovalište Ubuntu | Psihoterapija Novi Sad i Beograd",
 				},
 				{
 					key: "twitter:description",
