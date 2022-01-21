@@ -126,9 +126,9 @@
 
 			<div class="bg-purple-800">
 				<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
-					<h2 class="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
-						<span class="block text-white">Spremni za podršku? </span>
-						<span class="block text-white">Upoznajte beogradske psihoterapeute</span>
+					<h2 class="text-3xl font-sans tracking-tight text-gray-900 md:text-4xl">
+						<span class="block text-white font-bold">Spremni za podršku? </span>
+						<span class="block text-white font-normal">Upoznajte beogradske psihoterapeute</span>
 					</h2>
 					<div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
 						<div class="inline-flex">
@@ -138,7 +138,7 @@
 				</div>
 			</div>
 
-			<div class=" overflow-hidden">
+			<div class="overflow-hidden">
 				<div class="relative max-w-7xl mx-auto sm:py-32 px-4 sm:px-6 lg:px-8">
 					<div class="text-center mb-20">
 						<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl">Psihoterapija u Beogradu dostupna svima</h2>
