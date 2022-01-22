@@ -75,7 +75,7 @@
 							</p>
 						</div>
 
-						<div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
+						<div class="mt-10  relative lg:mt-0" aria-hidden="true">
 							<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-1.jpg" alt="psihološka podrška" />
 						</div>
 					</div>
@@ -113,7 +113,7 @@
 								</div>
 							</div>
 
-							<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+							<div class="mt-10  relative lg:mt-0 lg:col-start-1">
 								<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-2.jpg" alt="psihološki napredak" />
 							</div>
 						</div>
@@ -127,11 +127,11 @@
 
 			<div class="bg-purple-800 ">
 				<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
-					<h2 class="text-3xl font-sans tracking-tight text-gray-900 md:text-4xl">
+					<h2 class="text-3xl font-sans tracking-tight text-gray-900 md:text-4xl text-center md:text-left">
 						<span class="block text-white font-bold">Spremni za podršku? </span>
 						<span class="block text-white">Upoznajte novosadske psihoterapeute</span>
 					</h2>
-					<div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+					<div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 justify-center md:justify-start">
 						<div class="inline-flex">
 							<a href="/psihoterapeuti-novi-sad" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Ubuntu Novi Sad </a>
 						</div>
@@ -140,8 +140,8 @@
 			</div>
 
 			<div class="overflow-hidden">
-				<div class="relative max-w-7xl mx-auto sm:py-32 px-4 sm:px-6 lg:px-8">
-					<div class="text-center mb-20">
+				<div class="relative max-w-7xl mx-auto sm:py-32 px-4 sm:px-6 lg:px-8 pt-20">
+					<div class="text-center mb-12">
 						<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl">Psihoterapija u Novom Sadu dostupna svima</h2>
 					</div>
 
@@ -383,7 +383,7 @@
 					<div class="relative bg-white">
 						<h2 class="sr-only">Kontakt informacije</h2>
 
-						<div class="grid grid-cols-1 lg:grid-cols-2">
+						<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 							<div class="relative overflow-hidden">
 								<svg class="hidden lg:block absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1911 294.707L10.9152 307.446L15.5598 311.08L23.6494 300.33L16.1911 294.707Z" fill="white" />
@@ -627,7 +627,7 @@
 									</svg>
 								</div>
 
-								<div class="py-10 px-6 sm:px-10 xl:p-12">
+								<div class="">
 									<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom u Novom Sadu</h3>
 									<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
 									<dl class="mt-8 space-y-6">
@@ -700,7 +700,7 @@
 								</div>
 							</div>
 
-							<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
+							<div class="lg:col-span-1">
 								<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact-ns" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 									<div>
 										<input type="hidden" name="form-name" value="contact-ns" />
