@@ -784,6 +784,26 @@ export default {
 				name: "og:description",
 				content: "",
 			},
+			{
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
+				content: "Psihoterapija Novi Sad | Savetovalište Ubuntu",
+			},
+			{
+				key: "twitter:description",
+				name: "twitter:description",
+				content: "Naš tim psihoterapeuta u Novom Sadu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
+			},
 		],
 	},
 
