@@ -945,29 +945,29 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
-		titleTemplate: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
+		title: "Kako postati psihoterapeut | Psihološko savetovalište Ubuntu",
+		titleTemplate: "Kako postati psihoterapeut | Psihološko savetovalište Ubuntu",
 
 		meta: [
 			{
 				name: "title",
-				content: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
+				content: "Kako postati psihoterapeut | Psihološko savetovalište Ubuntu",
 			},
 			{
 				name: "description",
-				content: "Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine. ",
+				content: "Savetovalište Ubuntu nudi zainteresovanim kolegama da započnu ili razviju svoju karijeru psihoterapeuta kroz terapijsku praksu te steknu teorijske i praktične veštine.",
 			},
 
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
+				content: "Kako postati psihoterapeut | Psihološko savetovalište Ubuntu",
 			},
 
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine.",
+				content: "Savetovalište Ubuntu nudi zainteresovanim kolegama da započnu ili razviju svoju karijeru psihoterapeuta kroz terapijsku praksu te steknu teorijske i praktične veštine.",
 			},
 			{
 				key: "og:image",
@@ -977,12 +977,12 @@ export default {
 			{
 				key: "twitter:title",
 				name: "twitter:title",
-				content: "Karijera psihoterapeuta | Savetovalište Ubuntu Centar",
+				content: "Kako postati psihoterapeut | Psihološko savetovalište Ubuntu",
 			},
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Savetovalište Ubuntu nudi, onima koji su zainteresovani da započnu ili razviju svoju terapijsku praksu, privilegovanu priliku da steknu teorijske i praktične veštine.",
+				content: "Savetovalište Ubuntu nudi zainteresovanim kolegama da započnu ili razviju svoju karijeru psihoterapeuta kroz terapijsku praksu te steknu teorijske i praktične veštine.",
 			},
 			{
 				key: "twitter:image",

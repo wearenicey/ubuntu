@@ -607,7 +607,7 @@ const people = [
 	},
 	{
 		name: "Ivana Zeljković",
-		role: "",
+		role: "Transakciona analiza",
 		imageUrl: "Ivana Zeljkovic.png",
 		bio: "Psihoterapija ne menja osobu već način na koji gledamo na događaje i situacije, ljude i međuljudske odnose. Mentalno zdravlje je važno kao i fizičko. Shodno tome, smatram da je rad na sebi pravi put ka kvalitetnijem i ispunjenijem životu.",
 	},
