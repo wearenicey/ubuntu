@@ -5,6 +5,7 @@
 				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
 					<div class="sm:max-w-lg">
 						<h1 class="text-4xl tracking-tight text-gray-900 pb-4 sm:text-6xl">Ubuntu psihoterapeuti u novosadskom savetovalištu</h1>
+						<p>Novosadsko savetovalište čine saradnici različitih psihoterapijskih pravaca. Raznolikost u pristupu omogućava klijentima saradnju sa terapeutima stručnim za problematiku zbog koje žele da započnu proces psihoterapije.</p>
 						<div class="text-center lg:text-left pt-6 space-y-4">
 							<a href="tel:+381658286881" class="items-center flex lg:inline-block rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
 								Nazovite za konsultaciju

@@ -20,7 +20,7 @@
 				</button>
 			</div>
 			<div class="hidden md:flex md:items-center md:justify-between">
-				<nav class="flex space-x-10">
+				<nav class="flex space-x-10 items-center">
 					<div class="relative" x-description="Flyout menu, show/hide based on flyout menu state."
 						x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
 						<button x-on:click="flyoutMenuOpen = !flyoutMenuOpen" type="button"
@@ -191,7 +191,8 @@
 
 					<g-link to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije
 					</g-link>
-					<g-link to="/kontakt/" class="text-base font-medium text-gray-700 hover:text-gray-900">Kontakt
+					<g-link to="/kontakt/" class="text-base  font-medium flex rounded-3xl justify-center px-5 py-1 border border-transparent
+					 text-white bg-green-600 hover:bg-green-700">Kontakt
 					</g-link>
 				</nav>
 			</div>
