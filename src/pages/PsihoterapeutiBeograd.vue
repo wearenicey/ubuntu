@@ -746,7 +746,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
 			},
 			{
 				key: "og:title",
@@ -757,7 +757,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
 			},
 			{
 				key: "og:image",
@@ -767,12 +767,12 @@ export default {
 			{
 				key: "twitter:title",
 				name: "twitter:title",
-				content: "Psihoterapija Novi Sad | Savetovalište Ubuntu",
+				content: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
 			},
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Naš tim psihoterapeuta u Novom Sadu nudi širok spektar psihoterapijskih usluga i pristupačne cene za individualnu i grupnu terapiju. Pozovite za besplatnu konsultaciju.",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
 			},
 			{
 				key: "twitter:image",
