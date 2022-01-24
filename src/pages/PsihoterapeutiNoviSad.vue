@@ -1,7 +1,7 @@
 <template>
 	<Layout>
 		<div class="relative bg-white overflow-hidden">
-			<div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+			<div class="pt-16 pb-10 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
 				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
 					<div class="sm:max-w-lg">
 						<h1 class="text-4xl tracking-tight text-gray-900 pb-4 sm:text-6xl">Ubuntu psihoterapeuti u novosadskom savetovalištu</h1>
@@ -14,7 +14,7 @@
 						</div>
 					</div>
 					<div>
-						<div class="mt-10">
+							<div class="mt-10 md:block hidden">
 							<!-- Decorative image grid -->
 							<div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full">
 								<div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
@@ -55,8 +55,8 @@
 			</div>
 		</div>
 		<div class="bg-white">
-			<div class="max-w-7xl mx-auto py-12 px-6 sm:px-10 sm:px-6 lg:px-8 lg:py-24">
-				<div class="space-y-24">
+			<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
+				<div class="space-y-12 md:space-y-24">
 					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Upoznaj naše terapeute</h2>
 
 					<ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
@@ -571,9 +571,9 @@ const people = [
 	},
 	{
 		name: "Miljana Vorkapić",
-		role: "Transakciona analiza",
+		role: "Integrativna psihoanaliza i Sistemska porodična psihoterapija",
 		imageUrl: "Miljana Vorkapic.png",
-		bio: "Podržavam umetnika u tebi. Kad to kažem, mislim na kreativne načine da izađeš na kraj s onim što ti se dešavalo i zahvaljujući kojima si opstao. Pomažem ti da kreiraš nove uz koje život neće biti preživljavanje, već disanje punim plućima.",
+		bio: "Stvarnost je sačinjena od mnoštva individualnih istina. Možda ne možemo da utičemo na druge, njihovo ponašanje ili okolnosti ali, uz pomoć psihoterapije, možemo da naučimo da biramo način na koji ćemo posmatrati svet koji nas okružuje.",
 	},
 	{
 		name: "Aleksandra Bajić",
@@ -621,9 +621,9 @@ const people = [
 
 	{
 		name: "Nina Popov",
-		role: "Integrativna psihoanaliza i Sistemska porodična psihoterapija",
+		role: "Transakciona analiza",
 		imageUrl: "Nina Popov.png",
-		bio: "Stvarnost je sačinjena od mnoštva individualnih istina. Možda ne možemo da utičemo na druge, njihovo ponašanje ili okolnosti ali, uz pomoć psihoterapije, možemo da naučimo da biramo način na koji ćemo posmatrati svet koji nas okružuje.",
+		bio: "Otkrivaćeš sebe, razvijati se i učiti kako da umesto utabanih puteva koji nose višak patnje, gradiš i biraš nove koji vode boljem funkcionisanju i ispunjenijem životu.",
 	},
 ];
 

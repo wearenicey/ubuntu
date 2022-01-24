@@ -2,7 +2,7 @@
 	<Layout>
 		<template>
 			<div class="relative bg-white overflow-hidden">
-				<div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+				<div class="pt-16 pb-10 sm:pt-24 sm:pb-40  lg:pt-40 lg:pb-48">
 					<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
 						<div class="sm:max-w-lg">
 							<h1 class="text-4xl tracking-tight text-gray-900 pb-4 sm:text-6xl">Ubuntu psihoterapeuti u beogradskom savetovalištu</h1>
@@ -16,9 +16,9 @@
 							</div>
 						</div>
 						<div>
-							<div class="mt-10">
+							<div class="mt-10 md:block hidden">
 								<!-- Decorative image grid -->
-								<div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full">
+								<div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full ">
 									<div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
 										<div class="flex items-center space-x-6 lg:space-x-8">
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
@@ -59,7 +59,7 @@
 		</template>
 		<div class="bg-white">
 			<div class="mx-auto py-12 px-6 sm:px-10 max-w-7xl sm:px-6 lg:px-8 lg:py-32">
-				<div class="space-y-24">
+				<div class="space-y-12 md:space-y-24">
 					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Upoznaj naše terapeute</h2>
 
 					<ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
@@ -578,6 +578,30 @@
 import { required, email } from "vuelidate/lib/validators";
 const people = [
 	{
+		name: "Jelena Lekić",
+		role: "Sistemska porodična psihoterapija",
+		imageUrl: "Jelena Lekic.jpg",
+		bio: "Otvarajući priče dajem dozvolu klijentima da se menjamo i svakim susretom iznova stvaramo stvarnost. Svako postavljeno pitanje nudi moguću verziju života. Glas će dobiti i skriveni, nedominantni delovi, jer imaju pravo da budu viđeni.",
+	},
+	{
+		name: "Darja Pačevski",
+		role: "Transakciona analiza",
+		imageUrl: "Darja Pacevski.jpg",
+		bio: "Podržavam umetnika u tebi. Kad to kažem, mislim na kreativne načine da izađeš na kraj s onim što ti se dešavalo i zahvaljujući kojima si opstao. Pomažem ti da kreiraš nove uz koje život neće biti preživljavanje, već disanje punim plućima.",
+	},
+	{
+		name: "Kristina Potkonjak",
+		role: "Geštalt",
+		imageUrl: "Kristina Potkonjak.jpg",
+		bio: "Svaka životna priča je jedinstvena i zato im pristupam s velikom pažnjom i uvažavanjem. Kroz naš odnos u sigurnom okruženju, upoznajete sebe, učite da osnažujete unutrašnju podršku, prepoznajete svoje potrebe i postavljate jasnije granice.",
+	},
+	{
+		name: "Nataša Ilić Sekereš",
+		role: "Transakciona analiza",
+		imageUrl: "Natasa Ilic Sekeres.jpg",
+		bio: "U psihoterapijskom radu koristim osnovne principe transakcione analize: Svi ljudi su OK. Svako je u stanju da misli. Ljudi imaju moć da promene svoje odluke kad god to požele",
+	},
+	{
 		name: "Nebojša Ratković",
 		role: "Transakciona analiza",
 		imageUrl: "Nebojsa Ratkovic.jpg",
@@ -631,12 +655,7 @@ const people = [
 		imageUrl: "Darja Pacevski.jpg",
 		bio: "Podržavam umetnika u tebi. Kad to kažem, mislim na kreativne načine da izađeš na kraj s onim što ti se dešavalo i zahvaljujući kojima si opstao. Pomažem ti da kreiraš nove uz koje život neće biti preživljavanje, već disanje punim plućima.",
 	},
-	{
-		name: "Olivera Ćulić",
-		role: "Transakciona analiza",
-		imageUrl: "Olivera Culic.jpg",
-		bio: "“Uvek se baš meni ovo dešava!” Da li vam se dešava da staru formulu koja je ranije imala efekta primenjujete i na sve nove životne situacije, ali pozitivan ishod izostaje?",
-	},
+
 	{
 		name: "Jovana Kojić",
 		role: "Transakciona analiza",
