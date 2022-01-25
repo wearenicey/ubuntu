@@ -762,7 +762,7 @@ export default {
 			{
 				key: "og:image",
 				property: "og:image",
-				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp",
 			},
 			{
 				key: "twitter:title",
@@ -777,7 +777,7 @@ export default {
 			{
 				key: "twitter:image",
 				property: "twitter:image",
-				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp",
 			},
 		],
 	},
