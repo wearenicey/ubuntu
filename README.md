@@ -25,7 +25,7 @@ Untar bloga oni se pozivaju po jedinstvenom ID-ju
 
 # Build i deploy
 
-Prilikom zavrsetka promjena pokrece se ###gridsome build, "bag" koji se moze desiti jeste da slike nece da obradi tada treba izbrisati 
+Prilikom zavrsetka promjena pokrece se ***gridsome build***, "bag" koji se moze desiti jeste da slike nece da obradi tada treba izbrisati 
 folder dist i ponovo pokrenuti build komandu. Kada se build zavrsi potrebno je odrati git push i onda odobriti na netifly pustanje na
 produkuciju
 
