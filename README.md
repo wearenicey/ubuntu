@@ -1,14 +1,31 @@
-# Default starter for Gridsome
+# Pokretanje localhost
 
-This is the project you get when you run `gridsome create new-project`.
+### 1. npm install 
+### 2. pokretanje dev gridsome develop bice na `http://localhost:8080`
 
-### 1. Install Gridsome CLI tool if you don't have
+# Struktura gridsome
 
-`npm install --global @gridsome/cli`
+### 1. u src folderu layout je podesen osnovni layout za footer i header
 
-### 2. Create a Gridsome project
+### 2. u src folderu staticne stranice su pages koje su izradjene iz vise komponenti koje se pozivaju untar
+Stranice savetovaliste novi sad/beograd imaju svoj layout koji se untar njih poziva radi ralicite nav i futera
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+### 3. u src folderu folder template u njemu se nalaze fajlovi koji dinamicki prikazuju sadrzaj 
+To su kategorije i blog post
+
+### 4. u public folderu su slike koje ne obuhvata gridsome sa svojim img pozivom vec se automatski ucitavaju tu idu slike za blog postove 
+
+### 5. u src folderu assets su slike koje imaju lazyload 
+
+
+# Content folder
+Untar ovog foldera su folderi za kreiranje blog postova. Oni se pisu u markdownu.
+Blog se sastoji iz objekta u kojem se pozivaju vec definisani objekti Author i Category.
+Untar bloga oni se pozivaju po jedinstvenom ID-ju
+
+# Build i deploy
+
+Prilikom zavrsetka promjena pokrece se ###gridsome build, "bag" koji se moze desiti jeste da slike nece da obradi tada treba izbrisati 
+folder dist i ponovo pokrenuti build komandu. Kada se build zavrsi potrebno je odrati git push i onda odobriti na netifly pustanje na
+produkuciju
+
