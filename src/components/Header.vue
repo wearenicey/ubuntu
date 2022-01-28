@@ -265,6 +265,8 @@
 		</div>
 	</div>
 </template>
+<!--GraphQl upit za  dobijanje kategorija i blogova za header po datumu dodavanja-->
+
 
 <static-query>
 	query {

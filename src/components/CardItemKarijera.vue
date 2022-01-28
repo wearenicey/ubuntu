@@ -42,6 +42,8 @@
 		</div>
 	</div>
 </template>
+<!--GraphQl upit za  blog postove na karijera stranici-->
+
 <static-query>
 	query {
   pocetna:  allPost ( filter:{category: {eq: "psihoterapija"}} limit: 3) {

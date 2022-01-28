@@ -2,7 +2,7 @@
 	<Layout>
 		<template>
 			<div class="relative bg-white overflow-hidden">
-				<div class="pt-16 pb-10 sm:pt-24 sm:pb-40  lg:pt-40 lg:pb-48">
+				<div class="pt-16 pb-10 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
 					<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
 						<div class="sm:max-w-lg">
 							<h1 class="text-4xl tracking-tight text-gray-900 pb-4 sm:text-6xl">Ubuntu psihoterapeuti u beogradskom savetovalištu</h1>
@@ -18,7 +18,7 @@
 						<div>
 							<div class="mt-10 md:block hidden">
 								<!-- Decorative image grid -->
-								<div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full ">
+								<div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full">
 									<div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
 										<div class="flex items-center space-x-6 lg:space-x-8">
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
@@ -761,6 +761,7 @@ const people = [
 ];
 
 export default {
+		// meta deskripcija
 	metaInfo: {
 		title: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
 		titleTemplate: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
@@ -787,7 +788,9 @@ export default {
 		],
 	},
 
+	//definisane komponente untar stranice
 	data() {
+		//povratni novi objekti
 		return {
 			people,
 			formData: {
@@ -802,7 +805,7 @@ export default {
 			},
 		};
 	},
-
+	// validacija formi
 	validations: {
 		formData: {
 			name: {
@@ -825,16 +828,23 @@ export default {
 	},
 	methods: {
 		encode(data) {
+		//javascript objekat se pretvara u string radi dalje obrade
 			return Object.keys(data)
 				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 				.join("&");
 		},
+		// slanje poruke
+
 		submit(e) {
 			console.log("submit!");
 			this.$v.$touch();
+			// neispravno popunjena forma dobijanje greske 
+
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
+				// skupljeni podaci se salju  POST metodom
+
 				fetch("/", {
 					method: "POST",
 					headers: {
@@ -845,6 +855,7 @@ export default {
 						...this.formData,
 					}),
 				})
+					// dobijanje odgovora sa servera
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
 
@@ -855,6 +866,8 @@ export default {
 					.catch((error) => alert(error));
 			}
 		},
+		//funkcija click za scrollovanje do elementa
+
 		onClickTwo() {
 			let element = document.getElementById("scroll");
 			element.scrollIntoView({

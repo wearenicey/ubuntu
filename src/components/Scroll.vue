@@ -7,6 +7,7 @@
 		</vue-horizontal>
 	</client-only>
 </template>
+<!--GraphQl upit za  dobijanje kategorija-->
 
 <static-query>
 query {

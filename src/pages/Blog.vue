@@ -60,7 +60,9 @@
 		</div>
 	</Layout>
 </template>
+<!--GraphQl upit za  dobijanje blog postova-->
 <page-query>
+
 query ($page: Int) {
  sviPostovi:  allPost( sort: { by: "date", order: DESC }, perPage: 10, page: $page) @paginate {
     pageInfo {
@@ -96,8 +98,10 @@ query ($page: Int) {
 </page-query>
 
 <script>
+// scroll horizontalni kategorija
 import Scroll from "../components/Scroll.vue";
 export default {
+	// meta deskripcija
 	metaInfo() {
 		return {
 			title: "Blog | Ubuntu Centar",
@@ -144,15 +148,18 @@ export default {
 		Scroll,
 	},
 	data() {
+				//povratni novi objekti
 		return {
 			loadedPosts: [],
 			currentPage: 1,
 		};
 	},
+	//poziva se sinhrono nakon kreiranja instance
 	created() {
 		this.loadedPosts.push(...this.$page.sviPostovi.edges);
 	},
 	methods: {
+		// funkcija za infiniti scroll 
 		async infiniteHandler($state) {
 			if (this.currentPage + 1 > this.$page.sviPostovi.pageInfo.totalPages) {
 				$state.complete();

@@ -169,6 +169,7 @@
 
 <script>
 export default {
+	// meta deskripcija
 	metaInfo: {
 		title: "O nama | Savetovalište Ubuntu Centar",
 		titleTemplate: "O nama | Savetovalište Ubuntu Centar",

@@ -154,6 +154,7 @@
 
 <script>
 export default {
+		// meta deskripcija
 	metaInfo: {
 		title: "Donacije | Savetovalište Ubuntu Centar",
 		titleTemplate: "Donacije | Savetovalište Ubuntu Centar",
@@ -202,6 +203,7 @@ export default {
 	},
 
 	methods: {
+
 		onClick() {
 			let element = document.getElementById("scroll");
 			element.scrollIntoView({ behavior: "smooth", block: "start" });

@@ -892,11 +892,15 @@
 </template>
 
 <script>
+//importovanje komponenti
+
 import Header from "../components/Header.vue";
 import FooterLanding from "../components/FooterLanding.vue";
 import { required, email } from "vuelidate/lib/validators";
 
 export default {
+			// meta deskripcija
+
 	metaInfo: {
 		title: "Psihoterapija Beograd | Savetovalište Ubuntu",
 		titleTemplate: "Psihoterapija Beograd | Savetovalište Ubuntu",
@@ -945,6 +949,8 @@ export default {
 	},
 
 	data() {
+				//povratni novi objekti
+
 		return {
 			formData: {
 				name: "",
@@ -958,6 +964,7 @@ export default {
 			},
 		};
 	},
+	// validacija formi
 
 	validations: {
 		formData: {
@@ -981,6 +988,8 @@ export default {
 	},
 	methods: {
 		encode(data) {
+					//javascript objekat se pretvara u string radi dalje obrade
+
 			return Object.keys(data)
 				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 				.join("&");
@@ -988,9 +997,13 @@ export default {
 		submit(e) {
 			console.log("submit!");
 			this.$v.$touch();
+						// neispravno popunjena forma dobijanje greske 
+
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
+								// skupljeni podaci se salju  POST metodom
+
 				fetch("/", {
 					method: "POST",
 					headers: {
@@ -1001,6 +1014,8 @@ export default {
 						...this.formData,
 					}),
 				})
+									// dobijanje odgovora sa servera
+
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
 
@@ -1011,6 +1026,8 @@ export default {
 					.catch((error) => alert(error));
 			}
 		},
+				//funkcija click za scrollovanje do elementa
+
 		onClickTwo() {
 			let element = document.getElementById("scroll");
 			element.scrollIntoView({
@@ -1019,7 +1036,7 @@ export default {
 			});
 		},
 	},
-
+// pozivanje komponenti
 	components: {
 		Header,
 		FooterLanding,

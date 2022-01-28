@@ -149,14 +149,10 @@
 						<h2 class="text-3xl text-purple-900 tracking-tight sm:text-5xl">Tim psihoterapeuta savetovališta, Vama na usluzi.</h2>
 						<p class="mt-6 max-w-3xl text-lg leading-7 pb-4 text-gray-500">Trudimo se da naše psihološko savetovalište predstavlja sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.</p>
 						<div class="space-y-4">
-						<a href="/psihoterapeuti-beograd" class="inline-block  items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
-								Psihoterapeuti Beograd
-
-								</a>
-									<a href="/psihoterapeuti-novi-sad" class="inline-block  items-center lg:ml-2 rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
+							<a href="/psihoterapeuti-beograd" class="inline-block items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Psihoterapeuti Beograd </a>
+							<a href="/psihoterapeuti-novi-sad" class="inline-block items-center lg:ml-2 rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
 								Psihoterapeuti Novi Sad
-
-								</a>
+							</a>
 						</div>
 					</div>
 					<div class="mt-12">
@@ -428,9 +424,11 @@
 </template>
 
 <script>
+//importovane komponente
 import CardItem from "../components/CardItem.vue";
 import { required, email } from "vuelidate/lib/validators";
 
+// meta deskripcija
 export default {
 	metaInfo: {
 		title: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
@@ -479,8 +477,11 @@ export default {
 			},
 		],
 	},
+	//definisane komponente untar stranice
 
 	data() {
+		//povratni novi objekti
+
 		return {
 			formData: {
 				email: "",
@@ -488,6 +489,7 @@ export default {
 			},
 		};
 	},
+	// validacija formi
 
 	validations: {
 		formData: {
@@ -498,17 +500,24 @@ export default {
 		},
 	},
 	methods: {
+		//javascript objekat se pretvara u string radi dalje obrade
 		encode(data) {
 			return Object.keys(data)
 				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 				.join("&");
 		},
+				// slanje poruke
+
 		submit(e) {
 			console.log("submit!");
 			this.$v.$touch();
+						// neispravno popunjena forma dobijanje greske 
+
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
+								// skupljeni podaci se salju  POST metodom
+
 				fetch("/", {
 					method: "POST",
 					headers: {
@@ -519,6 +528,8 @@ export default {
 						...this.formData,
 					}),
 				})
+									// dobijanje odgovora sa servera
+
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
 
@@ -529,6 +540,8 @@ export default {
 					.catch((error) => alert(error));
 			}
 		},
+				//funkcija click za scrollovanje do elementa
+
 		onClickTwo() {
 			let element = document.getElementById("scroll");
 			element.scrollIntoView({
@@ -537,7 +550,7 @@ export default {
 			});
 		},
 	},
-
+// pozivanje komponente
 	components: {
 		CardItem,
 	},

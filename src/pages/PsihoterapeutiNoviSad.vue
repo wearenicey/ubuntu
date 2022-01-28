@@ -14,7 +14,7 @@
 						</div>
 					</div>
 					<div>
-							<div class="mt-10 md:block hidden">
+						<div class="mt-10 md:block hidden">
 							<!-- Decorative image grid -->
 							<div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full">
 								<div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
@@ -562,6 +562,7 @@
 
 <script>
 import { required, email } from "vuelidate/lib/validators";
+// niz objekata zaposlenih
 const people = [
 	{
 		name: "Stefan Mitrović Jokanović",
@@ -628,6 +629,7 @@ const people = [
 ];
 
 export default {
+	// meta deskripcija
 	metaInfo: {
 		title: "Psihoterapeuti Novi Sad | Savetovalište Ubuntu",
 		titleTemplate: "Psihoterapeuti Novi Sad | Savetovalište Ubuntu",
@@ -653,8 +655,9 @@ export default {
 			},
 		],
 	},
-
+	//definisane komponente untar stranice
 	data() {
+		//povratni novi objekti
 		return {
 			people,
 			formData: {
@@ -669,7 +672,7 @@ export default {
 			},
 		};
 	},
-
+	// validacija formi
 	validations: {
 		formData: {
 			name: {
@@ -691,17 +694,20 @@ export default {
 		},
 	},
 	methods: {
+		//javascript objekat se pretvara u string radi dalje obrade
 		encode(data) {
 			return Object.keys(data)
 				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 				.join("&");
 		},
+		// slanje poruke
 		submit(e) {
-			console.log("submit!");
 			this.$v.$touch();
+			// neispravno popunjena forma dobijanje greske 
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
+				// skupljeni podaci se salju  POST metodom
 				fetch("/", {
 					method: "POST",
 					headers: {
@@ -712,9 +718,11 @@ export default {
 						...this.formData,
 					}),
 				})
+					// dobijanje odgovora sa servera
+
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
-
+					// uspijesno zavresno slanje uz delay
 						setTimeout(() => {
 							this.formData.submitStatus = "OK";
 						}, 500)
@@ -722,6 +730,7 @@ export default {
 					.catch((error) => alert(error));
 			}
 		},
+		//funkcija click za scrollovanje do elementa
 		onClickTwo() {
 			let element = document.getElementById("scroll");
 			element.scrollIntoView({

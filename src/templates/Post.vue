@@ -74,6 +74,7 @@
 		</div>
 	</Layout>
 </template>
+<!--GraphQl upit za  single blog post po slug-u-->
 
 <page-query>
   query Post ($path: String!) {
@@ -102,6 +103,7 @@
 
 <script>
 export default {
+	//meta desc dinamicni
 	metaInfo() {
 		return {
 			title: this.$page.post.title + " | Ubuntu Blog",

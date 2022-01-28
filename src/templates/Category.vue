@@ -49,6 +49,7 @@
 		</div>
 	</Layout>
 </template>
+<!--GraphQl upit za  blog postove po kategoriji-->
 
 <page-query>
 query($id: ID!) {
@@ -93,12 +94,15 @@ query($id: ID!) {
 </page-query>
 
 <script>
+// importovanje komponete
 import Scroll from "../components/Scroll.vue";
 
 export default {
+	//pozivanje komponente
 	components: { Scroll },
 
 	metaInfo() {
+		//dinamicki meta desc
 		return {
 			title: this.$page.category.metaTitle,
 			titleTemplate: this.$page.category.metaTitle,

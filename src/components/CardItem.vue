@@ -40,6 +40,8 @@
 		</div>
 	</div>
 </template>
+<!--GraphQl upit za  blog postove na pocetnoj stranici-->
+
 <static-query>
 	query {
   pocetna:  allPost ( filter:{pocetna: {eq: true}} limit: 3) {
