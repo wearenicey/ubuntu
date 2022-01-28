@@ -608,7 +608,7 @@ const people = [
 	},
 	{
 		name: "Ivana Zeljković",
-		role: "",
+		role: "Transakciona analiza",
 		imageUrl: "Ivana Zeljkovic.png",
 		bio: "Psihoterapija ne menja osobu već način na koji gledamo na događaje i situacije, ljude i međuljudske odnose. Mentalno zdravlje je važno kao i fizičko. Shodno tome, smatram da je rad na sebi pravi put ka kvalitetnijem i ispunjenijem životu.",
 	},
@@ -640,7 +640,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Novom Sadu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
 			},
 			{
 				key: "og:title",
@@ -651,7 +651,27 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Novom Sadu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
+			},
+			{
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
+				content: "Psihoterapeuti Novi Sad | Savetovalište Ubuntu",
+			},
+			{
+				key: "twitter:description",
+				name: "twitter:description",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Novom Sadu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
 			},
 		],
 	},

@@ -620,22 +620,10 @@ const people = [
 		bio: "Biću tu, s tobom, tvoj saradnik, usmerivač, ogledalo. Gledaćemo zajedno u tvoj svet koji (re)kreiramo kroz terapijski odnos. Ti ćeš biti moj saradnik, usmerivač, ogledalo. Otkrića su u tebi, u meni, na mestu našeg susreta.",
 	},
 	{
-		name: "Kristina Potkonjak",
-		role: "Geštalt",
-		imageUrl: "Kristina Potkonjak.jpg",
-		bio: "Svaka životna priča je jedinstvena i zato im pristupam s velikom pažnjom i uvažavanjem. Kroz naš odnos u sigurnom okruženju, upoznajete sebe, učite da osnažujete unutrašnju podršku, prepoznajete svoje potrebe i postavljate jasnije granice.",
-	},
-	{
 		name: "Bogdan Marković",
 		role: "Transakciona analiza",
 		imageUrl: "Bogdan Markovic.jpg",
 		bio: "Poseban akcenat stavljam na terapijski odnos u kome s klijentima kreiram prostor za istraživanje, empatsko usklađivanje, samoprihvatanje, osvešćivanje telesnih procesa, iscenjenje trauma i povezivanje s autentičnim relacionim potrebama.",
-	},
-	{
-		name: "Nataša Ilić Sekereš",
-		role: "Transakciona analiza",
-		imageUrl: "Natasa Ilic Sekeres.jpg",
-		bio: "U psihoterapijskom radu koristim osnovne principe transakcione analize: Svi ljudi su OK. Svako je u stanju da misli. Ljudi imaju moć da promene svoje odluke kad god to požele",
 	},
 	{
 		name: "Milena Šekularac",
@@ -650,23 +638,10 @@ const people = [
 		bio: "Najveća lepota ljudskog kontakta jeste u onom trenutku kad sa sebe svučemo tvrdu ljušturu i ogolimo se do najdublje ranjivosti, spremni da nas druga osoba vidi, čuje i prigrli onakve kakvi uistinu jesmo.",
 	},
 	{
-		name: "Darja Pačevski",
-		role: "Transakciona analiza",
-		imageUrl: "Darja Pacevski.jpg",
-		bio: "Podržavam umetnika u tebi. Kad to kažem, mislim na kreativne načine da izađeš na kraj s onim što ti se dešavalo i zahvaljujući kojima si opstao. Pomažem ti da kreiraš nove uz koje život neće biti preživljavanje, već disanje punim plućima.",
-	},
-
-	{
 		name: "Jovana Kojić",
 		role: "Transakciona analiza",
 		imageUrl: "Jovana Kojic.jpg",
 		bio: "Terapijski rad pomaže nam da budemo spontani, autentični, u skladu s našim željama i potrebama. Učimo o sebi, svojim osećanjima i željama, uz uvažavanje drugih. Tako ujedno učimo da budemo slobodni i živimo u ovom trenutku, ovde i sada.",
-	},
-	{
-		name: "Jelena Lekić",
-		role: "Sistemska porodična psihoterapija",
-		imageUrl: "Jelena Lekic.jpg",
-		bio: "Otvarajući priče dajem dozvolu klijentima da se menjamo i svakim susretom iznova stvaramo stvarnost. Svako postavljeno pitanje nudi moguću verziju života. Glas će dobiti i skriveni, nedominantni delovi, jer imaju pravo da budu viđeni.",
 	},
 	{
 		name: "Nikolina Dobraš",
@@ -772,7 +747,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
 			},
 			{
 				key: "og:title",
@@ -783,7 +758,27 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
+			},
+			{
+				key: "og:image",
+				property: "og:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp",
+			},
+			{
+				key: "twitter:title",
+				name: "twitter:title",
+				content: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
+			},
+			{
+				key: "twitter:description",
+				name: "twitter:description",
+				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
+			},
+			{
+				key: "twitter:image",
+				property: "twitter:image",
+				content: "https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp",
 			},
 		],
 	},
