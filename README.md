@@ -29,3 +29,4 @@ Prilikom zavrsetka promjena pokrece se ***gridsome build***, "bag" koji se moze 
 folder dist i ponovo pokrenuti build komandu. Kada se build zavrsi potrebno je odrati git push i onda odobriti na netifly pustanje na
 produkuciju
 
+# Napomena za Tailwind headless UI koristi se alpine.js koji je ubacen u index.html
