@@ -24,11 +24,10 @@ query {
 </static-query>
 
 <script>
-// Depending on how you installed it, import it if required.
-// import VueHorizontal from "vue-horizontal";
+
 
 export default {
-	// components: { VueHorizontal },
+	// definisanje vue horizontal npm instaliran
 	data() {
 		return { items: [1, 2, 3] };
 	},
