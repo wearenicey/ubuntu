@@ -10,7 +10,8 @@ import InfiniteLoading from 'vue-infinite-loading'
 
 
 export default function (Vue, { router, head, isClient }) {
-
+	
+// pozivanje infinit loadinga napravljena funkcija radi gridsome da moze raditi na produkciji
 	Vue.use(InfiniteLoading)
 
 	Vue.mixin({
@@ -27,7 +28,7 @@ export default function (Vue, { router, head, isClient }) {
 			}
 		},
 	});
-
+	// putanja linkova
 	router.beforeEach((to, _from, next) => {
 		head.meta.push({
 			key: 'og:url',
@@ -39,7 +40,7 @@ export default function (Vue, { router, head, isClient }) {
 
 	})
 	head.htmlAttrs = { lang: 'sr' }
-
+//validacija napravljena funkcija radi gridsome da moze raditi na produkciji
 	Vue.use(Vuelidate)
 
 
@@ -55,7 +56,7 @@ export default function (Vue, { router, head, isClient }) {
 
 		});
 	}
-
+// pozivanje funkcija ako je produkcija za horiznotal scroll i za serovanjw blogova
 	if (process.isClient) {
 		Vue.use(require("vue-horizontal").default)
 	}
