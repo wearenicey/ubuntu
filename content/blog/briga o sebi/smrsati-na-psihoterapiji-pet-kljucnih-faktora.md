@@ -16,7 +16,7 @@ featured: false
 pocetna: false
 path: smrsati-na-psihoterapiji-pet-kljucnih-faktora
 name: Aloo
-metaDesc: "Ovaj članak pruža pregled brige o sebi i kako da održite svoje ciljeve. Od odvajanja vremena za sebe do postavljanja granica, saznajte kako možete da se brinete o sebi."
+metaDesc: "Psihoterapija može da pomogne kod tretmana za poremećaje u ishrani i prilikom gubitka telesne težine. Naučite kojih 5 ključnih faktora se pri tom uzimaju u obzir."
 ---
 
 **Možda na prvi pogled zvuči čudno ideja da neko mršavi na psihoterapiji, a o čemu se zapravo radi?**
