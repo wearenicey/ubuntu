@@ -2,10 +2,9 @@
 title: Kako da roditelji podižu zadovoljnu decu istopolne seksualne orijentacije?
 category: ljubav-i-medjuljudski-odnosi
 # ovo je i meta desc
-excerpt: Često u radu sa klijentima dođemo do teme roditelja koji ne mogu da prihvate da je njihovo dete
-istopolne seksualne orijentacije...
-created: 2021-11-25
-date: 2021.11.25
+excerpt: Često u radu sa klijentima dođemo do teme roditelja koji ne mogu da prihvate da je njihovo dete istopolne seksualne orijentacije.
+created: 2022-02-18
+date: 2022.02.18
 image: kako-da-roditelji-podizu-decu-istopolne-seksualne-orijentacije.jpg
 imageTwo:
   path: /kako-da-roditelji-podizu-decu-istopolne-seksualne-orijentacije.jpg
@@ -21,7 +20,7 @@ metaDesc: "Problem vaspitanja dece iste seksualne orijentacije zahtevan je za ro
 
 Često u radu sa klijentima dođemo do teme roditelja koji ne mogu da prihvate da je njihovo dete
 istopolne seksualne orijentacije, što uglavnom pokazuju negativnim opaskama na tu temu ili
-odbijanjem razgovora o tome. 
+odbijanjem razgovora o tome.
 
 Ovakav stav roditelja ne pruža šansu mladoj osobi da stekne samopouzdanje i pozitivan,
 prihvatajući odnos prema sebi i svom telu, već upravo suprotno. Osoba se zatvara, često razvija
