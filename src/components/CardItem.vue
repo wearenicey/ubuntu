@@ -1,5 +1,5 @@
 <template>
-	<div class="relative mx-auto max-w-6xl  mt-12">
+	<div class="relative mx-auto max-w-6xl  mt-12 px-4 lg:px-0">
 		<div class="text-center">
 			<h2 class="text-3xl text-purple-800 sm:text-4xl">Iz naše Blog radionice</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Aktuelni tekstovi na temu psihoterapije i psihologije, kao dodatak ličnom rastu i razvoju</p>
@@ -46,7 +46,7 @@
 
 <static-query>
 	query {
-  pocetna:  allPost ( filter:{pocetna: {eq: true}} limit: 3) {
+  pocetna:  allPost ( filter:{pocetna: {eq: true}} limit: 6) {
  
   edges {
     node {
