@@ -17,6 +17,13 @@ module.exports = {
 	siteName: 'Ubuntu Centar',
 	siteUrl: 'https://ubuntucentar.com/',
 	plugins: [
+		{
+      use: '@zefman/gridsome-source-instagram',
+      options: {
+        username: 'ubuntu_centar', // Instagram username
+        typeName: 'InstagramPhoto' // The GraphQL type you want the photos to be added under. Defaults to InstagramPhoto
+      }
+    },
 
 		{
 			use: 'gridsome-plugin-gtm',

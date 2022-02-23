@@ -37,12 +37,5 @@ export default {
 a.active--exact.active {
 	color: #059669;
 }
-@media only screen and (max-width: 600px) {
-	.this >>> .v-hl-btn {
-		display: none !important;
-	}
-	.first:first-child {
-		padding-left: 1.5rem !important;
-	}
-}
+
 </style>

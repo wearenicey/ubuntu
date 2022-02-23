@@ -60,6 +60,7 @@ export default function (Vue, { router, head, isClient }) {
 	if (process.isClient) {
 		Vue.use(require("vue-horizontal").default)
 	}
+	
 	if (process.isClient) {
 		Vue.use(require("vue-social-sharing").default)
 	}
