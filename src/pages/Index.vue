@@ -156,7 +156,7 @@
 						</div>
 					</div>
 					<div class="mt-12">
-						<g-image class="w-full h-full" src="~/assets/img/tim.jpg" alt="psihoterapija u grupi" />
+						<g-image class="w-full h-full" src="~/assets/img/tim.webp" alt="psihoterapija u grupi" />
 					</div>
 				</div>
 			</div>

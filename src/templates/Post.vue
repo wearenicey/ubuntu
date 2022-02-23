@@ -1,7 +1,7 @@
 <template>
 	<Layout>
 		<ClientOnly>
-			<read-progress style="	color: #059669 !important;"></read-progress>
+			<read-progress color="#059669" opacity="0.5" height="5px" :shadow="true"></read-progress>
 		</ClientOnly>
 		<div class="container max-w-5xl mx-auto">
 			<div class="relative py-16 bg-white overflow-hidden">
@@ -14,7 +14,7 @@
 								{{ $page.post.humanTime }}
 							</time>
 							<span aria-hidden="true"> &middot; </span>
-							<span> {{ $page.post.timeToRead }} min čitanja</span>
+							<span> {{ $page.post.timeToRead }} minuta čitanja</span>
 						</div>
 						<g-image immediate="true" class="mt-4 w-full object-cover" :src="require(`!!assets-loader!@img/${$page.post.image}`)" alt="" />
 					</div>
@@ -167,8 +167,4 @@ export default {
 	},
 };
 </script>
-<style scoped>
-.read-progress-container {
-	color: #059669 !important;
-}
-</style>
+
