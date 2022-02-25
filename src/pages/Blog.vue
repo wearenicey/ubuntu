@@ -40,7 +40,7 @@
 													{{ blog.node.humanTime }}
 												</time>
 												<span aria-hidden="true"> &middot; </span>
-												<span> {{ blog.node.timeToRead }} min čitanja </span>
+												<span> {{ blog.node.timeToRead }} minuta čitanja </span>
 											</div>
 										</div>
 									</div>
@@ -148,7 +148,7 @@ export default {
 		Scroll,
 	},
 	data() {
-				//povratni novi objekti
+		//povratni novi objekti
 		return {
 			loadedPosts: [],
 			currentPage: 1,
@@ -159,7 +159,7 @@ export default {
 		this.loadedPosts.push(...this.$page.sviPostovi.edges);
 	},
 	methods: {
-		// funkcija za infiniti scroll 
+		// funkcija za infiniti scroll
 		async infiniteHandler($state) {
 			if (this.currentPage + 1 > this.$page.sviPostovi.pageInfo.totalPages) {
 				$state.complete();

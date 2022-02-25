@@ -1,7 +1,7 @@
 <template>
 	<Layout>
 		<ClientOnly>
-			<read-progress color="#059669" opacity="0.5" height="5px" :shadow="true"></read-progress>
+			<read-progress color="#8458c8" opacity="0.5" height="5px" :shadow="true"></read-progress>
 		</ClientOnly>
 		<div class="container max-w-5xl mx-auto">
 			<div class="relative py-16 bg-white overflow-hidden">

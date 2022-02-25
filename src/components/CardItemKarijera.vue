@@ -32,7 +32,7 @@
 										{{ post.node.humanTime }}
 									</time>
 									<span aria-hidden="true"> &middot; </span>
-									<span> {{ post.node.timeToRead }} min read </span>
+									<span> {{ post.node.timeToRead }} minuta čitanja </span>
 								</div>
 							</div>
 						</div>
