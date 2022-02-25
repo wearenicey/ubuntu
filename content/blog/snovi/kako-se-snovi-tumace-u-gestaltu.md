@@ -4,7 +4,7 @@ category: snovi
 # ovo je i meta desc
 excerpt: U geštalt terapiji se san ne vidi kao ispunjenje skrivene želje, već kao način da se prenese egzistencijalna poruka.
 created: 2022-02-25
-date: 2021.02.25
+date: 2022.02.25
 image: kako-se-snovi-tumace-u-gestaltu.jpg
 imageTwo:
   path: /kako-se-snovi-tumace-u-gestaltu.jpg
