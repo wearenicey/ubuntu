@@ -13,7 +13,7 @@ image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
-path: snovi
+path: kako-se-snovi-tumace-u-gestaltu
 name: Aloo
 metaDesc: "Snovi se tumače kroz geštalt terapiju ispitivanjem celog sna i odnosa između njegovih delova. Ovaj članak ispituje kako se snovi tumače u geštalt terapiji."
 ---
