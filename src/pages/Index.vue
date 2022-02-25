@@ -506,17 +506,17 @@ export default {
 				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 				.join("&");
 		},
-				// slanje poruke
+		// slanje poruke
 
 		submit(e) {
 			console.log("submit!");
 			this.$v.$touch();
-						// neispravno popunjena forma dobijanje greske 
+			// neispravno popunjena forma dobijanje greske
 
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
-								// skupljeni podaci se salju  POST metodom
+				// skupljeni podaci se salju  POST metodom
 
 				fetch("/", {
 					method: "POST",
@@ -528,7 +528,7 @@ export default {
 						...this.formData,
 					}),
 				})
-									// dobijanje odgovora sa servera
+					// dobijanje odgovora sa servera
 
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
@@ -540,7 +540,7 @@ export default {
 					.catch((error) => alert(error));
 			}
 		},
-				//funkcija click za scrollovanje do elementa
+		//funkcija click za scrollovanje do elementa
 
 		onClickTwo() {
 			let element = document.getElementById("scroll");
@@ -550,7 +550,7 @@ export default {
 			});
 		},
 	},
-// pozivanje komponente
+	// pozivanje komponente
 	components: {
 		CardItem,
 	},
