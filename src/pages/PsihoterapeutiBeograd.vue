@@ -657,9 +657,9 @@ const people = [
 	},
 	{
 		name: "Aleksandra Ristić",
-		role: "Psihodrama",
+		role: "Psihologija ličnih konstrukata",
 		imageUrl: "Aleksandra Ristic.jpg",
-		bio: "Nekada je potrebno da razumemo ono što je bilo, prihvatimo ono što jesmo i prepoznamo način na koji su povezana naša uverenja - ne zbog posledica, jer niko ne mora biti zatočenik sopstvene biografije; nego zbog priče koja nas vodi napred",
+		bio: "Nekada je potrebno da razumemo ono što je bilo, prihvatimo ono što jesmo i prepoznamo način na koji su povezana naša uverenja - ne zbog posledica, jer niko ne mora biti zatočenik sopstvene biografije; nego zbog priče koja nas vodi napred.",
 	},
 	{
 		name: "Irena Stojadinović",
