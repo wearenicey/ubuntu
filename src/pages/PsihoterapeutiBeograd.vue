@@ -599,7 +599,7 @@ const people = [
 		name: "Nataša Ilić Sekereš",
 		role: "Transakciona analiza",
 		imageUrl: "Natasa Ilic Sekeres.jpg",
-		bio: "U psihoterapijskom radu koristim osnovne principe transakcione analize: Svi ljudi su OK. Svako je u stanju da misli. Ljudi imaju moć da promene svoje odluke kad god to požele",
+		bio: "U psihoterapijskom radu koristim osnovne principe transakcione analize: Svi ljudi su OK. Svako je u stanju da misli. Ljudi imaju moć da promene svoje odluke kad god to požele.",
 	},
 	{
 		name: "Nebojša Ratković",
@@ -701,7 +701,7 @@ const people = [
 		name: "Jana Narančić",
 		role: "Sistemska porodična psihoterapija",
 		imageUrl: "Jana Narancic.jpg",
-		bio: "Svaka promena predstavlja izazov koji nas podstiče da preispitamo svoja uverenja, osećanja, mišljenje, a psihoterapiju vidim kao putovanje u neotkrivene delove ličnih svetova, putovanje tokom kog rastemo, razvijamo se i menjamo jedni druge",
+		bio: "Svaka promena predstavlja izazov koji nas podstiče da preispitamo svoja uverenja, osećanja, mišljenje, a psihoterapiju vidim kao putovanje u neotkrivene delove ličnih svetova, putovanje tokom kog rastemo, razvijamo se i menjamo jedni druge.",
 	},
 	{
 		name: "Natalija Ignjatović",
@@ -719,7 +719,7 @@ const people = [
 		name: "Katarina Zdravković",
 		role: "Transakciona analiza",
 		imageUrl: "Katarina Zdravkovic.jpg",
-		bio: "Bilo da želite da dođete do uvida u sopstvene mehanizme, odnose sa drugima ili imate poteškoća koje utiču na dinamiku života, važno mi je da obezbedim prostor u kome možete da budete ono što jeste i da nastavite da rastete onako kako želite",
+		bio: "Bilo da želite da dođete do uvida u sopstvene mehanizme, odnose sa drugima ili imate poteškoća koje utiču na dinamiku života, važno mi je da obezbedim prostor u kome možete da budete ono što jeste i da nastavite da rastete onako kako želite.",
 	},
 	{
 		name: "Ivona Šćepanović",
@@ -731,7 +731,7 @@ const people = [
 		name: "Zorana Stracenski",
 		role: "Transakciona analiza",
 		imageUrl: "Zorana Stracenski.jpg",
-		bio: "Zdravo! Moje ime je Zorana, master sam psiholog i psihoterapeut pod supervizijom. Verujem da svako od nas ima pravo ali i sposobnost da živi svoj život onako kako istinski želi. Ukoliko želiš da na tome radimo zajedno, tu sam",
+		bio: "Zdravo! Moje ime je Zorana, master sam psiholog i psihoterapeut pod supervizijom. Verujem da svako od nas ima pravo ali i sposobnost da živi svoj život onako kako istinski želi. Ukoliko želiš da na tome radimo zajedno, tu sam.",
 	},
 ];
 
