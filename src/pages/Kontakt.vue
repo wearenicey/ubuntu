@@ -440,7 +440,7 @@
 												v-model="$v.formData.email.$model"
 											/>
 											<div class="p-1">
-												<p class="error text-red-500 text-xs italic" v-if="$v.formData.email.$error">Unesite isrpavnu email adresu</p>
+												<p class="error text-red-500 text-xs italic" v-if="$v.formData.email.$error">unesite ispravnu email adresu</p>
 											</div>
 										</div>
 									</div>
