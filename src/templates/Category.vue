@@ -107,7 +107,47 @@ export default {
 			title: this.$page.category.metaTitle,
 			titleTemplate: this.$page.category.metaTitle,
 
-			meta: [{ name: "description", content: this.$page.category.metaDesc }],
+			meta: [{ name: "description", content: this.$page.category.metaDesc },
+						{
+					key: "og:image",
+					property: "og:image",
+					content: "https://ubuntucentar.com" + this.$page.category.imageCategory.path,
+				},
+				{
+					key: "og:title",
+					name: "og:title",
+					content: this.$page.category.title + " | Ubuntu Blog",
+				},
+
+				{
+					key: "og:type",
+					name: "og:type",
+					content: "article",
+				},
+
+				{
+					key: "og:description",
+					name: "og:description",
+					content: this.$page.category.metaDesc,
+				},
+				{
+					key: "twitter:title",
+					name: "twitter:title",
+					content: this.$page.category.title + " | Ubuntu Blog",
+				},
+				{
+					key: "twitter:description",
+					name: "twitter:description",
+					content: this.$page.category.metaDesc,
+				},
+				{
+					key: "twitter:image",
+					property: "twitter:image",
+					content: "https://ubuntucentar.com" + this.$page.category.imageCategory.path,
+				},
+			
+			
+			],
 
 			// etc...
 		};
