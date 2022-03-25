@@ -41,7 +41,7 @@ U komunikaciji sa ženama koje su preživele nasilje u okviru savetovanja ili ps
 
 I uvek glasno izgovoriti da je odgovornost za nasilno ponašanje isključivo na onome ko nasilje čini.
 
-### Izvor: Nasilje u porodici i institucionalna zaštita - priručnik, Autonomni ženski centar
+Izvor: Nasilje u porodici i institucionalna zaštita - priručnik, Autonomni ženski centar
 
 
 
