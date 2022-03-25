@@ -1,7 +1,6 @@
 ---
 title: Nasilje nad ženama u partnerskim odnosima
 category: nasilje
-# ovo je i meta desc
 excerpt: Nasilje u porodici je veoma kompleksan globalni fenomen koji se javlja nezavisno od kulturološkog konteksta, socijalnog položaja, nivoa obrazovanja.
 created: 2022-03-24
 date: 2022.03.24

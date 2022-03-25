@@ -6,6 +6,5 @@ nav: true
 imageCategory:
   path: /smrsati-na-psihoterapiji-pet-kljucnih-faktora.jpg
   alt: "kako smršati na psihoterapiji"
-metaTitle: "Briga o sebi | Ubuntu Blog"
 metaDesc: "Na koje sve načine možemo da vodimo računa o svom mentalnom i fizičkom zdravlju."
 ---

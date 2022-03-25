@@ -6,6 +6,5 @@ nav: true
 imageCategory:
   path: /smrsati-na-psihoterapiji-pet-kljucnih-faktora.jpg
   alt: "kako smršati na psihoterapiji"
-metaTitle: "Snovi | Ubuntu Blog"
 metaDesc: "Zašto imamo snove, šta su snovi? Kako nam snovi mogu biti od pomoći tokom psihoterapijskog tretmana."
 ---
