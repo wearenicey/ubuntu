@@ -3,8 +3,8 @@ title: Organizacija vremena – od napetosti do produktivnosti
 category: briga-o-sebi
 # ovo je i meta desc
 excerpt: Razmišljanje i planiranje su još dva talenta kojima smo kao pripadnici ljudske vrste obdareni.
-created: 2022-03-31
-date: 2022.03.31
+created: 2022-04-01
+date: 2022.04.01
 image: organizacija-vremena.jpg
 imageTwo:
   path: /organizacija-vremena.jpg
