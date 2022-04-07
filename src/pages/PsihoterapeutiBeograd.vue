@@ -747,7 +747,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
+				content: "Psihoterapeuti sa iskustvom u Beogradu održavaju seanse psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama.",
 			},
 			{
 				key: "og:title",
@@ -758,7 +758,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
+				content: "Psihoterapeuti sa iskustvom u Beogradu održavaju seanse psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama.",
 			},
 			{
 				key: "og:image",
@@ -773,7 +773,7 @@ export default {
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Psihoterapeuti sa iskustvom u savetovalištu Ubuntu u Beogradu održavaju individualne i grupne terapije u skladu sa vašim potrebama.",
+				content: "Psihoterapeuti sa iskustvom u Beogradu održavaju seanse psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama.",
 			},
 			{
 				key: "twitter:image",

@@ -3,7 +3,7 @@
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div class="text-center">
-					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihološko savetovalište ubuntu</h1>
+					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihoterapija i savetovalište Ubuntu</h1>
 					<h2 class="mt-1 text-4xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
 					<p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
 					<div class="lg:mt-10 mt-5 flex block justify-center">
@@ -431,29 +431,29 @@ import { required, email } from "vuelidate/lib/validators";
 // meta deskripcija
 export default {
 	metaInfo: {
-		title: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
-		titleTemplate: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
+		title: "Psihoterapija u psihološkom savetovalištu Ubuntu",
+		titleTemplate: "Psihoterapija u psihološkom savetovalištu Ubuntu",
 
 		meta: [
 			{
 				name: "title",
-				content: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
+				content: "Psihoterapija u psihološkom savetovalištu Ubuntu",
 			},
 			{
 				name: "description",
-				content: "Ubuntu psihološko savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
+				content: "Psihološko savetovalište Ubuntu nalazi se u Novom Sadu i Beogradu. Psihoterapija, razgovor i druge psihološke usluge.",
 			},
 
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Psihološko savetovalište | Psihoterapija Novi Sad i Beograd",
+				content: "Psihoterapija u psihološkom savetovalištu Ubuntu",
 			},
 
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Ubuntu psihološko savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
+				content: "Psihološko savetovalište Ubuntu nalazi se u Novom Sadu i Beogradu. Psihoterapija, razgovor i druge psihološke usluge.",
 			},
 			{
 				key: "og:image",

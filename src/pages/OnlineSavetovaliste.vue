@@ -937,28 +937,28 @@ import { required, email } from "vuelidate/lib/validators";
 export default {
 	//meta deskripcija za stranicu
 	metaInfo: {
-		title: "Online psihoterapija | Savetovalište Ubuntu",
-		titleTemplate: "Online psihoterapija | Savetovalište Ubuntu",
+		title: "Psihoterapija online | Savetovalište Ubuntu",
+		titleTemplate: "Psihoterapija online | Savetovalište Ubuntu",
 
 		meta: [
 			{
 				name: "title",
-				content: "Online psihoterapija | Savetovalište Ubuntu",
+				content: "Psihoterapija online | Savetovalište Ubuntu",
 			},
 			{
 				name: "description",
-				content: "Savetovalište Ubuntu nudi usluge profesionalne online psihoterapije za pojedince, parove i porodice.",
+				content: "Online psihoterapija za pojedince, parove i porodice. Ne morate biti prisutni u našim prostorijama da bismo Vam pomogli.",
 			},
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Online psihoterapija | Savetovalište Ubuntu",
+				content: "Psihoterapija online | Savetovalište Ubuntu",
 			},
 
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Savetovalište Ubuntu nudi usluge profesionalne online psihoterapije za pojedince, parove i porodice.",
+				content: "Online psihoterapija za pojedince, parove i porodice. Ne morate biti prisutni u našim prostorijama da bismo Vam pomogli.",
 			},
 			{
 				key: "og:image",
@@ -968,12 +968,12 @@ export default {
 			{
 				key: "twitter:title",
 				name: "twitter:title",
-				content: "Online psihoterapija | Savetovalište Ubuntu",
+				content: "Psihoterapija online | Savetovalište Ubuntu",
 			},
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Savetovalište Ubuntu nudi usluge profesionalne online psihoterapije za pojedince, parove i porodice.",
+				content: "Online psihoterapija za pojedince, parove i porodice. Ne morate biti prisutni u našim prostorijama da bismo Vam pomogli.",
 			},
 			{
 				key: "twitter:image",
