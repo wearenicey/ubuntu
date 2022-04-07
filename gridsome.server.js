@@ -14,3 +14,7 @@ module.exports = function (api) {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
   })
 }
+
+    // Use the Pages API here: https://gridsome.org/docs/pages-api/
+        // Use the Pages API here: https://gridsome.org/docs/pages-api/
+
