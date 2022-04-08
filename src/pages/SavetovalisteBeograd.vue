@@ -16,7 +16,7 @@
 							<h1 class="font-serif text-center text-4xl tracking-tigh sm:text-5xl lg:text-6xl text-white"><span
 									class="text-green-200">Psihoterapija</span> u Beogradu </h1>
 							<p class="mt-6 text-2xl text-center text-white max-w-lg mx-auto">Beogradsko savetovalište Ubuntu se nalazi
-								na Zelenom vencu, Novom Beogradu.</p>
+								na Zelenom vencu, Novom Beogradu i Starom Gradu.</p>
 							<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
 								<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:gap-5">
 									<a href="tel:+381658286883"
