@@ -326,7 +326,7 @@
 											</svg>
 											<span class="ml-3"
 												><a href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396" target="_blank"
-													>Dordža Vašingtona 15</a
+													>Džordža Vašingtona 15</a
 												>
 											</span>
 										</dd>

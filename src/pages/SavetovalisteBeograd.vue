@@ -16,7 +16,7 @@
 							<h1 class="font-serif text-center text-4xl tracking-tigh sm:text-5xl lg:text-6xl text-white"><span
 									class="text-green-200">Psihoterapija</span> u Beogradu </h1>
 							<p class="mt-6 text-2xl text-center text-white max-w-lg mx-auto">Beogradsko savetovalište Ubuntu se nalazi
-								na Zelenom vencu, Novom Beogradu i Starom Gradu.</p>
+								na Zelenom vencu, Novom Beogradu i u Starom Gradu.</p>
 							<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
 								<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:gap-5">
 									<a href="tel:+381658286883"
@@ -629,7 +629,7 @@
 											</svg>
 											<span class="ml-3"><a
 													href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396"
-													target="_blank">Dordža Vašingtona 15</a>
+													target="_blank">Džordža Vašingtona 15</a>
 											</span>
 										</dd>
 										<dt><span class="sr-only">Telefon</span></dt>

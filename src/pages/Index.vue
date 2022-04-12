@@ -225,7 +225,7 @@
 							<div class="flex-1">
 								<a href="/savetovaliste-beograd/" class="block mt-2">
 									<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu</h3>
-									<p class="mt-3 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 2 adrese.</p>
+									<p class="mt-3 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 3 adrese.</p>
 								</a>
 							</div>
 						</div>
