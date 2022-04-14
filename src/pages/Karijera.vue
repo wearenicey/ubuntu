@@ -724,7 +724,9 @@
 											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 										</svg>
 										<span class="ml-3"
-											><a href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396" target="_blank"
+											><a
+												href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396"
+												target="_blank"
 												>Džorža Vašingtona 15</a
 											>
 										</span>
@@ -788,7 +790,7 @@
 						</div>
 
 						<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
-							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" id="kontakt-karijera" name="kontakt-karijera" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-8" id="kontakt-karijera" name="kontakt-karijera" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
 									<input type="hidden" name="form-name" value="kontakt-karijera" />
 									<p hidden>
@@ -862,6 +864,28 @@
 									</div>
 								</div>
 								<input type="hidden" id="city" name="city" v-model="formData.city" />
+								<div>
+									<label for="name" class="block text-sm font-medium text-gray-900">Terapijska škola koju pohađate</label>
+									<div class="mt-1">
+										<input class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" type="text" name="terapijaSkola" id="terapijaSkola" />
+										<div class="p-1">
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
+										</div>
+									</div>
+								</div>
+								<div>
+									<label for="last" class="block text-sm font-medium text-gray-900">Poslednja završena godina na edukaciji</label>
+									<div class="mt-1">
+										<input type="text" name="godinaEdukacije" id="godinaEdukacije" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" />
+									</div>
+								</div>
+								<div class="sm:col-span-2">
+									<label for="subject" class="block text-sm font-medium text-gray-900">Broj sati ličnog rada koje ste do sada imali</label>
+									<div class="mt-1">
+										<input type="text" name="brojSati" id="brojSati" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" />
+									</div>
+									<p class="mt-2 text-sm text-gray-500" id="email-description">Napomena: odnosi se na broj sati koje ste stekli kroz terapiju, broj sati navedite odvojeno za individualnu i grupnu terapiju, a ne u zbiru.</p>
+								</div>
 
 								<div class="sm:col-span-2">
 									<label for="subject" class="block text-sm font-medium text-gray-900">Naslov</label>
@@ -1014,6 +1038,9 @@ export default {
 				message: "",
 				subject: "",
 				city: "Online",
+				terapijaSkola: "",
+				godinaEdukacije: "",
+				brojSati: "",
 			},
 		};
 	},
