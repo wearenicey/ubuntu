@@ -867,19 +867,19 @@
 								<div>
 									<label for="skola" class="block text-sm font-medium text-gray-900">Terapijska škola koju pohađate</label>
 									<div class="mt-1">
-										<input class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" type="text" name="skola" id="skola" />
+										<input v-model="formData.skola" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" type="text" name="skola" id="skola" />
 									</div>
 								</div>
 								<div>
 									<label for="edukacija" class="block text-sm font-medium text-gray-900">Poslednja završena godina na edukaciji</label>
 									<div class="mt-1">
-										<input type="text" name="edukacija" id="edukacija" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" />
+										<input v-model="formData.edukacija" type="text" name="edukacija" id="edukacija" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" />
 									</div>
 								</div>
 								<div class="sm:col-span-2">
 									<label for="sati" class="block text-sm font-medium text-gray-900">Broj sati ličnog rada koje ste do sada imali</label>
 									<div class="mt-1">
-										<input type="text" name="sati" id="sati" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" />
+										<input v-model="formData.sati" type="text" name="sati" id="sati" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" />
 									</div>
 									<p class="mt-2 text-sm text-gray-500" id="email-description">Napomena: odnosi se na broj sati koje ste stekli kroz terapiju, broj sati navedite odvojeno za individualnu i grupnu terapiju, a ne u zbiru.</p>
 								</div>
