@@ -865,22 +865,19 @@
 								</div>
 								<input type="hidden" id="city" name="city" v-model="formData.city" />
 								<div>
-									<label for="name" class="block text-sm font-medium text-gray-900">Terapijska škola koju pohađate</label>
+									<label for="terapijaSkola" class="block text-sm font-medium text-gray-900">Terapijska škola koju pohađate</label>
 									<div class="mt-1">
 										<input class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" type="text" name="terapijaSkola" id="terapijaSkola" />
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
-										</div>
 									</div>
 								</div>
 								<div>
-									<label for="last" class="block text-sm font-medium text-gray-900">Poslednja završena godina na edukaciji</label>
+									<label for="godinaEdukacije" class="block text-sm font-medium text-gray-900">Poslednja završena godina na edukaciji</label>
 									<div class="mt-1">
 										<input type="text" name="godinaEdukacije" id="godinaEdukacije" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" />
 									</div>
 								</div>
 								<div class="sm:col-span-2">
-									<label for="subject" class="block text-sm font-medium text-gray-900">Broj sati ličnog rada koje ste do sada imali</label>
+									<label for="brojSati" class="block text-sm font-medium text-gray-900">Broj sati ličnog rada koje ste do sada imali</label>
 									<div class="mt-1">
 										<input type="text" name="brojSati" id="brojSati" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" />
 									</div>
