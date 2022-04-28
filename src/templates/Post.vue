@@ -71,7 +71,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="pt-10 max-w-7xl mx-auto">
+		<div class="pt-10 max-w-7xl mx-auto px-4 sm:px-6">
 			<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
 				<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 					<div class="flex-shrink-0">
