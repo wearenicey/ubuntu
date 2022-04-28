@@ -1,5 +1,6 @@
 <template>
 	<Layout>
+		
 		<modal name="my-first-modal" :width="800" :height="500" :adaptive="true">
 			<div class="p-2" slot="top-right">
 				<button @click="hide()">
@@ -14,10 +15,6 @@
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/JYVkGAbqR_U"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen
 				></iframe>
 			</div>
 		</modal>
