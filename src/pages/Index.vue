@@ -38,7 +38,7 @@
 						</div>
 					</div>
 					<div class="relative">
-						<svg @click="showModal = true" class="absolute top-0 right-0 left-0 right-0 bottom-0 m-auto pointer-events-auto" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<svg @click="showModal = true" class="absolute button-one pointer-events-auto" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<rect width="68" height="68" rx="34" fill="#F0FDFA" />
 							<path d="M52 34L25 49.5885L25 18.4115L52 34Z" fill="#10B981" />
 						</svg>
@@ -591,7 +591,10 @@ export default {
 };
 </script>
 <style scoped>
-.modal-vue {
+.button-one {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 .modal-vue .overlay {
 	position: fixed;
@@ -607,7 +610,7 @@ export default {
 	position: fixed;
 	left: 50%;
 	top: 50%;
-	transform: translate(-50%, -20%);
+	transform: translate(-50%, -50%);
 	width: 820px;
 	height: 520px;
 	z-index: 9999;
