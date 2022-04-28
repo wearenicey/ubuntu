@@ -31,15 +31,15 @@ Razvojni zadatak bi negde bio prihvatanje relativnosti vrednosti i redefinsanje 
 
 Korisna pitanja na koja bi klijent trebalo da odgovori su:
 
-1. Da li je ovaj cilj moguće ostvariti?
-2. Da li moram da ga ostvarim?
-3. Koja bi bila cena toga?
-4. Mogu li da budem fleksibilan/a oko ovog standarda i prilagodim ga po potrebi?
+**1. Da li je ovaj cilj moguće ostvariti?**
+**2. Da li moram da ga ostvarim?**
+**3. Koja bi bila cena toga?**
+**4. Mogu li da budem fleksibilan/a oko ovog standarda i prilagodim ga po potrebi?**
 
 Klijenti-perfekcionisti imaju specifična uverenja pomoću kojih održavaju svoj perfekcionizam. Na primer, mogu verovati da postoji samo jedan ispravan način da se operu sudovi. U tom slučaju ih učimo ABC modelu. Kada budu prepoznali emociju koju u njima izaziva situacija u kojoj nešto nije urađeno „kako treba&quot;, lakše će doći do svojih misli i interpretacija koje stvaraju to neprijatno osećanje. Jedna od zgodnih tehnika može da bude i preispitivanje vrednosti u smislu toga šta ćemo sebi reći na samrtničkoj postelji i da li ćemo žaliti zbog toga što nam seminarski rad na drugoj godini studija nije bio bolji. Ili sastavljanje sopstvenog epitafa. Ukoliko bismo danas umrli, šta bi pisalo na našoj nadgrobnoj ploči? Za pojedine klijente je korisno i pisanje rada na temu „Zašto je dobro biti lenj?&quot;
 
 Paralelno s menjanjem uverenja i njihovim presipitivanjem, treba da menjamo i ponašanje. Kultivisanje smeha, pa i šale na sopstveni račun iz „Ja sam OK, Ti si OK pozicije&quot;, kao i uvođenje malo haosa u život, mogu biti dobar put za izlazak iz negativnog perfekcionizma. Budući da je jedini način da smanjimo strah taj da radimo ono čega se bojimo, poželjno je da se klijent upusti u male eksperimente kako bi shvatio da čak i kad pogreši svet nije prestao da postoji i da su možda neki od tih standarda, koje je primenjivao, zapravo nepotrebni. Uz to je potrebno i da razvija ukus za igru, spontanost, za to da uradi nešto iako mu deluje blesavo, odnosno da svoju energiju koja je u velikoj meri bila investirana na sve ono što se „mora&quot;, preusmeri na ono što je zabavno. Kad bude radio stvari s manje stresa, daleko će više uživati u njima a ponekad će one ispasti čak i mnogo bolje.
 
-_Mindfulness_ vežbe takođe mogu biti korisne u radu na perfekcionizmu. Bilo da odaberemo vežbu u kojoj će klijent lagano jesti zrna suvog grožđa, vežbe disanja ili skeniranja delova tela, njihov cilj je da usporimo, povratimo fokus, i doživimo život na neosuđujući, prihvatajući način, bez potrebe da stalno nešto postižemo. Termin _neosuđujuići_ se odnosi na doživljaj koji isključuje bilo kakvo procenjivanje. Dok se _prihvatajući_ odnosi na to da pustimo da se dogodi šta god treba da se dogodi. Ne postoji nikakvo pravilo oko toga kako da se primenjuju ove vežbe, koje emocije treba da se osećaju ili koje misli treba da se misle. _Mindfulness_ nas podstiče na to da misli posmatramo samo kao misli (a ne kao činjenice).
+**_Mindfulness_** vežbe takođe mogu biti korisne u radu na perfekcionizmu. Bilo da odaberemo vežbu u kojoj će klijent lagano jesti zrna suvog grožđa, vežbe disanja ili skeniranja delova tela, njihov cilj je da usporimo, povratimo fokus, i doživimo život na neosuđujući, prihvatajući način, bez potrebe da stalno nešto postižemo. Termin _neosuđujuići_ se odnosi na doživljaj koji isključuje bilo kakvo procenjivanje. Dok se _prihvatajući_ odnosi na to da pustimo da se dogodi šta god treba da se dogodi. Ne postoji nikakvo pravilo oko toga kako da se primenjuju ove vežbe, koje emocije treba da se osećaju ili koje misli treba da se misle. _Mindfulness_ nas podstiče na to da misli posmatramo samo kao misli (a ne kao činjenice).
 
 Darja Pačevski
