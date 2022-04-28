@@ -1,5 +1,26 @@
 <template>
 	<Layout>
+		<modal name="my-first-modal" :width="800" :height="500" :adaptive="true">
+			<div class="p-2" slot="top-right">
+				<button @click="hide()">
+					<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect width="64" height="64" rx="32" fill="#F0FDFA" />
+						<path d="M41.3334 24.5467L39.4534 22.6667L32 30.12L24.5467 22.6667L22.6667 24.5467L30.12 32L22.6667 39.4533L24.5467 41.3333L32 33.88L39.4534 41.3333L41.3334 39.4533L33.88 32L41.3334 24.5467Z" fill="#323232" />
+					</svg>
+				</button>
+			</div>
+			<div class="video-container">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/JYVkGAbqR_U"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</div>
+		</modal>
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div class="text-center">
@@ -11,8 +32,12 @@
 							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Zakažite konsultaciju </a>
 						</div>
 					</div>
-					<div>
-						<g-image immediate="true" class="lg:mt-20 mt-10" src="~/assets/img/pocenta-1.jpg" alt="psihoterapeut savetuje"></g-image>
+					<div class="relative">
+						<svg @click="show()" class="absolute top-0 right-0 left-0 right-0 bottom-0 m-auto pointer-events-auto" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect width="68" height="68" rx="34" fill="#F0FDFA" />
+							<path d="M52 34L25 49.5885L25 18.4115L52 34Z" fill="#10B981" />
+						</svg>
+						<g-image immediate="true" class="lg:mt-20 mt-10" src="~/assets/img/pocetna-1.png" alt="psihoterapeut savetuje"></g-image>
 					</div>
 					<svg class="hidden xl:block absolute right-72 transform bottom-60" width="114" height="122" viewBox="0 0 114 122" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M19.4066 0.362265L113.567 77.8852L0.279537 121.814L19.4066 0.362265Z" fill="#8B5CF6" />
@@ -500,6 +525,12 @@ export default {
 		},
 	},
 	methods: {
+		show() {
+			this.$modal.show("my-first-modal");
+		},
+		hide() {
+			this.$modal.hide("my-first-modal");
+		},
 		//javascript objekat se pretvara u string radi dalje obrade
 		encode(data) {
 			return Object.keys(data)
@@ -550,9 +581,21 @@ export default {
 			});
 		},
 	},
+	mount() {
+		this.show();
+	},
 	// pozivanje komponente
 	components: {
 		CardItem,
 	},
 };
 </script>
+<style scoped>
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
