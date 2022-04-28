@@ -84,7 +84,7 @@
 							<div class="lg:col-start-2">
 								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
 								<p class="mt-3 text-lg text-gray-500">
-									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad.Za ovaj prvi susret je neophodno odvojiti 3000 dinara u slučaju individualne, odnosno 5000 dinara u slučaju partnerske i
+									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 3000 dinara u slučaju individualne, odnosno 5000 dinara u slučaju partnerske i
 									porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
 								</p>
 								<div class="mt-6">
