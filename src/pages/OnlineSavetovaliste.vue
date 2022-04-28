@@ -153,8 +153,8 @@
 							<div class="lg:col-start-2">
 								<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
 								<p class="mt-3 text-lg text-gray-500">
-									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 2.000 dinara kao donaciju za rad savetovališta, dok je za ostalih 12 susreta,
-									koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
+									Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 3000 dinara u slučaju individualne, odnosno 5000 dinara u slučaju partnerske i porodične
+									terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.000 dinara.
 								</p>
 
 								<div class="block mt-8">
@@ -984,7 +984,7 @@ export default {
 	},
 
 	data() {
-				//povratni novi objekti
+		//povratni novi objekti
 
 		return {
 			success: false,
@@ -1000,7 +1000,7 @@ export default {
 			},
 		};
 	},
-// validacija forme
+	// validacija forme
 	validations: {
 		formData: {
 			name: {
@@ -1022,24 +1022,24 @@ export default {
 		},
 	},
 	methods: {
-				//javascript objekat se pretvara u string radi dalje obrade
+		//javascript objekat se pretvara u string radi dalje obrade
 
 		encode(data) {
 			return Object.keys(data)
 				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 				.join("&");
 		},
-				// slanje poruke
+		// slanje poruke
 
 		submit(e) {
-						// neispravno popunjena forma dobijanje greske 
+			// neispravno popunjena forma dobijanje greske
 
 			console.log("submit!");
 			this.$v.$touch();
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
-								// skupljeni podaci se salju  POST metodom
+				// skupljeni podaci se salju  POST metodom
 
 				fetch("/", {
 					method: "POST",
@@ -1049,7 +1049,7 @@ export default {
 						...this.formData,
 					}),
 				})
-									// dobijanje odgovora sa servera
+					// dobijanje odgovora sa servera
 
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
@@ -1061,14 +1061,14 @@ export default {
 					.catch((error) => alert(error));
 			}
 		},
-				//funkcija click za scrollovanje do elementa
+		//funkcija click za scrollovanje do elementa
 
 		onClickTwo() {
 			let element = document.getElementById("scroll");
 			element.scrollIntoView({ behavior: "smooth", block: "start" });
 		},
 	},
-//pozivanje komponenti
+	//pozivanje komponenti
 	components: {
 		Header,
 		FooterLanding,
