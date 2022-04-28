@@ -31,10 +31,10 @@ Razvojni zadatak bi negde bio prihvatanje relativnosti vrednosti i redefinsanje 
 
 Korisna pitanja na koja bi klijent trebalo da odgovori su:
 
-**1. Da li je ovaj cilj moguće ostvariti?**
-**2. Da li moram da ga ostvarim?**
-**3. Koja bi bila cena toga?**
-**4. Mogu li da budem fleksibilan/a oko ovog standarda i prilagodim ga po potrebi?**
+1. **Da li je ovaj cilj moguće ostvariti?**
+2. **Da li moram da ga ostvarim?**
+3. **Koja bi bila cena toga?**
+4. **Mogu li da budem fleksibilan/a oko ovog standarda i prilagodim ga po potrebi?**
 
 Klijenti-perfekcionisti imaju specifična uverenja pomoću kojih održavaju svoj perfekcionizam. Na primer, mogu verovati da postoji samo jedan ispravan način da se operu sudovi. U tom slučaju ih učimo ABC modelu. Kada budu prepoznali emociju koju u njima izaziva situacija u kojoj nešto nije urađeno „kako treba&quot;, lakše će doći do svojih misli i interpretacija koje stvaraju to neprijatno osećanje. Jedna od zgodnih tehnika može da bude i preispitivanje vrednosti u smislu toga šta ćemo sebi reći na samrtničkoj postelji i da li ćemo žaliti zbog toga što nam seminarski rad na drugoj godini studija nije bio bolji. Ili sastavljanje sopstvenog epitafa. Ukoliko bismo danas umrli, šta bi pisalo na našoj nadgrobnoj ploči? Za pojedine klijente je korisno i pisanje rada na temu „Zašto je dobro biti lenj?&quot;
 
