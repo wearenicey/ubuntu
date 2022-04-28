@@ -1,6 +1,5 @@
 <template>
 	<Layout>
-		
 		<modal name="my-first-modal" :width="800" :height="500" :adaptive="true">
 			<div class="p-2" slot="top-right">
 				<button @click="hide()">
@@ -11,11 +10,7 @@
 				</button>
 			</div>
 			<div class="video-container">
-				<iframe
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/JYVkGAbqR_U"
-				></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/JYVkGAbqR_U"></iframe>
 			</div>
 		</modal>
 		<div class="bg-white">
