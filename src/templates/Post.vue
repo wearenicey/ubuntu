@@ -68,59 +68,59 @@
 							</ShareNetwork>
 						</div>
 					</div>
-					<div class="pt-10">
-						<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-							<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-								<div class="flex-shrink-0">
-									<g-image class="h-48 w-full object-cover" src="~/assets/img/novisad.jpg" alt="psihološko savetovalište novi sad" />
-								</div>
-								<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-									<div class="flex-1">
-										<a href="/savetovaliste-novi-sad/" class="block mt-2">
-											<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Novom Sadu</h3>
-											<p class="mt-3 text-base text-gray-500">Projekat "Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć u Novom Sadu.</p>
-										</a>
-									</div>
-								</div>
-								<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-									<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
-								</div>
-							</div>
-
-							<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-								<div class="flex-shrink-0">
-									<g-image class="h-48 w-full object-cover" src="~/assets/img/beograd.jpg" alt="psihološko savetovalište beograd" />
-								</div>
-								<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-									<div class="flex-1">
-										<a href="/savetovaliste-beograd/" class="block mt-2">
-											<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu</h3>
-											<p class="mt-3 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 3 adrese.</p>
-										</a>
-									</div>
-								</div>
-								<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-									<a href="/savetovaliste-beograd/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
-								</div>
-							</div>
-
-							<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-								<div class="flex-shrink-0">
-									<g-image class="h-48 w-full object-cover" src="~/assets/img/onilne.jpg" alt="online psihoterapija" />
-								</div>
-								<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-									<div class="flex-1">
-										<a href="/online-savetovaliste/" class="block mt-2">
-											<h3 class="text-xl font-semibold text-gray-900">Online psihoterapija</h3>
-											<p class="mt-3 text-base text-gray-500">Kako bismo unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.</p>
-										</a>
-									</div>
-								</div>
-								<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-									<a href="/online-savetovaliste/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
-								</div>
-							</div>
+				</div>
+			</div>
+		</div>
+		<div class="pt-10 max-w-7xl mx-auto">
+			<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+				<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+					<div class="flex-shrink-0">
+						<g-image class="h-48 w-full object-cover" src="~/assets/img/novisad.jpg" alt="psihološko savetovalište novi sad" />
+					</div>
+					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+						<div class="flex-1">
+							<a href="/savetovaliste-novi-sad/" class="block mt-2">
+								<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Novom Sadu</h3>
+								<p class="mt-3 text-base text-gray-500">Projekat "Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć u Novom Sadu.</p>
+							</a>
 						</div>
+					</div>
+					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+						<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
+					</div>
+				</div>
+
+				<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+					<div class="flex-shrink-0">
+						<g-image class="h-48 w-full object-cover" src="~/assets/img/beograd.jpg" alt="psihološko savetovalište beograd" />
+					</div>
+					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+						<div class="flex-1">
+							<a href="/savetovaliste-beograd/" class="block mt-2">
+								<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu</h3>
+								<p class="mt-3 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 3 adrese.</p>
+							</a>
+						</div>
+					</div>
+					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+						<a href="/savetovaliste-beograd/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
+					</div>
+				</div>
+
+				<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+					<div class="flex-shrink-0">
+						<g-image class="h-48 w-full object-cover" src="~/assets/img/onilne.jpg" alt="online psihoterapija" />
+					</div>
+					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+						<div class="flex-1">
+							<a href="/online-savetovaliste/" class="block mt-2">
+								<h3 class="text-xl font-semibold text-gray-900">Online psihoterapija</h3>
+								<p class="mt-3 text-base text-gray-500">Kako bismo unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.</p>
+							</a>
+						</div>
+					</div>
+					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+						<a href="/online-savetovaliste/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
 					</div>
 				</div>
 			</div>

@@ -633,6 +633,8 @@ export default {
 	.modal-vue .modal {
 		width: 380px;
 		height: 320px;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
 </style>
