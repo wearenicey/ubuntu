@@ -1,18 +1,31 @@
 <template>
 	<Layout>
-		<modal name="my-first-modal" :width="800" :height="500" :adaptive="true">
-			<div class="p-2" slot="top-right">
-				<button @click="hide()">
+		<div class="modal-vue">
+			<div class="overlay" v-if="showModal" @click="showModal = false">
+				<button class="close p-2" @click="showModal = false">
 					<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<rect width="64" height="64" rx="32" fill="#F0FDFA" />
 						<path d="M41.3334 24.5467L39.4534 22.6667L32 30.12L24.5467 22.6667L22.6667 24.5467L30.12 32L22.6667 39.4533L24.5467 41.3333L32 33.88L39.4534 41.3333L41.3334 39.4533L33.88 32L41.3334 24.5467Z" fill="#323232" />
 					</svg>
 				</button>
 			</div>
-			<div class="video-container">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/JYVkGAbqR_U"></iframe>
+
+			<!-- modal -->
+			<div class="modal" v-if="showModal">
+				<div class="video-container">
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/JYVkGAbqR_U"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
 			</div>
-		</modal>
+		</div>
+
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div class="text-center">
@@ -25,7 +38,7 @@
 						</div>
 					</div>
 					<div class="relative">
-						<svg @click="show()" class="absolute top-0 right-0 left-0 right-0 bottom-0 m-auto pointer-events-auto" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<svg @click="showModal = true" class="absolute top-0 right-0 left-0 right-0 bottom-0 m-auto pointer-events-auto" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<rect width="68" height="68" rx="34" fill="#F0FDFA" />
 							<path d="M52 34L25 49.5885L25 18.4115L52 34Z" fill="#10B981" />
 						</svg>
@@ -504,6 +517,7 @@ export default {
 				email: "",
 				submitStatus: null,
 			},
+			showModal: false,
 		};
 	},
 	// validacija formi
@@ -517,12 +531,6 @@ export default {
 		},
 	},
 	methods: {
-		show() {
-			this.$modal.show("my-first-modal");
-		},
-		hide() {
-			this.$modal.hide("my-first-modal");
-		},
 		//javascript objekat se pretvara u string radi dalje obrade
 		encode(data) {
 			return Object.keys(data)
@@ -583,11 +591,48 @@ export default {
 };
 </script>
 <style scoped>
+.modal-vue {
+}
+.modal-vue .overlay {
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-vue .modal {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -20%);
+	width: 820px;
+	height: 520px;
+	z-index: 9999;
+	margin: 0 auto;
+	padding: 20px 30px;
+	background-color: #fff;
+	top: 40%;
+}
+
+.modal-vue .close {
+	position: absolute;
+	right: 0;
+}
 .video-container iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.modal-vue .modal {
+		width: 380px;
+		height: 320px;
+	}
 }
 </style>
