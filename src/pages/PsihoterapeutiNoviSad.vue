@@ -723,7 +723,7 @@ export default {
 		// slanje poruke
 		submit(e) {
 			this.$v.$touch();
-			// neispravno popunjena forma dobijanje greske 
+			// neispravno popunjena forma dobijanje greske
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
@@ -742,7 +742,7 @@ export default {
 
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
-					// uspijesno zavresno slanje uz delay
+						// uspijesno zavresno slanje uz delay
 						setTimeout(() => {
 							this.formData.submitStatus = "OK";
 						}, 500)
