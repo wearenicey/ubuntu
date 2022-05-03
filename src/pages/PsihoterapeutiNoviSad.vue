@@ -640,7 +640,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakaži razgovor.",
+				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakažite razgovor.",
 			},
 			{
 				key: "og:title",
@@ -651,7 +651,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakaži razgovor.",
+				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakažite razgovor.",
 			},
 			{
 				key: "og:image",
@@ -666,7 +666,7 @@ export default {
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakaži razgovor.",
+				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakažite razgovor.",
 			},
 			{
 				key: "twitter:image",
