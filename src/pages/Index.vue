@@ -29,7 +29,7 @@
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div class="text-center">
-					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihoterapija i savetovalište Ubuntu</h1>
+					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihoterapija u psihološkom savetovalištu Ubuntu</h1>
 					<h2 class="mt-1 text-4xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
 					<p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
 					<div class="lg:mt-10 mt-5 flex block justify-center">
@@ -471,7 +471,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Psihološko savetovalište Ubuntu nalazi se u Novom Sadu i Beogradu. Psihoterapija, razgovor i druge psihološke usluge.",
+				content: "Psihoterapija i druge psihološke metode u savetovalištu koje se nalazi u Beogradu i Novom Sadu. Zakažite razgovor sa psihoterapeutom ili psihologom",
 			},
 
 			{
@@ -483,7 +483,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Psihološko savetovalište Ubuntu nalazi se u Novom Sadu i Beogradu. Psihoterapija, razgovor i druge psihološke usluge.",
+				content: "Psihoterapija i druge psihološke metode u savetovalištu koje se nalazi u Beogradu i Novom Sadu. Zakažite razgovor sa psihoterapeutom ili psihologom",
 			},
 			{
 				key: "og:image",
@@ -498,7 +498,7 @@ export default {
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Savetovalište se nalazi u Novom Sadu i Beogradu. Posvećeni smo pružanju visokokvalitetnih psiholoških usluga koje su dostupne i pristupačne za sve.",
+				content: "Psihoterapija i druge psihološke metode u savetovalištu koje se nalazi u Beogradu i Novom Sadu. Zakažite razgovor sa psihoterapeutom ili psihologom",
 			},
 			{
 				key: "twitter:image",

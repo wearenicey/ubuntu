@@ -987,7 +987,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Savetovalište Ubuntu nudi zainteresovanim kolegama da započnu ili razviju svoju karijeru psihoterapeuta kroz terapijsku praksu te steknu teorijske i praktične veštine.",
+				content: "Savetovalište Ubuntu nudi mogućnost za započinjanje ili razvijanje karijere psihoterapeuta kroz terapijsku praksu i sticanje teorijskih i praktičnih veština.",
 			},
 
 			{
@@ -999,7 +999,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Savetovalište Ubuntu nudi zainteresovanim kolegama da započnu ili razviju svoju karijeru psihoterapeuta kroz terapijsku praksu te steknu teorijske i praktične veštine.",
+				content: "Savetovalište Ubuntu nudi mogućnost za započinjanje ili razvijanje karijere psihoterapeuta kroz terapijsku praksu i sticanje teorijskih i praktičnih veština.",
 			},
 			{
 				key: "og:image",
@@ -1014,7 +1014,7 @@ export default {
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Savetovalište Ubuntu nudi zainteresovanim kolegama da započnu ili razviju svoju karijeru psihoterapeuta kroz terapijsku praksu te steknu teorijske i praktične veštine.",
+				content: "Savetovalište Ubuntu nudi mogućnost za započinjanje ili razvijanje karijere psihoterapeuta kroz terapijsku praksu i sticanje teorijskih i praktičnih veština.",
 			},
 			{
 				key: "twitter:image",
