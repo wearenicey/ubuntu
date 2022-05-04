@@ -944,7 +944,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Psihoterapija u Novom Sadu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Pozovite za besplatnu konsultaciju.",
+				content: "Zakažite razgovor sa psihologom ili psihoterapeutom u Novom Sadu. Psihološka pomoć i savetovanje. Individualna i grupna terapija.",
 			},
 			{
 				key: "og:title",
@@ -955,7 +955,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Psihoterapija u Novom Sadu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Pozovite za besplatnu konsultaciju.",
+				content: "Zakažite razgovor sa psihologom ili psihoterapeutom u Novom Sadu. Psihološka pomoć i savetovanje. Individualna i grupna terapija.",
 			},
 			{
 				key: "og:image",
@@ -970,7 +970,7 @@ export default {
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Psihoterapija u Novom Sadu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Pozovite za besplatnu konsultaciju.",
+				content: "Zakažite razgovor sa psihologom ili psihoterapeutom u Novom Sadu. Psihološka pomoć i savetovanje. Individualna i grupna terapija.",
 			},
 			{
 				key: "twitter:image",

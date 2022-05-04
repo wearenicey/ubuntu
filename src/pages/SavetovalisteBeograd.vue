@@ -1002,7 +1002,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Psihoterapija u Beogradu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Pozovite za besplatnu konsultaciju.",
+				content: "Zakažite razgovor sa psihologom ili psihoterapeutom u Beogradu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Na 3 lokacije u Beogradu.",
 			},
 			{
 				key: "og:title",
@@ -1013,7 +1013,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Psihoterapija u Beogradu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Pozovite za besplatnu konsultaciju.",
+				content: "Zakažite razgovor sa psihologom ili psihoterapeutom u Beogradu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Na 3 lokacije u Beogradu.",
 			},
 			{
 				key: "og:image",
@@ -1028,7 +1028,7 @@ export default {
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Psihoterapija u Beogradu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Pozovite za besplatnu konsultaciju.",
+				content: "Zakažite razgovor sa psihologom ili psihoterapeutom u Beogradu. Psihološka pomoć i savetovanje. Individualna i grupna terapija. Na 3 lokacije u Beogradu.",
 			},
 			{
 				key: "twitter:image",

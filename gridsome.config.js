@@ -17,10 +17,6 @@ module.exports = {
 	siteName: 'Ubuntu Centar',
 	siteUrl: 'https://ubuntucentar.com/',
 	plugins: [
-
-		{
-      use: 'gridsome-plugin-modal'
-    },
 		{
 			use: 'gridsome-plugin-gtm',
 			options: {

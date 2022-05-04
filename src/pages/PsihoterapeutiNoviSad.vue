@@ -4,7 +4,7 @@
 			<div class="pt-16 pb-10 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
 				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
 					<div class="sm:max-w-lg">
-						<h1 class="text-4xl tracking-tight text-gray-900 pb-4 sm:text-6xl">Ubuntu psihoterapeuti u novosadskom savetovalištu</h1>
+						<h1 class="text-4xl tracking-tight text-gray-900 pb-4 sm:text-6xl">Psihoterapeuti u Novom Sadu</h1>
 						<p>Novosadsko savetovalište čine saradnici različitih psihoterapijskih pravaca. Raznolikost u pristupu omogućava klijentima saradnju sa terapeutima stručnim za problematiku zbog koje žele da započnu proces psihoterapije.</p>
 						<div class="text-center lg:text-left pt-6 space-y-4">
 							<a href="tel:+381658286881" class="items-center flex lg:inline-block rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
@@ -57,7 +57,7 @@
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
 				<div class="space-y-12 md:space-y-24">
-					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Upoznaj naše terapeute</h2>
+					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute</h2>
 
 					<ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 						<li v-for="person in people" :key="person.name">
@@ -640,7 +640,7 @@ export default {
 			},
 			{
 				name: "description",
-				content: "Psihoterapeuti sa iskustvom u Novom Sadu održavaju seanse psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama.",
+				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakažite razgovor.",
 			},
 			{
 				key: "og:title",
@@ -651,7 +651,7 @@ export default {
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Psihoterapeuti sa iskustvom u Novom Sadu održavaju seanse psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama.",
+				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakažite razgovor.",
 			},
 			{
 				key: "og:image",
@@ -666,7 +666,7 @@ export default {
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Psihoterapeuti sa iskustvom u Novom Sadu održavaju seanse psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama.",
+				content: "Spisak psihoterapeuta i psihologa sa iskustvom u Novom Sadu. Održavanje seansi psihoterapije u savetovalištu ili online, u skladu sa vašim potrebama. Zakažite razgovor.",
 			},
 			{
 				key: "twitter:image",

@@ -3,7 +3,7 @@
 	"formatFiles.useGitIgnore": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "octref.vetur"
   },
 	"[javascript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"

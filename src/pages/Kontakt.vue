@@ -4,7 +4,7 @@
 			<div>
 				<div class="max-w-7xl mx-auto pb-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 					<div class="text-center">
-						<h1 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-5xl">Razgovor sa psihoterapeutom</h1>
+						<h1 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-5xl">Razgovor sa psihologom ili psihoterapeutom</h1>
 						<p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Kontaktirajte nas a mi ćemo se pobrinuti za ostalo.</p>
 					</div>
 				</div>
@@ -551,13 +551,13 @@ import { required, email } from "vuelidate/lib/validators";
 
 export default {
 	metaInfo: {
-		title: "Kontakt | Savetovalište Ubuntu Centar",
-		titleTemplate: "Kontakt | Savetovalište Ubuntu Centar",
+		title: "Razgovor sa psihoterapeutom ili psihologom",
+		titleTemplate: "Razgovor sa psihoterapeutom ili psihologom",
 
 		meta: [
 			{
 				name: "title",
-				content: "Kontakt | Savetovalište Ubuntu Centar",
+				content: "Razgovor sa psihoterapeutom ili psihologom",
 			},
 			{
 				name: "description",
@@ -566,7 +566,7 @@ export default {
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Kontakt | Savetovalište Ubuntu Centar",
+				content: "Razgovor sa psihoterapeutom ili psihologom",
 			},
 
 			{
@@ -582,7 +582,7 @@ export default {
 			{
 				key: "twitter:title",
 				name: "twitter:title",
-				content: "Kontakt | Savetovalište Ubuntu Centar",
+				content: "Razgovor sa psihoterapeutom ili psihologom",
 			},
 			{
 				key: "twitter:description",
