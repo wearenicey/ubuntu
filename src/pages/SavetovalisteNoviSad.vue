@@ -133,20 +133,21 @@
 					</h2>
 					<div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 justify-center md:justify-start">
 						<div class="inline-flex">
-							<a href="/psihoterapeuti-novi-sad" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Ubuntu Novi Sad </a>
+							<a href="/psihoterapeuti-novi-sad" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Psihoterapeuti Novi Sad </a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="bg-white">
 				<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
+					<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl text-center pb-10">Zavirite u naše prostorije</h2>
 					<div class="relative flex items-center justify-center h-96 overflow-hidden">
 						<div class="absolute right-0 m-10 bottom-0 z-30">
 							<div class="p-6 w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
 								<a href="#">
-									<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beograd</h5>
+									<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Novi Sad</h5>
 								</a>
-								<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Maršala Birjuzova 1</p>
+								<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Anđe Ranković 6/23</p>
 								<a
 									href="#"
 									class="
