@@ -12,17 +12,10 @@
 
 			<!-- modal -->
 			<div class="modal" v-if="showModal">
-				<div class="video-container">
-					<iframe
-						width="560"
-						height="315"
-						src="https://www.youtube.com/embed/JYVkGAbqR_U"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
-				</div>
+				<video controls>
+					<source src="/video-pocetna.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
 			</div>
 		</div>
 
@@ -612,10 +605,9 @@ export default {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	width: 820px;
-	height: 520px;
+	height: auto;
 	z-index: 9999;
 	margin: 0 auto;
-	padding: 20px 30px;
 	background-color: #fff;
 	top: 40%;
 }
@@ -634,10 +626,8 @@ export default {
 
 @media screen and (max-width: 600px) {
 	.modal-vue .modal {
-		width: 380px;
-		height: 320px;
-		padding-left: 1rem;
-		padding-right: 1rem;
+		width: 360px;
+		height: auto;
 	}
 }
 </style>
