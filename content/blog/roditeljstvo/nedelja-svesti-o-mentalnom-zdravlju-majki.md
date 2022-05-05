@@ -41,7 +41,7 @@ Glavne karakteristike postporođajne tuge su: manjak energije, slabost, ranjivos
 - Plačljivost
 - [Anksioznost](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja/)
 
-Pored gorenavedenih simptoma ovo stanje karakteristišu poteškoće u ostvarivanju veze sa detetom, kao i želja majke da povredi dete ili sebe, što je sve preduslov za [osećaj krivice](/blog/roditeljstvo/izazovi-roditeljstva-da-li-sam-dobar-roditelj/) koji majka ima zbog takvih misli i ponašanja.
+Pored gorenavedenih simptoma ovo stanje karakteristišu poteškoće u ostvarivanju veze sa detetom, kao i želja majke da povredi dete ili sebe, što je sve preduslov za [osećaj krivice](/blog/briga-o-sebi/sta-zapravo-znaci-briga-o-sebi/) koji majka ima zbog takvih misli i ponašanja.
 
 Neki od faktora rizika, koji povećavaju mogućnost za nastanak postporođajne depresije su svakako prethodne depresivne epizode tokom života, komplikacije tokom trudnoće, problemi u partnerskom odosu, kao i niži socioekonomski status; pored toga značajni faktori rizika su i mlađa dob trudnice, neplanirana i neželjena trudnoća.
 
