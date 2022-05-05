@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: nedelja-svesti-o-mentalnom-zdravlju-majki
 name: Aloo
-metaDesc: "Tokom trudnoće i posle porođaja dolazi do značajnih hormonskih promena kod majke."
+metaDesc: "Kratak vodič o emocijama koje se javljaju tokom trudnoće i posle porođaja kada dolazi do značajnih hormonskih promena kod majke."
 ---
 
 U svetu se, svake godine, prve nedelje u maju obeležava **Nedelja svesti o mentalnom zdravlju majki**. Ovo je kampanja posvećena pre svega podizanju svesti o izazovima sa kojima se susreću žene nakon porođaja ili tokom trudnoće. Pored toga, cilj kampanje jeste isticanje značaja podrške majkama, kao i povećavanje senzitivnosti za prepoznavanje ranih simptoma koji se mogu javiti neposredno nakon porođaja.
@@ -28,7 +28,7 @@ Tokom trudnoće i posle porođaja dolazi do značajnih hormonskih promena kod ma
 
 **Postporođajna tuga ili baby blues** se javlja 2 do 3 dana nakon porođaja, traje do dve nedelje i doživljava je 40 – 80% žena.
 
-Glavne karakteristike postporođajne tuge su: manjak energije, slabost, ranjivost, nagle promene raspoloženja, plačljivost, zbunjenost, [tuga](/blog/emocije/uvod-u-osnovne-emocije-tuga/), razdražljivost, smanjena koncentracija. Postporođajna tuga ne zahteva korišćenje psihofarmakoterapije, i ono što je bitno naglasiti jeste da i pored poteškoća sa kojima se majka suočava –_briga o novorođenčetu nije ugrožena_.
+Glavne karakteristike postporođajne tuge su: manjak energije, slabost, ranjivost, nagle promene raspoloženja, plačljivost, zbunjenost, [tuga](/blog/emocije/uvod-u-osnovne-emocije-tuga/), razdražljivost, smanjena koncentracija. Postporođajna tuga ne zahteva korišćenje psihofarmakoterapije, i ono što je bitno naglasiti jeste da i pored poteškoća sa kojima se majka suočava – _briga o novorođenčetu nije ugrožena_.
 
 **Postporođajna depresija (postpartalna depresija)** se javlja u prvih četiri do osam nedelja nakon porođaja, ređe i kasnije tokom prve godine detetovog života. Ona traje duže od postporođajne tuge, i upravo na nju treba posumnjati ako simptomi postporođajne tuge traju duže od dve nedelje. Trajanje simptoma u izuzetnim slučajevima može biti i godinu dana, a oni su ozbiljniji nego što je to slučaj kod baby blues-a i uglavnom su slični znakovima [„prave&quot; depresije](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja/):
 
@@ -39,9 +39,9 @@ Glavne karakteristike postporođajne tuge su: manjak energije, slabost, ranjivos
 - Osećaj nesposobnosti da se odgovori zahtevima okoline
 - Razdražljivost
 - Plačljivost
-- [Anksioznost](/blog/depresija/depresivna-anskiozna-stanja-danas-licna-zapazanja/)
+- [Anksioznost](/blog/anksioznost-i-anksiozni-poremecaji/sta-je-aksioznost/)
 
-Pored gorenavedenih simptoma ovo stanje karakteristišu poteškoće u ostvarivanju veze sa detetom, kao i želja majke da povredi dete ili sebe, što je sve preduslov za [osećaj krivice](/blog/briga-o-sebi/sta-zapravo-znaci-briga-o-sebi/) koji majka ima zbog takvih misli i ponašanja.
+Pored gorenavedenih simptoma ovo stanje karakteristišu poteškoće u ostvarivanju veze sa detetom, kao i želja majke da povredi dete ili sebe, što je sve preduslov za [osećaj krivice](/blog/roditeljstvo/izazovi-roditeljstva-da-li-sam-dobar-roditelj/) koji majka ima zbog takvih misli i ponašanja.
 
 Neki od faktora rizika, koji povećavaju mogućnost za nastanak postporođajne depresije su svakako prethodne depresivne epizode tokom života, komplikacije tokom trudnoće, problemi u partnerskom odosu, kao i niži socioekonomski status; pored toga značajni faktori rizika su i mlađa dob trudnice, neplanirana i neželjena trudnoća.
 
@@ -49,7 +49,7 @@ Lečenje se uglavnom sastoji od adekvatne psihoterapije i eventualnog uzimanja a
 
 **Za mame i buduće mame**
 
-Postporođajni period prati čitav spektar različitih emocija. Osećanja ti mogu varirati od neopisive sreće, preko straha, tuge, anksioznosti, razdražljivosti i brige. Uvek imaj na umu da je svako od ovih osećanja potpuno u redu i nemoj bežati od njega. Sigurno ti se mnogo puta desilo da od sebi bliskih žena slušaš priče o prvom susretu sa bebom, tom trenutku čiste sreće kad sav bol zaboraviš. U realnosti se to ipak ne dešava svim mamama i to je sasvim normalno. U redu je da to ne osetiš, vreme povezivanja sa bebom ti tek predstoji, ne brini. Daj sebi vremena, [brini o sebi](/blog/roditeljstvo/izazovi-roditeljstva-da-li-sam-dobar-roditelj/) i dalje, beba jeste sada centar tvog univerzuma, ali nemoj da zaboraviš na sebe.
+Postporođajni period prati čitav spektar različitih emocija. Osećanja ti mogu varirati od neopisive sreće, preko straha, tuge, anksioznosti, razdražljivosti i brige. Uvek imaj na umu da je svako od ovih osećanja potpuno u redu i nemoj bežati od njega. Sigurno ti se mnogo puta desilo da od sebi bliskih žena slušaš priče o prvom susretu sa bebom, tom trenutku čiste sreće kad sav bol zaboraviš. U realnosti se to ipak ne dešava svim mamama i to je sasvim normalno. U redu je da to ne osetiš, vreme povezivanja sa bebom ti tek predstoji, ne brini. Daj sebi vremena, [brini o sebi](/blog/briga-o-sebi/sta-zapravo-znaci-briga-o-sebi/) i dalje, beba jeste sada centar tvog univerzuma, ali nemoj da zaboraviš na sebe.
 
 Ako nemaš dovoljno snage, vremena, umorna si ili se osećaš manje sigurno u preuzimanju majčinske uloge, i to je u redu. Potraži pomoć. Nije važno da li je to suprug, majka, drugarica ili neko drugi. Traženje pomoći nije znak slabosti niti toga da nisi dobra majka, naprotiv – to je znak da si dovoljno spremna da budeš dobra majka. Kada podeliš sa suprugom ili nekim drugim obaveze, imaćeš više vremena za sve vas i bićeš zadovoljnija. Odmaraj se, čitaj, prošetaj, idi na kafu sa drugaricom – radi bilo šta što te čini zadovoljnom.
 
