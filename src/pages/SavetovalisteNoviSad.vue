@@ -138,7 +138,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="bg-white">
+			<!-- <div class="bg-white">
 				<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
 					<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl text-center pb-10">Zavirite u naše prostorije</h2>
 					<div class="relative flex items-center justify-center h-96 overflow-hidden">
@@ -178,7 +178,7 @@
 						</video>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="overflow-hidden">
 				<div class="relative max-w-7xl mx-auto sm:py-32 px-4 sm:px-6 lg:px-8 pt-20">
