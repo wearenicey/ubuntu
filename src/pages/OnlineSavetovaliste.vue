@@ -330,7 +330,7 @@
 								<dd x-show="open" class="mt-2 pr-12" id="faq-0">
 									<p class="text-base text-gray-500">
 										Prvi i neophodni uslov za započinjanje procesa psihoterapije je <span class="font-bold">psihološka procena</span>. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir
-										najpodesnijeg stručnog saradnika za rad. Za ovaj susret je neophodno izdvojiti <span class="font-bold">2.000 RSD</span> donacije po osobi.
+										najpodesnijeg stručnog saradnika za rad. Za ovaj susret je neophodno odvojiti 3000 dinara u slučaju individualne, odnosno 5000 dinara u slučaju partnerske i porodične terapije.
 									</p>
 								</dd>
 							</div>
