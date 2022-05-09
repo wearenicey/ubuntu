@@ -296,7 +296,7 @@
 									</button>
 								</dt>
 								<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-									<p class="text-base text-gray-500">Za 60 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1.000 RSD</span>, kao donaciju za rad savetovališta.</p>
+									<p class="text-base text-gray-500">Za 50 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1.000 RSD</span>, kao donaciju za rad savetovališta.</p>
 								</dd>
 							</div>
 
@@ -314,7 +314,7 @@
 								<dd x-show="open" class="mt-2 pr-12" id="faq-0">
 									<p class="text-base text-gray-500">
 										Prvi i neophodni uslov za započinjanje procesa psihoterapije je <span class="font-bold">psihološka procena</span>. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir
-										najpodesnijeg stručnog saradnika za rad. Za ovaj susret je neophodno izdvojiti <span class="font-bold">2.000 RSD</span> donacije po osobi.
+										najpodesnijeg stručnog saradnika za rad. Za ovaj susret je neophodno odvojiti 3000 dinara u slučaju individualne, odnosno 5000 dinara u slučaju partnerske i porodične terapije.
 									</p>
 								</dd>
 							</div>
@@ -396,7 +396,7 @@
 									</button>
 								</dt>
 								<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-									<p class="text-base text-gray-500">Individualni susret traje <span class="font-bold">60 minuta</span>, dok partnerski i porodični susreti traju <span class="font-bold">90 minuta</span>.</p>
+									<p class="text-base text-gray-500">Individualni susret traje <span class="font-bold">50 minuta</span>, dok partnerski i porodični susreti traju <span class="font-bold">90 minuta</span>.</p>
 								</dd>
 							</div>
 
