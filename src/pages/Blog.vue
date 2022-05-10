@@ -3,8 +3,8 @@
 		<div>
 			<div class="relative max-w-7xl mx-auto px-6 mt-20 sm:px-0">
 				<div class="text-center">
-					<h1 class="text-3xl text-gray-800 sm:text-4xl">Ubuntu Blog</h1>
-					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Naši terapeuti pišu za vas</p>
+					<h1 class="text-3xl text-gray-800 sm:text-4xl">Blogovi o pshoterapiji, psihoanalizi i psihologiji</h1>
+					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Terapeuti pišu za vas</p>
 					<div class="mt-10"></div>
 				</div>
 				<div class="relative max-w-7xl mx-auto">
@@ -104,11 +104,11 @@ export default {
 	// meta deskripcija
 	metaInfo() {
 		return {
-			title: "Blog | Ubuntu Centar",
-			titleTemplate: "Blog | Ubuntu Centar",
+			title: "Blogovi o psihoterapiji | Ubuntu Centar",
+			titleTemplate: "Blogovi o psihoterapiji | Ubuntu Centar",
 
 			meta: [
-				{ name: "description", content: "Blogovi o psihoterapiji" },
+				{ name: "description", content: "Zanimljivi i jednostavni tekstovi o psihoterapiji, psihoanalizi, emocijama i međuljudskim odnosima." },
 
 				// {
 				// key:"og:image",
@@ -118,23 +118,23 @@ export default {
 				{
 					key: "og:title",
 					name: "og:title",
-					content: "Blog | Ubuntu Centar",
+					content: "Blogovi o psihoterapiji | Ubuntu Centar",
 				},
 
 				{
 					key: "og:description",
 					name: "og:description",
-					content: "Blogovi o psihoterapiji",
+					content: "Zanimljivi i jednostavni tekstovi o psihoterapiji, psihoanalizi, emocijama i međuljudskim odnosima.",
 				},
 				{
 					key: "twitter:title",
 					name: "twitter:title",
-					content: "Blog | Ubuntu Centar",
+					content: "Blogovi o psihoterapiji | Ubuntu Centar",
 				},
 				{
 					key: "twitter:description",
 					name: "twitter:description",
-					content: "Blogovi o psihoterapiji",
+					content: "Zanimljivi i jednostavni tekstovi o psihoterapiji, psihoanalizi, emocijama i međuljudskim odnosima.",
 				},
 				// {
 				// 	key:"twitter:image",
