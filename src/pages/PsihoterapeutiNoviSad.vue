@@ -21,29 +21,29 @@
 									<div class="flex items-center space-x-6 lg:space-x-8">
 										<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 											<div class="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-												<img src="/Ivana Davidovic.png" alt="" class="w-full h-full object-center object-cover" />
+												<img src="/Ivana Davidovic.png" alt="psihoterapeuti novi sad ivana davidović" class="w-full h-full object-center object-cover" />
 											</div>
 											<div class="w-44 h-64 rounded-lg overflow-hidden">
-												<img src="/Jovan Grubic.png" alt="" class="w-full h-full object-center object-cover" />
-											</div>
-										</div>
-										<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-											<div class="w-44 h-64 rounded-lg overflow-hidden">
-												<img src="/Nina Popov.png" alt="" class="w-full h-full object-center object-cover" />
-											</div>
-											<div class="w-44 h-64 rounded-lg overflow-hidden">
-												<img src="/Stefan Mitrovic Jokanovic.png" alt="" class="w-full h-full object-center object-cover" />
-											</div>
-											<div class="w-44 h-64 rounded-lg overflow-hidden">
-												<img src="/Irena Petrovic.png" alt="" class="w-full h-full object-center object-cover" />
+												<img src="/Jovan Grubic.png" alt="psihoterapeuti novi sad jovan grubić" class="w-full h-full object-center object-cover" />
 											</div>
 										</div>
 										<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 											<div class="w-44 h-64 rounded-lg overflow-hidden">
-												<img src="/Ivana Petrovic.png" alt="" class="w-full h-full object-center object-cover" />
+												<img src="/Nina Popov.png" alt="psihoterapeuti novi sad nina popov" class="w-full h-full object-center object-cover" />
 											</div>
 											<div class="w-44 h-64 rounded-lg overflow-hidden">
-												<img src="/Miljana Vorkapic.png" alt="" class="w-full h-full object-center object-cover" />
+												<img src="/Stefan Mitrovic Jokanovic.png" alt="psihoterapeuti novi sad stefan mitrović jokanović" class="w-full h-full object-center object-cover" />
+											</div>
+											<div class="w-44 h-64 rounded-lg overflow-hidden">
+												<img src="/Irena Petrovic.png" alt="psihoterapeuti novi sad irena petrović" class="w-full h-full object-center object-cover" />
+											</div>
+										</div>
+										<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+											<div class="w-44 h-64 rounded-lg overflow-hidden">
+												<img src="/Ivana Petrovic.png" alt="psihoterapeuti novi sad ivana petrović" class="w-full h-full object-center object-cover" />
+											</div>
+											<div class="w-44 h-64 rounded-lg overflow-hidden">
+												<img src="/Miljana Vorkapic.png" alt="psihoterapeuti novi sad miljana vorkapić" class="w-full h-full object-center object-cover" />
 											</div>
 										</div>
 									</div>
@@ -569,63 +569,73 @@ const people = [
 		role: "Transakciona analiza i Telesna psihoterapija",
 		imageUrl: "Stefan Mitrovic Jokanovic.png",
 		bio: "Kreativni psihoterapeut preduzetničkog duha. Za mene je psihoterapija životni poziv, a ne profesija! Verujem da je jedini ispravan pristup psihoterapiji - holistički pristup. Uvažavanje uma, emocija, tela, duhovnosti i društvenih faktora.",
-	},
+		alt: "psihoterapeut novi sad stefan mitrović jokanović",
+},
 	{
 		name: "Miljana Vorkapić",
 		role: "Integrativna psihoanaliza i Sistemska porodična psihoterapija",
 		imageUrl: "Miljana Vorkapic.png",
 		bio: "Stvarnost je sačinjena od mnoštva individualnih istina. Možda ne možemo da utičemo na druge, njihovo ponašanje ili okolnosti ali, uz pomoć psihoterapije, možemo da naučimo da biramo način na koji ćemo posmatrati svet koji nas okružuje.",
+		alt: "psihoterapeut novi sad miljana vorkapić",
 	},
 	{
 		name: "Aleksandra Bajić",
 		role: "Relaciona transakciona analiza",
 		imageUrl: "Aleksandra Bajic.png",
 		bio: "Osnov rada je odnos koji čine poštovanje, prihvatanje i toplina. To je korak ka promeni, pomeranju granica i širenju kapaciteta. Psihoterapeut pomaže klijentu da razume svoje misli, ponašanja i osećanja, a bez zajedničkog rada nema promene.",
+		alt: "psihoterapeut novi sad aleksandra bajić",
 	},
 	{
 		name: "Aleksandra Biberdžić",
 		role: "Transakciona analiza",
 		imageUrl: "Aleksandra Biberdzic.png",
 		bio: "Na terapiji se sa klijentima posvetim trenutku sada i ovde. Vodimo računa o procesu terapije i dolazimo u dodir sa najraniji iskustvima, dobijamo uvide o sebi i učimo da prigrlimo i negujemo svoje unutrašnje dete.",
+		alt: "psihoterapeut novi sad aleksandra biberdžić",
 	},
 	{
 		name: "Irena Petrović",
 		role: "Transakciona analiza",
 		imageUrl: "Irena Petrovic.png",
 		bio: "Moj pristup radu je kreiranje odnosa gde i klijent i terapeut mogu da budu ono što jesu. Kada napravimo prostor gde smo sigurni i prihvaćeni i gde možemo da izrazimo sebe, verujem da možemo doći do promene koja nam je svima nekad potrebna.",
+		alt: "psihoterapeut novi sad iena petrović",
 	},
 	{
 		name: "Ivana Davidovć",
 		role: "Transakciona analiza",
 		imageUrl: "Ivana Davidovic.png",
 		bio: "U svom savetodavnom radu najčešće se bavim temama vezanim za stres na radu, nisko samopouzdanje, anksioznost i porodične relacije.",
+		alt: "psihoterapeut novi sad ivana davidović",
 	},
 	{
 		name: "Ivana Petrović",
 		role: "Transakciono-integrativna analiza",
 		imageUrl: "Ivana Petrovic.png",
 		bio: "Svakome je potreban neko ko će ga čuti i onda kada ćuti. Ko će ga videti onakvim kakav jeste i koračati zajedno. Ljudima pristupam otvoreno i bez prosuđivanja. Verujem u čoveka i smatram da svi imamo snagu za promenu i potencijal za rast.",
+		alt: "psihoterapeut novi sad ivana petrović",
 	},
 	{
 		name: "Ivana Zeljković",
 		role: "Transakciona analiza",
 		imageUrl: "Ivana Zeljkovic.png",
 		bio: "Psihoterapija ne menja osobu već način na koji gledamo na događaje i situacije, ljude i međuljudske odnose. Mentalno zdravlje je važno kao i fizičko. Shodno tome, smatram da je rad na sebi pravi put ka kvalitetnijem i ispunjenijem životu.",
-	},
+		alt: "psihoterapeut novi sad ivana zeljković",
+},
 
 	{
 		name: "Jovan Grubić",
 		role: "Transakciona analiza",
 		imageUrl: "Jovan Grubic.png",
 		bio: "Na terapiji prihvatamo nesigurnost života, pridajemo mu smisao i odbacujemo svoj nesvesni životni scenario - skript. To radimo kroz relaciju i logos, odnos leči a logos haosu daje harmoniju. ",
-	},
+		alt: "psihoterapeut novi sad jovan grubić",
+},
 
 	{
 		name: "Nina Popov",
 		role: "Transakciona analiza",
 		imageUrl: "Nina Popov.png",
 		bio: "Otkrivaćeš sebe, razvijati se i učiti kako da umesto utabanih puteva koji nose višak patnje, gradiš i biraš nove koji vode boljem funkcionisanju i ispunjenijem životu.",
-	},
+		alt: "psihoterapeut novi sad nina popov",
+},
 ];
 
 export default {
