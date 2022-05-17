@@ -2,9 +2,9 @@
 	<transition name="fade" appear>
 		<div>
 			<Header />
-			
+
 			<slot></slot>
-			<Footer />
+			<FooterLanding />
 			<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">
 				<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-lg text-base font-bold text-green-600 bg-white">
 					<svg class="icon" viewBox="0 0 16 16">
@@ -26,13 +26,13 @@ query {
 </static-query>
 
 <script>
+import FooterLanding from "../components/FooterLanding.vue";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 export default {
 	components: {
 		Header,
-		Footer,
+		FooterLanding,
 	},
 };
 </script>

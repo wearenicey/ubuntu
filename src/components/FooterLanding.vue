@@ -2,8 +2,8 @@
 	<footer class="bg-white" aria-labelledby="footer-heading">
 		<!-- <h2 id="footer-heading" class="sr-only">Footer</h2> -->
 		<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-			<div class="xl:grid xl:grid-cols-3 xl:gap-8">
-				<div class="space-y-8 xl:col-span-1">
+			<div class="xl:grid xl:grid-cols-2 xl:gap-8">
+				<div class="space-y-8">
 					<img class="" src="/logo.svg" alt="Company name" />
 					<p class="text-gray-500 text-base">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi.</p>
 					<div class="flex space-x-6">
@@ -18,7 +18,7 @@
 							</svg>
 						</a>
 
-						<a  href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
+						<a href="https://www.instagram.com/ubuntu_centar/?hl=en" class="text-gray-400 hover:text-gray-500">
 							<span class="sr-only">Instagram</span>
 							<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 								<path
@@ -28,7 +28,7 @@
 								/>
 							</svg>
 						</a>
-						<a  class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
+						<a class="text-gray-400 hover:text-gray-500" href="https://www.linkedin.com/company/ubuntu-centar/" target="_blank">
 							<span class="sr-only">Linkedin</span>
 							<svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 								<path
@@ -38,64 +38,33 @@
 						</a>
 					</div>
 				</div>
-				<div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
+				<div class="mt-12 grid gap-8 xl:mt-0">
 					<div class="md:grid md:grid-cols-2 md:gap-8">
 						<div>
-							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Naše lokacije</h3>
+							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Psihoterapija</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
-									<g-link  to="/savetovaliste-novi-sad/" class="text-base text-gray-500 hover:text-gray-900"> Novi Sad </g-link>
+									<g-link to="/savetovaliste-novi-sad/" class="text-base text-gray-500 hover:text-gray-900">Psihoterapija Novi Sad </g-link>
 								</li>
 
 								<li>
-									<g-link  to="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900"> Beograd </g-link>
+									<g-link to="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900">Psihoterapija Beograd </g-link>
 								</li>
 
 								<li>
-									<g-link to="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online </g-link>
+									<g-link to="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online psihoterapija </g-link>
 								</li>
 							</ul>
 						</div>
 						<div class="mt-12 md:mt-0">
-							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">O nama</h3>
+							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Savetovalište</h3>
 							<ul role="list" class="mt-4 space-y-4">
 								<li>
 									<g-link to="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> Zašto Ubuntu </g-link>
 								</li>
 
 								<li>
-									<g-link  to="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera </g-link>
-								</li>
-
-							</ul>
-						</div>
-					</div>
-					<div class="md:grid md:grid-cols-2 md:gap-8">
-						<div>
-							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Blog</h3>
-							<ul role="list" class="mt-4 space-y-4">
-								<li>
-									<g-link  to="/blog/stres/" class="text-base text-gray-500 hover:text-gray-900">Stres</g-link>
-								</li>
-
-								<li>
-									<g-link to="/blog/anksioznost-i-anksiozni-poremecaji/" class="text-base text-gray-500 hover:text-gray-900"> Anksioznost </g-link>
-								</li>
-
-								<li>
-									<g-link  to="/blog/psihoterapija/" class="text-base text-gray-500 hover:text-gray-900"> Psihoterapija</g-link>
-								</li>
-							</ul>
-						</div>
-						<div class="mt-12 md:mt-0">
-							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Info</h3>
-							<ul role="list" class="mt-4 space-y-4">
-								<li>
-									<g-link to="/donacije/" class="text-base text-gray-500 hover:text-gray-900"> Donacije </g-link>
-								</li>
-
-								<li>
-									<g-link to="/kontakt/" class="text-base text-gray-500 hover:text-gray-900"> Kontakt </g-link>
+									<g-link to="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera psihoterapeuta </g-link>
 								</li>
 							</ul>
 						</div>
