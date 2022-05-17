@@ -1,20 +1,21 @@
 <template>
-	<transition name="fade" appear>
-		<div>
-			<Header />
-
-			<slot></slot>
-			<FooterLanding />
-			<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">
-				<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-lg text-base font-bold text-green-600 bg-white">
-					<svg class="icon" viewBox="0 0 16 16">
-						<title>Go to top of page</title>
-						<g stroke-width="1" stroke="currentColor"><polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline></g>
-					</svg>
-				</button>
-			</back-to-top>
-		</div>
-	</transition>
+	<div>
+		<Header />
+		<transition name="fade" appear>
+			<main>
+				<slot></slot>
+			</main>
+		</transition>
+		<FooterLanding />
+		<back-to-top bottom="50px" right="50px" style="position: fixed; z-index: 99">
+			<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-lg text-base font-bold text-green-600 bg-white">
+				<svg class="icon" viewBox="0 0 16 16">
+					<title>Go to top of page</title>
+					<g stroke-width="1" stroke="currentColor"><polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline></g>
+				</svg>
+			</button>
+		</back-to-top>
+	</div>
 </template>
 
 <static-query>
