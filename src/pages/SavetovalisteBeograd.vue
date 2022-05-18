@@ -119,83 +119,83 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="bg-white">
-				<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
-					<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl text-center pb-10">Zavirite u naše prostorije</h2>
-					<div class="relative flex items-center justify-center h-96 overflow-hidden">
-						<div class="absolute right-0 m-10 bottom-0 z-30">
-							<div class="p-6 w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-								<a href="#">
-									<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beograd</h5>
-								</a>
-								<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Maršala Birjuzova 1</p>
-								<a
-									href="#"
-									class="
-										inline-flex
-										items-center
-										py-2
-										px-3
-										text-sm
-										font-medium
-										text-center text-white
-										bg-green-600
-										rounded-lg
-										hover:bg-green-800
-										focus:ring-4 focus:outline-none focus:ring-green-300
-										dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
-									"
-								>
-									Pogledaj video turu
-									<svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-										<path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-									</svg>
-								</a>
-							</div>
+		<div class="bg-white">
+			<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
+				<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl text-center pb-10">Zavirite u naše prostorije</h2>
+				<div class="relative flex items-center justify-center h-96 overflow-hidden">
+					<div class="absolute right-0 m-10 bottom-0 z-30">
+						<div class="p-6 w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+							<a href="https://www.youtube.com/watch?v=HoFTpm1VOhE">
+								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beograd</h5>
+							</a>
+							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Maršala Birjuzova 1</p>
+							<a
+								href="https://www.youtube.com/watch?v=HoFTpm1VOhE"
+								class="
+									inline-flex
+									items-center
+									py-2
+									px-3
+									text-sm
+									font-medium
+									text-center text-white
+									bg-green-600
+									rounded-lg
+									hover:bg-green-800
+									focus:ring-4 focus:outline-none focus:ring-green-300
+									dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+								"
+							>
+								Pogledaj video turu
+								<svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+								</svg>
+							</a>
 						</div>
-						<video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-							<source src="/video.mp4" type="video/mp4" />
-							Your browser does not support the video tag.
-						</video>
 					</div>
-					<div class="relative flex items-center justify-center h-96 overflow-hidden mt-10">
-						<div class="absolute right-0 m-10 bottom-0 z-30">
-							<div class="p-6 w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-								<a href="#">
-									<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beograd</h5>
-								</a>
-								<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Narodnih Heroja 7/11</p>
-								<a
-									href="#"
-									class="
-										inline-flex
-										items-center
-										py-2
-										px-3
-										text-sm
-										font-medium
-										text-center text-white
-										bg-green-600
-										rounded-lg
-										hover:bg-green-800
-										focus:ring-4 focus:outline-none focus:ring-green-300
-										dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
-									"
-								>
-									Pogledaj video turu
-									<svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-										<path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-									</svg>
-								</a>
-							</div>
-						</div>
-						<video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-							<source src="/video.mp4" type="video/mp4" />
-							Your browser does not support the video tag.
-						</video>
-					</div>
+					<video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
+						<source src="/beograd.mp4" type="video/mp4" />
+						Your browser does not support the video tag.
+					</video>
 				</div>
-			</div> -->
+				<div class="relative flex items-center justify-center h-96 overflow-hidden mt-10">
+					<div class="absolute right-0 m-10 bottom-0 z-30">
+						<div class="p-6 w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+							<a href="https://www.youtube.com/watch?v=_zrz_BEIX5w">
+								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Novi Beograd</h5>
+							</a>
+							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Narodnih Heroja 7/11</p>
+							<a
+								href="https://www.youtube.com/watch?v=_zrz_BEIX5w"
+								class="
+									inline-flex
+									items-center
+									py-2
+									px-3
+									text-sm
+									font-medium
+									text-center text-white
+									bg-green-600
+									rounded-lg
+									hover:bg-green-800
+									focus:ring-4 focus:outline-none focus:ring-green-300
+									dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+								"
+							>
+								Pogledaj video turu
+								<svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
+						<source src="/novi-beograd.mp4" type="video/mp4" />
+						Your browser does not support the video tag.
+					</video>
+				</div>
+			</div>
+		</div>
 
 		<div class="overflow-hidden">
 			<div class="relative max-w-7xl mx-auto sm:py-32 px-4 sm:px-6 lg:px-8 pt-20">
