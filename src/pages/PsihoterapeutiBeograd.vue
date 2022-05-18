@@ -66,7 +66,7 @@
 						<li v-for="person in people" :key="person.name">
 							<div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
 								<div class="h-0 aspect-w-3 aspect-h-3 sm:aspect-w-3 sm:aspect-h-4">
-									<g-image class="object-cover shadow-lg rounded-lg" :src="require(`!!assets-loader!@img/${person.imageUrl}`)" alt=""/>
+									<g-image class="object-cover shadow-lg rounded-lg" :src="require(`!!assets-loader!@img/${person.imageUrl}`)" :alt="person.alt" />
 								</div>
 								<div class="sm:col-span-2">
 									<div class="space-y-4">
@@ -365,7 +365,9 @@
 										<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 									</svg>
 									<span class="ml-3"
-										><a href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396" target="_blank"
+										><a
+											href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396"
+											target="_blank"
 											>Džordža Vašingtona 15</a
 										>
 									</span>
@@ -622,14 +624,14 @@ const people = [
 		imageUrl: "Nebojsa Ratkovic.jpg",
 		bio: "Smatram da mnogi periodi u životu donose različite izazove s kojima moramo da se suočavamo. Ja želim da Vas ohrabrim i podstaknem u rešavanju problema, a time što čitate ovo, već ste učinili prvi korak i ja Vam čestitam na hrabrosti!",
 		alt: "psihoterapeut beograd nebojša ratković",
-},
+	},
 	{
 		name: "Isidora Zekavica",
 		role: "Transakciona analiza",
 		imageUrl: "Isidora Zekavica.jpg",
 		bio: "Psihoterapiju definišem kao pažljivu spregu prihvatanja onoga što suštinski osoba jeste i promene onoga što je sprečava da to bude. Smatram da je osnov za promenu razvoj kvalitetnog i podržavajućeg psihoterapijskog odnosa.",
 		alt: "psihoterapeut beograd isidora zekavica",
-},
+	},
 	{
 		name: "Stevan Stevanović",
 		role: "Geštalt",
@@ -642,7 +644,7 @@ const people = [
 		role: "Transakciona analiza",
 		imageUrl: "Bogdan Markovic.jpg",
 		bio: "Poseban akcenat stavljam na terapijski odnos u kome s klijentima kreiram prostor za istraživanje, empatsko usklađivanje, samoprihvatanje, osvešćivanje telesnih procesa, iscenjenje trauma i povezivanje s autentičnim relacionim potrebama.",
-		alt: "psihoterapeut beograd bogdan marković",	
+		alt: "psihoterapeut beograd bogdan marković",
 	},
 	{
 		name: "Milena Šekularac",
@@ -671,14 +673,14 @@ const people = [
 		imageUrl: "Nikolina Dobras.jpg",
 		bio: "Ukoliko želite podršku za rešavanje emocionalnog ili praktičnog problema ili pak želite poboljšanje kvaliteta života kroz rad na ličnom radu i razvoju, na pravom ste mestu!",
 		alt: "psihoterapeut beograd nikolna dobraš",
-},
+	},
 	{
 		name: "Tanja Adamović Davies",
 		role: "Psihodrama",
 		imageUrl: "Tanja Adamovic Davies.jpg",
 		bio: "U svom pristupu integrišem psihodramsku psihoterapiju s elementima drugih humanističkih pravaca. Smatram da je odnos između klijenta i terapeuta dragocen i zato mu u radu posvećujem posebnu pažnju.",
 		alt: "psihoterapeut beograd tanja adamović davies",
-},
+	},
 	{
 		name: "Aleksandra Ristić",
 		role: "Psihologija ličnih konstrukata",
@@ -706,7 +708,7 @@ const people = [
 		imageUrl: "Milica Andjelkovic.jpg",
 		bio: "Hajde da upoznamo sebe i saznamo više nego što smo znali pre. Da stavimo naočare sa pravom dioptrijom i da jasno vidimo putokaze. Da najbolje što možemo iskoristimo dostupne resurse!",
 		alt: "psihoterapeut beograd milica anđelković",
-},
+	},
 	{
 		name: "Tanja Rakita",
 		role: "Konstruktivistička psihoterapija",
@@ -741,7 +743,7 @@ const people = [
 		imageUrl: "Natalija Ignjatovic.jpg",
 		bio: "U radu s pojedincima, parovima i porodicama težim da razumem lične priče – način sagledavanja sveta i funkcionisanja s drugima. Verujem da promena nastaje u prihvatajućem terapijskom odnosu, kroz otvaranje novih, drugačijih perspektiva.",
 		alt: "psihoterapeut beograd natalija ignjatović",
-},
+	},
 	{
 		name: "Jovana Bojović Đokić",
 		role: "Transakciona analiza",
@@ -762,18 +764,18 @@ const people = [
 		imageUrl: "Ivona Scepanovic.jpg",
 		bio: "Psihoterapija ne podrazumeva promenu svega onog što jesmo, naprotiv, podrazumeva prihvatanje i pružanje podrške sebi tamo gde je izostala, negu, samoljubav i postepenu promenu onog što mi sami želimo da menjamo u meri u kojoj nam odgovara.",
 		alt: "psihoterapeut beograd ivona šćepanović",
-},
+	},
 	{
 		name: "Zorana Stracenski",
 		role: "Transakciona analiza",
 		imageUrl: "Zorana Stracenski.jpg",
 		bio: "Zdravo! Moje ime je Zorana, master sam psiholog i psihoterapeut pod supervizijom. Verujem da svako od nas ima pravo ali i sposobnost da živi svoj život onako kako istinski želi. Ukoliko želiš da na tome radimo zajedno, tu sam.",
 		alt: "psihoterapeut beograd zorana stracenski",
-},
+	},
 ];
 
 export default {
-		// meta deskripcija
+	// meta deskripcija
 	metaInfo: {
 		title: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
 		titleTemplate: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
@@ -860,7 +862,7 @@ export default {
 	},
 	methods: {
 		encode(data) {
-		//javascript objekat se pretvara u string radi dalje obrade
+			//javascript objekat se pretvara u string radi dalje obrade
 			return Object.keys(data)
 				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 				.join("&");
@@ -870,7 +872,7 @@ export default {
 		submit(e) {
 			console.log("submit!");
 			this.$v.$touch();
-			// neispravno popunjena forma dobijanje greske 
+			// neispravno popunjena forma dobijanje greske
 
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";

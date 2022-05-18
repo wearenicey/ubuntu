@@ -63,7 +63,7 @@
 						<li v-for="person in people" :key="person.name">
 							<div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
 								<div class="h-0 aspect-w-3 aspect-h-3 sm:aspect-w-3 sm:aspect-h-4">
-									<g-image class="object-cover shadow-lg rounded-lg" :src="require(`!!assets-loader!@img/${person.imageUrl}`)" alt="" />
+									<g-image class="object-cover shadow-lg rounded-lg" :src="require(`!!assets-loader!@img/${person.imageUrl}`)" :alt="person.alt" />
 								</div>
 								<div class="sm:col-span-2">
 									<div class="space-y-4">
