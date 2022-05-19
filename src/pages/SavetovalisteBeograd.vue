@@ -126,7 +126,7 @@
 					<div class="absolute right-0 m-4 lg:m-10 bottom-0 z-30">
 						<div class="p-6 lg:w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
 							<a href="https://www.youtube.com/watch?v=HoFTpm1VOhE">
-								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beograd</h5>
+								<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beograd</h3>
 							</a>
 							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Maršala Birjuzova 1</p>
 							<a
@@ -162,7 +162,7 @@
 					<div class="absolute right-0 m-4 lg:m-10 bottom-0 z-30">
 						<div class="p-6 lg:w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
 							<a href="https://www.youtube.com/watch?v=_zrz_BEIX5w" target="_blank">
-								<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Novi Beograd</h5>
+								<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Novi Beograd</h3>
 							</a>
 							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Narodnih Heroja 7/11</p>
 							<a
@@ -199,7 +199,7 @@
 		</div>
 
 		<div class="overflow-hidden">
-			<div class="relative max-w-7xl mx-auto sm:py-32 px-4 sm:px-6 lg:px-8 pt-20">
+			<div class="relative max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
 				<div class="text-left md:text-center mb-12">
 					<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl">Psihoterapija u Beogradu dostupna svima</h2>
 				</div>
