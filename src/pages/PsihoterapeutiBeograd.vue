@@ -60,7 +60,7 @@
 		<div class="bg-white">
 			<div class="mx-auto py-12 px-6 sm:px-10 max-w-7xl sm:px-6 lg:px-8 lg:py-32">
 				<div class="space-y-12 md:space-y-24">
-					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute terapeute</h2>
+					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute</h2>
 
 					<ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 						<li v-for="person in people" :key="person.name">
@@ -777,12 +777,12 @@ const people = [
 export default {
 	// meta deskripcija
 	metaInfo: {
-		title: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
-		titleTemplate: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
+		title: "Psihoterapeut Beograd | :telephone_receiver: Nazovi za konsultaciju",
+		titleTemplate: "Psihoterapeut Beograd | :telephone_receiver: Nazovi za konsultaciju",
 		meta: [
 			{
 				name: "title",
-				content: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
+				content: "Psihoterapeut Beograd | :telephone_receiver: Nazovi za konsultaciju",
 			},
 			{
 				name: "description",
@@ -791,7 +791,7 @@ export default {
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Psihoterapeuti Beograd | Savetovalište Ubuntu",
+				content: "Psihoterapeut Beograd | :telephone_receiver: Nazovi za konsultaciju",
 			},
 
 			{

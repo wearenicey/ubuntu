@@ -570,7 +570,7 @@ const people = [
 		imageUrl: "Stefan Mitrovic Jokanovic.png",
 		bio: "Kreativni psihoterapeut preduzetničkog duha. Za mene je psihoterapija životni poziv, a ne profesija! Verujem da je jedini ispravan pristup psihoterapiji - holistički pristup. Uvažavanje uma, emocija, tela, duhovnosti i društvenih faktora.",
 		alt: "psihoterapeut novi sad stefan mitrović jokanović",
-},
+	},
 	{
 		name: "Miljana Vorkapić",
 		role: "Integrativna psihoanaliza i Sistemska porodična psihoterapija",
@@ -619,7 +619,7 @@ const people = [
 		imageUrl: "Ivana Zeljkovic.png",
 		bio: "Psihoterapija ne menja osobu već način na koji gledamo na događaje i situacije, ljude i međuljudske odnose. Mentalno zdravlje je važno kao i fizičko. Shodno tome, smatram da je rad na sebi pravi put ka kvalitetnijem i ispunjenijem životu.",
 		alt: "psihoterapeut novi sad ivana zeljković",
-},
+	},
 
 	{
 		name: "Jovan Grubić",
@@ -627,7 +627,7 @@ const people = [
 		imageUrl: "Jovan Grubic.png",
 		bio: "Na terapiji prihvatamo nesigurnost života, pridajemo mu smisao i odbacujemo svoj nesvesni životni scenario - skript. To radimo kroz relaciju i logos, odnos leči a logos haosu daje harmoniju. ",
 		alt: "psihoterapeut novi sad jovan grubić",
-},
+	},
 
 	{
 		name: "Nina Popov",
@@ -635,18 +635,18 @@ const people = [
 		imageUrl: "Nina Popov.png",
 		bio: "Otkrivaćeš sebe, razvijati se i učiti kako da umesto utabanih puteva koji nose višak patnje, gradiš i biraš nove koji vode boljem funkcionisanju i ispunjenijem životu.",
 		alt: "psihoterapeut novi sad nina popov",
-},
+	},
 ];
 
 export default {
 	// meta deskripcija
 	metaInfo: {
-		title: "Psihoterapeuti Novi Sad | Savetovalište Ubuntu",
-		titleTemplate: "Psihoterapeuti Novi Sad | Savetovalište Ubuntu",
+		title: "Psihoterapeut Novi Sad | :telephone_receiver: Nazovi za konsultaciju",
+		titleTemplate: "Psihoterapeut Novi Sad | :telephone_receiver: Nazovi za konsultaciju",
 		meta: [
 			{
 				name: "title",
-				content: "Psihoterapeuti Novi Sad | Savetovalište Ubuntu",
+				content: "Psihoterapeut Novi Sad | :telephone_receiver: Nazovi za konsultaciju",
 			},
 			{
 				name: "description",
@@ -655,7 +655,7 @@ export default {
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Psihoterapeuti Novi Sad | Savetovalište Ubuntu",
+				content: "Psihoterapeut Novi Sad | :telephone_receiver: Nazovi za konsultaciju",
 			},
 
 			{
