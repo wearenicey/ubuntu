@@ -777,12 +777,12 @@ const people = [
 export default {
 	// meta deskripcija
 	metaInfo: {
-		title: "Psihoterapeut Beograd | :telephone_receiver: Nazovi za konsultaciju",
-		titleTemplate: "Psihoterapeut Beograd | :telephone_receiver: Nazovi za konsultaciju",
+		title: "Psihoterapeut Beograd | 📞 Nazovi za konsultaciju",
+		titleTemplate: "Psihoterapeut Beograd | 📞 Nazovi za konsultaciju",
 		meta: [
 			{
 				name: "title",
-				content: "Psihoterapeut Beograd | :telephone_receiver: Nazovi za konsultaciju",
+				content: "Psihoterapeut Beograd | 📞 Nazovi za konsultaciju",
 			},
 			{
 				name: "description",
@@ -791,7 +791,7 @@ export default {
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Psihoterapeut Beograd | :telephone_receiver: Nazovi za konsultaciju",
+				content: "Psihoterapeut Beograd | 📞 Nazovi za konsultaciju",
 			},
 
 			{

@@ -641,12 +641,12 @@ const people = [
 export default {
 	// meta deskripcija
 	metaInfo: {
-		title: "Psihoterapeut Novi Sad | :telephone_receiver: Nazovi za konsultaciju",
-		titleTemplate: "Psihoterapeut Novi Sad | :telephone_receiver: Nazovi za konsultaciju",
+		title: "Psihoterapeut Novi Sad | 📞 Nazovi za konsultaciju",
+		titleTemplate: "Psihoterapeut Novi Sad | 📞 Nazovi za konsultaciju",
 		meta: [
 			{
 				name: "title",
-				content: "Psihoterapeut Novi Sad | :telephone_receiver: Nazovi za konsultaciju",
+				content: "Psihoterapeut Novi Sad | 📞 Nazovi za konsultaciju",
 			},
 			{
 				name: "description",
@@ -655,7 +655,7 @@ export default {
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Psihoterapeut Novi Sad | :telephone_receiver: Nazovi za konsultaciju",
+				content: "Psihoterapeut Novi Sad | 📞 Nazovi za konsultaciju",
 			},
 
 			{
