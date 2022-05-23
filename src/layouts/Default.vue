@@ -15,6 +15,9 @@
 				</svg>
 			</button>
 		</back-to-top>
+		<div style="position: fixed; z-index: 99; right: 24px; bottom: 24px">
+			<a class="color-red" href="https://wa.me/381653899700" target="_blank"><img src="/wa.png" alt="" srcset="" /></a>
+		</div>
 	</div>
 </template>
 
