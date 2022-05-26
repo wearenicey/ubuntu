@@ -10,7 +10,6 @@
 				</button>
 			</div>
 
-			<!-- modal -->
 			<div class="modal" v-if="showModal">
 				<video controls>
 					<source src="/video-pocetna.mp4" type="video/mp4" />
@@ -503,8 +502,8 @@ export default {
 	//definisane komponente untar stranice
 
 	data() {
-		//povratni novi objekti
 
+		//povratni novi objekti
 		return {
 			formData: {
 				email: "",
@@ -524,24 +523,25 @@ export default {
 		},
 	},
 	methods: {
+
 		//javascript objekat se pretvara u string radi dalje obrade
 		encode(data) {
 			return Object.keys(data)
 				.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 				.join("&");
 		},
-		// slanje poruke
 
+		// slanje poruke
 		submit(e) {
 			console.log("submit!");
 			this.$v.$touch();
-			// neispravno popunjena forma dobijanje greske
 
+			// neispravno popunjena forma dobijanje greske
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
-				// skupljeni podaci se salju  POST metodom
 
+				// skupljeni podaci se salju  POST metodom
 				fetch("/", {
 					method: "POST",
 					headers: {
@@ -552,8 +552,8 @@ export default {
 						...this.formData,
 					}),
 				})
-					// dobijanje odgovora sa servera
 
+					// dobijanje odgovora sa servera
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),
 
@@ -564,8 +564,8 @@ export default {
 					.catch((error) => alert(error));
 			}
 		},
-		//funkcija click za scrollovanje do elementa
 
+		//funkcija click za scrollovanje do elementa
 		onClickTwo() {
 			let element = document.getElementById("scroll");
 			element.scrollIntoView({

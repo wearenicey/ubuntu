@@ -248,7 +248,7 @@
 						<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover" />
 					</div>
 					<div class="relative lg:col-span-1">
-						<h2 class="text-2xl font-medium sm:text-2xl text-white">Iskustvo</h2>
+						<h2 class="text-2xl font-medium sm:text-2xl text-white">Preporuka</h2>
 						<blockquote class="mt-6 text-white">
 							<p class="text-xl font-medium sm:text-2xl">
 								Mesto koje otvara mogućnost toplog ali snažnog transformisanja sebe, uz puno razumevanja i terapeutovog prihvatanja. Volela bih da sam se na ovo putovanje sa divnom Ninom odlučila ranije.

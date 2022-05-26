@@ -17,7 +17,6 @@
 						</div>
 						<div>
 							<div class="mt-10 md:block hidden">
-								<!-- Decorative image grid -->
 								<div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full">
 									<div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
 										<div class="flex items-center space-x-6 lg:space-x-8">
