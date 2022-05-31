@@ -7,7 +7,7 @@
 			</main>
 		</transition>
 		<FooterLanding />
-		<back-to-top bottom="24px" left="24px" style="position: fixed; z-index: 99; left:24px">
+		<back-to-top style="position: fixed; z-index: 99; bottom: 24px; right: 24px;">
 			<button type="button" class="btn btn-info btn-to-top border border-transparent rounded-md shadow-lg text-base font-bold text-green-600 bg-white">
 				<svg class="icon" viewBox="0 0 16 16">
 					<title>Go to top of page</title>
