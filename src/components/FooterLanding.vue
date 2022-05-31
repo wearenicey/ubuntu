@@ -2,11 +2,11 @@
 	<footer class="bg-white" aria-labelledby="footer-heading">
 		<!-- <h2 id="footer-heading" class="sr-only">Footer</h2> -->
 		<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-			<div class="xl:grid xl:grid-cols-2 xl:gap-8">
+			<div class="xl:grid xl:gap-8 justify-center">
 				<div class="space-y-8">
-					<img class="" src="/logo.svg" alt="Company name" />
-					<p class="text-gray-500 text-base">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi.</p>
-					<div class="flex space-x-6">
+					<img class="mx-auto" src="/logo.svg" alt="Ubuntu Centar" />
+					<p class="text-gray-500 text-base text-center">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi.</p>
+					<div class="flex space-x-6 justify-center">
 						<a href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">
 							<span class="sr-only">Facebook</span>
 							<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -36,38 +36,6 @@
 								/>
 							</svg>
 						</a>
-					</div>
-				</div>
-				<div class="mt-12 grid gap-8 xl:mt-0">
-					<div class="md:grid md:grid-cols-2 md:gap-8">
-						<div>
-							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Psihoterapija</h3>
-							<ul role="list" class="mt-4 space-y-4">
-								<li>
-									<g-link to="/savetovaliste-novi-sad/" class="text-base text-gray-500 hover:text-gray-900">Psihoterapija Novi Sad </g-link>
-								</li>
-
-								<li>
-									<g-link to="/savetovaliste-beograd/" class="text-base text-gray-500 hover:text-gray-900">Psihoterapija Beograd </g-link>
-								</li>
-
-								<li>
-									<g-link to="/online-savetovaliste/" class="text-base text-gray-500 hover:text-gray-900"> Online psihoterapija </g-link>
-								</li>
-							</ul>
-						</div>
-						<div class="mt-12 md:mt-0">
-							<h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Savetovalište</h3>
-							<ul role="list" class="mt-4 space-y-4">
-								<li>
-									<g-link to="/zasto-ubuntu/" class="text-base text-gray-500 hover:text-gray-900"> Zašto Ubuntu </g-link>
-								</li>
-
-								<li>
-									<g-link to="/karijera/" class="text-base text-gray-500 hover:text-gray-900"> Karijera psihoterapeuta </g-link>
-								</li>
-							</ul>
-						</div>
 					</div>
 				</div>
 			</div>
