@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: karpmanov-dramski trougao
 name: Aloo
-metaDesc: "ABC modelovanje je psihoterpijski pristup koji klijentu pomaže da uoči da njegovo stanje posledica uverenja ili naše interpretacije neke situacije."
+metaDesc: "Karmanov dramski trougao je psihoterpijski pristup koji klijentu pomaže da uoči da njegovo stanje posledica uloge u određenoj situaciji. Kako to prepoznati i kako se ponašati."
 ---
 
 
