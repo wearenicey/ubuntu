@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: zasto-su-anksiozni-i-panicni-napadi-sve-cesci-kod-mladih
 name: Aloo
-metaDesc: "Članak koji opisuje na napade panike. Pruža korisne informacije o uzrocima kako pacijentima, tako i profesionalcima na polju psihijatrije."
+metaDesc: "Ovaj članak istražuje pitanje anksioznosti i napada panike među mladim ljudima, kako se prepoznaju, njihove uzroke, prevenciju i moguće tretmane."
 ---
 
 *Na uzorku od 1021 mladih osoba, više od dve trećine ispitanika – 68,5 odsto ima anksioznost i
