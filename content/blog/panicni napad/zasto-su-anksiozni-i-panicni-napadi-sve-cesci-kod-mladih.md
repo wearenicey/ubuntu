@@ -4,10 +4,10 @@ category: panicni-napadi
 # ovo je i meta desc
 excerpt: Mladi su danas kako, zbog pandemije Covid 19, tako i zbog stila života, društvenih mreža, povećane konzumacije alkohola, narkotika i duvana, podložniji anksioznosti paničnim napadima i depresivnosti od ostalih kategorija stanovništva.
 created: 2022-06-17
-date: 2021.06.17
+date: 2022.06.17
 image: zasto-su-anksiozni-i-panicni-napadi-sve-cesci-kod-mladih.jpg
 imageTwo:
-  path: zasto-su-anksiozni-i-panicni-napadi-sve-cesci-kod-mladih.jpg
+  path: /zasto-su-anksiozni-i-panicni-napadi-sve-cesci-kod-mladih.jpg
   alt: "anksioznost kod mladih"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
