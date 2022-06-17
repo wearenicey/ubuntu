@@ -18,10 +18,8 @@ name: Aloo
 metaDesc: "Ovaj članak istražuje pitanje anksioznosti i napada panike među mladim ljudima, kako se prepoznaju, njihove uzroke, prevenciju i moguće tretmane."
 ---
 
-*Na uzorku od 1021 mladih osoba, više od dve trećine ispitanika – 68,5 odsto ima anksioznost i
-51,9 odsto ima simptome umerene ili teške depresije“ Izvor: Krovna Organizacija Mladih Srbije
-(KOMS) https://koms.rs/2021/12/24/objavljeni-rezultati-istrazivanja-zdravlje-mladih-polozaj-i-
-potrebe-mladih-u-republici-srbiji/*
+## Na uzorku od 1021 mladih osoba, više od dve trećine ispitanika – 68,5 odsto ima anksioznost i 51,9 odsto ima simptome umerene ili teške depresije“
+[Izvor: Krovna Organizacija Mladih Srbije (KOMS)](https://koms.rs/2021/12/24/objavljeni-rezultati-istrazivanja-zdravlje-mladih-polozaj-i-potrebe-mladih-u-republici-srbiji/)
 
 Zbog sve većeg broja klijenata, posebno mlađih, koji se javljaju zbog problema sa anksioznošću i
 paničnim napadima odlučila sam da napišem neke od ključnih stvari koje su važne u
