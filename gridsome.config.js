@@ -52,6 +52,16 @@ module.exports = {
 						priority: 0.9,
 						lastmod: '2021-12-22',
 					},
+					'/psihoterapeuti-beograd/': {
+						changefreq: 'weekly',
+						priority: 0.9,
+						lastmod: '2021-12-22',
+					},
+					'/psihoterapeuti-novi-sad/': {
+						changefreq: 'weekly',
+						priority: 0.9,
+						lastmod: '2021-12-22',
+					},
 					'/blog/': {
 						changefreq: 'daily',
 						priority: 0.9,
@@ -59,12 +69,12 @@ module.exports = {
 					},
 					'/blog/*': {
 						changefreq: 'daily',
-						priority: 0.9,
+						priority: 0.7,
 						lastmod: '2021-12-22',
 					},
 					'/blog/*/*': {
 						changefreq: 'daily',
-						priority: 0.8,
+						priority: 0.7,
 						lastmod: '2021-12-25',
 					},
 					'/karijera/': {
@@ -74,7 +84,7 @@ module.exports = {
 					},
 					'/kontakt/': {
 						changefreq: 'monthly',
-						priority: 0.7,
+						priority: 0.8,
 						lastmod: '2021-12-22',
 					},
 					'/zasto-ubuntu/': {
@@ -84,7 +94,7 @@ module.exports = {
 					},
 					'/donacije/': {
 						changefreq: 'monthly',
-						priority: 0.7,
+						priority: 0.8,
 						lastmod: '2021-12-22',
 					},
 					
