@@ -4,8 +4,8 @@
 			<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 				<div class="mt-10">
 					<h1 class="text-4xl text-purple-800 sm:text-5xl">
-						<span class="block">Treba vam psiholog ili psihoterapeut </span>
-						<span class="block">online? Ubuntu je pravi izbor</span>
+						<span class="block">Psihoterapija online u savetovalištu </span>
+						<span class="block">Ubuntu</span>
 					</h1>
 					<p class="text-gray-700 text-xl pt-4">Od 2018. naše online savetovalište radi s ljudima iz cele Srbije, regiona i sveta.</p>
 				</div>
