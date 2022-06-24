@@ -12,7 +12,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: sta-zapravo-znaci-briga-o-sebi
 name: Aloo
 metaDesc: "Ovaj članak pruža pregled brige o sebi i kako da održite svoje ciljeve. Od odvajanja vremena za sebe do postavljanja granica, saznajte kako možete da se brinete o sebi."
