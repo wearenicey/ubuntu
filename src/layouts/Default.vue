@@ -8,7 +8,7 @@
 		</transition>
 		<FooterLanding />
 		<back-to-top style="position: fixed; z-index: 99; bottom: 24px; right: 24px">
-			<a href="tel:+381658286888">
+			<g-link to="/kontakt/">
 				<button class="btn btn-info btn-to-top border border-transparent rounded-md shadow-lg text-base font-bold text-green-600 bg-white">
 					<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -26,7 +26,7 @@
 						/>
 					</svg>
 				</button>
-			</a>
+			</g-link>
 		</back-to-top>
 		<back-to-top style="position: fixed; z-index: 99; left: 24px; right: none !important; bottom: 24px">
 			<a class="color-red" href="https://wa.me/381658286888" target="_blank"><img src="/wa.png" alt="" srcset="" /></a>
