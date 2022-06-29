@@ -453,29 +453,29 @@ import { required, email } from "vuelidate/lib/validators";
 // meta deskripcija
 export default {
 	metaInfo: {
-		title: "Psihoterapija u psihološkom savetovalištu Ubuntu",
-		titleTemplate: "Psihoterapija u psihološkom savetovalištu Ubuntu",
+		title: "Psihološko savetovalište Ubuntu Beograd Novi Sad Online",
+		titleTemplate: "Psihološko savetovalište Ubuntu Beograd Novi Sad Online",
 
 		meta: [
 			{
 				name: "title",
-				content: "Psihoterapija u psihološkom savetovalištu Ubuntu",
+				content: "Psihološko savetovalište Ubuntu Beograd Novi Sad Online",
 			},
 			{
 				name: "description",
-				content: "Psihoterapija i druge psihološke metode u savetovalištu koje se nalazi u Beogradu i Novom Sadu. Zakažite razgovor sa psihoterapeutom ili psihologom",
+				content: "Lako dostupna pomoć psihoterapeuta. Beograd Novi Sad i Online. Zakaži razgovor sa psihoterapeutom. Psihološko savetovalište Ubuntu",
 			},
 
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Psihoterapija u psihološkom savetovalištu Ubuntu",
+				content: "Psihološko savetovalište Ubuntu Beograd Novi Sad Online",
 			},
 
 			{
 				key: "og:description",
 				name: "og:description",
-				content: "Psihoterapija i druge psihološke metode u savetovalištu koje se nalazi u Beogradu i Novom Sadu. Zakažite razgovor sa psihoterapeutom ili psihologom",
+				content: "Lako dostupna pomoć psihoterapeuta. Beograd Novi Sad i Online. Zakaži razgovor sa psihoterapeutom. Psihološko savetovalište Ubuntu",
 			},
 			{
 				key: "og:image",
@@ -485,12 +485,12 @@ export default {
 			{
 				key: "twitter:title",
 				name: "twitter:title",
-				content: "Savetovalište Ubuntu | Psihoterapija Novi Sad i Beograd",
+				content: "Psihološko savetovalište Ubuntu Beograd Novi Sad Online",
 			},
 			{
 				key: "twitter:description",
 				name: "twitter:description",
-				content: "Psihoterapija i druge psihološke metode u savetovalištu koje se nalazi u Beogradu i Novom Sadu. Zakažite razgovor sa psihoterapeutom ili psihologom",
+				content: "Lako dostupna pomoć psihoterapeuta. Beograd Novi Sad i Online. Zakaži razgovor sa psihoterapeutom. Psihološko savetovalište Ubuntu",
 			},
 			{
 				key: "twitter:image",
