@@ -84,3 +84,5 @@ Kada se dete pored vas oseća sigurno, važno, prihvaćeno i zaštićeno ono ose
 Kvalitet odnosa nam u velikoj meri diktira kvalitet života. Rađamo se u odnosu, kroz odnose rastemo i razvijamo se celog života. Svaki propust u odnosu se može nadoknaditi kroz neki drugi reparativan odnos i zato je važno prepoznati obrazac vezanosti iz koga potičemo kako bismo mogli da svesno gradimo kvalitenu bazu za život svoje dece, kao i da upravljamo vlastitim odnosima koji su nam važni. Istraživanja ukazuju na to da se obrazac vezanosti prenosi s generacije na generaciju sa velikom učestalošću - drugim rečima mogućnost da ćemo vlasitoj deci umeti da pružimo ono što nikada nismo imali u emocioanlnom iskusutvu nije velika, osim ukoliko svesno ne radimo na tome. U tome je zapravo velika mudrost izreke “dobra je ona mama kojoj je dobro”. 
 
 
+Jasna Ani
+
