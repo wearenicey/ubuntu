@@ -16,7 +16,7 @@ featured: false
 pocetna: false
 path: ljubav-deci-nije-dovoljna
 name: Aloo
-metaDesc: "Kako prihvatiti i prevazići situacije u kojima se možete naći trudeći se da budete savršen roditelj."
+metaDesc: "Upoznajte se sa relacionim potrebama dece i tipovima vezanosti deteta za roditelja. Prepoznajte i na vreme korigujte ponašanje."
 ---
 
 Malo koji roditelj će ikada u svom životu reći da ne voli svoje dete. Ipak, to nam ne govori ništa
@@ -61,7 +61,7 @@ Kada su roditelji, staratelji, ili drugi značajni ljudi stalno emocionalno nedo
 
 4. Dezorganizovani obrazac afektivne vezanosti 
 
-Svaka detetova reakcija na dostupnost veze sa majkom zapravo predstavlja pokušaj organizacije tog odnosa. Kada značajni ljudi u životu deteta kažnjavaju dete, posebno kada dete ispoljava neku relacionu potrebu, za dete je to posebna vrsta traumatskog iskustva koje ono proživljava celim telom. Ova nepredvidivost, neorganizovanost odnosa je duboko uznemirujuća za dete. Ako je osoba od koje dete zavisi ista ona osoba koja dete konstantno bezrazložno kažnjava, onda će detetov doživljaj telesnih senzacija, afekta, potreba i odnosa biti duboko zbunjujući. Ova osobe nose u sebi fizički, intenzivan implicitni strah od kazne i jednu bolnu zbunjenost  vezi sa svim vrstama odnosa. Često su to porodice u kojima postoji alkoholizam, emocionalno i fizičko zlostavljanje i drugi disfunkcionalni obrasci. 
+Svaka detetova reakcija na dostupnost veze sa majkom zapravo predstavlja pokušaj organizacije tog odnosa. Kada značajni ljudi u životu deteta kažnjavaju dete, posebno kada dete ispoljava neku relacionu potrebu, za dete je to posebna vrsta traumatskog iskustva koje ono proživljava celim telom. Ova nepredvidivost, neorganizovanost odnosa je duboko uznemirujuća za dete. Ako je osoba od koje dete zavisi ista ona osoba koja dete konstantno bezrazložno kažnjava, onda će detetov doživljaj telesnih senzacija, afekta, potreba i odnosa biti duboko zbunjujući. Ova osobe nose u sebi fizički, intenzivan implicitni strah od kazne i jednu bolnu zbunjenost vezi sa svim vrstama odnosa. Često su to porodice u kojima postoji alkoholizam, emocionalno i fizičko zlostavljanje i drugi disfunkcionalni obrasci. 
 
 **Kako da dete zna da je voljeno - 8 relacionih potreba**
 
