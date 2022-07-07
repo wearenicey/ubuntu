@@ -4,7 +4,7 @@ category: briga-o-sebi
 # ovo je i meta desc
 excerpt: Kada nekome ko ne zna kakav je osećaj biti voljen, prihvaćen i uvažen kažete da je potrebno samo da voli sebe, to je kao da nekome ko ne zna da vozi kažete da je sve što je potrebno samo da upali auto i krene.
 created: 2022-07-08
-date: 2022.07.06
+date: 2022.07.08
 image: da-li-je-ljubav-prema-sebi-lek-za-sve.jpg
 imageTwo:
   path: /da-li-je-ljubav-prema-sebi-lek-za-sve.jpg
