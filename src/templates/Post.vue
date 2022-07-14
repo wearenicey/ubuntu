@@ -80,7 +80,7 @@
 					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 						<div class="flex-1">
 							<a href="/savetovaliste-novi-sad/" class="block mt-2">
-								<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Novom Sadu</h3>
+								<h2 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Novom Sadu</h2>
 								<p class="mt-3 text-base text-gray-500">Projekat "Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć u Novom Sadu.</p>
 							</a>
 						</div>
@@ -97,7 +97,7 @@
 					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 						<div class="flex-1">
 							<a href="/savetovaliste-beograd/" class="block mt-2">
-								<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu</h3>
+								<h2 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu</h2>
 								<p class="mt-3 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 3 adrese.</p>
 							</a>
 						</div>
@@ -114,7 +114,7 @@
 					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 						<div class="flex-1">
 							<a href="/online-savetovaliste/" class="block mt-2">
-								<h3 class="text-xl font-semibold text-gray-900">Online psihoterapija</h3>
+								<h2 class="text-xl font-semibold text-gray-900">Online psihoterapija</h2>
 								<p class="mt-3 text-base text-gray-500">Kako bismo unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.</p>
 							</a>
 						</div>
