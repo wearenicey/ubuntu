@@ -1,5 +1,5 @@
 ---
-title: Spasite se potrebe da spasavate druge - prikaz knjige "Vitez na belom konju"
+title: „Vitez na belom konju" - prikaz knjige
 category: preporuke-za-citanje-i-gledanje
 # ovo je i meta desc
 excerpt:  Savremeni vitez na belom konju u stvarnom životu čini se izuzetnim partnerom, ali je u stvari tragičan junak.
