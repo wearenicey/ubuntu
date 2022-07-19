@@ -31,7 +31,7 @@ module.exports = {
 			options: {
 				exclude: ['/404', '/blog/2', '/blog/3'],
 				config: {
-					
+
 					'/': {
 						changefreq: 'weekly',
 						priority: 1.0,
@@ -97,7 +97,6 @@ module.exports = {
 						priority: 0.8,
 						lastmod: '2021-12-22',
 					},
-					
 				}
 			}
 		},
@@ -125,18 +124,14 @@ module.exports = {
 				typeName: 'Post',
 				path: './content/blog/**/**/*.md',
 
-
 				refs: {
 					author: 'Author',
-
-
 					category: {
 						typeName: 'Category',
 						create: true
 					}
 				}
 			},
-
 		},
 
 		{
@@ -145,15 +140,11 @@ module.exports = {
 				typeName: 'Blog',
 				path: './content/blog/**/**/*.md',
 
-
 				refs: {
 					author: 'Author',
-
 				}
 			},
-
 		},
-
 
 
 	],
