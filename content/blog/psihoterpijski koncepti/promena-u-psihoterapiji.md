@@ -25,11 +25,11 @@ Kakve promene možemo uopšte očekivati u psihoterapiji, kako izgleda proces pr
 
 
 
-**Transteorijski model promene**
+## Transteorijski model promene
 
 Transteorijski model (TTM), koji se takođe često naziva modelom faza promene, pruža nam uvid u način na koji dolazi do promene. Ovaj model razvili su Karlo Diklemente i Džejms Prohaska ranih 80-ih na osnovu istraživanja koja su rađena sa bivšim pušačima. Došli su do uvida da pojedinci koji uspešno sprovode promene prolaze kroz niz faza tokom vremena. Za razliku od pretpostavke da promena počinje modifikacijom ponašanja, naučnici Prohaska i Diklemente su otkrili nekoliko faza koje prethode preduzimanju akcije
 
-**Pet faza promene**
+## Pet faza promene
 
 - Prekontemplacija
 
@@ -51,13 +51,13 @@ Nakon pripremne faze dolazi akcija, u kojoj osoba modifikuje svoje problematičn
 
 Peta i poslednja faza promene je održavanje, u kome pojedinci održavaju svoju promenu ponašanja na neodređeno vreme. Tokom ove faze, fokus je na izbegavanju recidiva i potpunoj integraciji promene ponašanja u svakodnevni život. Osoba u fazi održavanja promene će često reći nešto poput: „Prošlo je skoro godinu dana otkako sam poslednji put konzumirao alkohol. Naučio sam kako da kontrolišem žudnju i nađem podršku kada mi je potrebna." U fazi održavanja, pojedinci uče da održe promenu svog ponašanja kroz različite izazove sa kojima se suočavaju u životu
 
-**Proces promene nije linearan**
+## Proces promene nije linearan
 
 Kada se ovako razloži na faze, može delovati kao da je proces promene linearan i kao da prirodno jedna faza sledi nakon druge. To zapravo uopšte nije tačno. Proces promene više liči na spiralu i često možemo dugo oscilirati između dve faze, vraćati se na prethodnu i ponavljati neku fazu sve dok ne dostignemo zrelost koja je potrebna da promenu sprovedemo do kraja. 
 
 Važno je takođe razumeti da je sam proces promene jedinstven za svakog – neko će najviše vremena provesti u fazi pripreme, nekome treba više vremena u fazi kontemplacije. Regresija na prethodne faze ili povratak starim navikama čak je više pravilo nego izuzetak i zato je dobro poznavati proces promene da bismo umeli da prepoznamo u kojoj fazi smo se zaglavili. 
 
-**Uloga psihoterapije u procesu promene**
+## Uloga psihoterapije u procesu promene
 
 U svakoj fazi promene potrebna nam je podrška, ali ta podrška će takođe izgledati potpuno drugačije u zavisnosti od toga u kojoj smo fazi. Na primer, osobi u fazi prekontemplacije potrebni su uvidi, informacije i povratne informacija kako bi podigla svest o svom problematičnom ponašanju, dok osoba u fazi kontemplacije ima koristi od istraživanja uticaja svog ponašanja na druge, ispitivanja svojih emocija i rada na ambivalentnosti. Osobi u fazi pripreme potrebna je podrška u kreiranju akcionog plana i rešavanja problema, dok osoba u fazi akcije traži podršku za restrukturiranje svog okruženja kako bi izbegla okidače i unela željene promene. Osobu u fazi održavanja treba podržati u pravljenju strategije prevencije vraćanja na stare navike. 
 
