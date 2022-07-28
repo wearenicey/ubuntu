@@ -900,7 +900,7 @@
 								</div>
 								<div class="sm:col-span-2">
 									<button
-										:disabled="formData.submitStatus === 'PENDING'"
+										:disabled="formData.submitStatus === 'OK'"
 										type="submit"
 										class="
 											mt-2
@@ -1063,7 +1063,6 @@ export default {
 				this.formData.submitStatus = "ERROR";
 			} else {
 				// skupljeni podaci se salju  POST metodom
-
 				fetch("/", {
 					method: "POST",
 					headers: {
@@ -1076,13 +1075,7 @@ export default {
 				})
 					// dobijanje odgovora sa servera
 
-					.then(
-						() => (this.formData.submitStatus = "PENDING"),
-
-						setTimeout(() => {
-							this.formData.submitStatus = "OK";
-						}, 500)
-					)
+					.then(() => (this.formData.submitStatus = "OK"))
 					.catch((error) => alert(error));
 			}
 		},

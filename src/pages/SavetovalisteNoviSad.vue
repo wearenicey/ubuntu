@@ -1003,8 +1003,8 @@ export default {
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
-				// skupljeni podaci se salju  POST metodom
 
+				// skupljeni podaci se salju  POST metodom
 				fetch("/", {
 					method: "POST",
 					headers: {
