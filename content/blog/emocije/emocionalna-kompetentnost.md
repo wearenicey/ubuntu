@@ -2,7 +2,7 @@
 title: Emocionalna kompetentnost
 category: emocije
 # ovo je i meta desc
-excerpt: Često nesvesno, kao ljudi koji teže da izbegnu bol, pribegavamo potiskivanju emocija ili bežanju ka manje neprijatnim mislima
+excerpt: Često nesvesno, kao ljudi koji teže da izbegnu bol, pribegavamo potiskivanju emocija ili bežanju ka manje neprijatnim mislima.
 created: 2022-08-12
 date: 2022.08.12
 image: emocionalna-kompetentnost.jpg
@@ -20,11 +20,9 @@ metaDesc: "Često nesvesno, kao ljudi koji teže da izbegnu bol, pribegavamo pot
 
 Koliko često zastanete i upitate se:
 
--   Kako se osećam?
-
--   Šta mislim o situaciji u kojoj se nalazim?
-
--   Šta mi je potrebno?
+- Kako se osećam?
+- Šta mislim o situaciji u kojoj se nalazim?
+- Šta mi je potrebno?
 
 Kada bolje razmislimo, odgovor je i ne baš tako često -- a da biste
 razumeli sebe, svoje ponašanje, emocije i razmišljanje ovaj trenutak
@@ -86,8 +84,7 @@ aktivnošću ili na neki drugi adekvatan način. A nakon toga razmisliti o
 našim potrebama i emocijama. Kao i podizanje svesti o tome šta osećamo,
 i ponaśanje se vežba kroz iskustvo.
 
-**Često dobijam pitanje : kako da znam da li reagujem u skladu sa
-situacijom?**
+## Često dobijam pitanje: kako da znam da li reagujem u skladu sa situacijom?
 
 I zaista je teško odgovoriti na njega. Vrlo često nismo svesni svojih
 uverenja o svetu, drugima i sebi, i još češće nismo svesni uticaja tih
