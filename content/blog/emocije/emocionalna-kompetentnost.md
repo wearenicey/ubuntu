@@ -8,7 +8,7 @@ date: 2022.08.12
 image: emocionalna-kompetentnost.jpg
 imageTwo:
   path: /emocionalna-kompetentnost.jpg
-  alt: "glad za emocijama"
+  alt: "Emocionalna kompetentnost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
@@ -39,14 +39,14 @@ konzumacijom alkohola ili droga. Možemo i da negiramo da imamo intezivne
 emocije ili da koristimo razne odbrambene mehanizme, ali i da osetimo
 fizičke simptome, da se razbolimo.
 
-Iako je istina u nama i dobro znamo kad \"nešto ne štima\" ovakve
+Iako je istina u nama i dobro znamo kad "nešto ne štima" ovakve
 stresne situacije će se ponavljati, jer su u pitanju naučeni obrasci
 ponašanja, i čak i kad primetimo da nešto ne funckioniše najbolje, treba
 nam vremena da napravimo promenu. Međutim, ako ovakvi obrasci
 nastavljaju da budu aktuelni, naše odluke i ponašanja neće biti
 autentične i sam kvalitet života će biti smanjen. Iako spolja možemo
 delovati zadovoljno, ukoliko naše potrebe nisu zadovoljene, pored toga
-što smo hronično nezadovoljni, mi nismo \"svoji\" i ne koristimo
+što smo hronično nezadovoljni, mi nismo "svoji" i ne koristimo
 potencijal i snagu koju imamo.
 
 Za razliku od toga, svaki puta kada preispitamo sopstveno ponašanje i
