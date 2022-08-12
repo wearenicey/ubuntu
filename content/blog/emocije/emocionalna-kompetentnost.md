@@ -3,13 +3,13 @@ title: Emocionalna kompetentnost
 category: emocije
 # ovo je i meta desc
 excerpt: Većina savremenih kultura, uključujući i našu, pretvorile su se u žrtvu preovlađujućeg stava da snaga znači izdržljivost...
-created: 2021-12-23
-date: 2021.12.23
+created: 2021-12-24
+date: 2021.12.24
 image: emocionalna-kompetentnost.jpg
 imageTwo:
   path: /emocionalna-kompetentnost.jpg
-  alt: "najjači samo ostaju"
-image_caption: Photo by Josh Spires on Unsplash
+  alt: "najjači samo ostaju2"
+image_caption: Photo by Josh Spires on Unsplash2
 author: author1
 featured: false
 pocetna: false
