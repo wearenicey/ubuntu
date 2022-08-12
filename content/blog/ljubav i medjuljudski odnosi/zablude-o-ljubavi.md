@@ -18,7 +18,6 @@ name: Aloo
 metaDesc: "Zablude o ljubavi su uverenja koja mnogi od nas imaju o partnerskim odnosima, a koja nas sprečavaju da donesemo pametne odluke u ljubavi."
 ---
 
-
 Zablude o ljubavi su uverenja koja mnogi od nas imaju o partnerskim
 odnosima, a koja nas sprečavaju da donesemo pametne odluke u ljubavi,
 zbog kojih često ljubavlju nazivamo i one odnose koji nemaju veze sa
