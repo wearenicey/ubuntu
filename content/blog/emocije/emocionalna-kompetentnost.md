@@ -2,41 +2,114 @@
 title: Emocionalna kompetentnost
 category: emocije
 # ovo je i meta desc
-excerpt: Potreba za hranom jedna je od osnovnih ljudskih potreba. Hrana nam je potrebna da zadovoljimo glad, sačuvamo zdravlje i održimo energiju.
+excerpt: Često nesvesno, kao ljudi koji teže da izbegnu bol, pribegavamo potiskivanju emocija ili bežanju ka manje neprijatnim mislima
 created: 2022-08-12
 date: 2022.08.12
 image: emocionalna-kompetentnost.jpg
 imageTwo:
   path: /emocionalna-kompetentnost.jpg
-  alt: "glad za emocijama"
+  alt: "Emocionalna kompetentnost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
 path: emocionalna-kompetentnost
 name: Aloo
-metaDesc: "Potreba za hranom jedna je od osnovnih ljudskih potreba. Hrana nam je potrebna da zadovoljimo glad, sačuvamo zdravlje i održimo energiju."
+metaDesc: "Često nesvesno, kao ljudi koji teže da izbegnu bol, pribegavamo potiskivanju emocija ili bežanju ka manje neprijatnim mislima"
 ---
 
-Potreba za hranom jedna je od osnovnih ljudskih potreba. Hrana nam je potrebna da zadovoljimo glad, sačuvamo zdravlje i održimo energiju. Ali često hrana može biti sredstvo da se smanji dosada, ublaži stres, zabrinutost, [usamljenost](/blog/emocije/samoca-i-usamljenost/)... To je i osnovna razlika između _fizičke_ i _emocionalne_ gladi*.*
+Koliko često zastanete i upitate se:
 
-*Emocionalna glad* se javlja naglo kao hitna potreba za hranom, dok je kod  *fizičke* glad postupna i ne zahteva trenutno zadovoljenje. Kod *emocionalne gladi,* želja se javlja za nekom nezdravom hranom (grickalice, slatkiši, brza hrana), za onim što pruža trenutno zadovoljenje, dok je kod fizičke gladi svaka namirnica dobra opcija (voće, povrće, proteini, ugljeni hidrati). *Emocionalna glad* ne prestaje kad smo siti, već stalno želimo još, dok se kod *fizičke gladi* osećamo zadovoljno već nakon prvog osećaja sitosti. *Emocionalna glad* ne dolazi iz želuca, nego iz glave jer tada nismo gladni nego obično razmišljamo koji nam se slatkiši ili grickalice više jedu. Počinje kao način da ispunimo određene emocionalne potrebe, a završi se osećanjem krivice, stida i nezadovoljstva, dok kod *fizičke gladi* nema tih emocija jer smo samo dali svom telu ono što mu je potrebno.
+-   Kako se osećam?
 
-Nakon što naučimo da ih razlikujemo, potrebno je da pronađemo šta nam je okidač, šta je to što pokreće našu _emocionalnu glad_.
+-   Šta mislim o situaciji u kojoj se nalazim?
 
-## Četiri okidača emocionalne gladi
+-   Šta mi je potrebno?
 
-1. **Stres** – U stresnom period, hrana koju pojedemo ima za cilj da podigne nivo hormona zadovoljstva u mozgu od čega nam odmah bude prijatnije, a stres bude manji. Na taj način se stvara navika povezivanja hrane sa zadovoljstvom, a vremenom se može pojaviti i višak kilograma. Ukoliko nam se nešto jako jede treba da proverimo sa sobom da li smo pod stresom jer ima i boljih načina da se oslobodimo stresa.
+Kada bolje razmislimo, odgovor je i ne baš tako često -- a da biste
+razumeli sebe, svoje ponašanje, emocije i razmišljanje ovaj trenutak
+pauze i fokusa na sebe mora da se desi, neophodan je.
 
-2. **Potiskivanje neprijatnih emocija** – Kada mislimo da nije u redu ili ne umemo da pokažemo strah, tugu, [ljutnju](/blog/emocije/uvod-u-osnovne-emocije-ljutnja/), obično ih potiskujemo. Ove emocije, međutim, ne nestanu, već se samo skupljaju, a mi ih zatrpamo hranom bez obzira da li smo gladni ili ne. Ako jedemo kad nismo gladni treba da proverimo kako se u tom trenutku osećamo, šta se dešava u našem telu, gde… Hrana koja bi nam, najpre, donela neka prijatna osećanja, ubrzo nam donosi osećanje krivice. Jer hrana će nam samo privremeno skrenuti pažnju s emocije, ali ona ni tada neće nestati. Nije to lako, znam i sama, ali ako želimo promenu treba da radimo na tome.
+Taj trenutak ume da bude bolan, posebno ako su razmišljanja uporna,
+emocije burne, a katkad čak i nepoznate, pa nas sve to vodi u stanje
+zbunjenosti. Zbog toga, često nesvesno, kao ljudi koji teže da izbegnu
+bol, pribegavamo potiskivanju emocija ili bežanju ka manje neprijatnim
+mislima ili veštački izazivamo stanje prijatnosti -- prejedanjem,
+konzumacijom alkohola ili droga. Možemo i da negiramo da imamo intezivne
+emocije ili da koristimo razne odbrambene mehanizme, ali i da osetimo
+fizičke simptome, da se razbolimo.
 
-3. **Navike iz detinjstva** – Naše loše navike o jelu mogu da potiču i iz detinjstva. Možda smo nutkani hranom, naučeni da ne odbijemo ponuđenu hranu, da pojedemo sve iz tanjira, nagrađivani hranom, umirivani određenom hranom ili jeli kad nam je dosadno i slično. Zato je sada potrebno da napravimo svoja pravila, izmenimo stare navike, i posebno da ne jedemo iz dosade.
+Iako je istina u nama i dobro znamo kad "nešto ne štima" ovakve
+stresne situacije će se ponavljati, jer su u pitanju naučeni obrasci
+ponašanja, i čak i kad primetimo da nešto ne funckioniše najbolje, treba
+nam vremena da napravimo promenu. Međutim, ako ovakvi obrasci
+nastavljaju da budu aktuelni, naše odluke i ponašanja neće biti
+autentične i sam kvalitet života će biti smanjen. Iako spolja možemo
+delovati zadovoljno, ukoliko naše potrebe nisu zadovoljene, pored toga
+što smo hronično nezadovoljni, mi nismo "svoji" i ne koristimo
+potencijal i snagu koju imamo.
 
-4. **Društveni uticaj** – Druženje sa drugima često podrazumeva i hranu, a to može dovesti i do jela kad nismo gladni, naročito ako su u pitanju proslave.
+Za razliku od toga, svaki puta kada preispitamo sopstveno ponašanje i
+osećanja, kada se suočimo sa određenom neprijatnošću, pa makar i na par
+sekundi, kada joj dopustimo da probije u našu svest -- primetimo je i
+uvažimo, doprineli smo porastu emocionalne kompetetnosti. Sam razvoj
+emocionalne kompetetnosti je proces koji traje, ali koji, svojom
+aktivnošću, usmeravamo ka zadovoljenju potreba i postizanju ciljeva koji
+su nam važni.
 
-Svaki put kad osetite potrebu za jelom istražite šta je uzrok te potrebe, da li on uopšte postoji, a ako postoji kakva je veza između određenog događaja, vašeg raspoloženja i hrane. Na taj način ćete doći do uzroka ovog neželjenog stanja i tada krenuti u rešavanje problema, ali ne hranom.
+Gabor Mate navodi da emocionalna kompetentnost zahteva:
 
-Nije lako, u pitanju je promena. Gotovo svaka promena je proces, a svaki proces zahteva vreme. Ništa ne prolazi tek tako ili prosto preko noći. Potrebno nam je vreme u kome ćemo preispitati naša uverenja, razmišljati o porukama i obrascima koje smo poneli iz porodice, detinjstva, pa se zapitati gde smo mi u odnosu na sve to. Može se desiti da nas to malo umori, da mislimo da nemamo snage i poželimo da odustanemo... To treba iskoristiti i napraviti pauzu, zastati, ali ne i odustati. Treba pružiti sebi, svom umu i telu, ono što mu je tada najpotrebnije, a to je razumevanje. Nakon toga, verujem da će biti lakše. Iz ličnog iskustva znam da je moguće. Ukoliko ne možete sami, podršku i pomoć možete potražiti na psihoterapiji.
+-   sposobnost da osećamo svoje emocije tako da smo svesni kada
+    doživljavamo stres;
 
+-   sposobnost da svoje emocije izrazimo efektivno i stoga da nametnemo
+    svoje potrebe i održimo integritet svojih emocionalnih granica;
 
-Aleksandra Bajić
+-   mogućnost da razlučimo između psiholoških reakcija koje su bitne za
+    trenutnu situaciju i onih koje predstavljaju talog iz prošlosti. Ono
+    što želimo i zahtevamo od sveta mora da bude u skladu sa našim
+    trenutnim potrebama, a ne nesvesnim nezadovoljenim potrebama iz
+    detinjstva. Ako su razlike između prošlosti i sadašnjosti zamagljene
+    mi ćemo percipirati gubitak ili pretnju gubitka i tamo gde oni ne
+    postoje.
+
+-   svest o onim istinskim potrebama koje je neophodno zadovoljiti, a ne
+    njihovo potiskivanje kako bismo dobili odobrenje drugih i njihovo
+    prihvatanje.
+
+Kada je reč o tome kako izrażavamo naše emocije treba imati na umu da
+ponašanje nije isto što i emocija. Ako osećamo intezivnu ljutnju mi
+možemo na razne načine da je ispoljimo ili ne ispoljimo. U situaciji
+jake ljutnje na šefa izrazićemo neslaganje, ali ipak nećemo vikati.
+Ukoliko izađemo iz konflikta nezadovoljni regulisaćemo ljutnju fizičkom
+aktivnošću ili na neki drugi adekvatan način. A nakon toga razmisliti o
+našim potrebama i emocijama. Kao i podizanje svesti o tome šta osećamo,
+i ponaśanje se vežba kroz iskustvo.
+
+**Često dobijam pitanje : kako da znam da li reagujem u skladu sa
+situacijom?**
+
+I zaista je teško odgovoriti na njega. Vrlo često nismo svesni svojih
+uverenja o svetu, drugima i sebi, i još češće nismo svesni uticaja tih
+uverenja, ali i njihove netačnosti. Možemo da verujemo da neka osoba ne
+bi bila sa nama u partnerskom odnosu jer nismo dovoljno dobri za nju --
+i tada je naše sržno uverenje *Ja ne vredim,* čega mi nismo svesni. Te
+potom, čak iako ta osoba pokazuje interesovanje za nas, naše uverenje
+blokira tu ideju, pa kada se ukaže prilika, mi na tu zainteresovanost ne
+odgovorimo ili odgovorimo odbijanjem, strahom ili povlačenjem.
+
+Dakle, otkrivanje odgovora na ovo pitanje je proces, i zahteva bavljenje
+obrascima, navikama i emocijama, podrazumeva dokučivanje autentičnih
+želja i potreba, a ono što je neophodno jeste i -- radoznalost.
+Radoznalost da proverimo da li su naše reakcije u skladu sa situacijom,
+da dođemo do pravih podataka, do autentičnih emocija i sopstvenih
+potreba. Mi smo ti koji donosimo odluke o sebi, a samim tim smo i
+odgovorni za sebe, te je naša i odgovornost da dođemo do svega gore
+navedenog i time se pomerimo korak dalje na kontinuumu razvoja. A ono
+što je najvažnije, mi smo ti koji ćemo osetiti zadovoljstvo kada svojim
+snagama učinimo neku promenu, kada preispitamo stare obrasce ili stanemo
+na put višegeneracijskim neadekvatnim ponašanjima. Mi smo ti koji ćemo
+uživati blagodeti srećnijeg, zadovoljnijeg i autentičnijeg življenja,
+bilo to uz pomoć stručnog lica ili samostalno!
+
+Vanja Tripković
