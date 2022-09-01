@@ -5,7 +5,7 @@
 			<div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 				<div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
 					<div class="absolute inset-0">
-						<g-image immediate="true" class="h-full w-full object-cover" src="~/assets/img/beograd-psihoterapija.jpg" alt="Psiholosko savetovaliste Ubuntu Beograd" />
+						<g-image immediate="true" class="h-full w-full object-cover" src="~/assets/img/beograd-psihoterapija.jpg" alt="psihoterpija Ubuntu Beograd" />
 
 						<div class="absolute inset-0 bg-cyan-600 mix-blend-multiply"></div>
 					</div>
@@ -71,7 +71,7 @@
 					</div>
 
 					<div class="mt-10 relative lg:mt-0" aria-hidden="true">
-						<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-1.jpg" alt="psihološka podrška" />
+						<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-1.jpg" alt="psihološka podrška Beograd" />
 					</div>
 				</div>
 
@@ -95,7 +95,7 @@
 						</div>
 
 						<div class="mt-10 relative lg:mt-0 lg:col-start-1">
-							<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-2.jpg" alt="psiholopki napredak" />
+							<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-2.jpg" alt="psiholopki napredak Beograd" />
 						</div>
 					</div>
 				</div>
@@ -280,7 +280,7 @@
 			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="relative py-24 px-8 bg-green-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
 					<div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-						<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover" />
+						<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="psihoterapija Beograd" class="w-full h-full object-cover" />
 					</div>
 					<div class="relative lg:col-span-1">
 						<h2 class="text-2xl font-medium sm:text-2xl text-white">Referenca</h2>

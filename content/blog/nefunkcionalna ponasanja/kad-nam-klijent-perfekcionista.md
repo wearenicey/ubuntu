@@ -8,7 +8,7 @@ date: 2022.04.28
 image: klijent.webp
 imageTwo:
   path: /klijent.webp
-  alt: "A colorful building against a blue sky background"
+  alt: "perfekcionizam klijenta"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

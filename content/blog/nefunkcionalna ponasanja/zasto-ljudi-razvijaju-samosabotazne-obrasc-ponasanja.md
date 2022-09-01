@@ -8,7 +8,7 @@ date: 2021.11.27
 image: sabotaza.jpg
 imageTwo:
   path: /sabotaza.jpg
-  alt: "A colorful building against a blue sky background"
+  alt: "sabotiranje sebe"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

@@ -8,7 +8,7 @@ date: 2021.11.25
 image: homoseksualnost.jpg
 imageTwo:
   path: /homoseksualnost.jpg
-  alt: "lgbt srce"
+  alt: "lgbt"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

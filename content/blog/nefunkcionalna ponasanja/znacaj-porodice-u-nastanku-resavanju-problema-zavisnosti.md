@@ -8,7 +8,7 @@ date: 2022.04.21
 image: znacaj-porodice.webp
 imageTwo:
   path: /znacaj-porodice.webp
-  alt: "A colorful building against a blue sky background"
+  alt: "porodica"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

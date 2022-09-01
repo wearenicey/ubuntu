@@ -8,7 +8,7 @@ date: 2022.08.25
 image: unutrasnji-kriticar-i-kognitivne-distorzije.jpg
 imageTwo:
   path: /unutrasnji-kriticar-i-kognitivne-distorzije.jpg
-  alt: "distorzija"
+  alt: "unutrašnji kritičar distorzija"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

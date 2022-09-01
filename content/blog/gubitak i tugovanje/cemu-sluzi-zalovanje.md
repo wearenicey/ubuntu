@@ -8,7 +8,7 @@ date: 2022.04.07
 image: zalovanje.webp
 imageTwo:
   path: /zalovanje.webp
-  alt: "zalovanje"
+  alt: "žaljenje i tuga"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

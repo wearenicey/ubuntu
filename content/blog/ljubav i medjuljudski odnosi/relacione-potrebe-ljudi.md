@@ -8,7 +8,7 @@ date: 2021.11.25
 image: relacione-potrebe.jpg
 imageTwo:
   path: /relacione-potrebe.jpg
-  alt: "srce i relacija"
+  alt: "scre i odnos pema drugim ljudima"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

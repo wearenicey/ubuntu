@@ -8,7 +8,7 @@ date: 2021.11.25
 image: gubitak.jpg
 imageTwo:
   path: /gubitak.jpg
-  alt: "sveće gubitak tuga"
+  alt: "tuga i gubitak"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

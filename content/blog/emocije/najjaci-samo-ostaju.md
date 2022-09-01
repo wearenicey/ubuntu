@@ -8,7 +8,7 @@ date: 2021.12.23
 image: najjaci-samo-ostaju.jpg
 imageTwo:
   path: /najjaci-samo-ostaju.jpg
-  alt: "najjači samo ostaju"
+  alt: "budite snažni"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

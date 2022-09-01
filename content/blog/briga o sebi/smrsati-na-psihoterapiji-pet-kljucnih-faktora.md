@@ -9,7 +9,7 @@ date: 2022.02.04
 image: smrsati-na-psihoterapiji-pet-kljucnih-faktora.jpg
 imageTwo:
   path: /smrsati-na-psihoterapiji-pet-kljucnih-faktora.jpg
-  alt: "kako smršati na psihoterapiji"
+  alt: "psihoterapija i mršavljenje"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

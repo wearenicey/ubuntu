@@ -8,7 +8,7 @@ date: 2021.11.27
 image: panicni-napad.jpg
 imageTwo:
   path: ./images/slika-3.jpg
-  alt: "čovek skače u suton"
+  alt: "čovek skače u panici"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

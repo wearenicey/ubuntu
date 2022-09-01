@@ -8,7 +8,7 @@ date: 2022.02.25
 image: kako-se-snovi-tumace-u-gestaltu.jpg
 imageTwo:
   path: /kako-se-snovi-tumace-u-gestaltu.jpg
-  alt: "snovi"
+  alt: "snovi u geštalt terpiji"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

@@ -8,7 +8,7 @@ date: 2022.05.27
 image: abc-model.jpg
 imageTwo:
   path: /abc-model.jpg
-  alt: "rebt"
+  alt: "abc model u psihoterpiji"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

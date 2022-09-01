@@ -9,7 +9,7 @@ date: 2022.06.10
 image: rane-koje-ne-prolaze.jpg
 imageTwo:
   path: /rane-koje-ne-prolaze.jpg
-  alt: "razvojna-trauma"
+  alt: "razvojna trauma"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

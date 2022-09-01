@@ -8,7 +8,7 @@ date: 2021.11.25
 image: depresija.jpg
 imageTwo:
   path: /depresija.jpg
-  alt: "depresija"
+  alt: "depresija i anksioznost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

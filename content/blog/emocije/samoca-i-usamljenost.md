@@ -8,7 +8,7 @@ date: 2021.10.23
 image: usamljenost.jpg
 imageTwo:
   path: /usamljenost.jpg
-  alt: "usamljena osoba na steni"
+  alt: "usamljenost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

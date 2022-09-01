@@ -8,7 +8,7 @@ date: 2022.05.06
 image: majka.webp
 imageTwo:
   path: /majka.webp
-  alt: "odrastanje"
+  alt: "mentalno zdravlje majke"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

@@ -8,7 +8,7 @@ date: 2022.05.20
 image: anksioznost-2.webp
 imageTwo:
   path: /anksioznost-2.webp
-  alt: "anksioznost-2"
+  alt: "anksioznost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

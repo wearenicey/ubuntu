@@ -7,7 +7,7 @@ date: 2022.03.24
 image: nasilje.jpg
 imageTwo:
   path: /nasilje.jpg
-  alt: "lutka u ruci"
+  alt: "lutka u ruci i nasilje"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

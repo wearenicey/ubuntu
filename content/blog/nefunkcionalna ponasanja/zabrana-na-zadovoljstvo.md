@@ -8,7 +8,7 @@ date: 2022.05.13
 image: zabrana.webp
 imageTwo:
   path: /zabrana.webp
-  alt: "samopovređivanje čoveka"
+  alt: "zabrana zadovoljstva"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

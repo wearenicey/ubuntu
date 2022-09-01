@@ -8,7 +8,7 @@ date: 2021.11.27
 image: znacaj-motivacije.jpg
 imageTwo:
   path: /znacaj-motivacije.jpg
-  alt: "moivacija u psihoterapiji"
+  alt: "motivacija u psihoterapiji"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

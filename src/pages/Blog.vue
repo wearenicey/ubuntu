@@ -118,7 +118,7 @@ export default {
 				{
 					key: "og:title",
 					name: "og:title",
-					content: "Blogovi o psihoterapiji | Ubuntu Centar",
+					content: "Tekstovi | Ubuntu blog",
 				},
 
 				{

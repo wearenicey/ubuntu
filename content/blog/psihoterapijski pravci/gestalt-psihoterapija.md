@@ -8,7 +8,7 @@ date: 2022.09.01
 image: gestalt.jpg
 imageTwo:
   path: /gestalt.jpg
-  alt: "Geštalt"
+  alt: "geštalt psihoterpija"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
