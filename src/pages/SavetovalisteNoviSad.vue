@@ -245,7 +245,11 @@
 			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="relative py-24 px-8 bg-green-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
 					<div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-						<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="psihoterpija Novi Sad" class="w-full h-full object-cover" />
+						<img
+							src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80"
+							alt="psihoterpija Novi Sad"
+							class="w-full h-full object-cover"
+						/>
 					</div>
 					<div class="relative lg:col-span-1">
 						<h2 class="text-2xl font-medium sm:text-2xl text-white">Preporuka</h2>
@@ -947,7 +951,11 @@ export default {
 				content: "https://ubuntucentar.com/assets/static/savetovaliste-novi-sad.52d25d7.2e350206eb112ab443d186c97bb663ba.jpg",
 			},
 		],
+		script: [
+      { innerHTML: '{ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "", "acceptedAnswer": { "@type": "Answer", "text": "" } },', type: 'application/ld+json' }
+    ]
 	},
+
 
 	data() {
 		//povratni novi objekti
