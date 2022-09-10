@@ -757,6 +757,7 @@ export default {
 							this.formData.submitStatus = "OK";
 						}, 500)
 					)
+					.then(() => window.location.reload(3))
 					.catch((error) => alert(error));
 			}
 		},

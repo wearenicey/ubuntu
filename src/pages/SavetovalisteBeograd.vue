@@ -1079,6 +1079,7 @@ export default {
 					// dobijanje odgovora sa servera
 
 					.then(() => (this.formData.submitStatus = "OK"))
+					.then(() => window.location.reload(3))
 					.catch((error) => alert(error));
 			}
 		},
