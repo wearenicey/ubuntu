@@ -1,5 +1,5 @@
 ---
-title: REBT psihoterapija
+title: REBT terapija
 category: psihoterapijski-pravci
 # ovo je i meta desc
 excerpt: Racionalno-emotivno bihejvioralna terapija (REBT) je terapija koja svoje korene vuče iz sredine prošlog veka.

@@ -1,5 +1,5 @@
 ---
-title: Geštalt psihoterapija - cilj, tehnike i koncepti
+title: Geštalt terapija - cilj, tehnike i koncepti
 category: psihoterapijski-pravci
 # ovo je i meta desc
 excerpt: Geštalt je nemačka reč koja znači celina, konfiguracija.
