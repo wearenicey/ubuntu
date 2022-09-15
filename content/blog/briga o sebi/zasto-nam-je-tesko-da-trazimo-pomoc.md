@@ -3,8 +3,8 @@ title: Zašto nam je teško da tražimo pomoć?
 category: briga-o-sebi
 # ovo je i meta desc
 excerpt: Vidimo i osetimo da ne možemo sami, da nam je teško, ali traženje pomoći kao mogućnost da nam bude bolje i dalje ne koristimo...
-created: 2022-09-15
-date: 2022.09.15
+created: 2022-09-16
+date: 2022.09.16
 image: zasto-nam-je-tesko-da-trazimo-pomoc.jpg
 imageTwo:
   path: /zasto-nam-je-tesko-da-trazimo-pomoc.jpg
