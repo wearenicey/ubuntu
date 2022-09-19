@@ -89,59 +89,52 @@
 			<div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:py-24 lg:px-8">
 				<div>
 					<h2 class="text-lg font-semibold text-indigo-600">Terapijski pravci</h2>
-					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900">All-in-one platform</p>
-					<p class="mt-4 text-lg text-gray-500">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
+					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900">Kako da razlikujete psihoterapijske metode?</p>
+					<p class="mt-4 text-lg text-gray-500">Upoznajte se ukratko sa pristupima i metodama koje primenjujemo tokom terapije.</p>
 					<div class="mt-6">
-                <a href="#" class="inline-flex rounded-md border border-transparent bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-green-700-700">Saznaj više</a>
+                <a href="/blog/psihoterapijski-pravci/" class="inline-flex rounded-md border border-transparent bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-green-700-700">Saznaj više</a>
               </div>
 				</div>
 				<div class="mt-12 lg:col-span-2 lg:mt-0">
 					<dl class="space-y-10 sm:grid sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-4 sm:gap-x-6 sm:gap-y-10 sm:space-y-0 lg:gap-x-8">
 						<div class="relative">
 							<dt>
-								<CheckIcon class="absolute h-6 w-6 text-green-500" aria-hidden="true" />
 								<p class="md:ml-9 text-lg font-semibold leading-6 text-gray-900">Konstruktivizam</p>
 							</dt>
 							<dd class="mt-2 md:ml-9 text-base text-gray-500">Podrazumeva proces gradjenja značenja i predviđanja događaja. Pojedinac kroz konstrukte osmišljav svet događaja i svet mišljenja, emocija i ponašanja.</dd>
 						</div>
 						<div class="relative">
 							<dt>
-								<CheckIcon class="absolute h-6 w-6 text-green-500" aria-hidden="true" />
 								<p class="md:ml-9 text-lg font-semibold leading-6 text-gray-900">Transakciona analiza</p>
 							</dt>
 							<dd class="mt-2 md:ml-9 text-base text-gray-500">Teorija ličnosti, psihoterapijski modalitet i model komunikacije, zasniva se na analiziranju strukture ličnosti klijenata, obrazaca komunikacije, a metode kojima se postiže promena su analiza i dekontaminacija „skriptnih uverenja”, analiza „Ego stanja” i edukacija klijenata o drugačijim načinima reagovanja.</dd>
 						</div>
 						<div class="relative">
 							<dt>
-								<CheckIcon class="absolute h-6 w-6 text-green-500" aria-hidden="true" />
 								<p class="md:ml-9 text-lg font-semibold leading-6 text-gray-900">REBT</p>
 							</dt>
 							<dd class="mt-2 md:ml-9 text-base text-gray-500">Bazira se na se ABC modelu koji ilustruje pretpostavku o povezanosti kognicije i emocija – emocija nastaje kao posledica uverenja koje gajimo o događaju i ona mogu biti racionalna i iracionalna.</dd>
 						</div>
 						<div class="relative">
 							<dt>
-								<CheckIcon class="absolute h-6 w-6 text-green-500" aria-hidden="true" />
 								<p class="md:ml-9 text-lg font-semibold leading-6 text-gray-900">Geštalt</p>
 							</dt>
 							<dd class="mt-2 md:ml-9 text-base text-gray-500">Iskustvena terapija čijim principima se klijenti ohrabruju da dožive situaciju kroz ponovno odigravanje; postaju svesni svojih šema i ponašanja</dd>
 						</div>
 						<div class="relative">
 							<dt>
-								<CheckIcon class="absolute h-6 w-6 text-green-500" aria-hidden="true" />
 								<p class="md:ml-9 text-lg font-semibold leading-6 text-gray-900">Sistemska porodična terapija</p>
 							</dt>
 							<dd class="mt-2 md:ml-9 text-base text-gray-500">Fokusira se na promeni ponašanja, navođenjem članova porodice da urade nešto drugačije, čime će doći i do promene emocionalnih doživljaja, što vodi do oslobađanja simptoma koji postaju nepotrebni.</dd>
 						</div>
 						<div class="relative">
 							<dt>
-								<CheckIcon class="absolute h-6 w-6 text-green-500" aria-hidden="true" />
 								<p class="md:ml-9 text-lg font-semibold leading-6 text-gray-900">Psihodrama</p>
 							</dt>
 							<dd class="mt-2 md:ml-9 text-base text-gray-500">Bazira se na scenskoj ekspresiji; podrazumeva korišćenje dramskih tehnika i grupne dinamike. Klijenti su podstaknuti da produže i upotpune svoje postupke kroz postavku scena i  igranje uloga.</dd>
 						</div>
 						<div class="relative">
 							<dt>
-								<CheckIcon class="absolute h-6 w-6 text-green-500" aria-hidden="true" />
 								<p class="md:ml-9 text-lg font-semibold leading-6 text-gray-900">Telesna psihoterapija</p>
 							</dt>
 							<dd class="mt-2 md:ml-9 text-base text-gray-500">Podrazumeva dodir, pokret i disajne tehnike. Jedan od glavnih fokusa je psihosomatska integracija individue, a to podrazumeva razmatranje svih aspekata uma, tela, a nekad i duha</dd>
