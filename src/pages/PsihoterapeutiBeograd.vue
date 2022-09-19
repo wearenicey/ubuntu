@@ -655,7 +655,6 @@
 
 <script>
 import { required, email } from "vuelidate/lib/validators";
-import { CheckIcon } from '@heroicons/vue/24/outline'
 const people = [
 	{
 		name: "Jelena Lekić",
