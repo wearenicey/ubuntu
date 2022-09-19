@@ -89,10 +89,10 @@
 			<div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:py-24 lg:px-8">
 				<div>
 					<h2 class="text-lg font-semibold text-indigo-600">Terapijski pravci</h2>
-					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900">All-in-one platform</p>
-					<p class="mt-4 text-lg text-gray-500">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
+					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900">Kako da razlikujete psihoterapijske metode?</p>
+					<p class="mt-4 text-lg text-gray-500">Upoznajte se ukratko sa pristupima i metodama koje primenjujemo tokom terapije.</p>
 					<div class="mt-6">
-                <a href="#" class="inline-flex rounded-md border border-transparent bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-green-700-700">Saznaj više</a>
+                <a href="/blog/psihoterapijski-pravci/" class="inline-flex rounded-md border border-transparent bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-green-700-700">Saznaj više</a>
               </div>
 				</div>
 				<div class="mt-12 lg:col-span-2 lg:mt-0">
