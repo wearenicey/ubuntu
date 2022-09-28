@@ -23,7 +23,7 @@
 				<div class="text-center">
 					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihoterapija u psihološkom savetovalištu Ubuntu</h1>
 					<h2 class="mt-1 text-4xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
-					<p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
+					<p class="mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
 					<div class="lg:mt-10 mt-5 flex block justify-center">
 						<div class="inline-flex">
 							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Zakažite konsultaciju </a>
