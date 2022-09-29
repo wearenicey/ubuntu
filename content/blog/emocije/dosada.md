@@ -1,5 +1,5 @@
 ---
-title: Dosada
+title: Dosada - vrste, ponašanje i terapija
 category: emocije
 # ovo je i meta desc
 excerpt: Dosada – svima nama još iz detinjstva poznato osećanje, a većina nas je upozna i sa nelagodom i osećajem neizdrži koja uz ovo osećanje ide.
