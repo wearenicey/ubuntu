@@ -2,7 +2,7 @@
 title: 10 najčešćih predrasuda o psihoterapiji
 category: psihoterapija
 # ovo je i meta desc
-excerpt: Kada razmišljamo o tome da li da krenemo na psihoterapiju, pitanje iz naslova je jedno od najvažnijih koje postavljamo.
+excerpt: Iako se poslednjih godina dosta radi na podizanju svesti o važnosti mentalnog zdravlja, čini se da i dalje često imamo određenu vrstu zadrške kada je u pitanju obraćanje psihoterapeutu za pomoć.
 created: 2022-10-14
 date: 2022.10.14
 image: 10-najcescih-predrasuda-o-psihoterapiji.jpg
@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: 10-najcescih-predrasuda-o-psihoterapiji
 name: Aloo
-metaDesc: "Kako se procenjuje uspešnost psihoterpije. Kratak tekst o metodama i istraživanjima koja su dovela do odrđeneih rezultata."
+metaDesc: "Predrsude koje nas sprečavaju da prihvatimo psihoterpiju i njihovi uzroci. Da li je psihoterpija neophodna, da li je razonoda, da li boli, da li pomaže..."
 ---
 
 Svetski dan mentalnog zdravlja povod je da razmotrimo kakvu ulogu psihoterapeuti i psihoterapija imaju u našem društvu danas, kao i da preispitamo uobičajene predrasude koje ljudi često imaju u vezi sa osobama koje idu na psihoterapiju ili koriste neki drugi vid tretmana za poboljšanje mentalnog zdravlja. 
