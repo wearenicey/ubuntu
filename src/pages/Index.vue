@@ -21,7 +21,7 @@
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div class="text-center">
-					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihoterapija u psihološkom savetovalištu Ubuntu</h1>
+					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihološko savetovalište Ubuntu</h1>
 					<h2 class="mt-1 text-4xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
 					<p class="mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
 					<div class="lg:mt-10 mt-5 flex block justify-center">
