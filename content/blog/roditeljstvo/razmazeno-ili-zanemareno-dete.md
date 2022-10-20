@@ -14,7 +14,7 @@ image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
-path: razmazeno-ili-zanemareno-dete-razvojna-trauma
+path: razmazeno-ili-zanemareno-dete
 name: Aloo
 metaDesc: "Tekst o tome kako zanemareno dete možemo doživeti kao razmaženo."
 ---
