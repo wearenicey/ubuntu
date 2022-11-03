@@ -1,18 +1,18 @@
 ---
 title: Nasilje nad ženama u partnerskim odnosima
 category: nasilje
-excerpt: Nasilje u porodici je veoma kompleksan globalni fenomen koji se javlja nezavisno od kulturološkog konteksta, socijalnog položaja, nivoa obrazovanja.
+excerpt: Nasilje u porodici je kršenje ljudskih prava. Nasilje u porodici nije isto što i sukob odnosno konflikt.
 created: 2022-03-24
 date: 2022.03.24
 image: nasilje.jpg
 imageTwo:
   path: /nasilje.jpg
-  alt: "lutka u ruci i nasilje"
+  alt: "nasilje"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
-path: nasilje-nad-zenema-u-partnerskim-odnosima
+path: nasilje-nad-zenama-u-partnerskim-odnosima
 name: Aloo
 metaDesc: "Nasilje nad ženama u partnerskim odnosima je rasprostranjena pojava i vrsta nasilja u porodici. Oblik i načini takvog nasilja, kao i ciklusi koji se pri tome javljaju."
 ---
