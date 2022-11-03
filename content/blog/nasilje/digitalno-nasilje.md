@@ -14,7 +14,7 @@ featured: false
 pocetna: false
 path: digitalno-nasilje
 name: Aloo
-metaDesc: "Digitalno nasilje kao problem savremenog sveta. Nasilje ostavlja velike posledice na žrtvu. Naučimo kako da se ponašamo u digitalnom svetu i kako da se ponašamo ako neko sprovodi digitalno nasilje nad nama."
+metaDesc: "Digitalno nasilje kao problem savremenog sveta. Naučimo kako da se ponašamo u digitalnom svetu i kako da se ponašamo ako neko sprovodi digitalno nasilje nad nama."
 ---
 
 Da li ste se nekada našli u situaciji da podelite neki svoj sadržaj na internetu i povodom toga dobijete uvredljive komentare neistomišljenika? Iz čista mira neko reši da vas omalovažava, vređa, ponižava, podeli neovlašćeno ili zloupotrebi vaš sadržaj na bilo koji način. Nažalost, mediji nam u poslednje vreme sve češće prenose ovakve ili još gore primere gde osobe koje su žrtve ove vrste nasilja prolaze kroz ozbiljne traume. 
