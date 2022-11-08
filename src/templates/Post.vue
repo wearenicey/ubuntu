@@ -8,7 +8,7 @@
 				<div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full"></div>
 				<div class="relative px-4 sm:px-6 lg:px-8">
 					<div class="text-lg max-w-prose mx-auto">
-						<h1 class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ $page.post.title }}</h1>
+						<h1 class="mt-2 block text-3xl text-center leading-8 text-primary sm:text-4xl">{{ $page.post.title }}</h1>
 						<div class="text-center space-x-1 text-md pt-6 text-gray-500">
 							<time :datetime="$page.post.datetime">
 								{{ $page.post.humanTime }}
@@ -80,13 +80,13 @@
 					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 						<div class="flex-1">
 							<a href="/savetovaliste-novi-sad/" class="block mt-2">
-								<h2 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Novom Sadu</h2>
+								<h2 class="text-xl font-medium font-sans text-primary">Psihološko savetovalište u Novom Sadu</h2>
 								<p class="mt-3 text-base text-gray-500">Projekat "Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć u Novom Sadu.</p>
 							</a>
 						</div>
 					</div>
 					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-						<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
+						<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-secondary">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
 					</div>
 				</div>
 
@@ -97,13 +97,13 @@
 					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 						<div class="flex-1">
 							<a href="/savetovaliste-beograd/" class="block mt-2">
-								<h2 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu</h2>
+								<h2 class="text-xl font-medium font-sans text-primary">Psihološko savetovalište u Beogradu</h2>
 								<p class="mt-3 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 3 adrese.</p>
 							</a>
 						</div>
 					</div>
 					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-						<a href="/savetovaliste-beograd/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
+						<a href="/savetovaliste-beograd/" class="text-base font-medium text-secondary">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
 					</div>
 				</div>
 
@@ -114,13 +114,13 @@
 					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 						<div class="flex-1">
 							<a href="/online-savetovaliste/" class="block mt-2">
-								<h2 class="text-xl font-semibold text-gray-900">Online psihoterapija</h2>
+								<h2 class="text-xl font-medium font-sans text-primary">Online psihoterapija</h2>
 								<p class="mt-3 text-base text-gray-500">Kako bismo unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.</p>
 							</a>
 						</div>
 					</div>
 					<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-						<a href="/online-savetovaliste/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
+						<a href="/online-savetovaliste/" class="text-base font-medium text-secondary">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
 					</div>
 				</div>
 			</div>

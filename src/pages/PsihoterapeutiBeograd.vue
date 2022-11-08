@@ -9,7 +9,7 @@
 							<p>Beogradsko savetovalište čine saradnici različitih psihoterapijskih pravaca. Raznolikost u pristupu omogućava klijentima saradnju sa terapeutima stručnim za problematiku zbog koje žele da započnu proces psihoterapije.</p>
 
 							<div class="text-center lg:text-left pt-6 space-y-4">
-								<a href="tel:+381658286883" class="items-center flex lg:inline-block rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
+								<a href="tel:+381658286883" class="items-center flex lg:inline-block rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary ">
 									Nazovite za konsultaciju
 								</a>
 								<a href="#" @click="onClickTwo()" class="items-center flex lg:inline-block rounded-3xl lg:ml-2 justify-center px-5 py-3 border border-gray text-base font-medium text-black bg-white hover:bg-gray-50"> Pišite nam </a>
@@ -59,7 +59,7 @@
 		<div class="bg-white">
 			<div class="mx-auto py-12 px-6 sm:px-10 max-w-7xl sm:px-6 lg:px-8 lg:py-32">
 				<div class="space-y-12 md:space-y-24">
-					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute</h2>
+					<h2 class="text-3xl  font-bold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute</h2>
 
 					<ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 						<li v-for="person in people" :key="person.name">
@@ -92,7 +92,7 @@
 					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900">Kako da razlikujete psihoterapijske metode?</p>
 					<p class="mt-4 text-lg text-gray-500">Upoznajte se ukratko sa pristupima i metodama koje primenjujemo tokom terapije.</p>
 					<div class="mt-6">
-						<a href="/blog/psihoterapijski-pravci/" class="inline-flex rounded-md border border-transparent bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-green-700-700">Saznaj više</a>
+						<a href="/blog/psihoterapijski-pravci/" class="inline-flex rounded-md border border-transparent bg-secondary px-4 py-2 text-base font-medium text-white shadow-sm -700">Saznaj više</a>
 					</div>
 				</div>
 				<div class="mt-12 lg:col-span-2 lg:mt-0">
@@ -632,7 +632,7 @@
 										text-base
 										font-medium
 										text-white
-										bg-green-600
+										bg-secondary
 										hover:bg-green-700
 										focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
 									"

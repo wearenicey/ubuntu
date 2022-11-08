@@ -4,7 +4,7 @@
 			<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
 				<div class="relative mt-12 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
 					<div class="relative">
-						<h1 class="text-3xl text-purple-800 tracking-tight sm:text-5xl">Šta Ubuntu čini drugačijim?</h1>
+						<h1 class="text-3xl text-primary tracking-tight sm:text-5xl">Šta Ubuntu čini drugačijim?</h1>
 						<p class="mt-6 text-lg text-gray-500">
 							Misija Ubuntu centra je da svima omogući lako dostupnu psihološku pomoć i lični rast i razvoj. Uz pomoć motivisanih i visokokvalifikovanih stručnjaka iz oblasti mentalnog zdravlja kroz savetovanje, psihoterapiju, radionice i
 							treninge zajedno podižemo kvalitet života naših klijenata.
@@ -12,7 +12,7 @@
 
 						<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
 							<div>
-								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-green-700"> Kontaktirajte nas </a>
+								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-secondary "> Kontaktirajte nas </a>
 							</div>
 						</div>
 					</div>
@@ -39,13 +39,13 @@
 
 				<div class="relative mt-12 lg:mt-32 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
 					<div class="relative">
-						<h2 class="text-3xl text-purple-800 tracking-tight sm:text-4xl">Mi smo tu da Vam pomognemo</h2>
+						<h2 class="text-3xl text-primary tracking-tight sm:text-4xl">Mi smo tu da Vam pomognemo</h2>
 						<p class="mt-6 text-lg text-gray-500">Želeli bismo da psihoterapiju i naš ostali edukativni materijal učinimo dostupnim svim ljudima kojima su neophodni.</p>
 						<p class="mt-6 text-lg text-gray-500">Predano radimo na tome da naš Centar bude sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.</p>
 
 						<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
 							<div>
-								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-green-700"> Kontaktirajte nas </a>
+								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-secondary "> Kontaktirajte nas </a>
 							</div>
 						</div>
 					</div>
@@ -112,7 +112,7 @@
 
 		<div class="relative py-16 bg-white">
 			<div class="hidden absolute top-0 inset-x-0 h-1/2 lg:block" aria-hidden="true"></div>
-			<div class="max-w-7xl mx-auto bg-green-600 lg:bg-transparent lg:px-8">
+			<div class="max-w-7xl mx-auto bg-secondary lg:bg-transparent lg:px-8">
 				<div class="lg:grid lg:grid-cols-12">
 					<div class="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
 						<div class="absolute inset-x-0 h-1/2 bg-white lg:hidden" aria-hidden="true"></div>
@@ -123,7 +123,7 @@
 						</div>
 					</div>
 
-					<div class="relative bg-green-600 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
+					<div class="relative bg-primary lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
 						<div class="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block" aria-hidden="true">
 							<svg class="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0" width="42" height="31" viewBox="0 0 42 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M10.9614 -33.171L59.642 7.91296L0.200058 30.1334L10.9614 -33.171Z" fill="#F1F58F" />

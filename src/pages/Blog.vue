@@ -3,7 +3,7 @@
 		<div>
 			<div class="relative max-w-7xl mx-auto px-6 mt-20 sm:px-0">
 				<div class="text-center">
-					<h1 class="text-3xl text-gray-800 sm:text-4xl">Blogovi o pshoterapiji, psihoanalizi i psihologiji</h1>
+					<h1 class="text-3xl text-primary sm:text-4xl">Blogovi o pshoterapiji, psihoanalizi i psihologiji</h1>
 					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Terapeuti pišu za vas</p>
 					<div class="mt-10"></div>
 				</div>
@@ -12,7 +12,7 @@
 				</div>
 				<div class="posts">
 					<transition name="fade">
-						<div class="mt-4 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+						<div class="mt-4 max-w-lg mx-auto grid gap-8 lg:grid-cols-3 lg:max-w-none">
 							<div v-for="blog of loadedPosts" :key="blog.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden tst">
 								<div class="flex-shrink-0">
 									<a :href="blog.node.path">
@@ -25,7 +25,7 @@
 											<a :href="blog.node.path" class="hover:underline"> </a>
 										</p>
 										<a :href="blog.node.path" class="block mt-2">
-											<p class="text-xl font-semibold text-gray-900">
+											<p class="text-xl font-medium text-primary">
 												{{ blog.node.title }}
 											</p>
 											<p class="mt-3 text-base text-gray-500">

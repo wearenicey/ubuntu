@@ -1,10 +1,10 @@
 <template>
-	<div class="relative mx-auto max-w-6xl  mt-12 px-4 lg:px-0">
+	<div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8 mt-12">
 		<div class="text-center">
-			<h2 class="text-3xl text-purple-800 sm:text-4xl">Iz naše Blog radionice</h2>
+			<h2 class="text-3xl text-primary sm:text-4xl">Iz naše Blog radionice</h2>
 			<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Aktuelni tekstovi na temu psihoterapije i psihologije, kao dodatak ličnom rastu i razvoju</p>
 		</div>
-			<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none">
+		<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none">
 			<div v-for="post in $static.pocetna.edges" :key="post.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 				<a :href="post.node.path">
 					<div class="flex-shrink-0">
@@ -25,7 +25,6 @@
 							</a>
 						</div>
 						<div class="mt-6 flex items-center">
-					
 							<div class="">
 								<div class="flex space-x-1 text-sm text-gray-500">
 									<time :datetime="post.node.datetime">

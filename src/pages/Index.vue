@@ -21,12 +21,12 @@
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 				<div class="text-center">
-					<h1 class="text-base font-semibold text-purple-400 tracking-wide uppercase font-sans">Psihološko savetovalište Ubuntu</h1>
-					<h2 class="mt-1 text-4xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
+					<h1 class="text-base font-semibold text-support-100 tracking-wide uppercase font-sans">Psihološko savetovalište Ubuntu</h1>
+					<h2 class="mt-1 text-4xl text-primary sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
 					<p class="mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
 					<div class="lg:mt-10 mt-5 flex block justify-center">
 						<div class="inline-flex">
-							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Zakažite konsultaciju </a>
+							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary"> Zakažite konsultaciju </a>
 						</div>
 					</div>
 					<div class="relative">
@@ -62,12 +62,12 @@
 			<circle cx="-329" cy="543" r="543" fill="#FEF2F2" />
 		</svg>
 
-		<div class="relative bg-green-900 mt-1 lg:mt-20">
+		<div class="relative bg-primary mt-1 lg:mt-20">
 			<div class="h-80 w-full absolute bottom-0 xl:inset-0 xl:h-full">
 				<div class="h-full w-full xl:grid xl:grid-cols-2">
 					<div class="h-full xl:relative xl:col-start-2">
 						<g-image class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="~/assets/img/tim.jpg" alt="psihološko savetovalište u grupi" />
-						<div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-green-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
+						<div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-primary xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
 					</div>
 				</div>
 			</div>
@@ -88,24 +88,28 @@
 
 					<div class="mt-10">
 						<dl class="grid grid-cols-2 gap-x-4 gap-y-8">
-							<div class="border-t-2 border-green-800 pt-6">
-								<dt class="text-base font-medium text-green-50">Osnovani</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-green-400 font-serif">2016</dd>
+							<div class="">
+								<div class="border-t-2 border-support-100 pb-6 opacity-20"></div>
+								<dt class="text-base font-medium text-support-100">Osnovani</dt>
+								<dd class="text-3xl font-semibold text-white font-sans">2016</dd>
 							</div>
 
-							<div class="border-t-2 border-green-800 pt-6">
-								<dt class="text-base font-medium text-green-50">Stručni saradnici</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-green-400 font-serif">50</dd>
+							<div class="">
+								<div class="border-t-2 border-support-100 pb-6 opacity-20"></div>
+								<dt class="text-base font-medium text-support-100">Stručni saradnici</dt>
+								<dd class="text-3xl font-semibold text-white font-sans">50</dd>
 							</div>
 
-							<div class="border-t-2 border-green-800 pt-6">
-								<dt class="text-base font-medium text-green-50 font-sans">Klijenti do sada</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-green-400 font-serif">650+</dd>
+							<div class="">
+								<div class="border-t-2 border-support-100 pb-6 opacity-20"></div>
+								<dt class="text-base font-medium text-support-100 font-sans">Klijenti do sada</dt>
+								<dd class="text-3xl font-semibold text-white font-sans">650+</dd>
 							</div>
 
-							<div class="border-t-2 border-green-800 pt-6">
-								<dt class="text-base font-medium text-green-50">Broj projekata</dt>
-								<dd class="text-3xl font-extrabold tracking-tight text-green-400 font-serif">8</dd>
+							<div class="">
+								<div class="border-t-2 border-support-100 pb-6 opacity-20"></div>
+								<dt class="text-base font-medium text-support-100">Broj projekata</dt>
+								<dd class="text-3xl font-semibold text-white font-sans">8</dd>
 							</div>
 						</dl>
 					</div>
@@ -168,13 +172,11 @@
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl z-50">
 				<div class="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
 					<div>
-						<h2 class="text-3xl text-purple-900 tracking-tight sm:text-5xl">Tim psihoterapeuta savetovališta, Vama na usluzi.</h2>
+						<h2 class="text-3xl text-primary tracking-tight sm:text-5xl">Tim psihoterapeuta savetovališta, Vama na usluzi.</h2>
 						<p class="mt-6 max-w-3xl text-lg leading-7 pb-4 text-gray-500">Trudimo se da naše psihološko savetovalište predstavlja sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.</p>
 						<div class="space-y-4">
-							<a href="/psihoterapeuti-beograd/" class="inline-block items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Psihoterapeuti Beograd </a>
-							<a href="/psihoterapeuti-novi-sad/" class="inline-block items-center lg:ml-2 rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700">
-								Psihoterapeuti Novi Sad
-							</a>
+							<a href="/psihoterapeuti-beograd/" class="inline-block items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary"> Psihoterapeuti Beograd </a>
+							<a href="/savetovaliste-novi-sad/" class="inline-block items-center lg:ml-2 rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary"> Psihoterapeuti Novi Sad </a>
 						</div>
 					</div>
 					<div class="mt-12">
@@ -201,19 +203,18 @@
 				<rect width="59.4361" height="115.358" rx="29.718" transform="matrix(0.970418 -0.241432 0.253756 0.967268 -6.29614 8.51465)" fill="#A377FF" />
 			</svg>
 		</div>
+
 		<div class="mt-20">
 			<div class="relative pb-32 bg-gray-800">
-				<svg class="hidden lg:block absolute top-96" width="257" height="1086" viewBox="0 0 257 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<circle cx="-286" cy="543" r="543" fill="#FEF2F2" />
-				</svg>
+
 
 				<div class="absolute inset-0">
 					<g-image class="w-full h-full object-cover" src="~/assets/img/home-prvi-korak.jpg" alt="prvi koraci u psihoterapiji" />
-					<div class="absolute inset-0 bg-green-800 mix-blend-multiply" aria-hidden="true"></div>
+					<div class="absolute inset-0 bg-secondary mix-blend-multiply" aria-hidden="true"></div>
 				</div>
 				<div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
 					<h2 class="text-4xl tracking-tight text-white md:text-5xl lg:text-6xl">Prvi korak ka ličnom rastu i razvoju ste već napravili. Da li ste spremni za sledeći?</h2>
-					<p class="mt-6 max-w-3xl text-xl text-gray-300">
+					<p class="mt-6 max-w-3xl text-xl text-white">
 						Na raspolaganju su vam <span class="font-bold">psihološka savetovališta</span> u Novom Sadu i Beogradu. Takođe, postoji mogućnost i za <span class="font-bold">psihoterapiju online</span>.
 					</p>
 				</div>
@@ -229,13 +230,13 @@
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
 								<a href="/savetovaliste-novi-sad/" class="block mt-2">
-									<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Novom Sadu</h3>
+									<h3 class="text-xl font-sans font-medium text-gray-900">Psihološko savetovalište u Novom Sadu</h3>
 									<p class="mt-3 text-base text-gray-500">Projekat "Novosadsko savetovalište Ubuntu" je pokrenut 2016. godine, sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć u Novom Sadu.</p>
 								</a>
 							</div>
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
+							<a href="/savetovaliste-novi-sad/" class="text-base font-medium text-secondary">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
 
@@ -246,13 +247,13 @@
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
 								<a href="/savetovaliste-beograd/" class="block mt-2">
-									<h3 class="text-xl font-semibold text-gray-900">Psihološko savetovalište u Beogradu</h3>
+									<h3 class="text-xl font-sans font-medium text-gray-900">Psihološko savetovalište u Beogradu</h3>
 									<p class="mt-3 text-base text-gray-500">3 godine kasnije, usled velikog interesovanja i uspeha, pokrenut je i projekat "Beogradsko savetovalište Ubuntu", trenutno na 3 adrese.</p>
 								</a>
 							</div>
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="/savetovaliste-beograd/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
+							<a href="/savetovaliste-beograd/" class="text-base font-medium text-secondary">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
 
@@ -263,17 +264,101 @@
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
 								<a href="/online-savetovaliste/" class="block mt-2">
-									<h3 class="text-xl font-semibold text-gray-900">Online psihoterapija</h3>
+									<h3 class="text-xl font-sans font-medium text-gray-900">Online psihoterapija</h3>
 									<p class="mt-3 text-base text-gray-500">Kako bismo unapredili rad savetovališta i usluge koje pružamo, od sada je moguće zakazati rad sa psihoterapeutom online.</p>
 								</a>
 							</div>
 						</div>
 						<div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-							<a href="/online-savetovaliste/" class="text-base font-medium text-green-700 hover:text-green-600">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
+							<a href="/online-savetovaliste/" class="text-base font-medium text-secondary">Saznajte više<span aria-hidden="true"> &rarr;</span></a>
 						</div>
 					</div>
 				</div>
 			</section>
+		</div>
+
+		<div class="bg-primary">
+			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
+				<div class="text-center">
+					<h2 class="text-xl leading-6 text-gray-300">Cenovnik</h2>
+					<p class="mt-2 text-3xl tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p>
+				</div>
+			</div>
+
+			<div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
+				<div class="relative z-0">
+					<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
+					<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+						<div class="relative lg:grid lg:grid-cols-7">
+							<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
+								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
+									<div class="flex flex-1 flex-col">
+										<div class="bg-white px-6 py-10">
+											<div>
+												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Povoljno</h3>
+												<div class="mt-4 flex items-center justify-center">
+													<span class="flex items-start px-3 text-6xl tracking-tight text-gray-900">
+														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+														<span class="font-bold">1500</span>
+													</span>
+													<span class="text-xl font-medium text-gray-500">/ seansa</span>
+												</div>
+											</div>
+										</div>
+										<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
+											<ul role="list" class="space-y-4">
+												<li v-for="feature in hobbyFeatures" :key="feature" class="flex items-start">
+													<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+												</li>
+											</ul>
+											<div class="mt-8">
+												<div class="rounded-lg shadow-md">
+													<a href="/kontakt" class="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby">Kontaktirajte nas</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-8 lg:row-start-1 lg:row-end-4 lg:mx-0 lg:mt-0 lg:max-w-none">
+								<div class="relative z-10 rounded-lg shadow-xl">
+									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary" aria-hidden="true" />
+									<div class="absolute inset-x-0 top-0 translate-y-px transform">
+										<div class="flex -translate-y-1/2 transform justify-center">
+											<span class="inline-flex rounded-full bg-secondary px-4 py-1 text-base font-semibold text-white">Najtraženije</span>
+										</div>
+									</div>
+									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
+										<div>
+											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Brzo</h3>
+											<div class="mt-4 flex items-center justify-center">
+												<span class="flex items-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
+													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+													<span class="font-bold">2500</span>
+												</span>
+												<span class="text-2xl font-medium text-gray-500">/ seansa</span>
+											</div>
+										</div>
+									</div>
+									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
+										<ul role="list" class="space-y-4">
+											<li v-for="feature in growthFeatures" :key="feature" class="flex items-start">
+												<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+											</li>
+										</ul>
+										<div class="mt-10">
+											<div class="rounded-lg shadow-md">
+												<a href="https://docs.google.com/forms/d/e/1FAIpQLSc0UvXaoCsFP8GW4_o9Z3iygHY91Re896bD9T72t8bRpXOwVA/viewform" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popuni upitnik</a>
+											</div>
+											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div>
@@ -374,17 +459,17 @@
 						/>
 					</svg>
 				</div>
-				<div class="relative rounded-2xl px-6 py-10 bg-purple-800 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+				<div class="relative rounded-2xl px-6 py-10 bg-primary overflow-hidden shadow-xl sm:px-12 sm:py-20">
 					<div aria-hidden="true" class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
 						<svg class="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360">
-							<path class="text-purple-400 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
+							<path class="text-purple-500 text-opacity-20" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
 							<path class="text-purple-600 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
 						</svg>
 					</div>
 					<div class="relative">
 						<div class="text-center">
 							<h2 class="text-3xl text-white tracking-tight sm:text-4xl">Saveti za psihološki razvoj</h2>
-							<p class="mt-6 mx-auto max-w-2xl text-lg text-red-100">Želite da budete u toku sa našim objavama? Obećavamo da nećemo slati više od jednog mejla nedeljno 😊</p>
+							<p class="mt-6 mx-auto max-w-2xl text-lg text-white">Želite da budete u toku sa našim objavama? Obećavamo da nećemo slati više od jednog mejla nedeljno 😊</p>
 						</div>
 						<form @submit.prevent="submit" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex" id="newsletter" name="newsletter" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 							<div class="min-w-0 flex-1">
@@ -411,16 +496,15 @@
 									class="
 										block
 										w-full
-										rounded-2xl
+										rounded
 										border border-transparent
 										px-5
 										py-3
-										bg-green-500
+										bg-secondary
 										text-base
 										font-medium
 										text-white
 										shadow
-										hover:bg-green-600
 										focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-green-500
 										sm:px-10
 									"
@@ -449,6 +533,9 @@
 //importovane komponente
 import CardItem from "../components/CardItem.vue";
 import { required, email } from "vuelidate/lib/validators";
+
+const hobbyFeatures = ["Kvalitetna psihoterapijska podrška", "Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "Ograničen broj susreta (12)"];
+const growthFeatures = ["Kvalitetna psihoterapijska podrška", "Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "Mogućnost rada sa iskusnijim psihoterapeutima", "Neograničen broj susreta", "Fiksna cena u periodu od dve godine"];
 
 // meta deskripcija
 export default {
@@ -502,9 +589,10 @@ export default {
 	//definisane komponente untar stranice
 
 	data() {
-
 		//povratni novi objekti
 		return {
+			hobbyFeatures,
+			growthFeatures,
 			formData: {
 				email: "",
 				submitStatus: null,
@@ -523,7 +611,6 @@ export default {
 		},
 	},
 	methods: {
-
 		//javascript objekat se pretvara u string radi dalje obrade
 		encode(data) {
 			return Object.keys(data)
@@ -540,7 +627,6 @@ export default {
 			if (this.$v.formData.$invalid) {
 				this.formData.submitStatus = "ERROR";
 			} else {
-
 				// skupljeni podaci se salju  POST metodom
 				fetch("/", {
 					method: "POST",
@@ -552,7 +638,6 @@ export default {
 						...this.formData,
 					}),
 				})
-
 					// dobijanje odgovora sa servera
 					.then(
 						() => (this.formData.submitStatus = "PENDING"),

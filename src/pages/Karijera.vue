@@ -13,7 +13,7 @@
 								<div class="sm:max-w-xl sm:mx-auto lg:mx-0">
 									<div class="sm:flex">
 										<div class="mt-3 text-center">
-											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Popunite formular </a>
+											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary "> Popunite formular </a>
 										</div>
 									</div>
 								</div>
@@ -35,7 +35,7 @@
 			</svg>
 			<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
 				<div>
-					<h2 class="mt-2 text-3xl text-purple-800 tracking-tight sm:text-4xl">Zdrav kolektiv za zdrave ideje</h2>
+					<h2 class="mt-2 text-3xl text-primary tracking-tight sm:text-4xl">Zdrav kolektiv za zdrave ideje</h2>
 					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši saradnici i tako se i odnosimo prema njima.</p>
 				</div>
 				<div class="mt-12">
@@ -49,7 +49,7 @@
 		</svg>
 		<div class="relativ py-16 sm:py-24 lg:py-32">
 			<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-				<h2 class="mt-2 text-3xl text-gray-900 sm:text-4xl">Šta naše savetovalište nudi?</h2>
+				<h2 class="mt-2 text-3xl text-primary sm:text-4xl">Šta naše savetovalište nudi?</h2>
 				<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Možete očekivati sistemsku podršku, logistiku i ohrabrenje za ostvarivanje vaših ličnih ideja i ciljeva.</p>
 				<div class="mt-12">
 					<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -188,7 +188,7 @@
 			</div>
 		</div>
 
-		<div class="mt-16 pb-16 bg-green-900 lg:pb-0 lg:z-10 lg:relative" style="z-index: 99">
+		<div class="my-16 pb-16 bg-primary lg:pb-0 lg:z-10 lg:relative" style="z-index: 99">
 			<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
 				<div class="relative lg:-my-8">
 					<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
@@ -227,7 +227,7 @@
 		<div class="py-14">
 			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
 				<div class="max-w-3xl mx-auto">
-					<h2 class="text-center text-3xl text-gray-800 sm:text-4xl">Najčešća pitanja i odgovori</h2>
+					<h2 class="text-center text-3xl text-primary sm:text-4xl">Najčešća pitanja i odgovori</h2>
 					<dl class="mt-6 space-y-6">
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
@@ -384,21 +384,21 @@
 		</div>
 
 		<div class="relative bg-purple-100">
-			<div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+			<div class="relative h-56 bg-primary sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
 				<g-image class="w-full h-full object-cover" src="~/assets/img/karijera-3.jpg" alt="" />
-				<div aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-600 mix-blend-multiply"></div>
+				<div aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-primary to-secondary mix-blend-multiply"></div>
 			</div>
 			<div class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
 				<div class="md:ml-auto md:w-1/2 md:pl-10">
 					<h2 class="text-base font-semibold uppercase tracking-wider font-sans">Kakve saradnike tražimo?</h2>
-					<p class="mt-2 text-3xl font-serif sm:text-4xl">Naši saradnici su vredni, proaktivni i spremni da rade na sebi.</p>
+					<p class="mt-2 text-3xl font-serif sm:text-4xl text-primary">Naši saradnici su vredni, proaktivni i spremni da rade na sebi.</p>
 					<p class="mt-3 text-lg text-gray-700">
 						Tražimo ljude koji ne rade naporno, već pametno, znaju da prepoznaju kad je vreme da više rade, a kada je vreme za pauzu i regrupisanje snaga. Naravno, stručnost nam je veoma važna, ali ne morate da budete eksperti, važno je da
 						ste spremni da to postanete uz našu pomoć.
 					</p>
 					<div class="mt-8">
 						<div class="inline-flex rounded-3xl shadow">
-							<a href="/zasto-ubuntu/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-green-600 hover:bg-gray-700">
+							<a href="/zasto-ubuntu/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-secondary hover:bg-gray-700">
 								Saznajte više o Ubuntu Savetovalištu
 							</a>
 						</div>
@@ -657,7 +657,7 @@
 							</div>
 
 							<div class="py-10 px-6 sm:px-10 xl:p-12">
-								<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Kontakt informacije</h3>
+								<h3 class="mt-1 text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">Kontakt informacije</h3>
 								<p class="mt-6 text-base text-gray-400 max-w-3xl">Prvi korak je za svakoga težak, dozvolite nam da vam pružimo punu podršku na vašem karijernom putu. Popunite formular ili nas kontaktirajte.</p>
 
 								<dl class="mt-8 space-y-6">
@@ -946,9 +946,8 @@
 											text-base
 											font-medium
 											text-white
-											bg-green-600
-											hover:bg-green-700
-											focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
+											bg-secondary
+											focus:outline-none focus:ring-2 focus:ring-offset-2
 										"
 									>
 										Pošaljite poruku

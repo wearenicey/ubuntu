@@ -7,14 +7,14 @@
 					<div class="absolute inset-0">
 						<g-image immediate="true" class="h-full w-full object-cover" src="~/assets/img/beograd-psihoterapija.jpg" alt="psihoterpija Ubuntu Beograd" />
 
-						<div class="absolute inset-0 bg-cyan-600 mix-blend-multiply"></div>
+						<div class="absolute inset-0 bg-primary opacity-80"></div>
 					</div>
 					<div class="relative max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-12">
 						<h1 class="font-serif text-center text-4xl tracking-tigh sm:text-5xl lg:text-6xl text-white"><span class="text-green-200">Psihoterapija</span> u Beogradu</h1>
 						<p class="mt-6 text-2xl text-center text-white max-w-lg mx-auto">Beogradsko savetovalište Ubuntu se nalazi na Zelenom vencu, Novom Beogradu i u Starom Gradu.</p>
 						<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:gap-5">
-								<a href="tel:+381658286883" class="flex items-center justify-center px-5 py-4 border border-transparent text-lg font-medium shadow-sm text-white rounded-full bg-yellow-600 hover:bg-yellow-700 sm:px-8">
+							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex">
+								<a href="tel:+381658286883" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium shadow-sm text-white rounded-full bg-secondary hover:bg-yellow-700 sm:px-8">
 									Nazovite za konsultaciju
 								</a>
 							</div>
@@ -57,14 +57,14 @@
 				</svg>
 
 				<div class="relative">
-					<h2 class="text-center text-3xl leading-8 text-purple-800 sm:text-4xl">Psihološko savetovalište Ubuntu Beograd</h2>
+					<h2 class="text-center text-3xl leading-8 text-primary sm:text-4xl">Psihološko savetovalište Ubuntu Beograd</h2>
 					<p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">Projekat pokrenut 2019. godine od strane Ubuntu centra za rast i razvoj ljudskog potencijala sa namerom da pružimo lako dostupnu psihološku pomoć u Beogradu.</p>
 				</div>
 
 				<div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
 					<div class="relative">
-						<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Na koji način savetovalište funkcioniše?</h3>
-						<p class="mt-3 text-lg text-gray-500">
+						<h3 class="text-2xl text-center lg:text-left text-gray-700 tracking-tight sm:text-3xl">Na koji način savetovalište funkcioniše?</h3>
+						<p class="mt-3 text-center lg:text-left text-lg text-gray-500">
 							Projekat je samoodrživ i finansira se uz pomoć dobrovoljne donacije građana. Donacije se koriste isključivo u svrhu održavanja rada savetovališta i profesionalnog ulaganja u tim psihoterapeuta koji je angažovan u okviru
 							projekta.
 						</p>
@@ -78,15 +78,16 @@
 				<div class="relative mt-12 sm:mt-16 lg:mt-24">
 					<div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
 						<div class="lg:col-start-2">
-							<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
-							<p class="mt-3 text-lg text-gray-500">
-								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 3.000 dinara u slučaju individualne, odnosno 5.000 dinara u slučaju partnerske i porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.500 dinara u slučaju individualne psihoterapije, i 3000 dinara po seansi kada je bilo koji vid grupne terapije u pitanju - terapija para, porodična ili bračna.
+							<h3 class="text-2xl text-center lg:text-left text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
+							<p class="text-center lg:text-left mt-3 text-lg text-gray-500">
+								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 3.000 dinara u slučaju individualne, odnosno 5.000 dinara u slučaju partnerske i
+								porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.500 dinara u slučaju individualne psihoterapije, i 3000 dinara po seansi kada je bilo koji vid grupne terapije u pitanju - terapija para, porodična ili bračna.
 							</p>
-							<div class="mt-6">
+							<div class="mt-12 flex justify-center lg:justify-start">
 								<a
 									href="#"
 									@click="onClickTwo()"
-									class="text-center rounded-3xl border border-transparent px-5 py-3 bg-green-600 text-base font-medium text-white shadow hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2 sm:px-10"
+									class="text-center rounded-3xl border border-transparent px-5 py-3 bg-secondary text-base font-medium text-white shadow focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2 sm:px-10"
 								>
 									Kontaktirajte nas za više informacija
 								</a>
@@ -105,7 +106,7 @@
 			<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
 		</svg>
 
-		<div class="bg-purple-800">
+		<div class="bg-primary">
 			<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
 				<h2 class="text-3xl font-sans tracking-tight text-gray-900 md:text-4xl text-center md:text-left">
 					<span class="block text-white font-bold">Spremni za podršku? </span>
@@ -113,14 +114,15 @@
 				</h2>
 				<div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 justify-center md:justify-start">
 					<div class="inline-flex">
-						<a href="/psihoterapeuti-beograd" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Psihoterapeuti Beograd </a>
+						<a href="/psihoterapeuti-beograd" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border-transparent text-base font-medium text-white bg-secondary"> Psihoterapeuti Beograd </a>
 					</div>
 				</div>
 			</div>
 		</div>
+
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
-				<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl text-center pb-10">Zavirite u naše prostorije</h2>
+				<h2 class="text-3xl tracking-tight text-primary sm:text-4xl text-center pb-10">Zavirite u naše prostorije</h2>
 				<div class="relative flex items-center justify-center h-96 overflow-hidden">
 					<div class="absolute right-0 m-4 lg:m-10 bottom-0 z-30">
 						<div class="p-6 lg:w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -139,11 +141,11 @@
 									text-sm
 									font-medium
 									text-center text-white
-									bg-green-600
+									bg-secondary
 									rounded-lg
 									hover:bg-green-800
 									focus:ring-4 focus:outline-none focus:ring-green-300
-									dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+									dark:bg-secondary dark:hover:bg-green-700 dark:focus:ring-green-800
 								"
 							>
 								Pogledaj video turu
@@ -176,11 +178,11 @@
 									text-sm
 									font-medium
 									text-center text-white
-									bg-green-600
+									bg-secondary
 									rounded-lg
 									hover:bg-green-800
 									focus:ring-4 focus:outline-none focus:ring-green-300
-									dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+									dark:bg-secondary dark:hover:bg-green-700 dark:focus:ring-green-800
 								"
 							>
 								Pogledaj video turu
@@ -198,10 +200,10 @@
 			</div>
 		</div>
 
-		<div class="overflow-hidden">
+		<div class="overflow-hidden mb-12">
 			<div class="relative max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
 				<div class="text-left md:text-center mb-12">
-					<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl">Psihoterapija u Beogradu dostupna svima</h2>
+					<h2 class="text-3xl tracking-tight text-primary sm:text-4xl">Psihoterapija u Beogradu dostupna svima</h2>
 				</div>
 
 				<div class="relative lg:grid lg:gap-x-8">
@@ -275,14 +277,107 @@
 			</div>
 		</div>
 
+		<div class="bg-primary">
+			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
+				<div class="text-center">
+					<h2 class="text-xl leading-6 text-gray-300">Cenovnik</h2>
+					<p class="mt-2 text-3xl tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p>
+				</div>
+			</div>
+
+			<div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
+				<div class="relative z-0">
+					<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
+					<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+						<div class="relative lg:grid lg:grid-cols-7">
+							<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
+								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
+									<div class="flex flex-1 flex-col">
+										<div class="bg-white px-6 py-10">
+											<div>
+												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Povoljno</h3>
+												<div class="mt-4 flex items-center justify-center">
+													<span class="flex items-start px-3 text-6xl tracking-tight text-gray-900">
+														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+														<span class="font-bold">1500</span>
+													</span>
+													<span class="text-xl font-medium text-gray-500">/ seansa</span>
+												</div>
+											</div>
+										</div>
+										<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
+											<ul role="list" class="space-y-4">
+												<li v-for="feature in hobbyFeatures" :key="feature" class="flex items-start">
+													<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+												</li>
+											</ul>
+											<div class="mt-8">
+												<div class="rounded-lg shadow-md">
+													<a href="/kontakt" class="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby">Kontaktirajte nas</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-8 lg:row-start-1 lg:row-end-4 lg:mx-0 lg:mt-0 lg:max-w-none">
+								<div class="relative z-10 rounded-lg shadow-xl">
+									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary" aria-hidden="true" />
+									<div class="absolute inset-x-0 top-0 translate-y-px transform">
+										<div class="flex -translate-y-1/2 transform justify-center">
+											<span class="inline-flex rounded-full bg-secondary px-4 py-1 text-base font-semibold text-white">Najtraženije</span>
+										</div>
+									</div>
+									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
+										<div>
+											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Brzo</h3>
+											<div class="mt-4 flex items-center justify-center">
+												<span class="flex items-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
+													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+													<span class="font-bold">2500</span>
+												</span>
+												<span class="text-2xl font-medium text-gray-500">/ seansa</span>
+											</div>
+										</div>
+									</div>
+									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
+										<ul role="list" class="space-y-4">
+											<li v-for="feature in growthFeatures" :key="feature" class="flex items-start">
+												<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+											</li>
+										</ul>
+										<div class="mt-10">
+											<div class="rounded-lg shadow-md">
+												<a
+													href="https://docs.google.com/forms/d/e/1FAIpQLSc0UvXaoCsFP8GW4_o9Z3iygHY91Re896bD9T72t8bRpXOwVA/viewform"
+													class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white"
+													aria-describedby="tier-growth"
+													>Popuni upitnik</a
+												>
+											</div>
+											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="bg-white py-16 lg:py-24">
 			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="relative py-24 px-8 bg-green-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
+				<div class="relative py-24 px-8 bg-secondary rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
 					<div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-						<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="psihoterapija Beograd" class="w-full h-full object-cover" />
+						<img
+							src="https://images.unsplash.com/photo-1599842057874-37393e9342df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+							alt="psihoterapija Beograd"
+							class="w-full h-full object-cover"
+						/>
 					</div>
 					<div class="relative lg:col-span-1">
-						<h2 class="text-2xl font-medium sm:text-2xl text-white">Referenca</h2>
+						<h2 class="text-2xl font-medium sm:text-2xl text-white">Iskustvo</h2>
 						<blockquote class="mt-6 text-white">
 							<p class="text-xl font-medium sm:text-2xl">
 								Profesionalno od prvog kontakta. Mnogo mi znače Snežanina stručnost, posvećenost klijentu i toplina, zahvaljujući kojima sam stekla korisne uvide koji mi pomažu da razrešim svoje unutrašnje dileme.
@@ -297,10 +392,11 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="">
 			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
 				<div class="max-w-3xl mx-auto">
-					<h2 class="text-center text-3xl text-purple-800 sm:text-4xl">Vi pitate, psihoterapeut odgovara</h2>
+					<h2 class="text-center text-3xl text-primary sm:text-4xl">Vi pitate, psihoterapeut odgovara</h2>
 					<dl class="mt-6 space-y-6">
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
@@ -437,6 +533,7 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="sm:pt-24">
 			<div class="max-w-7xl mx-auto px-4 pb-20" id="scroll">
 				<div class="relative bg-white">
@@ -687,7 +784,7 @@
 							</div>
 
 							<div class="">
-								<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom u Beogradu</h3>
+								<h3 class="mt-1 text-center lg:text-left text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom u Beogradu</h3>
 								<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
 								<dl class="mt-8 space-y-6">
 									<dt><span class="sr-only">Lokacija</span></dt>
@@ -897,27 +994,12 @@
 										</div>
 									</div>
 								</div>
-								<div class="sm:col-span-2">
+								<div class="sm:col-span-2 flex justify-center lg:justify-end">
 									<button
 										:disabled="formData.submitStatus === 'OK'"
 										type="submit"
 										class="
-											mt-2
-											w-full
-											inline-flex
-											items-center
-											justify-center
-											px-6
-											py-3
-											border border-transparent
-											rounded-3xl
-											shadow-sm
-											text-base
-											font-medium
-											text-white
-											bg-green-600
-											hover:bg-green-700
-											focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
+										mt-2 inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-secondary
 										"
 									>
 										Pošaljite poruku
@@ -956,6 +1038,15 @@
 //importovanje komponenti
 
 import { required, email } from "vuelidate/lib/validators";
+
+const hobbyFeatures = ["Kvalitetna psihoterapijska podrška", "Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "Ograničen broj susreta (12)"];
+const growthFeatures = [
+	"Kvalitetna psihoterapijska podrška",
+	"Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola",
+	"Mogućnost rada sa iskusnijim psihoterapeutima",
+	"Neograničen broj susreta",
+	"Fiksna cena u periodu od dve godine",
+];
 
 export default {
 	// meta deskripcija
@@ -1006,14 +1097,20 @@ export default {
 			},
 		],
 		script: [
-      { innerHTML: '{"@context":"https:\/\/schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cena individualne psihoterapije?","acceptedAnswer":{"@type":"Answer","text":"Za 50 minuta psihoterapije je neophodno izdvojiti minimum 1.500 RSD, kao donaciju za rad savetovali\u0161ta."}},{"@type":"Question","name":"Koji su uslovi za ulazak u na\u0161 program i zapo\u010dinjanje psihoterapijskog procesa?","acceptedAnswer":{"@type":"Answer","text":"Prvi i neophodni uslov za zapo\u010dinjanje procesa psihoterapije je psiholo\u0161ka procena. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stru\u010dnog saradnika za rad. Za ovaj susret je neophodno odvojiti 3.000 dinara u slu\u010daju individualne, odnosno 5.000 dinara u slu\u010daju partnerske i porodi\u010dne terapije."}},{"@type":"Question","name":"Na koji na\u010din mogu izvr\u0161iti uplatu?","acceptedAnswer":{"@type":"Answer","text":"Donacije je mogu\u0107e uplatiti u\u017eivo ili na \u017eiro ra\u010dun centra."}},{"@type":"Question","name":"Kako se vr\u0161i uplata iz inostranstva?","acceptedAnswer":{"@type":"Answer","text":"Putem PayPal-a."}},{"@type":"Question","name":"Da li studenti imaju popust?","acceptedAnswer":{"@type":"Answer","text":"Uslovi su isti za sve klijente na projektu."}},{"@type":"Question","name":"Radno vreme, da li mogu dolaziti vikendom?","acceptedAnswer":{"@type":"Answer","text":"Radno vreme centra je svakim danom, uklju\u010duju\u0107i vikend, od 8-22h, a dostupnost termina zavisi od va\u0161eg izabranog psihoterapeuta."}},{"@type":"Question","name":"Koliko traje susret?","acceptedAnswer":{"@type":"Answer","text":"Individualni susret traje 50 minuta, dok partnerski i porodi\u010dni susreti traju 90 minuta."}},{"@type":"Question","name":"Dinamika susreta, koliko se \u010desto odr\u017eavaju?","acceptedAnswer":{"@type":"Answer","text":"Susreti se odr\u017eavaju jednom nedeljno."}}]}', type: 'application/ld+json' }
-    ]
+			{
+				innerHTML:
+					'{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cena individualne psihoterapije?","acceptedAnswer":{"@type":"Answer","text":"Za 50 minuta psihoterapije je neophodno izdvojiti minimum 1.500 RSD, kao donaciju za rad savetovali\u0161ta."}},{"@type":"Question","name":"Koji su uslovi za ulazak u na\u0161 program i zapo\u010dinjanje psihoterapijskog procesa?","acceptedAnswer":{"@type":"Answer","text":"Prvi i neophodni uslov za zapo\u010dinjanje procesa psihoterapije je psiholo\u0161ka procena. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stru\u010dnog saradnika za rad. Za ovaj susret je neophodno odvojiti 3.000 dinara u slu\u010daju individualne, odnosno 5.000 dinara u slu\u010daju partnerske i porodi\u010dne terapije."}},{"@type":"Question","name":"Na koji na\u010din mogu izvr\u0161iti uplatu?","acceptedAnswer":{"@type":"Answer","text":"Donacije je mogu\u0107e uplatiti u\u017eivo ili na \u017eiro ra\u010dun centra."}},{"@type":"Question","name":"Kako se vr\u0161i uplata iz inostranstva?","acceptedAnswer":{"@type":"Answer","text":"Putem PayPal-a."}},{"@type":"Question","name":"Da li studenti imaju popust?","acceptedAnswer":{"@type":"Answer","text":"Uslovi su isti za sve klijente na projektu."}},{"@type":"Question","name":"Radno vreme, da li mogu dolaziti vikendom?","acceptedAnswer":{"@type":"Answer","text":"Radno vreme centra je svakim danom, uklju\u010duju\u0107i vikend, od 8-22h, a dostupnost termina zavisi od va\u0161eg izabranog psihoterapeuta."}},{"@type":"Question","name":"Koliko traje susret?","acceptedAnswer":{"@type":"Answer","text":"Individualni susret traje 50 minuta, dok partnerski i porodi\u010dni susreti traju 90 minuta."}},{"@type":"Question","name":"Dinamika susreta, koliko se \u010desto odr\u017eavaju?","acceptedAnswer":{"@type":"Answer","text":"Susreti se odr\u017eavaju jednom nedeljno."}}]}',
+				type: "application/ld+json",
+			},
+		],
 	},
 
 	data() {
 		//povratni novi objekti
 
 		return {
+			hobbyFeatures,
+			growthFeatures,
 			formData: {
 				name: "",
 				last: "",

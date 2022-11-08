@@ -3,14 +3,14 @@
 		<div>
 			<div class="relative max-w-7xl mx-auto px-6 mt-20 sm:px-0">
 				<div class="text-center">
-					<h1 class="text-3xl text-gray-800 sm:text-4xl">{{ $page.category.title }}</h1>
+					<h1 class="text-3xl text-primary sm:text-4xl">{{ $page.category.title }}</h1>
 					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">{{ $page.category.desc }}</p>
 					<div class="mt-10"></div>
 				</div>
 				<div class="relative max-w-7xl mx-auto">
 					<Scroll />
 				</div>
-				<div class="mt-4 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+				<div class="mt-4 max-w-lg mx-auto grid gap-8 lg:grid-cols-3 lg:max-w-none">
 					<div v-for="category in $page.category.belongsTo.edges" :key="category.node.id" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 						<div class="flex-shrink-0">
 							<a :href="category.node.path">
@@ -23,7 +23,7 @@
 									<a :href="category.node.path" class="hover:underline"> </a>
 								</p>
 								<a :href="category.node.path" class="block mt-2">
-									<p class="text-xl font-semibold text-gray-900">
+									<p class="text-xl font-medium text-gray-900">
 										{{ category.node.title }}
 									</p>
 									<p class="mt-3 text-base text-gray-500">

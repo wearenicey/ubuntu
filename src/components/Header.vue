@@ -4,7 +4,7 @@
 			<div>
 				<g-link to="/" class="flex">
 					<span class="sr-only">Ubuntu Savetovaliste</span>
-					<img class="block h-12 w-auto sm:h-14" src="/logo.svg" alt="Ubuntu Savetovaliste" />
+					<img class="block h-12 w-auto sm:h-14" src="/logo.png" alt="Ubuntu Savetovaliste" />
 				</g-link>
 			</div>
 			<div class="mr-2 my-2 md:hidden">
@@ -192,7 +192,7 @@
 					<g-link to="/donacije/" class="text-base font-medium text-gray-700 hover:text-gray-900">Donacije
 					</g-link>
 					<g-link to="/kontakt/" class="text-base  font-medium flex rounded-3xl justify-center px-5 py-1 border border-transparent
-					 text-white bg-green-600 hover:bg-green-700">Kontakt
+					 text-white bg-secondary ">Kontakt
 					</g-link>
 				</nav>
 			</div>
@@ -207,7 +207,7 @@
 				<div class="pt-5 pb-6 px-5">
 					<div class="flex items-center justify-between">
 						<div>
-							<img class="block h-12 w-auto sm:h-10" src="/logo.svg" alt="Workflow" />
+							<img class="block h-12 w-auto sm:h-10" src="/logo.png" alt="Ubuntu Savetovaliste" />
 						</div>
 						<div class="-mr-2">
 							<button x-on:click="mobileMenuOpen = false" type="button"
@@ -253,11 +253,11 @@
 					</div>
 					<div>
 						<g-link to="/kontakt/"
-							class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700">
+							class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-secondary ">
 							Kontaktirajte nas </g-link>
 						<p class="mt-6 text-center text-base font-medium text-gray-500">
 							Želite da pomognete?
-							<g-link to="/donacije/" class="text-green-600 hover:text-green-500"> Donirajte </g-link>
+							<g-link to="/donacije/" class="text-secondary"> Donirajte </g-link>
 						</p>
 					</div>
 				</div>

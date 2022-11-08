@@ -5,8 +5,8 @@
 				<div class="lg:grid lg:grid-cols-2 lg:gap-8">
 					<div class="mx-auto max-w-xl px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
 						<div class="lg:pb-48 lg:pt-32">
-							<h1 class="pt-8 text-3xl text-green-900 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl">Donacije</h1>
-							<p class="text-base mt-4 text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
+							<h1 class="pt-8 text-3xl text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl">Donacije</h1>
+							<p class="text-base mt-4 text-gray-200 sm:text-xl lg:text-lg xl:text-xl">
 								Kao i svaka skupina entuzijasta koji rade nešto novo i korisno za svoju zajednicu susrećemo se sa izazovom–nedostatkom finansija. Neke stvari je moguće ostvariti pokretačkom energijom i dobrom voljom, ali postoje stvari koje
 								jednostavno zahtevaju novac.
 							</p>
@@ -14,7 +14,7 @@
 								<div class="sm:max-w-xl sm:mx-auto lg:mx-0">
 									<div class="sm:flex">
 										<div class="mt-3 text-center">
-											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Donirajte </a>
+											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary"> Donirajte </a>
 										</div>
 									</div>
 								</div>
@@ -125,7 +125,7 @@
 
 		<div class="bg-white" id="scroll">
 			<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-				<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl">
+				<h2 class="text-3xl tracking-tight text-primary sm:text-4xl">
 					<span class="block">Donaciju možete izvršiti </span>
 					<span class="block">popunjavanjem uplatnice</span>
 					<span class="block">kako je navedeno u</span>
@@ -138,7 +138,7 @@
 		</div>
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-				<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl">
+				<h2 class="text-3xl tracking-tight text-primary sm:text-4xl">
 					<span class="block">ili jednostavnim </span>
 					<span class="block">skeniranjem IPS QR koda </span>
 					<span class="block">mobilnom aplikacijom </span>
@@ -154,7 +154,7 @@
 
 <script>
 export default {
-		// meta deskripcija
+	// meta deskripcija
 	metaInfo: {
 		title: "Donacije | Savetovalište Ubuntu Centar",
 		titleTemplate: "Donacije | Savetovalište Ubuntu Centar",
@@ -203,7 +203,6 @@ export default {
 	},
 
 	methods: {
-
 		onClick() {
 			let element = document.getElementById("scroll");
 			element.scrollIntoView({ behavior: "smooth", block: "start" });

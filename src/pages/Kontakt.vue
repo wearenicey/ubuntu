@@ -4,7 +4,7 @@
 			<div>
 				<div class="max-w-7xl mx-auto pb-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 					<div class="text-center">
-						<h1 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-5xl">Razgovor sa psihologom ili psihoterapeutom</h1>
+						<h1 class="mt-1 text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-5xl">Razgovor sa psihologom ili psihoterapeutom</h1>
 						<p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Kontaktirajte nas a mi ćemo se pobrinuti za ostalo.</p>
 					</div>
 				</div>
@@ -260,9 +260,9 @@
 								</div>
 
 								<div class="py-10 px-6 sm:px-10 xl:p-12">
-									<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Kontakt informacije</h3>
+									<h3 class="mt-1 text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">Kontakt informacije</h3>
 									<dl class="mt-8 space-y-6">
-										<p class="mt-6 text-base text-xl text-gray-600 max-w-3xl">Novi Sad</p>
+										<p class="mt-6 text-xl text-gray-600 max-w-3xl">Novi Sad</p>
 										<dt><span class="sr-only">Lokacija</span></dt>
 										<dd class="flex text-base text-gray-400">
 											<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -519,7 +519,7 @@
 												text-base
 												font-medium
 												text-white
-												bg-green-600
+												bg-secondary
 												hover:bg-green-700
 												focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
 											"

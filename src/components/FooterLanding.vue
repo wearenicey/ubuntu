@@ -4,7 +4,7 @@
 		<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
 			<div class="xl:grid xl:gap-8 justify-center">
 				<div class="space-y-8">
-					<img class="mx-auto" src="/logo.svg" alt="Ubuntu Centar" />
+					<img class="mx-auto" src="/logo.png" alt="Ubuntu Centar" />
 					<p class="text-gray-500 text-base text-center">Ubuntu se bavi psihološkim savetovanjem, psihoterapijom i neformalnim obrazovanjem sa ciljem unapređenja kvaliteta života ljudi.</p>
 					<div class="flex space-x-6 justify-center">
 						<a href="https://sr-rs.facebook.com/UBUNTUcentar/" class="text-gray-400 hover:text-gray-500">

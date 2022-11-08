@@ -17,6 +17,21 @@ module.exports = {
 			transparent: 'transparent',
 			current: 'currentColor',
 
+			primary: {
+				DEFAULT: '#4D294B',
+			},
+
+			secondary: {
+				DEFAULT: '#D8674B',
+			},
+
+			support: {
+				100: '#D4A5CC',
+				200: '#DDEEDB',
+				300: '#A7CEAE',
+				400: '#DD8166',
+			},
+
 			teal: colors.teal,
 			cyan: colors.cyan,
 			black: colors.black,
@@ -243,6 +258,7 @@ module.exports = {
 		},
 		fontFamily: {
 			sans: [
+				'Montserrat',
 				'ui-sans-serif',
 				'system-ui',
 				'-apple-system',
@@ -258,7 +274,7 @@ module.exports = {
 				'"Segoe UI Symbol"',
 				'"Noto Color Emoji"',
 			],
-			serif: ['Lora', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+			serif: ['Playfair Display', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
 			mono: [
 				'ui-monospace',
 				'SFMono-Regular',

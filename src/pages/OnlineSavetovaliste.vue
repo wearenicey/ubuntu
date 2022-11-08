@@ -3,15 +3,12 @@
 		<div class="bg-no-repeat bg-bottom w-full">
 			<div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-5">
 				<div class="mt-10">
-					<h1 class="text-4xl text-purple-800 sm:text-5xl">
-						<span class="block">Psihoterapija online u savetovalištu </span>
-						<span class="block">Ubuntu</span>
-					</h1>
+					<h1 class="text-4xl text-primary sm:text-5xl">Psihoterapija online u savetovalištu Ubuntu</h1>
 					<p class="text-gray-700 text-xl pt-4">Od 2018. naše online savetovalište radi s ljudima iz cele Srbije, regiona i sveta.</p>
 				</div>
 				<div class="mt-10 flex block justify-center">
 					<div class="inline-flex">
-						<a href="tel:+381658286884" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-green-600 hover:bg-green-700"> Nazovite za konsultaciju </a>
+						<a href="tel:+381658286884" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary"> Nazovite za konsultaciju </a>
 					</div>
 				</div>
 
@@ -21,12 +18,7 @@
 			</div>
 		</div>
 
-		<div class="py-4 overflow-hidden lg:py-24">
-			<div>
-				<svg class="hidden lg:block absolute mt-36" width="460" height="1086" viewBox="0 0 460 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<circle cx="-83" cy="543" r="543" fill="#FEF2F2" />
-				</svg>
-			</div>
+		<div class="py-16 overflow-hidden lg:py-24">
 			<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
 				<svg class="hidden lg:block absolute mt-96 z-50" width="108" height="108" style="margin-left: 70rem" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path
@@ -42,7 +34,7 @@
 				</svg>
 
 				<div class="relative">
-					<h2 class="text-center text-3xl leading-8 text-purple-800 sm:text-4xl">Online savetovalište</h2>
+					<h2 class="text-center text-3xl leading-8 text-primary sm:text-4xl">Online savetovalište</h2>
 					<p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
 						Projekat pokrenut 2018 godine od strane Ubuntu centra za rast i razvoj ljudskog potencijala sa namerom da našoj lokalnoj zajednici pružimo lako dostupnu psihološku pomoć.
 					</p>
@@ -50,8 +42,8 @@
 
 				<div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
 					<div class="relative">
-						<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Na koji način savetovalište funkcioniše?</h3>
-						<p class="mt-3 text-lg text-gray-500">
+						<h3 class="text-2xl text-center md:text-left text-gray-700 tracking-tight sm:text-3xl">Na koji način savetovalište funkcioniše?</h3>
+						<p class="mt-3 text-center md:text-left text-lg text-gray-500">
 							Projekat je samoodrživ, finansiran primarno od članarina klijenata i donacija građana. Projekat je pokrenut jer smo prepoznali potrebu za većom dostupnošću psihoterapije van velikih gradova, i kao podrška našim ljudima u
 							inostranstvu. Pre nego što započnete rad sa psihoterapeutom putem interneta, proverite da li imate sve od neophodnog:
 						</p>
@@ -118,83 +110,54 @@
 											/>
 										</svg>
 									</div>
-									<p class="ml-16 text-lg leading-6 font-medium text-gray-900">Prostoriju koja vam obezbeđuje privatnost, tišinu i intimnost koja je neophodna za rad.</p>
+									<p class="ml-16 text-lg leading-6 font-medium text-gray-900">Prostoriju koja vam obezbeđuje privatnost, tišinu i intimnost koja je neophodna za rad.</p>
 								</dt>
 							</div>
 						</dl>
 					</div>
 
-					<div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-						<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-1.jpg" alt="psihološka podrška" />
+					<div class="mt-10 relative lg:mt-0" aria-hidden="true">
+						<g-image class="relative mx-auto rounded-2xl" width="490" src="~/assets/img/novi-sad-1.jpg" alt="psihološka podrška" />
 					</div>
 				</div>
+			</div>
+		</div>
 
-				<div class="relative mt-12 sm:mt-16 lg:mt-32">
-					<div class="overflow-hidden">
-						<div>
-							<svg class="hidden mt-96 lg:block absolute transform translate-x-9" width="112" height="104" viewBox="0 0 112 104" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M0.919267 15.5038L111.126 0.432697L70.4167 103.496L0.919267 15.5038Z" fill="#7DD3FC" />
-							</svg>
-							<svg class="hidden lg:block absolute transform -translate-x-16 -translate-y-64" style="margin-top: 32rem" width="83" height="82" viewBox="0 0 83 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="M3.87677 25.3803C7.19301 17.4018 12.9499 10.678 20.3225 6.17247C27.695 1.66697 36.3047 -0.388888 44.9174 0.299551C53.5302 0.987993 61.704 4.38539 68.2672 10.0048C74.8304 15.6242 79.4462 23.1772 81.4529 31.5812C83.4597 39.9851 82.7544 48.8087 79.4381 56.7872C76.1219 64.7657 70.365 71.4895 62.9924 75.995C55.6199 80.5005 47.0103 82.5564 38.3975 81.868C29.7847 81.1795 21.611 77.7821 15.0477 72.1627C8.48451 66.5433 3.86874 58.9903 1.86199 50.5863C-0.144757 42.1824 0.560531 33.3588 3.87677 25.3803Z"
-									fill="#EC4899"
-								/>
-							</svg>
-							<svg class="hidden lg:block absolute transform -translate-x-24 -translate-y-24 z-50" style="margin-top: 30rem" width="75" height="114" viewBox="0 0 75 114" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<rect width="59.4361" height="115.358" rx="29.718" transform="matrix(0.970418 -0.241432 0.253756 0.967268 -6.29614 8.51453)" fill="#A377FF" />
-							</svg>
-						</div>
-					</div>
+		<div class="bg-primary">
+			<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-8">
+				<div class="relative">
 					<div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
 						<div class="lg:col-start-2">
-							<h3 class="text-2xl text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
-							<p class="mt-3 text-lg text-gray-500">
-								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 3.000 dinara u slučaju individualne, odnosno 5.000 dinara u slučaju partnerske i porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.500 dinara u slučaju individualne psihoterapije, i 3000 dinara po seansi kada je bilo koji vid grupne terapije u pitanju - terapija para, porodična ili bračna.
+							<h3 class="text-2xl text-white tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
+							<p class="mt-3 text-lg text-gray-200">
+								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 3.000 dinara u slučaju individualne, odnosno 5.000 dinara u slučaju partnerske i
+								porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.500 dinara u slučaju individualne psihoterapije, i 3000 dinara po seansi kada je bilo koji vid
+								grupne terapije u pitanju - terapija para, porodična ili bračna.
 							</p>
 
-							<div class="block mt-8">
+							<div class="block mt-16">
 								<a
 									href="#"
 									@click="onClickTwo()"
-									class="
-										text-center
-										mt-4
-										rounded-3xl
-										border border-transparent
-										px-5
-										py-3
-										bg-green-600
-										text-base
-										font-medium
-										text-white
-										shadow
-										hover:bg-green-700
-										focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2
-										sm:px-10
-									"
+									class="text-center mt-4 rounded-3xl border border-transparent px-5 py-3 bg-secondary text-base font-medium text-white shadow focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2 sm:px-10"
 								>
 									Kontaktirajte nas za više informacija
 								</a>
 							</div>
 						</div>
 
-						<div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-							<g-image class="relative mx-auto" width="490" src="~/assets/img/novi-sad-2.jpg" alt="psihološki napredak" />
+						<div class="mt-10 relative lg:mt-0 lg:col-start-1">
+							<g-image class="relative mx-auto rounded-2xl" width="490" src="~/assets/img/novi-sad-2.jpg" alt="psihološki napredak" />
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<svg class="hidden lg:block absolute -right-0 transform translate-y-2/4" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
-		</svg>
-
 		<div class="my-10 overflow-hidden">
-			<div class="relative max-w-7xl mx-auto sm:py-48 px-4 sm:px-6 lg:px-8">
-				<div class="text-center mb-20">
-					<h2 class="text-3xl tracking-tight text-purple-800 sm:text-4xl">Psihoterapija dostupna svima</h2>
+			<div class="relative max-w-7xl mx-auto sm:py-32 px-4 sm:px-6 lg:px-8">
+				<div class="text-left lg:text-center mb-8 lg:mb-20">
+					<h2 class="text-3xl tracking-tight text-primary sm:text-4xl">Psihoterapija dostupna svima</h2>
 				</div>
 
 				<div class="relative lg:grid lg:gap-x-8">
@@ -267,11 +230,100 @@
 			</div>
 		</div>
 
+		<div class="bg-primary">
+			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
+				<div class="text-center">
+					<h2 class="text-xl leading-6 text-gray-300">Cenovnik</h2>
+					<p class="mt-2 text-3xl tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p>
+				</div>
+			</div>
+
+			<div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
+				<div class="relative z-0">
+					<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
+					<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+						<div class="relative lg:grid lg:grid-cols-7">
+							<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
+								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
+									<div class="flex flex-1 flex-col">
+										<div class="bg-white px-6 py-10">
+											<div>
+												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Povoljno</h3>
+												<div class="mt-4 flex items-center justify-center">
+													<span class="flex items-start px-3 text-6xl tracking-tight text-gray-900">
+														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+														<span class="font-bold">1500</span>
+													</span>
+													<span class="text-xl font-medium text-gray-500">/ seansa</span>
+												</div>
+											</div>
+										</div>
+										<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
+											<ul role="list" class="space-y-4">
+												<li v-for="feature in hobbyFeatures" :key="feature" class="flex items-start">
+													<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+												</li>
+											</ul>
+											<div class="mt-8">
+												<div class="rounded-lg shadow-md">
+													<a href="/kontakt" class="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby">Kontaktirajte nas</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-8 lg:row-start-1 lg:row-end-4 lg:mx-0 lg:mt-0 lg:max-w-none">
+								<div class="relative z-10 rounded-lg shadow-xl">
+									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary" aria-hidden="true" />
+									<div class="absolute inset-x-0 top-0 translate-y-px transform">
+										<div class="flex -translate-y-1/2 transform justify-center">
+											<span class="inline-flex rounded-full bg-secondary px-4 py-1 text-base font-semibold text-white">Najtraženije</span>
+										</div>
+									</div>
+									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
+										<div>
+											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Brzo</h3>
+											<div class="mt-4 flex items-center justify-center">
+												<span class="flex items-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
+													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+													<span class="font-bold">2500</span>
+												</span>
+												<span class="text-2xl font-medium text-gray-500">/ seansa</span>
+											</div>
+										</div>
+									</div>
+									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
+										<ul role="list" class="space-y-4">
+											<li v-for="feature in growthFeatures" :key="feature" class="flex items-start">
+												<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+											</li>
+										</ul>
+										<div class="mt-10">
+											<div class="rounded-lg shadow-md">
+												<a
+													href="https://docs.google.com/forms/d/e/1FAIpQLSc0UvXaoCsFP8GW4_o9Z3iygHY91Re896bD9T72t8bRpXOwVA/viewform"
+													class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white"
+													aria-describedby="tier-growth"
+													>Popuni upitnik</a
+												>
+											</div>
+											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="bg-white py-16 lg:py-24">
 			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="relative py-24 px-8 bg-green-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
+				<div class="relative py-24 px-8 bg-secondary rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
 					<div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-						<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover" />
+						<img src="https://images.unsplash.com/photo-1600275668999-f423597ec2a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="w-full h-full object-cover" />
 					</div>
 					<div class="relative lg:col-span-1">
 						<h2 class="text-2xl font-medium sm:text-2xl text-white">Iskustvo</h2>
@@ -294,7 +346,7 @@
 		<div class="my-14">
 			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
 				<div class="max-w-3xl mx-auto">
-					<h2 class="text-center text-3xl text-purple-800 sm:text-4xl">Vi pitate, psihoterapeut odgovara</h2>
+					<h2 class="text-center text-3xl text-primary sm:text-4xl">Vi pitate, psihoterapeut odgovara</h2>
 					<dl class="mt-6 space-y-6">
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
@@ -681,8 +733,8 @@
 								</svg>
 							</div>
 
-							<div class="py-10 px-6 sm:px-10 xl:p-12">
-								<h3 class="mt-1 text-3xl text-purple-800 sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom online</h3>
+							<div class="py-10 px-4 sm:px-10 xl:p-12">
+								<h3 class="mt-1 text-center lg:text-left text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom online</h3>
 								<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
 								<dl class="mt-8 space-y-6">
 									<dt><span class="sr-only">Lokacija</span></dt>
@@ -754,7 +806,7 @@
 							</div>
 						</div>
 
-						<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
+						<div class="py-10 px-4 sm:px-10 lg:col-span-1 xl:p-12">
 							<h3 class="text-lg font-medium text-gray-900">Pošaljite poruku</h3>
 							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact-online" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
@@ -869,27 +921,12 @@
 										</div>
 									</div>
 								</div>
-								<div class="sm:col-span-2">
+								<div class="sm:col-span-2 flex justify-center lg:justify-end">
 									<button
 										:disabled="formData.submitStatus === 'PENDING'"
 										type="submit"
 										class="
-											mt-2
-											w-full
-											inline-flex
-											items-center
-											justify-center
-											px-6
-											py-3
-											border border-transparent
-											rounded-3xl
-											shadow-sm
-											text-base
-											font-medium
-											text-white
-											bg-green-600
-											hover:bg-green-700
-											focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500
+										mt-2 inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-secondary
 										"
 									>
 										Pošaljite poruku
@@ -916,6 +953,15 @@
 <script>
 //importovanje komponenti
 import { required, email } from "vuelidate/lib/validators";
+
+const hobbyFeatures = ["Kvalitetna psihoterapijska podrška", "Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "Ograničen broj susreta (12)"];
+const growthFeatures = [
+	"Kvalitetna psihoterapijska podrška",
+	"Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola",
+	"Mogućnost rada sa iskusnijim psihoterapeutima",
+	"Neograničen broj susreta",
+	"Fiksna cena u periodu od dve godine",
+];
 
 export default {
 	//meta deskripcija za stranicu
@@ -965,14 +1011,20 @@ export default {
 			},
 		],
 		script: [
-      { innerHTML: '{"@context":"https:\/\/schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cena individualne psihoterapije?","acceptedAnswer":{"@type":"Answer","text":"Za 50 minuta psihoterapije je neophodno izdvojiti minimum 1.500 RSD, kao donaciju za rad savetovali\u0161ta."}},{"@type":"Question","name":"Koji su uslovi za ulazak u na\u0161 program i zapo\u010dinjanje psihoterapijskog procesa?","acceptedAnswer":{"@type":"Answer","text":"Prvi i neophodni uslov za zapo\u010dinjanje procesa psihoterapije je psiholo\u0161ka procena. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stru\u010dnog saradnika za rad. Za ovaj susret je neophodno odvojiti 3.000 dinara u slu\u010daju individualne, odnosno 5.000 dinara u slu\u010daju partnerske i porodi\u010dne terapije."}},{"@type":"Question","name":"Na koji na\u010din mogu izvr\u0161iti uplatu?","acceptedAnswer":{"@type":"Answer","text":"Donacije je mogu\u0107e uplatiti u\u017eivo ili na \u017eiro ra\u010dun centra."}},{"@type":"Question","name":"Kako se vr\u0161i uplata iz inostranstva?","acceptedAnswer":{"@type":"Answer","text":"Putem PayPal-a."}},{"@type":"Question","name":"Da li studenti imaju popust?","acceptedAnswer":{"@type":"Answer","text":"Uslovi su isti za sve klijente na projektu."}},{"@type":"Question","name":"Radno vreme, da li mogu dolaziti vikendom?","acceptedAnswer":{"@type":"Answer","text":"Radno vreme centra je svakim danom, uklju\u010duju\u0107i vikend, od 8-22h, a dostupnost termina zavisi od va\u0161eg izabranog psihoterapeuta."}},{"@type":"Question","name":"Koliko traje susret?","acceptedAnswer":{"@type":"Answer","text":"Individualni susret traje 50 minuta, dok partnerski i porodi\u010dni susreti traju 90 minuta."}},{"@type":"Question","name":"Dinamika susreta, koliko se \u010desto odr\u017eavaju?","acceptedAnswer":{"@type":"Answer","text":"Susreti se odr\u017eavaju jednom nedeljno."}}]}', type: 'application/ld+json' }
-    ]
+			{
+				innerHTML:
+					'{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cena individualne psihoterapije?","acceptedAnswer":{"@type":"Answer","text":"Za 50 minuta psihoterapije je neophodno izdvojiti minimum 1.500 RSD, kao donaciju za rad savetovali\u0161ta."}},{"@type":"Question","name":"Koji su uslovi za ulazak u na\u0161 program i zapo\u010dinjanje psihoterapijskog procesa?","acceptedAnswer":{"@type":"Answer","text":"Prvi i neophodni uslov za zapo\u010dinjanje procesa psihoterapije je psiholo\u0161ka procena. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stru\u010dnog saradnika za rad. Za ovaj susret je neophodno odvojiti 3.000 dinara u slu\u010daju individualne, odnosno 5.000 dinara u slu\u010daju partnerske i porodi\u010dne terapije."}},{"@type":"Question","name":"Na koji na\u010din mogu izvr\u0161iti uplatu?","acceptedAnswer":{"@type":"Answer","text":"Donacije je mogu\u0107e uplatiti u\u017eivo ili na \u017eiro ra\u010dun centra."}},{"@type":"Question","name":"Kako se vr\u0161i uplata iz inostranstva?","acceptedAnswer":{"@type":"Answer","text":"Putem PayPal-a."}},{"@type":"Question","name":"Da li studenti imaju popust?","acceptedAnswer":{"@type":"Answer","text":"Uslovi su isti za sve klijente na projektu."}},{"@type":"Question","name":"Radno vreme, da li mogu dolaziti vikendom?","acceptedAnswer":{"@type":"Answer","text":"Radno vreme centra je svakim danom, uklju\u010duju\u0107i vikend, od 8-22h, a dostupnost termina zavisi od va\u0161eg izabranog psihoterapeuta."}},{"@type":"Question","name":"Koliko traje susret?","acceptedAnswer":{"@type":"Answer","text":"Individualni susret traje 50 minuta, dok partnerski i porodi\u010dni susreti traju 90 minuta."}},{"@type":"Question","name":"Dinamika susreta, koliko se \u010desto odr\u017eavaju?","acceptedAnswer":{"@type":"Answer","text":"Susreti se odr\u017eavaju jednom nedeljno."}}]}',
+				type: "application/ld+json",
+			},
+		],
 	},
 
 	data() {
 		//povratni novi objekti
 
 		return {
+			hobbyFeatures,
+			growthFeatures,
 			success: false,
 			formData: {
 				name: "",

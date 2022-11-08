@@ -1,5 +1,5 @@
 ---
-title: KAD NAM KLIJENT PERFEKCIONISTA POKUCA NA VRATA
+title: Kad nam klijent perfekcionista pokuca na vrata
 category: nefunkcionalna-ponasanja
 # ovo je i meta desc
 excerpt: Ljudi najčešće dođu na psihoterapiju kada želje iz spontanog i kreativnog dela njihove ličnosti počnu da pariraju njihovim strahovima.

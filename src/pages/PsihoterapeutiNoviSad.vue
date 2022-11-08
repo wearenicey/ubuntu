@@ -57,7 +57,7 @@
 		<div class="bg-white">
 			<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
 				<div class="space-y-12 md:space-y-24">
-					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute</h2>
+					<h2 class="text-3xl  font-bold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute</h2>
 
 					<ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 						<li v-for="person in people" :key="person.name">
