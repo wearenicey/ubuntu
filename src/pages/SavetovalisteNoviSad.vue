@@ -90,7 +90,7 @@
 			<div class="pt-16 pb-10 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-96">
 				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
 					<div class="sm:max-w-lg">
-						<h1 class="text-4xl text-center lg:text-left tracking-tight text-gray-900 pb-4 sm:text-6xl">Psihoterapeuti u Novom Sadu</h1>
+						<h2 class="text-4xl text-center lg:text-left tracking-tight text-gray-900 pb-4 sm:text-6xl">Psihoterapeuti u Novom Sadu</h2>
 						<p class="text-center lg:text-left">
 							Novosadsko savetovalište čine saradnici različitih psihoterapijskih pravaca. Raznolikost u pristupu omogućava klijentima saradnju sa terapeutima stručnim za problematiku zbog koje žele da započnu proces psihoterapije.
 						</p>

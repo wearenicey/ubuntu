@@ -149,5 +149,10 @@
   status = 301  
 
 
+[[redirects]]
+from = "https://ubuntucentar.com/psihoterapeuti-novi-sad/"
+  to = "/savetovaliste-novi-sad/"
+  status = 301  
+
 
 
