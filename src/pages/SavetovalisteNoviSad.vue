@@ -29,32 +29,9 @@
 				<svg class="hidden lg:block absolute mt-36" width="460" height="1086" viewBox="0 0 460 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="-83" cy="543" r="543" fill="#FEF2F2" />
 				</svg>
-				<svg class="hidden mt-96 lg:block absolute transform translate-y-96 translate-x-56" width="112" height="104" viewBox="0 0 112 104" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M0.919267 15.5038L111.126 0.432697L70.4167 103.496L0.919267 15.5038Z" fill="#7DD3FC" />
-				</svg>
-				<svg class="hidden lg:block absolute transform translate-y-96 translate-x-56" style="margin-top: 32rem" width="83" height="82" viewBox="0 0 83 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path
-						d="M3.87677 25.3803C7.19301 17.4018 12.9499 10.678 20.3225 6.17247C27.695 1.66697 36.3047 -0.388888 44.9174 0.299551C53.5302 0.987993 61.704 4.38539 68.2672 10.0048C74.8304 15.6242 79.4462 23.1772 81.4529 31.5812C83.4597 39.9851 82.7544 48.8087 79.4381 56.7872C76.1219 64.7657 70.365 71.4895 62.9924 75.995C55.6199 80.5005 47.0103 82.5564 38.3975 81.868C29.7847 81.1795 21.611 77.7821 15.0477 72.1627C8.48451 66.5433 3.86874 58.9903 1.86199 50.5863C-0.144757 42.1824 0.560531 33.3588 3.87677 25.3803Z"
-						fill="#EC4899"
-					/>
-				</svg>
-				<svg class="hidden lg:block absolute transform translate-y-96 translate-x-96 z-50" style="margin-top: 30rem" width="75" height="114" viewBox="0 0 75 114" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<rect width="59.4361" height="115.358" rx="29.718" transform="matrix(0.970418 -0.241432 0.253756 0.967268 -6.29614 8.51453)" fill="#A377FF" />
-				</svg>
+
 			</div>
 			<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-				<svg class="hidden lg:block absolute mt-96 z-50" width="108" height="108" style="margin-left: 70rem" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path
-						d="M35.9614 3.52831C46.6436 -0.250264 58.2477 -0.550111 69.1107 2.67175C79.9737 5.89361 89.5379 12.4718 96.4325 21.4634C103.327 30.4551 107.198 41.3986 107.491 52.7256C107.784 64.0525 104.483 75.1814 98.0618 84.5171C91.6408 93.8528 82.4291 100.916 71.7469 104.695C61.0648 108.473 49.4607 108.773 38.5977 105.551C27.7347 102.329 18.1705 95.7513 11.2759 86.7596C4.38126 77.768 0.510216 66.8244 0.217533 55.4975C-0.0751496 44.1705 3.22556 33.0417 9.64658 23.7059C16.0676 14.3702 25.2793 7.30689 35.9614 3.52831Z"
-						fill="#FE6600"
-					/>
-				</svg>
-				<svg class="hidden lg:block absolute" width="60" height="65" viewBox="0 0 60 65" style="margin-left: 80rem; margin-top: 20rem" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M10.9614 0.828986L59.642 41.913L0.200058 64.1334L10.9614 0.828986Z" fill="#F1F58F" />
-				</svg>
-				<svg class="hidden lg:block absolute" style="margin-left: 80rem; margin-top: 30rem" width="73" height="87" viewBox="0 0 73 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<rect width="47.8991" height="92.966" rx="23.9496" transform="matrix(0.829246 0.558884 -0.548292 0.836287 41.9727 -9.11035)" fill="#11A858" />
-				</svg>
 
 				<div class="relative">
 					<h2 class="text-center text-3xl leading-8 text-primary sm:text-4xl">Psihološko savetovalište Ubuntu Novi Sad</h2>
@@ -177,6 +154,8 @@
 								</div>
 								<div class="sm:col-span-2">
 									<div class="space-y-4">
+										<span v-if="person.statusDa" class="inline-flex items-center rounded-full bg-green-100 px-3 py-0.5 text-sm font-medium text-green-800">{{ person.statusDa }}</span>
+										<span v-if="person.statusNe" class="inline-flex items-center rounded-full bg-yellow-100 px-3 py-0.5 text-sm font-medium text-yellow-800">{{ person.statusNe }}</span>
 										<div class="leading-6 font-medium space-y-1">
 											<h3 class="text-xl font-sans">{{ person.name }}</h3>
 											<p class="text-gray-800">{{ person.role }}</p>
@@ -1059,6 +1038,8 @@ const people = [
 		imageUrl: "Stefan Mitrovic Jokanovic.png",
 		bio: "Kreativni psihoterapeut preduzetničkog duha. Za mene je psihoterapija životni poziv, a ne profesija! Verujem da je jedini ispravan pristup psihoterapiji - holistički pristup. Uvažavanje uma, emocija, tela, duhovnosti i društvenih faktora.",
 		alt: "psihoterapeut novi sad stefan mitrović jokanović",
+		statusDa: "Dostupan",
+		statusNe: "",
 	},
 	{
 		name: "Miljana Vorkapić",
@@ -1066,6 +1047,8 @@ const people = [
 		imageUrl: "Miljana Vorkapic.png",
 		bio: "Stvarnost je sačinjena od mnoštva individualnih istina. Možda ne možemo da utičemo na druge, njihovo ponašanje ili okolnosti ali, uz pomoć psihoterapije, možemo da naučimo da biramo način na koji ćemo posmatrati svet koji nas okružuje.",
 		alt: "psihoterapeut novi sad miljana vorkapić",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Aleksandra Bajić",
@@ -1073,6 +1056,8 @@ const people = [
 		imageUrl: "Aleksandra Bajic.png",
 		bio: "Osnov rada je odnos koji čine poštovanje, prihvatanje i toplina. To je korak ka promeni, pomeranju granica i širenju kapaciteta. Psihoterapeut pomaže klijentu da razume svoje misli, ponašanja i osećanja, a bez zajedničkog rada nema promene.",
 		alt: "psihoterapeut novi sad aleksandra bajić",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Aleksandra Biberdžić",
@@ -1080,6 +1065,8 @@ const people = [
 		imageUrl: "Aleksandra Biberdzic.png",
 		bio: "Na terapiji se sa klijentima posvetim trenutku sada i ovde. Vodimo računa o procesu terapije i dolazimo u dodir sa najraniji iskustvima, dobijamo uvide o sebi i učimo da prigrlimo i negujemo svoje unutrašnje dete.",
 		alt: "psihoterapeut novi sad aleksandra biberdžić",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Irena Petrović",
@@ -1087,6 +1074,8 @@ const people = [
 		imageUrl: "Irena Petrovic.png",
 		bio: "Moj pristup radu je kreiranje odnosa gde i klijent i terapeut mogu da budu ono što jesu. Kada napravimo prostor gde smo sigurni i prihvaćeni i gde možemo da izrazimo sebe, verujem da možemo doći do promene koja nam je svima nekad potrebna.",
 		alt: "psihoterapeut novi sad iena petrović",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Ivana Davidovć",
@@ -1094,13 +1083,8 @@ const people = [
 		imageUrl: "Ivana Davidovic.png",
 		bio: "U svom savetodavnom radu najčešće se bavim temama vezanim za stres na radu, nisko samopouzdanje, anksioznost i porodične relacije.",
 		alt: "psihoterapeut novi sad ivana davidović",
-	},
-	{
-		name: "Ivana Petrović",
-		role: "Transakciono-integrativna analiza",
-		imageUrl: "Ivana Petrovic.png",
-		bio: "Svakome je potreban neko ko će ga čuti i onda kada ćuti. Ko će ga videti onakvim kakav jeste i koračati zajedno. Ljudima pristupam otvoreno i bez prosuđivanja. Verujem u čoveka i smatram da svi imamo snagu za promenu i potencijal za rast.",
-		alt: "psihoterapeut novi sad ivana petrović",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Ivana Zeljković",
@@ -1108,6 +1092,8 @@ const people = [
 		imageUrl: "Ivana Zeljkovic.png",
 		bio: "Psihoterapija ne menja osobu već način na koji gledamo na događaje i situacije, ljude i međuljudske odnose. Mentalno zdravlje je važno kao i fizičko. Shodno tome, smatram da je rad na sebi pravi put ka kvalitetnijem i ispunjenijem životu.",
 		alt: "psihoterapeut novi sad ivana zeljković",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 
 	{
@@ -1116,6 +1102,8 @@ const people = [
 		imageUrl: "Jovan Grubic.png",
 		bio: "Na terapiji prihvatamo nesigurnost života, pridajemo mu smisao i odbacujemo svoj nesvesni životni scenario - skript. To radimo kroz relaciju i logos, odnos leči a logos haosu daje harmoniju. ",
 		alt: "psihoterapeut novi sad jovan grubić",
+		statusDa: "Dostupan",
+		statusNe: "",
 	},
 
 	{
@@ -1124,6 +1112,8 @@ const people = [
 		imageUrl: "Nina Popov.png",
 		bio: "Otkrivaćeš sebe, razvijati se i učiti kako da umesto utabanih puteva koji nose višak patnje, gradiš i biraš nove koji vode boljem funkcionisanju i ispunjenijem životu.",
 		alt: "psihoterapeut novi sad nina popov",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 ];
 

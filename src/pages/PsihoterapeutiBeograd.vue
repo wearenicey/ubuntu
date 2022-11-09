@@ -9,9 +9,7 @@
 							<p>Beogradsko savetovalište čine saradnici različitih psihoterapijskih pravaca. Raznolikost u pristupu omogućava klijentima saradnju sa terapeutima stručnim za problematiku zbog koje žele da započnu proces psihoterapije.</p>
 
 							<div class="text-center lg:text-left pt-6 space-y-4">
-								<a href="tel:+381658286883" class="items-center flex lg:inline-block rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary ">
-									Nazovite za konsultaciju
-								</a>
+								<a href="tel:+381658286883" class="items-center flex lg:inline-block rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary"> Nazovite za konsultaciju </a>
 								<a href="#" @click="onClickTwo()" class="items-center flex lg:inline-block rounded-3xl lg:ml-2 justify-center px-5 py-3 border border-gray text-base font-medium text-black bg-white hover:bg-gray-50"> Pišite nam </a>
 							</div>
 						</div>
@@ -59,7 +57,7 @@
 		<div class="bg-white">
 			<div class="mx-auto py-12 px-6 sm:px-10 max-w-7xl sm:px-6 lg:px-8 lg:py-32">
 				<div class="space-y-12 md:space-y-24">
-					<h2 class="text-3xl  font-bold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute</h2>
+					<h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Upoznajte naše psihologe i psihoterapeute</h2>
 
 					<ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 						<li v-for="person in people" :key="person.name">
@@ -69,8 +67,10 @@
 								</div>
 								<div class="sm:col-span-2">
 									<div class="space-y-4">
+										<span v-if="person.statusDa" class="inline-flex items-center rounded-full bg-green-100 px-3 py-0.5 text-sm font-medium text-green-800">{{ person.statusDa }}</span>
+										<span v-if="person.statusNe" class="inline-flex items-center rounded-full bg-yellow-100 px-3 py-0.5 text-sm font-medium text-yellow-800">{{ person.statusNe }}</span>
 										<div class="leading-6 font-medium space-y-1">
-											<h3 class="text-xl">{{ person.name }}</h3>
+											<h3 class="text-xl font-sans">{{ person.name }}</h3>
 											<p class="text-gray-800">{{ person.role }}</p>
 										</div>
 										<div>
@@ -667,6 +667,8 @@ const people = [
 		imageUrl: "Jelena Lekic.jpg",
 		bio: "Otvarajući priče dajem dozvolu klijentima da se menjamo i svakim susretom iznova stvaramo stvarnost. Svako postavljeno pitanje nudi moguću verziju života. Glas će dobiti i skriveni, nedominantni delovi, jer imaju pravo da budu viđeni.",
 		alt: "psihoterapeut beograd jelena lekić",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Darja Pačevski",
@@ -674,6 +676,8 @@ const people = [
 		imageUrl: "Darja Pacevski.jpg",
 		bio: "Podržavam umetnika u tebi. Kad to kažem, mislim na kreativne načine da izađeš na kraj s onim što ti se dešavalo i zahvaljujući kojima si opstao. Pomažem ti da kreiraš nove uz koje život neće biti preživljavanje, već disanje punim plućima.",
 		alt: "psihoterapeut beograd darja pačevski",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Kristina Potkonjak",
@@ -681,6 +685,8 @@ const people = [
 		imageUrl: "Kristina Potkonjak.jpg",
 		bio: "Svaka životna priča je jedinstvena i zato im pristupam s velikom pažnjom i uvažavanjem. Kroz naš odnos u sigurnom okruženju, upoznajete sebe, učite da osnažujete unutrašnju podršku, prepoznajete svoje potrebe i postavljate jasnije granice.",
 		alt: "psihoterapeut beograd kristina potkonjak",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Nataša Ilić Sekereš",
@@ -688,13 +694,8 @@ const people = [
 		imageUrl: "Natasa Ilic Sekeres.jpg",
 		bio: "U psihoterapijskom radu koristim osnovne principe transakcione analize: Svi ljudi su OK. Svako je u stanju da misli. Ljudi imaju moć da promene svoje odluke kad god to požele.",
 		alt: "psihoterapeut beograd nataša ilić sekereš",
-	},
-	{
-		name: "Nebojša Ratković",
-		role: "Transakciona analiza",
-		imageUrl: "Nebojsa Ratkovic.jpg",
-		bio: "Smatram da mnogi periodi u životu donose različite izazove s kojima moramo da se suočavamo. Ja želim da Vas ohrabrim i podstaknem u rešavanju problema, a time što čitate ovo, već ste učinili prvi korak i ja Vam čestitam na hrabrosti!",
-		alt: "psihoterapeut beograd nebojša ratković",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Isidora Zekavica",
@@ -702,6 +703,8 @@ const people = [
 		imageUrl: "Isidora Zekavica.jpg",
 		bio: "Psihoterapiju definišem kao pažljivu spregu prihvatanja onoga što suštinski osoba jeste i promene onoga što je sprečava da to bude. Smatram da je osnov za promenu razvoj kvalitetnog i podržavajućeg psihoterapijskog odnosa.",
 		alt: "psihoterapeut beograd isidora zekavica",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Stevan Stevanović",
@@ -709,13 +712,8 @@ const people = [
 		imageUrl: "Stevan Stevanovic.jpg",
 		bio: "Biću tu, s tobom, tvoj saradnik, usmerivač, ogledalo. Gledaćemo zajedno u tvoj svet koji (re)kreiramo kroz terapijski odnos. Ti ćeš biti moj saradnik, usmerivač, ogledalo. Otkrića su u tebi, u meni, na mestu našeg susreta.",
 		alt: "psihoterapeut beograd stevan stevanović",
-	},
-	{
-		name: "Bogdan Marković",
-		role: "Transakciona analiza",
-		imageUrl: "Bogdan Markovic.jpg",
-		bio: "Poseban akcenat stavljam na terapijski odnos u kome s klijentima kreiram prostor za istraživanje, empatsko usklađivanje, samoprihvatanje, osvešćivanje telesnih procesa, iscenjenje trauma i povezivanje s autentičnim relacionim potrebama.",
-		alt: "psihoterapeut beograd bogdan marković",
+		statusDa: "",
+		statusNe: "Nedostupan",
 	},
 	{
 		name: "Milena Šekularac",
@@ -723,6 +721,8 @@ const people = [
 		imageUrl: "Milena Sekularac.jpg",
 		bio: "Duboko u nama je ranjeno dete, preplašeno da nije dovoljno dobro. Nada se da će ga neko voleti i prihvatiti baš onakvo kakvo jeste.",
 		alt: "psihoterapeut beograd milena šekularac",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Marija Stanišić",
@@ -730,6 +730,8 @@ const people = [
 		imageUrl: "Marija Stanisic.jpg",
 		bio: "Najveća lepota ljudskog kontakta jeste u onom trenutku kad sa sebe svučemo tvrdu ljušturu i ogolimo se do najdublje ranjivosti, spremni da nas druga osoba vidi, čuje i prigrli onakve kakvi uistinu jesmo.",
 		alt: "psihoterapeut beograd marija stanišić",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Jovana Kojić",
@@ -737,6 +739,8 @@ const people = [
 		imageUrl: "Jovana Kojic.jpg",
 		bio: "Terapijski rad pomaže nam da budemo spontani, autentični, u skladu s našim željama i potrebama. Učimo o sebi, svojim osećanjima i željama, uz uvažavanje drugih. Tako ujedno učimo da budemo slobodni i živimo u ovom trenutku, ovde i sada.",
 		alt: "psihoterapeut beograd jovana kojić",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 	{
 		name: "Nikolina Dobraš",
@@ -744,13 +748,8 @@ const people = [
 		imageUrl: "Nikolina Dobras.jpg",
 		bio: "Ukoliko želite podršku za rešavanje emocionalnog ili praktičnog problema ili pak želite poboljšanje kvaliteta života kroz rad na ličnom radu i razvoju, na pravom ste mestu!",
 		alt: "psihoterapeut beograd nikolna dobraš",
-	},
-	{
-		name: "Tanja Adamović Davies",
-		role: "Psihodrama",
-		imageUrl: "Tanja Adamovic Davies.jpg",
-		bio: "U svom pristupu integrišem psihodramsku psihoterapiju s elementima drugih humanističkih pravaca. Smatram da je odnos između klijenta i terapeuta dragocen i zato mu u radu posvećujem posebnu pažnju.",
-		alt: "psihoterapeut beograd tanja adamović davies",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 	{
 		name: "Aleksandra Ristić",
@@ -758,6 +757,8 @@ const people = [
 		imageUrl: "Aleksandra Ristic.jpg",
 		bio: "Nekada je potrebno da razumemo ono što je bilo, prihvatimo ono što jesmo i prepoznamo način na koji su povezana naša uverenja - ne zbog posledica, jer niko ne mora biti zatočenik sopstvene biografije; nego zbog priče koja nas vodi napred.",
 		alt: "psihoterapeut beograd aleksandra ristić",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Irena Stojadinović",
@@ -765,6 +766,8 @@ const people = [
 		imageUrl: "Irena Stojadinovic.jpg",
 		bio: "Izabrala sam da se bavim telesnom psihoterapijom jer se kroz nju pristupa osobi u celosti. Sa klijentima radim na ponovnom povezivanju i izražavanju osećanja, u cilju oslobađanja od starih obrazaca i usmeravanja ka svrhovitom življenju.",
 		alt: "psihoterapeut beograd irena stojadinović",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 	{
 		name: "Snežana Jovetić",
@@ -772,13 +775,8 @@ const people = [
 		imageUrl: "Snezana Jovetic.jpg",
 		bio: "Ovde možeš videti sebe na drugačiji način! Psihoterapija pomaže da budemo u kontaktu sa svojim osećanjima, da bolje razumemo sebe, svoja uverenja, obrasce, odnose, zbog kojih se često negde zaglavimo. Oseti podršku i osnaži put do promene!",
 		alt: "psihoterapeut beograd snežana jovetić",
-	},
-	{
-		name: "Milica Anđelković",
-		role: "Transakciona analiza",
-		imageUrl: "Milica Andjelkovic.jpg",
-		bio: "Hajde da upoznamo sebe i saznamo više nego što smo znali pre. Da stavimo naočare sa pravom dioptrijom i da jasno vidimo putokaze. Da najbolje što možemo iskoristimo dostupne resurse!",
-		alt: "psihoterapeut beograd milica anđelković",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 	{
 		name: "Tanja Rakita",
@@ -786,6 +784,8 @@ const people = [
 		imageUrl: "Tanja Rakita.jpg",
 		bio: "Psihoterapija može da pruži siguran prostor za eksperimentisanje s nedosanjanim idejama i neistraženim delovim sebe. Ona je način da se dostigne tačka na životnom putu iz koje se vidi panorama opcija a ne ćorsokak alternativa.",
 		alt: "psihoterapeut beograd tanja rakita",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 	{
 		name: "Iva Petronijević",
@@ -793,6 +793,8 @@ const people = [
 		imageUrl: "Iva Petronijevic.jpg",
 		bio: "Nastojim da svojim klijentima budem saradnik, vodič i podrška u procesu samospoznaje, samoaktualizacije i rada na sebi. Zajedno otkrivamo, menjamo i unapređujemo kognitivne, emocionalne i ponašajne obrasce na putu samoostvarenja.",
 		alt: "psihoterapeut beograd iva petronijević",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Sandra Činčurak",
@@ -800,13 +802,8 @@ const people = [
 		imageUrl: "Sandra Cincurak.jpg",
 		bio: "Podstičem klijenta da neguje saosećanje prema sebi, da bezuslovno prihvati sve svoje „savršenosti“ i „nesavršenosti“, da prigrli i pokaže svoju ranjivost.",
 		alt: "psihoterapeut beograd sandra činčurak",
-	},
-	{
-		name: "Jana Narančić",
-		role: "Sistemska porodična psihoterapija",
-		imageUrl: "Jana Narancic.jpg",
-		bio: "Svaka promena predstavlja izazov koji nas podstiče da preispitamo svoja uverenja, osećanja, mišljenje, a psihoterapiju vidim kao putovanje u neotkrivene delove ličnih svetova, putovanje tokom kog rastemo, razvijamo se i menjamo jedni druge.",
-		alt: "psihoterapeut beograd jana narančić",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 	{
 		name: "Natalija Ignjatović",
@@ -814,6 +811,8 @@ const people = [
 		imageUrl: "Natalija Ignjatovic.jpg",
 		bio: "U radu s pojedincima, parovima i porodicama težim da razumem lične priče – način sagledavanja sveta i funkcionisanja s drugima. Verujem da promena nastaje u prihvatajućem terapijskom odnosu, kroz otvaranje novih, drugačijih perspektiva.",
 		alt: "psihoterapeut beograd natalija ignjatović",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Jovana Bojović Đokić",
@@ -821,6 +820,8 @@ const people = [
 		imageUrl: "Jovana Bojovic Djokic.jpg",
 		bio: "Završila sam osnovne studije psihologije pri Univerzitetu u Nišu. Trenutno sam poslednja godina edukacije iz transakcione analize, sa fokusom na relacionu TA. Verujem da je odnos terapeuta i klijenta ključan za efikasni terapijski proces.",
 		alt: "psihoterapeut beograd jovana bojović đokić",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 	{
 		name: "Katarina Zdravković",
@@ -828,6 +829,8 @@ const people = [
 		imageUrl: "Katarina Zdravkovic.jpg",
 		bio: "Bilo da želite da dođete do uvida u sopstvene mehanizme, odnose sa drugima ili imate poteškoća koje utiču na dinamiku života, važno mi je da obezbedim prostor u kome možete da budete ono što jeste i da nastavite da rastete onako kako želite.",
 		alt: "psihoterapeut beograd katarina zdravković",
+		statusDa: "",
+		statusNe: "Nedostupna",
 	},
 	{
 		name: "Ivona Šćepanović",
@@ -835,6 +838,8 @@ const people = [
 		imageUrl: "Ivona Scepanovic.jpg",
 		bio: "Psihoterapija ne podrazumeva promenu svega onog što jesmo, naprotiv, podrazumeva prihvatanje i pružanje podrške sebi tamo gde je izostala, negu, samoljubav i postepenu promenu onog što mi sami želimo da menjamo u meri u kojoj nam odgovara.",
 		alt: "psihoterapeut beograd ivona šćepanović",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 	{
 		name: "Zorana Stracenski",
@@ -842,6 +847,8 @@ const people = [
 		imageUrl: "Zorana Stracenski.jpg",
 		bio: "Zdravo! Moje ime je Zorana, master sam psiholog i psihoterapeut pod supervizijom. Verujem da svako od nas ima pravo ali i sposobnost da živi svoj život onako kako istinski želi. Ukoliko želiš da na tome radimo zajedno, tu sam.",
 		alt: "psihoterapeut beograd zorana stracenski",
+		statusDa: "Dostupna",
+		statusNe: "",
 	},
 ];
 
