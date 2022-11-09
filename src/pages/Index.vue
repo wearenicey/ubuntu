@@ -263,12 +263,12 @@
 										<div class="bg-white px-6 py-10">
 											<div>
 												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Povoljno</h3>
-												<div class="mt-4 flex items-center justify-center">
-													<span class="flex items-start px-3 text-6xl tracking-tight text-gray-900">
+												<div class="mt-4 block lg:flex items-center justify-center">
+													<span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
 														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
 														<span class="font-bold">1500</span>
 													</span>
-													<span class="text-xl font-medium text-gray-500">/ seansa</span>
+													<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 												</div>
 											</div>
 										</div>
@@ -298,12 +298,12 @@
 									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
 										<div>
 											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Brzo</h3>
-											<div class="mt-4 flex items-center justify-center">
-												<span class="flex items-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
+											<div class="mt-4 block lg:flex items-center justify-center">
+												<span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
 													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
 													<span class="font-bold">2500</span>
 												</span>
-												<span class="text-2xl font-medium text-gray-500">/ seansa</span>
+												<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 											</div>
 										</div>
 									</div>
@@ -501,8 +501,8 @@
 import CardItem from "../components/CardItem.vue";
 import { required, email } from "vuelidate/lib/validators";
 
-const hobbyFeatures = ["Kvalitetna psihoterapijska podrška", "Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "Ograničen broj susreta (12)"];
-const growthFeatures = ["Kvalitetna psihoterapijska podrška", "Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "Mogućnost rada sa iskusnijim psihoterapeutima", "Neograničen broj susreta", "Fiksna cena u periodu od dve godine"];
+const hobbyFeatures = ["✓ Kvalitetna psihoterapijska podrška", "✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Ograničen broj susreta (12)"];
+const growthFeatures = ["✓ Kvalitetna psihoterapijska podrška", " ✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Mogućnost rada sa iskusnijim psihoterapeutima", "✓ Neograničen broj susreta", "✓ Fiksna cena u periodu od dve godine"];
 
 // meta deskripcija
 export default {
