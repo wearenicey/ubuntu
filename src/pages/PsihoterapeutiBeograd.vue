@@ -34,15 +34,15 @@
 													<img src="/Milena Sekularac.jpg" alt="psihoterapeut beograd milena šekularac" class="w-full h-full object-center object-cover" />
 												</div>
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Milica Andjelkovic.jpg" alt="psihoterapeut beograd milica anđelković" class="w-full h-full object-center object-cover" />
+													<img src="/vladimir-jovanovic.jpg" alt="psihoterapeut beograd isidora zekavica" class="w-full h-full object-center object-cover" />
 												</div>
 											</div>
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Bogdan Markovic.jpg" alt="psihoterapeut beograd bogdan marković" class="w-full h-full object-center object-cover" />
+													<img src="/Jelena Lekic.jpg" alt="psihoterapeut beograd jelena lekić" class="w-full h-full object-center object-cover" />
 												</div>
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
-													<img src="/Nebojsa Ratkovic.jpg" alt="psihoterapeut beograd nebojša ratković" class="w-full h-full object-center object-cover" />
+													<img src="/Natasa Ilic Sekeres.jpg" alt="psihoterapeut beograd nataša ilić sekereš" class="w-full h-full object-center object-cover" />
 												</div>
 											</div>
 										</div>

@@ -126,7 +126,7 @@
 										</div>
 										<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 											<div class="w-44 h-64 rounded-lg overflow-hidden">
-												<img src="/Ivana Petrovic.png" alt="psihoterapeuti novi sad ivana petrović" class="w-full h-full object-center object-cover" />
+												<img src="/Aleksandra Bajic.png" alt="psihoterapeuti novi sad Aleksandra Bajić" class="w-full h-full object-center object-cover" />
 											</div>
 											<div class="w-44 h-64 rounded-lg overflow-hidden">
 												<img src="/Miljana Vorkapic.png" alt="psihoterapeuti novi sad miljana vorkapić" class="w-full h-full object-center object-cover" />
@@ -1063,7 +1063,7 @@ const people = [
 		role: "Transakciona analiza",
 		imageUrl: "Irena Petrovic.png",
 		bio: "Moj pristup radu je kreiranje odnosa gde i klijent i terapeut mogu da budu ono što jesu. Kada napravimo prostor gde smo sigurni i prihvaćeni i gde možemo da izrazimo sebe, verujem da možemo doći do promene koja nam je svima nekad potrebna.",
-		alt: "psihoterapeut novi sad iena petrović",
+		alt: "psihoterapeut novi sad irena petrović",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
