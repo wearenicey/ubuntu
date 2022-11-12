@@ -291,7 +291,6 @@
 			</div>
 		</div>
 
-		
 		<div class="bg-primary">
 			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
 				<div class="text-center">
@@ -1019,7 +1018,7 @@
 import { required, email } from "vuelidate/lib/validators";
 
 const hobbyFeatures = ["✓ Kvalitetna psihoterapijska podrška", "✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Ograničen broj susreta (12)"];
-const growthFeatures = ["✓ Kvalitetna psihoterapijska podrška", " ✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Mogućnost rada sa iskusnijim psihoterapeutima", "✓ Neograničen broj susreta", "✓ Fiksna cena u periodu od dve godine"];
+const growthFeatures = ["✓ Kvalitetna psihoterapijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od 48 časova"," ✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Mogućnost rada sa iskusnijim psihoterapeutima", "✓ Neograničen broj susreta", "✓ Fiksna cena u periodu od jedne godine"];
 
 const people = [
 	{
