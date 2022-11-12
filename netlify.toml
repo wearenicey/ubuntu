@@ -150,8 +150,8 @@
 
 
 [[redirects]]
-  from = "/psihoterapeuti-novi-sad/"
-  to = "/savetovaliste-novi-sad/"
+  from = "/psihoterapeuti-novi-sad/*"
+  to = "/savetovaliste-novi-sad/:splat"
   status = 301  
 
 
