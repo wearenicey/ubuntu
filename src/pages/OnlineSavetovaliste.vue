@@ -234,8 +234,8 @@
 		<div class="bg-primary">
 			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
 				<div class="text-center">
-					<h2 class="text-xl leading-6 text-gray-300">Cenovnik</h2>
-					<p class="mt-2 text-3xl tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p>
+					<h2 class="text-xl font-sans leading-6 text-gray-300">Cenovnik</h2>
+					<p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p>
 				</div>
 			</div>
 
@@ -279,7 +279,7 @@
 									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary" aria-hidden="true" />
 									<div class="absolute inset-x-0 top-0 translate-y-px transform">
 										<div class="flex -translate-y-1/2 transform justify-center">
-											<span class="inline-flex rounded-full bg-secondary px-4 py-1 text-base font-semibold text-white">Najtraženije</span>
+											<span class="inline-flex rounded-full bg-green-700 px-4 py-1 text-base tracking-widest text-white">Najtraženije</span>
 										</div>
 									</div>
 									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
