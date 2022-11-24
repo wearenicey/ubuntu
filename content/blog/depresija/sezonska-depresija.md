@@ -1,5 +1,5 @@
 ---
-title: Sezonska depresija
+title: Sezonska depresija - Šta je to i kako je prepoznati?
 category: depresija
 # ovo je i meta desc
 excerpt: Moje višegodišnje iskustvo u radu s klijentima govori mi da su s oblacima i kišom osetni neraspoloženje kod ljudi... 

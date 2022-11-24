@@ -1,5 +1,5 @@
 ---
-title: Telesna psihoterapija
+title: Telesna psihoterapija - koncept, tehnike i ciljevi
 category: psihoterapijski-pravci
 # ovo je i meta desc
 excerpt: Rad sa telom podrazumeva da je psihoterapeut fokusiran na držanje klijenta, na položaj njegovog tela u prostoru, na pokrete očiju, mimiku, gestikulaciju, kao i tempo disanja i svih telesnih pokreta...
