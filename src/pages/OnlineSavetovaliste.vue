@@ -950,8 +950,8 @@
 //importovanje komponenti
 import { required, email } from "vuelidate/lib/validators";
 
-const hobbyFeatures = ["✓ Kvalitetna psihoterapijska podrška", "✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Ograničen broj susreta (12)"];
-const growthFeatures = ["✓ Kvalitetna psihoterapijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od 48 časova"," ✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Mogućnost rada sa iskusnijim psihoterapeutima", "✓ Neograničen broj susreta", "✓ Fiksna cena u periodu od jedne godine"];
+const hobbyFeatures = ["✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom", "✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola", "✓ Kvalitetna podrška u procesu savetovanja i psihoterapije", "✓ Kontakt saradnika se dobija u roku od mesec dana", "✓ Ograničen broj susreta (12)"];
+const growthFeatures = ["✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti", " ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola", "✓ Kvalitetna psihoterpijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od 48 časova", "✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni"];
 
 export default {
 	//meta deskripcija za stranicu

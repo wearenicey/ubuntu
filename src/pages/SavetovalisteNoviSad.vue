@@ -1017,8 +1017,8 @@
 //importovanje komponenti
 import { required, email } from "vuelidate/lib/validators";
 
-const hobbyFeatures = ["✓ Kvalitetna psihoterapijska podrška", "✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Ograničen broj susreta (12)"];
-const growthFeatures = ["✓ Kvalitetna psihoterapijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od 48 časova"," ✓ Dostupni su psihoterapeuti koji dolaze iz različitih psihoterapijskih škola", "✓ Mogućnost rada sa iskusnijim psihoterapeutima", "✓ Neograničen broj susreta", "✓ Fiksna cena u periodu od jedne godine"];
+const hobbyFeatures = ["✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom", "✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola", "✓ Kvalitetna podrška u procesu savetovanja i psihoterapije", "✓ Kontakt saradnika se dobija u roku od mesec dana", "✓ Ograničen broj susreta (12)"];
+const growthFeatures = ["✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti", " ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola", "✓ Kvalitetna psihoterpijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od 48 časova", "✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni"];
 
 const people = [
 	{
@@ -1101,6 +1101,42 @@ const people = [
 		imageUrl: "Nina Popov.png",
 		bio: "Otkrivaćeš sebe, razvijati se i učiti kako da umesto utabanih puteva koji nose višak patnje, gradiš i biraš nove koji vode boljem funkcionisanju i ispunjenijem životu.",
 		alt: "psihoterapeut novi sad nina popov",
+		statusDa: "Dostupna",
+		statusNe: "",
+	},
+	{
+		name: "Tijana Stojšić",
+		role: "Transakciona analiza",
+		imageUrl: "tijana-stojsic.jpg",
+		bio: "U sigurnom okruženju možete podeliti svoju priču. Stručna podrška terapeuta vam može pomoći da bolje razumete sebe i okolnosti u kojima ste se našli. Na psihoterapiji stičete uvide i radite na promeni koju želite da postignete.",
+		alt: "psihoterapeut novi sad tijana stojšić",
+		statusDa: "Dostupna",
+		statusNe: "",
+	},
+	{
+		name: "Vanja Tripković",
+		role: "Transakciona analiza",
+		imageUrl: "vanja-tripkovic.jpg",
+		bio: "Svako je sposoban da donosi odluke za sebe i obezbedi kvalitetan život kojim je zadovoljan. Moja uloga u tom odlučivanju je da pomognem da bolje razumete sebe, razvijete svoje potencijale i više budete u skladu da sobom.",
+		alt: "psihoterapeut novi sad vanja tripković",
+		statusDa: "Dostupna",
+		statusNe: "",
+	},
+	{
+		name: "Igor Ilić",
+		role: "Sistemska porodična terapija ",
+		imageUrl: "igor-ilic.jpg",
+		bio: "Sistemski porodični savetnik i psihoterapeut pod supervizijom. Individualna, partnerska i porodična psihoterapija. Psihoterapijski proces jeste korektivno iskustvo - u okviru bezbednog prostora radimo na promeni ka onome funkcionalnijem.",
+		alt: "psihoterapeut novi sad Igor Ilić",
+		statusDa: "Dostupan",
+		statusNe: "",
+	},
+	{
+		name: "Kristina Marković",
+		role: "Transakciona analiza",
+		imageUrl: "kristina-markovic.jpg",
+		bio: "Terapiju vidim kao zajednicko putovanje na kom upoznajemo sebe, druge, svet. Putovanje na kom ucimo da sada kao odrasli imamo slobodu izbora, opcije I mozemo izrazavati osećanja.Samo oni koji ce rizikovati da odu predaleko mogu da otkriju koliko daleko moze da se ode.",
+		alt: "psihoterapeut novi sad Kristina Marković",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
