@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: kada-je-pravo-vreme-za-psihoterapiju
 name: Aloo
-metaDesc: "Ukoliko se odlučimo da krenemo na psihoterapiju jedan od bitnih činilaca je motivacija."
+metaDesc: "Mnoge osobe imaju dilemu da li je uopšte potrebno i kada krenuti na psihoterapiju. Navešćemo neke od znakova kada je možda potrebno potražiti pomoć stručnjaka."
 ---
 
 Često mislimo da je psihoterapija potrebna samo osobama koje imaju nekih velikih i ozbiljnih problema, da je potrebno da naš problem postane veći i da samo tada imamo pravo da potražimo podršku. Započinjanje terapijskog procesa odlažemo mislima kao što su: “Ma što bih ja išao, moj problem je nevažan kada ga uporedim sa problemima sa kojima se ljudi suočavaju” ili nekim sličnim. Ali baš suprotno tome –  ljudi koji dođu na psihoterapiju imaju probleme koje ima svako od nas. Oni se ni po čemu ne razlikuju, a u najvećem broju slučajeva zbog istog problema javio se veliki broj naših drugih klijenata.

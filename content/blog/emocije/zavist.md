@@ -15,7 +15,7 @@ featured: false
 pocetna: false
 path: zavist
 name: Aloo
-metaDesc: "U ovom tekstu ću se osvrnuti na jednu emociju koja je neprijatna za osećati ili iskazati a to je tuga."
+metaDesc: "Zavist je emocija koja je najčešća okarakterisna kao neadekvatna, ali... U ovom tekstu pišemo o zavisti iz raznih uglova."
 ---
 
 
