@@ -141,7 +141,7 @@
 									@click="onClickTwo()"
 									class="text-center mt-4 rounded-3xl border border-transparent px-5 py-3 bg-secondary text-base font-medium text-white shadow focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2 sm:px-10"
 								>
-									Kontaktirajte nas za više informacija
+									Kontaktirajte nas
 								</a>
 							</div>
 						</div>
