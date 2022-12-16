@@ -6,6 +6,7 @@ excerpt: Racionalno-emotivno bihejvioralna terapija (REBT) je terapija koja svoj
 created: 2022-01-21
 date: 2022.01.21
 image: racionalno-emotivno-bihejvioralna-terapija.jpg
+alt:
 imageTwo:
   path: /racionalno-emotivno-bihejvioralna-terapija.jpg
   alt: "rebt"

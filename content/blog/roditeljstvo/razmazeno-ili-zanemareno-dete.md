@@ -7,6 +7,7 @@ excerpt: Nije redak slučaj ni u praksi ni u svakodnevici da osobe koje su zapra
 created: 2022-09-09
 date: 2022.09.09
 image: razmazeno-ili-zanemareno-dete.jpg
+alt:
 imageTwo:
   path: /razmazeno-ili-zanemareno-dete.jpg
   alt: "razmaženo dete"

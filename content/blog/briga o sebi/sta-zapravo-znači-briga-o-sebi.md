@@ -6,6 +6,7 @@ excerpt: Dosta se priča o saniranju posledica svakodnevnog stresa i burnout-a, 
 created: 2022-01-27
 date: 2022.01.27
 image: sta-zapravo-znaci-briga-o-sebi.jpg
+alt:
 imageTwo:
   path: /sta-zapravo-znaci-briga-o-sebi.jpg
   alt: "briga o sebi"

@@ -6,6 +6,7 @@ excerpt: Kada nekome ko ne zna kakav je osećaj biti voljen, prihvaćen i uvaže
 created: 2022-07-08
 date: 2022.07.08
 image: da-li-je-ljubav-prema-sebi-lek-za-sve.jpg
+alt:
 imageTwo:
   path: /da-li-je-ljubav-prema-sebi-lek-za-sve.jpg
   alt: "ljubav prema sebi"

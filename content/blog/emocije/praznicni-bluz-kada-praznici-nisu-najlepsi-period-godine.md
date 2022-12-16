@@ -6,6 +6,7 @@ excerpt: Bilo da su prijatne ili neprijatne, bilo da traju vrlo kratko ili duže
 created: 2021-12-30
 date: 2021.12.30
 image: praznicna-depresija.jpg
+alt:
 imageTwo:
   path: /praznicna-depresija.jpg
   alt: "praznična depesija"

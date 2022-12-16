@@ -6,6 +6,7 @@ excerpt: Izbor profesije može uticati na opšti osećaj blagostanja i sreća je
 created: 2021-11-20
 date: 2021.11.20
 image: stres.jpg
+alt:
 imageTwo:
   path: /stres.jpg
   alt: "žena sa maskom drži se za glavu"

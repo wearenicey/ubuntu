@@ -6,6 +6,7 @@ excerpt: Kada razmišljamo o tome da li da krenemo na psihoterapiju, pitanje iz 
 created: 2022-08-18
 date: 2022.08.18
 image: da-li-je-i-koliko-psihoterapija-efikasna.jpg
+alt:
 imageTwo:
   path: /da-li-je-i-koliko-psihoterapija-efikasna.jpg
   alt: "efikasna psihoterapija"

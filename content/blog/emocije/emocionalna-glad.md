@@ -6,6 +6,7 @@ excerpt: Potreba za hranom jedna je od osnovnih ljudskih potreba. Hrana nam je p
 created: 2021-11-25
 date: 2021.11.25
 image: emocionalna-glad.jpg
+alt:
 imageTwo:
   path: /emocionalna-glad.jpg
   alt: "glad za emocijama"

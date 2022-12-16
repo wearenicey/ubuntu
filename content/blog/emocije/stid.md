@@ -6,6 +6,7 @@ excerpt: Zašto se stidimo, šta je to stid, zašto ga osećamo i šta nam on za
 created: 2022-03-04
 date: 2022.03.04
 image: stid.jpg
+alt:
 imageTwo:
   path: /stid.jpg
   alt: "stid"

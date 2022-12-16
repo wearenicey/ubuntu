@@ -7,6 +7,7 @@ excerpt: Često u radu sa roditeljima čujem kako se preispituju da li svoju ulo
 created: 2022-03-11
 date: 2022.03.11
 image: izazovi-roditeljstva.jpg
+alt:
 imageTwo:
   path: /izazovi-roditeljstva.jpg
   alt: "odrastanje"

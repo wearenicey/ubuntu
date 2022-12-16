@@ -6,6 +6,7 @@ excerpt: Često u radu sa klijentima dođemo do teme roditelja koji ne mogu da p
 created: 2022-02-18
 date: 2022.02.18
 image: kako-da-roditelji-podizu-decu-istopolne-seksualne-orijentacije.jpg
+alt:
 imageTwo:
   path: /kako-da-roditelji-podizu-decu-istopolne-seksualne-orijentacije.jpg
   alt: "dete istopolne seksualne orijentacije"

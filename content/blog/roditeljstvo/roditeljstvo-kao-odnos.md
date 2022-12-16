@@ -7,6 +7,7 @@ excerpt: Zasuti svim tehnikama i metodama – kako da nam deca budu ovakva ili o
 created: 2022-10-21
 date: 2022.10.21
 image: roditeljstvo-kao-odnos.jpg
+alt:
 imageTwo:
   path: /roditeljstvo-kao-odnos.jpg
   alt: "odnos roditelja i deteta"

@@ -6,6 +6,7 @@ excerpt:  Prikaz knjige koja nas uči kako da sagledamo i preispitamo svoja uver
 created: 2021-12-17
 date: 2021.12.17
 image: dete-u-tebi-mora-da-pronadje-svoj-zavicaj.jpg
+alt:
 imageTwo:
   path: /dete-u-tebi-mora-da-pronadje-svoj-zavicaj.jpg
   alt: "knjiga dete u tebi"

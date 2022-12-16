@@ -6,6 +6,7 @@ excerpt: Kada počnu da nastaju sukobi između partnera, šta se može učiniti?
 created: 2021-12-09
 date: 2021.12.09
 image: konflikti-u-partnerskim-odnosima.jpg
+alt:
 imageTwo:
   path: /konflikti-u-partnerskim-odnosima.jpg
   alt: "konflikt partnera"

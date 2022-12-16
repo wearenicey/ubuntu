@@ -6,6 +6,7 @@ excerpt: Ljudi najčešće dođu na psihoterapiju kada želje iz spontanog i kre
 created: 2022-04-28
 date: 2022.04.28
 image: klijent.webp
+alt:
 imageTwo:
   path: /klijent.webp
   alt: "perfekcionizam klijenta"

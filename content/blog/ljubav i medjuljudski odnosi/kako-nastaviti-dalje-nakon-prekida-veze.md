@@ -6,6 +6,7 @@ excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske
 created: 2021-11-25
 date: 2021.11.25
 image: raskid.jpg
+alt:
 imageTwo:
   path: /raskid.jpg
   alt: "slomljeno srce"

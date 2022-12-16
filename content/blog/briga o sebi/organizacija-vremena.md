@@ -6,6 +6,7 @@ excerpt: Razmišljanje i planiranje su još dva talenta kojima smo kao pripadnic
 created: 2022-04-01
 date: 2022.04.01
 image: organizacija-vremena.jpg
+alt:
 imageTwo:
   path: /organizacija-vremena.jpg
   alt: "organizacija vremena"

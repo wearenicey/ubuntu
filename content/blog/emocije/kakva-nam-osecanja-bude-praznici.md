@@ -6,6 +6,7 @@ excerpt: Lepo je radovati se praznicima, ali je u redu i da im se, ako se tako n
 created: 2022-12-16
 date: 2022.12.16
 image: kakva-nam-osecanja-bude-praznici.jpg
+alt:
 imageTwo:
   path: /kakva-nam-osecanja-bude-praznici.jpg
   alt: "praznici"

@@ -6,6 +6,7 @@ excerpt: Nastupi sa plesnim klubom, košarkaška utakmica, takmičenje recitator
 created: 2022-11-18
 date: 2022.11.18
 image: javni-nastup-i-trema.jpg
+alt:
 imageTwo:
   path: /javni-nastup-i-trema.jpg
   alt: "javni nastup trema"

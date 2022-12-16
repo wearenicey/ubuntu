@@ -6,6 +6,7 @@ excerpt: Svi se mi  tokom života susretnemo sa gubitkom. Neko zbog prekida veze
 created: 2021-11-25
 date: 2021.11.25
 image: gubitak.jpg
+alt:
 imageTwo:
   path: /gubitak.jpg
   alt: "tuga i gubitak"

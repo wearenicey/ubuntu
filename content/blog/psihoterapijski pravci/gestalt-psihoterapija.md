@@ -6,6 +6,7 @@ excerpt: Geštalt je nemačka reč koja znači celina, konfiguracija.
 created: 2022-09-01
 date: 2022.09.01
 image: gestalt.jpg
+alt:
 imageTwo:
   path: /gestalt.jpg
   alt: "geštalt psihoterpija"

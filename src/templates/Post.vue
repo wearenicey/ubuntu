@@ -16,7 +16,7 @@
 							<span aria-hidden="true"> &middot; </span>
 							<span> {{ $page.post.timeToRead }} minuta čitanja</span>
 						</div>
-						<g-image immediate="true" class="mt-4 w-full object-cover" :src="require(`!!assets-loader!@img/${$page.post.image}`)" alt="" />
+						<g-image immediate="true" class="mt-4 w-full object-cover" :src="require(`!!assets-loader!@img/${$page.post.image}`)" :alt="$page.post.alt" />
 					</div>
 					<div class="mt-6 container">
 						<div class="prose mx-auto text-left" v-html="$page.post.content"></div>
@@ -140,6 +140,7 @@
 				title
 			}
       image
+			alt
       image_caption
       excerpt
 			imageTwo {

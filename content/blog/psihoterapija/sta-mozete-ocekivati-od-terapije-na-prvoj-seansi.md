@@ -6,6 +6,7 @@ excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske
 created: 2021-11-27
 date: 2021.11.27
 image: sta-mozete-ocekivati.jpg
+alt:
 imageTwo:
   path: /sta-mozete-ocekivati.jpg
   alt: "ruke kao podrška na prvoj terapiji"

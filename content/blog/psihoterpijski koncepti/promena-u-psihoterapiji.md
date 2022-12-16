@@ -6,6 +6,7 @@ excerpt: Često se psihoterapeutu obraćamo upravo onda kada osećamo da smo spr
 created: 2022-07-22
 date: 2022.07.22
 image: promena-u-psihoterapiji.jpg
+alt:
 imageTwo:
   path: /promena-u-psihoterapiji.jpg
   alt: "promena u psihoterapiji"

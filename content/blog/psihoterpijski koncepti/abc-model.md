@@ -6,6 +6,7 @@ excerpt: Jedan od najpoznatijih obeležja racionalno – emotivno bihejvioralne 
 created: 2022-05-27
 date: 2022.05.27
 image: abc-model.jpg
+alt:
 imageTwo:
   path: /abc-model.jpg
   alt: "abc model u psihoterpiji"

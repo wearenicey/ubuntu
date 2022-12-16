@@ -6,6 +6,7 @@ excerpt: Poslednjih pola veka, dominantno objašnjenje depresije bilo je usredsr
 created: 2022-07-29
 date: 2022.07.29
 image: depresija-i-serotonin.jpg
+alt:
 imageTwo:
   path: /depresija-i-serotonin.jpg
   alt: "serotonin"

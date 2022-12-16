@@ -6,6 +6,7 @@ excerpt:  Savremeni vitez na belom konju u stvarnom životu čini se izuzetnim p
 created: 2022-07-15
 date: 2022.07.15
 image: spasite-se-potrebe-da-spasavate-druge.jpg
+alt:
 imageTwo:
   path: /spasite-se-potrebe-da-spasavate-druge.jpg
   alt: "vitez na belom konju"

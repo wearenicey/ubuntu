@@ -6,6 +6,7 @@ excerpt: Porodica je složen višedimenzionalan sistem, obojen etičkim, istorij
 created: 2022-04-21
 date: 2022.04.21
 image: znacaj-porodice.webp
+alt:
 imageTwo:
   path: /znacaj-porodice.webp
   alt: "porodica"
