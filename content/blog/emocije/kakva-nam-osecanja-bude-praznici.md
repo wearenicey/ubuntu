@@ -13,9 +13,10 @@ image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
-path: zavist
+path: kakva-nam-osecanja-bude-praznici
 name: Aloo
-metaDesc: ""
+metaDesc: "Nisu svi radosni i srećni kada su Novogidišnji i Božićni praznici u toku. Ponekad je potrebno razumevanje za sebe i druge ako se pojave druga osećanja u ovom periodu. Nije pogrešno biti neraspoložen za praznike"
+
 ---
 
 
