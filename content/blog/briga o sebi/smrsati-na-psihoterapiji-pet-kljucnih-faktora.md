@@ -7,7 +7,7 @@ excerpt: Možda na prvi pogled zvuči čudno ideja da neko mršavi na psihoterap
 created: 2022-02-04
 date: 2022.02.04
 image: smrsati-na-psihoterapiji-pet-kljucnih-faktora.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /smrsati-na-psihoterapiji-pet-kljucnih-faktora.jpg
   alt: "psihoterapija i mršavljenje"

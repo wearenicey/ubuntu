@@ -6,7 +6,7 @@ excerpt: Tokom trudnoće i posle porođaja dolazi do značajnih hormonskih prome
 created: 2022-05-06
 date: 2022.05.06
 image: majka.webp
-alt:
+alt: "primer"
 imageTwo:
   path: /majka.webp
   alt: "mentalno zdravlje majke"

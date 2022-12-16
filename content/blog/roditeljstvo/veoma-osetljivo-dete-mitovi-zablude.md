@@ -7,7 +7,7 @@ excerpt: Razumevanje ponašanja koju ova osobina može da donese jako je važno 
 created: 2022-12-09
 date: 2022.12.09
 image: veoma-osetljivo-dete-mitovi-zablude.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /veoma-osetljivo-dete-mitovi-zablude.jpg
   alt: "odnos roditelja i deteta"

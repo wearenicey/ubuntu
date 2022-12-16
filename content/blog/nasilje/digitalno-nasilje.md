@@ -5,7 +5,7 @@ excerpt: Digitalno nasilje je korišćenje (zloupotrebljavanje) digitalne tehnol
 created: 2022-11-04
 date: 2022.11.04
 image: digitalno-nasilje.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /digitalno-nasilje.jpg
   alt: "digitalno nasilje"

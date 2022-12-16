@@ -6,7 +6,7 @@ excerpt: Dosada – svima nama još iz detinjstva poznato osećanje, a većina n
 created: 2022-09-30
 date: 2022.09.30
 image: dosada.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /dosada.jpg
   alt: "dosada"

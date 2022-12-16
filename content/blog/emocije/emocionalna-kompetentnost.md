@@ -6,7 +6,7 @@ excerpt: Često nesvesno, kao ljudi koji teže da izbegnu bol, pribegavamo potis
 created: 2022-08-12
 date: 2022.08.12
 image: emocionalna-kompetentnost.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /emocionalna-kompetentnost.jpg
   alt: "Emocionalna kompetentnost"

@@ -6,7 +6,7 @@ excerpt: Saznanje dijagnoze maligne bolesti predstavlja jedan od najstresnijih d
 created: 2022-10-06
 date: 2022.10.06
 image: psiholoski-procesi-kod-onkoloskih-pacijenata.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /psiholoski-procesi-kod-onkoloskih-pacijenata.jpg
   alt: "podrška bolesnoj osobi"

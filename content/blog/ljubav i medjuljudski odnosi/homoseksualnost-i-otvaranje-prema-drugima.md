@@ -6,7 +6,7 @@ excerpt: Od samog rođenja, kvalitet emocionalne povezanosti mame i bebe (ili pr
 created: 2021-11-25
 date: 2021.11.25
 image: homoseksualnost.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /homoseksualnost.jpg
   alt: "lgbt"

@@ -6,7 +6,7 @@ excerpt: Transakciona analiza je jedan od načina razumevanja čovekove ličnost
 created: 2021-11-27
 date: 2021.11.27
 image: transakciona-analiza.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /transakciona-analiza.jpg
   alt: "transakciona analiza"

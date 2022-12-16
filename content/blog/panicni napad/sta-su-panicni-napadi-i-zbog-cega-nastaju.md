@@ -6,7 +6,7 @@ excerpt: Trudim se da što manje idem liftom, što zbog negovanja sportskog duha
 created: 2021-11-27
 date: 2021.11.27
 image: panicni-napad.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: ./images/slika-3.jpg
   alt: "čovek skače u panici"

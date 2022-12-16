@@ -6,7 +6,7 @@ excerpt: Svi smo mi pomalo perfekcionisti. Stalo nam je do toga da posao uradimo
 created: 2021-11-27
 date: 2021.11.27
 image: perfekcionizam.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /perfekcionizam.jpg
   alt: "perfekcionizam"

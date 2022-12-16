@@ -6,7 +6,7 @@ excerpt: Psihodrama je prvenstveno grupni akcioni metod psihoterapije ali se kor
 created: 2021-11-27
 date: 2021.11.27
 image: psihodrama.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /psihodrama.jpg
   alt: "psihodrama"

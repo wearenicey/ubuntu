@@ -6,7 +6,7 @@ excerpt: Bilo da su prijatne ili neprijatne, bilo da traju vrlo kratko ili duže
 created: 2021-10-24
 date: 2021.10.24
 image: ljutnja.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /ljutnja.jpg
   alt: "ljutnja"

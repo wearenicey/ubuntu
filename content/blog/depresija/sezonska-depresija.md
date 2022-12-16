@@ -6,7 +6,7 @@ excerpt: Moje višegodišnje iskustvo u radu s klijentima govori mi da su s obla
 created: 2021-12-02
 date: 2021.12.02
 image: sezonska-depresija.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /sezonska-depresija.jpg
   alt: "sezonska depresija"

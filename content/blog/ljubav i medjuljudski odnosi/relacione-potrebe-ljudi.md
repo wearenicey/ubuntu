@@ -6,7 +6,7 @@ excerpt: Od samog rođenja, kvalitet emocionalne povezanosti mame i bebe (ili pr
 created: 2021-11-25
 date: 2021.11.25
 image: relacione-potrebe.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /relacione-potrebe.jpg
   alt: "scre i odnos pema drugim ljudima"

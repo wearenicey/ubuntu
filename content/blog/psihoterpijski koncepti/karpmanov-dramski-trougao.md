@@ -6,7 +6,7 @@ excerpt: Dramski trougao je socijalni model ljudske interakcije, koji mapira des
 created: 2022-06-03
 date: 2022.06.03
 image: karpmanov-dramski-trougao.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /karpmanov-dramski-trougao.jpg
   alt: "dramski trougao"

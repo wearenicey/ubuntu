@@ -6,7 +6,7 @@ excerpt: Sistemska porodična terapija se u najvećoj meri bavi porodicom i meta
 created: 2021-11-27
 date: 2021.11.27
 image: metafora-i-porodicna-terapija.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /metafora-i-porodicna-terapija.jpg
   alt: "porodična terapija"

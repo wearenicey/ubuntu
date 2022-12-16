@@ -6,7 +6,7 @@ excerpt: Psihoterapeuti su osobe obučene i školovane da pomoću svojih tehnika
 created: 2021-11-27
 date: 2021.11.27
 image: kako-da-postanem-psihoterapeut.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /kako-da-postanem-psihoterapeut.jpg
   alt: "psihoterapeut"

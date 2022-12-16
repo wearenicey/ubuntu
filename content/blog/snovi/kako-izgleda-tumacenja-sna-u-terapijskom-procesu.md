@@ -6,7 +6,7 @@ excerpt: Da biste što bolje doživeli način na koji geštaltista radi sa snom 
 created: 2022-04-14
 date: 2022.04.14
 image: tumacenje-sna.webp
-alt:
+alt: "primer"
 imageTwo:
   path: /tumacenje-sna.webp
   alt: "snovi"

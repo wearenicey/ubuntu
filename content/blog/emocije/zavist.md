@@ -6,7 +6,7 @@ excerpt: Zavist se pojavljuje u raznim oblicima. Može biti adekvatna, neadekvat
 created: 2022-10-28
 date: 2022.10.28
 image: zavist.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /zavist.jpg
   alt: "zavist"

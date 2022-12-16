@@ -6,7 +6,7 @@ excerpt: Kada smo zaljubljeni, skloni smo idealizaciji partnera, pa tako preplav
 created: 2022-02-11
 date: 2022.02.11
 image: kako-biramo-partnere.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /kako-biramo-partnere.jpg
   alt: "izbor partnera"

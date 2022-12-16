@@ -5,7 +5,7 @@ excerpt: Nasilje nad ženama i devojčicama predstavlja jedan od najraširenijih
 created: 2022-11-25
 date: 2022.11.25
 image: nasilje-nad-zenama.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /nasilje-nad-zenama.jpg
   alt: "nasilje nad ženama"

@@ -6,7 +6,7 @@ excerpt: Ako „porast samoubistava“ i „porast depresije“ među mladima po
 created: 2022-01-13
 date: 2022.01.13
 image: samoubilacka-ponasanja-i-savremeno-doba.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /samoubilacka-ponasanja-i-savremeno-doba.jpg
   alt: "ruka spasa"

@@ -6,7 +6,7 @@ excerpt: Svi mi ponekad radimo stvari koje nisu dobre po nas ili su direktno št
 created: 2021-11-27
 date: 2021.11.27
 image: samopovredjivanje.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /samopovredjivanje.jpg
   alt: "samopovređivanje čoveka"

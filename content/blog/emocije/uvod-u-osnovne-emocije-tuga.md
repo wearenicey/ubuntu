@@ -6,7 +6,7 @@ excerpt: U ovom tekstu ću se osvrnuti na jednu emociju koja je neprijatna za os
 created: 2022-03-18
 date: 2022.03.18
 image: tuga.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /tuga.jpg
   alt: "tuga"

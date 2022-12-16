@@ -7,7 +7,7 @@ excerpt: Razvojne traume predstavljaju bolna, ugrožavajuća iskustva, koja se p
 created: 2022-06-10
 date: 2022.06.10
 image: rane-koje-ne-prolaze.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /rane-koje-ne-prolaze.jpg
   alt: "razvojna trauma"

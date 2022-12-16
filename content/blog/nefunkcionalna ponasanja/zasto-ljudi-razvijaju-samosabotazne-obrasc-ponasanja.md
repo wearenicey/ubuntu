@@ -6,7 +6,7 @@ excerpt: Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa na�
 created: 2021-11-27
 date: 2021.11.27
 image: sabotaza.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /sabotaza.jpg
   alt: "sabotiranje sebe"

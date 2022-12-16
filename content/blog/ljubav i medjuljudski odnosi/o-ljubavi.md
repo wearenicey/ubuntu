@@ -6,7 +6,7 @@ excerpt: Knjiga „Ljubavologija‟ sociologa Bruna Šimleša na drugačiji, sav
 created: 2021-11-25
 date: 2021.11.25
 image: o-ljubavi.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /o-ljubavi.jpg
   alt: "ljubav"

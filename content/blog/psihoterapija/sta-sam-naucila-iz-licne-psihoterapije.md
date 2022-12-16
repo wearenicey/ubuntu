@@ -6,7 +6,7 @@ excerpt: Svako od nas ima problem, nešto naše, nešto lično, nešto oko čega
 created: 2022-01-05
 date: 2022.01.05
 image: licna-psihoterapija.jpg
-alt:
+alt: "primer"
 imageTwo:
   path: /licna-psihoterapija.jpg
   alt: "lična psihoterapija"
