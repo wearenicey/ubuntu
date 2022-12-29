@@ -6,10 +6,10 @@ excerpt: Većina savremenih kultura, uključujući i našu, pretvorile su se u �
 created: 2021-12-23
 date: 2021.12.23
 image: najjaci-samo-ostaju.jpg
-alt: "primer"
+alt: "bez emocija"
 imageTwo:
   path: /najjaci-samo-ostaju.jpg
-  alt: "budite snažni"
+  alt: "bez emocija"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

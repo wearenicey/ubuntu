@@ -6,10 +6,10 @@ excerpt: Dešava se da dobijem pitanje vezano za prisustvo depresije među mladi
 created: 2021-11-25
 date: 2021.11.25
 image: depresija.jpg
-alt: "primer"
+alt: "depresija"
 imageTwo:
   path: /depresija.jpg
-  alt: "depresija i anksioznost"
+  alt: "depresija"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

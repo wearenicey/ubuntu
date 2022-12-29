@@ -6,10 +6,10 @@ excerpt: Lepo je radovati se praznicima, ali je u redu i da im se, ako se tako n
 created: 2022-12-16
 date: 2022.12.16
 image: kakva-nam-osecanja-bude-praznici.jpg
-alt: "primer"
+alt: "praznične emocije"
 imageTwo:
   path: /kakva-nam-osecanja-bude-praznici.jpg
-  alt: "praznici"
+  alt: "praznične emocije"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

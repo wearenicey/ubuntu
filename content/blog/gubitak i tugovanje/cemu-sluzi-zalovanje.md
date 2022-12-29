@@ -6,10 +6,10 @@ excerpt: Žalovanje je proces koji bismo najradije preskočili. Zašto?
 created: 2022-04-07
 date: 2022.04.07
 image: zalovanje.webp
-alt: "primer"
+alt: "žalost"
 imageTwo:
   path: /zalovanje.webp
-  alt: "žaljenje i tuga"
+  alt: "žalost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
