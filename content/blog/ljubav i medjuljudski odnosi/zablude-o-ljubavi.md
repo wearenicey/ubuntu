@@ -6,10 +6,10 @@ excerpt: Zablude o ljubavi su uverenja koja mnogi od nas imaju o partnerskim odn
 created: 2022-08-05
 date: 2022.08.05
 image: zablude-o-ljubavi.jpg
-alt: "primer"
+alt: "ljubav i zabluda"
 imageTwo:
   path: /zablude-o-ljubavi.jpg
-  alt: "Zablude o ljubavi"
+  alt: "ljubav i zabluda"
 image_caption: Photo by Khamkeo Vilaysing on Unsplash
 author: author1
 featured: false

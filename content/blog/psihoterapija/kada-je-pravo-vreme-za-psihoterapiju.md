@@ -6,10 +6,10 @@ excerpt: Često mislimo da je psihoterapija potrebna samo osobama koje imaju nek
 created: 2022-12-02
 date: 2022.12.02
 image: vreme-za-psihoterapiju.jpg
-alt: "primer"
+alt: "kada započeti psihoterapiju"
 imageTwo:
   path: /vreme-za-psihoterapiju.jpg
-  alt: "vreme je za psihoterapiju"
+  alt: "kada započeti psihoterapiju"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

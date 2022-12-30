@@ -6,10 +6,10 @@ excerpt: Svi mi ponekad radimo stvari koje nisu dobre po nas ili su direktno št
 created: 2021-11-27
 date: 2021.11.27
 image: samopovredjivanje.jpg
-alt: "primer"
+alt: "samopovređivanje"
 imageTwo:
   path: /samopovredjivanje.jpg
-  alt: "samopovređivanje čoveka"
+  alt: "samopovređivanje"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

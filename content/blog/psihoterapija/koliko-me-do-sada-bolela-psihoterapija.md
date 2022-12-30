@@ -6,10 +6,10 @@ excerpt: Već dugo grizem sebi rep, taman pomislim da sam usvojila nešto i prom
 created: 2021-11-27
 date: 2021.11.27
 image: koliko-me-je-bolela-psihoterapija.jpg
-alt: "primer"
+alt: "bol na psihoterapiji"
 imageTwo:
   path: /koliko-me-je-bolela-psihoterapija.jpg
-  alt: "bolna psihoterapija"
+  alt: "bol na psihoterapiji"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

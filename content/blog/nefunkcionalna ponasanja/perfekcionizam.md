@@ -6,10 +6,10 @@ excerpt: Svi smo mi pomalo perfekcionisti. Stalo nam je do toga da posao uradimo
 created: 2021-11-27
 date: 2021.11.27
 image: perfekcionizam.jpg
-alt: "primer"
+alt: "perfekcionista"
 imageTwo:
   path: /perfekcionizam.jpg
-  alt: "perfekcionizam"
+  alt: "perfekcionista"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

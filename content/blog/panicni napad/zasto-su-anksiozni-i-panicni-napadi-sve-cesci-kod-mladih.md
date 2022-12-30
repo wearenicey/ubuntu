@@ -6,10 +6,10 @@ excerpt: Mladi su danas kako, zbog pandemije Covid 19, tako i zbog stila života
 created: 2022-06-17
 date: 2022.06.17
 image: zasto-su-anksiozni-i-panicni-napadi-sve-cesci-kod-mladih.jpg
-alt: "primer"
+alt: "napad panike simptomi"
 imageTwo:
   path: /zasto-su-anksiozni-i-panicni-napadi-sve-cesci-kod-mladih.jpg
-  alt: "anksioznost kod mladih"
+  alt: "napad panike simptomi"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

@@ -6,10 +6,10 @@ excerpt: U geštalt terapiji se san ne vidi kao ispunjenje skrivene želje, već
 created: 2022-02-25
 date: 2022.02.25
 image: kako-se-snovi-tumace-u-gestaltu.jpg
-alt: "primer"
+alt: "snovi i geštalt terapija"
 imageTwo:
   path: /kako-se-snovi-tumace-u-gestaltu.jpg
-  alt: "snovi u geštalt terpiji"
+  alt: "snovi i geštalt terpija"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

@@ -7,7 +7,7 @@ excerpt: Gotovo sve što zna o ljubavi dete će prvo naučiti od nas – kako se
 created: 2022-07-01
 date: 2022.07.01
 image: deci-ljubav-nije-dovoljna.jpg
-alt: "primer"
+alt: "ljudav prema detetu"
 imageTwo:
   path: /deci-ljubav-nije-dovoljna.jpg
   alt: "ljubav prema detetu"

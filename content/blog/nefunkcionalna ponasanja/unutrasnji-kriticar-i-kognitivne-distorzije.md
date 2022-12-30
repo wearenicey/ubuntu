@@ -6,10 +6,10 @@ excerpt: Unutrašnji kritičar, ego stanje Kritikujućeg Roditelja, negativni sa
 created: 2022-08-25
 date: 2022.08.25
 image: unutrasnji-kriticar-i-kognitivne-distorzije.jpg
-alt: "primer"
+alt: "samokritičnost"
 imageTwo:
   path: /unutrasnji-kriticar-i-kognitivne-distorzije.jpg
-  alt: "unutrašnji kritičar distorzija"
+  alt: "samokritičnost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

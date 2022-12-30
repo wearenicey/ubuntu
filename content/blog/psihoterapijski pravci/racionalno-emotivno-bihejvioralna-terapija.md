@@ -6,7 +6,7 @@ excerpt: Racionalno-emotivno bihejvioralna terapija (REBT) je terapija koja svoj
 created: 2022-01-21
 date: 2022.01.21
 image: racionalno-emotivno-bihejvioralna-terapija.jpg
-alt: "primer"
+alt: "rebt"
 imageTwo:
   path: /racionalno-emotivno-bihejvioralna-terapija.jpg
   alt: "rebt"
@@ -29,7 +29,7 @@ Važna razlika u odnosu na klasičnu psihoanalizu je ta što REBT ne stavlja nag
 Zadatak terapeuta jeste da iracionalna uverenja otkrije, zatim da poduči klijenta kako da ih ospori (da pokaže zbog čega su nužno pogrešna) i da na kraju pomogne klijentu u izgradnji **racionalnih uverenja**.
 
 
-## ABC model ili kako REBT terapija izgleda
+## REBT terapija, kako izgleda i ABC model
 
 
 Ideju da nas ne uznemiravaju događaji po sebi već naše poimanje istih, Albert Elis je predstavio pomoću ABC sheme. Kada nam se zgodi kakav značajan događaj, koji se u REBT-u naziva **aktivirajući događaj** i obeležava se slovom **A** (od engleskih reči: **Activating event**), mi na njega reagujemo. Naša **reakcija** (ili REBT-ovski rečeno: **posledica**) je označena slovom **C** (od engleske reči: **Consequence**). Kao što je gore navedeno, kakvog će kvaliteta biti **C**, ne zavisi od događaja **A**. Ono zavisi od toga da li je naše uverenje **B** (od engleske reči: **Belief**), racionalno ili je iracionalno. U gornjem primeru, prva osoba ima racionalno uverenje, dok druga ima iracionalno uverenje u vezi s raskidom. 
