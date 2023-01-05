@@ -20,7 +20,7 @@
 										<div class="flex items-center space-x-6 lg:space-x-8">
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 												<div class="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-													<img src="/Natalija Ignjatovic.jpg" alt="psihoterapeut beograd natalija ignjatović" class="w-full h-full object-center object-cover" />
+													<img src="/Natalija Ignjatovic.jpg" alt="psiholog beograd natalija ignjatović" class="w-full h-full object-center object-cover" />
 												</div>
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
 													<img src="/Darja Pacevski.jpg" alt="psihoterapeut beograd darja pačevski" class="w-full h-full object-center object-cover" />
@@ -792,7 +792,7 @@ const people = [
 		role: "Sistemska porodična psihoterapija",
 		imageUrl: "Iva Petronijevic.jpg",
 		bio: "Nastojim da svojim klijentima budem saradnik, vodič i podrška u procesu samospoznaje, samoaktualizacije i rada na sebi. Zajedno otkrivamo, menjamo i unapređujemo kognitivne, emocionalne i ponašajne obrasce na putu samoostvarenja.",
-		alt: "psihoterapeut beograd iva petronijević",
+		alt: "psiholog beograd iva petronijević",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -810,7 +810,7 @@ const people = [
 		role: "Sistemska porodična psihoterapija",
 		imageUrl: "Natalija Ignjatovic.jpg",
 		bio: "U radu s pojedincima, parovima i porodicama težim da razumem lične priče – način sagledavanja sveta i funkcionisanja s drugima. Verujem da promena nastaje u prihvatajućem terapijskom odnosu, kroz otvaranje novih, drugačijih perspektiva.",
-		alt: "psihoterapeut beograd natalija ignjatović",
+		alt: "psiholog beograd natalija ignjatović",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -837,7 +837,7 @@ const people = [
 		role: "Transakciona analiza",
 		imageUrl: "Ivona Scepanovic.jpg",
 		bio: "Psihoterapija ne podrazumeva promenu svega onog što jesmo, naprotiv, podrazumeva prihvatanje i pružanje podrške sebi tamo gde je izostala, negu, samoljubav i postepenu promenu onog što mi sami želimo da menjamo u meri u kojoj nam odgovara.",
-		alt: "psihoterapeut beograd ivona šćepanović",
+		alt: "psiholog beograd ivona šćepanović",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -855,7 +855,7 @@ const people = [
 		role: "Sistemska porodična psihoterapija",
 		imageUrl: "marija-strenka-radovanovic.jpg",
 		bio: "Znanja iz socijalne zaštite, prava, psihologije i psihoterapije su mi pomogla da razumem probleme sa kojima se klijenti suočavaju, a sistemska porodična terapija je to znanje zaokružila. Zajedno, možemo da rešimo vaš problem i stvaramo nove priče.",
-		alt: "psihoterapeut beograd marija strenka radovanovic",
+		alt: "psiholog beograd marija strenka radovanovic",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
