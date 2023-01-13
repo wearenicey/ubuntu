@@ -56,3 +56,5 @@ Dobra vest je da se stil vezivanja može promeniti tokom vremena - iako je to sp
 Istraživanja pokazuju da dugoročne veze sa osobama koje imaju siguran obrazac vezanosti značajno utiču na promenu nesigurnih obrazaca vezanosti. Ista tendecija međutim važi i za osobe sa sigurnim obrascem vezanosti - izuzetno teško iskustvo može uticati na to da usvoje izbegavajući ili anksiozni stil ponašanja u vezi. 
 
 Takođe, ekstremno negativni životni događaji, kao što su razvod, smrt deteta, ozbiljna nesreća, itd., mogu uticati na sigurni obrazac vezivanja. 
+
+Jasna Ani
