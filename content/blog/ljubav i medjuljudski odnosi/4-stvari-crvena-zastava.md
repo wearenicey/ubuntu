@@ -1,5 +1,5 @@
 ---
-title: Četiri stvari za koje partneri misle da su “Crvene zastavice” u vezi – a nisu!
+title: 4 stvari za koje partneri misle da su “Crvene zastavice” u vezi – a nisu!
 category: ljubav-i-medjuljudski-odnosi
 # ovo je i meta desc
 excerpt: Razne su situacije i ponašanja koja tumačimo i procenjujemo i na osnovu njih donosimo sud...
