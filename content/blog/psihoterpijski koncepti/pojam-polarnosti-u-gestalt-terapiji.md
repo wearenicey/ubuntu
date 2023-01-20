@@ -52,4 +52,4 @@ Ignorisanje delova sebe neće doneti pobedu, potisnuti aspekti će iskočiti u n
 
 Najbolje što možemo je da koristimo našu najbogatiju svesnost pri čemu znamo da ne postoji ljudsko ponašanje bez polarnosti jer mi slušamo celo svoje biće i onda delamo.
 
-Dragana Bukumirović
+Dragana Vračarić
