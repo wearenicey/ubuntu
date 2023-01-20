@@ -1,7 +1,7 @@
 <template>
 	<Layout>
 		<div>
-			<div class="relative max-w-7xl mx-auto px-6 mt-20 sm:px-0">
+			<div class="relative max-w-7xl mx-auto px-6 mt-20">
 				<div class="text-center">
 					<h1 class="text-3xl text-primary sm:text-4xl">{{ $page.category.title }}</h1>
 					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">{{ $page.category.desc }}</p>
