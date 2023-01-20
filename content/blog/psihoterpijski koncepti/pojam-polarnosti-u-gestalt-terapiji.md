@@ -9,57 +9,47 @@ image: pojam-polarnosti-u-gestalt-terapiji.jpg
 alt: "Pojam polarnosti u Gestalt terapiji"
 imageTwo:
   path: /pojam-polarnosti-u-gestalt-terapiji.jpg
-  alt: "abc model u psihoterpiji"
+  alt: "Pojam polarnosti u Gestalt terapiji"
 image_caption: Photo by Rostyslav Savchyn on Unsplash
 author: author1
 featured: false
 pocetna: false
 path: pojam-polarnosti-u-gestalt-terapiji
 name: Aloo
-metaDesc: "ABC modelovanje je psihoterpijski pristup koji klijentu pomaže da uoči da njegovo stanje posledica uverenja ili naše interpretacije neke situacije."
+metaDesc: "Neretko u terapiji klijenti bivaju zbunjeni saznanjem da istovremeno mogu biti ljubazni i drski, slabi i jaki, emotivni i hladni, distancirani i dirnuti, vedri i depresivni"
 ---
 
 
-Jedan od najpoznatijih obeležja racionalno – emotivno bihejvioralne terapije [(REBT)](/blog/psihoterapijski-pravci/racionalno-emotivno-bihejvioralna-terapija/) jeste njen model poremećaja ili ABC model. On govori o tome kako, najčešće, dolazi do poremećaja u razmišljanju, osećanjima i ponašanju. Za razliku od opšteg mišljenja da do poremećaja dolazi usled nepovoljnih događaja, REBT zastupa tvrdnju starogrčkog filozofa Epikteta koji je tvrdio da nas ne uznemiravaju sami nepovoljni događaji, već način na koji posmatramo te događaje.
+**Pojam polarnosti**  **u Geštalt terapiji**
 
-Upravo na temeljima takvog stanovišta, Albert Elis, osmislio je ABC model. 
+Neretko u terapiji klijenti bivaju zbunjeni saznanjem da istovremeno mogu biti ljubazni i drski, slabi i jaki, emotivni i hladni, distancirani i dirnuti, vedri i depresivni. Pitanje koje jedna klijentkinja postavlja je: „Kako je moguće da sam toliko besna na njega, a da ga istovremeno mnogo volim?"
 
-**A šta označavaju ova slova?**
+Svaka osobina koju posedujemo jeste jedan kraj kontinuuma, sa drugom krajnošću koja ostaje unutar nas kao potencijal. Posedujući kapacitet da volimo, istovremeno posedujemo kapacitet da mrzimo. Postoji kineska poslovica koja kaže "Ribe ne znaju da su mokre" što znači da proširivanjem svesnosti bivamo otvoreniji za punije, raznovrsnije i sadržajnije iskustvo različitih odgovora na promenljive uslove življenja. Svetlo ne može da postoji bez mraka i obratno. Osobine ličnosti u pozadini, nesvesno potisnute ili nepriznate, neophodne su da bi njihove polarnosti (poželjni pol kontinuuma) postojale.
 
-Ukratko rečeno:
-**A** predstavlja aktivirajući događaj
-**B** predstavlja uverenje
-**C** predstavlja posledicu
+**Kako prepoznajemo polarnosti?**
 
+Kao Geštalt terapeuti vrlo često radimo na uverenju da suštinu nezdravog procesa čini otcepljivanje i odbacivanje onih delova ličnosti koji su preteški da se prihvate ili integrišu. Ovi otcepljeni delovi se često projektuju na nekog drugog ili ostaju u nesvesnom. Potrebno je puno energije i životne snage da se ovi delovi potisnu, što posledično dovodi do nemanja iste za adekvatno ponašanje u novoj situaciji. Tu stupa proces polarizacije u kome osoba poriče jedan kraj polarnosti "Nikada ne bih mogao povrediti drugu osobu" ili "Nikada ne bih mogao ukrasti ili prevariti". Terapeut je tu da pomogne klijentu da povrati fleksibilnost i sadržajnost svojih odgovora kroz identifikovanje sa drugom polarnošću i smanjenje otpora prema priznavanju druge mogućnosti. To ne znači da priznavanjem postojanja jednog kraja polarnosti (loš čovek; prevarant, lažov) osoba to postaje i ponaša se tako – to samo znači da prihvata punoću i postojanje velikog broja odgovora i mogućih pozicija na kontinuumu između dve polarnosti što može biti od koristi u suočavanju sa novim izazovima sredine.
 
-Kada nam se dogodi neki značajan događaj, koji se u REBT-u naziva **aktivirajući događaj** i obeležava se slovom **A** (od engleskih reči: **Activating event**), mi na njega reagujemo. Naša **reakcija** (ili REBT-ovski rečeno: **posledica**) je označena slovom **C** (od engleske reči: **Consequence**). Kakva će biti posledica, odnosno C, ne zavisi od događaja A, već zavisi od toga kakvo je naše uverenje **B** (od engleske reči: **belif**).
+Ukoliko klijent manifestuje ograničen opseg ponašanja, to može da znači da nešto ne prihvata, potiskuje ili nije u kontaktu sa drugim delovima sebe. Bitno je da terapeut tokom terapije izbegne klijentovu fiksaciju u nekoj od svojih polarnosti, već da ga podstiče na kontakt i prihvatanje istih. Jedan od važnih ciljeva terapije je da osoba osvesti ta dva dela, uđe sa svakim delom u kontakt, kako bi oni bili u dijalogu, prihvaćeni i integrisani u ličnosti.
 
-Da bi se REBT terapija uopšte mogla sprovoditi, nužno je da klijent dobro razume ABC model. U suprotnom, biće zbunjen činjenicom što se terapeut toliko bavi njegovim razmišljanjem, a ne onim što mu se dogodilo. Iz toga razloga, jedan od obaveznih koraka u ovoj terapiji jeste podučavanje klijenta da dobro razume kako do poremećaja dolazi. Edukacija klijenta se može sprovesti na nekoliko veoma jednostavnih načina. Mi ćemo predstaviti jedan od najčešćih: pomoću kratke priče.
+**Kako to izgleda u praksi?**
 
+Ukoliko vam koncept polarnosti privlači pažnju, ali imate doživljaj da zvuči apstraktno i neuhvatljivo, pokušajte da uradite sledeću vežbu:
 
-*Dve osobe koje podjednako volele svoj posao, rade na istoj poziciji i primaju identične plate, su dobile otkaz. Prva osoba je smatrala da to nipošto nije smelo da se desi, te da je užasno što se to dogodio, dok je druga osoba smatrala da je to loše, ali da nije katastrofa. Klijentu se, zatim postavlja pitanje koja se od te dve osobe bolje oseća. Kada se tako postave stvari, klijentima nije teško da uvide da posledice C ne zavise od događaja A, već od njihovih uverenja B.*
+„_Identifikujte neki aspekt ili kvalitet koji nikad ne ispoljavate ili za koji verujete da_ _je neprijatan, nešto što znate da posedujete, ali pokušavate da sakrijete. To može biti okrutnost, kritičnost, ljubomora ili kompetitivnost. Dopustite sebi da potpuno dođete u kontakt sa tim kvalitetom, prihvatite ga kao istinski deo sebe, sviđalo se to vama ili ne. Vidite da li možete pronaći situaciju u kojoj bi taj kvalitet bio neophodan ili koristan. Kako biste ga opisali na pozitivan način?"_
 
-No, pogledajmo sada ove elemente malo detaljnije.
+- Kako biste opisali svoje iskustvo u ovoj vežbi?
+- Šta vam je bilo značajno?
+- Da li vas je nešto iznenadilo?
 
-Klijenti se gotovo uvek na terapiju javljaju zbog nekih poteškoća. REBT-ovskim rečnikom rečeno, javljaju se zbog C. Posledice mogu biti u domenu emocija i u domenu ponašanja, a veoma često idu zajedno. Važna stvar jeste da REBT pravi razliku između zdravih i nezdravih, kao i između pozitivnih i negativnih emocija. Tako imamo četiri kategorije emocija. No, kako se gotovo niko ne javlja zbog pozitivnih i zdravih emocija, njih ćemo preskočiti i posvetiti se onima zbog kojih osećamo nezadovoljstvo.
+Kroz odgovore na ova pitanja možete početi da promišljate o sakrivanju nečeg što je deo vas, a važno je i može biti korisno u nekoj drugoj situaciji. Svaka osobina ima svoju polarnost, svaki aspekt neke osobine je jedna strana medalje. Autori koji se bave ovom oblašću kažu da "zdravo funkcionisanje podrazumeva sposobnost fleksibilnog kretanja duž kontinuuma bilo koje polarnosti, spram odgovarajućih okolnosti". Svi delovi kontinuuma su potencijalno potrebni, prirodni i neophodni delovi našeg života. Ostajanje u jednoj krajnosti, a označavanje drugog kraja polarnosti kao lošeg, nepoželjnog, neprijatnog i nepotrebnog, fiksira osobu u rigidnu poziciju gde ostaje ukorenjen, nepomičan, nepromenjiv i nesrećan.
 
-**Emocije i uverenja u ABC modelu**
+Ignorisanje delova sebe neće doneti pobedu, potisnuti aspekti će iskočiti u nekom trenutku i izazvati neprijatnost i sramotu ili će pak osobu držati u stalnom grču, napregnutu i nesigurnu. Stoga je osnovni cilj u radu sa polarnostima da se ponovo uspostavi kontakt između suprotstavljenih snaga i da se svakoj strani da pravo da bude punopravan učesnik u zajedničkoj potrazi za dobrim i ispunjenim životom. Ovde dolazimo do jednog značajnog paradoksa koji se ogleda u tome da će svaki deo osobe, ako bude priznat i prepoznat, činiti celinu sa ostalim osobinama i neće imati potrebu da bude dominantan i superiorn. Dakle, priznati ono što jeste i promena će doći.
 
-Razliku između *zdravih* i *nezdravih* emocija neophodno je napraviti, jer se u REBT-u smatra da u negativnim zdravim emocijama nema ničeg lošeg. Naime, potpuno je normalno da posle nekog gubitka budemo tužni, što je prirodna reakcija. Ono što se smatra poremećajem – jeste depresija i ona predstavlja ,,nezdravi parnjak’’ tuge. Istom analogijom dobijamo i sledeće parove: gnev – ljutnja, anksioznost – zabrinutost... Da li će emocija biti zdrava ili nezdrava zavisi upravo od uverenja, odnosno da li su ona **racionalna** ili **iracionalna**. Ovde možemo videti da REBT ne pokušava čoveka učiniti neosetljivim ili da svaku negativnu emociju odagna iz života. Cilj je pomoći osobi da uprkos teškoćama bude funkcionalna, tako što će razumeti razloge za nefunkcionalnost.
+**Svesnost i polarnosti**
 
+Što smo svesniji, više prihvatamo postojanje suprotstavljenih polova, različtih osobina svoje ličnosti i fleksibilnije se identifikujemo sa njima. Manje svesna osoba doživljava sebe na ograničen i rigidan način tako što prihvata znatno manji raspon polarnosti, osobina i emocija unutar sebe i identifikuje se samo s jednim polom svakog kontinuuma. Recimo, lako prihvata fidbek da je pozitivna i srdačna, ali odbacuje mišljenje da ponekad može biti nepristojna i uzdržana. Na taj način se identifikuje samo sa nekim osobinama, a one koje je ocenila kao nepoželjne i društveno neprihvatljive, odbacuje i potiskuje u nesvesno. Nikada nećemo biti potpuno celi ako nismo od svega pomalo. Bolji ćemo biti sa sobom i sa drugima ako upoznamo sebe i osvestimo svoje "tamne" strane prigrlivši mogućnost da bismo mogli biti i ono "loše".
 
-Što se tiče aktivirajućeg događaja **A**, najbitnije je reći da oni najčešće ne predstavljaju objektivne događaje, već podrazumevaju određenu **interpretaciju** što možemo videti iz sledećeg primera: zamislimo situaciju u kojoj mi na ulici vidimo dobrog prijatelja i javimo mu se, ali on umesto da se zaustavi i otpozdravi, samo nastavi dalje. Ukoliko pomislimo da je ljut na nas, to će već biti interpretacija. Obejktivan događaj je to da nam se nije javio. Pored ljutnje postoje i druge interpetacije kao na primer da nas jednostavno nije primetio, da je bio u žurbi... 
+Najbolje što možemo je da koristimo našu najbogatiju svesnost pri čemu znamo da ne postoji ljudsko ponašanje bez polarnosti jer mi slušamo celo svoje biće i onda delamo.
 
-Neki čitalac bi mogao pomisliti da od naše interpretacije zavisi naša reakcija – jer da nismo pomislili da je naš prijatelj ljut, mi se ne bismo uznemirili. Ipak, to nije tačno. Iako je naša interpretacija takva, mi i tada možemo ostati mirni jer ne mislimo da ima bilo čega uznemirujućeg u tome što je naš prijatelj ljut. 
-
-Što se tiče uverenja **B**, ona mogu biti **racionalna** i **iracionalna**. Najkraće rečeno, iracionalna uverenja nisu tačna (empirijski neutemeljena), do njih dolazimo na način koji je u suprotnosti sa logikom, vode ka emocionalnoj disfunkcionalnosti (što smo videli gore) i ometaju nas u tome da postignemo zadati cilj.  
-
-Pažljiviji čitalac je možda zapazio da smo gore napisali da ABC model objašnjava kako najčešće dolazi do poremećaja. Da li to znači da je svaki psihički poremećaj posledica naših uverenja? *Ne*. Neki psihički poremećaji mogu imati organske uzroke, mogu nastati putem određenih oblika učenja u kojima naša uverenja ne igraju veliku ili gotovo nikakvu ulogu.
-
-I za kraj... Možemo reći da je veoma teško da se ne složimo sa postavkom ABC modela. On, pored toga što jasno predočava prirodu emocionalnih teškoća, pokazuje da čovek ipak ima značajnu kontrolu nad svojim ponašanjem i osećanjima, i od njega samoga, u velikoj meri, zavisi kvalitet života koji će ostvariti.
-
-
-
-
-
-Vladimir Jovanović
+Dragana Bukumirović
