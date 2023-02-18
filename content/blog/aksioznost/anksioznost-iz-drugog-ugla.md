@@ -6,7 +6,7 @@ excerpt: Naše telo je pametnije od nas. Ako mu nešto nedostaje ono pošalje vr
 created: 2022-05-20
 date: 2022.05.20
 image: anksioznost-2.webp
-alt: "primer"
+alt: "anksioznost"
 imageTwo:
   path: /anksioznost-2.webp
   alt: "anksioznost"

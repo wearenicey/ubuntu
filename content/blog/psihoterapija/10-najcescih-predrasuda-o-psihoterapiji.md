@@ -6,10 +6,10 @@ excerpt: Iako se poslednjih godina dosta radi na podizanju svesti o važnosti me
 created: 2022-10-14
 date: 2022.10.14
 image: 10-najcescih-predrasuda-o-psihoterapiji.jpg
-alt: "primer"
+alt: "predrasude"
 imageTwo:
   path: /10-najcescih-predrasuda-o-psihoterapiji.jpg
-  alt: "podrska psihoterapija"
+  alt: "predrasude"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

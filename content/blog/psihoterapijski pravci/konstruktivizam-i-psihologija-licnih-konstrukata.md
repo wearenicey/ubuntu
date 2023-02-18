@@ -6,10 +6,10 @@ excerpt: Konstruktivizam je pojam koji u oblasti psihologije i psihoterapije obj
 created: 2021-11-20
 date: 2021.11.20
 image: konsturktivizam.jpg
-alt: "primer"
+alt: "konstruktivizam"
 imageTwo:
   path: /konsturktivizam.jpg
-  alt: "konstruktivizam psihologija"
+  alt: "konstruktivizam"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

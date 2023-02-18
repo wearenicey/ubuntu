@@ -6,7 +6,7 @@ excerpt: Bilo da su prijatne ili neprijatne, bilo da traju vrlo kratko ili duže
 created: 2021-10-24
 date: 2021.11.25
 image: osnovne-emocije.jpg
-alt: "primer"
+alt: "sreća"
 imageTwo:
   path: /osnovne-emocije.jpg
   alt: "sreća"

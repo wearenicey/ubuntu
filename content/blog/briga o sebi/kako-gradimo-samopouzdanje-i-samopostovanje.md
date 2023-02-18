@@ -6,7 +6,7 @@ excerpt: Od rođenja pa tokom odrastanja dobijali smo niz poruka o vrednostima, 
 created: 2022-06-24
 date: 2022.06.24
 image: kako-gradimo-samopouzdanje-i-samopostovanje.jpg
-alt: "primer"
+alt: "samopouzdanje"
 imageTwo:
   path: /kako-gradimo-samopouzdanje-i-samopostovanje.jpg
   alt: "samopouzdanje i samopoštovanje"

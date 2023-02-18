@@ -6,10 +6,10 @@ excerpt: Zabrana na zadovoljstvo je koncept koji zaista postoji, i obja≈°njava ≈
 created: 2022-05-13
 date: 2022.05.13
 image: zabrana.webp
-alt: "primer"
+alt: "zadovoljstvo i zabrana"
 imageTwo:
   path: /zabrana.webp
-  alt: "zabrana zadovoljstva"
+  alt: "zadovoljstvo i zabrana"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

@@ -6,10 +6,10 @@ excerpt: Samosabotaža je jedan od načina na koji izbegavamo suočavanje sa na�
 created: 2021-11-27
 date: 2021.11.27
 image: sabotaza.jpg
-alt: "primer"
+alt: "nesigurnost"
 imageTwo:
   path: /sabotaza.jpg
-  alt: "sabotiranje sebe"
+  alt: "nesigurnost"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

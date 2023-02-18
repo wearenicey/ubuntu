@@ -6,7 +6,7 @@ excerpt: Svima nam je poznat sledeći scenario:iz ćoška sobe vreba započet ne
 created: 2021-11-27
 date: 2021.11.27
 image: prokrastinacija.jpg
-alt: "primer"
+alt: "prokrastinacija"
 imageTwo:
   path: /prokrastinacija.jpg
   alt: "prokrastinacija"

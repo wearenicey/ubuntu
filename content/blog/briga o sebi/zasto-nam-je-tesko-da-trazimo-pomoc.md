@@ -6,10 +6,10 @@ excerpt: Vidimo i osetimo da ne možemo sami, da nam je teško, ali traženje po
 created: 2022-09-16
 date: 2022.09.16
 image: zasto-nam-je-tesko-da-trazimo-pomoc.jpg
-alt: "primer"
+alt: "samopomoć"
 imageTwo:
   path: /zasto-nam-je-tesko-da-trazimo-pomoc.jpg
-  alt: "pomoć"
+  alt: "samopomoć"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

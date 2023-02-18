@@ -20,7 +20,7 @@
 										<div class="flex items-center space-x-6 lg:space-x-8">
 											<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
 												<div class="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-													<img src="/Natalija Ignjatovic.jpg" alt="psihoterapeut beograd natalija ignjatović" class="w-full h-full object-center object-cover" />
+													<img src="/Natalija Ignjatovic.jpg" alt="psiholog beograd natalija ignjatović" class="w-full h-full object-center object-cover" />
 												</div>
 												<div class="w-44 h-64 rounded-lg overflow-hidden">
 													<img src="/Darja Pacevski.jpg" alt="psihoterapeut beograd darja pačevski" class="w-full h-full object-center object-cover" />
@@ -792,7 +792,7 @@ const people = [
 		role: "Sistemska porodična psihoterapija",
 		imageUrl: "Iva Petronijevic.jpg",
 		bio: "Nastojim da svojim klijentima budem saradnik, vodič i podrška u procesu samospoznaje, samoaktualizacije i rada na sebi. Zajedno otkrivamo, menjamo i unapređujemo kognitivne, emocionalne i ponašajne obrasce na putu samoostvarenja.",
-		alt: "psihoterapeut beograd iva petronijević",
+		alt: "psiholog beograd iva petronijević",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -810,7 +810,7 @@ const people = [
 		role: "Sistemska porodična psihoterapija",
 		imageUrl: "Natalija Ignjatovic.jpg",
 		bio: "U radu s pojedincima, parovima i porodicama težim da razumem lične priče – način sagledavanja sveta i funkcionisanja s drugima. Verujem da promena nastaje u prihvatajućem terapijskom odnosu, kroz otvaranje novih, drugačijih perspektiva.",
-		alt: "psihoterapeut beograd natalija ignjatović",
+		alt: "psiholog beograd natalija ignjatović",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -837,7 +837,7 @@ const people = [
 		role: "Transakciona analiza",
 		imageUrl: "Ivona Scepanovic.jpg",
 		bio: "Psihoterapija ne podrazumeva promenu svega onog što jesmo, naprotiv, podrazumeva prihvatanje i pružanje podrške sebi tamo gde je izostala, negu, samoljubav i postepenu promenu onog što mi sami želimo da menjamo u meri u kojoj nam odgovara.",
-		alt: "psihoterapeut beograd ivona šćepanović",
+		alt: "psiholog beograd ivona šćepanović",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -855,7 +855,7 @@ const people = [
 		role: "Sistemska porodična psihoterapija",
 		imageUrl: "marija-strenka-radovanovic.jpg",
 		bio: "Znanja iz socijalne zaštite, prava, psihologije i psihoterapije su mi pomogla da razumem probleme sa kojima se klijenti suočavaju, a sistemska porodična terapija je to znanje zaokružila. Zajedno, možemo da rešimo vaš problem i stvaramo nove priče.",
-		alt: "psihoterapeut beograd marija strenka radovanovic",
+		alt: "psiholog beograd marija strenka radovanovic",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -986,6 +986,13 @@ export default {
 				key: "twitter:image",
 				property: "twitter:image",
 				content: "https://ubuntucentar.com/assets/static/savetovaliste-beograd.52d25d7.02162889a1ca75597f20f30864f0fc9c.webp",
+			},
+		],
+		script: [
+			{
+				innerHTML:
+					'{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cena individualne psihoterapije?","acceptedAnswer":{"@type":"Answer","text":"Za 50 minuta psihoterapije je neophodno izdvojiti minimum 1.500 RSD, kao donaciju za rad savetovali\u0161ta."}},{"@type":"Question","name":"Koji su uslovi za ulazak u na\u0161 program i zapo\u010dinjanje psihoterapijskog procesa?","acceptedAnswer":{"@type":"Answer","text":"Prvi i neophodni uslov za zapo\u010dinjanje procesa psihoterapije je psiholo\u0161ka procena. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stru\u010dnog saradnika za rad. Za ovaj susret je neophodno odvojiti 3.000 dinara u slu\u010daju individualne, odnosno 5.000 dinara u slu\u010daju partnerske i porodi\u010dne terapije."}},{"@type":"Question","name":"Na koji na\u010din mogu izvr\u0161iti uplatu?","acceptedAnswer":{"@type":"Answer","text":"Donacije je mogu\u0107e uplatiti u\u017eivo ili na \u017eiro ra\u010dun centra."}},{"@type":"Question","name":"Kako se vr\u0161i uplata iz inostranstva?","acceptedAnswer":{"@type":"Answer","text":"Putem PayPal-a."}},{"@type":"Question","name":"Da li studenti imaju popust?","acceptedAnswer":{"@type":"Answer","text":"Uslovi su isti za sve klijente na projektu."}},{"@type":"Question","name":"Radno vreme, da li mogu dolaziti vikendom?","acceptedAnswer":{"@type":"Answer","text":"Radno vreme centra je svakim danom, uklju\u010duju\u0107i vikend, od 8-22h, a dostupnost termina zavisi od va\u0161eg izabranog psihoterapeuta."}},{"@type":"Question","name":"Koliko traje susret?","acceptedAnswer":{"@type":"Answer","text":"Individualni susret traje 50 minuta, dok partnerski i porodi\u010dni susreti traju 90 minuta."}},{"@type":"Question","name":"Dinamika susreta, koliko se \u010desto odr\u017eavaju?","acceptedAnswer":{"@type":"Answer","text":"Susreti se odr\u017eavaju jednom nedeljno."}}]}',
+				type: "application/ld+json",
 			},
 		],
 	},

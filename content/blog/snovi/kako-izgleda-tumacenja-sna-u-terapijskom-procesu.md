@@ -6,10 +6,10 @@ excerpt: Da biste što bolje doživeli način na koji geštaltista radi sa snom 
 created: 2022-04-14
 date: 2022.04.14
 image: tumacenje-sna.webp
-alt: "primer"
+alt: "tumačenje snova"
 imageTwo:
   path: /tumacenje-sna.webp
-  alt: "snovi"
+  alt: "tumačenje snova"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

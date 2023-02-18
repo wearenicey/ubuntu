@@ -6,7 +6,7 @@ excerpt: Psihijatri, psiholozi i psihoterapeuti često rade zajedno, kao tim, ž
 created: 2021-11-27
 date: 2021.11.27
 image: razlika.jpg
-alt: "primer"
+alt: "psiholog psihijatar psihoterapeut"
 imageTwo:
   path: /razlika.jpg
   alt: "psiholog psihijatar psihoterapeut"

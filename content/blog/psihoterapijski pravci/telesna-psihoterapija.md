@@ -6,11 +6,11 @@ excerpt: Rad sa telom podrazumeva da je psihoterapeut fokusiran na držanje klij
 created: 2022-09-22
 date: 2022.09.22
 image: telesna-psihoterapija.jpg
-alt: "primer"
+alt: "telesna psihoterapija"
 imageTwo:
   path: /telesna-psihoterapija.jpg
   alt: "telesna psihoterapija"
-image_caption: Image by kalhh from Pixabay
+image_caption: Image by Anthony Tran from Unsplash
 author: author1
 featured: false
 pocetna: false

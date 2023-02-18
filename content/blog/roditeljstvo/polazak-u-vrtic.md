@@ -7,10 +7,10 @@ excerpt: Šta je u svemu tome važno i šta zapravo treba da imate u vidu kada d
 created: 2022-11-11
 date: 2022.11.11
 image: polazak-u-vrtic.jpg
-alt: "primer"
+alt: "polazak u vrtić"
 imageTwo:
   path: /polazak-u-vrtic.jpg
-  alt: "deca u vrtiću"
+  alt: "polazak u vrtić"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

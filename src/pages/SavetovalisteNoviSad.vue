@@ -121,7 +121,7 @@
 												<img src="/Stefan Mitrovic Jokanovic.png" alt="psihoterapeuti novi sad stefan mitrović jokanović" class="w-full h-full object-center object-cover" />
 											</div>
 											<div class="w-44 h-64 rounded-lg overflow-hidden">
-												<img src="/Irena Petrovic.png" alt="psihoterapeuti novi sad irena petrović" class="w-full h-full object-center object-cover" />
+												<img src="/Irena Petrovic.png" alt="psiholog novi sad irena petrović" class="w-full h-full object-center object-cover" />
 											</div>
 										</div>
 										<div class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
@@ -1062,7 +1062,7 @@ const people = [
 		role: "Transakciona analiza",
 		imageUrl: "Irena Petrovic.png",
 		bio: "Moj pristup radu je kreiranje odnosa gde i klijent i terapeut mogu da budu ono što jesu. Kada napravimo prostor gde smo sigurni i prihvaćeni i gde možemo da izrazimo sebe, verujem da možemo doći do promene koja nam je svima nekad potrebna.",
-		alt: "psihoterapeut novi sad irena petrović",
+		alt: "psiholog novi sad irena petrović",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -1118,7 +1118,7 @@ const people = [
 		role: "Transakciona analiza",
 		imageUrl: "vanja-tripkovic.jpg",
 		bio: "Svako je sposoban da donosi odluke za sebe i obezbedi kvalitetan život kojim je zadovoljan. Moja uloga u tom odlučivanju je da pomognem da bolje razumete sebe, razvijete svoje potencijale i više budete u skladu da sobom.",
-		alt: "psihoterapeut novi sad vanja tripković",
+		alt: "psiholog novi sad vanja tripković",
 		statusDa: "Dostupna",
 		statusNe: "",
 	},
@@ -1127,7 +1127,7 @@ const people = [
 		role: "Sistemska porodična terapija ",
 		imageUrl: "igor-ilic.jpg",
 		bio: "Sistemski porodični savetnik i psihoterapeut pod supervizijom. Individualna, partnerska i porodična psihoterapija. Psihoterapijski proces jeste korektivno iskustvo - u okviru bezbednog prostora radimo na promeni ka onome funkcionalnijem.",
-		alt: "psihoterapeut novi sad Igor Ilić",
+		alt: "psiholog novi sad Igor Ilić",
 		statusDa: "Dostupan",
 		statusNe: "",
 	},

@@ -6,10 +6,10 @@ excerpt: Svi se mi  tokom života susretnemo sa gubitkom. Neko zbog prekida veze
 created: 2021-11-25
 date: 2021.11.25
 image: gubitak.jpg
-alt: "primer"
+alt: "tugovanje"
 imageTwo:
   path: /gubitak.jpg
-  alt: "tuga i gubitak"
+  alt: "tugovanje"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false

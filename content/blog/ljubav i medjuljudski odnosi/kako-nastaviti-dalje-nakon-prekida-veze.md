@@ -6,10 +6,10 @@ excerpt: Svi mi smo tokom života doživeli prekid veze (prijateljske, rodbinske
 created: 2021-11-25
 date: 2021.11.25
 image: raskid.jpg
-alt: "primer"
+alt: "kako preboleti raskid"
 imageTwo:
   path: /raskid.jpg
-  alt: "slomljeno srce"
+  alt: "kako preboleti raskid"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
