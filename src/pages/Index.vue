@@ -34,7 +34,7 @@
 							<rect width="68" height="68" rx="34" fill="#F0FDFA" />
 							<path d="M52 34L25 49.5885L25 18.4115L52 34Z" fill="#10B981" />
 						</svg>
-						<g-image immediate="true" class="lg:mt-20 mt-10" src="~/assets/img/pocetna-1.png" alt="psihoterapeut savetuje"></g-image>
+						<g-image immediate="true" class="lg:mt-20 mt-10" src="~/assets/img/pocetna-1.jpg" alt="psihoterapeut savetuje"></g-image>
 					</div>
 				</div>
 			</div>
