@@ -155,4 +155,5 @@
   status = 301  
 
 
-
+[build]
+  memory = "4GB"
