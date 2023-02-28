@@ -1018,13 +1018,13 @@ export default {
 	// meta deskripcija
 
 	metaInfo: {
-		title: "Psihoterapija Beograd | Savetovalište Ubuntu",
-		titleTemplate: "Psihoterapija Beograd | Savetovalište Ubuntu",
+		title: "Psihoterapija Beograd | Psihoterapeut dostupan svima",
+		titleTemplate: "Psihoterapija Beograd | Psihoterapeut dostupan svima",
 
 		meta: [
 			{
 				name: "title",
-				content: "Psihoterapija Beograd | Savetovalište Ubuntu",
+				content: "Psihoterapija Beograd | Psihoterapeut dostupan svima",
 			},
 			{
 				name: "description",
@@ -1033,7 +1033,7 @@ export default {
 			{
 				key: "og:title",
 				name: "og:title",
-				content: "Psihoterapija Beograd | Savetovalište Ubuntu",
+				content: "Psihoterapija Beograd | Psihoterapeut dostupan svima",
 			},
 
 			{
