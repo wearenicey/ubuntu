@@ -1049,7 +1049,7 @@ export default {
 			{
 				key: "twitter:title",
 				name: "twitter:title",
-				content: "Psihoterapija Beograd | Savetovalište Ubuntu",
+				content: "Psihoterapija Beograd | Psihoterapeut dostupan svima",
 			},
 			{
 				key: "twitter:description",
