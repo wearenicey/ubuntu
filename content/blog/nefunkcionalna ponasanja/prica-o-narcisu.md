@@ -16,7 +16,7 @@ featured: false
 pocetna: false
 path: prica-o-narcisu
 name: Aloo
-metaDesc: "Članak o tome šta je narcizam i nacsistički poremećaj ličnosti. Koji su uzroci, kakve vrste narcizma postoje i kakav je psihoterapijski pristup?"
+metaDesc: "Članak o tome šta je narcizam i narcsistički poremećaj ličnosti. Koji su uzroci, kakve vrste narcizma postoje i kakav je psihoterapijski pristup?"
 ---
 
 ## Priča o Narcisu
