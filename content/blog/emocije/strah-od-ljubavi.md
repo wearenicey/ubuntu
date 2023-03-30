@@ -61,4 +61,4 @@ Prevazilaženje straha od ljubavi ili filofobije može biti dug i težak proces,
 
 Prevazilaženje straha od ljubavi jeste proces koji zahteva vreme i trud, ali osoba može prevazići svoj strah i uspostaviti zdrave emotivne odnose sa drugim ljudima!
 
-[Anđela Lekov](linkedin.com/in/anđela-lekov-b7b3ab1b8)
+[Anđela Lekov](https://linkedin.com/in/anđela-lekov-b7b3ab1b8)
