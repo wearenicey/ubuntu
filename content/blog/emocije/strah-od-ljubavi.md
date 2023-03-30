@@ -1,5 +1,5 @@
 ---
-title: Strah od ljubavi
+title: Filofobija - Šta je i kako tretirati ovaj poremećaj?
 category: emocije
 # ovo je i meta desc
 excerpt: Strah od ljubavi je psihološki poremećaj koji može biti uzrokovan traumatičnim iskustvima iz prošlosti, lošim vezama ili strahom od ranjivosti i gubitka kontrole.
