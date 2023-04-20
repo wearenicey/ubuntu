@@ -1,6 +1,6 @@
 ---
 title: Zašto volimo ili ne volimo praznike?
-category: psihoterapija
+category: emocije
 # ovo je i meta desc
 excerpt: Bez obzira da li su to državni ili religijski praznici, neradni dani nam daju više vremena za razmišljanje...
 created: 2023-04-13
@@ -20,7 +20,7 @@ metaDesc: "Tekst o tome kako nastaju negativne emocije u vezi sa praznicima i ka
 ---
 
 Približavaju nam se praznici. Bez obzira da li su to državni ili religijski praznici, neradni dani nam daju više vremena za razmišljanje o nama važnim temama, često i nesvesno. Praznici na jedan način mogu da razdvajaju, a na drugi način i da  spajaju ljude. Razdvajaju nas po tome da li volimo praznike, ne volimo praznike ili smo indiferentni u odnosu na praznike. Spajaju nas jer su praznici dobra prilika da organizujemo druženje sa nama bitnim ljudima sa kojima nismo u mogućnosti da provedemo vreme svakodnevno ili ih viđamo retko. 
-
+ 
 ## Odakle potiču  naša osećanja vezana za praznike?
 
 Detinjstvo i doživljaji koje smo vezali za praznike, porodičnu atmosferu, mogu da utiču na nas. Jer praznici mogu da utiču i na one koji imaju prijatna sećanja, kao i na one koji ih povezuju sa neprijatnim osećanjima. Razlozi mogu biti osećaj prolaznosti, bezbrižnosti detinjstva, kao i podsećanja na brojna osećanja. A oni koji su indiferentni često su takvi jer  potiskuju osećanja koja su za njih preplavljujuća. Na taj način budu zaštićeni od takvih osećanja, ali time gube i sposobnost da osete zadovoljstvo. Osim toga, oko praznika povećavaju se i obaveze što zahteva dodatnu energiju koju treba uložiti kako bi sve oko organizacije, okupljanja u vreme praznika prošlo kako treba. 
