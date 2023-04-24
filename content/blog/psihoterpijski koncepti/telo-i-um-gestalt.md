@@ -6,7 +6,7 @@ excerpt: Psihoterapija naglašava rad sa mentalnim događajima, mislima, idejama
 created: 2023-03-17
 date: 2023.03.17
 image: telo-i-um-gestalt.webp
-alt: "geštalt pristup u psihoterpiji"
+alt: "geštalt pristup u psihoterapiji"
 imageTwo:
   path: /telo-i-um-gestalt.webp
   alt: "geštalt psihoterapija i telo"
@@ -34,7 +34,7 @@ Poželeti da ne osećamo neku senzaciju, možemo iz više razičitih razloga:
 - Kada senzacije signaliziraju naše potrebe, a ne mogu biti zadovoljenje, stvara se neugoda i bol različitog intenziteta. Na primer, lakše je ne osećati potrebu za kontaktom i dodirom, koja ako je svesna, a ne može se zadovoljiti, može biti transformisana u doživljaj nepodnošljive usamljenosti;
 - Senzacije koje osećamo mogu biti u suprotnosti sa našim uverenjima – introjektima. Ukoliko imamo uverenja da su seksualni impulsi „nemoralni i prljavi“ – verovatno je da ćemo težiti da ove senzacije ignorišemo;
 
-## Psihoterpijski rad kod desenzitizacije
+## Psihoterapijski rad kod desenzitizacije
 
 Ponovno uspostavljanje osetljivosti se odvija upravo kroz uspostavljanje neophodnih uslova za senzaciju a to su upravo pažnja, disanje i životno telo. Osnovna intervencija je podržavanje klijenta da se fokusira na telesne senzacija i da sa njima ostane dovoljno dugo da bi se doživljaj pojavio kao jasno izdiferencirana figura. Na primer klijenta možemo pitati „Šta se sada događa u tvom telu“ ili mu sugerisati da obrati pažnju na određenu telesnu ekspresiju. Ovim intervencijama se fokus pomera sa kognitivnog na telesno doživljavanje. 
 

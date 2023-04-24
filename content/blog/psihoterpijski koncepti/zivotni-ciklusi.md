@@ -6,7 +6,7 @@ excerpt: Bez obzira na način odrastanja, poreklo, mesto u kome odrastamo, boju 
 created: 2023-02-02
 date: 2023.02.02
 image: zivotni-ciklusi.jpg
-alt: "promena posle psihoterpije"
+alt: "promena posle psihoterapije"
 imageTwo:
   path: /zivotni-ciklusi.jpg
   alt: "životni ciklus"

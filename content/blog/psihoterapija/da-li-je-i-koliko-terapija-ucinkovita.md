@@ -16,7 +16,7 @@ featured: false
 pocetna: false
 path: da-li-je-i-koliko-terapija-ucinkovita
 name: Aloo
-metaDesc: "Kako se procenjuje uspešnost psihoterpije. Kratak tekst o metodama i istraživanjima koja su dovela do odrđeneih rezultata."
+metaDesc: "Kako se procenjuje uspešnost psihoterapije. Kratak tekst o metodama i istraživanjima koja su dovela do odrđeneih rezultata."
 ---
 
 Kada razmišljamo o tome da li da krenemo na psihoterapiju, pitanje iz naslova je jedno od najvažnijih koje postavljamo. Često se pitamo koliko ćemo imati koristi od odlaska, koliko ćemo brzo napredovati... Pre nego što pogledamo šta su istraživanja pokazala, napomenimo i to da je traganje za odgovorom mnogo kompleksnije nego što možemo pretpostaviti. Zašto?

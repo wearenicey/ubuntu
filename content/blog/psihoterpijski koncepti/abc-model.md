@@ -6,17 +6,17 @@ excerpt: Jedan od najpoznatijih obeležja racionalno – emotivno bihejvioralne 
 created: 2022-05-27
 date: 2022.05.27
 image: abc-model.jpg
-alt: "abc model u psihoterpiji"
+alt: "abc model u psihoterapiji"
 imageTwo:
   path: /abc-model.jpg
-  alt: "abc model u psihoterpiji"
+  alt: "abc model u psihoterapiji"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
 path: abc-model
 name: Aloo
-metaDesc: "ABC modelovanje je psihoterpijski pristup koji klijentu pomaže da uoči da njegovo stanje posledica uverenja ili naše interpretacije neke situacije."
+metaDesc: "ABC modelovanje je psihoterapijski pristup koji klijentu pomaže da uoči da njegovo stanje posledica uverenja ili naše interpretacije neke situacije."
 ---
 
 

@@ -9,14 +9,14 @@ image: gestalt.jpg
 alt: "geštalt psihoterapija"
 imageTwo:
   path: /gestalt.jpg
-  alt: "geštalt psihoterpija"
+  alt: "geštalt psihoterapija"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: false
 path: gestalt-psihoterapija
 name: Ubuntu
-metaDesc: "Saznajte više o psihoterpijskom konceptu koji se zove Geštalt. Upoznajte se sa osnovama i tehnikama ovog pristupa. Da li možda može da Vam pomogne?"
+metaDesc: "Saznajte više o psihoterapijskom konceptu koji se zove Geštalt. Upoznajte se sa osnovama i tehnikama ovog pristupa. Da li možda može da Vam pomogne?"
 ---
 
 

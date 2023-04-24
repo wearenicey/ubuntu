@@ -16,7 +16,7 @@ featured: false
 pocetna: false
 path: karpmanov-dramski trougao
 name: Aloo
-metaDesc: "Karmanov dramski trougao je psihoterpijski pristup koji klijentu pomaže da uoči da njegovo stanje posledica uloge u određenoj situaciji. Kako to prepoznati i kako se ponašati."
+metaDesc: "Karmanov dramski trougao je psihoterapijski pristup koji klijentu pomaže da uoči da njegovo stanje posledica uloge u određenoj situaciji. Kako to prepoznati i kako se ponašati."
 ---
 
 

@@ -16,7 +16,7 @@ featured: false
 pocetna: false
 path: 10-najcescih-predrasuda-o-psihoterapiji
 name: Aloo
-metaDesc: "Predrsude koje nas sprečavaju da prihvatimo psihoterpiju i njihovi uzroci. Da li je psihoterpija neophodna, da li je razonoda, da li boli, da li pomaže..."
+metaDesc: "Predrsude koje nas sprečavaju da prihvatimo psihoterapiju i njihovi uzroci. Da li je psihoterapija neophodna, da li je razonoda, da li boli, da li pomaže..."
 ---
 
 Svetski dan mentalnog zdravlja povod je da razmotrimo kakvu ulogu psihoterapeuti i psihoterapija imaju u našem društvu danas, kao i da preispitamo uobičajene predrasude koje ljudi često imaju u vezi sa osobama koje idu na psihoterapiju ili koriste neki drugi vid tretmana za poboljšanje mentalnog zdravlja. 
