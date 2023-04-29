@@ -16,7 +16,7 @@ featured: false
 pocetna: false
 path: zivot-po-tudjim-merililma
 name: Aloo
-metaDesc: "Porodica je složen višedimenzionalan sistem, obojen etičkim, istorijskim, biološkim i socijalnim kategorijama."
+metaDesc: "Tekst o osobama koje se prilagođavaju željama i potrebama drugih ljudi. Kako nastaje taj model ponašanja i šta je to što ga pokreće i karakteriše? Kako se odreći takvog ponašanja i razmišljanja?"
 ---
 ## Šta je život po tuđim merilima (people pleasing)?
 
