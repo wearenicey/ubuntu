@@ -325,8 +325,8 @@
 												<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 											</svg>
 											<span class="ml-3"
-												><a href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396" target="_blank"
-													>Džordža Vašingtona 15</a
+												><a href="https://goo.gl/maps/Jh6nce8FqM2WkLMG8" target="_blank"
+													>Bulevar Despota Stefana 11</a
 												>
 											</span>
 										</dd>
