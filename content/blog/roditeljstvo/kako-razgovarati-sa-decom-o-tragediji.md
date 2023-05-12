@@ -69,17 +69,17 @@ Deca ovog uzrasta će već imati jake i raznolike stavove o uzrocima koji su dop
 
 ## 4. GDE SE MOŽETE JAVITI ZA POMOĆ U PREVAZILAŽENJU TRAUMA U VEZI SA TRAGEDIJOM U BEOGRADU
 
-- **Besplatno Psihološko savetovalište za mlade Doma omladine Beograda.** Možete kontaktirati Jadranku Radovanović (psihološkinja) preko mejla jadranka.psiholog@gmail.com ili preko sms poruke +381 64 39 25 300.
+- **Besplatno Psihološko savetovalište za mlade Doma omladine Beograda.** Možete kontaktirati Jadranku Radovanović (psihološkinja) preko mejla <a href="mailto:jadranka.psiholog@gmail.com">jadranka.psiholog@gmail.com<a> ili preko sms poruke <a href="sms:+381643925300">+381 64 39 25 300<a>.
 
-- **Instit za mentalno zdravlje u Beogradu** u cilju podrške porodicama stradalih u OŠ ,,Vladislav Ribnikar’’, nastavnicima, učenicima kojima je potrebna psihološka pomoć i podrška. Možete kontaktirati preko telefona 063 8681757 i 063 8682217.
+- **Instit za mentalno zdravlje u Beogradu** u cilju podrške porodicama stradalih u OŠ ,,Vladislav Ribnikar’’, nastavnicima, učenicima kojima je potrebna psihološka pomoć i podrška. Možete kontaktirati preko telefona <a href="tel:+381638681757">063 8681757</a> i <a href="tel:+381638682117">063 8682217</a>.
 
-- **NADEL (nacionalna dečija linija).** Besplatni pozivi na 116 111 ,na sajtu imaju i podršku putem četa. Savetodavni telefon za roditelje 0800 007 000.
+- **NADEL (nacionalna dečija linija).** Besplatni pozivi na <a href="tel:116111">116 111</a> ,na sajtu imaju i podršku putem četa. Savetodavni telefon za roditelje <a href="tel:0800007000">0800 007 000</a>.
 
-- **Centar Srce** Besplatni pozivi na 0800300303, na sajtu imaju i podršku putem četa.
-- **Centar za mentalno zdravlje** (Terazije 3, 3. sprat) broj telefona 011 3612467 i 064 8652520.
-- **Pokret Nesalomivi** 0800 001 002 
-- **Klinika Laza Lazarević** linija za pomoć adolescentima 0800 3093 03
-- **Psihološko savetovalište Jezgro** centar grupa podrške za roditelje OŠ ,,Vladislav Ribnikar’’ Pozvati broj 064 800 2005.  
+- **Centar Srce** Besplatni pozivi na <a href="tel:0800300303">0800300303</a>, na sajtu imaju i podršku putem četa.
+- **Centar za mentalno zdravlje** (Terazije 3, 3. sprat) broj telefona <a href="tel:+381113612467">011 3612467</a> i <a href="tel:+381648652520">064 8652520</a>.
+- **Pokret Nesalomivi** <a href="tel:0800001002">0800 001 002</a> 
+- **Klinika Laza Lazarević** linija za pomoć adolescentima <a href="tel:0800309303">0800 3093 03</a>
+- **Psihološko savetovalište Jezgro** centar grupa podrške za roditelje OŠ ,,Vladislav Ribnikar’’ Pozvati broj <a href="tel:+381648002005">064 800 2005</a>.  
 
 
 [Aleksandar Nikolić](https://www.linkedin.com/in/aleksandar-nikoli%C4%87-2434098a/)
