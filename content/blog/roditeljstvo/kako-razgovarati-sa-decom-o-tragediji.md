@@ -69,7 +69,7 @@ Deca ovog uzrasta će već imati jake i raznolike stavove o uzrocima koji su dop
 
 ## 4. GDE SE MOŽETE JAVITI ZA POMOĆ U PREVAZILAŽENJU TRAUMA U VEZI SA TRAGEDIJOM U BEOGRADU
 
-- **Besplatno Psihološko savetovalište za mlade Doma omladine Beograda.** Možete kontaktirati Jadranku Radovanović (psihološkinja) preko mejla <a href="mailto:jadranka.psiholog@gmail.com">jadranka.psiholog@gmail.com<a> ili preko sms poruke <a href="sms:+381643925300">+381 64 39 25 300<a>.
+- **Besplatno Psihološko savetovalište za mlade Doma omladine Beograda.** Možete kontaktirati Jadranku Radovanović (psihološkinja) preko mejla <a href="mailto:jadranka.psiholog@gmail.com">jadranka.psiholog@gmail.com</a> ili preko sms poruke <a href="sms:+381643925300">+381 64 39 25 300</a>.
 
 - **Instit za mentalno zdravlje u Beogradu** u cilju podrške porodicama stradalih u OŠ ,,Vladislav Ribnikar’’, nastavnicima, učenicima kojima je potrebna psihološka pomoć i podrška. Možete kontaktirati preko telefona <a href="tel:+381638681757">063 8681757</a> i <a href="tel:+381638682117">063 8682217</a>.
 
