@@ -1027,8 +1027,8 @@ const people = [
 		imageUrl: "Stefan Mitrovic Jokanovic.png",
 		bio: "Kreativni psihoterapeut preduzetničkog duha. Za mene je psihoterapija životni poziv, a ne profesija! Verujem da je jedini ispravan pristup psihoterapiji - holistički pristup. Uvažavanje uma, emocija, tela, duhovnosti i društvenih faktora.",
 		alt: "psihoterapeut novi sad stefan mitrović jokanović",
-		statusDa: "Dostupan",
-		statusNe: "",
+		// statusDa: "Dostupan",
+		// statusNe: "",
 	},
 	{
 		name: "Miljana Vorkapić",
@@ -1036,8 +1036,8 @@ const people = [
 		imageUrl: "Miljana Vorkapic.png",
 		bio: "Stvarnost je sačinjena od mnoštva individualnih istina. Možda ne možemo da utičemo na druge, njihovo ponašanje ili okolnosti ali, uz pomoć psihoterapije, možemo da naučimo da biramo način na koji ćemo posmatrati svet koji nas okružuje.",
 		alt: "psihoterapeut novi sad miljana vorkapić",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 	{
 		name: "Aleksandra Bajić",
@@ -1045,8 +1045,8 @@ const people = [
 		imageUrl: "Aleksandra Bajic.png",
 		bio: "Osnov rada je odnos koji čine poštovanje, prihvatanje i toplina. To je korak ka promeni, pomeranju granica i širenju kapaciteta. Psihoterapeut pomaže klijentu da razume svoje misli, ponašanja i osećanja, a bez zajedničkog rada nema promene.",
 		alt: "psihoterapeut novi sad aleksandra bajić",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 	{
 		name: "Aleksandra Biberdžić",
@@ -1054,8 +1054,8 @@ const people = [
 		imageUrl: "Aleksandra Biberdzic.png",
 		bio: "Na terapiji se sa klijentima posvetim trenutku sada i ovde. Vodimo računa o procesu terapije i dolazimo u dodir sa najraniji iskustvima, dobijamo uvide o sebi i učimo da prigrlimo i negujemo svoje unutrašnje dete.",
 		alt: "psihoterapeut novi sad aleksandra biberdžić",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 	{
 		name: "Irena Petrović",
@@ -1063,8 +1063,8 @@ const people = [
 		imageUrl: "Irena Petrovic.png",
 		bio: "Moj pristup radu je kreiranje odnosa gde i klijent i terapeut mogu da budu ono što jesu. Kada napravimo prostor gde smo sigurni i prihvaćeni i gde možemo da izrazimo sebe, verujem da možemo doći do promene koja nam je svima nekad potrebna.",
 		alt: "psiholog novi sad irena petrović",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 	{
 		name: "Ivana Davidovć",
@@ -1072,8 +1072,8 @@ const people = [
 		imageUrl: "Ivana Davidovic.png",
 		bio: "U svom savetodavnom radu najčešće se bavim temama vezanim za stres na radu, nisko samopouzdanje, anksioznost i porodične relacije.",
 		alt: "psihoterapeut novi sad ivana davidović",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 	{
 		name: "Ivana Zeljković",
@@ -1081,8 +1081,8 @@ const people = [
 		imageUrl: "Ivana Zeljkovic.png",
 		bio: "Psihoterapija ne menja osobu već način na koji gledamo na događaje i situacije, ljude i međuljudske odnose. Mentalno zdravlje je važno kao i fizičko. Shodno tome, smatram da je rad na sebi pravi put ka kvalitetnijem i ispunjenijem životu.",
 		alt: "psihoterapeut novi sad ivana zeljković",
-		statusDa: "",
-		statusNe: "Nedostupna",
+		// statusDa: "",
+		// statusNe: "Nedostupna",
 	},
 
 	{
@@ -1091,8 +1091,8 @@ const people = [
 		imageUrl: "Jovan Grubic.png",
 		bio: "Na terapiji prihvatamo nesigurnost života, pridajemo mu smisao i odbacujemo svoj nesvesni životni scenario - skript. To radimo kroz relaciju i logos, odnos leči a logos haosu daje harmoniju. ",
 		alt: "psihoterapeut novi sad jovan grubić",
-		statusDa: "Dostupan",
-		statusNe: "",
+		// statusDa: "Dostupan",
+		// statusNe: "",
 	},
 
 	{
@@ -1101,8 +1101,8 @@ const people = [
 		imageUrl: "Nina Popov.png",
 		bio: "Otkrivaćeš sebe, razvijati se i učiti kako da umesto utabanih puteva koji nose višak patnje, gradiš i biraš nove koji vode boljem funkcionisanju i ispunjenijem životu.",
 		alt: "psihoterapeut novi sad nina popov",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 	{
 		name: "Tijana Stojšić",
@@ -1110,8 +1110,8 @@ const people = [
 		imageUrl: "tijana-stojsic.jpg",
 		bio: "U sigurnom okruženju možete podeliti svoju priču. Stručna podrška terapeuta vam može pomoći da bolje razumete sebe i okolnosti u kojima ste se našli. Na psihoterapiji stičete uvide i radite na promeni koju želite da postignete.",
 		alt: "psihoterapeut novi sad tijana stojšić",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 	{
 		name: "Vanja Tripković",
@@ -1119,8 +1119,8 @@ const people = [
 		imageUrl: "vanja-tripkovic.jpg",
 		bio: "Svako je sposoban da donosi odluke za sebe i obezbedi kvalitetan život kojim je zadovoljan. Moja uloga u tom odlučivanju je da pomognem da bolje razumete sebe, razvijete svoje potencijale i više budete u skladu da sobom.",
 		alt: "psiholog novi sad vanja tripković",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 	{
 		name: "Igor Ilić",
@@ -1128,8 +1128,8 @@ const people = [
 		imageUrl: "igor-ilic.jpg",
 		bio: "Sistemski porodični savetnik i psihoterapeut pod supervizijom. Individualna, partnerska i porodična psihoterapija. Psihoterapijski proces jeste korektivno iskustvo - u okviru bezbednog prostora radimo na promeni ka onome funkcionalnijem.",
 		alt: "psiholog novi sad Igor Ilić",
-		statusDa: "Dostupan",
-		statusNe: "",
+		// statusDa: "Dostupan",
+		// statusNe: "",
 	},
 	{
 		name: "Kristina Marković",
@@ -1137,8 +1137,8 @@ const people = [
 		imageUrl: "kristina-markovic.jpg",
 		bio: "Terapiju vidim kao zajednicko putovanje na kom upoznajemo sebe, druge, svet. Putovanje na kom ucimo da sada kao odrasli imamo slobodu izbora, opcije I mozemo izrazavati osećanja.Samo oni koji ce rizikovati da odu predaleko mogu da otkriju koliko daleko moze da se ode.",
 		alt: "psihoterapeut novi sad Kristina Marković",
-		statusDa: "Dostupna",
-		statusNe: "",
+		// statusDa: "Dostupna",
+		// statusNe: "",
 	},
 ];
 
