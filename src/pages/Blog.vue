@@ -3,7 +3,7 @@
 		<div>
 			<div class="relative max-w-7xl mx-auto px-6 mt-20">
 				<div class="text-center">
-					<h1 class="text-3xl text-primary sm:text-4xl">Blogovi o pshoterapiji, psihoanalizi i psihologiji</h1>
+					<h1 class="text-3xl text-primary sm:text-4xl">Blogovi o psihoterapiji, psihoanalizi i psihologiji</h1>
 					<p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Terapeuti pišu za vas</p>
 					<div class="mt-10"></div>
 				</div>
