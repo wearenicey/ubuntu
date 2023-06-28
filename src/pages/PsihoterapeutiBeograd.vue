@@ -850,15 +850,7 @@ const people = [
 		// statusDa: "Dostupna",
 		// statusNe: "",
 	},
-	{
-		name: "Marija Strenka Radovanović",
-		role: "Sistemska porodična psihoterapija",
-		imageUrl: "marija-strenka-radovanovic.jpg",
-		bio: "Znanja iz socijalne zaštite, prava, psihologije i psihoterapije su mi pomogla da razumem probleme sa kojima se klijenti suočavaju, a sistemska porodična terapija je to znanje zaokružila. Zajedno, možemo da rešimo vaš problem i stvaramo nove priče.",
-		alt: "psiholog beograd marija strenka radovanovic",
-		// statusDa: "Dostupna",
-		// statusNe: "",
-	},
+	
 	{
 		name: "Zorana Kovačev",
 		role: "Transakciona analiza",
