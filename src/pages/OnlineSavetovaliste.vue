@@ -257,6 +257,17 @@
 													</span>
 													<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 												</div>
+
+												<div class="mt-5">
+													<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+													<div class="block lg:flex items-center justify-center">
+														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
+															<span class="font-bold">3000</span>
+														</span>
+														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
+													</div>
+												</div>
 											</div>
 										</div>
 										<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
@@ -292,6 +303,17 @@
 												</span>
 												<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 											</div>
+
+											<div class="mt-5">
+													<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+													<div class="block lg:flex items-center justify-center">
+														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
+															<span class="font-bold">4000</span>
+														</span>
+														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
+													</div>
+												</div>
 										</div>
 									</div>
 									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">

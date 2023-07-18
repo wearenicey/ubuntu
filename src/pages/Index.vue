@@ -173,8 +173,6 @@
 
 		<div class="mt-20">
 			<div class="relative pb-32 bg-gray-800">
-
-
 				<div class="absolute inset-0">
 					<g-image class="w-full h-full object-cover" src="~/assets/img/home-prvi-korak.jpg" alt="prvi koraci u psihoterapiji" />
 					<div class="absolute inset-0 bg-secondary mix-blend-multiply" aria-hidden="true"></div>
@@ -260,7 +258,7 @@
 							<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
 								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
 									<div class="flex flex-1 flex-col">
-										<div class="bg-white px-6 py-10">
+										<div class="bg-white px-6 pt-10 pb-6">
 											<div>
 												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Povoljno</h3>
 												<div class="mt-4 block lg:flex items-center justify-center">
@@ -269,6 +267,16 @@
 														<span class="font-bold">1500</span>
 													</span>
 													<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
+												</div>
+												<div class="mt-5">
+													<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+													<div class="block lg:flex items-center justify-center">
+														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
+															<span class="font-bold">3000</span>
+														</span>
+														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -305,6 +313,17 @@
 												</span>
 												<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 											</div>
+
+											<div class="mt-5">
+													<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+													<div class="block lg:flex items-center justify-center">
+														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
+															<span class="font-bold">4000</span>
+														</span>
+														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
+													</div>
+												</div>
 										</div>
 									</div>
 									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
@@ -315,7 +334,12 @@
 										</ul>
 										<div class="mt-10">
 											<div class="rounded-lg shadow-md">
-												<a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popuni upitnik</a>
+												<a
+													href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81"
+													class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white"
+													aria-describedby="tier-growth"
+													>Popuni upitnik</a
+												>
 											</div>
 											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
 										</div>
@@ -460,21 +484,7 @@
 								<button
 									:disabled="formData.submitStatus === 'PENDING'"
 									type="submit"
-									class="
-										block
-										w-full
-										rounded
-										border border-transparent
-										px-5
-										py-3
-										bg-secondary
-										text-base
-										font-medium
-										text-white
-										shadow
-										focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-green-500
-										sm:px-10
-									"
+									class="block w-full rounded border border-transparent px-5 py-3 bg-secondary text-base font-medium text-white shadow focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-green-500 sm:px-10"
 								>
 									Prijavite se
 								</button>
@@ -501,8 +511,20 @@
 import CardItem from "../components/CardItem.vue";
 import { required, email } from "vuelidate/lib/validators";
 
-const hobbyFeatures = ["✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom", "✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola", "✓ Kvalitetna podrška u procesu savetovanja i psihoterapije", "✓ Kontakt saradnika se dobija u roku od mesec dana", "✓ Ograničen broj susreta (12)"];
-const growthFeatures = ["✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti", " ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola", "✓ Kvalitetna psihoterapijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od 48 časova", "✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni"];
+const hobbyFeatures = [
+	"✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom",
+	"✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola",
+	"✓ Kvalitetna podrška u procesu savetovanja i psihoterapije",
+	"✓ Kontakt saradnika se dobija u roku od mesec dana",
+	"✓ Ograničen broj susreta (12)",
+];
+const growthFeatures = [
+	"✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti",
+	" ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola",
+	"✓ Kvalitetna psihoterapijska podrška",
+	" ✓ Kontakt psihoterapeuta dobija se u roku od 48 časova",
+	"✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni",
+];
 
 // meta deskripcija
 export default {
