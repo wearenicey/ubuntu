@@ -2,21 +2,21 @@
 title: Zašto je teško preboleti gubitak
 category: gubitak-i-tugovanje
 # ovo je i meta desc
-excerpt: Svi se mi  tokom života susretnemo sa gubitkom. Neko zbog prekida veze, razvoda...
+excerpt: Gubitak nije nešto što nam se desi samo jednom u životu.
 created: 2023-07-21
 date: 2023.07.21
 image: zasto-je-tesko-preboleti-gubitak-1.jpg
-alt: "tugovanje"
+alt: "preboleti gubitak"
 imageTwo:
   path: /zasto-je-tesko-preboleti-gubitak-1.jpg
-  alt: "tugovanje"
+  alt: "gubitak i tuga"
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
 pocetna: true
 path: zasto-je-tesko-preboleti-gubitak
 name: Aloo
-metaDesc: "Značenje gubitka i tuge. Saveti kako da se nosite sa ovim osećanjima na zdrav način"
+metaDesc: "Kako prebroditi kada nam se desi da izgubimo nekoga? Šta se desi i kakve faze tugovanja postoje? Kako pomoći onome koji tuguje?"
 ---
 
  
