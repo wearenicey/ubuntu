@@ -1,5 +1,5 @@
 ---
-title: Dve vrsta stresa i kako se izboriti?
+title: 2 vrsta stresa i kako se izboriti?
 category: stres
 # ovo je i meta desc
 excerpt: Stres se može opisati kao fiziološka i psihološka reakcija osobe na stimuluse iz sredine koja je okružuje.
