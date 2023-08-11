@@ -1,5 +1,5 @@
 ---
-title: Kako prepoznati stres i kako se sa njim izboriti?
+title: Dve vrsta stresa i kako se izboriti?
 category: stres
 # ovo je i meta desc
 excerpt: Stres se može opisati kao fiziološka i psihološka reakcija osobe na stimuluse iz sredine koja je okružuje.
@@ -16,7 +16,7 @@ featured: false
 pocetna: false
 path: kako-prepoznati-stres
 name: Aloo
-metaDesc: "Nije svaki stres isti. Upoznajte kakve vrste stresa postoje, kako se manifestuju na naše ponašanje i naše zdravlje, kao i kako se izboriti sa stresom."
+metaDesc: "Nije svaki stres isti. Upoznajte dve vrste stresa koje postoje, kako se manifestuju na naše ponašanje i naše zdravlje, kao i kako se izboriti sa stresom."
 ---
 
 
