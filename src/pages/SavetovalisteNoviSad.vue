@@ -60,7 +60,7 @@
 							<h3 class="text-2xl text-center lg:text-left text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
 							<p class="mt-3 text-lg text-center lg:text-left text-gray-500">
 								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 3.000 dinara u slučaju individualne, odnosno 5.000 dinara u slučaju partnerske i
-								porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.500 dinara u slučaju individualne psihoterapije, i 3000 dinara po seansi kada je bilo koji vid
+								porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.500 dinara u slučaju individualne psihoterapije, i 3.000 dinara po seansi kada je bilo koji vid
 								grupne terapije u pitanju - terapija para, porodična ili bračna.
 							</p>
 							<div class="mt-12 flex justify-center lg:justify-start">
@@ -313,7 +313,7 @@
 												<div class="mt-4 block lg:flex items-center justify-center">
 													<span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
 														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-														<span class="font-bold">1500</span>
+														<span class="font-bold">1.500</span>
 													</span>
 													<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 												</div>
@@ -323,7 +323,7 @@
 													<div class="block lg:flex items-center justify-center">
 														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
 															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-															<span class="font-bold">3000</span>
+															<span class="font-bold">3.000</span>
 														</span>
 														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
 													</div>
@@ -359,7 +359,7 @@
 											<div class="mt-4 block lg:flex items-center justify-center">
 												<span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
 													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-													<span class="font-bold">3500</span>
+													<span class="font-bold">3.500</span>
 												</span>
 												<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 											</div>
@@ -369,7 +369,7 @@
 													<div class="block lg:flex items-center justify-center">
 														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
 															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-															<span class="font-bold">3500</span>
+															<span class="font-bold">3.500</span>
 														</span>
 														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
 													</div>
@@ -1040,7 +1040,7 @@
 import { required, email } from "vuelidate/lib/validators";
 
 const hobbyFeatures = ["✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom", "✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola", "✓ Kvalitetna podrška u procesu savetovanja i psihoterapije", "✓ Kontakt saradnika se dobija u roku od mesec dana", "✓ Ograničen broj susreta (12)"];
-const growthFeatures = ["✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti", " ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola", "✓ Kvalitetna psihoterapijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od 48 časova", "✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni"];
+const growthFeatures = ["✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti", " ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola", "✓ Kvalitetna psihoterapijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od najviše 4 dana", "✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni"];
 
 const people = [
 	{
