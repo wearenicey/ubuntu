@@ -369,7 +369,7 @@
 													<div class="block lg:flex items-center justify-center">
 														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
 															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-															<span class="font-bold">3.500</span>
+															<span class="font-bold">5.000</span>
 														</span>
 														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
 													</div>
