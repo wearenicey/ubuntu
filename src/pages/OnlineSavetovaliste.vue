@@ -299,7 +299,7 @@
 											<div class="mt-4 block lg:flex items-center justify-center">
 												<span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
 													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-													<span class="font-bold">2500</span>
+													<span class="font-bold">3500</span>
 												</span>
 												<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 											</div>
@@ -309,7 +309,7 @@
 													<div class="block lg:flex items-center justify-center">
 														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
 															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-															<span class="font-bold">4000</span>
+															<span class="font-bold">5000</span>
 														</span>
 														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
 													</div>
