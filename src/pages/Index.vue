@@ -25,12 +25,12 @@
 					<h2 class="mt-1 text-4xl text-primary sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
 					<p class="mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
 
-					<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex sm:mb-0 mb-5">
+					<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center gap-x-4">
+							<!-- <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex sm:mb-0 mb-5">
 								<a href="#cenovnik" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-red-400 hover:bg-gray-200 hover:text-secondary sm:px-8">
 									Pogledajte pakete
 								</a>
-							</div>
+							</div> -->
 							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex">
 								<a href="/kontakt" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-red-400 hover:bg-gray-200 hover:text-secondary sm:px-8">
 									Pitajte nas
