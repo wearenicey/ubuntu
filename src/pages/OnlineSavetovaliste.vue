@@ -756,7 +756,7 @@
 								<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
 								<dl class="mt-8 space-y-6">
 									<dt><span class="sr-only">Lokacija</span></dt>
-									<dd class="flex text-base text-gray-400">
+									<!-- <dd class="flex text-base text-gray-400">
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 										</svg>
@@ -765,7 +765,7 @@
 												>Anđe Ranković 6/23</a
 											>
 										</span>
-									</dd>
+									</dd> -->
 									<dt><span class="sr-only">Telefon</span></dt>
 									<dd class="flex text-base text-gray-400">
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

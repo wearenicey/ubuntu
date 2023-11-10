@@ -5,7 +5,7 @@
 				<div class="lg:grid lg:grid-cols-2 lg:gap-8 py-20">
 					<div class="mx-auto max-w-xl px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
 						<div class="lg:pb-32">
-							<h1 class="text-3xl text-white sm:text-6xl xl:text-4xl">Kako postati psihoterapeut? Savetovalište Ubuntu je pravi izbor.</h1>
+							<h1 class="text-3xl text-white sm:text-6xl xl:text-4xl">Kako započeti rad sa klijentima? Savetovalište Ubuntu je pravi izbor.</h1>
 							<p class="text-base mt-4 text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
 								Svako savetovalište Ubuntu nudi mogućnost svojim saradnicima da započnu i, uz sistematsku podršku, razvijaju svoju terapijsku praksu. Uz to ih i podržava na njihovom putu do samostalnosti.
 							</p>
@@ -36,7 +36,7 @@
 			<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
 				<div>
 					<h2 class="mt-2 text-3xl text-primary tracking-tight sm:text-4xl">Zdrav kolektiv za zdrave ideje</h2>
-					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši saradnici i tako se i odnosimo prema njima.</p>
+					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši volonteri i tako se i odnosimo prema njima.</p>
 				</div>
 				<div class="mt-12">
 					<g-image class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/assets/img/karijera-1.jpg" alt="" />
@@ -50,7 +50,9 @@
 		<div class="relativ py-16 sm:py-24 lg:py-32">
 			<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<h2 class="mt-2 text-3xl text-primary sm:text-4xl">Šta naše savetovalište nudi?</h2>
-				<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Možete očekivati sistemsku podršku, logistiku i ohrabrenje za ostvarivanje vaših ličnih ideja i ciljeva.</p>
+				<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Kroz projekat, mladi psihoterapeuti imaju priliku da u bezbednom okruženju i kroz podršku 
+					starijih kolega započnu svoju psihoterapijsku karijeru. Nakon volonterskog programa, kolegama se nudi logistika i ohrabrenje kako bi započeli rad
+					sa klijentima u privatnoj praksi.</p>
 				<div class="mt-12">
 					<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 						<div class="pt-6">
@@ -390,8 +392,8 @@
 			</div>
 			<div class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
 				<div class="md:ml-auto md:w-1/2 md:pl-10">
-					<h2 class="text-base font-semibold uppercase tracking-wider font-sans">Kakve saradnike tražimo?</h2>
-					<p class="mt-2 text-3xl font-serif sm:text-4xl text-primary">Naši saradnici su vredni, proaktivni i spremni da rade na sebi.</p>
+					<h2 class="text-base font-semibold uppercase tracking-wider font-sans">Kakve volontere tražimo?</h2>
+					<p class="mt-2 text-3xl font-serif sm:text-4xl text-primary">Naši volonteri su vredni, proaktivni i spremni da rade na sebi.</p>
 					<p class="mt-3 text-lg text-gray-700">
 						Tražimo ljude koji ne rade naporno, već pametno, znaju da prepoznaju kad je vreme da više rade, a kada je vreme za pauzu i regrupisanje snaga. Naravno, stručnost nam je veoma važna, ali ne morate da budete eksperti, važno je da
 						ste spremni da to postanete uz našu pomoć.
