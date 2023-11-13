@@ -10,12 +10,12 @@
 				</button>
 			</div>
 
-			<!-- <div class="modal" v-if="showModal">
+			<div class="modal" v-if="showModal">
 				<video controls>
 					<source src="/video-pocetna.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
-			</div> -->
+			</div>
 		</div>
 
 		<div class="bg-white">
@@ -24,37 +24,18 @@
 					<h1 class="text-base font-semibold text-support-100 tracking-wide uppercase font-sans">Psihološko savetovalište Ubuntu</h1>
 					<h2 class="mt-1 text-4xl text-primary sm:text-5xl sm:tracking-tight lg:text-6xl">Negujmo mentalno zdravlje</h2>
 					<p class="mt-5 mx-auto text-xl text-gray-500">Kroz psihološko savetovanje i psihoterapiju unapredite kvalitet Vašeg života</p>
-
-					<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center gap-x-4">
-							<!-- <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex sm:mb-0 mb-5">
-								<a href="#cenovnik" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-red-400 hover:bg-gray-200 hover:text-secondary sm:px-8">
-									Pogledajte pakete
-								</a>
-							</div> -->
-							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex">
-								<a href="/kontakt" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-red-400 hover:bg-gray-200 hover:text-secondary sm:px-8">
-									Pitajte nas
-								</a>
-							</div>
-
-						</div>
-						
 					<div class="lg:mt-10 mt-5 flex block justify-center">
-
-						<g-image immediate="true" class="h-full w-full object-cover" src="~/assets/img/hero.png" alt="psihoterapija Ubuntu Novi Sad" />
-					<!-- 	<div class="inline-flex">
+						<div class="inline-flex">
 							<a href="/kontakt/" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary"> Zakažite konsultaciju </a>
-						</div>  -->
+						</div>
 					</div>
-					<!-- <div class="relative">
+					<div class="relative">
 						<svg @click="showModal = true" class="absolute button-one pointer-events-auto" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<rect width="68" height="68" rx="34" fill="#F0FDFA" />
 							<path d="M52 34L25 49.5885L25 18.4115L52 34Z" fill="#10B981" />
 						</svg>
 						<g-image immediate="true" class="lg:mt-20 mt-10" src="~/assets/img/pocetna-1.jpg" alt="psihoterapeut savetuje"></g-image>
-					</div> -->
-
-					
+					</div>
 				</div>
 			</div>
 		</div>
@@ -78,8 +59,8 @@
 						<h2 class="text-3xl text-gray-50 sm:text-4xl">Lako dostupna pomoć psihoterapeuta</h2>
 						<div class="mt-6 text-gray-300 space-y-6">
 							<p class="text-lg">
-								Ideja našeg <span class="font-bold">psihološkog savetovališta</span> jeste da na jednom mestu okupimo kvalifikovane psihoterapeute i psihoterapeute
-pod supervizijom.
+								Centar za rast i razvoj ljudskog potencijala Ubuntu osnovan je 28. juna 2016. godine u Novom Sadu. Ideja našeg <span class="font-bold">psihološkog savetovališta</span> jeste da na jednom mestu okupimo psihologe i ostale
+								visoko kvalifikovane psihoterapeute.
 							</p>
 							<p class="text-base leading-7">
 								Želeli smo da im damo siguran prostor za rad i kontinuiranu podršku u profesionalnom razvoju, kako bismo udruženim snagama vodili računa o mentalnom zdravlju građana naše lokalne zajednice, a i šire.
@@ -98,19 +79,19 @@ pod supervizijom.
 							<div class="">
 								<div class="border-t-2 border-support-100 pb-6 opacity-20"></div>
 								<dt class="text-base font-medium text-support-100">Stručni saradnici</dt>
-								<dd class="text-3xl font-semibold text-white font-sans">80</dd>
+								<dd class="text-3xl font-semibold text-white font-sans">50</dd>
 							</div>
 
 							<div class="">
 								<div class="border-t-2 border-support-100 pb-6 opacity-20"></div>
 								<dt class="text-base font-medium text-support-100 font-sans">Klijenti do sada</dt>
-								<dd class="text-3xl font-semibold text-white font-sans">800+</dd>
+								<dd class="text-3xl font-semibold text-white font-sans">650+</dd>
 							</div>
 
 							<div class="">
 								<div class="border-t-2 border-support-100 pb-6 opacity-20"></div>
 								<dt class="text-base font-medium text-support-100">Broj projekata</dt>
-								<dd class="text-3xl font-semibold text-white font-sans">10</dd>
+								<dd class="text-3xl font-semibold text-white font-sans">8</dd>
 							</div>
 						</dl>
 					</div>
@@ -181,7 +162,7 @@ pod supervizijom.
 						</div>
 					</div>
 					<div class="mt-12">
-						<g-image class="w-full h-full" src="~/assets/img/terapeut-pacijent.jpg" alt="psihoterapija u grupi" />
+						<g-image class="w-full h-full" src="~/assets/img/tim.webp" alt="psihoterapija u grupi" />
 					</div>
 				</div>
 			</div>

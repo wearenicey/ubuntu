@@ -13,17 +13,11 @@
 						<h1 class="font-serif text-center text-4xl tracking-tigh sm:text-5xl lg:text-6xl text-white"><span class="text-white">Psihoterapija</span> u Novom Sadu</h1>
 						<p class="mt-6 text-2xl text-center text-white mx-auto">Naša Ubuntu priča počela je baš u ovom gradu 2016. godine.</p>
 						<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex sm:mb-0 mb-5">
-								<a href="#cenovnik" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-secondary bg-white hover:bg-gray-200 hover:text-secondary sm:px-8">
-									Pogledajte pakete
-								</a>
-							</div>
 							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex">
-								<a href="tel:+381658286883" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium shadow-sm text-white rounded-full bg-secondary hover:bg-yellow-700 sm:px-8">
+								<a href="tel:+381658286881" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-secondary bg-white hover:bg-gray-200 hover:text-secondary sm:px-8">
 									Nazovite za konsultaciju
 								</a>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -297,111 +291,110 @@
 			</div>
 		</div>
 
-		<div class="bg-primary" id="cenovnik">
+		<div class="bg-primary">
 			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
 				<div class="text-center">
 					<h2 class="text-xl font-sans leading-6 text-gray-300">Cenovnik</h2>
 					<p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p>
 				</div>
 			</div>
-		
+
 			<div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
-  <div class="relative z-0">
-    <div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="relative lg:grid lg:grid-cols-7">
-        <div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
-          <div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
-            <div class="flex flex-1 flex-col">
-              <div class="bg-white px-6 py-10">
-                <div>
-                  <h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Povoljno</h3>
-                  <div class="mt-4 block lg:flex items-center justify-center">
-                    <span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
-                      <span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-                      <span class="font-bold">1.500</span>
-                    </span>
-                    <span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
-                  </div>
+				<div class="relative z-0">
+					<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
+					<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+						<div class="relative lg:grid lg:grid-cols-7">
+							<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
+								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
+									<div class="flex flex-1 flex-col">
+										<div class="bg-white px-6 py-10">
+											<div>
+												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Povoljno</h3>
+												<div class="mt-4 block lg:flex items-center justify-center">
+													<span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
+														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+														<span class="font-bold">1.500</span>
+													</span>
+													<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
+												</div>
 
-                  <div class="mt-5">
-                    <p class="text-center font-medium text-gray-900">Partnerska terapija</p>
-                    <div class="block lg:flex items-center justify-center">
-                      <span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
-                        <span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-                        <span class="font-bold">3.000</span>
-                      </span>
-                      <span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
-                <ul role="list" class="space-y-4">
-                  <li v-for="feature in hobbyFeatures" :key="feature" class="flex items-start">
-                    <p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
-                  </li>
-                </ul>
-                <div class="mt-8">
-                  <div class="rounded-lg shadow-md">
-                    <a href="/kontakt" class="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby">Kontaktirajte nas</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-8 lg:row-start-1 lg:row-end-4 lg:mx-0 lg:mt-0 lg:max-w-none">
-          <div class="relative z-10 rounded-lg shadow-xl">
-            <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary" aria-hidden="true" />
-            <div class="absolute inset-x-0 top-0 translate-y-px transform">
-              <div class="flex -translate-y-1/2 transform justify-center">
-                <span class="inline-flex rounded-full bg-green-700 px-4 py-1 text-base tracking-widest text-white">Najtraženije</span>
-              </div>
-            </div>
-            <div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
-              <div>
-                <h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Brzo</h3>
-                <div class="mt-4 block lg:flex items-center justify-center">
-                  <span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
-                    <span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-                    <span class="font-bold">3.500</span>
-                  </span>
-                  <span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
-                </div>
+												<div class="mt-5">
+													<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+													<div class="block lg:flex items-center justify-center">
+														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
+															<span class="font-bold">3.000</span>
+														</span>
+														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
+											<ul role="list" class="space-y-4">
+												<li v-for="feature in hobbyFeatures" :key="feature" class="flex items-start">
+													<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+												</li>
+											</ul>
+											<div class="mt-8">
+												<div class="rounded-lg shadow-md">
+													<a href="/kontakt" class="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby">Kontaktirajte nas</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-8 lg:row-start-1 lg:row-end-4 lg:mx-0 lg:mt-0 lg:max-w-none">
+								<div class="relative z-10 rounded-lg shadow-xl">
+									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary" aria-hidden="true" />
+									<div class="absolute inset-x-0 top-0 translate-y-px transform">
+										<div class="flex -translate-y-1/2 transform justify-center">
+											<span class="inline-flex rounded-full bg-green-700 px-4 py-1 text-base tracking-widest text-white">Najtraženije</span>
+										</div>
+									</div>
+									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
+										<div>
+											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Brzo</h3>
+											<div class="mt-4 block lg:flex items-center justify-center">
+												<span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
+													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+													<span class="font-bold">3.500</span>
+												</span>
+												<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
+											</div>
 
-                <div class="mt-5">
-                    <p class="text-center font-medium text-gray-900">Partnerska terapija</p>
-                    <div class="block lg:flex items-center justify-center">
-                      <span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
-                        <span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-                        <span class="font-bold">5.000</span>
-                      </span>
-                      <span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
-              <ul role="list" class="space-y-4">
-                <li v-for="feature in growthFeatures" :key="feature" class="flex items-start">
-                  <p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
-                </li>
-              </ul>
-              <div class="mt-10">
-                <div class="rounded-lg shadow-md">
-                  <a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popuni upitnik</a>
-                </div>
-                <p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-	
+											<div class="mt-5">
+													<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+													<div class="block lg:flex items-center justify-center">
+														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
+															<span class="font-bold">5.000</span>
+														</span>
+														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
+													</div>
+												</div>
+										</div>
+									</div>
+									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
+										<ul role="list" class="space-y-4">
+											<li v-for="feature in growthFeatures" :key="feature" class="flex items-start">
+												<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+											</li>
+										</ul>
+										<div class="mt-10">
+											<div class="rounded-lg shadow-md">
+												<a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popuni upitnik</a>
+											</div>
+											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="bg-white py-16 lg:py-24">
