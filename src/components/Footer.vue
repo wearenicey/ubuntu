@@ -60,7 +60,7 @@
 					</svg>
 				</a>
 			</div>
-			<p class="mt-8 text-center text-base text-gray-400">&copy; 2021, <g-link href="https://nicey.rs/">Nicey Consulting</g-link></p>
+			<p class="mt-8 text-center text-base text-gray-400">&copy; 2023, <g-link href="https://nicey.rs/">Nicey Consulting</g-link></p>
 		</div>
 	</footer>
 </template>

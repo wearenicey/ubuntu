@@ -12,9 +12,14 @@
 					<div class="relative max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-12">
 						<h1 class="font-serif text-center text-4xl tracking-tigh sm:text-5xl lg:text-6xl text-white"><span class="text-white">Psihoterapija</span> u Novom Sadu</h1>
 						<p class="mt-6 text-2xl text-center text-white mx-auto">Naša Ubuntu priča počela je baš u ovom gradu 2016. godine.</p>
-						<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex">
-								<a href="tel:+381658286881" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-secondary bg-white hover:bg-gray-200 hover:text-secondary sm:px-8">
+						<div class="mt-10 gap-x-4 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+							<div class="sm:gap-5 justify-center flex sm:mb-0 mb-5">
+								<a href="#cenovnik" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-black bg-white hover:bg-gray-200 hover:text-secondary sm:px-8">
+									Pogledajte pakete
+								</a>
+							</div>
+							<div class="sm:gap-5 justify-center flex">
+								<a href="tel:+381658286883" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium shadow-sm text-white rounded-full border-gray-100 bg-white bg-opacity-25 hover:bg-white hover:text-black sm:px-8">
 									Nazovite za konsultaciju
 								</a>
 							</div>
@@ -29,10 +34,8 @@
 				<svg class="hidden lg:block absolute mt-36" width="460" height="1086" viewBox="0 0 460 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="-83" cy="543" r="543" fill="#FEF2F2" />
 				</svg>
-
 			</div>
 			<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-
 				<div class="relative">
 					<h2 class="text-center text-3xl leading-8 text-primary sm:text-4xl">Psihološko savetovalište Ubuntu Novi Sad</h2>
 					<p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
@@ -291,11 +294,11 @@
 			</div>
 		</div>
 
-		<div class="bg-primary">
+		<div class="bg-primary" id="cenovnik">
 			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
 				<div class="text-center">
-					<h2 class="text-xl font-sans leading-6 text-gray-300">Cenovnik</h2>
-					<p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p>
+					<h2 class="text-3xl font-sans leading-6 text-gray-300">Cenovnik</h2>
+					<!-- <p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p> -->
 				</div>
 			</div>
 
@@ -303,6 +306,49 @@
 				<div class="relative z-0">
 					<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
 					<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+						<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+						<!-- <div class="py-6">
+  <div class="sm:hidden">
+    <label for="tabs" class="sr-only">Select a tab</label>
+   
+    <select id="tabs" name="tabs" class="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
+      <option selected>Novi Sad</option>
+      <option>Beograd</option>
+      <option>Online</option>
+    </select>
+  </div>
+  <div class="hidden sm:block">
+    <nav class="isolate flex divide-x divide-gray-200 rounded-lg shadow" aria-label="Tabs">
+  
+      <a href="#" class="text-gray-900 rounded-l-lg group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10" aria-current="page">
+        <span>Novi Sad</span>
+        <span aria-hidden="true" class="bg-indigo-500 absolute inset-x-0 bottom-0 h-0.5"></span>
+      </a>			
+      <a href="#" class="text-gray-500 hover:text-gray-700 group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10">
+        <span>Beograd</span>
+        <span aria-hidden="true" class="bg-transparent absolute inset-x-0 bottom-0 h-0.5"></span>
+      </a>
+      <a href="#" class="text-gray-500 hover:text-gray-700 group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10">
+        <span>Online</span>
+        <span aria-hidden="true" class="bg-transparent absolute inset-x-0 bottom-0 h-0.5"></span>
+      </a>
+    </nav>
+  </div>
+</div> -->
+
 						<div class="relative lg:grid lg:grid-cols-7">
 							<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
 								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
@@ -325,7 +371,7 @@
 															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
 															<span class="font-bold">3.000</span>
 														</span>
-														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
+														<span class="flex justify-center font-medium text-gray-500">/ seansa</span>
 													</div>
 												</div>
 											</div>
@@ -349,9 +395,9 @@
 								<div class="relative z-10 rounded-lg shadow-xl">
 									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary" aria-hidden="true" />
 									<div class="absolute inset-x-0 top-0 translate-y-px transform">
-										<div class="flex -translate-y-1/2 transform justify-center">
-											<span class="inline-flex rounded-full bg-green-700 px-4 py-1 text-base tracking-widest text-white">Najtraženije</span>
-										</div>
+										<!-- <div class="flex -translate-y-1/2 transform justify-center">
+                <span class="inline-flex rounded-full bg-green-700 px-4 py-1 text-base tracking-widest text-white">Najtraženije</span>
+              </div> -->
 									</div>
 									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
 										<div>
@@ -365,15 +411,15 @@
 											</div>
 
 											<div class="mt-5">
-													<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
-													<div class="block lg:flex items-center justify-center">
-														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
-															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-															<span class="font-bold">5.000</span>
-														</span>
-														<span class=" flex justify-center font-medium text-gray-500">/ seansa</span>
-													</div>
+												<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+												<div class="block lg:flex items-center justify-center">
+													<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+														<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
+														<span class="font-bold">5.000</span>
+													</span>
+													<span class="flex justify-center font-medium text-gray-500">/ seansa</span>
 												</div>
+											</div>
 										</div>
 									</div>
 									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
@@ -384,7 +430,12 @@
 										</ul>
 										<div class="mt-10">
 											<div class="rounded-lg shadow-md">
-												<a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popuni upitnik</a>
+												<a
+													href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81"
+													class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white"
+													aria-describedby="tier-growth"
+													>Popunite upitnik</a
+												>
 											</div>
 											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
 										</div>
@@ -894,7 +945,7 @@
 									<p hidden>
 										<label><input name="bot-field" /> </label>
 									</p>
-									<label for="name" class="block text-sm font-medium text-gray-900">Vaše Ime</label>
+									<label for="name" class="block text-sm font-medium text-gray-900">Vaše ime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
@@ -906,12 +957,12 @@
 											v-model="$v.formData.name.$model"
 										/>
 										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše ime</p>
 										</div>
 									</div>
 								</div>
 								<div>
-									<label for="last" class="block text-sm font-medium text-gray-900">Vaše Prezime</label>
+									<label for="last" class="block text-sm font-medium text-gray-900">Vaše prezime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
@@ -923,7 +974,7 @@
 											v-model="$v.formData.last.$model"
 										/>
 										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše Prezime</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše prezime</p>
 										</div>
 									</div>
 								</div>
@@ -983,7 +1034,7 @@
 								<div class="sm:col-span-2">
 									<div class="flex justify-between">
 										<label for="message" class="block text-sm font-medium text-gray-900">Poruka</label>
-										<span id="message-max" class="text-sm text-gray-500">Max. 500 karaktera</span>
+										<span id="message-max" class="text-sm text-gray-500">Do 500 karaktera</span>
 									</div>
 									<div class="mt-1">
 										<textarea
@@ -1037,10 +1088,23 @@
 
 <script>
 //importovanje komponenti
+
 import { required, email } from "vuelidate/lib/validators";
 
-const hobbyFeatures = ["✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom", "✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola", "✓ Kvalitetna podrška u procesu savetovanja i psihoterapije", "✓ Kontakt saradnika se dobija u roku od mesec dana", "✓ Ograničen broj susreta (12)"];
-const growthFeatures = ["✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti", " ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola", "✓ Kvalitetna psihoterapijska podrška", " ✓ Kontakt psihoterapeuta dobija se u roku od najviše 4 dana", "✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni"];
+const hobbyFeatures = [
+	"✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom",
+	"✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola",
+	"✓ Kvalitetna podrška u procesu savetovanja i psihoterapije",
+	"✓ Kontakt saradnika se dobija u roku od mesec dana",
+	"✓ Ograničen broj susreta (12)",
+];
+const growthFeatures = [
+	"✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti",
+	" ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola",
+	"✓ Kvalitetna psihoterapijska podrška",
+	" ✓ Kontakt psihoterapeuta dobija se u roku od najviše 4 dana",
+	"✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni",
+];
 
 const people = [
 	{
@@ -1308,6 +1372,7 @@ export default {
 	},
 };
 </script>
+
 <style scoped>
 .btn-to-top {
 	width: 60px;

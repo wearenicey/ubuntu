@@ -235,7 +235,7 @@
 			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
 				<div class="text-center">
 					<h2 class="text-xl font-sans leading-6 text-gray-300">Cenovnik</h2>
-					<p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p>
+					<p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberite paket koji Vam odgovara</p>
 				</div>
 			</div>
 
@@ -324,7 +324,7 @@
 										</ul>
 										<div class="mt-10">
 											<div class="rounded-lg shadow-md">
-												<a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popuni upitnik</a>
+												<a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popunite upitnik</a>
 											</div>
 											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
 										</div>
@@ -756,7 +756,7 @@
 								<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
 								<dl class="mt-8 space-y-6">
 									<dt><span class="sr-only">Lokacija</span></dt>
-									<dd class="flex text-base text-gray-400">
+									<!-- <dd class="flex text-base text-gray-400">
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 										</svg>
@@ -765,7 +765,7 @@
 												>Anđe Ranković 6/23</a
 											>
 										</span>
-									</dd>
+									</dd> -->
 									<dt><span class="sr-only">Telefon</span></dt>
 									<dd class="flex text-base text-gray-400">
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -832,7 +832,7 @@
 									<p hidden>
 										<label> Don’t fill this out: <input name="bot-field" /> </label>
 									</p>
-									<label for="name" class="block text-sm font-medium text-gray-900">Vaše Ime</label>
+									<label for="name" class="block text-sm font-medium text-gray-900">Vaše ime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
@@ -844,12 +844,12 @@
 											v-model="$v.formData.name.$model"
 										/>
 										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše ime</p>
 										</div>
 									</div>
 								</div>
 								<div>
-									<label for="last" class="block text-sm font-medium text-gray-900">Vaše Prezime</label>
+									<label for="last" class="block text-sm font-medium text-gray-900">Vaše prezime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
@@ -861,7 +861,7 @@
 											v-model="$v.formData.last.$model"
 										/>
 										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše Prezime</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše prezime</p>
 										</div>
 									</div>
 								</div>
@@ -921,7 +921,7 @@
 								<div class="sm:col-span-2">
 									<div class="flex justify-between">
 										<label for="message" class="block text-sm font-medium text-gray-900">Poruka</label>
-										<span id="message-max" class="text-sm text-gray-500">Max. 500 karaktera</span>
+										<span id="message-max" class="text-sm text-gray-500">Do 500 karaktera</span>
 									</div>
 									<div class="mt-1">
 										<textarea

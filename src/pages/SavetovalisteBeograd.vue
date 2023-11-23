@@ -12,20 +12,27 @@
 					<div class="relative max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-12">
 						<h1 class="font-serif text-center text-4xl tracking-tigh sm:text-5xl lg:text-6xl text-white"><span class="text-green-200">Psihoterapija</span> u Beogradu</h1>
 						<p class="mt-6 text-2xl text-center text-white max-w-lg mx-auto">Beogradsko savetovalište Ubuntu se nalazi na Zelenom vencu, Novom Beogradu i u Starom Gradu.</p>
-						<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex">
-								<a href="tel:+381658286883" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium shadow-sm text-white rounded-full bg-secondary hover:bg-yellow-700 sm:px-8">
+						<div class="mt-10 gap-x-4 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+							<div class="sm:gap-5 justify-center flex sm:mb-0 mb-5">
+								<a href="#cenovnik" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-black bg-white hover:bg-gray-200 hover:text-secondary sm:px-8">
+									Pogledajte pakete
+								</a>
+							</div>
+							<div class="sm:gap-5 justify-center flex">
+								<a href="tel:+381658286883" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium shadow-sm text-white rounded-full border-gray-100 bg-white bg-opacity-25 hover:bg-white hover:text-black sm:px-8">
 									Nazovite za konsultaciju
 								</a>
 							</div>
 						</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		
+		
 
-		<div class="py-16 overflow-hidden">
-			<div>
+			<div class="py-16 overflow-hidden">
+				<div>
 				<svg class="hidden lg:block absolute mt-36" width="460" height="1086" viewBox="0 0 460 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="-83" cy="543" r="543" fill="#FEF2F2" />
 				</svg>
@@ -254,7 +261,7 @@
 		</div>
 
 		
-		<div class="bg-primary">
+		<div class="bg-primary" id="cenovnik">
 			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
 				<div class="text-center">
 					<h2 class="text-xl font-sans leading-6 text-gray-300">Cenovnik</h2>
@@ -347,7 +354,7 @@
 										</ul>
 										<div class="mt-10">
 											<div class="rounded-lg shadow-md">
-												<a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popuni upitnik</a>
+												<a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popunite upitnik</a>
 											</div>
 											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
 										</div>
@@ -881,7 +888,7 @@
 									<p hidden>
 										<label> Don’t fill this out: <input name="bot-field" /> </label>
 									</p>
-									<label for="name" class="block text-sm font-medium text-gray-900">Vaše Ime</label>
+									<label for="name" class="block text-sm font-medium text-gray-900">Vaše ime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
@@ -893,12 +900,12 @@
 											v-model="$v.formData.name.$model"
 										/>
 										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše ime</p>
 										</div>
 									</div>
 								</div>
 								<div>
-									<label for="last" class="block text-sm font-medium text-gray-900">Vaše Prezime</label>
+									<label for="last" class="block text-sm font-medium text-gray-900">Vaše prezime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
@@ -910,7 +917,7 @@
 											v-model="$v.formData.last.$model"
 										/>
 										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše Prezime</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše prezime</p>
 										</div>
 									</div>
 								</div>
@@ -970,7 +977,7 @@
 								<div class="sm:col-span-2">
 									<div class="flex justify-between">
 										<label for="message" class="block text-sm font-medium text-gray-900">Poruka</label>
-										<span id="message-max" class="text-sm text-gray-500">Max. 500 karaktera</span>
+										<span id="message-max" class="text-sm text-gray-500">Do 500 karaktera</span>
 									</div>
 									<div class="mt-1">
 										<textarea

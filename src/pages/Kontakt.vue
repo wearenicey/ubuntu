@@ -394,7 +394,7 @@
 										<p hidden>
 											<label> Don’t fill this out: <input name="bot-field" /> </label>
 										</p>
-										<label for="name" class="block text-sm font-medium text-gray-900">Vaše Ime</label>
+										<label for="name" class="block text-sm font-medium text-gray-900">Vaše ime</label>
 										<div class="mt-1">
 											<input
 												:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
@@ -406,12 +406,12 @@
 												v-model="$v.formData.name.$model"
 											/>
 											<div class="p-1">
-												<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
+												<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše ime</p>
 											</div>
 										</div>
 									</div>
 									<div>
-										<label for="last" class="block text-sm font-medium text-gray-900">Vaše Prezime</label>
+										<label for="last" class="block text-sm font-medium text-gray-900">Vaše prezime</label>
 										<div class="mt-1">
 											<input
 												:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
@@ -423,7 +423,7 @@
 												v-model="$v.formData.last.$model"
 											/>
 											<div class="p-1">
-												<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše Prezime</p>
+												<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše prezime</p>
 											</div>
 										</div>
 									</div>
@@ -483,7 +483,7 @@
 									<div class="sm:col-span-2">
 										<div class="flex justify-between">
 											<label for="message" class="block text-sm font-medium text-gray-900">Poruka</label>
-											<span id="message-max" class="text-sm text-gray-500">Max. 500 karaktera</span>
+											<span id="message-max" class="text-sm text-gray-500">Do 500 karaktera</span>
 										</div>
 										<div class="mt-1">
 											<textarea

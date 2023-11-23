@@ -5,7 +5,7 @@
 				<div class="lg:grid lg:grid-cols-2 lg:gap-8 py-20">
 					<div class="mx-auto max-w-xl px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
 						<div class="lg:pb-32">
-							<h1 class="text-3xl text-white sm:text-6xl xl:text-4xl">Kako postati psihoterapeut? Savetovalište Ubuntu je pravi izbor.</h1>
+							<h1 class="text-3xl text-white sm:text-6xl xl:text-4xl">Kako započeti rad sa klijentima? Savetovalište Ubuntu je pravi izbor.</h1>
 							<p class="text-base mt-4 text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
 								Svako savetovalište Ubuntu nudi mogućnost svojim saradnicima da započnu i, uz sistematsku podršku, razvijaju svoju terapijsku praksu. Uz to ih i podržava na njihovom putu do samostalnosti.
 							</p>
@@ -13,7 +13,7 @@
 								<div class="sm:max-w-xl sm:mx-auto lg:mx-0">
 									<div class="sm:flex">
 										<div class="mt-3 text-center">
-											<a href="#" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary "> Popunite formular </a>
+											<a href="#kontakt-karijera" @click="onClick()" class="block w-full rounded-3xl px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary "> Popunite formular </a>
 										</div>
 									</div>
 								</div>
@@ -36,7 +36,7 @@
 			<div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
 				<div>
 					<h2 class="mt-2 text-3xl text-primary tracking-tight sm:text-4xl">Zdrav kolektiv za zdrave ideje</h2>
-					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši saradnici i tako se i odnosimo prema njima.</p>
+					<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Naša najveća vrednost su naši volonteri i tako se i odnosimo prema njima.</p>
 				</div>
 				<div class="mt-12">
 					<g-image class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/assets/img/karijera-1.jpg" alt="" />
@@ -50,7 +50,9 @@
 		<div class="relativ py-16 sm:py-24 lg:py-32">
 			<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 				<h2 class="mt-2 text-3xl text-primary sm:text-4xl">Šta naše savetovalište nudi?</h2>
-				<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Možete očekivati sistemsku podršku, logistiku i ohrabrenje za ostvarivanje vaših ličnih ideja i ciljeva.</p>
+				<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">Kroz projekat, mladi psihoterapeuti imaju priliku da u bezbednom okruženju i kroz podršku 
+					starijih kolega započnu svoju psihoterapijsku karijeru. Nakon volonterskog programa, kolegama se nudi logistika i ohrabrenje kako bi započeli rad
+					sa klijentima u privatnoj praksi.</p>
 				<div class="mt-12">
 					<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 						<div class="pt-6">
@@ -390,8 +392,8 @@
 			</div>
 			<div class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
 				<div class="md:ml-auto md:w-1/2 md:pl-10">
-					<h2 class="text-base font-semibold uppercase tracking-wider font-sans">Kakve saradnike tražimo?</h2>
-					<p class="mt-2 text-3xl font-serif sm:text-4xl text-primary">Naši saradnici su vredni, proaktivni i spremni da rade na sebi.</p>
+					<h2 class="text-base font-semibold uppercase tracking-wider font-sans">Kakve volontere tražimo?</h2>
+					<p class="mt-2 text-3xl font-serif sm:text-4xl text-primary">Naši volonteri su vredni, proaktivni i spremni da rade na sebi.</p>
 					<p class="mt-3 text-lg text-gray-700">
 						Tražimo ljude koji ne rade naporno, već pametno, znaju da prepoznaju kad je vreme da više rade, a kada je vreme za pauzu i regrupisanje snaga. Naravno, stručnost nam je veoma važna, ali ne morate da budete eksperti, važno je da
 						ste spremni da to postanete uz našu pomoć.
@@ -727,7 +729,7 @@
 											><a
 												href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396"
 												target="_blank"
-												>Džordža Vašingtona 15</a
+												>Bulevar despota Stefana 11</a
 											>
 										</span>
 									</dd>
@@ -789,14 +791,14 @@
 							</div>
 						</div>
 
-						<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12">
+						<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12" >
 							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-8" id="kontakt-karijera" name="kontakt-karijera" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
 									<input type="hidden" name="form-name" value="kontakt-karijera" />
 									<p hidden>
 										<label> Don’t fill this out: <input name="bot-field" /> </label>
 									</p>
-									<label for="name" class="block text-sm font-medium text-gray-900">Vaše Ime</label>
+									<label for="name" class="block text-sm font-medium text-gray-900">Vaše ime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
@@ -808,12 +810,12 @@
 											v-model="$v.formData.name.$model"
 										/>
 										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše Ime</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše ime</p>
 										</div>
 									</div>
 								</div>
 								<div>
-									<label for="last" class="block text-sm font-medium text-gray-900">Vaše Prezime</label>
+									<label for="last" class="block text-sm font-medium text-gray-900">Vaše prezime</label>
 									<div class="mt-1">
 										<input
 											:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
@@ -825,7 +827,7 @@
 											v-model="$v.formData.last.$model"
 										/>
 										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše Prezime</p>
+											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše prezime</p>
 										</div>
 									</div>
 								</div>
@@ -904,7 +906,7 @@
 								<div class="sm:col-span-2">
 									<div class="flex justify-between">
 										<label for="message" class="block text-sm font-medium text-gray-900">Poruka</label>
-										<span id="message-max" class="text-sm text-gray-500">Max. 500 karaktera</span>
+										<span id="message-max" class="text-sm text-gray-500">Do 500 karaktera</span>
 									</div>
 									<div class="mt-1">
 										<textarea
