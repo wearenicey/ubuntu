@@ -791,8 +791,8 @@
 							</div>
 						</div>
 
-						<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12" >
-							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-8" id="kontakt-karijera" name="kontakt-karijera" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+						<div class="py-10 px-6 sm:px-10 lg:col-span-1 xl:p-12" id="kontakt-karijera">
+							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-8"  name="kontakt-karijera" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 								<div>
 									<input type="hidden" name="form-name" value="kontakt-karijera" />
 									<p hidden>
