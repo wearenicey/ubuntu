@@ -73,52 +73,8 @@
 						</div>
 					</div>
 
-					<div class="relative" x-description="Flyout menu, show/hide based on flyout menu state."
-						x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
-						<button x-on:click="flyoutMenuOpen = !flyoutMenuOpen" type="button"
-							class="text-gray-700 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
-							aria-expanded="false">
-							<span>O nama</span>
-
-							<svg class="text-gray-400 ml-1 h-5 w-5 group-hover:text-gray-500"
-								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-								aria-hidden="true">
-								<path fill-rule="evenodd"
-									d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-									clip-rule="evenodd" />
-							</svg>
-						</button>
-
-						<div class="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0"
-							x-show="flyoutMenuOpen" x-transition:enter="transition ease-out duration-200"
-							x-transition:enter-start="opacity-0 translate-y-1"
-							x-transition:enter-end="opacity-100 translate-y-0"
-							x-transition:leave="transition ease-in duration-150"
-							x-transition:leave-start="opacity-100 translate-y-0"
-							x-transition:leave-end="opacity-0 translate-y-1">
-							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-									<g-link to="/zasto-ubuntu/"
-										class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-										<div>
-											<p class="text-base font-medium text-gray-900">Zašto Ubuntu?</p>
-											<p class="mt-1 text-sm text-gray-500">Misija Ubuntu centra je da svima
-												omogući lako dostupnu psihološku pomoć</p>
-										</div>
-									</g-link>
-
-									<g-link to="/karijera/"
-										class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-										<div>
-											<p class="text-base font-medium text-gray-900">Karijera</p>
-											<p class="mt-1 text-sm text-gray-500">Kako postati psihoterapeut?
-												Savetovalište Ubuntu je pravi izbor</p>
-										</div>
-									</g-link>
-								</div>
-							</div>
-						</div>
-					</div>
+					<g-link to="/karijera/" class="text-base font-medium text-gray-700 hover:text-gray-900">Karijera
+					</g-link>
 
 					<div class="relative" x-description="Flyout menu, show/hide based on flyout menu state."
 						x-on:click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }">
@@ -246,8 +202,8 @@
 				</div>
 				<div class="py-6 px-5 space-y-6">
 					<div class="grid grid-cols-2 gap-y-4 gap-x-8">
-						<g-link to="/zasto-ubuntu/" class="text-base font-medium text-gray-900 hover:text-gray-700">
-							Zašto Ubuntu? </g-link>
+						<!-- <g-link to="/zasto-ubuntu/" class="text-base font-medium text-gray-900 hover:text-gray-700">
+							Zašto Ubuntu? </g-link> -->
 						<g-link to="/karijera/" class="text-base font-medium text-gray-900 hover:text-gray-700">
 							Karijera </g-link>
 					</div>

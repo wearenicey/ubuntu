@@ -419,7 +419,7 @@
 
 		<div class="py-16 overflow-hidden lg:py-24">
 			<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-				<div class="relative mt-12 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+				<div class="relative mt-12 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center" id="zasto-ubuntu">
 					<div class="relative">
 						<h1 class="text-3xl text-primary tracking-tight sm:text-5xl">Šta Ubuntu čini drugačijim?</h1>
 						<p class="mt-6 text-lg text-gray-500">
@@ -428,9 +428,9 @@
 						</p>
 
 						<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
-							<div>
+							<!-- <div>
 								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-secondary "> Kontaktirajte nas </a>
-							</div>
+							</div> -->
 						</div>
 					</div>
 
@@ -461,9 +461,9 @@
 						<p class="mt-6 text-lg text-gray-500">Predano radimo na tome da naš Centar bude sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.</p>
 
 						<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
-							<div>
+							<!-- <div>
 								<a href="/kontakt/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-3xl text-white bg-secondary "> Kontaktirajte nas </a>
-							</div>
+							</div> -->
 						</div>
 					</div>
 
