@@ -155,5 +155,10 @@
   status = 301  
 
 
+[[redirects]]
+  from = "https://www.ubuntucentar.com/zasto-ubuntu/"
+  to = "/"
+  status = 301  
+
 [build]
   memory = "4GB"
