@@ -156,8 +156,8 @@
 
 
 [[redirects]]
-  from = "https://www.ubuntucentar.com/zasto-ubuntu/"
-  to = "/"
+  from = "/zasto-ubuntu/*"
+  to = "/:splat"
   status = 301  
 
 [build]
