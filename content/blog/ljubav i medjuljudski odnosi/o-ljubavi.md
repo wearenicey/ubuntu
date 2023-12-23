@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: o-ljubavi
 name: Aloo
 metaDesc: "Knjiga „Ljubavologija‟ sociologa Bruna Šimleša na drugačiji, savremeniji način opisuje ljubav i njene činioce."

@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: gubitak-tuga-i-tugovanje
 name: Aloo
 metaDesc: "Značenje gubitka i tuge. Saveti kako da se nosite sa ovim osećanjima na zdrav način"

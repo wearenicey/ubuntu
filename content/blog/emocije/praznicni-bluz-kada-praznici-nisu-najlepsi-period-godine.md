@@ -3,8 +3,8 @@ title: Praznični bluz - Kada praznici nisu najlepši period godine
 category: emocije
 # ovo je i meta desc
 excerpt: Bilo da su prijatne ili neprijatne, bilo da traju vrlo kratko ili duže, naše emocije su ogroman izvor informacija.
-created: 2021-12-30
-date: 2021.12.30
+created: 2023-12-22
+date: 2023.12.22
 image: praznicna-depresija.jpg
 alt: "depresija za praznike"
 imageTwo:
@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: false
+pocetna: true
 path: praznicni-bluz-kada-praznici-nisu-najlepsi-deo-godine
 name: Aloo
 metaDesc: "Razlozi za prazničnu depresiju i načini kako da je savladamo. Sami ili psihoterapijom"

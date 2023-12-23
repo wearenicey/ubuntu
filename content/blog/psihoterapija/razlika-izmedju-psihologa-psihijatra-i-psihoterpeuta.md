@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: razlika-izmedju-psihologa-psihijatra-i-psihoterapeuta
 name: Aloo
 metaDesc: "Psihijatri, psiholozi i psihoterapeuti često rade zajedno, kao tim, želeći da pomognu."

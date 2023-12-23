@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Milan Popović on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: stilovi-emocionalnog-vezivanja-i-partnerski-odnosi
 name: Aloo
 metaDesc: "Kakvi tipovi emocionalne povezanosti postoje, kako su nastali i šta je u osnovi takvo ponašanje. Kako tipovi vezivanja utiču na ponašanje u zajednici dvoje ljudi"

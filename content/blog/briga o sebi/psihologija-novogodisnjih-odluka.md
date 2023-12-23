@@ -3,8 +3,8 @@ title: Novogodišnje odluke - za ili protiv?
 category: briga-o-sebi
 # ovo je i meta desc
 excerpt: Bilo bi sjajno kada bismo svi mogli da iskoristimo entuzijazam novog početka koji Nova godina sa sobom nosi...
-created: 2022-12-23
-date: 2022.12.23
+created: 2023-12-23
+date: 2023.12.23
 image: psihologija-novogodisnjih-odluka.jpg
 alt: "novogodišnji planovi"
 imageTwo:
@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: false
+pocetna: true
 path: psihologija-novogodisnjih-odluka
 name: Aloo
 metaDesc: "Novogodišnji zanos, novogodišnje odluke i novogodišnji ciljevi. Da li su odluke koje donosimo u ovom periodu kratkog veka i kako sa sami sebi ulepšamo praznike, umesto da ih pokvarimo nerealnim planovima."

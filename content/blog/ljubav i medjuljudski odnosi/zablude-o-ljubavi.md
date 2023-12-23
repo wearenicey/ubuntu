@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Khamkeo Vilaysing on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: zablude-o-ljubavi
 name: Aloo
 metaDesc: "Zablude o ljubavi su uverenja koja mnogi od nas imaju o partnerskim odnosima, a koja nas sprečavaju da donesemo pametne odluke u ljubavi."

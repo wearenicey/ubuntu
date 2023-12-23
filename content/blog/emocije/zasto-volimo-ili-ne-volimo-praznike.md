@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: false
+pocetna: true
 path: zasto-volimo-ili-ne-volimo-praznike
 name: Aloo
 metaDesc: "Tekst o tome kako nastaju negativne emocije u vezi sa praznicima i kako odeđene osobe to doživljavaju, a takođe i mali saveti kako prebroditi takve emocije i kako se ponašati ukoliko ne uživamo u praznicima."

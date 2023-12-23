@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Khamkeo Vilaysing on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: 4-stvari-crvena-zastava
 name: Aloo
 metaDesc: "Ponekad ponašanje partnera ne umemo da procenimo dovljno precizno i usled iskustava naših ili tuđih donosimo pogrešne zaključke"

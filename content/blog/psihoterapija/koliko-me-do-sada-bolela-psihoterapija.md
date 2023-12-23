@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Josh Spires on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: koliko-me-je-do-sada-bolela-psihoterapija
 name: Aloo
 metaDesc: "Psihoterapija iz ugla osobe kojoj treba pomoć"

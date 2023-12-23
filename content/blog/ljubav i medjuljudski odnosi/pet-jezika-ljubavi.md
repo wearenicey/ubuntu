@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Michael Fenton on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: pet-jezika-ljubavi
 name: Aloo
 metaDesc: "Tekst o tome da postoji pet jezika ljubavi koje svako od nas poseduje i koji čuvaju naše emotivno zdravlje. Šta ako partneri ne govore istim jezikom ljubavi?"

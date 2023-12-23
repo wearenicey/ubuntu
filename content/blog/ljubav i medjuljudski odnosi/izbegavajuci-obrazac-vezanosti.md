@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Priscilla du Preez on Unsplash
 author: priscilla du preez
 featured: false
-pocetna: true
+pocetna: false
 path: izbegavajuci-obrazac-vezanosti
 name: Aloo
 metaDesc: "Postoje ljudi koji izbegavaju da se vezuju za druge ljude. Postoje neki stilovi ili obrasci ponašanja, kao i određeni uzroci potrebe da se ne vezuju."

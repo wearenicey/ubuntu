@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Tingey on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: iskrenost
 name: Aloo
 metaDesc: "Iscrpan članak o tome kako se iskrenost može pretvoriti u ono što ne bi trebalo da bude: kritiku, bezobzornost i nebrigu za drugoga."

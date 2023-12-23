@@ -13,7 +13,7 @@ imageTwo:
 image_caption: Photo by Chang Duong on Unsplash
 author: author1
 featured: false
-pocetna: true
+pocetna: false
 path: mi-smo-prosek-pet-ljudi 
 name: Aloo
 metaDesc: "Prepoznajte na koji način ljudi oko Vas utiču na Vaše razmišljanje i kako da pomognete sebi i odaberete samo ono što Vas poboljšava kao osobu."
