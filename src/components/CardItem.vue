@@ -39,7 +39,24 @@
 				</a>
 			</div>
 		</div>
+
+		<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center gap-x-4">
+				
+						<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:gap-5 justify-center flex">
+							<a href="/blog/" @click="onClickTwo()"
+								class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-secondary hover:bg-gray-200 hover:text-secondary sm:px-8">
+								Pročitajte još...
+							</a>
+						</div>
+
+					</div>
+
+
 	</div>
+
+	
+
+
 </template>
 <!--GraphQl upit za  blog postove na pocetnoj stranici-->
 
