@@ -130,8 +130,8 @@
 						<div class="lg:col-start-2">
 							<h3 class="text-2xl text-white tracking-tight sm:text-3xl">Kako započeti sa psihoterapijom i kolika je cena?</h3>
 							<p class="mt-3 text-lg text-gray-200">
-								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 3.000 dinara u slučaju individualne, odnosno 5.000 dinara u slučaju partnerske i
-								porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 1.500 dinara u slučaju individualne psihoterapije, i 3000 dinara po seansi kada je bilo koji vid
+								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj prvi susret je neophodno odvojiti 4.000 dinara u slučaju individualne, odnosno 5.000 dinara u slučaju partnerske i
+								porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno izdvojiti donaciju od minimum 2.000 dinara u slučaju individualne psihoterapije, i 3.000 dinara po seansi kada je bilo koji vid
 								grupne terapije u pitanju - terapija para, porodična ili bračna.
 							</p>
 
@@ -253,7 +253,7 @@
 												<div class="mt-4 block lg:flex items-center justify-center">
 													<span class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
 														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-														<span class="font-bold">1500</span>
+														<span class="font-bold">2000</span>
 													</span>
 													<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 												</div>
@@ -378,7 +378,7 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Za 50 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">1.500 RSD</span>, kao donaciju za rad savetovališta.</p>
+								<p class="text-base text-gray-500">Za 50 minuta psihoterapije je neophodno izdvojiti minimum <span class="font-bold">2.000 RSD</span>, kao donaciju za rad savetovališta.</p>
 							</dd>
 						</div>
 
@@ -1025,7 +1025,7 @@ export default {
 		script: [
 			{
 				innerHTML:
-					'{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cena individualne psihoterapije?","acceptedAnswer":{"@type":"Answer","text":"Za 50 minuta psihoterapije je neophodno izdvojiti minimum 1.500 RSD, kao donaciju za rad savetovali\u0161ta."}},{"@type":"Question","name":"Koji su uslovi za ulazak u na\u0161 program i zapo\u010dinjanje psihoterapijskog procesa?","acceptedAnswer":{"@type":"Answer","text":"Prvi i neophodni uslov za zapo\u010dinjanje procesa psihoterapije je psiholo\u0161ka procena. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stru\u010dnog saradnika za rad. Za ovaj susret je neophodno odvojiti 3.000 dinara u slu\u010daju individualne, odnosno 5.000 dinara u slu\u010daju partnerske i porodi\u010dne terapije."}},{"@type":"Question","name":"Na koji na\u010din mogu izvr\u0161iti uplatu?","acceptedAnswer":{"@type":"Answer","text":"Donacije je mogu\u0107e uplatiti u\u017eivo ili na \u017eiro ra\u010dun centra."}},{"@type":"Question","name":"Kako se vr\u0161i uplata iz inostranstva?","acceptedAnswer":{"@type":"Answer","text":"Putem PayPal-a."}},{"@type":"Question","name":"Da li studenti imaju popust?","acceptedAnswer":{"@type":"Answer","text":"Uslovi su isti za sve klijente na projektu."}},{"@type":"Question","name":"Radno vreme, da li mogu dolaziti vikendom?","acceptedAnswer":{"@type":"Answer","text":"Radno vreme centra je svakim danom, uklju\u010duju\u0107i vikend, od 8-22h, a dostupnost termina zavisi od va\u0161eg izabranog psihoterapeuta."}},{"@type":"Question","name":"Koliko traje susret?","acceptedAnswer":{"@type":"Answer","text":"Individualni susret traje 50 minuta, dok partnerski i porodi\u010dni susreti traju 90 minuta."}},{"@type":"Question","name":"Dinamika susreta, koliko se \u010desto odr\u017eavaju?","acceptedAnswer":{"@type":"Answer","text":"Susreti se odr\u017eavaju jednom nedeljno."}}]}',
+					'{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cena individualne psihoterapije?","acceptedAnswer":{"@type":"Answer","text":"Za 50 minuta psihoterapije je neophodno izdvojiti minimum 2.000 RSD, kao donaciju za rad savetovali\u0161ta."}},{"@type":"Question","name":"Koji su uslovi za ulazak u na\u0161 program i zapo\u010dinjanje psihoterapijskog procesa?","acceptedAnswer":{"@type":"Answer","text":"Prvi i neophodni uslov za zapo\u010dinjanje procesa psihoterapije je psiholo\u0161ka procena. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta i odabir najpodesnijeg stru\u010dnog saradnika za rad. Za ovaj susret je neophodno odvojiti 4.000 dinara u slu\u010daju individualne, odnosno 5.000 dinara u slu\u010daju partnerske i porodi\u010dne terapije."}},{"@type":"Question","name":"Na koji na\u010din mogu izvr\u0161iti uplatu?","acceptedAnswer":{"@type":"Answer","text":"Donacije je mogu\u0107e uplatiti u\u017eivo ili na \u017eiro ra\u010dun centra."}},{"@type":"Question","name":"Kako se vr\u0161i uplata iz inostranstva?","acceptedAnswer":{"@type":"Answer","text":"Putem PayPal-a."}},{"@type":"Question","name":"Da li studenti imaju popust?","acceptedAnswer":{"@type":"Answer","text":"Uslovi su isti za sve klijente na projektu."}},{"@type":"Question","name":"Radno vreme, da li mogu dolaziti vikendom?","acceptedAnswer":{"@type":"Answer","text":"Radno vreme centra je svakim danom, uklju\u010duju\u0107i vikend, od 8-22h, a dostupnost termina zavisi od va\u0161eg izabranog psihoterapeuta."}},{"@type":"Question","name":"Koliko traje susret?","acceptedAnswer":{"@type":"Answer","text":"Individualni susret traje 50 minuta, dok partnerski i porodi\u010dni susreti traju 90 minuta."}},{"@type":"Question","name":"Dinamika susreta, koliko se \u010desto odr\u017eavaju?","acceptedAnswer":{"@type":"Answer","text":"Susreti se odr\u017eavaju jednom nedeljno."}}]}',
 				type: "application/ld+json",
 			},
 		],
