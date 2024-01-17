@@ -85,9 +85,7 @@
 			</div>
 		</div>
 
-		<svg class="hidden lg:block absolute -right-0 transform translate-y-2/4" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
-		</svg>
+
 
 		<div class="relative bg-white overflow-hidden">
 			<div class="pt-16 pb-10 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-96">
@@ -144,7 +142,10 @@
 			</div>
 		</div>
 
-		<div class="bg-white">
+		<div class="">
+			<svg class="hidden lg:block absolute -right-0 transform translate-y-2/4" style="z-index: -1;" width="288" height="1086" viewBox="0 0 288 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
+		</svg>
 			<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
 				<div class="space-y-12 md:space-y-24">
 					<h2 class="text-3xl tracking-tight sm:text-4xl text-primary">Upoznajte naše psihologe i psihoterapeute</h2>
