@@ -9,9 +9,9 @@
 				</div>
 				<div class="mt-10 flex block justify-center">
 					<div class="inline-flex">
-						<a href="tel:+381658286884"
+						<a href="mailto:psihoterapija-onlajn@ubuntucentar.com"
 							class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary">
-							Nazovite za konsultaciju </a>
+							Pišite nam </a>
 					</div>
 				</div>
 
@@ -572,7 +572,7 @@
 				<div class="relative bg-white">
 					<h2 class="sr-only">Kontakt informacije</h2>
 
-					<div class="grid grid-cols-1 lg:grid-cols-2">
+					<div class="grid justify-center">
 						<div class="relative overflow-hidden">
 							<svg class="hidden lg:block absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332"
 								fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -715,33 +715,13 @@
 								</svg>
 							</div>
 
-							<div class="py-10 px-4 sm:px-10 xl:p-12">
+							<div class="grid justify-center text-center py-10 px-4 sm:px-10 xl:p-12">
 								<h3
-									class="mt-1 text-center lg:text-left text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">
+									class="mt-1 text-center text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">
 									Zakažite još danas svoj prvi razgovor sa psihoterapeutom online</h3>
-								<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za
+								<p class="mt-6 text-2xl text-gray-400">Vaše je samo da se javite a mi ćemo se pobrinuti za
 									ostalo.</p>
-								<dl class="mt-8 space-y-6">
-									<dt><span class="sr-only">Lokacija</span></dt>
-									<!-- <dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-										</svg>
-										<span class="ml-3"
-											><a href="https://www.google.com/maps/place/An%C4%91e+Rankovi%C4%87+6,+Novi+Sad+402343/data=!4m2!3m1!1s0x475b11d01908aa3f:0x7beaf20e5cb47676?sa=X&ved=2ahUKEwjIg6uc68bzAhXegf0HHdKuDLoQ8gF6BAgSEAE" target="_blank"
-												>Anđe Ranković 6/23</a
-											>
-										</span>
-									</dd> -->
-									<dt><span class="sr-only">Telefon</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none"
-											viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-												d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-										</svg>
-										<span class="ml-3"> <a href="tel:+381658286884">065 828 6884</a></span>
-									</dd>
+								<dl class="mt-8 mx-auto space-y-6">
 									<dt><span class="sr-only">Email</span></dt>
 									<dd class="flex text-base text-gray-400">
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -753,7 +733,7 @@
 												href="mailto:psihoterapija-onlajn@ubuntucentar.com">psihoterapija-onlajn@ubuntucentar.com</a></span>
 									</dd>
 								</dl>
-								<ul role="list" class="mt-8 flex space-x-12">
+								<ul role="list" class="mt-8 mx-auto flex space-x-12">
 									<li>
 										<a class="text-gray-400 hover:ttext-gray-500" href="https://sr-rs.facebook.com/UBUNTUcentar/"
 											target="_blank">
@@ -790,115 +770,6 @@
 									</li>
 								</ul>
 							</div>
-						</div>
-
-						<div class="py-10 px-4 sm:px-10 lg:col-span-1 xl:p-12">
-							<h3 class="text-lg font-medium text-gray-900">Pošaljite poruku</h3>
-							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
-								name="contact-online" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-								<div>
-									<input type="hidden" name="form-name" value="contact-online" />
-									<p hidden>
-										<label> Don’t fill this out: <input name="bot-field" /> </label>
-									</p>
-									<label for="name" class="block text-sm font-medium text-gray-900">Vaše ime</label>
-									<div class="mt-1">
-										<input :class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											type="text" name="name" id="name" :invalid="$v.formData.name.$error"
-											v-model="$v.formData.name.$model" />
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše ime</p>
-										</div>
-									</div>
-								</div>
-								<div>
-									<label for="last" class="block text-sm font-medium text-gray-900">Vaše prezime</label>
-									<div class="mt-1">
-										<input :class="{ 'form-group--error border border-red-500': $v.formData.last.$error }" type="text"
-											name="last" id="last"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											:invalid="$v.formData.last.$error" v-model="$v.formData.last.$model" />
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše prezime
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<label for="email" class="block text-sm font-medium text-gray-900">Email</label>
-									<div class="mt-1">
-										<input :class="{ 'form-group--error border border-red-500': $v.formData.email.$error }" id="email"
-											name="email" type="email"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											:invalid="$v.formData.email.$error" v-model="$v.formData.email.$model" />
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.email.$error">unesite ispravnu
-												email adresu</p>
-										</div>
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<div class="flex justify-between">
-										<label for="phone" class="block text-sm font-medium text-gray-900">Telefon</label>
-										<span id="phone-optional" class="text-sm text-gray-500">Opciono</span>
-									</div>
-									<div class="mt-1">
-										<input v-model="formData.phone" type="text" name="phone" id="phone" autocomplete="tel"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											aria-describedby="phone-optional" />
-									</div>
-								</div>
-								<input type="hidden" id="city" name="city" v-model="formData.city" />
-
-								<div class="sm:col-span-2">
-									<label for="subject" class="block text-sm font-medium text-gray-900">Naslov</label>
-									<div class="mt-1">
-										<input :class="{ 'form-group--error border border-red-500': $v.formData.subject.$error }"
-											type="text" name="subject" id="subject"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											:invalid="$v.formData.subject.$error" v-model="$v.formData.subject.$model" />
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.subject.$error">Unesite naslov</p>
-										</div>
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<div class="flex justify-between">
-										<label for="message" class="block text-sm font-medium text-gray-900">Poruka</label>
-										<span id="message-max" class="text-sm text-gray-500">Do 500 karaktera</span>
-									</div>
-									<div class="mt-1">
-										<textarea :class="{ 'form-group--error border border-red-500': $v.formData.message.$error }"
-											id="message" name="message" rows="4"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											aria-describedby="message-max" :invalid="$v.formData.message.$error"
-											v-model="$v.formData.message.$model"></textarea>
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.message.$error">Unesite poruku</p>
-										</div>
-									</div>
-								</div>
-								<div class="sm:col-span-2 flex justify-center lg:justify-end">
-									<button :disabled="formData.submitStatus === 'PENDING'" type="submit" class="
-										mt-2 inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-secondary
-										">
-										Pošaljite poruku
-									</button>
-									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100"
-										v-if="formData.submitStatus === 'OK'">
-										<p class="typo__p">Poruka je poslata!</p>
-									</div>
-									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-red-900 bg-red-100"
-										v-if="formData.submitStatus === 'ERROR'">
-										<p class="typo__p">Popunite ispravno formu.</p>
-									</div>
-									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-blue-900 bg-blue-100"
-										v-if="formData.submitStatus === 'PENDING'">
-										<p class="typo__p">Poruka se šalje...</p>
-									</div>
-								</div>
-							</form>
 						</div>
 					</div>
 				</div>

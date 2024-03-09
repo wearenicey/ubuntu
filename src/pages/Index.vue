@@ -197,11 +197,8 @@
 						<p class="mt-6 max-w-3xl text-lg leading-7 pb-4 text-gray-500">Trudimo se da naše psihološko savetovalište
 							predstavlja sinonim za zadovoljne i stručne saradnike i kvalitetan sadržaj dostupan svima.</p>
 						<div class="space-y-4">
-							<a href="/psihoterapeuti-beograd/"
-								class="inline-block items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary">
-								Psihoterapeuti Beograd </a>
 							<a href="/savetovaliste-novi-sad/"
-								class="inline-block items-center lg:ml-2 rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary">
+								class="inline-block items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary">
 								Psihoterapeuti Novi Sad </a>
 						</div>
 					</div>

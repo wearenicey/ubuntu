@@ -18,11 +18,6 @@
 									Pogledajte pakete
 								</a>
 							</div>
-							<div class="sm:gap-5 justify-center flex">
-								<a href="tel:+381658286883" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium shadow-sm text-white rounded-full border-gray-100 bg-white bg-opacity-25 hover:bg-white hover:text-black sm:px-8">
-									Nazovite za konsultaciju
-								</a>
-							</div>
 						</div>
 						</div>
 					</div>
@@ -89,101 +84,8 @@
 			<circle cx="543" cy="543" r="543" fill="#FEF2F2" />
 		</svg>
 
-		<div class="bg-primary">
-			<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
-				<h2 class="text-3xl font-sans tracking-tight text-gray-900 md:text-4xl text-center md:text-left">
-					<span class="block text-white font-bold">Spremni za podršku? </span>
-					<span class="block text-white font-normal">Upoznajte psihoterapeute u Beogradu</span>
-				</h2>
-				<div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 justify-center md:justify-start">
-					<div class="inline-flex">
-						<a href="/psihoterapeuti-beograd" class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border-transparent text-base font-medium text-white bg-secondary"> Psihoterapeuti Beograd </a>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<div class="bg-white">
-			<div class="max-w-7xl mx-auto py-12 px-6 sm:px-6 lg:px-8 lg:py-32">
-				<h2 class="text-3xl tracking-tight text-primary sm:text-4xl text-center pb-10">Zavirite u naše prostorije</h2>
-				<div class="relative flex items-center justify-center h-96 overflow-hidden">
-					<div class="absolute right-0 m-4 lg:m-10 bottom-0 z-30">
-						<div class="p-6 lg:w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-							<a href="https://www.youtube.com/watch?v=HoFTpm1VOhE" target="_blank">
-								<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beograd</h3>
-							</a>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Maršala Birjuzova 1</p>
-							<a
-								href="https://www.youtube.com/watch?v=HoFTpm1VOhE"
-								target="_blank"
-								class="
-									inline-flex
-									items-center
-									py-2
-									px-3
-									text-sm
-									font-medium
-									text-center text-white
-									bg-secondary
-									rounded-lg
-									hover:bg-green-800
-									focus:ring-4 focus:outline-none focus:ring-green-300
-									dark:bg-secondary dark:hover:bg-green-700 dark:focus:ring-green-800
-								"
-							>
-								Pogledaj video turu
-								<svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-						<source src="/beograd.mp4" type="video/mp4" />
-						Your browser does not support the video tag.
-					</video>
-				</div>
-				<div class="relative flex items-center justify-center h-96 overflow-hidden mt-10">
-					<div class="absolute right-0 m-4 lg:m-10 bottom-0 z-30">
-						<div class="p-6 lg:w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-							<a href="https://www.youtube.com/watch?v=_zrz_BEIX5w" target="_blank">
-								<h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Novi Beograd</h3>
-							</a>
-							<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Narodnih Heroja 7/11</p>
-							<a
-								href="https://www.youtube.com/watch?v=_zrz_BEIX5w"
-								target="_blank"
-								class="
-									inline-flex
-									items-center
-									py-2
-									px-3
-									text-sm
-									font-medium
-									text-center text-white
-									bg-secondary
-									rounded-lg
-									hover:bg-green-800
-									focus:ring-4 focus:outline-none focus:ring-green-300
-									dark:bg-secondary dark:hover:bg-green-700 dark:focus:ring-green-800
-								"
-							>
-								Pogledaj video turu
-								<svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-						<source src="/novi-beograd.mp4" type="video/mp4" />
-						Your browser does not support the video tag.
-					</video>
-				</div>
-			</div>
-		</div>
-
-		<div class="overflow-hidden mb-12">
+		<div class="overflow-hidden mt-12 mb-12">
 			<div class="relative max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
 				<div class="text-left md:text-center mb-12">
 					<h2 class="text-3xl tracking-tight text-primary sm:text-4xl">Psihoterapija u Beogradu dostupna svima</h2>
@@ -398,7 +300,7 @@
 			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
 				<div class="max-w-3xl mx-auto">
 					<h2 class="text-center text-3xl text-primary sm:text-4xl">Vi pitate, psihoterapeut odgovara</h2>
-					<dl class="mt-6 space-y-6">
+					<dl class="mt-10 space-y-4">
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
 								<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
@@ -540,7 +442,7 @@
 				<div class="relative bg-white">
 					<h2 class="sr-only">Kontakt informacije</h2>
 
-					<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+					<div class="grid justify-center gap-8">
 						<div class="relative overflow-hidden">
 							<svg class="hidden lg:block absolute mt-80 ml-80" width="175" height="332" viewBox="0 0 175 332" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1911 294.707L10.9152 307.446L15.5598 311.08L23.6494 300.33L16.1911 294.707Z" fill="white" />
@@ -784,57 +686,10 @@
 								</svg>
 							</div>
 
-							<div class="">
-								<h3 class="mt-1 text-center lg:text-left text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom u Beogradu</h3>
-								<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za ostalo.</p>
-								<dl class="mt-8 space-y-6">
-									<dt><span class="sr-only">Lokacija</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-										</svg>
-										<span class="ml-3"
-											><a href="https://www.google.com/maps/place/Mar%C5%A1ala+Birjuzova+1,+Beograd/data=!4m2!3m1!1s0x475a7aad8998d9d3:0x743eedfc50ace4ef?sa=X&ved=2ahUKEwj4nLe36sbzAhVOhf0HHVQECLoQ8gF6BAgWEAE" target="_blank"
-												>Maršala Birjuzova 1</a
-											>
-										</span>
-									</dd>
-									<dt><span class="sr-only">Lokacija</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-										</svg>
-										<span class="ml-3"
-											><a href="https://www.google.com/maps/place/Narodnih+heroja+7,+Novi+Beograd+11080/@44.825036,20.4056883,17z/data=!3m1!4b1!4m5!3m4!1s0x475a6577912b0c61:0xb2e20d66e4f1163d!8m2!3d44.825036!4d20.407877" target="_blank"
-												>Narodnih Heroja 7/11</a
-											>
-										</span>
-									</dd>
-									<dt><span class="sr-only">Lokacija</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-										</svg>
-										<span class="ml-3"
-											><a
-												href="https://goo.gl/maps/Jh6nce8FqM2WkLMG8"
-												target="_blank"
-												>Bulevar Despota Stefana 11</a
-											>
-										</span>
-									</dd>
-									<dt><span class="sr-only">Telefon</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-											/>
-										</svg>
-										<span class="ml-3"> <a href="tel:+381658286883">065 828 6883</a></span>
-									</dd>
+							<div class="grid justify-center">
+								<h3 class="mt-1 text-center text-3xl text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">Zakažite još danas svoj prvi razgovor sa psihoterapeutom u Beogradu</h3>
+								<p class="mt-6 text-2xl text-center text-gray-400">Vaše je samo da se javite a mi ćemo se pobrinuti za ostalo.</p>
+								<dl class="mt-8 space-y-6 mx-auto">
 									<dt><span class="sr-only">Email</span></dt>
 									<dd class="flex text-base text-gray-400">
 										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -843,7 +698,7 @@
 										<span class="ml-3"><a href="mailto:psihoterapija-bg@ubuntucentar.com">psihoterapija-bg@ubuntucentar.com</a></span>
 									</dd>
 								</dl>
-								<ul role="list" class="mt-8 flex space-x-12">
+								<ul role="list" class="mt-8 mx-auto flex space-x-12">
 									<li>
 										<a class="text-gray-400 hover:ttext-gray-500" href="https://sr-rs.facebook.com/UBUNTUcentar/" target="_blank">
 											<span class="sr-only">Facebook</span>
@@ -880,158 +735,11 @@
 								</ul>
 							</div>
 						</div>
-
-						<div class="lg:col-span-1">
-							<form @submit.prevent="submit" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" name="contact-bg" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-								<div>
-									<input type="hidden" name="form-name" value="contact-bg" />
-									<p hidden>
-										<label> Don’t fill this out: <input name="bot-field" /> </label>
-									</p>
-									<label for="name" class="block text-sm font-medium text-gray-900">Vaše ime</label>
-									<div class="mt-1">
-										<input
-											:class="{ 'form-group--error border border-red-500': $v.formData.name.$error }"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											type="text"
-											name="name"
-											id="name"
-											:invalid="$v.formData.name.$error"
-											v-model="$v.formData.name.$model"
-										/>
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.name.$error">Unesite Vaše ime</p>
-										</div>
-									</div>
-								</div>
-								<div>
-									<label for="last" class="block text-sm font-medium text-gray-900">Vaše prezime</label>
-									<div class="mt-1">
-										<input
-											:class="{ 'form-group--error border border-red-500': $v.formData.last.$error }"
-											type="text"
-											name="last"
-											id="last"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											:invalid="$v.formData.last.$error"
-											v-model="$v.formData.last.$model"
-										/>
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.last.$error">Unesite Vaše prezime</p>
-										</div>
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<label for="email" class="block text-sm font-medium text-gray-900">Email</label>
-									<div class="mt-1">
-										<input
-											:class="{ 'form-group--error border border-red-500': $v.formData.email.$error }"
-											id="email"
-											name="email"
-											type="email"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											:invalid="$v.formData.email.$error"
-											v-model="$v.formData.email.$model"
-										/>
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.email.$error">unesite ispravnu email adresu</p>
-										</div>
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<div class="flex justify-between">
-										<label for="phone" class="block text-sm font-medium text-gray-900">Telefon</label>
-										<span id="phone-optional" class="text-sm text-gray-500">Opciono</span>
-									</div>
-									<div class="mt-1">
-										<input
-											v-model="formData.phone"
-											type="text"
-											name="phone"
-											id="phone"
-											autocomplete="tel"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											aria-describedby="phone-optional"
-										/>
-									</div>
-								</div>
-								<input type="hidden" id="city" name="city" v-model="formData.city" />
-
-								<div class="sm:col-span-2">
-									<label for="subject" class="block text-sm font-medium text-gray-900">Naslov</label>
-									<div class="mt-1">
-										<input
-											:class="{ 'form-group--error border border-red-500': $v.formData.subject.$error }"
-											type="text"
-											name="subject"
-											id="subject"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											:invalid="$v.formData.subject.$error"
-											v-model="$v.formData.subject.$model"
-										/>
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.subject.$error">Unesite naslov</p>
-										</div>
-									</div>
-								</div>
-								<div class="sm:col-span-2">
-									<div class="flex justify-between">
-										<label for="message" class="block text-sm font-medium text-gray-900">Poruka</label>
-										<span id="message-max" class="text-sm text-gray-500">Do 500 karaktera</span>
-									</div>
-									<div class="mt-1">
-										<textarea
-											:class="{ 'form-group--error border border-red-500': $v.formData.message.$error }"
-											id="message"
-											name="message"
-											rows="4"
-											class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
-											aria-describedby="message-max"
-											:invalid="$v.formData.message.$error"
-											v-model="$v.formData.message.$model"
-										></textarea>
-										<div class="p-1">
-											<p class="error text-red-500 text-xs italic" v-if="$v.formData.message.$error">Unesite poruku</p>
-										</div>
-									</div>
-								</div>
-								<div class="sm:col-span-2 flex justify-center lg:justify-end">
-									<button
-										:disabled="formData.submitStatus === 'OK'"
-										type="submit"
-										class="
-										mt-2 inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-secondary
-										"
-									>
-										Pošaljite poruku
-									</button>
-									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-green-900 bg-green-100" v-if="formData.submitStatus === 'OK'">
-										<p class="typo__p">Poruka je poslata!</p>
-									</div>
-									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-red-900 bg-red-100" v-if="formData.submitStatus === 'ERROR'">
-										<p class="typo__p">Popunite ispravno formu.</p>
-									</div>
-									<div class="mt-3 rounded-full px-5 py-3 text-center text-base text-blue-900 bg-blue-100" v-if="formData.submitStatus === 'PENDING'">
-										<p class="typo__p">Poruka se šalje...</p>
-									</div>
-								</div>
-							</form>
-						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="max-w-7xl mx-auto">
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.350829017142!2d20.456925915535805!3d44.814416979098674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aad8998d9d3%3A0x743eedfc50ace4ef!2sMar%C5%A1ala%20Birjuzova%201%2C%20Beograd!5e0!3m2!1sen!2srs!4v1632921008420!5m2!1sen!2srs"
-				width="auto"
-				height="500"
-				style="border: 0; width: 100% !important"
-				allowfullscreen=""
-				loading="lazy"
-			></iframe>
-		</div>
 	</Layout>
 </template>
 
