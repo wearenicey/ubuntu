@@ -11,7 +11,6 @@
 					</div>
 					<div class="relative max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-12">
 						<h1 class="font-serif text-center text-4xl tracking-tigh sm:text-5xl lg:text-6xl text-white"><span class="text-green-200">Psihoterapija</span> u Beogradu</h1>
-						<p class="mt-6 text-2xl text-center text-white max-w-lg mx-auto">Beogradsko savetovalište Ubuntu se nalazi na Zelenom vencu, Novom Beogradu i u Starom Gradu.</p>
 						<div class="mt-10 gap-x-4 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
 							<div class="sm:gap-5 justify-center flex sm:mb-0 mb-5">
 								<a href="#cenovnik" class="items-center justify-center px-5 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-black bg-white hover:bg-gray-200 hover:text-secondary sm:px-8">
