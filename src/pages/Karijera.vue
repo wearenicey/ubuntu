@@ -664,64 +664,6 @@
 										<span class="ml-3"><a href="mailto:karijera@ubuntucentar.com">karijera@ubuntucentar.com</a></span>
 									</dd>
 								</dl>
-								<dl class="mt-8 space-y-6">
-									<p class="mt-6 text-base text-xl text-gray-600 max-w-3xl">Beograd</p>
-
-									<dt><span class="sr-only">Lokacija</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none"
-											viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path
-												d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-										</svg>
-										<span class="ml-3"><a
-												href="https://www.google.com/maps/place/Mar%C5%A1ala+Birjuzova+1,+Beograd/data=!4m2!3m1!1s0x475a7aad8998d9d3:0x743eedfc50ace4ef?sa=X&ved=2ahUKEwj4nLe36sbzAhVOhf0HHVQECLoQ8gF6BAgWEAE"
-												target="_blank">Maršala Birjuzova 1</a>
-										</span>
-									</dd>
-									<dt><span class="sr-only">Lokacija</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none"
-											viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path
-												d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-										</svg>
-										<span class="ml-3"><a
-												href="https://www.google.com/maps/place/Narodnih+heroja+7,+Novi+Beograd+11080/@44.825036,20.4056883,17z/data=!3m1!4b1!4m5!3m4!1s0x475a6577912b0c61:0xb2e20d66e4f1163d!8m2!3d44.825036!4d20.407877"
-												target="_blank">Narodnih Heroja 7/11</a>
-										</span>
-									</dd>
-									<dt><span class="sr-only">Lokacija</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none"
-											viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path
-												d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-										</svg>
-										<span class="ml-3"><a
-												href="https://www.google.com/maps/place/D%C5%BEord%C5%BEa+Va%C5%A1ingtona+15,+Beograd+11000/@44.8166286,20.4672509,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7ab0a47ba9b9:0x8947a71b89c87cc3!8m2!3d44.8166248!4d20.4694396"
-												target="_blank">Bulevar despota Stefana 11</a>
-										</span>
-									</dd>
-									<dt><span class="sr-only">Telefon</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none"
-											viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-												d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-										</svg>
-										<span class="ml-3"> <a href="tel:+381658286883">065 828 6883</a></span>
-									</dd>
-									<dt><span class="sr-only">Email</span></dt>
-									<dd class="flex text-base text-gray-400">
-										<svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none"
-											viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-												d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-										</svg>
-										<span class="ml-3"><a href="mailto:karijera@ubuntucentar.com">karijera@ubuntucentar.com</a></span>
-									</dd>
-								</dl>
 								<ul role="list" class="mt-8 flex space-x-12">
 									<li>
 										<a class="text-gray-400 hover:ttext-gray-500" href="https://sr-rs.facebook.com/UBUNTUcentar/"
