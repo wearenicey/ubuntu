@@ -255,9 +255,9 @@
 										</ul>
 										<div class="mt-10">
 											<div class="rounded-lg shadow-md">
-												<a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popunite upitnik</a>
+												<!-- <a href="https://docs.google.com/forms/d/1xIDvX8yX0q5tQqEdQLel4PRcBj61hMhJkCI0LQc56bc/edit?ts=64464c81" class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white" aria-describedby="tier-growth">Popunite upitnik</a> -->
 											</div>
-											<p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
+											<!-- <p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p> -->
 										</div>
 									</div>
 								</div>
