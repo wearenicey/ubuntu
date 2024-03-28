@@ -28,9 +28,6 @@
 				</button>
 			</g-link>
 		</back-to-top>
-		<back-to-top style="position: fixed; z-index: 99; left: 24px; right: none !important; bottom: 24px">
-			<a class="color-red" href="https://wa.me/381658286888" target="_blank"><img src="/wa.png" alt="" srcset="" /></a>
-		</back-to-top>
 	</div>
 </template>
 
