@@ -9,9 +9,9 @@
 				</div>
 				<div class="mt-10 flex block justify-center">
 					<div class="inline-flex">
-						<a href="mailto:psihoterapija-onlajn@ubuntucentar.com"
+						<a href="#cenovnik"
 							class="inline-flex items-center rounded-3xl justify-center px-5 py-3 border border-transparent text-base font-medium text-white bg-secondary">
-							Pišite nam </a>
+							Pogledajte pakete</a>
 					</div>
 				</div>
 
@@ -235,7 +235,7 @@
 
 		<div class="bg-primary">
 			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
-				<div class="text-center">
+				<div id="cenovnik" class="text-center">
 					<h2 class="text-xl font-sans leading-6 text-gray-300">Cenovnik</h2>
 					<p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberite paket koji Vam
 						odgovara</p>
@@ -298,12 +298,13 @@
 								class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-8 lg:row-start-1 lg:row-end-4 lg:mx-0 lg:mt-0 lg:max-w-none">
 								<div class="relative z-10 rounded-lg shadow-xl">
 									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary"
-										aria-hidden="true" />
+										aria-hidden="true">
 									<div class="absolute inset-x-0 top-0 translate-y-px transform">
 										<div class="flex -translate-y-1/2 transform justify-center">
 											<span
 												class="inline-flex rounded-full bg-green-700 px-4 py-1 text-base tracking-widest text-white">Najtraženije</span>
 										</div>
+									</div>
 									</div>
 									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
 										<div>
@@ -354,10 +355,10 @@
 							</div>
 						</div>
 					</div>
+					</div>
 				</div>
 			</div>
-		</div>
-
+	
 		<div class="bg-white py-16 lg:py-24">
 			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div
