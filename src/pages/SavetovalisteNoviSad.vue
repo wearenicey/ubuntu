@@ -432,7 +432,7 @@
 										<div class="mt-10">
 											<div class="rounded-lg shadow-md">
 												<a
-													href="https://forms.gle/a3rnjQ3ouWsq2G2J8"
+													href="https://docs.google.com/forms/d/e/1FAIpQLSfmc6EbjD1kEx1RRXel5hG3sNzV6YH7o0wSJlXAsCrt3X9TdA/viewform?usp=sf_link"
 													class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-4 text-center text-xl font-medium leading-6 text-white"
 													aria-describedby="tier-growth"
 													>Popunite upitnik</a> 
