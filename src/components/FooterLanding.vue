@@ -40,7 +40,7 @@
 				</div>
 			</div>
 			<div class="mt-12 border-t border-gray-200 pt-8">
-				<p class="text-base text-gray-400 xl:text-center">&copy; 2023, <a href="https://nicey.rs/">Nicey Consulting</a></p>
+				<p class="text-base text-gray-400 xl:text-center">&copy; 2024, <a href="https://nicey.rs/">Nicey Consulting</a></p>
 			</div>
 		</div>
 	</footer>
