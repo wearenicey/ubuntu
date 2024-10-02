@@ -424,7 +424,7 @@
 											</ul>
 											<div class="mt-8">
 												<div class="rounded-lg shadow-md">
-													<a href="/kontakt"
+													<a href="/kontakt/"
 														class="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50"
 														aria-describedby="tier-hobby">Kontaktirajte nas</a>
 												</div>
