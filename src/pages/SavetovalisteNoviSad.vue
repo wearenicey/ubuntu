@@ -75,20 +75,14 @@
 							<h3 class="text-2xl text-center lg:text-left text-gray-700 tracking-tight sm:text-3xl">Kako započeti sa
 								psihoterapijom i kolika je cena?</h3>
 							<p class="mt-3 text-lg text-center lg:text-left text-gray-500">
-								Pre početka samog psihoterapijskog rada vrši se psihološka procena ličnosti i motivacije za rad. Za ovaj
-								prvi susret je neophodno odvojiti 4.000 dinara u slučaju individualne, odnosno 5.500 dinara u slučaju
-								partnerske i
-								porodične terapije, dok je za ostalih 12 susreta, koliko je predviđeno ovim projektom, neophodno
-								izdvojiti donaciju od minimum 1.500 dinara u slučaju individualne psihoterapije, i 3.000 dinara po
-								seansi kada je bilo koji vid
-								grupne terapije u pitanju - terapija para, porodična ili bračna.
+								Ono što naši zadovoljni klijenti izdvajaju kao prednost Ubuntu centra jeste profesionalna psihološka
+								procena ličnosti i procena motivacije za terapijski rad.
+								Ova vrsta procene služi kako bismo ustanovili Vaše potrebe, nakon čega ćemo Vam dodeliti najboljeg
+								stručnjaka baš za Vas. Sama procena je prvi korak koji je uslov za počinjanje psihoterapijskog procesa i
+								razlikuje se u odnosu na projekat koji izaberete:
+							
 							</p>
-							<div class="mt-12 flex justify-center lg:justify-start">
-								<a href="#" @click="onClickTwo()"
-									class="text-center rounded-3xl border border-transparent px-5 py-3 bg-secondary text-base font-medium text-white shadow focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2 sm:px-10">
-									Kontaktirajte nas za više informacija
-								</a>
-							</div>
+							
 						</div>
 
 						<div class="mt-10 relative lg:mt-0 lg:col-start-1">
@@ -97,6 +91,57 @@
 						</div>
 					</div>
 				</div>
+
+				<section class="mt-8 max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8"
+				aria-labelledby="contact-heading">
+			
+				<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+						
+						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+							<div class="flex-1">
+							
+									<h3 class="text-xl font-sans font-medium text-gray-900">Ubuntu za studente</h3>
+									<p class="mt-3 text-base text-gray-500">Sastoji se iz psihološkog intervjua i testiranja. <br>Trajanje 90minuta. <br>Cena procene je 3000rsd.
+									</p>
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+					
+						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+							<div class="flex-1">
+							
+									<h3 class="text-xl font-sans font-medium text-gray-900">Ubuntu za sve</h3>
+									<p class="mt-3 text-base text-gray-500">Sastoji se iz psihološkog intervjua i testiranja. <br>Trajanje 90minuta. <br>Cena procene je 3000rsd.</p>
+								
+							</div>
+						</div>						
+					</div>
+
+					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+						
+						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
+							<div class="flex-1">
+							
+									<h3 class="text-xl font-sans font-medium text-gray-900">Ubuntu za odlučne</h3>
+									<p class="mt-3 text-base text-gray-500">Sastoji se iz kratkog upitnika i psihološkog intervjua. <br>Trajanje 30minuta. <br>BESPLATNO</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+				<div class="mt-12 flex justify-center lg:center">
+								<a href="#" @click="onClickTwo()"
+									class="text-center rounded-3xl border border-transparent px-5 py-3 bg-secondary text-base font-medium text-white shadow focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2 sm:px-10">
+									Kontaktirajte nas za više informacija
+								</a>
+							</div>
+
 			</div>
 		</div>
 
@@ -385,32 +430,32 @@
   </div>
 </div> -->
 
-						<div class="relative lg:grid lg:grid-cols-7">
+						<div class="relative lg:grid lg:grid-cols-10">
 							<div
 								class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
-								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
+								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg border-2 border-secondary">
 									<div class="flex flex-1 flex-col">
 										<div class="bg-white px-6 py-10">
 											<div>
-												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Povoljno</h3>
+												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Ubuntu za studente</h3>
 												<div class="mt-4 block lg:flex items-center justify-center">
 													<span
 														class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
 														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-														<span class="font-bold">1.500</span>
+														<span class="font-bold">1.000</span>
 													</span>
 													<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 												</div>
 
 												<div class="mt-5">
-													<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+													<p class="text-center font-medium text-gray-900"></p>
 													<div class="block lg:flex items-center justify-center">
 														<span
 															class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
-															<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-															<span class="font-bold">3.000</span>
+															<span class="mr-2 text-xl font-medium tracking-tight"></span>
+															<span class="font-bold"></span>
 														</span>
-														<span class="flex justify-center font-medium text-gray-500">/ seansa</span>
+														<span class="flex justify-center font-medium text-gray-500">aaaa</span>
 													</div>
 												</div>
 											</div>
@@ -434,7 +479,7 @@
 								</div>
 							</div>
 							<div
-								class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-8 lg:row-start-1 lg:row-end-4 lg:mx-0 lg:mt-0 lg:max-w-none">
+								class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-7 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:mt-0 lg:max-w-none">
 								<div class="relative z-10 rounded-lg shadow-xl">
 									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary"
 										aria-hidden="true" />
@@ -446,7 +491,62 @@
 									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
 										<div>
 											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6"
-												id="tier-growth">Brzo</h3>
+												id="tier-growth">Ubuntu za sve</h3>
+											<div class="mt-4 block lg:flex items-center justify-center">
+												<span
+													class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
+													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+													<span class="font-bold">2.000</span>
+												</span>
+												<span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
+											</div>
+
+											<div class="mt-5">
+												<p class="text-center font-medium text-gray-900"></p>
+												<div class="block lg:flex items-center justify-center">
+													<span
+														class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+														<span class="mr-2 text-xl font-medium tracking-tight"></span>
+														<span class="font-bold"></span>
+													</span>
+													<span class="flex justify-center font-medium text-gray-500"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
+										<ul role="list" class="space-y-4">
+											<li v-for="feature in growthFeatures" :key="feature" class="flex items-start">
+												<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
+											</li>
+										</ul>
+										<div class="mt-10">
+											<div class="rounded-lg shadow-md">
+												<a href="/kontakt/"
+														class="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50"
+														aria-describedby="tier-hobby">Kontaktirajte nas</a>
+
+											</div>
+											<!-- <p class="text-xs text-gray-500 mt-4 text-center">Klijent popunjava upitnik i koordinator sa njim
+												obavlja kraći razgovor</p> -->
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								class="mx-auto mt-10 max-w-lg lg:col-start-7 lg:col-end-10 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:mt-0 lg:max-w-none">
+								<div class="relative z-10 rounded-lg shadow-xl">
+									<div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-secondary"
+										aria-hidden="true" />
+									<div class="absolute inset-x-0 top-0 translate-y-px transform">
+										<!-- <div class="flex -translate-y-1/2 transform justify-center">
+                <span class="inline-flex rounded-full bg-green-700 px-4 py-1 text-base tracking-widest text-white">Najtraženije</span>
+              </div> -->
+									</div>
+									<div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
+										<div>
+											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6"
+												id="tier-growth">Ubuntu za odlučne</h3>
 											<div class="mt-4 block lg:flex items-center justify-center">
 												<span
 													class="flex text-center items-start justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
@@ -457,21 +557,21 @@
 											</div>
 
 											<div class="mt-5">
-												<p class="text-center font-medium text-gray-900">Partnerska terapija</p>
+												<p class="text-center font-medium text-gray-900"></p>
 												<div class="block lg:flex items-center justify-center">
 													<span
 														class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
-														<span class="mr-2 text-xl font-medium tracking-tight">RSD</span>
-														<span class="font-bold">5.000</span>
+														<span class="mr-2 text-xl font-medium tracking-tight"></span>
+														<span class="font-bold"></span>
 													</span>
-													<span class="flex justify-center font-medium text-gray-500">/ seansa</span>
+													<span class="flex justify-center font-medium text-gray-500"></span>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
 										<ul role="list" class="space-y-4">
-											<li v-for="feature in growthFeatures" :key="feature" class="flex items-start">
+											<li v-for="feature in thirdFeatures" :key="feature" class="flex items-start">
 												<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
 											</li>
 										</ul>
@@ -542,8 +642,10 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Za 50 minuta psihoterapije je neophodno izdvojiti minimum <span
-										class="font-bold">1.500 RSD</span>, kao donaciju za rad savetovališta.</p>
+								<p class="text-base text-gray-500">Za jedan psihoterapijski susret je neophodno izdvojiti <span
+										class="font-bold">1.000 RSD</span> (projekat “Ubuntu za studente), <span
+										class="font-bold">2.000 RSD</span> (projekat “Ubuntu za sve) ili <span
+										class="font-bold">3.500 RSD</span> (projekat “Ubuntu za odlučne).</p>
 							</dd>
 						</div>
 
@@ -566,10 +668,7 @@
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
 								<p class="text-base text-gray-500">
 									Prvi i neophodni uslov za započinjanje procesa psihoterapije je <span class="font-bold">psihološka
-										procena</span>. To je intervju u trajanju od 90 minuta koji ima za cilj upoznavanje Vas kao klijenta
-									i odabir najpodesnijeg
-									stručnog saradnika za rad. Za ovaj susret je neophodno odvojiti 4.000 dinara u slučaju individualne,
-									odnosno 5.500 dinara u slučaju partnerske i porodične terapije.
+										procena</span>. Ova vrsta procene služi kako bismo ustanovili Vaše potrebe, kako bismo Vam dodeliti najboljeg stručnjaka baš za Vas.
 								</p>
 							</dd>
 						</div>
@@ -590,11 +689,11 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Donacije je moguće uplatiti uživo ili na žiro račun centra.</p>
+								<p class="text-base text-gray-500">Uplate u vidu članarine je moguće izvršiti uživo ili na žiro račun centra..</p>
 							</dd>
 						</div>
 
-						<div x-data="{open: false}" class="p-6 rounded-md border">
+						<!-- <div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
 								<button x-on:click="open = !open" type="button"
 									class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0"
@@ -612,7 +711,8 @@
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
 								<p class="text-base text-gray-500">Putem <span class="font-bold">PayPal</span>-a.</p>
 							</dd>
-						</div>
+						</div> -->
+						
 						<div x-data="{open: false}" class="p-6 rounded-md border">
 							<dt class="text-lg">
 								<button x-on:click="open = !open" type="button"
@@ -629,7 +729,8 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Uslovi su isti za sve klijente na projektu.</p>
+								<p class="text-base text-gray-500">Da, za studente i đake imamo poseban projekat po najpristupačnijim cenama (projekat “Ubuntu
+									za studente”).</p>
 							</dd>
 						</div>
 
@@ -651,7 +752,8 @@
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
 								<p class="text-base text-gray-500">
 									Radno vreme centra je <span class="font-bold">svakim danom</span>, uključujući vikend, od <span
-										class="font-bold">8-22h</span>, a dostupnost termina zavisi od vašeg izabranog psihoterapeuta.
+										class="font-bold">8-22h</span>, a dostupnost termina zavisi od vašeg izabranog psihoterapeuta, osim na projektu “Ubuntu za studente”, gde su
+										dostupni termini svakim danom u periodu od 9-14h.
 								</p>
 							</dd>
 						</div>
@@ -672,8 +774,7 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Individualni susret traje <span class="font-bold">50 minuta</span>,
-									dok partnerski i porodični susreti traju <span class="font-bold">90 minuta</span>.</p>
+								<p class="text-base text-gray-500">Individualni psihoterapijski susret traje <span class="font-bold">50 minuta</span>.</p>
 							</dd>
 						</div>
 
@@ -693,7 +794,8 @@
 								</button>
 							</dt>
 							<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-								<p class="text-base text-gray-500">Susreti se održavaju <span class="font-bold">jednom nedeljno.</span>
+								<p class="text-base text-gray-500">Susreti se održavaju jednom nedeljno, osim u okolnostima velike krize, kada klijent i
+									psihoterepeut procene da je neophodno češće viđanje.
 								</p>
 							</dd>
 						</div>
@@ -854,7 +956,7 @@
 								<h3
 									class="mt-1 text-3xl text-center lg:text-left text-primary sm:text-5xl sm:tracking-tight lg:text-3xl">
 									Zakažite još danas svoj prvi razgovor sa psihoterapeutom u Novom Sadu</h3>
-								<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete a mi ćemo se pobrinuti za
+								<p class="mt-6 text-base text-gray-400 max-w-3xl">Vaše je samo da nas pozovete, a mi ćemo se pobrinuti za
 									ostalo.</p>
 								<dl class="mt-8 space-y-6">
 									<dt><span class="sr-only">Lokacija</span></dt>
@@ -1056,19 +1158,32 @@
 	} from "vuelidate/lib/validators";
 
 	const hobbyFeatures = [
-		"✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom",
-		"✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola",
+		"✓ Stručna psihološka procena, koja služi kako biste dobili najboljeg psihoterapeuta (pod supervizijom) baš za vašu problematiku",
+		"✓ Motivisani saradnici na početku edukacijskog puta koji rade pod supervizijom",
+		"✓ Dostupni su Vam saradnici koji dolaze iz različitih psihoterapijskih škola",
+		"✓ Ovaj projekat je namenjen učenicima i aktivnim studentima između 16 i 25 godina starosti",
+		"✓ Seanse se održavaju radnim danima i vikendom od 9 do 14 časova",
 		"✓ Kvalitetna podrška u procesu savetovanja i psihoterapije",
-		"✓ Kontakt saradnika se dobija u roku od mesec dana",
-		"✓ Ograničen broj susreta (12)",
+		"✓ Nakon što prođete psihološku procenu, u roku od, najviše, dve nedelje dobijate odabranog psihoterapeuta (pod supervizijom)",
+		"✓ Ograničen broj susreta (10) u toku 3 meseca",
 	];
 	const growthFeatures = [
-		"✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti",
-		" ✓ Dostupni su savetnici i psihoterapeuti iz različitih psihoterapijskih škola",
-		"✓ Kvalitetna psihoterapijska podrška",
-		" ✓ Kontakt psihoterapeuta dobija se u roku od najviše 4 dana",
-		"✓ Kontinuirana podrška u periodu od godinu dana po fiksnoj ceni",
+		"✓ Stručna psihološka procena, koja služi kako biste dobili najboljeg psihoterapeuta (pod supervizijom) baš za vašu problematiku",
+		"✓ Motivisani saradnici na početku edukacijskog puta koji rade pod supervizijom",
+		"✓ Dostupni su Vam saradnici koji dolaze iz različitih psihoterapijskih škola",
+		"✓ Kvalitetna podrška u procesu savetovanja i psihoterapije",
+		"✓ Nakon što prođete psihološku procenu, u roku od, najviše, dve nedelje dobijate odabranog psihoterapeuta (pod supervizijom)",
+		"✓ Ograničen broj susreta (12) u toku 4 meseca",
 	];
+	const thirdFeatures = [
+		"✓ Iskusni psihoterapeuti i psihoterapijski savetnici",
+		"✓ Dostupni su Vam iskusni psihoterapeuti i psihoterapijski savetnici iz različitih psihoterapijskih pravaca",
+		"✓ Kvalitetna podrška u procesu psihoterapije i savetovanja",
+		"✓ Kontakt psihoterapeuta se dobija u roku od najviše sedam dana od dana popunjavanja upitnika",
+		"✓ Besplatne onlajn konsultacije u trajanju od 30 minuta pre početka psihoterapijskog procesa",
+		"✓ Neograničen broj susreta u periodu od godinu dana",
+	];
+	
 
 	const people = [{
 			name: "Stefan Mitrović Jokanović",
@@ -1251,6 +1366,7 @@
 				people,
 				hobbyFeatures,
 				growthFeatures,
+				thirdFeatures,
 				formData: {
 					name: "",
 					last: "",

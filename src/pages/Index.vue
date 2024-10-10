@@ -586,11 +586,14 @@
 	} from "vuelidate/lib/validators";
 
 	const hobbyFeatures = [
-		"✓ Motivisani saradnici u procesu edukacije koji rade pod supervizijom",
-		"✓ Dostupni su vam saradnici koji dolaze iz različitih psihoterapijskih škola",
-		"✓ Kvalitetna podrška u procesu savetovanja i psihoterapije",
-		"✓ Kontakt saradnika se dobija u roku od mesec dana",
-		"✓ Ograničen broj susreta (12)",
+		"✓ Stručna psihološka procena, koja služi kako biste dobili najboljeg psihoterapeuta (pod supervizijom) baš za vašu problematiku",
+		"✓ Motivisani saradnici na početku edukacijskog puta koji rade pod supervizijom",
+		"✓ Dostupni su Vam saradnici koji dolaze iz različitih psihoterapijskih škola",
+		"✓ Ovaj projekat je namenjen učenicima i aktivnim studentima između 16 i 25 godina starosti",
+		"✓ Seanse se održavaju radnim danima i vikendom od 9 do 14 časova",
+		"✓ Dostupni su Vam saradnici koji dolaze iz različitih psihoterapijskih škola",
+		"✓ Ovaj projekat je namenjen učenicima i aktivnim studentima između 16 i 25 godina starosti",
+		"✓ Seanse se održavaju radnim danima i vikendom od 9 do 14 časova",
 	];
 	const growthFeatures = [
 		"✓ Iskusniji savetnici koji rade pod supervizijom i psihoterapeuti",
