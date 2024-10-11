@@ -815,7 +815,7 @@
 										<span class="ml-3"><a href="mailto:psihoterapija-onlajn@ubuntucentar.com">psihoterapija-onlajn@ubuntucentar.com</a></span>
 									</dd>
 								</dl>
-								<ul role="list" class="mt-8 mx-auto flex space-x-12">
+						<!--		<ul role="list" class="mt-8 mx-auto flex space-x-12">
 									<li>
 										<a class="text-gray-400 hover:ttext-gray-500" href="https://sr-rs.facebook.com/UBUNTUcentar/" target="_blank">
 											<span class="sr-only">Facebook</span>
@@ -849,7 +849,7 @@
 											</svg>
 										</a>
 									</li>
-								</ul>
+								</ul> -->
 							</div>
 						</div>
 					</div>
