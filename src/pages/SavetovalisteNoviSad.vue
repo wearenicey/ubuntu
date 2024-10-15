@@ -94,7 +94,7 @@
 						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 							<div class="flex-1">
 								<h3 class="text-xl font-sans font-medium text-gray-900">Ubuntu za sve</h3>
-								<p class="mt-3 text-base text-gray-500">Sastoji se iz psihološkog intervjua i testiranja. <br />Trajanje 90minuta. <br />Cena procene je 3000rsd.</p>
+								<p class="mt-3 text-base text-gray-500">Sastoji se iz psihološkog intervjua i testiranja. <br />Trajanje 90minuta. <br />Cena procene je 4000rsd.</p>
 							</div>
 						</div>
 					</div>
