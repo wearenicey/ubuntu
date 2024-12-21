@@ -434,13 +434,7 @@
 									<svg class="flex-shrink-0 w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 										<path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
 									</svg>
-									<span class="ml-3"
-										><a
-											href="https://goo.gl/maps/Jh6nce8FqM2WkLMG8"
-											target="_blank"
-											>Bulevar Despota Stefana 11</a
-										>
-									</span>
+									<span class="ml-3"><a href="https://goo.gl/maps/Jh6nce8FqM2WkLMG8" target="_blank">Bulevar Despota Stefana 11</a> </span>
 								</dd>
 								<dt><span class="sr-only">Telefon</span></dt>
 								<dd class="flex text-base text-gray-400">
@@ -667,8 +661,8 @@ const people = [
 		imageUrl: "Jelena Lekic.jpg",
 		bio: "Otvarajući priče dajem dozvolu klijentima da se menjamo i svakim susretom iznova stvaramo stvarnost. Svako postavljeno pitanje nudi moguću verziju života. Glas će dobiti i skriveni, nedominantni delovi, jer imaju pravo da budu viđeni.",
 		alt: "psihoterapeut beograd jelena lekić",
-	//	statusDa: "Dostupna",
-	//	statusNe: "",
+		//	statusDa: "Dostupna",
+		//	statusNe: "",
 	},
 	// {
 	// 	name: "Darja Pačevski",
@@ -850,7 +844,7 @@ const people = [
 		// statusDa: "Dostupna",
 		// statusNe: "",
 	},
-	
+
 	{
 		name: "Zorana Kovačev",
 		role: "Transakciona analiza",

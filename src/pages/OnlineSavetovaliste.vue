@@ -242,8 +242,6 @@
 				<div class="relative z-0">
 					<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
 					<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-
 						<div class="relative lg:grid lg:grid-cols-9 lg:gap-3">
 							<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
 								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg border-2">
@@ -256,7 +254,6 @@
 														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
 														<span class="font-bold">1.000</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 													</span>
-													
 												</div>
 
 												<div class="mt-5">
@@ -301,7 +298,6 @@
 													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
 													<span class="font-bold">2.000</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 												</span>
-												
 											</div>
 
 											<div class="mt-5">
@@ -342,7 +338,6 @@
 													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
 													<span class="font-bold">3.500</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 												</span>
-												
 											</div>
 
 											<div class="mt-5">
@@ -815,7 +810,7 @@
 										<span class="ml-3"><a href="mailto:psihoterapija-onlajn@ubuntucentar.com">psihoterapija-onlajn@ubuntucentar.com</a></span>
 									</dd>
 								</dl>
-						<!--		<ul role="list" class="mt-8 mx-auto flex space-x-12">
+								<!--		<ul role="list" class="mt-8 mx-auto flex space-x-12">
 									<li>
 										<a class="text-gray-400 hover:ttext-gray-500" href="https://sr-rs.facebook.com/UBUNTUcentar/" target="_blank">
 											<span class="sr-only">Facebook</span>
