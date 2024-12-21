@@ -415,7 +415,7 @@
 												<div x-data="{open: false}" class="">
 													<dt class="text-lg">
 														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500"> Cena individualne psihoterapije</span>
+															<span class="text-base font-medium text-gray-500"> Procena za psihoterapiju</span>
 															<span class="ml-6 h-5 flex items-center">
 																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -424,17 +424,89 @@
 														</button>
 													</dt>
 													<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-														<p class="text-sm text-gray-500">
-															Za jedan psihoterapijski susret je neophodno izdvojiti <span class="font-bold">1.000 RSD</span> (projekat “Ubuntu za studente), <span class="font-bold">2.000 RSD</span> (projekat “Ubuntu za sve) ili
-															<span class="font-bold">3.500 RSD</span> (projekat “Ubuntu za odlučne).
-														</p>
+														<p class="text-sm text-gray-500">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad. Za procenu, neophodno je izdvojiti <span class="font-bold">3.000 RSD</span></p>
 													</dd>
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-1" aria-expanded="false">
+															<span class="text-base font-medium text-gray-500"> 10 susreta</span>
+															<span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span>
+														</button>
+													</dt>
+													<dd x-show="open" class="mt-2 pr-12" id="faq-1">
+														<p class="text-sm text-gray-500">Jednom nedeljno u periodu od 3 meseca</p>
+													</dd>
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-2" aria-expanded="false">
+															<span class="text-base font-medium text-gray-500">Terapeuti početnici</span>
+															<span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span>
+														</button>
+													</dt>
+													<dd x-show="open" class="mt-2 pr-12" id="faq-2">
+														<p class="text-sm text-gray-500">Terapeuti u procesu edukacije koji iskustvo stiču kroz rad na projektu</p>
+													</dd>
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-3" aria-expanded="false">
+															<span class="text-base font-medium text-gray-500">Ograničeni termini u toku dana </span>
+															<span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span>
+														</button>
+													</dt>
+													<dd x-show="open" class="mt-2 pr-12" id="faq-3">
+														<p class="text-sm text-gray-500">Susrete je moguće zakazati radnim danima od 9 do 14h i vikendima</p>
+													</dd>
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+														<span class="text-base font-medium text-gray-500">Klijenti uzrasta do 25 godina </span>
+														<!-- <span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span> -->
+														<!-- </button> -->
+													</dt>
+													<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+														<p class="text-sm text-gray-500"></p>
+													</dd> -->
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+														<span class="text-base font-medium text-gray-500">Do 2 nedelje čekanja na kontakt sa terapeutom</span>
+														<!-- <span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span> -->
+														<!-- </button> -->
+													</dt>
+													<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+														<p class="text-sm text-gray-500"></p>
+													</dd> -->
 												</div>
 											</dl>
 											<div class="mt-8">
 												<div class="rounded-lg shadow-md">
 													<a href="/kontakt/" class="block w-full rounded-lg border border-support-400 border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby"
-														>Za više informacija kliknite OVDE</a
+														>Kontaktirajte nas i zakažite svoj termin!</a
 													>
 												</div>
 											</div>
@@ -470,15 +542,102 @@
 											</div>
 										</div>
 										<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
-											<ul role="list" class="space-y-4">
-												<li v-for="feature in growthFeatures" :key="feature" class="flex items-start">
-													<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
-												</li>
-											</ul>
+											<dl class="space-y-6">
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-4" aria-expanded="false">
+															<span class="text-base font-medium text-gray-500">Procena za psihoterapiju</span>
+															<span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span>
+														</button>
+													</dt>
+													<dd x-show="open" class="mt-2 pr-12" id="faq-4">
+														<p class="text-sm text-gray-500">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad. Za procenu, neophodno je izdvojiti <span class="font-bold">4.000 RSD</span></p>
+													</dd>
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-5" aria-expanded="false">
+															<span class="text-base font-medium text-gray-500"> 12 susreta</span>
+															<span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span>
+														</button>
+													</dt>
+													<dd x-show="open" class="mt-2 pr-12" id="faq-5">
+														<p class="text-sm text-gray-500">Jednom nedeljno u periodu od 4 meseca</p>
+													</dd>
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-6" aria-expanded="false">
+															<span class="text-base font-medium text-gray-500">Terapeuti sa iskustvom</span>
+															<span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span>
+														</button>
+													</dt>
+													<dd x-show="open" class="mt-2 pr-12" id="faq-6">
+														<p class="text-sm text-gray-500">Terapeuti u procesu edukacije koji imaju prethodnog iskustva u radu sa klijentima</p>
+													</dd>
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-7" aria-expanded="false">
+															<span class="text-base font-medium text-gray-500">Dostupni termini ceo dan </span>
+															<span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span>
+														</button>
+													</dt>
+													<dd x-show="open" class="mt-2 pr-12" id="faq-7">
+														<p class="text-sm text-gray-500">U odnosu na radno vreme odabranog terapeuta</p>
+													</dd>
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+														<span class="text-base font-medium text-gray-500">Za klijente svih godina </span>
+														<!-- <span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span> -->
+														<!-- </button> -->
+													</dt>
+													<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+														<p class="text-sm text-gray-500"></p>
+													</dd> -->
+												</div>
+												<div x-data="{open: false}" class="">
+													<dt class="text-lg">
+														<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+														<span class="text-base font-medium text-gray-500">Do 2 nedelje čekanja na kontakt sa terapeutom</span>
+														<!-- <span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span> -->
+														<!-- </button> -->
+													</dt>
+													<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+														<p class="text-sm text-gray-500"></p>
+													</dd> -->
+												</div>
+											</dl>
 											<div class="mt-8">
 												<div class="rounded-lg shadow-md">
 													<a href="/kontakt/" class="block w-full rounded-lg border border-support-400 border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby"
-														>Za više informacija kliknite OVDE</a
+														>Kontaktirajte nas i zakažite svoj termin!</a
 													>
 												</div>
 											</div>
@@ -507,17 +666,103 @@
 														<span class="mr-2 text-xl font-medium tracking-tight"></span>
 														<span class="font-bold"></span>
 													</span>
-													<span class="flex justify-center font-medium text-gray-500"></span>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
-										<ul role="list" class="space-y-4">
-											<li v-for="feature in thirdFeatures" :key="feature" class="flex items-start">
-												<p class="ml-3 text-base font-medium text-gray-500">{{ feature }}</p>
-											</li>
-										</ul>
+										<dl class="space-y-6">
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-8" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Besplatne konsultacije sa izabranim terapeutom</span>
+														<span class="ml-6 h-5 flex items-center">
+															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+															</svg>
+														</span>
+													</button>
+												</dt>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-8">
+													<p class="text-sm text-gray-500">Procena usaglašenosti klijenta i terapeuta za uspešnu terapiju</p>
+												</dd>
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-9" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Neograničen broj susreta</span>
+														<span class="ml-6 h-5 flex items-center">
+															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+															</svg>
+														</span>
+													</button>
+												</dt>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-9">
+													<p class="text-sm text-gray-500">Vaše susrete možete iskoristiti u periodu od godinu dana, dinamikom koju dogovorite sa odabranim terapeutom</p>
+												</dd>
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-10" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Terapeuti sa višegodišnjim iskustvom</span>
+														<span class="ml-6 h-5 flex items-center">
+															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+															</svg>
+														</span>
+													</button>
+												</dt>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-10">
+													<p class="text-sm text-gray-500">Terapeuti koji završavaju ili su završili edukaciju i imaju višegodišnje iskustvo u radu sa klijentima</p>
+												</dd>
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-11" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Dostupni termini ceo dan</span>
+														<span class="ml-6 h-5 flex items-center">
+															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+															</svg>
+														</span>
+													</button>
+												</dt>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-11">
+													<p class="text-sm text-gray-500">U odnosu na radno vreme odabranog terapeuta</p>
+												</dd>
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+													<span class="text-base font-medium text-gray-500">Za klijente svih godina </span>
+													<!-- <span class="ml-6 h-5 flex items-center">
+				<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+				</svg>
+			</span> -->
+													<!-- </button> -->
+												</dt>
+												<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+													<p class="text-sm text-gray-500"></p>
+												</dd> -->
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+													<span class="text-base font-medium text-gray-500">Do 7 dana čekanja na kontakt sa terapeutom</span>
+													<!-- <span class="ml-6 h-5 flex items-center">
+				<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+				</svg>
+			</span> -->
+													<!-- </button> -->
+												</dt>
+												<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+													<p class="text-sm text-gray-500"></p>
+												</dd> -->
+											</div>
+										</dl>
 										<div class="mt-10">
 											<p class="text-xs text-gray-500 mb-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
 											<div class="rounded-lg shadow-md">
@@ -525,7 +770,7 @@
 													href="https://docs.google.com/forms/d/e/1FAIpQLSfmc6EbjD1kEx1RRXel5hG3sNzV6YH7o0wSJlXAsCrt3X9TdA/viewform?usp=sf_link"
 													class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-3 text-center text-base font-medium leading-6 text-white"
 													aria-describedby="tier-growth"
-													>Za više informacija kliknite OVDE</a
+													>Kontaktirajte nas i zakažite svoj termin!</a
 												>
 											</div>
 										</div>
