@@ -78,47 +78,7 @@
 			</div>
 		</div>
 
-		<div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-			<section class="mt-8 max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
-				<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-							<div class="flex-1">
-								<h3 class="text-xl font-sans font-medium text-gray-900">Ubuntu za studente</h3>
-								<p class="mt-3 text-base text-gray-500">Sastoji se iz psihološkog intervjua i testiranja. <br />Trajanje 90minuta. <br />Cena procene je 3000rsd.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-							<div class="flex-1">
-								<h3 class="text-xl font-sans font-medium text-gray-900">Ubuntu za sve</h3>
-								<p class="mt-3 text-base text-gray-500">Sastoji se iz psihološkog intervjua i testiranja. <br />Trajanje 90minuta. <br />Cena procene je 4000rsd.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-							<div class="flex-1">
-								<h3 class="text-xl font-sans font-medium text-gray-900">Ubuntu za odlučne</h3>
-								<p class="mt-3 text-base text-gray-500">Sastoji se iz kratkog upitnika i psihološkog intervjua. <br />Trajanje 30minuta. <br />BESPLATNO</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<div class="mt-12 flex justify-center lg:center">
-				<a
-					href="#"
-					@click="onClickTwo()"
-					class="text-center rounded-3xl border border-transparent px-5 py-3 bg-secondary text-base font-medium text-white shadow focus:outline-none focus:ring-2 focus:ring-indgio-500 focus:ring-offset-2 sm:px-10"
-				>
-					Kontaktirajte nas za više informacija
-				</a>
-			</div>
-		</div>
+	
 
 		<div class="relative bg-white overflow-hidden">
 			<div class="pt-16 pb-10 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-96">
@@ -328,24 +288,11 @@
 			</div>
 		</div>
 
-		<div class="bg-primary" id="cenovnik">
-			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
-
-				
-			
-				<div class="text-center">
-					<h2 class="text-3xl font-sans leading-6 text-gray-300">Cenovnik</h2>
-					<!-- <p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p> -->
-				</div>
-			</div>
-
-			<div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
-				<div class="relative z-0">
-					<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
-					<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-						
-						<!--
+		<div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
+			<div class="relative z-0">
+				<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
+				<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+					<!--
   This example requires some changes to your config:
   
   ```
@@ -359,7 +306,7 @@
   }
   ```
 -->
-						<!-- <div class="py-6">
+					<!-- <div class="py-6">
   <div class="sm:hidden">
     <label for="tabs" class="sr-only">Select a tab</label>
    
@@ -388,459 +335,19 @@
   </div>
 </div> -->
 
-<section class="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8"
-				aria-labelledby="contact-heading">
-				<h2 class="sr-only" id="contact-heading">Kontaktirajte nas</h2>
-				<div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<div class="flex-shrink-0">
-							<g-image class="h-48 w-full object-cover" src="~/assets/img/novisad.jpg"
-								alt="psihološko savetovalište novi sad" />
-						</div>
-						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-							<div class="flex-1">
-								
-									<h3 class="text-xl font-sans font-medium text-gray-900">1. korak: Kontaktirajte nas</h3>
-									 <p class="mt-3 text-base text-gray-500">Ako želite da procena za terapiju i susreti sa terapeutom budu uživo u Novom Sadu pozovite nas na broj <a href="tel:+381658286881">065 828 6881</a>
-									 </p>
-									 <p class="mt-3 text-base text-gray-500">Za online psihološku procenu i online susrete sa terapeutom možete pisati na našu email adresu <a href="mailto:psihoterapija-onlajn@ubuntucentar.com">psihoterapija-onlajn@ubuntucentar.com</a>
-									 </p>
-								
-							</div>
-						</div>
-						<div class="flex-1 bg-gray-50 p-6 flex">
-							<p class="text-base font-medium text-gray-900 italic">Nakon zakazanog termina, na Whatsapp ili Viber u pdf formatu dobijate detaljne informacije o radu
-							</p>
-						</div>
-					</div>
+					<div class="relative lg:grid lg:grid-cols-9 lg:gap-3">
+						<!-- PRVA KOLONA -->
 
-					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<div class="flex-shrink-0">
-							<g-image class="h-48 w-full object-cover" src="~/assets/img/beograd.jpg"
-								alt="psihološko savetovalište beograd" />
-						</div>
-						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-							<div class="flex-1">
-								
-									<h3 class="text-xl font-sans font-medium text-gray-900">2. korak: Procena za psihoterapiju</h3>
-									<p class="mt-3 text-base text-gray-500">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad.
-										Razgovor se obavlja u trajanju od 90min.</p>
-									<p class="mt-3 text-base text-gray-500">Uživo na adresi Anđe Ranković 6.</p>	
-									<p class="mt-3 text-base text-gray-500">Za online procenu neophodno je obezbediti adekvatne uslove za rad:
-									<span class="font-bold">stabilnu internet konekciju i izolovanu prostoriju koja će obezbediti neometanu komunikaciju i privatnost.</span></p>	
-							</div>
-						</div>
-						<div class="flex-1 bg-gray-50 p-6 flex">
-							<p class="text-base font-medium text-gray-900 italic">Cilj procene jeste odabir terapeuta koji će najbolje odgovoriti na vaše potrebe. Podaci dobijeni na osnovu procene imaju isključivo internu upotrebu.</p>
-						</div>
-					</div>
-
-					<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-						<div class="flex-shrink-0">
-							<g-image class="h-48 w-full object-cover" src="~/assets/img/onilne.jpg" alt="online psihoterapija" />
-						</div>
-						<div class="flex-1 bg-white p-6 flex flex-col justify-between">
-							<div class="flex-1">
-							
-									<h3 class="text-xl font-sans font-medium text-gray-900">3. korak: Prva seansa</h3>
-									<p class="mt-3 text-base text-gray-500">Kada odaberemo terapeuta za vas, dobićete njegov kontakt telefon kako biste
-										zakazali prvi susret.</p>
-						
-							</div>
-						</div>
-						<div class="flex-1 bg-gray-50 p-6 flex">
-							<p class="text-base font-medium text-gray-900 italic">Na kontakt telefon terapeuta, u zavisnosti od projekta, čeka se najduže 2 nedelje.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
-    <h2 class="font-headline text-2xl font-semibold sm:text-3xl text-center">Revamp Your Website in Three Steps</h2>
-
-    <div class="grid sm:grid-cols-3 gap-16 sm:gap-8 mt-16 sm:mt-24">
-        <div class="text-left">
-            <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
-                <div
-                    class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.5"
-                        stroke="currentColor" class="text-gray-500 w-1/2 h-1/2" alt="Import icon">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z">
-                        </path>
-                    </svg>
-                </div>
-                <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-blue-500 rounded-full"></div>
-            </div>
-            <h3 class="font-headline text-xl sm:text-2xl mt-6 sm:mt-10 text-center">Kontaktirajte nas</h3>
-            <p class="leading-relaxed mt-4">Ako želite da procena za terapiju i susreti sa terapeutom budu uživo u Novom Sadu pozovite nas na broj 065 828 6881</p>
-						<p class="leading-relaxed mt-4">Za online psihološku procenu i online susrete sa terapeutom možete pisati na našu email adresu psihoterapija-onlajn@ubuntucentar.com</p>
-						<p class="leading-relaxed mt-4 italic">Nakon zakazanog termina, na Whatsapp ili Viber u pdf formatu dobijate detaljne informacije o radu</p>
-        </div>
-        <div class="text-left">
-            <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
-                <div
-                    class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.5"
-                        stroke="currentColor" class="text-gray-500 w-1/2 h-1/2" alt="Translate icon">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
-                    </svg>
-                </div>
-                <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-blue-500 rounded-full"></div>
-            </div>
-            <h3 class="font-headline text-xl sm:text-2xl mt-6 sm:mt-10 text-center">Procena za psihoterapiju</h3>
-            <p class="leading-relaxed mt-4">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad. Razgovor se obavlja u trajanju od 90min.</p>
-						<p class="leading-relaxed mt-4">Uživo na adresi Anđe Ranković 6.</p>
-						<p class="leading-relaxed mt-4">Za online procenu neophodno je obezbediti adekvatne uslove za rad: stabilnu internet konekciju i izolovanu prostoriju koja će obezbediti neometanu komunikaciju i privatnost.</p>
-						<p class="leading-relaxed mt-4">Cilj procene jeste odabir terapeuta koji će najbolje odgovoriti na vaše potrebe. Podaci dobijeni na osnovu procene imaju isključivo internu upotrebu</p>
-        </div>
-        <div class="text-left">
-            <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
-                <div
-                    class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width=".5"
-                        stroke="currentColor" class="text-gray-500 w-1/2 h-1/2" alt="Export icon">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z">
-                        </path>
-                    </svg>
-                </div>
-                <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-blue-500 rounded-full"></div>
-            </div>
-            <h3 class="font-headline text-xl sm:text-2xl mt-6 sm:mt-10 text-center">Prva seansa</h3>
-            <p class="leading-relaxed mt-4">Kada odaberemo terapeuta za vas, dobićete njegov kontakt telefon kako biste
-							zakazali prvi susret.</p>
-						<p class="leading-relaxed mt-4">Na kontakt telefon terapeuta, u zavisnosti od projekta, čeka
-							se najduže 2 nedelje.</p>
-        </div>
-    </div>
-</div>
-
-			<div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
-				<div class="relative z-0">
-					<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
-					<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-						<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-						<!-- <div class="py-6">
-  <div class="sm:hidden">
-    <label for="tabs" class="sr-only">Select a tab</label>
-   
-    <select id="tabs" name="tabs" class="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
-      <option selected>Novi Sad</option>
-      <option>Beograd</option>
-      <option>Online</option>
-    </select>
-  </div>
-  <div class="hidden sm:block">
-    <nav class="isolate flex divide-x divide-gray-200 rounded-lg shadow" aria-label="Tabs">
-  
-      <a href="#" class="text-gray-900 rounded-l-lg group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10" aria-current="page">
-        <span>Novi Sad</span>
-        <span aria-hidden="true" class="bg-indigo-500 absolute inset-x-0 bottom-0 h-0.5"></span>
-      </a>			
-      <a href="#" class="text-gray-500 hover:text-gray-700 group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10">
-        <span>Beograd</span>
-        <span aria-hidden="true" class="bg-transparent absolute inset-x-0 bottom-0 h-0.5"></span>
-      </a>
-      <a href="#" class="text-gray-500 hover:text-gray-700 group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10">
-        <span>Online</span>
-        <span aria-hidden="true" class="bg-transparent absolute inset-x-0 bottom-0 h-0.5"></span>
-      </a>
-    </nav>
-  </div>
-</div> -->
-
-						<div class="relative lg:grid lg:grid-cols-9 lg:gap-3">
-							<!-- PRVA KOLONA -->
-
-							<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
-								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg border-2">
-									<div class="flex flex-1 flex-col">
-										<div class="bg-white px-6 py-10">
-											<div>
-												<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Ubuntu za studente</h3>
-												<div class="mt-4 block lg:flex items-center justify-center">
-													<span class="flex text-center items-end justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
-														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-														<span class="font-bold">1.000</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
-													</span>
-												</div>
-
-												<div class="mt-5">
-													<p class="text-center font-medium text-gray-900"></p>
-													<div class="block lg:flex items-center justify-center">
-														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
-															<span class="mr-2 text-xl font-medium tracking-tight"></span>
-															<span class="font-bold"></span>
-														</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
-											<dl class="space-y-6">
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500"> Procena za psihoterapiju</span>
-															<span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span>
-														</button>
-													</dt>
-													<dd x-show="open" class="mt-2 pr-12" id="faq-0">
-														<p class="text-sm text-gray-500">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad. Za procenu, neophodno je izdvojiti <span class="font-bold">3.000 RSD</span></p>
-													</dd>
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-1" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500"> 10 susreta</span>
-															<span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span>
-														</button>
-													</dt>
-													<dd x-show="open" class="mt-2 pr-12" id="faq-1">
-														<p class="text-sm text-gray-500">Jednom nedeljno u periodu od 3 meseca</p>
-													</dd>
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-2" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500">Terapeuti početnici</span>
-															<span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span>
-														</button>
-													</dt>
-													<dd x-show="open" class="mt-2 pr-12" id="faq-2">
-														<p class="text-sm text-gray-500">Terapeuti u procesu edukacije koji iskustvo stiču kroz rad na projektu</p>
-													</dd>
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-3" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500">Ograničeni termini u toku dana </span>
-															<span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span>
-														</button>
-													</dt>
-													<dd x-show="open" class="mt-2 pr-12" id="faq-3">
-														<p class="text-sm text-gray-500">Susrete je moguće zakazati radnim danima od 9 do 14h i vikendima</p>
-													</dd>
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
-														<span class="text-base font-medium text-gray-500">Klijenti uzrasta do 25 godina </span>
-														<!-- <span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span> -->
-														<!-- </button> -->
-													</dt>
-													<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
-														<p class="text-sm text-gray-500"></p>
-													</dd> -->
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
-														<span class="text-base font-medium text-gray-500">Do 2 nedelje čekanja na kontakt sa terapeutom</span>
-														<!-- <span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span> -->
-														<!-- </button> -->
-													</dt>
-													<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
-														<p class="text-sm text-gray-500"></p>
-													</dd> -->
-												</div>
-											</dl>
-											<div class="mt-8">
-												<div class="rounded-lg shadow-md">
-													<a href="/kontakt/" class="block w-full rounded-lg border border-support-400 border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby"
-														>Kontaktirajte nas i zakažite svoj termin!</a
-													>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- DRUGA KOLONA -->
-
-							<div class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-7 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:mt-0 lg:max-w-none">
-								<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg border-2">
-									<div class="flex flex-1 flex-col">
-										<div class="bg-white px-6 py-10">
-											<div>
-												<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Ubuntu za sve</h3>
-												<div class="mt-4 block lg:flex items-center justify-center">
-													<span class="flex text-center items-end justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
-														<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-														<span class="font-bold">2.000</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
-													</span>
-												</div>
-
-												<div class="mt-5">
-													<p class="text-center font-medium text-gray-900"></p>
-													<div class="block lg:flex items-center justify-center">
-														<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
-															<span class="mr-2 text-xl font-medium tracking-tight"></span>
-															<span class="font-bold"></span>
-														</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
-											<dl class="space-y-6">
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-4" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500">Procena za psihoterapiju</span>
-															<span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span>
-														</button>
-													</dt>
-													<dd x-show="open" class="mt-2 pr-12" id="faq-4">
-														<p class="text-sm text-gray-500">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad. Za procenu, neophodno je izdvojiti <span class="font-bold">4.000 RSD</span></p>
-													</dd>
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-5" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500"> 12 susreta</span>
-															<span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span>
-														</button>
-													</dt>
-													<dd x-show="open" class="mt-2 pr-12" id="faq-5">
-														<p class="text-sm text-gray-500">Jednom nedeljno u periodu od 4 meseca</p>
-													</dd>
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-6" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500">Terapeuti sa iskustvom</span>
-															<span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span>
-														</button>
-													</dt>
-													<dd x-show="open" class="mt-2 pr-12" id="faq-6">
-														<p class="text-sm text-gray-500">Terapeuti u procesu edukacije koji imaju prethodnog iskustva u radu sa klijentima</p>
-													</dd>
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-7" aria-expanded="false">
-															<span class="text-base font-medium text-gray-500">Dostupni termini ceo dan </span>
-															<span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span>
-														</button>
-													</dt>
-													<dd x-show="open" class="mt-2 pr-12" id="faq-7">
-														<p class="text-sm text-gray-500">U odnosu na radno vreme odabranog terapeuta</p>
-													</dd>
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
-														<span class="text-base font-medium text-gray-500">Za klijente svih godina </span>
-														<!-- <span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span> -->
-														<!-- </button> -->
-													</dt>
-													<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
-														<p class="text-sm text-gray-500"></p>
-													</dd> -->
-												</div>
-												<div x-data="{open: false}" class="">
-													<dt class="text-lg">
-														<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
-														<span class="text-base font-medium text-gray-500">Do 2 nedelje čekanja na kontakt sa terapeutom</span>
-														<!-- <span class="ml-6 h-5 flex items-center">
-																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-																</svg>
-															</span> -->
-														<!-- </button> -->
-													</dt>
-													<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
-														<p class="text-sm text-gray-500"></p>
-													</dd> -->
-												</div>
-											</dl>
-											<div class="mt-8">
-												<div class="rounded-lg shadow-md">
-													<a href="/kontakt/" class="block w-full rounded-lg border border-support-400 border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby"
-														>Kontaktirajte nas i zakažite svoj termin!</a
-													>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- TRECA KOLONA -->
-
-							<div class="mx-auto mt-10 max-w-lg lg:col-start-7 lg:col-end-10 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:mt-0 lg:max-w-none">
-								<div class="relative z-10 rounded-lg shadow-xl border-2">
+						<div class="mx-auto max-w-md lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
+							<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg border-2">
+								<div class="flex flex-1 flex-col">
 									<div class="bg-white px-6 py-10">
 										<div>
-											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Ubuntu za odlučne</h3>
+											<h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Ubuntu za studente</h3>
 											<div class="mt-4 block lg:flex items-center justify-center">
-												<span class="flex text-center items-end justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
+												<span class="flex text-center items-end justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
 													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
-													<span class="font-bold">3.500</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
+													<span class="font-bold">1.000</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
 												</span>
 											</div>
 
@@ -855,12 +362,12 @@
 											</div>
 										</div>
 									</div>
-									<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
+									<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
 										<dl class="space-y-6">
 											<div x-data="{open: false}" class="">
 												<dt class="text-lg">
-													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-8" aria-expanded="false">
-														<span class="text-base font-medium text-gray-500">Besplatne konsultacije sa izabranim terapeutom</span>
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500"> Procena za psihoterapiju</span>
 														<span class="ml-6 h-5 flex items-center">
 															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -868,14 +375,14 @@
 														</span>
 													</button>
 												</dt>
-												<dd x-show="open" class="mt-2 pr-12" id="faq-8">
-													<p class="text-sm text-gray-500">Procena usaglašenosti klijenta i terapeuta za uspešnu terapiju</p>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-0">
+													<p class="text-sm text-gray-500">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad. Za procenu, neophodno je izdvojiti <span class="font-bold">3.000 RSD</span></p>
 												</dd>
 											</div>
 											<div x-data="{open: false}" class="">
 												<dt class="text-lg">
-													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-9" aria-expanded="false">
-														<span class="text-base font-medium text-gray-500">Neograničen broj susreta</span>
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-1" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500"> 10 susreta</span>
 														<span class="ml-6 h-5 flex items-center">
 															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -883,14 +390,14 @@
 														</span>
 													</button>
 												</dt>
-												<dd x-show="open" class="mt-2 pr-12" id="faq-9">
-													<p class="text-sm text-gray-500">Vaše susrete možete iskoristiti u periodu od godinu dana, dinamikom koju dogovorite sa odabranim terapeutom</p>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-1">
+													<p class="text-sm text-gray-500">Jednom nedeljno u periodu od 3 meseca</p>
 												</dd>
 											</div>
 											<div x-data="{open: false}" class="">
 												<dt class="text-lg">
-													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-10" aria-expanded="false">
-														<span class="text-base font-medium text-gray-500">Terapeuti sa višegodišnjim iskustvom</span>
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-2" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Terapeuti početnici</span>
 														<span class="ml-6 h-5 flex items-center">
 															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -898,14 +405,14 @@
 														</span>
 													</button>
 												</dt>
-												<dd x-show="open" class="mt-2 pr-12" id="faq-10">
-													<p class="text-sm text-gray-500">Terapeuti koji završavaju ili su završili edukaciju i imaju višegodišnje iskustvo u radu sa klijentima</p>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-2">
+													<p class="text-sm text-gray-500">Terapeuti u procesu edukacije koji iskustvo stiču kroz rad na projektu</p>
 												</dd>
 											</div>
 											<div x-data="{open: false}" class="">
 												<dt class="text-lg">
-													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-11" aria-expanded="false">
-														<span class="text-base font-medium text-gray-500">Dostupni termini ceo dan</span>
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-3" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Ograničeni termini u toku dana </span>
 														<span class="ml-6 h-5 flex items-center">
 															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -913,48 +420,44 @@
 														</span>
 													</button>
 												</dt>
-												<dd x-show="open" class="mt-2 pr-12" id="faq-11">
-													<p class="text-sm text-gray-500">U odnosu na radno vreme odabranog terapeuta</p>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-3">
+													<p class="text-sm text-gray-500">Susrete je moguće zakazati radnim danima od 9 do 14h i vikendima</p>
 												</dd>
 											</div>
 											<div x-data="{open: false}" class="">
 												<dt class="text-lg">
 													<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
-													<span class="text-base font-medium text-gray-500">Za klijente svih godina </span>
+													<span class="text-base font-medium text-gray-500">Klijenti uzrasta do 25 godina </span>
 													<!-- <span class="ml-6 h-5 flex items-center">
-				<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-				</svg>
-			</span> -->
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span> -->
 													<!-- </button> -->
 												</dt>
 												<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
-													<p class="text-sm text-gray-500"></p>
-												</dd> -->
+														<p class="text-sm text-gray-500"></p>
+													</dd> -->
 											</div>
 											<div x-data="{open: false}" class="">
 												<dt class="text-lg">
 													<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
-													<span class="text-base font-medium text-gray-500">Do 7 dana čekanja na kontakt sa terapeutom</span>
+													<span class="text-base font-medium text-gray-500">Do 2 nedelje čekanja na kontakt sa terapeutom</span>
 													<!-- <span class="ml-6 h-5 flex items-center">
-				<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-				</svg>
-			</span> -->
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span> -->
 													<!-- </button> -->
 												</dt>
 												<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
-													<p class="text-sm text-gray-500"></p>
-												</dd> -->
+														<p class="text-sm text-gray-500"></p>
+													</dd> -->
 											</div>
 										</dl>
-										<div class="mt-10">
-											<p class="text-xs text-gray-500 mb-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
+										<div class="mt-8">
 											<div class="rounded-lg shadow-md">
-												<a
-													href="https://docs.google.com/forms/d/e/1FAIpQLSfmc6EbjD1kEx1RRXel5hG3sNzV6YH7o0wSJlXAsCrt3X9TdA/viewform?usp=sf_link"
-													class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-3 text-center text-base font-medium leading-6 text-white"
-													aria-describedby="tier-growth"
+												<a href="/kontakt/" class="block w-full rounded-lg border border-support-400 border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby"
 													>Kontaktirajte nas i zakažite svoj termin!</a
 												>
 											</div>
@@ -963,10 +466,336 @@
 								</div>
 							</div>
 						</div>
+
+						<!-- DRUGA KOLONA -->
+
+						<div class="mx-auto mt-10 max-w-lg lg:col-start-4 lg:col-end-7 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:mt-0 lg:max-w-none">
+							<div class="flex h-full flex-col overflow-hidden rounded-lg shadow-lg border-2">
+								<div class="flex flex-1 flex-col">
+									<div class="bg-white px-6 py-10">
+										<div>
+											<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Ubuntu za sve</h3>
+											<div class="mt-4 block lg:flex items-center justify-center">
+												<span class="flex text-center items-end justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900">
+													<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+													<span class="font-bold">2.000</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
+												</span>
+											</div>
+
+											<div class="mt-5">
+												<p class="text-center font-medium text-gray-900"></p>
+												<div class="block lg:flex items-center justify-center">
+													<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+														<span class="mr-2 text-xl font-medium tracking-tight"></span>
+														<span class="font-bold"></span>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
+										<dl class="space-y-6">
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-4" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Procena za psihoterapiju</span>
+														<span class="ml-6 h-5 flex items-center">
+															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+															</svg>
+														</span>
+													</button>
+												</dt>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-4">
+													<p class="text-sm text-gray-500">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad. Za procenu, neophodno je izdvojiti <span class="font-bold">4.000 RSD</span></p>
+												</dd>
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-5" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500"> 12 susreta</span>
+														<span class="ml-6 h-5 flex items-center">
+															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+															</svg>
+														</span>
+													</button>
+												</dt>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-5">
+													<p class="text-sm text-gray-500">Jednom nedeljno u periodu od 4 meseca</p>
+												</dd>
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-6" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Terapeuti sa iskustvom</span>
+														<span class="ml-6 h-5 flex items-center">
+															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+															</svg>
+														</span>
+													</button>
+												</dt>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-6">
+													<p class="text-sm text-gray-500">Terapeuti u procesu edukacije koji imaju prethodnog iskustva u radu sa klijentima</p>
+												</dd>
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-7" aria-expanded="false">
+														<span class="text-base font-medium text-gray-500">Dostupni termini ceo dan </span>
+														<span class="ml-6 h-5 flex items-center">
+															<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+															</svg>
+														</span>
+													</button>
+												</dt>
+												<dd x-show="open" class="mt-2 pr-12" id="faq-7">
+													<p class="text-sm text-gray-500">U odnosu na radno vreme odabranog terapeuta</p>
+												</dd>
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+													<span class="text-base font-medium text-gray-500">Za klijente svih godina </span>
+													<!-- <span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span> -->
+													<!-- </button> -->
+												</dt>
+												<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+														<p class="text-sm text-gray-500"></p>
+													</dd> -->
+											</div>
+											<div x-data="{open: false}" class="">
+												<dt class="text-lg">
+													<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+													<span class="text-base font-medium text-gray-500">Do 2 nedelje čekanja na kontakt sa terapeutom</span>
+													<!-- <span class="ml-6 h-5 flex items-center">
+																<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+																</svg>
+															</span> -->
+													<!-- </button> -->
+												</dt>
+												<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+														<p class="text-sm text-gray-500"></p>
+													</dd> -->
+											</div>
+										</dl>
+										<div class="mt-8">
+											<div class="rounded-lg shadow-md">
+												<a href="/kontakt/" class="block w-full rounded-lg border border-support-400 border-transparent bg-white px-6 py-3 text-center text-base font-medium text-secondary hover:bg-gray-50" aria-describedby="tier-hobby"
+													>Kontaktirajte nas i zakažite svoj termin!</a
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- TRECA KOLONA -->
+
+						<div class="mx-auto mt-10 max-w-lg lg:col-start-7 lg:col-end-10 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:mt-0 lg:max-w-none">
+							<div class="relative z-10 rounded-lg shadow-xl border-2">
+								<div class="bg-white px-6 py-10">
+									<div>
+										<h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Ubuntu za odlučne</h3>
+										<div class="mt-4 block lg:flex items-center justify-center">
+											<span class="flex text-center items-end justify-center lg:justify-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
+												<span class="mt-2 mr-2 text-4xl font-medium tracking-tight">RSD</span>
+												<span class="font-bold">3.500</span><span class="text-xl flex justify-center font-medium text-gray-500">/ seansa</span>
+											</span>
+										</div>
+
+										<div class="mt-5">
+											<p class="text-center font-medium text-gray-900"></p>
+											<div class="block lg:flex items-center justify-center">
+												<span class="flex text-center items-start justify-center lg:justify-start px-3 text-xl tracking-tight text-gray-900">
+													<span class="mr-2 text-xl font-medium tracking-tight"></span>
+													<span class="font-bold"></span>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="rounded-b-lg border-t-2 border-gray-100 bg-gray-50 px-6 pt-10 pb-8 sm:px-10 sm:py-10">
+									<dl class="space-y-6">
+										<div x-data="{open: false}" class="">
+											<dt class="text-lg">
+												<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-8" aria-expanded="false">
+													<span class="text-base font-medium text-gray-500">Besplatne konsultacije sa izabranim terapeutom</span>
+													<span class="ml-6 h-5 flex items-center">
+														<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+															<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+														</svg>
+													</span>
+												</button>
+											</dt>
+											<dd x-show="open" class="mt-2 pr-12" id="faq-8">
+												<p class="text-sm text-gray-500">Procena usaglašenosti klijenta i terapeuta za uspešnu terapiju</p>
+											</dd>
+										</div>
+										<div x-data="{open: false}" class="">
+											<dt class="text-lg">
+												<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-9" aria-expanded="false">
+													<span class="text-base font-medium text-gray-500">Neograničen broj susreta</span>
+													<span class="ml-6 h-5 flex items-center">
+														<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+															<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+														</svg>
+													</span>
+												</button>
+											</dt>
+											<dd x-show="open" class="mt-2 pr-12" id="faq-9">
+												<p class="text-sm text-gray-500">Vaše susrete možete iskoristiti u periodu od godinu dana, dinamikom koju dogovorite sa odabranim terapeutom</p>
+											</dd>
+										</div>
+										<div x-data="{open: false}" class="">
+											<dt class="text-lg">
+												<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-10" aria-expanded="false">
+													<span class="text-base font-medium text-gray-500">Terapeuti sa višegodišnjim iskustvom</span>
+													<span class="ml-6 h-5 flex items-center">
+														<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+															<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+														</svg>
+													</span>
+												</button>
+											</dt>
+											<dd x-show="open" class="mt-2 pr-12" id="faq-10">
+												<p class="text-sm text-gray-500">Terapeuti koji završavaju ili su završili edukaciju i imaju višegodišnje iskustvo u radu sa klijentima</p>
+											</dd>
+										</div>
+										<div x-data="{open: false}" class="">
+											<dt class="text-lg">
+												<button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-11" aria-expanded="false">
+													<span class="text-base font-medium text-gray-500">Dostupni termini ceo dan</span>
+													<span class="ml-6 h-5 flex items-center">
+														<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+															<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+														</svg>
+													</span>
+												</button>
+											</dt>
+											<dd x-show="open" class="mt-2 pr-12" id="faq-11">
+												<p class="text-sm text-gray-500">U odnosu na radno vreme odabranog terapeuta</p>
+											</dd>
+										</div>
+										<div x-data="{open: false}" class="">
+											<dt class="text-lg">
+												<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+												<span class="text-base font-medium text-gray-500">Za klijente svih godina </span>
+												<!-- <span class="ml-6 h-5 flex items-center">
+				<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+				</svg>
+			</span> -->
+												<!-- </button> -->
+											</dt>
+											<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+													<p class="text-sm text-gray-500"></p>
+												</dd> -->
+										</div>
+										<div x-data="{open: false}" class="">
+											<dt class="text-lg">
+												<!-- <button x-on:click="open = !open" type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"> -->
+												<span class="text-base font-medium text-gray-500">Do 7 dana čekanja na kontakt sa terapeutom</span>
+												<!-- <span class="ml-6 h-5 flex items-center">
+				<svg x-bind:class="{ 'rotate-180': open }" class="rotate-0 h-5 w-5 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+				</svg>
+			</span> -->
+												<!-- </button> -->
+											</dt>
+											<!-- <dd x-show="open" class="mt-2 pr-12" id="faq-0">
+													<p class="text-sm text-gray-500"></p>
+												</dd> -->
+										</div>
+									</dl>
+									<div class="mt-10">
+										<p class="text-xs text-gray-500 mb-4 text-center">Klijent popunjava upitnik i koordinator sa njim obavlja kraći razgovor</p>
+										<div class="rounded-lg shadow-md">
+											<a
+												href="https://docs.google.com/forms/d/e/1FAIpQLSfmc6EbjD1kEx1RRXel5hG3sNzV6YH7o0wSJlXAsCrt3X9TdA/viewform?usp=sf_link"
+												class="block w-full rounded-lg border border-transparent bg-secondary px-6 py-3 text-center text-base font-medium leading-6 text-white"
+												aria-describedby="tier-growth"
+												>Kontaktirajte nas i zakažite svoj termin!</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		
+		</div>
+
+		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
+			<h2 class="text-3xl tracking-tight text-primary sm:text-4xl text-center">Započnite saradnju sa nama u 3 koraka</h2>
+
+			<div class="grid sm:grid-cols-3 gap-16 sm:gap-8 mt-16 sm:mt-24">
+				<div class="relative z-10 rounded-lg shadow-xl border-2 text-left px-4 py-4">
+					<!-- <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                <div
+                    class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.5"
+                        stroke="currentColor" class="text-gray-500 w-1/2 h-1/2" alt="Import icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-blue-500 rounded-full"></div>
+            </div> -->
+					<h3 class="font-headline text-xl sm:text-2xl text-center">1. Kontaktirajte nas</h3>
+					<p class="leading-relaxed mt-4">Ako želite da procena za terapiju i susreti sa terapeutom budu <span class="font-bold">uživo</span> u Novom Sadu pozovite nas na broj 065 828 6881</p>
+					<p class="leading-relaxed mt-4">Za <span class="font-bold">online</span> psihološku procenu i online susrete sa terapeutom možete pisati na našu email adresu psihoterapija-onlajn@ubuntucentar.com</p>
+					<p class="leading-relaxed mt-4 italic">Nakon zakazanog termina, na Whatsapp ili Viber u pdf formatu dobijate detaljne informacije o radu</p>
+				</div>
+				<div class="relative z-10 rounded-lg shadow-xl border-2 text-left px-4 py-4">
+					<!-- <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                <div
+                    class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.5"
+                        stroke="currentColor" class="text-gray-500 w-1/2 h-1/2" alt="Translate icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                    </svg>
+                </div>
+                <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-blue-500 rounded-full"></div>
+            </div> -->
+					<h3 class="font-headline text-xl sm:text-2xl text-center">2. Procena za psihoterapiju</h3>
+					<p class="leading-relaxed mt-4">Procena se sastoji iz procene ličnosti i motivacije za terapijski rad. Razgovor se obavlja u trajanju od 90min.</p>
+					<p class="leading-relaxed mt-4"><span class="font-bold">Uživo</span> na adresi Anđe Ranković 6.</p>
+					<p class="leading-relaxed mt-4">
+						Za <span class="font-bold">online</span> procenu neophodno je obezbediti adekvatne uslove za rad: <span class="font-bold">stabilnu internet konekciju i izolovanu prostoriju</span> koja će obezbediti neometanu komunikaciju i
+						privatnost.
+					</p>
+					<p class="leading-relaxed mt-4">Cilj procene jeste odabir terapeuta koji će najbolje odgovoriti na vaše potrebe. Podaci dobijeni na osnovu procene imaju isključivo internu upotrebu</p>
+				</div>
+				<div class="relative z-10 rounded-lg shadow-xl border-2 text-left px-4 py-4">
+					<!-- <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                <div
+                    class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width=".5"
+                        stroke="currentColor" class="text-gray-500 w-1/2 h-1/2" alt="Export icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-blue-500 rounded-full"></div>
+            </div> -->
+					<h3 class="font-headline text-xl sm:text-2xl text-center">3. Prva seansa</h3>
+					<p class="leading-relaxed mt-4">Kada odaberemo terapeuta za vas, dobićete njegov kontakt telefon kako biste zakazali prvi susret.</p>
+					<p class="leading-relaxed mt-4">Na kontakt telefon terapeuta, u zavisnosti od projekta, čeka se najduže 2 nedelje.</p>
+				</div>
+			</div>
+		</div>
 
 		<div class="bg-white py-16 lg:py-24">
 			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
