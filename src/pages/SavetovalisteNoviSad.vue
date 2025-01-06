@@ -761,7 +761,7 @@
                 <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-blue-500 rounded-full"></div>
             </div> -->
 					<h3 class="font-headline text-xl sm:text-2xl text-center">1. Kontaktirajte nas</h3>
-					<p class="leading-relaxed mt-4">Ako želite da procena za terapiju i susreti sa terapeutom budu <span class="font-bold">uživo</span> u Novom Sadu pozovite nas na broj <a href="+381658286881">065 828 6881</a></p>
+					<p class="leading-relaxed mt-4">Ako želite da procena za terapiju i susreti sa terapeutom budu <span class="font-bold">uživo</span> u Novom Sadu pozovite nas na broj <a href="tel:+381658286881">065 828 6881</a></p>
 					<p class="leading-relaxed mt-4">Za <span class="font-bold">online</span> psihološku procenu i online susrete sa terapeutom možete pisati na našu email adresu <a href="mailto:psihoterapija-onlajn@ubuntucentar.com">psihoterapija-onlajn@ubuntucentar.com</a></p>
 					<p class="leading-relaxed mt-4 italic">Nakon zakazanog termina, na Whatsapp ili Viber u pdf formatu dobijate detaljne informacije o radu</p>
 				</div>
