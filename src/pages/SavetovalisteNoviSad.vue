@@ -288,6 +288,14 @@
 			</div>
 		</div>
 
+		<div class="bg-primary" id="cenovnik">
+			<div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
+				<div class="text-center">
+					<h2 class="text-3xl font-sans leading-6 text-gray-300">Cenovnik</h2>
+					<!-- <p class="mt-2 text-3xl font-serif tracking-tight text-white sm:text-4xl lg:text-5xl">Odaberi paket koji ti odgovara</p> -->
+				</div>
+			</div>
+
 		<div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
 			<div class="relative z-0">
 				<div class="absolute inset-0 h-5/6 bg-primary lg:h-2/3" />
@@ -733,6 +741,7 @@
 				</div>
 			</div>
 		</div>
+		</div>
 
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
 			<h2 class="text-3xl tracking-tight text-primary sm:text-4xl text-center">Započnite saradnju sa nama u 3 koraka</h2>
@@ -752,8 +761,8 @@
                 <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-blue-500 rounded-full"></div>
             </div> -->
 					<h3 class="font-headline text-xl sm:text-2xl text-center">1. Kontaktirajte nas</h3>
-					<p class="leading-relaxed mt-4">Ako želite da procena za terapiju i susreti sa terapeutom budu <span class="font-bold">uživo</span> u Novom Sadu pozovite nas na broj 065 828 6881</p>
-					<p class="leading-relaxed mt-4">Za <span class="font-bold">online</span> psihološku procenu i online susrete sa terapeutom možete pisati na našu email adresu psihoterapija-onlajn@ubuntucentar.com</p>
+					<p class="leading-relaxed mt-4">Ako želite da procena za terapiju i susreti sa terapeutom budu <span class="font-bold">uživo</span> u Novom Sadu pozovite nas na broj <a href="+381658286881">065 828 6881</a></p>
+					<p class="leading-relaxed mt-4">Za <span class="font-bold">online</span> psihološku procenu i online susrete sa terapeutom možete pisati na našu email adresu <a href="mailto:psihoterapija-onlajn@ubuntucentar.com">psihoterapija-onlajn@ubuntucentar.com</a></p>
 					<p class="leading-relaxed mt-4 italic">Nakon zakazanog termina, na Whatsapp ili Viber u pdf formatu dobijate detaljne informacije o radu</p>
 				</div>
 				<div class="relative z-10 rounded-lg shadow-xl border-2 text-left px-4 py-4">
